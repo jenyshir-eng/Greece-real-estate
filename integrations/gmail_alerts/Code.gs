@@ -28,6 +28,8 @@ const PORTALS = {
 };
 // links that are listings (not logos, settings or unsubscribe links)
 const LISTING_LINK = /(spitogatos\.gr\/(aggelia|property)|spiti24\.gr\/\d|tospitimou\.gr\/.*\d{5,}|plot\.gr\/\d|car\.gr\/.*\d{6,}|indomio\.gr\/aggelies\/\d|xe\.gr\/property\/d\/)/i;
+// links that are never listings; not worth a lookup
+const SKIP_LINK = /unsubscribe|apenergopoi|settings|preferences|privacy|terms|facebook|instagram|twitter|youtube|linkedin|apple\.com|google\.com|\.(png|jpe?g|gif)(\?|$)/i;
 const QUERY = 'newer_than:4d (from:spitogatos OR from:spiti24 OR from:tospitimou OR from:plot.gr OR from:car.gr OR from:indomio OR from:xe.gr)';
 const SHEET_NAME = 'alerts';
 const PROP_SHEET_ID = 'SPITI_RADAR_SHEET_ID';
@@ -66,15 +68,25 @@ function collectAlerts() {
       const body = msg.getBody();
       const urls = new Set();
       const re = /<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi;
-      let m;
+      let m, lookups = 0;
       while ((m = re.exec(body)) !== null) {
-        const url = resolveRedirect(m[1].replace(/&amp;/g, '&'));
-        if (!LISTING_LINK.test(url) || urls.has(url)) continue;
+        let url = resolveRedirect(m[1].replace(/&amp;/g, '&'));
+        // tracking links (click.xe.gr/..., sendgrid, etc.): ask the tracker where it points,
+        // without opening the listing page itself
+        if (!LISTING_LINK.test(url) && /^https?:/i.test(url) && !SKIP_LINK.test(url) && lookups < 40) {
+          lookups++;
+          url = followTracker(url);
+        }
+        if (!LISTING_LINK.test(url)) continue;
+        url = url.replace(/[?&]utm_[^#]*$/, '');
+        if (urls.has(url)) continue;
         urls.add(url);
         const text = strip(m[2]).slice(0, 200);
         const at = m.index;
-        const context = strip(body.slice(Math.max(0, at - 1500), at + 1500)).slice(0, 600);
-        rows.push([mid, msg.getDate(), PORTALS[portal], msg.getSubject(), url, text, context]);
+        // text before and after the link; the card of the listing is in one of them
+        const before = strip(body.slice(Math.max(0, at - 2500), at)).slice(-700);
+        const after = strip(body.slice(at, at + 3000)).slice(0, 700);
+        rows.push([mid, msg.getDate(), PORTALS[portal], msg.getSubject(), url, text, before + ' ⟦LINK⟧ ' + after]);
       }
       if (!urls.size) {
         // keep a marker row so the email is not re-read; useful to see unknown formats
@@ -87,7 +99,7 @@ function collectAlerts() {
 }
 
 function strip(html) {
-  return html.replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ')
+  return html.replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/^[^<]*>/, ' ').replace(/<[^>]*$/, ' ').replace(/<[^>]+>/g, ' ')
              .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 }
 
@@ -96,6 +108,24 @@ function resolveRedirect(url) {
   const m = url.match(/[?&](?:url|u|redirect|target|link)=([^&]+)/i);
   if (m) {
     try { return decodeURIComponent(m[1]); } catch (e) { /* keep original */ }
+  }
+  return url;
+}
+
+// one step at a time, only reading the redirect target (Location header), up to 4 hops
+function followTracker(url) {
+  for (let i = 0; i < 4; i++) {
+    if (LISTING_LINK.test(url)) return url;
+    let resp;
+    try {
+      resp = UrlFetchApp.fetch(url, {followRedirects: false, muteHttpExceptions: true});
+    } catch (e) {
+      return url;
+    }
+    const code = resp.getResponseCode();
+    const loc = resp.getHeaders()['Location'] || resp.getHeaders()['location'];
+    if (code < 300 || code >= 400 || !loc) return url;
+    url = resolveRedirect(loc);
   }
   return url;
 }
