@@ -1,0 +1,14 @@
+domain,name,kind,segment,notes
+eauction.gr,eAuction (notaries),auction_platform,auction,Official e-auctions; bidders need AFM + TAXISNET
+eauctions.gsis.gr,AADE e-auctions,auction_platform,auction,Tax authority auctions
+iauction.gr,iAuction,auction_platform,auction,marketplace.iauction.gr
+inauction.gr,InAuction,auction_platform,auction,Aggregates auctions across Greece
+landea.gr,Landea,auction_platform,auction,Auction search
+eauction24.gr,eAuction24,auction_platform,auction,Auction listings
+theprosperty.com,Prosperty,auction_platform,auction,Online Greek property auctions
+savills.gr,Savills e-auctions,auction_platform,auction,E-auction service
+altamiraproperties.gr,Altamira Properties (doValue),servicer,servicer_reo;auction,marketplace.altamiraproperties.gr; links to e-auction page per property
+cepal.gr,Cepal,servicer,servicer_reo;auction,Offices in Athens and Thessaloniki
+realestate.intrum.gr,Intrum Hellas REO,servicer,servicer_reo;auction,Also intrum.gr/el/reo/properties and marketplace.intrum.gr
+qquant.gr,Quant (with Qualco Real Estate),servicer,servicer_reo;auction,Independent NPL servicer
+iown.gr,iOwn,servicer,servicer_reo;auction,Has e-auctions section
