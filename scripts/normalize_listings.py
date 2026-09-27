@@ -13,7 +13,9 @@ import unicodedata
 from collections import Counter
 
 IN = "data/listings/listings_thessaloniki.csv"
-IN_PORTALS = ["data/listings/listings_xe.csv"]  # open portals collected by their own scripts
+IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by their own scripts
+              "data/listings/listings_alerts.csv"]  # portal alert emails (scripts/ingest_portal_alerts.py)
+PORTALS = ("xe.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr")
 OUT = "data/listings/listings_normalized.csv"
 HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
 
@@ -191,7 +193,7 @@ def main():
 
         out.append({
             "source_domain": r["source_domain"], "agency": r["agency"], "url": url, "title": title,
-            "source_kind": "portal" if r["source_domain"] in ("xe.gr",) else "agency_site",
+            "source_kind": "portal" if r["source_domain"] in PORTALS else "agency_site",
             "private_owner": "yes" if r["agency"].startswith("Ιδιώτης") else "",
             "transaction": tx, "type": ptype, "price_eur": int(price) if price else "",
             "area_m2": round(area, 1) if area else "", "price_per_m2": round(price / area) if price and area else "",

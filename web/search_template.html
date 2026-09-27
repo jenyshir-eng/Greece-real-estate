@@ -84,7 +84,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
       <h1>Spiti <span>Radar</span> · Салоники</h1>
       <p class="sub" id="asof"></p>
     </div>
-    <p class="sub" style="max-width:100%">Объявления с сайтов агентств и XE.gr. Каждое ведёт на оригинал.</p>
+    <p class="sub" style="max-width:100%">Объявления с сайтов агентств и порталов. Каждое ведёт на оригинал.</p>
   </header>
 
   <div class="layout">
@@ -132,14 +132,14 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
         <select id="who">
           <option value="">Все</option>
           <option value="agency">Агентства</option>
-          <option value="private">Частные владельцы (XE.gr)</option>
+          <option value="private">Частные владельцы</option>
         </select>
       </label>
       <label class="f" for="src">Источник
         <select id="src">
           <option value="">Все источники</option>
           <option value="site">Сайты агентств</option>
-          <option value="xe.gr">XE.gr</option>
+          <option value="portal">Порталы (Spitogatos, Indomio, Plot…)</option>
         </select>
       </label>
       <label class="f" for="agency">Агентство
@@ -169,7 +169,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
       </div>
       <div class="list" id="list"></div>
       <button class="more" type="button" id="more" hidden>Показать ещё</button>
-      <p class="note">Сбор с сайтов ~200 агентств Салоник (до 500 объявлений с сайта); XE.gr и другие порталы — следующим шагом. Поиск понимает русский, греческий и латиницу. Дата — когда агентство опубликовало или обновило объявление; многие сайты дату не показывают, такие объявления помечены «дата не указана на сайте». Район определён по объявлению; если в нём указан только город, объявление в районе «Салоники, район не указан». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
+      <p class="note">Сбор с сайтов ~200 агентств Салоник (до 500 объявлений с сайта); Порталы (Spitogatos, Indomio, Plot, Spiti24, Tospitimou) — новые объявления из их email-оповещений, с датой оповещения. Поиск понимает русский, греческий и латиницу. Дата — когда агентство опубликовало или обновило объявление; многие сайты дату не показывают, такие объявления помечены «дата не указана на сайте». Район определён по объявлению; если в нём указан только город, объявление в районе «Салоники, район не указан». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
     </section>
   </div>
 </div>
@@ -177,6 +177,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
 <script>
 const DATA = __DATA__;
 const ASOF = "__ASOF__";
+const PORTAL_NAME = {"xe.gr":"XE.gr","spitogatos.gr":"Spitogatos","spiti24.gr":"Spiti24","tospitimou.gr":"Tospitimou","plot.gr":"Plot","indomio.gr":"Indomio"};
 const AREA_RU = {"Καλαμαριά":"Каламария","Πυλαία":"Пилея","Πανόραμα":"Панорама","Θέρμη":"Терми","Χορτιάτης":"Хортиатис",
   "Θερμαϊκός":"Термаикос: Перея, Эпаноми, Миханиона","Νεάπολη-Συκιές":"Неаполи и Сикиес","Παύλος Μελάς":"Павлос Мелас: Ставруполи, Полихни, Эвкарпия",
   "Κορδελιό-Εύοσμος":"Корделио и Эвосмос","Αμπελόκηποι-Μενεμένη":"Амбелокипи и Менемени","Ωραιόκαστρο":"Ореокастро","Δέλτα":"Дельта: Синдос, Калохори",
@@ -228,7 +229,7 @@ function current(){
     (!tx || d.tx===tx) && (!region || d.rg===region) && (!area || d.ar===area) && (!type || d.ty===type) &&
     (!ag || d.ag===ag) && (!bed || (+d.bd||0)>=bed) &&
     (!who || (who==="private" ? d.pv==="yes" : d.pv!=="yes")) &&
-    (!src || (src==="site" ? d.src!=="xe.gr" : d.src===src)) &&
+    (!src || (src==="site" ? !PORTAL_NAME[d.src] : !!PORTAL_NAME[d.src])) &&
     (!fresh || (d.ld ? ageDays(d.ld) <= fresh : undated)) && (fresh || undated || d.ld) &&
     (pmin===0 && pmax===Infinity || (d.p!=null && d.p>=pmin && d.p<=pmax)) &&
     (amin===0 && amax===Infinity || (d.m!=null && d.m>=amin && d.m<=amax)) &&
@@ -259,8 +260,8 @@ function render(reset){
     if(d.fl) chips.push(`<span>этаж ${esc(d.fl)}</span>`);
     if(d.yr) chips.push(`<span>${d.yr} г.</span>`);
     chips.push(`<span>${esc(AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан"))}</span>`);
-    chips.push(`<span>· ${esc(d.pv==="yes" ? "частный владелец" : d.ag)}</span>`);
-    if(d.src==="xe.gr") chips.push(`<span class="chip">XE.gr</span>`);
+    if(d.pv==="yes" || d.ag!==PORTAL_NAME[d.src]) chips.push(`<span>· ${esc(d.pv==="yes" ? "частный владелец" : d.ag)}</span>`);
+    if(PORTAL_NAME[d.src]) chips.push(`<span class="chip">${PORTAL_NAME[d.src]}</span>`);
     chips.push(`<span>· ${d.ld ? (d.lk==="updated" ? "обновлено " : "опубликовано ") + ruDate(d.ld) : "дата не указана на сайте"}</span>`);
     a.innerHTML = `<div class="ico" aria-hidden="true">${iconFor(d.ty)}</div>
       <div class="main"><div class="t" title="${esc(d.t)}">${esc(d.t)}</div><div class="meta">${chips.join("")}</div></div>
