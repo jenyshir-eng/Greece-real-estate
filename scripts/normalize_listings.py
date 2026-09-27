@@ -13,6 +13,7 @@ import unicodedata
 from collections import Counter
 
 IN = "data/listings/listings_thessaloniki.csv"
+IN_PORTALS = ["data/listings/listings_xe.csv"]  # open portals collected by their own scripts
 OUT = "data/listings/listings_normalized.csv"
 HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
 
@@ -85,7 +86,11 @@ def listing_date(r):
 
 
 def main():
+    import os
     rows = list(csv.DictReader(open(IN, encoding="utf-8")))
+    for extra in IN_PORTALS:
+        if os.path.exists(extra):
+            rows += list(csv.DictReader(open(extra, encoding="utf-8")))
     history = load_history()
     out, seen_url, seen_key = [], set(), set()
     drop = Counter()
@@ -186,6 +191,8 @@ def main():
 
         out.append({
             "source_domain": r["source_domain"], "agency": r["agency"], "url": url, "title": title,
+            "source_kind": "portal" if r["source_domain"] in ("xe.gr",) else "agency_site",
+            "private_owner": "yes" if r["agency"].startswith("Ιδιώτης") else "",
             "transaction": tx, "type": ptype, "price_eur": int(price) if price else "",
             "area_m2": round(area, 1) if area else "", "price_per_m2": round(price / area) if price and area else "",
             "bedrooms": r["bedrooms"], "floor": r["floor"], "year_built": r["year_built"],
