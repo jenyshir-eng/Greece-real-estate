@@ -2,7 +2,10 @@
 
 Adds columns to the agencies CSV:
 site_status  ok / bot_check_<vendor> / http_<code> / error / no_site
-robots_ok    yes / no (robots.txt disallows the site root for all bots)
+robots_ok    yes / no / explicit_no. "no" is a blanket disallow for all bots, which
+             Spiti Radar does not treat as a ban (spec section 2, item 4);
+             "explicit_no" means robots.txt names our bot (SpitiRadar) - such
+             sites are excluded
 has_listings yes / maybe / no (links to property pages or sale/rent keywords)
 listing_links number of distinct links that look like property pages
 platform     CMS/CRM fingerprint if recognised
@@ -74,8 +77,11 @@ def check(row):
 
     rp = urllib.robotparser.RobotFileParser()
     try:
-        rp.parse(fetch(urllib.parse.urljoin(final, "/robots.txt"))[1].splitlines())
-        out["robots_ok"] = "yes" if rp.can_fetch(ROBOTS_AGENT, final) else "no"
+        robots = fetch(urllib.parse.urljoin(final, "/robots.txt"))[1]
+        rp.parse(robots.splitlines())
+        allowed = rp.can_fetch(ROBOTS_AGENT, final)
+        names_us = re.search(r"user-agent:\s*spitiradar", robots, re.I)
+        out["robots_ok"] = "yes" if allowed else ("explicit_no" if names_us else "no")
     except Exception:
         out["robots_ok"] = "yes"  # no robots.txt means no restriction
 
