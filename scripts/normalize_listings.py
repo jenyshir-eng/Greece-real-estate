@@ -103,11 +103,12 @@ def main():
             area = None
 
         # sale / rent: words first, then price level
-        tx = ""
-        if re.search(r"ενοικ|προσ ενοικ|to rent|for rent|\brent|enoik|μισθωσ|lease", text):
+        # the collector's reading of the page ("ΠΡΟΣ ΠΩΛΗΣΗ" etc.) wins; otherwise infer from wording
+        tx = r["transaction"] if r["transaction"] in ("sale", "rent") else ""
+        if not tx and re.search(r"ενοικ|προσ ενοικ|to rent|for rent|\brent|enoik|μισθωσ|lease", text):
             tx = "rent"
-        if re.search(r"πωλ|προσ πωλ|for sale|\bsale|pwl|polis|poleit|agora|αγορα", text):
-            tx = "sale" if not tx else tx
+        if not tx and re.search(r"πωλ|προσ πωλ|for sale|\bsale|pwl|polis|poleit|agora|αγορα", text):
+            tx = "sale"
         if price:
             if price < 10000 and tx != "sale":
                 tx = "rent"

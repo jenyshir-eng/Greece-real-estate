@@ -275,6 +275,22 @@ def extract(url, page):
         rec["transaction"] = "rent"
     elif re.search(r"πώλη|πωλ|sale|agora|pwl|pol", tr):
         rec["transaction"] = "sale"
+    # Spitogatos-style location line used by many agency CRMs:
+    # "Δήμος Θεσσαλονίκης , Χαριλάου" / "Θεσσαλονίκη Περιφ/κοί δήμοι, Καλαμαριά, Κέντρο"
+    cells = html.unescape(re.sub(r"<[^>]+>", " | ", re.sub(r"<script.*?</script>|<style.*?</style>", " ", page, flags=re.S | re.I)))
+    cells = re.sub(r"\s+", " ", cells)
+    m = re.search(r"((?:Δήμος Θεσσαλονίκης|Θεσσαλονίκη(?:\s*-\s*Δήμος|\s*-?\s*Περιφ/κοί δήμοι|\s*-\s*Υπόλ\. Νομού)?)"
+                  r"\s*,\s*(?!Ελλάδα|Greece)[^|€\d]{3,60})", cells)
+    if m:
+        rec["location"] = m.group(1).strip(" ,")
+    m = re.search(r"\|\s*(ΠΡΟΣ ΠΩΛΗΣΗ|ΠΡΟΣ ΕΝΟΙΚΙΑΣΗ|ΠΩΛΕΙΤΑΙ|ΕΝΟΙΚΙΑΖΕΤΑΙ|Προς πώληση|Προς ενοικίαση|For sale|For rent)\s*\|", cells, re.I)
+    if m:
+        rec["transaction"] = "rent" if re.search(r"ενοικ|rent", m.group(1), re.I) else "sale"
+    # district from the property facts ("Περιοχή: Καλαμαριά", "Area: Toumpa", "Τοποθεσία ...")
+    m = re.search(r"(?:Περιοχή|Τοποθεσία|Location|Area|Region)\s*:\s*([A-Za-zΑ-Ωα-ωάέήίόύώϊϋΐΰΆΈΉΊΌΎΏ][^:|<>\n]{2,60}?)"
+                  r"(?=\s{2,}|\s*(?:Τιμή|Εμβαδό|Εμβαδόν|Price|Size|Όροφος|Floor|Κωδικός|Code|Τύπος|Type)\b|$)", text)
+    if m and not re.search(r"^(του|της|των|of|the)\b", m.group(1).strip(), re.I):
+        rec["location"] = (rec["location"] + " | " if rec["location"] else "") + m.group(1).strip()[:60]
     if not rec["location"]:
         m = re.search(r"(Θεσσαλονίκη[^,|<]{0,40}|Καλαμαριά|Πυλαία|Πανόραμα|Θέρμη|Περαία|Εύοσμος|Νεάπολη|Σταυρούπολη|"
                       r"Αμπελόκηποι|Συκιές|Τούμπα|Χαριλάου|Πολίχνη|Ωραιόκαστρο|Επανομή|Τριανδρία|Κορδελιό|Μενεμένη)", title + " " + text[:3000])
