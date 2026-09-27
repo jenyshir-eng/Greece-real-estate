@@ -26,13 +26,16 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
       "Chrome/128.0 Safari/537.36 SpitiRadar/0.1 (+https://spitiradar.gr/opt-out)")
 DELAY_S = 3.0
 OUT = "data/listings/listings_xe.csv"
-SITEMAPS = [
-    "https://www.xe.gr/sitemap/property/results/buy/residence",
-    "https://www.xe.gr/sitemap/property/results/rent/residence",
-    "https://www.xe.gr/sitemap/property/results/buy/commercial",
-    "https://www.xe.gr/sitemap/property/results/rent/commercial",
-    "https://www.xe.gr/sitemap/property/results/buy/land",
-]
+SUBTYPES = {
+    "residence": ["", "apartment", "studios-small-apartment", "one-bedroom-apartment", "two-bedroom-apartment",
+                  "maisonette", "house", "new-build-apartment", "penthouse", "furnished-apartment"],
+    "commercial": ["", "office", "retail", "storage", "building", "space"],
+    "land": ["", "plot"],
+}
+# each (sub)type has its own first result page per area, so every sitemap adds different listings
+SITEMAPS = [f"https://www.xe.gr/sitemap/property/results/{deal}/{kind}" + (f"/{sub}" if sub else "")
+            for deal in ("buy", "rent") for kind, subs in SUBTYPES.items() for sub in subs
+            if not (deal == "rent" and kind == "land")]
 # latin slugs xe.gr uses for places in the Thessaloniki prefecture
 THESS = re.compile(
     r"thessalonik|kalamari|pylai|pylea|panorama|therm|perai|peraia|eyosm|evosm|neapol|sykie|stayroypol|stavroupol|"
