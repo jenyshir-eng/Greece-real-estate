@@ -110,7 +110,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
           <option value="">Все, включая другие регионы</option>
         </select>
       </label>
-      <label class="f" for="area">Район
+      <label class="f" for="area">Район и квартал
         <select id="area"><option value="">Все районы</option></select>
       </label>
       <label class="f" for="type">Тип
@@ -197,6 +197,21 @@ const AREA_LAT = {"Καλαμαριά":"kalamaria kalamaria kalamariá","Πυλ�
   "Ωραιόκαστρο":"oraiokastro oreokastro","Δέλτα":"delta sindos kalochori","Λαγκαδάς":"lagkadas langadas",
   "Θεσσαλονίκη-Ανατολικά":"toumba toumpa charilaou martiou тумба харилау мартиу","Θεσσαλονίκη-Κέντρο":"center centre kentro центр цимиски tsimiski","Χαλκηδόνα":"chalkidona koufalia","Βόλβη":"volvi asprovalta stavros асправалта",
   "Θεσσαλονίκη":""};
+// neighbourhoods: Russian name, then extra search words
+const NB_RU = {"Βαρδάρης":"Вардар vardaris вардарис лаханокипи","Λαδάδικα":"Лададика ladadika","Άνω Πόλη":"Ано Поли ano poli верхний город",
+  "Ξηροκρήνη":"Ксирокрини xirokrini","Καμάρα - Ροτόντα":"Камара и Ротонда kamara rotonda наварину","Αγία Σοφία":"Агия София agia sofia",
+  "Ιπποδρόμιο":"Ипподромио ippodromio","Αριστοτέλους":"Аристотелус aristotelous","Λευκός Πύργος":"Белая башня lefkos pyrgos",
+  "Πανεπιστήμια - ΔΕΘ":"Университеты и выставка universities","Άνω Τούμπα":"Ано Тумба ano toumpa","Κάτω Τούμπα":"Като Тумба kato toumpa",
+  "Τούμπα":"Тумба toumpa toumba","Χαριλάου":"Харилау charilaou","Μαρτίου":"Мартиу 25 martiou","Ντεπώ":"Депо depo",
+  "Ανάληψη - Μπότσαρη":"Аналипси и Боцари analipsi botsari","Νέα Παραλία - Φάληρο":"Новая набережная и Фалиро nea paralia faliro",
+  "Βούλγαρη":"Вулгари voulgari","Τριανδρία":"Триандрия triandria","Παπάφη":"Папафи papafi","Ιπποκράτειο":"Иппократио ippokrateio",
+  "Αρετσού":"Арецу aretsou","Καραμπουρνάκι":"Карабурнаки karampournaki","Νέα Κρήνη":"Неа Крини nea krini",
+  "Σταυρούπολη":"Ставруполи stavroupoli","Πολίχνη":"Полихни polichni","Ευκαρπία":"Эвкарпия efkarpia","Νεάπολη":"Неаполи neapoli",
+  "Συκιές":"Сикиес sykies","Πεύκα":"Пефка pefka","Εύοσμος":"Эвосмос evosmos","Κορδελιό":"Корделио kordelio",
+  "Αμπελόκηποι":"Амбелокипи ampelokipoi","Μενεμένη":"Менемени menemeni","Περαία":"Перея peraia","Νέοι Επιβάτες":"Нии Эпиватес neoi epivates",
+  "Αγία Τριάδα":"Агия Триада agia triada","Μηχανιώνα":"Миханиона michaniona","Επανομή":"Эпаноми epanomi",
+  "Νέα Ραιδεστός":"Неа Редестос nea raidestos","Ταγαράδες":"Тагарадес tagarades","Τριάδι":"Триади triadi"};
+const nbName = n => (NB_RU[n]||n).split(/ [a-z0-9]/)[0];
 const TYPE_SYN = {apartment:"квартира квартиру apartment flat διαμερισμα",studio:"студия студию гарсоньера studio γκαρσονιερα квартира",
   maisonette:"мезонет таунхаус maisonette μεζονετα дом",house:"дом вилла коттедж house villa μονοκατοικια",land:"участок земля земельный plot land οικοπεδο",
   store:"магазин коммерческое помещение store shop καταστημα",office:"офис office γραφειο",warehouse:"склад производство warehouse αποθηκη",
@@ -216,14 +231,25 @@ const median = a => { if(!a.length) return null; const s=[...a].sort((x,y)=>x-y)
 const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/ς/g,"σ");
 
 let tx = "sale", page = 60;
-DATA.forEach(d => d._q = norm([d.t, (d.ags||[d.ag]).join(" "), d.ar, d.lr, AREA_RU[d.ar]||"", AREA_LAT[d.ar]||"", TYPE_SYN[d.ty]||"", TYPE_RU[d.ty]||"",
+DATA.forEach(d => d._q = norm([d.t, (d.ags||[d.ag]).join(" "), d.ar, d.nb||"", NB_RU[d.nb]||"", d.lr, AREA_RU[d.ar]||"", AREA_LAT[d.ar]||"", TYPE_SYN[d.ty]||"", TYPE_RU[d.ty]||"",
   d.tx==="rent" ? "аренда снять сдается rent" : d.tx==="sale" ? "продажа купить продается sale" : "",
   d.rg==="thessaloniki" ? "салоники thessaloniki θεσσαλονικη" : ""].join(" ")));
 
 function fillSelect(el, values, label){
   values.forEach(v => { const o=document.createElement("option"); o.value=v; o.textContent=label?label(v):v; el.appendChild(o); });
 }
-fillSelect($("area"), [...new Set(DATA.map(d=>d.ar).filter(Boolean))].sort((a,b)=>(AREA_RU[a]||a).localeCompare(AREA_RU[b]||b,"ru")), a => AREA_RU[a] ? `${AREA_RU[a]} (${a})` : a);
+// district, then its neighbourhoods (with at least 3 objects) indented under it
+(() => {
+  const dist = [...new Set(DATA.map(d=>d.ar).filter(Boolean))].sort((a,b)=>(AREA_RU[a]||a).localeCompare(AREA_RU[b]||b,"ru"));
+  const nbCount = {}; DATA.forEach(d => { if(d.nb) nbCount[d.ar+"|"+d.nb] = (nbCount[d.ar+"|"+d.nb]||0)+1; });
+  dist.forEach(a => {
+    const o=document.createElement("option"); o.value=a; o.textContent = AREA_RU[a] ? `${AREA_RU[a]} (${a})` : a; $("area").appendChild(o);
+    Object.keys(nbCount).filter(k => k.startsWith(a+"|") && nbCount[k] >= 3).map(k=>k.split("|")[1])
+      .sort((x,y)=>nbName(x).localeCompare(nbName(y),"ru")).forEach(n => {
+        const q=document.createElement("option"); q.value="nb:"+n; q.textContent=`\u00a0\u00a0\u00a0— ${nbName(n)} (${n})`; $("area").appendChild(q);
+      });
+  });
+})();
 fillSelect($("type"), Object.keys(TYPE_RU).filter(k=>k && DATA.some(d=>d.ty===k)), k=>TYPE_RU[k]);
 $("type").value = "apartment";
 if (window.matchMedia("(max-width:820px)").matches) $("fbox").open = false;
@@ -235,7 +261,7 @@ function current(){
         pmin=+$("pmin").value||0, pmax=+$("pmax").value||Infinity, amin=+$("amin").value||0, amax=+$("amax").value||Infinity,
         bed=+$("bed").value||0, ag=$("agency").value, fresh=+$("fresh").value||0, undated=$("undated").checked, who=$("who").value, src=$("src").value;
   return DATA.filter(d =>
-    (!tx || d.tx===tx) && (!region || d.rg===region) && (!area || d.ar===area) && (!type || d.ty===type) &&
+    (!tx || d.tx===tx) && (!region || d.rg===region) && (!area || (area.startsWith("nb:") ? d.nb===area.slice(3) : d.ar===area)) && (!type || d.ty===type) &&
     (!ag || (d.ags||[d.ag]).includes(ag)) && (!bed || (+d.bd||0)>=bed) &&
     (!who || (who==="private" ? d.pv==="yes" : d.pv!=="yes")) &&
     (!src || (d.srcs||[d.src]).some(x => src==="site" ? !PORTAL_NAME[x] : !!PORTAL_NAME[x])) &&
@@ -268,7 +294,7 @@ function render(reset){
     if(d.bd) chips.push(`<span>${d.bd} сп.</span>`);
     if(d.fl) chips.push(`<span>этаж ${esc(d.fl)}</span>`);
     if(d.yr) chips.push(`<span>${d.yr} г.</span>`);
-    chips.push(`<span>${esc(AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан"))}</span>`);
+    chips.push(`<span>${esc((AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан")) + (d.nb ? " · " + nbName(d.nb) : ""))}</span>`);
     if(d.pv==="yes" || d.ag!==PORTAL_NAME[d.src]) chips.push(`<span>· ${esc(d.pv==="yes" ? "частный владелец" : d.ag)}</span>`);
     if(PORTAL_NAME[d.src]) chips.push(`<span class="chip">${PORTAL_NAME[d.src]}</span>`);
     if(d.alt && d.alt.length) chips.push(`<span class="chip multi">на ${d.alt.length+1} сайтах</span>`);

@@ -38,7 +38,7 @@ for members in groups.values():
     rows.append({"u": r["url"], "t": r["title"][:140], "ag": r["agency"], "tx": r["transaction"],
                  "ty": first("type"), "p": p, "px": max(prices) if len(set(prices)) > 1 else None,
                  "m": m2, "pm": round(p / m2) if p and m2 else None, "bd": first("bedrooms")[:2],
-                 "fl": first("floor")[:10], "yr": first("year_built"), "rg": r["region"], "ar": first("area"),
+                 "fl": first("floor")[:10], "yr": first("year_built"), "rg": r["region"], "ar": first("area"), "nb": first("neighbourhood"),
                  "lr": r["location_raw"][:40], "ld": newest.get("listing_date", ""),
                  "lk": newest.get("listing_date_kind", ""), "fs": min((m["first_seen"] for m in members if m.get("first_seen")), default=""),
                  "src": r.get("source_domain", ""), "pv": r.get("private_owner", ""),

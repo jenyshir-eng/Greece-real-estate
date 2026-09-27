@@ -17,6 +17,7 @@ IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by 
               "data/listings/listings_alerts.csv"]  # portal alert emails (scripts/ingest_portal_alerts.py)
 PORTALS = ("xe.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr")
 OUT = "data/listings/listings_normalized.csv"
+HINTS = "data/listings/district_hints.csv"  # district read from the page (scripts/refine_districts.py)
 HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
 
 
@@ -33,7 +34,7 @@ AREAS = [
     ("Καλαμαριά", r"καλαμαρι|kalamari|νεα κρηνη|nea krini|αρετσου|aretsou|καραμπουρνακι|karampournaki|βυζαντιο"),
     ("Πυλαία", r"πυλαια|pylaia|pylea|πυλαιασ"),
     ("Πανόραμα", r"πανοραμα|panorama"),
-    ("Θέρμη", r"\bmikra\b|πλαγιαρι|plagiari|θερμη|thermi|νεα ραιδεστοσ|νεο ρυσιο|ταγαραδεσ|τριαδι|βασιλικα|σουρωτη"),
+    ("Θέρμη", r"\bmikra\b|\bkardia\b|καρδια θερμ|καρδια,? θεσσαλον|τησ καρδιασ θεσσαλον|πλαγιαρι|plagiari|θερμη|thermi|νεα ραιδεστοσ|νεο ρυσιο|ταγαραδεσ|τριαδι|βασιλικα|σουρωτη"),
     ("Χορτιάτης", r"χορτιατ|chortiat|φιλυρο|εξοχη|ασβεστοχωρι"),
     ("Θερμαϊκός", r"μεσημερι|mesimeri|αγγελοχωρι|aggelochori|νεα μηχανιωνα|περαια|peraia|νεοι επιβατεσ|neoi epivates|αγια τριαδα|agia triada|μηχανιωνα|michaniona|επανομη|epanomi|θερμαικ|thermaik"),
     ("Νεάπολη-Συκιές", r"νεαπολ|neapol|συκιε|sykie|sykies|\bπευκα\b|\bpefka\b|ρετζικι|retziki|αγιοσ παυλοσ|agios pavlos"),
@@ -44,13 +45,69 @@ AREAS = [
     ("Χαλκηδόνα", r"κουφαλι|koufali|χαλκηδον|chalkidon|μαλγαρα|malgara|κοιμηση θεοτοκου"),
     ("Βόλβη", r"βολβη|volvi|ασπροβαλτα|asprovalta|σταυροσ θεσσαλον|νεα απολλωνια|apollonia|ρεντινα|nea madytos|μαδυτοσ"),
     ("Δέλτα", r"νεα μαγνησια|magnisia|αδενδρο|adendro|κυμινα|kymina|νεα χαλκηδονα|σινδοσ|sindos|καλοχωρι|kalochori|χαλαστρα|chalastra|διαβατα|diavata|δελτα"),
-    ("Λαγκαδάς", r"λαγκαδα|lagkada|langada|λαγυνα"),
+    ("Λαγκαδάς", r"λαγκαδα|lagkada|langada|λαγυνα|μυγδονι|mygdoni|\bλητη|\bliti\b|δρυμοσ|drymos|μελισσοχωρι|melissochori|ζαγκλιβερ|zagkliver|ασσηροσ|σοχοσ|κολχικο"),
     ("Πυλαία-Χορτιάτης", r"πυλαια|χορτιατ"),
     ("Θεσσαλονίκη-Ανατολικά", r"βασιλισσησ ολγασ|βασ\. ολγασ|vasilissis olgas|δελφων|παπαναστασιου|papanastasiou|κωνσταντινουπολεωσ|παπαφη|papafi|ευαγγελιστριασ|τουμπα|toumpa|toumba|χαριλαου|charilaou|ανω τουμπα|κατω τουμπα|αναληψη|analipsi|μποτσαρη|νεα παραλια|25ησ μαρτιου|μαρτιου|martiou|ντεπω|depo|κηφισια|βουλγαρη|ιπποκρατειο|φαληρο|faliro|τριανδρια|triandria"),
     ("Θεσσαλονίκη-Κέντρο", r"τσιμισκ|tsimisk|μητροπολεωσ|mitropoleos|εγνατια|egnatia|ερμου|βενιζελου|προξενου κορομηλα|παυλου μελα|αγιασ σοφιασ|ναυαρινου|navarinou|κατουνη|ολυμπου|φιλικησ εταιρειασ|κεντρο θεσσαλον|center of thessalon|thessaloniki center|αριστοτελουσ|καμαρα|kamara|ροτοντα|λαδαδικα|βαρδαρ|vardar|ανω πολη|ano poli|αγια σοφια|αγιοσ δημητριοσ|ιπποδρομιου|λευκοσ πυργοσ|δεθ|πανεπιστημι|σκρα|λαχανοκηπ|ξηροκρηνη|ευαγγελιστρια|συντριβανι|παραλια θεσσαλον"),
     ("Θεσσαλονίκη", r"θεσσαλονικ|θεσ/νικ|thes+alonik|salonic|saloniki"),
 ]
-OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια"
+# finer level inside the districts: (neighbourhood, district, pattern on accent-free lowercase text)
+NEIGHBOURHOODS = [
+    ("Βαρδάρης", "Θεσσαλονίκη-Κέντρο", r"βαρδαρ|vardar|πλατεια δημοκρατιασ|λαχανοκηπ|lachanokip"),
+    ("Λαδάδικα", "Θεσσαλονίκη-Κέντρο", r"λαδαδικ|ladadik"),
+    ("Άνω Πόλη", "Θεσσαλονίκη-Κέντρο", r"ανω πολη|ano poli|καστρα\b|kastra\b"),
+    ("Ξηροκρήνη", "Θεσσαλονίκη-Κέντρο", r"ξηροκρην|xirokrin|παναγια φανερωμενη"),
+    ("Καμάρα - Ροτόντα", "Θεσσαλονίκη-Κέντρο", r"καμαρα|kamara|ροτοντα|rotonda|ναυαρινου|navarinou"),
+    ("Αγία Σοφία", "Θεσσαλονίκη-Κέντρο", r"αγια σοφια|αγιασ σοφιασ|agia sofia"),
+    ("Ιπποδρόμιο", "Θεσσαλονίκη-Κέντρο", r"ιπποδρομι|ippodromi"),
+    ("Αριστοτέλους", "Θεσσαλονίκη-Κέντρο", r"αριστοτελουσ|aristotelous"),
+    ("Λευκός Πύργος", "Θεσσαλονίκη-Κέντρο", r"λευκοσ πυργοσ|λευκου πυργου|white tower"),
+    ("Πανεπιστήμια - ΔΕΘ", "Θεσσαλονίκη-Κέντρο", r"πανεπιστημι|\bδεθ\b|\bαπθ\b"),
+    ("Άνω Τούμπα", "Θεσσαλονίκη-Ανατολικά", r"ανω τουμπα|ano toump|ano toumb"),
+    ("Κάτω Τούμπα", "Θεσσαλονίκη-Ανατολικά", r"κατω τουμπα|kato toump|kato toumb"),
+    ("Τούμπα", "Θεσσαλονίκη-Ανατολικά", r"τουμπα|toumpa|toumba"),
+    ("Χαριλάου", "Θεσσαλονίκη-Ανατολικά", r"χαριλαου|charilaou|xarilaou"),
+    ("Μαρτίου", "Θεσσαλονίκη-Ανατολικά", r"25ησ μαρτιου|μαρτιου|martiou"),
+    ("Ντεπώ", "Θεσσαλονίκη-Ανατολικά", r"ντεπω|depo\b"),
+    ("Ανάληψη - Μπότσαρη", "Θεσσαλονίκη-Ανατολικά", r"αναληψη|analipsi|μποτσαρη|botsari"),
+    ("Νέα Παραλία - Φάληρο", "Θεσσαλονίκη-Ανατολικά", r"νεα παραλια|nea paralia|φαληρο|faliro"),
+    ("Βούλγαρη", "Θεσσαλονίκη-Ανατολικά", r"βουλγαρη|voulgari"),
+    ("Τριανδρία", "Θεσσαλονίκη-Ανατολικά", r"τριανδρια|triandria"),
+    ("Παπάφη", "Θεσσαλονίκη-Ανατολικά", r"παπαφη|papafi"),
+    ("Ιπποκράτειο", "Θεσσαλονίκη-Ανατολικά", r"ιπποκρατει|ippokratei"),
+    ("Αρετσού", "Καλαμαριά", r"αρετσου|aretsou"),
+    ("Καραμπουρνάκι", "Καλαμαριά", r"καραμπουρνακι|karampournaki|karabournaki"),
+    ("Νέα Κρήνη", "Καλαμαριά", r"νεα κρηνη|nea krini"),
+    ("Σταυρούπολη", "Παύλος Μελάς", r"σταυρουπολ|stavroupol"),
+    ("Πολίχνη", "Παύλος Μελάς", r"πολιχνη|polichni|polixni"),
+    ("Ευκαρπία", "Παύλος Μελάς", r"ευκαρπια|efkarpia"),
+    ("Νεάπολη", "Νεάπολη-Συκιές", r"νεαπολ|neapol"),
+    ("Συκιές", "Νεάπολη-Συκιές", r"συκιε|sykie"),
+    ("Πεύκα", "Νεάπολη-Συκιές", r"\bπευκα\b|\bpefka\b"),
+    ("Εύοσμος", "Κορδελιό-Εύοσμος", r"ευοσμ|evosm"),
+    ("Κορδελιό", "Κορδελιό-Εύοσμος", r"κορδελι|kordeli"),
+    ("Αμπελόκηποι", "Αμπελόκηποι-Μενεμένη", r"αμπελοκηπ|ampelokip"),
+    ("Μενεμένη", "Αμπελόκηποι-Μενεμένη", r"μενεμεν|menemen"),
+    ("Περαία", "Θερμαϊκός", r"περαια|peraia"),
+    ("Νέοι Επιβάτες", "Θερμαϊκός", r"νεοι επιβατεσ|neoi epivates"),
+    ("Αγία Τριάδα", "Θερμαϊκός", r"αγια τριαδα|agia triada"),
+    ("Μηχανιώνα", "Θερμαϊκός", r"μηχανιωνα|michaniona"),
+    ("Επανομή", "Θερμαϊκός", r"επανομη|epanomi"),
+    ("Νέα Ραιδεστός", "Θέρμη", r"νεα ραιδεστοσ|nea raidestos"),
+    ("Ταγαράδες", "Θέρμη", r"ταγαραδεσ|tagarades"),
+    ("Τριάδι", "Θέρμη", r"τριαδι\b|triadi\b"),
+]
+
+
+def neighbourhood(text, district):
+    """First neighbourhood named in text that lies in the district (or any, if district is generic)."""
+    for name, parent, pat in NEIGHBOURHOODS:
+        if re.search(pat, text) and (district in ("", "Θεσσαλονίκη") or parent == district):
+            return name, parent
+    return "", ""
+
+
+OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια|παλληνη|pallini|ραφηνα|γλυφαδα|μαρουσι|κηφισια αττικ"
 NOT_LISTING = re.compile(r"^αποτελεσματα|^results|^αναζητηση|^search|blog|ιστορια|ανοικοδομηση|η εταιρεια|εταιρεια μασ|ποιοι ειμαστε|επικοινωνια|^ακινητα - |ευκαιριεσ ακινητων|^ergebnisse|^print$|^rezultat|^risultati", re.I)
 FOREIGN = re.compile(r"[Ѐ-ӿ]")  # Cyrillic: translated duplicates of the same object
 
@@ -98,6 +155,7 @@ def main():
         if os.path.exists(extra):
             rows += list(csv.DictReader(open(extra, encoding="utf-8")))
     history = load_history()
+    hints = {h["url"]: h for h in csv.DictReader(open(HINTS, encoding="utf-8"))} if os.path.exists(HINTS) else {}
     out, seen_url, seen_key = [], set(), set()
     drop = Counter()
     for r in rows:
@@ -183,6 +241,22 @@ def main():
             elif re.search(OTHER_REGIONS, loc):
                 region = "other"
 
+        h = hints.get(url)
+        if h and h["region"] and area_name in ("", "Θεσσαλονίκη") and region != "other":
+            if h["region"] == "other":
+                region, area_name = ("other", "") if region == "unknown" else (region, area_name)
+            else:
+                region, area_name = "thessaloniki", h["area"] or area_name or "Θεσσαλονίκη"
+        nb = ""
+        if region == "thessaloniki":
+            nb, parent = neighbourhood(own, area_name)
+            if not nb:
+                nb, parent = neighbourhood(loc, area_name)
+            if not nb and h and h.get("neighbourhood") and h["area"] == area_name:
+                nb, parent = h["neighbourhood"], area_name
+            if nb and area_name in ("", "Θεσσαλονίκη"):
+                area_name = parent  # the neighbourhood tells the district
+
         dkey = (r["source_domain"], tx, ptype, price, area)
         if price and area and dkey in seen_key:
             drop["duplicate object"] += 1
@@ -202,7 +276,7 @@ def main():
             "transaction": tx, "type": ptype, "price_eur": int(price) if price else "",
             "area_m2": round(area, 1) if area else "", "price_per_m2": round(price / area) if price and area else "",
             "bedrooms": r["bedrooms"], "floor": r["floor"], "year_built": r["year_built"],
-            "region": region, "area": area_name, "location_raw": r["location"],
+            "region": region, "area": area_name, "neighbourhood": nb, "location_raw": r["location"],
             "lat": r["lat"], "lon": r["lon"], "image": r["image"],
             "listing_date": ldate, "listing_date_kind": lkind, "first_seen": h["first_seen"],
             "scraped_at": r["scraped_at"],
