@@ -47,6 +47,9 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
 .seg button{flex:1;font:inherit;font-size:13px;font-weight:600;padding:7px 4px;border:0;background:var(--bg);color:var(--muted);cursor:pointer}
 .seg button+button{border-left:1px solid var(--line)}
 .seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.chk{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--ink);cursor:pointer}
+.chk input{width:16px;height:16px;accent-color:var(--accent)}
+.chip.new{background:var(--accent);color:var(--surface);font-weight:600}
 .reset{font:inherit;font-size:13px;background:none;border:0;color:var(--accent);cursor:pointer;justify-self:start;padding:0;text-decoration:underline}
 .summary{display:flex;flex-wrap:wrap;gap:10px 28px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 .stat{display:grid;gap:2px}
@@ -115,6 +118,16 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
       <label class="f" for="bed">Спален, минимум
         <select id="bed"><option value="">Любое</option><option>1</option><option>2</option><option>3</option><option>4</option></select>
       </label>
+      <label class="f" for="fresh">Свежесть
+        <select id="fresh">
+          <option value="30">За 30 дней</option>
+          <option value="90" selected>За 3 месяца</option>
+          <option value="180">За полгода</option>
+          <option value="365">За год</option>
+          <option value="">Любая дата</option>
+        </select>
+      </label>
+      <label class="chk" for="undated"><input type="checkbox" id="undated" checked> Показывать объявления без даты</label>
       <label class="f" for="agency">Агентство
         <select id="agency"><option value="">Все агентства</option></select>
       </label>
@@ -132,6 +145,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
         <span id="shown"></span>
         <label for="sort">Сортировка
           <select id="sort">
+            <option value="new" selected>Сначала новые</option>
             <option value="ppm">Дешевле за м²</option>
             <option value="pa">Цена по возрастанию</option>
             <option value="pd">Цена по убыванию</option>
@@ -141,7 +155,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
       </div>
       <div class="list" id="list"></div>
       <button class="more" type="button" id="more" hidden>Показать ещё</button>
-      <p class="note">Пилотный сбор: до 30 объявлений с сайта каждого агентства. Поиск понимает русский, греческий и латиницу. Район определён по объявлению; если в нём указан только город, объявление в районе «Салоники, район не указан». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
+      <p class="note">Пилотный сбор: до 30 объявлений с сайта каждого агентства. Поиск понимает русский, греческий и латиницу. Дата — когда агентство опубликовало или обновило объявление; многие сайты дату не показывают, такие объявления помечены «дата не указана на сайте». Район определён по объявлению; если в нём указан только город, объявление в районе «Салоники, район не указан». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
     </section>
   </div>
 </div>
@@ -195,10 +209,11 @@ $("asof").textContent = "Сбор " + ASOF + " · " + DATA.length + " объяв
 function current(){
   const q = norm($("q").value.trim()), region=$("region").value, area=$("area").value, type=$("type").value,
         pmin=+$("pmin").value||0, pmax=+$("pmax").value||Infinity, amin=+$("amin").value||0, amax=+$("amax").value||Infinity,
-        bed=+$("bed").value||0, ag=$("agency").value;
+        bed=+$("bed").value||0, ag=$("agency").value, fresh=+$("fresh").value||0, undated=$("undated").checked;
   return DATA.filter(d =>
     (!tx || d.tx===tx) && (!region || d.rg===region) && (!area || d.ar===area) && (!type || d.ty===type) &&
     (!ag || d.ag===ag) && (!bed || (+d.bd||0)>=bed) &&
+    (!fresh || (d.ld ? ageDays(d.ld) <= fresh : undated)) && (fresh || undated || d.ld) &&
     (pmin===0 && pmax===Infinity || (d.p!=null && d.p>=pmin && d.p<=pmax)) &&
     (amin===0 && amax===Infinity || (d.m!=null && d.m>=amin && d.m<=amax)) &&
     (!q || q.split(/[\s,]+/).filter(Boolean).every(w => d._q.includes(w.replace(/(ами|ями|ах|ях|ой|ей|ую|юю|ом|ем|ы|и|а|я|у|ю|е)$/,"").slice(0, Math.max(3, w.length-2))))));
@@ -208,7 +223,7 @@ function render(reset){
   if(reset) page = 60;
   let rows = current();
   const sort=$("sort").value, big=1e15;
-  const key = {ppm:d=>d.pm??big, pa:d=>d.p??big, pd:d=>-(d.p??-big), ad:d=>-(d.m??-big)}[sort];
+  const key = {new:d=>d.ld ? ageDays(d.ld) : big, ppm:d=>d.pm??big, pa:d=>d.p??big, pd:d=>-(d.p??-big), ad:d=>-(d.m??-big)}[sort];
   rows.sort((a,b)=>key(a)-key(b));
   $("sCount").textContent = rows.length.toLocaleString("ru-RU");
   const ppm = median(rows.map(d=>d.pm).filter(v=>v!=null));
@@ -220,6 +235,7 @@ function render(reset){
   rows.slice(0,page).forEach(d => {
     const a=document.createElement("a"); a.className="item"; a.href=d.u; a.target="_blank"; a.rel="noopener";
     const chips=[];
+    if(d.ld && ageDays(d.ld) <= 7) chips.push(`<span class="chip new">новое</span>`);
     if(d.tx) chips.push(`<span class="chip ${d.tx}">${d.tx==="sale"?"Продажа":"Аренда"}</span>`);
     chips.push(`<span class="chip">${TYPE_RU[d.ty]||"—"}</span>`);
     if(d.m) chips.push(`<span>${d.m} м²</span>`);
@@ -228,6 +244,7 @@ function render(reset){
     if(d.yr) chips.push(`<span>${d.yr} г.</span>`);
     chips.push(`<span>${esc(AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан"))}</span>`);
     chips.push(`<span>· ${esc(d.ag)}</span>`);
+    chips.push(`<span>· ${d.ld ? (d.lk==="updated" ? "обновлено " : "опубликовано ") + ruDate(d.ld) : "дата не указана на сайте"}</span>`);
     a.innerHTML = `<div class="ico" aria-hidden="true">${iconFor(d.ty)}</div>
       <div class="main"><div class="t" title="${esc(d.t)}">${esc(d.t)}</div><div class="meta">${chips.join("")}</div></div>
       <div class="money"><b>${d.p?eur(d.p)+(d.tx==="rent"?"/мес":""):"цена по запросу"}</b><small>${d.pm?eur(d.pm)+"/м²":""}</small></div>`;
@@ -236,6 +253,9 @@ function render(reset){
   $("shown").textContent = rows.length ? `Показано ${Math.min(page,rows.length)} из ${rows.length}` : "";
   $("more").hidden = rows.length <= page;
 }
+const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+function ageDays(iso){ return Math.round((TODAY - new Date(iso + "T00:00:00")) / 864e5); }
+function ruDate(iso){ const [y,m,d] = iso.split("-"); return `${d}.${m}.${y}`; }
 function esc(s){ return String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
 document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
@@ -247,12 +267,12 @@ $("q").addEventListener("input", () => {
   const words = norm($("q").value).split(/[\s,]+/).filter(w => w.length > 3);
   if (words.some(w => TYPE_WORDS.some(t => t.startsWith(w.slice(0, Math.max(4, w.length - 2)))))) $("type").value = "";
 });
-["q","region","area","type","pmin","pmax","amin","amax","bed","agency","sort"].forEach(id => $(id).addEventListener("input", () => render(true)));
+["q","region","area","type","pmin","pmax","amin","amax","bed","agency","sort","fresh","undated"].forEach(id => $(id).addEventListener("input", () => render(true)));
 $("more").addEventListener("click", () => { page += 60; render(false); });
 $("reset").addEventListener("click", () => {
   ["q","area","pmin","pmax","amin","amax","bed","agency"].forEach(id => $(id).value="");
   $("type").value="apartment";
-  $("region").value="thessaloniki"; render(true);
+  $("region").value="thessaloniki"; $("fresh").value="90"; $("undated").checked=true; render(true);
 });
 render(true);
 </script>

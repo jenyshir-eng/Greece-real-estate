@@ -14,6 +14,7 @@ from collections import Counter
 
 IN = "data/listings/listings_thessaloniki.csv"
 OUT = "data/listings/listings_normalized.csv"
+HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
 
 
 def plain(s):
@@ -70,8 +71,22 @@ def first_area(text):
     return ""
 
 
+def load_history():
+    import os
+    if not os.path.exists(HISTORY):
+        return {}
+    return {r["url"]: r for r in csv.DictReader(open(HISTORY, encoding="utf-8"))}
+
+
+def listing_date(r):
+    """Best date the site gives: the later of 'updated' and sitemap lastmod, else 'published'."""
+    upd = max(r.get("date_updated", ""), r.get("date_sitemap", ""))
+    return (upd, "updated") if upd else ((r["date_published"], "published") if r.get("date_published") else ("", ""))
+
+
 def main():
     rows = list(csv.DictReader(open(IN, encoding="utf-8")))
+    history = load_history()
     out, seen_url, seen_key = [], set(), set()
     drop = Counter()
     for r in rows:
@@ -84,7 +99,9 @@ def main():
         if FOREIGN.search(title) or re.search(r"/(ru|bg|sr|tr|zh|de|he)/", u):
             drop["translated duplicate"] += 1
             continue
-        key_url = re.sub(r"[?#].*$|/+$", "", url.lower())
+        # keep the query (e.g. ?dios_code=218938 identifies the listing), drop fragments and tracking
+        key_url = re.sub(r"#.*$", "", url.lower())
+        key_url = re.sub(r"([?&])(utm_\w+|fbclid|gclid|lang|sr)=[^&]*&?", r"\1", key_url).rstrip("?&/")
         if key_url in seen_url:
             drop["duplicate url"] += 1
             continue
@@ -161,14 +178,27 @@ def main():
             continue
         seen_key.add(dkey)
 
+        seen_day = (r.get("scraped_at") or "")[:10]
+        h = history.setdefault(key_url, {"url": key_url, "first_seen": seen_day, "last_seen": seen_day})
+        h["first_seen"] = min(h["first_seen"] or seen_day, seen_day) if seen_day else h["first_seen"]
+        h["last_seen"] = max(h["last_seen"] or seen_day, seen_day)
+        ldate, lkind = listing_date(r)
+
         out.append({
             "source_domain": r["source_domain"], "agency": r["agency"], "url": url, "title": title,
             "transaction": tx, "type": ptype, "price_eur": int(price) if price else "",
             "area_m2": round(area, 1) if area else "", "price_per_m2": round(price / area) if price and area else "",
             "bedrooms": r["bedrooms"], "floor": r["floor"], "year_built": r["year_built"],
             "region": region, "area": area_name, "location_raw": r["location"],
-            "lat": r["lat"], "lon": r["lon"], "image": r["image"], "scraped_at": r["scraped_at"],
+            "lat": r["lat"], "lon": r["lon"], "image": r["image"],
+            "listing_date": ldate, "listing_date_kind": lkind, "first_seen": h["first_seen"],
+            "scraped_at": r["scraped_at"],
         })
+
+    with open(HISTORY, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["url", "first_seen", "last_seen"])
+        w.writeheader()
+        w.writerows(sorted(history.values(), key=lambda h: h["url"]))
 
     with open(OUT, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
@@ -180,6 +210,7 @@ def main():
     print(f"input {len(rows)}, kept {n}, dropped {dict(drop)}")
     print(f"filled: transaction {pct('transaction')}, type {pct('type')}, price {pct('price_eur')}, "
           f"area {pct('area_m2')}, district {pct('area')}")
+    print(f"with site date: {pct('listing_date')}")
     print("region:", Counter(x["region"] for x in out))
     print("transaction:", Counter(x["transaction"] or "?" for x in out))
     print("type:", Counter(x["type"] or "?" for x in out).most_common())

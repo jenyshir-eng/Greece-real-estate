@@ -77,6 +77,7 @@ class Site:
         self.delay = MIN_DELAY_S
         self.last = 0.0
         self.requests = 0
+        self.lastmod = {}
 
     def get(self, url):
         wait = self.last + self.delay - time.time()
@@ -125,6 +126,74 @@ def looks_like_detail(url):
     return bool(DETAIL_ID.search(p.path)) and (bool(LISTING_HINT.search(p.path)) or p.path.count("/") <= 2)
 
 
+def remember_lastmod(site, xml):
+    for block in re.findall(r"<url>(.*?)</url>", xml, re.S):
+        loc = re.search(r"<loc>\s*([^<\s]+)\s*</loc>", block)
+        mod = re.search(r"<lastmod>\s*([^<\s]+)\s*</lastmod>", block)
+        if loc and mod:
+            d = parse_date(mod.group(1))
+            if d:
+                site.lastmod[html.unescape(loc.group(1)).rstrip("/")] = d
+
+
+def parse_date(s):
+    """ISO or dd/mm/yyyy -> 'YYYY-MM-DD'; rejects impossible and future dates."""
+    s = (s or "").strip()
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", s)
+    if m:
+        y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    else:
+        m = re.match(r"(\d{1,2})[/.\-](\d{1,2})[/.\-](\d{2,4})", s)
+        if not m:
+            return ""
+        d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        y += 2000 if y < 100 else 0
+    try:
+        dt = datetime.date(y, mo, d)
+    except ValueError:
+        return ""
+    if dt.year < 2010 or dt > datetime.date.today() + datetime.timedelta(days=1):
+        return ""
+    return dt.isoformat()
+
+
+DATE_LABEL = re.compile(
+    r"(Ημερομηνία\s+(?:καταχώρ\w*|δημοσίευσ\w*|ανάρτησ\w*|ενημέρωσ\w*)|Καταχωρήθηκε|Δημοσιεύτηκε|Δημοσιεύθηκε|"
+    r"Τελευταία\s+(?:ενημέρωση|τροποποίηση|ανανέωση)|Ενημερώθηκε|Ανανεώθηκε|Date\s+(?:added|posted|published|listed)|"
+    r"Listed|Published|Last\s+updated?|Updated)\s*:?\s*(\d{1,2}[/.\-]\d{1,2}[/.\-]\d{2,4}|\d{4}-\d{2}-\d{2})", re.I)
+
+
+def extract_dates(page, text):
+    """Returns (published, updated, source)."""
+    pub, upd, src = "", "", []
+    for it in jsonld_items(page):
+        for k in ("datePosted", "datePublished", "dateCreated", "uploadDate"):
+            if it.get(k) and not pub:
+                pub = parse_date(str(it[k]))
+        if it.get("dateModified") and not upd:
+            upd = parse_date(str(it["dateModified"]))
+    if pub or upd:
+        src.append("jsonld")
+    for prop, slot in (("article:published_time", "pub"), ("article:modified_time", "upd"), ("og:updated_time", "upd")):
+        v = parse_date(meta(page, prop))
+        if v:
+            if slot == "pub" and not pub:
+                pub = v
+            elif slot == "upd" and not upd:
+                upd = v
+            src.append("meta")
+    for label, value in DATE_LABEL.findall(text):
+        v = parse_date(value)
+        if not v:
+            continue
+        if re.search(r"ενημέρ|τροποπ|ανανέ|updated", label, re.I):
+            upd = upd or v
+        else:
+            pub = pub or v
+        src.append("text")
+    return pub, upd, "+".join(dict.fromkeys(src))
+
+
 def discover(site, home, per_site):
     found = []
 
@@ -141,16 +210,24 @@ def discover(site, home, per_site):
             continue
         locs = re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", xml)
         subs = [l for l in locs if l.endswith(".xml")]
+        remember_lastmod(site, xml)
         for u in locs:
             add(html.unescape(u))
         for sub in [s for s in subs if re.search(r"propert|listing|akin|estate|aggel", s, re.I)][:3]:
             try:
-                for u in re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", site.get(sub)[1]):
+                sub_xml = site.get(sub)[1]
+                remember_lastmod(site, sub_xml)
+                for u in re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", sub_xml):
                     add(html.unescape(u))
             except Exception:
                 pass
         if len(found) >= per_site:
-            return found
+            break
+    if found and site.lastmod:
+        # newest first: with a per-site limit we keep the freshest listings
+        found.sort(key=lambda u: site.lastmod.get(u, ""), reverse=True)
+    if len(found) >= per_site:
+        return found
     # 2. listing sections from the home page, then their pagination
     for u in links(site.base, home):
         add(u)
@@ -246,6 +323,7 @@ def extract(url, page):
     rec["lat"] = rec["lat"] or meta(page, "place:location:latitude")
     rec["lon"] = rec["lon"] or meta(page, "place:location:longitude")
 
+    rec["date_published"], rec["date_updated"], rec["date_source"] = extract_dates(page, text)
     head = title + " " + text[:6000]
     if not rec["price_eur"]:
         # "150.000 €" / "€ 150.000" / "€700"; digits separated by spaces are never joined
@@ -325,6 +403,7 @@ def collect_site(row, per_site):
             rec = extract(fu, page)
             if not (rec["price_eur"] or rec["area_m2"]):
                 continue
+            rec["date_sitemap"] = site.lastmod.get(u.rstrip("/"), "")
             rec.update(source_domain=row["domain"], agency=row["name"],
                        scraped_at=datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"))
             out.append(rec)
@@ -368,7 +447,8 @@ def main():
         list(ex.map(work, rows))
 
     fields = ["source_domain", "agency", "url", "title", "transaction", "type", "price_eur", "area_m2",
-              "bedrooms", "floor", "year_built", "location", "lat", "lon", "image", "scraped_at"]
+              "bedrooms", "floor", "year_built", "location", "lat", "lon", "image",
+              "date_published", "date_updated", "date_sitemap", "date_source", "scraped_at"]
     import os
     os.makedirs("data/listings", exist_ok=True)
     if only is not None and os.path.exists(OUT):
