@@ -11,6 +11,7 @@ bedrooms, year built, owner (agency or private), the owner's xe.gr page,
 "bumped" time ("Πριν 23 ώρες") and a thumbnail URL.
 
 Usage: python3 scripts/collect_xe_listings.py [--max-pages 0]
+Resumable: rerun continues where the previous run stopped (progress in listings_xe.csv.pages).
 Output: data/listings/listings_xe.csv (same columns as listings_thessaloniki.csv)
 """
 import argparse
@@ -24,7 +25,8 @@ import urllib.request
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/128.0 Safari/537.36 SpitiRadar/0.1 (+https://spitiradar.gr/opt-out)")
-DELAY_S = 3.0
+DELAY_S = 20.0          # xe.gr blocks faster crawling (403 after ~50 pages at 3 s)
+MAX_FAILS_IN_ROW = 5    # stop on repeated refusals instead of hammering the site
 OUT = "data/listings/listings_xe.csv"
 SUBTYPES = {
     "residence": ["", "apartment", "studios-small-apartment", "one-bedroom-apartment", "two-bedroom-apartment",
@@ -156,29 +158,51 @@ def main():
     if a.max_pages:
         urls = urls[:a.max_pages]
     today = datetime.date.today()
-    listings, seen = [], set()
-    for i, u in enumerate(urls, 1):
-        try:
-            page = fetch(u)
-        except Exception as e:
-            print(f"skip {u}: {type(e).__name__}", file=sys.stderr)
-            time.sleep(DELAY_S)
-            continue
-        for rec in parse_cards(page, u, today):
-            if rec["xe_id"] and rec["xe_id"] not in seen:
-                seen.add(rec["xe_id"])
-                listings.append(rec)
-        if i % 50 == 0:
-            print(f"{i}/{len(urls)} pages, {len(listings)} listings", file=sys.stderr)
-        time.sleep(DELAY_S)
     fields = ["source_domain", "agency", "url", "title", "transaction", "type", "price_eur", "area_m2",
               "bedrooms", "floor", "year_built", "location", "lat", "lon", "image",
               "date_published", "date_updated", "date_sitemap", "date_source", "xe_id", "owner_url", "scraped_at"]
-    with open(OUT, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fields)
+    # resume: keep what earlier runs saved, skip result pages already read today
+    import os
+    listings, seen, done_pages = [], set(), set()
+    if os.path.exists(OUT):
+        for r in csv.DictReader(open(OUT, encoding="utf-8")):
+            listings.append(r)
+            seen.add(r["xe_id"])
+    progress = OUT + ".pages"
+    if os.path.exists(progress):
+        done_pages = set(open(progress, encoding="utf-8").read().split())
+    f = open(OUT, "a" if listings else "w", newline="", encoding="utf-8")
+    w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+    if not listings:
         w.writeheader()
-        w.writerows(listings)
-    print(f"done: {len(listings)} unique listings from {len(urls)} result pages", file=sys.stderr)
+    fails = 0
+    todo = [u for u in urls if u not in done_pages]
+    print(f"{len(todo)} result pages to read ({len(done_pages)} done earlier), {len(listings)} listings saved", file=sys.stderr)
+    for i, u in enumerate(todo, 1):
+        try:
+            page = fetch(u)
+            fails = 0
+        except Exception as e:
+            fails += 1
+            print(f"skip {u[-60:]}: {getattr(e, 'code', type(e).__name__)}", file=sys.stderr)
+            if fails >= MAX_FAILS_IN_ROW:
+                print(f"stopping: {fails} refusals in a row; resume later", file=sys.stderr)
+                break
+            time.sleep(DELAY_S * 3)
+            continue
+        new = [r for r in parse_cards(page, u, today) if r["xe_id"] and r["xe_id"] not in seen]
+        for r in new:
+            seen.add(r["xe_id"])
+        w.writerows(new)
+        f.flush()
+        with open(progress, "a", encoding="utf-8") as pf:
+            pf.write(u + "\n")
+        listings += new
+        if i % 20 == 0:
+            print(f"{i}/{len(todo)} pages, {len(listings)} listings", file=sys.stderr)
+        time.sleep(DELAY_S)
+    f.close()
+    print(f"done: {len(listings)} unique listings saved", file=sys.stderr)
 
 
 if __name__ == "__main__":
