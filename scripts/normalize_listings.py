@@ -42,69 +42,37 @@ AREAS = [
     ("Κορδελιό-Εύοσμος", r"ευοσμ|evosm|κορδελι|kordeli|ελευθεριο"),
     ("Αμπελόκηποι-Μενεμένη", r"αμπελοκηπ|ampelokip|μενεμεν|menemen"),
     ("Ωραιόκαστρο", r"ωραιοκαστρ|oraiokastr|oreokastr|παλαιοκαστρ"),
-    ("Χαλκηδόνα", r"κουφαλι|koufali|χαλκηδον|chalkidon|μαλγαρα|malgara|κοιμηση θεοτοκου"),
+    ("Χαλκηδόνα", r"κουφαλι|koufali|χαλκηδον|chalkidon|κοιμηση θεοτοκου"),
     ("Βόλβη", r"βολβη|volvi|ασπροβαλτα|asprovalta|σταυροσ θεσσαλον|νεα απολλωνια|apollonia|ρεντινα|nea madytos|μαδυτοσ"),
-    ("Δέλτα", r"νεα μαγνησια|magnisia|αδενδρο|adendro|κυμινα|kymina|νεα χαλκηδονα|σινδοσ|sindos|καλοχωρι|kalochori|χαλαστρα|chalastra|διαβατα|diavata|δελτα"),
+    ("Δέλτα", r"μαλγαρα|malgara|νεα μαγνησια|magnisia|αδενδρο|adendro|κυμινα|kymina|νεα χαλκηδονα|σινδοσ|sindos|καλοχωρι|kalochori|χαλαστρα|chalastra|διαβατα|diavata|δελτα"),
     ("Λαγκαδάς", r"λαγκαδα|lagkada|langada|λαγυνα|μυγδονι|mygdoni|\bλητη|\bliti\b|δρυμοσ|drymos|μελισσοχωρι|melissochori|ζαγκλιβερ|zagkliver|ασσηροσ|σοχοσ|κολχικο"),
     ("Πυλαία-Χορτιάτης", r"πυλαια|χορτιατ"),
     ("Θεσσαλονίκη-Ανατολικά", r"βασιλισσησ ολγασ|βασ\. ολγασ|vasilissis olgas|δελφων|παπαναστασιου|papanastasiou|κωνσταντινουπολεωσ|παπαφη|papafi|ευαγγελιστριασ|τουμπα|toumpa|toumba|χαριλαου|charilaou|ανω τουμπα|κατω τουμπα|αναληψη|analipsi|μποτσαρη|νεα παραλια|25ησ μαρτιου|μαρτιου|martiou|ντεπω|depo|κηφισια|βουλγαρη|ιπποκρατειο|φαληρο|faliro|τριανδρια|triandria"),
     ("Θεσσαλονίκη-Κέντρο", r"τσιμισκ|tsimisk|μητροπολεωσ|mitropoleos|εγνατια|egnatia|ερμου|βενιζελου|προξενου κορομηλα|παυλου μελα|αγιασ σοφιασ|ναυαρινου|navarinou|κατουνη|ολυμπου|φιλικησ εταιρειασ|κεντρο θεσσαλον|center of thessalon|thessaloniki center|αριστοτελουσ|καμαρα|kamara|ροτοντα|λαδαδικα|βαρδαρ|vardar|ανω πολη|ano poli|αγια σοφια|αγιοσ δημητριοσ|ιπποδρομιου|λευκοσ πυργοσ|δεθ|πανεπιστημι|σκρα|λαχανοκηπ|ξηροκρηνη|ευαγγελιστρια|συντριβανι|παραλια θεσσαλον"),
     ("Θεσσαλονίκη", r"θεσσαλονικ|θεσ/νικ|thes+alonik|salonic|saloniki"),
 ]
-# finer level inside the districts: (neighbourhood, district, pattern on accent-free lowercase text)
-NEIGHBOURHOODS = [
-    ("Βαρδάρης", "Θεσσαλονίκη-Κέντρο", r"βαρδαρ|vardar|πλατεια δημοκρατιασ|λαχανοκηπ|lachanokip"),
-    ("Λαδάδικα", "Θεσσαλονίκη-Κέντρο", r"λαδαδικ|ladadik"),
-    ("Άνω Πόλη", "Θεσσαλονίκη-Κέντρο", r"ανω πολη|ano poli|καστρα\b|kastra\b"),
-    ("Ξηροκρήνη", "Θεσσαλονίκη-Κέντρο", r"ξηροκρην|xirokrin|παναγια φανερωμενη"),
-    ("Καμάρα - Ροτόντα", "Θεσσαλονίκη-Κέντρο", r"καμαρα|kamara|ροτοντα|rotonda|ναυαρινου|navarinou"),
-    ("Αγία Σοφία", "Θεσσαλονίκη-Κέντρο", r"αγια σοφια|αγιασ σοφιασ|agia sofia"),
-    ("Ιπποδρόμιο", "Θεσσαλονίκη-Κέντρο", r"ιπποδρομι|ippodromi"),
-    ("Αριστοτέλους", "Θεσσαλονίκη-Κέντρο", r"αριστοτελουσ|aristotelous"),
-    ("Λευκός Πύργος", "Θεσσαλονίκη-Κέντρο", r"λευκοσ πυργοσ|λευκου πυργου|white tower"),
-    ("Πανεπιστήμια - ΔΕΘ", "Θεσσαλονίκη-Κέντρο", r"πανεπιστημι|\bδεθ\b|\bαπθ\b"),
-    ("Άνω Τούμπα", "Θεσσαλονίκη-Ανατολικά", r"ανω τουμπα|ano toump|ano toumb"),
-    ("Κάτω Τούμπα", "Θεσσαλονίκη-Ανατολικά", r"κατω τουμπα|kato toump|kato toumb"),
-    ("Τούμπα", "Θεσσαλονίκη-Ανατολικά", r"τουμπα|toumpa|toumba"),
-    ("Χαριλάου", "Θεσσαλονίκη-Ανατολικά", r"χαριλαου|charilaou|xarilaou"),
-    ("Μαρτίου", "Θεσσαλονίκη-Ανατολικά", r"25ησ μαρτιου|μαρτιου|martiou"),
-    ("Ντεπώ", "Θεσσαλονίκη-Ανατολικά", r"ντεπω|depo\b"),
-    ("Ανάληψη - Μπότσαρη", "Θεσσαλονίκη-Ανατολικά", r"αναληψη|analipsi|μποτσαρη|botsari"),
-    ("Νέα Παραλία - Φάληρο", "Θεσσαλονίκη-Ανατολικά", r"νεα παραλια|nea paralia|φαληρο|faliro"),
-    ("Βούλγαρη", "Θεσσαλονίκη-Ανατολικά", r"βουλγαρη|voulgari"),
-    ("Τριανδρία", "Θεσσαλονίκη-Ανατολικά", r"τριανδρια|triandria"),
-    ("Παπάφη", "Θεσσαλονίκη-Ανατολικά", r"παπαφη|papafi"),
-    ("Ιπποκράτειο", "Θεσσαλονίκη-Ανατολικά", r"ιπποκρατει|ippokratei"),
-    ("Αρετσού", "Καλαμαριά", r"αρετσου|aretsou"),
-    ("Καραμπουρνάκι", "Καλαμαριά", r"καραμπουρνακι|karampournaki|karabournaki"),
-    ("Νέα Κρήνη", "Καλαμαριά", r"νεα κρηνη|nea krini"),
-    ("Σταυρούπολη", "Παύλος Μελάς", r"σταυρουπολ|stavroupol"),
-    ("Πολίχνη", "Παύλος Μελάς", r"πολιχνη|polichni|polixni"),
-    ("Ευκαρπία", "Παύλος Μελάς", r"ευκαρπια|efkarpia"),
-    ("Νεάπολη", "Νεάπολη-Συκιές", r"νεαπολ|neapol"),
-    ("Συκιές", "Νεάπολη-Συκιές", r"συκιε|sykie"),
-    ("Πεύκα", "Νεάπολη-Συκιές", r"\bπευκα\b|\bpefka\b"),
-    ("Εύοσμος", "Κορδελιό-Εύοσμος", r"ευοσμ|evosm"),
-    ("Κορδελιό", "Κορδελιό-Εύοσμος", r"κορδελι|kordeli"),
-    ("Αμπελόκηποι", "Αμπελόκηποι-Μενεμένη", r"αμπελοκηπ|ampelokip"),
-    ("Μενεμένη", "Αμπελόκηποι-Μενεμένη", r"μενεμεν|menemen"),
-    ("Περαία", "Θερμαϊκός", r"περαια|peraia"),
-    ("Νέοι Επιβάτες", "Θερμαϊκός", r"νεοι επιβατεσ|neoi epivates"),
-    ("Αγία Τριάδα", "Θερμαϊκός", r"αγια τριαδα|agia triada"),
-    ("Μηχανιώνα", "Θερμαϊκός", r"μηχανιωνα|michaniona"),
-    ("Επανομή", "Θερμαϊκός", r"επανομη|epanomi"),
-    ("Νέα Ραιδεστός", "Θέρμη", r"νεα ραιδεστοσ|nea raidestos"),
-    ("Ταγαράδες", "Θέρμη", r"ταγαραδεσ|tagarades"),
-    ("Τριάδι", "Θέρμη", r"τριαδι\b|triadi\b"),
-]
+# finer level: the areas of Jeny Shir's Thessaloniki map (scripts/districts.py)
+import os as _os, sys as _sys  # noqa: E401
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import districts  # noqa: E402
+
+# neighbourhood names written by earlier versions of refine_districts.py -> map area id
+OLD_NB = {"Βαρδάρης": "vardaris", "Λαδάδικα": "ladadika", "Άνω Πόλη": "anopoli", "Ξηροκρήνη": "xirokrini",
+          "Καμάρα - Ροτόντα": "kamara", "Αγία Σοφία": "agiasofia", "Αριστοτέλους": "istoriko",
+          "Λευκός Πύργος": "paliaparalia", "Πανεπιστήμια - ΔΕΘ": "kamara", "Άνω Τούμπα": "anotoumpa",
+          "Κάτω Τούμπα": "katotoumpa", "Χαριλάου": "charilaou", "Μαρτίου": "martiou", "Ντεπώ": "depo",
+          "Ανάληψη - Μπότσαρη": "analipsi", "Νέα Παραλία - Φάληρο": "neaparalia", "Βούλγαρη": "voulgari",
+          "Τριανδρία": "triandria", "Παπάφη": "papafi", "Ιπποκράτειο": "faliro", "Αρετσού": "kalamaria",
+          "Καραμπουρνάκι": "kalamaria", "Νέα Κρήνη": "kalamaria", "Σταυρούπολη": "stavroupoli",
+          "Πολίχνη": "polichni", "Ευκαρπία": "efkarpia", "Νεάπολη": "neapoli", "Συκιές": "sykies",
+          "Πεύκα": "pefka", "Εύοσμος": "evosmos", "Κορδελιό": "kordelio", "Αμπελόκηποι": "ampelokipoi",
+          "Μενεμένη": "menemeni", "Περαία": "perea", "Νέοι Επιβάτες": "neoiepivates"}
 
 
 def neighbourhood(text, district):
-    """First neighbourhood named in text that lies in the district (or any, if district is generic)."""
-    for name, parent, pat in NEIGHBOURHOODS:
-        if re.search(pat, text) and (district in ("", "Θεσσαλονίκη") or parent == district):
-            return name, parent
-    return "", ""
+    """Map area named in text that lies in the district -> (id, its district)."""
+    i = districts.by_name(text, district)
+    return (i, districts.AREAS[i]["district"]) if i else ("", "")
 
 
 OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια|παλληνη|pallini|ραφηνα|γλυφαδα|μαρουσι|κηφισια αττικ"
@@ -253,7 +221,8 @@ def main():
             if not nb:
                 nb, parent = neighbourhood(loc, area_name)
             if not nb and h and h.get("neighbourhood") and h["area"] == area_name:
-                nb, parent = h["neighbourhood"], area_name
+                nb = OLD_NB.get(h["neighbourhood"], h["neighbourhood"])
+                nb = nb if nb in districts.AREAS and districts.AREAS[nb]["district"] == area_name else ""
             if nb and area_name in ("", "Θεσσαλονίκη"):
                 area_name = parent  # the neighbourhood tells the district
 
@@ -337,7 +306,7 @@ def fill_from_coordinates(out):
     office_like = {d for d, pts in by_site.items() if len(pts) >= 5 and Counter(pts).most_common(1)[0][1] / len(pts) > 0.5}
     moved = Counter()
     for r in out:
-        if not (r["lat"] and r["lon"]) or r["source_domain"] in office_like or r["area"] not in ("", "Θεσσαλονίκη"):
+        if not (r["lat"] and r["lon"]) or r["source_domain"] in office_like or r["neighbourhood"]:
             continue
         try:
             lat, lon = float(r["lat"]), float(r["lon"])
@@ -350,6 +319,13 @@ def fill_from_coordinates(out):
             continue
         if r["region"] == "other":
             continue
+        inside = districts.by_point(lat, lon)
+        if inside and r["area"] in ("", "Θεσσαλονίκη", districts.AREAS[inside]["district"]):
+            r["region"], r["area"], r["neighbourhood"] = "thessaloniki", districts.AREAS[inside]["district"], inside
+            moved["map area"] += 1
+            continue
+        if r["area"] not in ("", "Θεσσαλονίκη"):
+            continue  # the listing's text names another district: keep it
         name, (clat, clon) = min(CENTRES.items(), key=lambda c: (c[1][0] - lat) ** 2 + ((c[1][1] - lon) * 0.76) ** 2)
         km = math.hypot(clat - lat, (clon - lon) * 0.76) * 111
         r["region"] = "thessaloniki"

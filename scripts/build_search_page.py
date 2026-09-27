@@ -37,7 +37,7 @@ for members in groups.values():
     p, m2 = (min(prices) if prices else None), num(r, "area_m2") or (num(members[0], "area_m2"))
     rows.append({"u": r["url"], "t": r["title"][:140], "ag": r["agency"], "tx": r["transaction"],
                  "ty": first("type"), "p": p, "px": max(prices) if len(set(prices)) > 1 else None,
-                 "m": m2, "pm": round(p / m2) if p and m2 else None, "bd": first("bedrooms")[:2],
+                 "m": m2, "pm": round(p / m2) if p and m2 else None, "bd": first("bedrooms")[:2] if (first("bedrooms")[:2].isdigit() and 0 < int(first("bedrooms")[:2]) <= 10) else "",
                  "fl": first("floor")[:10], "yr": first("year_built"), "rg": r["region"], "ar": first("area"), "nb": first("neighbourhood"),
                  "lr": r["location_raw"][:40], "ld": newest.get("listing_date", ""),
                  "lk": newest.get("listing_date_kind", ""), "fs": min((m["first_seen"] for m in members if m.get("first_seen")), default=""),
@@ -47,9 +47,14 @@ for members in groups.values():
                  # other sites with the same property: [name, url, price]
                  "alt": [[PORTAL_NAME.get(m.get("source_domain"), m["agency"]), m["url"], num(m, "price_eur")]
                          for m in members[1:]]})
+sys.path.insert(0, "scripts")
+import districts  # noqa: E402
+# map areas for the page: id -> [Russian name, Greek name, district, sale EUR/m2, rent EUR/m2]
+areas = {i: [a["ru"], a["gr"], a["district"], a.get("sale"), a.get("rent")] for i, a in districts.AREAS.items()}
 page = open("web/search_template.html", encoding="utf-8").read()
 data = json.dumps(rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 asof = max((r["scraped_at"] for r in csv.DictReader(open("data/listings/listings_normalized.csv", encoding="utf-8"))), default="")[:10]
 asof = datetime.date.fromisoformat(asof).strftime("%d.%m.%Y") if asof else ""
-open(sys.argv[1], "w", encoding="utf-8").write(page.replace("__DATA__", data).replace("__ASOF__", asof))
+open(sys.argv[1], "w", encoding="utf-8").write(page.replace("__DATA__", data).replace("__ASOF__", asof)
+                                                 .replace("__MAPAREAS__", json.dumps(areas, ensure_ascii=False)))
 print(f"{sum(len(g) for g in groups.values())} listings, {len(rows)} properties -> {sys.argv[1]}")

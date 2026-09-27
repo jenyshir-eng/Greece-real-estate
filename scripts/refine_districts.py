@@ -25,7 +25,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.dirname(__file__))
 from collect_listings import Site, robots_setup  # noqa: E402
-from normalize_listings import AREAS, NEIGHBOURHOODS, OTHER_REGIONS, PORTALS, plain  # noqa: E402
+import districts  # noqa: E402
+from normalize_listings import AREAS, OTHER_REGIONS, PORTALS, plain  # noqa: E402
 
 NORMALIZED = "data/listings/listings_normalized.csv"
 HINTS = "data/listings/district_hints.csv"
@@ -48,7 +49,8 @@ def districts_in(text):
 
 
 def neighbourhoods_in(text):
-    return [(n, parent) for n, parent, pat in NEIGHBOURHOODS if re.search(pat, text)]
+    """Map areas (Jeny Shir's Thessaloniki map) named in text -> [(id, district)]."""
+    return [(i, districts.AREAS[i]["district"]) for i, pat in districts._compiled if pat.search(text)]
 
 
 def jsonld_address(page):

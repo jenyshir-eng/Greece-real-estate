@@ -67,6 +67,9 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
 .also a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
 .also a:hover{text-decoration-thickness:2px}
 .chip.multi{background:var(--accent);color:var(--surface)}
+.chip.below{color:var(--accent);font-weight:600}
+.chip.above{color:var(--muted)}
+.maplink{position:relative;z-index:1;color:var(--accent)}
 .ico{width:44px;height:44px;border-radius:8px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center}
 .ico svg{width:22px;height:22px}
 .main{min-width:0;display:grid;gap:4px}
@@ -176,7 +179,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
       </div>
       <div class="list" id="list"></div>
       <button class="more" type="button" id="more" hidden>Показать ещё</button>
-      <p class="note">Сбор с сайтов ~200 агентств Салоник (до 500 объявлений с сайта); Порталы (Spitogatos, Indomio, Plot, Spiti24, Tospitimou) — новые объявления из их email-оповещений, с датой оповещения. Поиск понимает русский, греческий и латиницу. Дата — когда агентство опубликовало или обновило объявление; многие сайты дату не показывают, такие объявления помечены «дата не указана на сайте». Район определён по объявлению; если в нём указан только город, объявление в районе «Салоники, район не указан». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
+      <p class="note">Сбор с сайтов ~200 агентств Салоник (до 500 объявлений с сайта); Порталы (Spitogatos, Indomio, Plot, Spiti24, Tospitimou) — новые объявления из их email-оповещений, с датой оповещения. Районы и средние цены за м² — по <a href="https://jenyshir.com/ru/maps/thessaloniki/" target="_blank" rel="noopener">карте районов Салоник Jeny Shir</a> (границы центра — открытые данные мэрии); «−15% к средней по району» сравнивает цену за м² объявления со средней по району на карте. Поиск понимает русский, греческий и латиницу. Дата — когда агентство опубликовало или обновило объявление; многие сайты дату не показывают, такие объявления помечены «дата не указана на сайте». Район определён по объявлению; если в нём указан только город, объявление в районе «Салоники, район не указан». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
     </section>
   </div>
 </div>
@@ -197,21 +200,19 @@ const AREA_LAT = {"Καλαμαριά":"kalamaria kalamaria kalamariá","Πυλ�
   "Ωραιόκαστρο":"oraiokastro oreokastro","Δέλτα":"delta sindos kalochori","Λαγκαδάς":"lagkadas langadas",
   "Θεσσαλονίκη-Ανατολικά":"toumba toumpa charilaou martiou тумба харилау мартиу","Θεσσαλονίκη-Κέντρο":"center centre kentro центр цимиски tsimiski","Χαλκηδόνα":"chalkidona koufalia","Βόλβη":"volvi asprovalta stavros асправалта",
   "Θεσσαλονίκη":""};
-// neighbourhoods: Russian name, then extra search words
-const NB_RU = {"Βαρδάρης":"Вардар vardaris вардарис лаханокипи","Λαδάδικα":"Лададика ladadika","Άνω Πόλη":"Ано Поли ano poli верхний город",
-  "Ξηροκρήνη":"Ксирокрини xirokrini","Καμάρα - Ροτόντα":"Камара и Ротонда kamara rotonda наварину","Αγία Σοφία":"Агия София agia sofia",
-  "Ιπποδρόμιο":"Ипподромио ippodromio","Αριστοτέλους":"Аристотелус aristotelous","Λευκός Πύργος":"Белая башня lefkos pyrgos",
-  "Πανεπιστήμια - ΔΕΘ":"Университеты и выставка universities","Άνω Τούμπα":"Ано Тумба ano toumpa","Κάτω Τούμπα":"Като Тумба kato toumpa",
-  "Τούμπα":"Тумба toumpa toumba","Χαριλάου":"Харилау charilaou","Μαρτίου":"Мартиу 25 martiou","Ντεπώ":"Депо depo",
-  "Ανάληψη - Μπότσαρη":"Аналипси и Боцари analipsi botsari","Νέα Παραλία - Φάληρο":"Новая набережная и Фалиро nea paralia faliro",
-  "Βούλγαρη":"Вулгари voulgari","Τριανδρία":"Триандрия triandria","Παπάφη":"Папафи papafi","Ιπποκράτειο":"Иппократио ippokrateio",
-  "Αρετσού":"Арецу aretsou","Καραμπουρνάκι":"Карабурнаки karampournaki","Νέα Κρήνη":"Неа Крини nea krini",
-  "Σταυρούπολη":"Ставруполи stavroupoli","Πολίχνη":"Полихни polichni","Ευκαρπία":"Эвкарпия efkarpia","Νεάπολη":"Неаполи neapoli",
-  "Συκιές":"Сикиес sykies","Πεύκα":"Пефка pefka","Εύοσμος":"Эвосмос evosmos","Κορδελιό":"Корделио kordelio",
-  "Αμπελόκηποι":"Амбелокипи ampelokipoi","Μενεμένη":"Менемени menemeni","Περαία":"Перея peraia","Νέοι Επιβάτες":"Нии Эпиватес neoi epivates",
-  "Αγία Τριάδα":"Агия Триада agia triada","Μηχανιώνα":"Миханиона michaniona","Επανομή":"Эпаноми epanomi",
-  "Νέα Ραιδεστός":"Неа Редестос nea raidestos","Ταγαράδες":"Тагарадес tagarades","Τριάδι":"Триади triadi"};
-const nbName = n => (NB_RU[n]||n).split(/ [a-z0-9]/)[0];
+// areas of Jeny Shir's Thessaloniki map: id -> [ru, gr, district, sale EUR/m2, rent EUR/m2]
+const MAPAREA = __MAPAREAS__;
+const MAP_URL = "https://jenyshir.com/ru/maps/thessaloniki/";
+const nbName = n => MAPAREA[n] ? MAPAREA[n][0] : n;
+const RESIDENTIAL = new Set(["apartment","studio","maisonette"]);
+// listing price per m2 against the map's average for its area (sale) or rent per m2 (rent)
+function vsMarket(d){
+  const a = MAPAREA[d.nb]; if(!a || !d.p || !d.m || !RESIDENTIAL.has(d.ty)) return null;
+  const ref = d.tx==="sale" ? a[3] : d.tx==="rent" ? a[4] : null; if(!ref) return null;
+  const v = d.tx==="sale" ? d.p/d.m : d.p/d.m;
+  const pct = Math.round((v/ref - 1) * 100);
+  return Math.abs(pct) > 60 ? null : pct;  // far off: probably a data error, better not to show
+}
 const TYPE_SYN = {apartment:"квартира квартиру apartment flat διαμερισμα",studio:"студия студию гарсоньера studio γκαρσονιερα квартира",
   maisonette:"мезонет таунхаус maisonette μεζονετα дом",house:"дом вилла коттедж house villa μονοκατοικια",land:"участок земля земельный plot land οικοπεδο",
   store:"магазин коммерческое помещение store shop καταστημα",office:"офис office γραφειο",warehouse:"склад производство warehouse αποθηκη",
@@ -231,7 +232,7 @@ const median = a => { if(!a.length) return null; const s=[...a].sort((x,y)=>x-y)
 const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/ς/g,"σ");
 
 let tx = "sale", page = 60;
-DATA.forEach(d => d._q = norm([d.t, (d.ags||[d.ag]).join(" "), d.ar, d.nb||"", NB_RU[d.nb]||"", d.lr, AREA_RU[d.ar]||"", AREA_LAT[d.ar]||"", TYPE_SYN[d.ty]||"", TYPE_RU[d.ty]||"",
+DATA.forEach(d => d._q = norm([d.t, (d.ags||[d.ag]).join(" "), d.ar, d.nb||"", MAPAREA[d.nb] ? MAPAREA[d.nb][0]+" "+MAPAREA[d.nb][1] : "", d.lr, AREA_RU[d.ar]||"", AREA_LAT[d.ar]||"", TYPE_SYN[d.ty]||"", TYPE_RU[d.ty]||"",
   d.tx==="rent" ? "аренда снять сдается rent" : d.tx==="sale" ? "продажа купить продается sale" : "",
   d.rg==="thessaloniki" ? "салоники thessaloniki θεσσαλονικη" : ""].join(" ")));
 
@@ -242,11 +243,14 @@ function fillSelect(el, values, label){
 (() => {
   const dist = [...new Set(DATA.map(d=>d.ar).filter(Boolean))].sort((a,b)=>(AREA_RU[a]||a).localeCompare(AREA_RU[b]||b,"ru"));
   const nbCount = {}; DATA.forEach(d => { if(d.nb) nbCount[d.ar+"|"+d.nb] = (nbCount[d.ar+"|"+d.nb]||0)+1; });
+  const label = n => MAPAREA[n] ? `${MAPAREA[n][0]} (${MAPAREA[n][1]})` : n;
   dist.forEach(a => {
     const o=document.createElement("option"); o.value=a; o.textContent = AREA_RU[a] ? `${AREA_RU[a]} (${a})` : a; $("area").appendChild(o);
+    // skip an area that is the whole district (Каламария under Каламария)
     Object.keys(nbCount).filter(k => k.startsWith(a+"|") && nbCount[k] >= 3).map(k=>k.split("|")[1])
+      .filter(n => !MAPAREA[n] || MAPAREA[n][1] !== a)
       .sort((x,y)=>nbName(x).localeCompare(nbName(y),"ru")).forEach(n => {
-        const q=document.createElement("option"); q.value="nb:"+n; q.textContent=`\u00a0\u00a0\u00a0— ${nbName(n)} (${n})`; $("area").appendChild(q);
+        const q=document.createElement("option"); q.value="nb:"+n; q.textContent=`\u00a0\u00a0\u00a0— ${label(n)}`; $("area").appendChild(q);
       });
   });
 })();
@@ -294,10 +298,12 @@ function render(reset){
     if(d.bd) chips.push(`<span>${d.bd} сп.</span>`);
     if(d.fl) chips.push(`<span>этаж ${esc(d.fl)}</span>`);
     if(d.yr) chips.push(`<span>${d.yr} г.</span>`);
-    chips.push(`<span>${esc((AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан")) + (d.nb ? " · " + nbName(d.nb) : ""))}</span>`);
+    chips.push(`<span>${esc(AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан"))}${d.nb && MAPAREA[d.nb] ? ` · <a class="maplink" href="${MAP_URL}" target="_blank" rel="noopener" title="Район на карте районов Салоник">${esc(nbName(d.nb))}</a>` : ""}</span>`);
     if(d.pv==="yes" || d.ag!==PORTAL_NAME[d.src]) chips.push(`<span>· ${esc(d.pv==="yes" ? "частный владелец" : d.ag)}</span>`);
     if(PORTAL_NAME[d.src]) chips.push(`<span class="chip">${PORTAL_NAME[d.src]}</span>`);
     if(d.alt && d.alt.length) chips.push(`<span class="chip multi">на ${d.alt.length+1} сайтах</span>`);
+    const vm = vsMarket(d);
+    if(vm!=null && Math.abs(vm) >= 10) chips.push(`<span class="chip ${vm<0?"below":"above"}" title="Цена за м² против средней по району «${esc(nbName(d.nb))}» на карте районов Jeny Shir">${vm>0?"+":"−"}${Math.abs(vm)}% к средней по району</span>`);
     chips.push(`<span>· ${d.ld ? (d.lk==="updated" ? "обновлено " : "опубликовано ") + ruDate(d.ld) : "дата не указана на сайте"}</span>`);
     a.innerHTML = `<div class="ico" aria-hidden="true">${iconFor(d.ty)}</div>
       <div class="main"><div class="t" title="${esc(d.t)}"><a href="${esc(d.u)}" target="_blank" rel="noopener">${esc(d.t)}</a></div><div class="meta">${chips.join("")}</div>${also(d)}</div>
