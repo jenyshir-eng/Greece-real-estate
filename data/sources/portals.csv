@@ -1,15 +1,15 @@
-domain,name,kind,segment,owner_group,has_agency_directory,agency_directory_url_pattern,priority,notes
-spitogatos.gr,Spitogatos,portal,resale;new_build,Spitogatos Network,yes,https://www.spitogatos.gr/en/find-agents/{area},1,Largest portal; ~477 agencies Thessaloniki municipality + ~318 suburbs (directory counts); first-wave portal + main agency discovery source
-xe.gr,XE (Χρυσή Ευκαιρία),portal,resale;new_build,XE,unknown,,1,Classifieds; many private owner listings
-spiti24.gr,Spiti24,portal,resale;new_build,Spitogatos Network,yes,https://www.spiti24.gr/en/estate-agents/{area},1,Same group as Spitogatos - heavy overlap expected
-tospitimou.gr,Tospitimou,portal,resale;new_build,Spitogatos Network,unknown,,3,Same group as Spitogatos - heavy overlap expected
-indomio.gr,Indomio,portal,resale;new_build,,yes,https://www.indomio.gr/en/mesitika-grafeia/{area}/,1,International portal
-plot.gr,Plot,portal,resale,,unknown,,1,Private owners + agents
-green-acres.gr,Green-Acres,portal,resale,Green-Acres,unknown,,3,Foreign-buyer oriented
-greekpropertyfinder.gr,Greek Property Finder,portal,resale,RE1.gr network,unknown,,3,Licensed agents only
-remax.gr,RE/MAX Greece,franchise,resale;new_build,RE/MAX,yes,,1,~79 offices in Greece - one parser covers all offices
-century21.com.gr,Century 21 Greece,franchise,resale;new_build,Century 21,unknown,,2,One parser covers all offices
-kwworldwide.com (KW Greece),Keller Williams Greece,franchise,resale,Keller Williams,unknown,,3,Check Greek site
-goldenhome.gr,Golden Home,franchise,resale,Golden Home,unknown,,2,Network of offices
-vrisko.gr,Vrisko (Greek yellow pages),directory,,,yes,https://www.vrisko.gr/dir/mesites-astikon-symbaseon/{area}/,1,Agencies not present on portals - discovery only
-xo.gr,XO (Greek yellow pages),directory,,,yes,https://www.xo.gr/dir-az/M/Mesitika-Grafeia/{area}/,1,Agencies not present on portals - discovery only
+domain,name,kind,segment,owner_group,has_agency_directory,agency_directory_url_pattern,priority,direct_access,notes
+spitogatos.gr,Spitogatos,portal,resale;new_build,Spitogatos Network,yes,https://www.spitogatos.gr/en/find-agents/{area},1,blocked_imperva;search_ok,Largest portal; ~477 agencies Thessaloniki municipality + ~318 suburbs (directory counts); first-wave portal + main agency discovery source
+xe.gr,XE (Χρυσή Ευκαιρία),portal,resale;new_build,XE,unknown,,1,ok,Classifieds; many private owner listings
+spiti24.gr,Spiti24,portal,resale;new_build,Spitogatos Network,yes,https://www.spiti24.gr/en/estate-agents/{area},1,blocked_imperva;search_ok,Same group as Spitogatos - heavy overlap expected
+tospitimou.gr,Tospitimou,portal,resale;new_build,Spitogatos Network,unknown,,3,blocked_imperva;search_ok,Same group as Spitogatos - heavy overlap expected
+indomio.gr,Indomio,portal,resale;new_build,,yes,https://www.indomio.gr/en/mesitika-grafeia/{area}/,1,blocked_datadome;search_ok,International portal
+plot.gr,Plot,portal,resale,,unknown,,1,blocked_cloudflare;search_ok,Private owners + agents
+green-acres.gr,Green-Acres,portal,resale,Green-Acres,unknown,,3,ok,Foreign-buyer oriented
+greekpropertyfinder.gr,Greek Property Finder,portal,resale,RE1.gr network,unknown,,3,ok,Licensed agents only
+remax.gr,RE/MAX Greece,franchise,resale;new_build,RE/MAX,yes,,1,ok,~79 offices in Greece - one parser covers all offices
+century21.com.gr,Century 21 Greece,franchise,resale;new_build,Century 21,unknown,,2,ok,One parser covers all offices
+kwworldwide.com (KW Greece),Keller Williams Greece,franchise,resale,Keller Williams,unknown,,3,ok,Check Greek site
+goldenhome.gr,Golden Home,franchise,resale,Golden Home,unknown,,2,ok,Network of offices
+vrisko.gr,Vrisko (Greek yellow pages),directory,,,yes,https://www.vrisko.gr/dir/mesites-astikon-symbaseon/{area}/,1,ok,Agencies not present on portals - discovery only
+xo.gr,XO (Greek yellow pages),directory,,,yes,https://www.xo.gr/dir-az/M/Mesitika-Grafeia/{area}/,1,blocked_cloudflare;search_ok,Agencies not present on portals - discovery only
