@@ -33,37 +33,41 @@ AREAS = [
     ("Καλαμαριά", r"καλαμαρι|kalamari|νεα κρηνη|nea krini|αρετσου|aretsou|καραμπουρνακι|karampournaki|βυζαντιο"),
     ("Πυλαία", r"πυλαια|pylaia|pylea|πυλαιασ"),
     ("Πανόραμα", r"πανοραμα|panorama"),
-    ("Θέρμη", r"θερμη|thermi|νεα ραιδεστοσ|νεο ρυσιο|ταγαραδεσ|τριαδι|βασιλικα|σουρωτη"),
+    ("Θέρμη", r"\bmikra\b|πλαγιαρι|plagiari|θερμη|thermi|νεα ραιδεστοσ|νεο ρυσιο|ταγαραδεσ|τριαδι|βασιλικα|σουρωτη"),
     ("Χορτιάτης", r"χορτιατ|chortiat|φιλυρο|εξοχη|ασβεστοχωρι"),
-    ("Θερμαϊκός", r"περαια|peraia|νεοι επιβατεσ|neoi epivates|αγια τριαδα|agia triada|μηχανιωνα|michaniona|επανομη|epanomi|θερμαικ|thermaik"),
-    ("Νεάπολη-Συκιές", r"νεαπολ|neapol|συκιε|sykie|sykies"),
+    ("Θερμαϊκός", r"μεσημερι|mesimeri|αγγελοχωρι|aggelochori|νεα μηχανιωνα|περαια|peraia|νεοι επιβατεσ|neoi epivates|αγια τριαδα|agia triada|μηχανιωνα|michaniona|επανομη|epanomi|θερμαικ|thermaik"),
+    ("Νεάπολη-Συκιές", r"νεαπολ|neapol|συκιε|sykie|sykies|\bπευκα\b|\bpefka\b|ρετζικι|retziki|αγιοσ παυλοσ|agios pavlos"),
     ("Παύλος Μελάς", r"σταυρουπολ|stavroupol|πολιχνη|polichni|polixni|ευκαρπια|efkarpia|παυλοσ μελασ"),
     ("Κορδελιό-Εύοσμος", r"ευοσμ|evosm|κορδελι|kordeli|ελευθεριο"),
     ("Αμπελόκηποι-Μενεμένη", r"αμπελοκηπ|ampelokip|μενεμεν|menemen"),
     ("Ωραιόκαστρο", r"ωραιοκαστρ|oraiokastr|oreokastr|παλαιοκαστρ"),
-    ("Δέλτα", r"σινδοσ|sindos|καλοχωρι|kalochori|χαλαστρα|chalastra|διαβατα|diavata|δελτα"),
+    ("Χαλκηδόνα", r"κουφαλι|koufali|χαλκηδον|chalkidon|μαλγαρα|malgara|κοιμηση θεοτοκου"),
+    ("Βόλβη", r"βολβη|volvi|ασπροβαλτα|asprovalta|σταυροσ θεσσαλον|νεα απολλωνια|apollonia|ρεντινα|nea madytos|μαδυτοσ"),
+    ("Δέλτα", r"νεα μαγνησια|magnisia|αδενδρο|adendro|κυμινα|kymina|νεα χαλκηδονα|σινδοσ|sindos|καλοχωρι|kalochori|χαλαστρα|chalastra|διαβατα|diavata|δελτα"),
     ("Λαγκαδάς", r"λαγκαδα|lagkada|langada|λαγυνα"),
     ("Πυλαία-Χορτιάτης", r"πυλαια|χορτιατ"),
-    ("Θεσσαλονίκη-Ανατολικά", r"τουμπα|toumpa|toumba|χαριλαου|charilaou|ανω τουμπα|κατω τουμπα|αναληψη|analipsi|μποτσαρη|νεα παραλια|25ησ μαρτιου|μαρτιου|martiou|ντεπω|depo|κηφισια|βουλγαρη|ιπποκρατειο|φαληρο|faliro|τριανδρια|triandria"),
-    ("Θεσσαλονίκη-Κέντρο", r"κεντρο θεσσαλον|center of thessalon|thessaloniki center|αριστοτελουσ|καμαρα|kamara|ροτοντα|λαδαδικα|βαρδαρ|vardar|ανω πολη|ano poli|αγια σοφια|αγιοσ δημητριοσ|ιπποδρομιου|λευκοσ πυργοσ|δεθ|πανεπιστημι|σκρα|λαχανοκηπ|ξηροκρηνη|ευαγγελιστρια|συντριβανι|παραλια θεσσαλον"),
-    ("Θεσσαλονίκη", r"θεσσαλονικ|thessalonik|salonic|saloniki"),
+    ("Θεσσαλονίκη-Ανατολικά", r"βασιλισσησ ολγασ|βασ\. ολγασ|vasilissis olgas|δελφων|παπαναστασιου|papanastasiou|κωνσταντινουπολεωσ|παπαφη|papafi|ευαγγελιστριασ|τουμπα|toumpa|toumba|χαριλαου|charilaou|ανω τουμπα|κατω τουμπα|αναληψη|analipsi|μποτσαρη|νεα παραλια|25ησ μαρτιου|μαρτιου|martiou|ντεπω|depo|κηφισια|βουλγαρη|ιπποκρατειο|φαληρο|faliro|τριανδρια|triandria"),
+    ("Θεσσαλονίκη-Κέντρο", r"τσιμισκ|tsimisk|μητροπολεωσ|mitropoleos|εγνατια|egnatia|ερμου|βενιζελου|προξενου κορομηλα|παυλου μελα|αγιασ σοφιασ|ναυαρινου|navarinou|κατουνη|ολυμπου|φιλικησ εταιρειασ|κεντρο θεσσαλον|center of thessalon|thessaloniki center|αριστοτελουσ|καμαρα|kamara|ροτοντα|λαδαδικα|βαρδαρ|vardar|ανω πολη|ano poli|αγια σοφια|αγιοσ δημητριοσ|ιπποδρομιου|λευκοσ πυργοσ|δεθ|πανεπιστημι|σκρα|λαχανοκηπ|ξηροκρηνη|ευαγγελιστρια|συντριβανι|παραλια θεσσαλον"),
+    ("Θεσσαλονίκη", r"θεσσαλονικ|θεσ/νικ|thes+alonik|salonic|saloniki"),
 ]
-OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ"
-NOT_LISTING = re.compile(r"^αποτελεσματα|^results|^αναζητηση|^search|blog|ιστορια|ανοικοδομηση|η εταιρεια|εταιρεια μασ|ποιοι ειμαστε|επικοινωνια|^ακινητα - |ευκαιριεσ ακινητων", re.I)
+OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια"
+NOT_LISTING = re.compile(r"^αποτελεσματα|^results|^αναζητηση|^search|blog|ιστορια|ανοικοδομηση|η εταιρεια|εταιρεια μασ|ποιοι ειμαστε|επικοινωνια|^ακινητα - |ευκαιριεσ ακινητων|^ergebnisse|^print$|^rezultat|^risultati", re.I)
 FOREIGN = re.compile(r"[Ѐ-ӿ]")  # Cyrillic: translated duplicates of the same object
 
 TYPES = [
     ("studio", r"γκαρσονιερ|στουντιο|studio|garsonier"),
     ("maisonette", r"μεζονετ|maisonette|mezonet"),
-    ("apartment", r"διαμερισμ|apartment|flat\b|diamerism|ρετιρε|penthouse|οροφοδιαμερισμ"),
-    ("house", r"μονοκατοικ|βιλα|villa|house|μονοκατ|monokatoik|detached|εξοχικ|κατοικια"),
-    ("land", r"οικοπεδ|αγροτεμαχ|αγροτικ|plot|land\b|γη\b|oikoped|agrotemax|εκταση"),
-    ("store", r"καταστημ|store|shop|katastim|μαγαζι|επαγγελματικοσ χωροσ|επαγγελματικο ακινητο|commercial"),
+    ("apartment", r"διαμερισμ|apartment|flat\b|diamerism|ρετιρε|penthouse|οροφοδιαμερισμ|\bloft\b|wohnung"),
+    ("house", r"μονοκατοικ|βιλα|villa|house|μονοκατ|monokatoik|detached|εξοχικ|παραθεριστικ|κατοικια|\bhaus\b"),
+    ("land", r"οικοπεδ|αγροτεμαχ|αγροτικ|plot|land\b|γη\b|oikoped|agrotemax|agrotemach|εκταση|agricultural|parcel|grundst"),
+    ("store", r"καταστημ|store|shop|katastim|μαγαζι|επαγγελματικοσ χωροσ|επαγγελματικο ακινητο|commercial|retail"),
     ("office", r"γραφει|office|grafeio"),
     ("warehouse", r"αποθηκ|warehouse|apothik|βιοτεχν|βιομηχαν|industrial"),
-    ("parking", r"παρκινγκ|θεση σταθμευσ|parking|γκαραζ|garage"),
+    ("parking", r"παρκινγκ|παρκιν|θεση σταθμευσ|parking|γκαραζ|garage"),
     ("building", r"κτιριο|building|συγκροτημ|πολυκατοικ"),
     ("hotel", r"ξενοδοχ|hotel|ξενωνα"),
+    # generic business words only when nothing more specific is named
+    ("store", r"επαγγελματικ|αιθουσα|επιχειρησ|gewerbe"),
 ]
 
 
@@ -100,10 +104,10 @@ def main():
         title, url = r["title"], r["url"]
         t = plain(title)
         u = plain(urlunquote(url))
-        if NOT_LISTING.search(t) or re.search(r"/listings/(areas/)?n\d+|/blog/|/news/", u):
+        if NOT_LISTING.search(t) or re.search(r"/listings/(areas/)?n/?\d+|/blog/|/news/|/print/|/insights?/|/articles?/|-guide-", u):
             drop["not a listing"] += 1
             continue
-        if FOREIGN.search(title) or re.search(r"/(ru|bg|sr|tr|zh|de|he)/", u):
+        if FOREIGN.search(title) or re.search(r"/(ru|bg|sr|tr|zh|de|he|it|fr|ro)/|[?&](language|lang)=(de|bg|ru|sr|tr|it|fr|ro|zh|he)\b", u):
             drop["translated duplicate"] += 1
             continue
         # keep the query (e.g. ?dios_code=218938 identifies the listing), drop fragments and tracking
@@ -204,6 +208,9 @@ def main():
             "scraped_at": r["scraped_at"],
         })
 
+    fill_from_coordinates(out)
+    fill_from_agency(out)
+
     with open(HISTORY, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["url", "first_seen", "last_seen"])
         w.writeheader()
@@ -224,6 +231,78 @@ def main():
     print("transaction:", Counter(x["transaction"] or "?" for x in out))
     print("type:", Counter(x["type"] or "?" for x in out).most_common())
     print("area:", Counter(x["area"] for x in out if x["region"] == "thessaloniki").most_common())
+
+
+# approximate centres of the districts above (lat, lon)
+CENTRES = {
+    "Θεσσαλονίκη-Κέντρο": (40.636, 22.943), "Θεσσαλονίκη-Ανατολικά": (40.612, 22.963),
+    "Καλαμαριά": (40.582, 22.950), "Πυλαία": (40.600, 22.987), "Πανόραμα": (40.588, 23.032),
+    "Θέρμη": (40.547, 23.020), "Θερμαϊκός": (40.497, 22.925), "Νεάπολη-Συκιές": (40.652, 22.953),
+    "Παύλος Μελάς": (40.668, 22.936), "Κορδελιό-Εύοσμος": (40.668, 22.908),
+    "Αμπελόκηποι-Μενεμένη": (40.652, 22.918), "Ωραιόκαστρο": (40.730, 22.917), "Δέλτα": (40.668, 22.800),
+    "Χορτιάτης": (40.598, 23.100), "Λαγκαδάς": (40.750, 23.068), "Χαλκηδόνα": (40.775, 22.600),
+    "Βόλβη": (40.690, 23.450),
+}
+
+
+def in_thessaloniki_unit(lat, lon):
+    """Rough outline of the Thessaloniki regional unit; the south-east corner is Halkidiki."""
+    if not (40.40 <= lat <= 41.10 and 22.50 <= lon <= 23.80):
+        return False
+    return lon <= 23.20 or lat >= 40.55
+
+
+def fill_from_coordinates(out):
+    """Listings with coordinates but no district: nearest district centre (within ~4 km).
+    Sites that give every listing the same point (their office) are ignored."""
+    import math
+    by_site = {}
+    for r in out:
+        if r["lat"] and r["lon"]:
+            by_site.setdefault(r["source_domain"], []).append((r["lat"], r["lon"]))
+    office_like = {d for d, pts in by_site.items() if len(pts) >= 5 and Counter(pts).most_common(1)[0][1] / len(pts) > 0.5}
+    moved = Counter()
+    for r in out:
+        if not (r["lat"] and r["lon"]) or r["source_domain"] in office_like or r["area"] not in ("", "Θεσσαλονίκη"):
+            continue
+        try:
+            lat, lon = float(r["lat"]), float(r["lon"])
+        except ValueError:
+            continue
+        if r["region"] != "other" and not in_thessaloniki_unit(lat, lon):
+            if r["region"] == "unknown" and 34 < lat < 42 and 19 < lon < 30:
+                r["region"] = "other"  # somewhere else in Greece
+                moved["region other"] += 1
+            continue
+        if r["region"] == "other":
+            continue
+        name, (clat, clon) = min(CENTRES.items(), key=lambda c: (c[1][0] - lat) ** 2 + ((c[1][1] - lon) * 0.76) ** 2)
+        km = math.hypot(clat - lat, (clon - lon) * 0.76) * 111
+        r["region"] = "thessaloniki"
+        if km <= 4:
+            r["area"] = name
+            moved["district"] += 1
+        else:
+            r["area"] = r["area"] or "Θεσσαλονίκη"
+            moved["region only"] += 1
+    print("from coordinates:", dict(moved), "; ignored office-point sites:", len(office_like))
+
+
+def fill_from_agency(out):
+    """Region still unknown: an agency whose located listings are almost all in
+    Thessaloniki most likely lists this one there too (district stays unknown)."""
+    per = {}
+    for r in out:
+        if r["region"] in ("thessaloniki", "other") and r.get("source_kind") != "portal":
+            c = per.setdefault(r["source_domain"], Counter())
+            c[r["region"]] += 1
+    n = 0
+    for r in out:
+        c = per.get(r["source_domain"])
+        if r["region"] == "unknown" and c and sum(c.values()) >= 10 and c["thessaloniki"] / sum(c.values()) >= 0.9:
+            r["region"], r["area"] = "thessaloniki", "Θεσσαλονίκη"
+            n += 1
+    print("region from agency profile:", n)
 
 
 def urlunquote(u):
