@@ -1,11 +1,13 @@
 name,type,domain,website,final_url,site_status,robots_ok,has_listings,listing_links,platform,street,locality,postal_code,lat,lon,gemi,smasth_members,found_via,spitogatos_url,xe_url,vrisko_url,vrisko_area
 2310 REAL ESTATE (Ιερισσιώτης Θεμελής Κ.),independent,2310realestate.gr,https://www.2310realestate.gr,https://www.2310realestate.gr,ok,yes,yes,33,,"Μητροπόλεως 110, 1ος 'Οροφος",Θεσσαλονίκη,54621,40.6276130000000,22.9498689285714,,,vrisko.gr,,,https://www.vrisko.gr/details/2a303_246j5114c16342bd_b5b0hb35h,thessalonikis
+AA Real Estate,independent,aarealestate.gr,https://aarealestate.gr,https://aarealestate.gr,ok,yes,yes,11,wordpress;houzez,,,,,,,,web search,,,,
 AGN REAL ESTATE,independent,agnrealestate.gr,https://agnrealestate.gr,https://www.agnrealestate.gr/,ok,yes,yes,7,wordpress,ΚΑΡΑΚΑΣΗ Δ 58,ανατολική θερσσαλονίκη,,,,172414706000,1,smasth.gr,,,,
 ANGELOU REAL ESTATE (Αγγέλου Γεώργιος Χ.),independent,angelou-realestate.gr,https://www.angelou-realestate.gr,https://www.angelou-realestate.gr,ok,yes,yes,5,,Μητροπόλεως 50,Θεσσαλονίκη,54623,40.6314513333333,22.9434563199330,039875106000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/263j3gabd7b21c20b027cf57d0_k5a2i,thessalonikis
 ANTHIMIADIS ESTATE,independent,anthimiadisestate.gr,https://anthimiadisestate.gr,https://anthimiadisestate.gr,ok,yes,yes,31,wordpress,"Εγνατία 38, Θεσσαλονίκη 546 25, Ελλάδα",,54625,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/anthimiadis-estate/992941da-f203-43c7-be47-3341810e00ec,,
 ARCUS REAL ESTATE - ARCUS ΟΕ,independent,arcusrealestate.gr,https://www.arcusrealestate.gr,https://arcusrealestate.gr/el,ok,yes,yes,11,,Ψαρών 21,Θεσσαλονίκη - Κάτω Τούμπα,54642,40.6112359000000,22.9635866881720,,,vrisko.gr,,,https://www.vrisko.gr/details/1j2_5f7d0641544k542d1_75a64d3b6i,thessalonikis
 ARCUS REAL ESTATE - ARCUS ΟΕ,independent,arcusrealestate.gr,https://www.arcusrealestate.gr,https://arcusrealestate.gr/el,ok,yes,yes,11,,Ερμού 75,Θεσσαλονίκη,54623,40.6336975000000,22.9456444526411,,,vrisko.gr,,,https://www.vrisko.gr/details/4h7f6d_3045c41c11_110h511e0i5h47,thessaloniki
 ARCUS REAL ESTATE - ARCUS ΟΕ,independent,arcusrealestate.gr,https://www.arcusrealestate.gr,https://arcusrealestate.gr/el,ok,yes,yes,11,,Τσαλουχίδη 54,Καλαμαριά,55133,,,151178406000,2,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/32a77_0i7i__7g76402471ai73720e7b,kalamaria
+Anastasiou Properties,independent,anastasiouproperties.gr,https://anastasiouproperties.gr,https://anastasiouproperties.gr,ok,yes,yes,13,wordpress;houzez,,,,,,,,web search,,,,
 BASI Real Estate,independent,basirealestate.gr,https://basirealestate.gr,https://basirealestate.gr/el,ok,yes,yes,28,,,Kalamaria,,,,,,web search (no domain found),,,,
 BEST HOUSE (Σταμπουλή Ζωή Μ.),independent,best-house.gr,https://www.best-house.gr,https://www.best-house.gr,ok,yes,yes,31,joomla,Μεγάλου Αλεξάνδρου 24,Αμπελόκηποι,56123,40.6544138594771,22.9234613000000,138775306000,1,vrisko.gr;smasth.gr;spitogatos(search),https://www.spitogatos.gr/mesites/BEST-HOUSE/3153,,https://www.vrisko.gr/details/ba3h622kc5bi4d003f2541340c74de35,thessalonikis
 BORAS NEW START,independent,borasnewstart.gr,https://borasnewstart.gr,https://borasnewstart.gr,ok,yes,yes,30,,ΔΗΜ ΓΟΥΝΑΡΗ 78,κέντρο θεσσαλονίκης,,,,173623106000,1,smasth.gr,,,,
@@ -15,6 +17,7 @@ CIVIL HOME,independent,civilhome.gr,https://civilhome.gr,https://civilhome.gr,ok
 DASKALAKI PROPERTIES (Δασκαλάκη Παρασκευή),independent,daskalakiproperties.gr,https://daskalakiproperties.gr,https://daskalakiproperties.gr/el,ok,yes,yes,24,,Καθηγητού Ρωσσίδη 3Β,Καλαμαριά,55131,40.5926710000000,22.9505601501457,,,vrisko.gr,,,https://www.vrisko.gr/details/a13hd51b53cdb06k45_f533e7i0672bc,thessalonikis
 DAVETI HOME BROKERS (Δαβέτη Στέλλα Β.),independent,daveti.gr,https://daveti.gr,https://www.daveti.gr/,ok,yes,yes,18,,Κομνηνών 6,Πανόραμα,55236,40.5914636000000,23.0330283432526,,,vrisko.gr,,,https://www.vrisko.gr/details/1ha11h1_0h_g_56k0g1d54cjca407j1e,thessalonikis
 DOMISIS PROPERTIES ΟΕ,independent,domisisproperties.gr,https://www.domisisproperties.gr,https://domisisproperties.gr/,ok,yes,yes,46,,Πασαλίδη Ιωάννη 56,Καλαμαριά,55132,,,,,vrisko.gr,,,https://www.vrisko.gr/details/b477c70_06ccca41dg0i0i543e0hci_3,kalamaria
+Diamond Group Real Estate,independent,diamondgroup5.com,https://diamondgroup5.com,https://diamondgroup5.com/el,ok,yes,yes,24,realestate_crm_gr,,,,,,,,aetoitourealestate.eu,,,,
 Dora Estate,independent,dora.estate,https://dora.estate,https://dora.estate,ok,yes,yes,9,wordpress;houzez,,,,,,,,web search,,,,
 Dovile Realty,independent,dovile.gr,https://dovile.gr,https://dovile.gr/el,ok,yes,yes,15,,"Κομνηνών 41, Καλαμαριά 551 31, Ελλάδα",,55131,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/dovile-realty/9534c33b-34a1-4457-b0da-16b934ca7ddd,,
 EL GREKO REAL ESTATE (Ιγνατιάδης Ιωάννης Ι.),independent,elgrekorealestate.com,https://www.elgrekorealestate.com,https://www.elgrekorealestate.com,ok,yes,yes,65,,Δραγούμη Ίωνος 4,Θεσσαλονίκη,54624,40.6348449503546,22.9384310000000,000151147006000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/6ia65g237dcec74c323526ai5h16b5cf,thessalonikis
@@ -86,6 +89,7 @@ i-house,independent,i-house.gr,https://i-house.gr,https://i-house.gr,ok,yes,yes,
 ΑΓΑ ΕΛΠΙΔΑ,independent,agarealestate.gr,https://agarealestate.gr,https://www.agarealestate.gr/,ok,yes,yes,19,,ΦΡΑΓΚΩΝ 1 ΜΟΣΚΩΦ 10,ανατολική θερσσαλονίκη,,,,173621706000,1,smasth.gr,,,,
 ΑΝΑΓΝΩΣΤΙΔΗΣ Τ ΚΑΙ Δ (Αναγνωστίδης Τριαντάφυλλος Δ.),independent,anagnostidis.gr,https://www.anagnostidis.gr,https://www.anagnostidis.gr,ok,yes,yes,10,,Δημοκρατίας 230,Νέοι Επιβάτες,57019,40.5041088181886,22.9077534277065,041341606000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/debb1120_g_j43c4247dcjb_2i5hc53e,thessalonikis
 ΑΡΤΕΜΙΣ,independent,artemisrealestate.gr,https://artemisrealestate.gr,https://www.artemisrealestate.gr/,ok,yes,yes,15,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/ARTEMIS/18780,,,
+ΙΟΡΔΑΝΟΥ REAL ESTATE,independent,natiordanou.gr,https://natiordanou.gr,https://natiordanou.gr/el,ok,yes,yes,13,,"Παλαιών Πατρών Γερμανού 44, 546 22","Θεσσαλονίκη, Λευκός Πύργος - Ιππόδρομος",,,,,,tsakbam.eu,,,,
 ΚΑΛΥΒΑΣ ΣΤΡΑΤΟΣ,independent,kalivasestate.gr,https://kalivasestate.gr,https://www.kalivasestate.gr/el/home,ok,yes,yes,11,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/KALYBAS-STRATOS/8078,,,
 ΚΛΑΔΑΚΗΣ ΣΤΥΛΙΑΝΟΣ,independent,bee-one.gr,https://bee-one.gr,https://bee-realestate.gr/office?id=61a72951-a62e-432c-ad1f-129f34fcaec9,ok,yes,yes,22,,ΝΑΥΑΡΙΝΟΥ 28,ανατολική θερσσαλονίκη,,,,042956106000,1,smasth.gr,,,,
 Καραναστάσης Ιωάννης Κ.,independent,karanastasisrealestate.gr,https://www.karanastasisrealestate.gr,https://www.karanastasisrealestate.gr/el,ok,yes,yes,47,,Κωνσταντινουπόλεως 42,Θεσσαλονίκη,54641,40.6153753363295,22.9597963000000,,,vrisko.gr,,,https://www.vrisko.gr/details/b4602_4e16bcdf4h5hd72642deb5be37,thessalonikis
@@ -102,6 +106,7 @@ ASPIS REAL ESTATE,independent,aspis-realestate.gr,https://www.aspis-realestate.g
 DANOS GROUP,independent,danos-group.com,https://danos-group.com,https://danos-group.com,ok,yes,maybe,4,wordpress,"Δραγούμη Ίωνος 4, 546 23",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 DOMESTIC REAL ESTATE,independent,domestic.gr,https://domestic.gr,https://domestic.gr,ok,yes,maybe,0,,"Άγνωστου Στρατιώτη 55, 565 33","Πολίχνη, Άγιος Παντελεήμονας",,,,,,tsakbam.eu,,,,
 Delta Property Services,independent,deltapropertyservices.gr,https://deltapropertyservices.gr,https://deltapropertyservices.gr,ok,yes,maybe,0,,,,,,,,,web search,,,,
+Infinite Greece,independent,infinitegreece.gr,https://infinitegreece.gr,https://www.infinitegreece.gr/,ok,yes,maybe,0,,,,,,,,,web search,,,,
 Inrealty.gr,independent,inrealty.gr,https://inrealty.gr,https://inrealty.gr,ok,yes,maybe,0,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/Inrealty-gr/6302,,,
 Lp properties,independent,lpproperties.gr,https://lpproperties.gr,https://lpproperties.gr,ok,yes,maybe,0,wordpress,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/Lp-properties/2720,,,
 MESI-TIK,independent,mesitik.gr,https://mesitik.gr,https://mesitik.gr,ok,yes,maybe,1,wordpress,ΑΝΔΡΕΑ ΠΑΠΑΝΔΡΕΟΥ 49 ΝΕΑΠΟΛΗ,δυτική θεσσαλονίκη,,,,185916106000,1,smasth.gr,,,,
@@ -121,8 +126,11 @@ CHATZIHOUSE,independent,chatzihouse.gr,https://chatzihouse.gr,https://chatzihous
 DROSOS ESTATE (Δρόσος Ευάγγελος),independent,drosos.gr,https://www.drosos.gr,https://www.drosos.gr,ok,yes,no,0,,Παπάφη 99,Θεσσαλονίκη - Κάτω Τούμπα,54453,40.6139469541966,22.9674081000000,,,vrisko.gr,,,https://www.vrisko.gr/details/adbk4ccg5f0_b7_j_2a262c0cd367132,thessalonikis
 ELLESTATE (Ουμουδουμίδου Ηλώνα Ι.),independent,ellestate.ru,https://www.ellestate.ru,https://ellestate.ru/,ok,yes,no,0,wordpress,Βενιζέλου Ελευθερίου 48,Θεσσαλονίκη,54624,40.6367884999999,22.9418483525641,,,vrisko.gr,,,https://www.vrisko.gr/details/_fd677bi41_1_a_k36501g6_7d1465a2,thessalonikis
 EMPIRE REAL ESTATE,independent,nrgprovider.com,https://nrgprovider.com,https://www.nrg.gr/el,ok,yes,no,0,,ΒΑΣ ΟΛΓΑΣ 7,ανατολική θερσσαλονίκη,,,,042673606000,1,smasth.gr,,,,
+El Greco GEOPAP,independent,elgrecogeopap.gr,https://elgrecogeopap.gr,https://elgrecogeopap.gr,ok,yes,no,0,wordpress,,,,,,,,web search,,,,
 GEORGE A LEPENIOTIS REAL ESTATE,independent,me.com,https://me.com,https://www.icloud.com/,ok,yes,no,0,,ΚΟΜΝΗΝΩΝ 28,κέντρο θεσσαλονίκης,,,,161670906000,1,smasth.gr,,,,
 GOLDENLAND,independent,symvouloiypiresion.gr,https://symvouloiypiresion.gr,https://symvouloiypiresion.gr,ok,yes,no,0,wordpress,ΑΓΙΩΝ ΠΑΝΤΩΝ 69,ανατολική θερσσαλονίκη,,,,166192706000,1,smasth.gr,,,,
+GRACE REAL ESTATE,independent,grace.estate,https://grace.estate,https://grace.estate,ok,yes,no,0,,"Ρωμανού 11, 570 19",Περαία,,,,,,tsakbam.eu,,,,
+GRISS - GREEK REALTY INTERGRATED SOLUTIONS AND SERVICES ΙΚΕ,independent,griss.gr,https://griss.gr,https://www.griss.gr/,ok,yes,no,0,wix,Δραγούμη Ίωνος 4,Θεσσαλονίκη,54624,40.6348449503546,22.9384310000000,,,vrisko.gr,,,https://www.vrisko.gr/details/50513gb33g7c6g1__22aa3ae65316aae,thessaloniki
 JORDANS ROOMS IKE,independent,jordansrooms.gr,https://jordansrooms.gr,https://jordansrooms.gr,ok,yes,no,0,,ΚΑΣΑΝΔΡΟΥ 114,κέντρο θερσσαλονίκης,,,,173978506000,1,smasth.gr,,,,
 Kinfeel North,independent,kinfeelnorth.gr,https://kinfeelnorth.gr,https://kinfeelnorth.gr,ok,yes,no,0,wordpress,,,,,,,,aetoitourealestate.eu,,,,
 MARK CONSULTING IKE,independent,markconsulting.gr,https://markconsulting.gr,https://markconsulting.gr,ok,yes,no,0,wordpress,ΦΡΑΓΚΩΝ 12,ανατολική θερσσαλονίκη,,,,154946606000,1,smasth.gr,,,,
@@ -135,6 +143,7 @@ Real Estate Magazine,independent,rem.gr,https://rem.gr,https://rem.gr,ok,yes,no,
 SPITOPOLI,independent,spitopoli.gr,https://spitopoli.gr,https://spitopoli.gr,ok,yes,no,0,wordpress,ΔΕΣΠΕΡΑΙ 20,ανατολική θερσσαλονίκη,,,,0422727206001,1,smasth.gr,,,,
 VENTURAS ΜΕΣΙΤΙΚΟ ΓΡΑΦΕΙΟ ΑΚΙΝΗΤΩΝ,independent,venturasgroup.com,https://venturasgroup.com,https://venturasgroup.com,ok,yes,no,0,wordpress,ΝΑΥΑΡΧΟΥ ΚΟΥΝΤΟΥΡΙΩΤΟΥ 21,ανατολική θερσσαλονίκη,,,,163156406000,1,smasth.gr,,,,
 VKABOVE & BEYOND HOSPITALITY  MANAGEMENT,independent,vkhospitalitymgmt.com,https://vkhospitalitymgmt.com,https://www.vkhospitalitymgmt.com/,ok,yes,no,0,wix,ΚΟΜΝΗΝΩΝ 4 ΠΑΝΟΡΑΜΑ,ανατολική θεσσαλονίκη,,,,141684406000,1,smasth.gr,,,,
+VRES AKINITO,independent,vres-akinito.gr,https://vres-akinito.gr,https://vres-akinito.gr,ok,yes,no,0,wordpress,"Χείλωνος 5, 546 45","Θεσσαλονίκη, Νέα Παραλία",,,,,,tsakbam.eu,,,,
 city plus,independent,cityplus.gr,https://cityplus.gr,https://cityplus.gr,ok,yes,no,0,wordpress,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/city-plus/5236,,,
 ΑΝΑΔΟΜΩ REAL ESTATE,independent,anadomo-realestate.gr,https://anadomo-realestate.gr,https://anadomo-realestate.gr,ok,yes,no,0,wordpress,"Αγίας Σοφίας 18, 546 22","Θεσσαλονίκη, Αγία Σοφία",,,,,,tsakbam.eu,,,,
 ΑΝΑΚΑΙΝΙΖΕΙΝ,independent,anakenizin.gr,https://anakenizin.gr,https://anakenizin.gr,ok,yes,no,0,wordpress,ΑΛ ΠΑΠΑΝΑΣΤΑΣΙΟΥ 42,ανατολική θερσσαλονίκη,,,,180968906000,1,smasth.gr,,,,
@@ -143,14 +152,17 @@ city plus,independent,cityplus.gr,https://cityplus.gr,https://cityplus.gr,ok,yes
 ΔΕΛΤΑ ΘΕΣΙΣ ΚΤΗΜΑΤΟΜΕΣΙΤΙΚΗ ΕΠΕ,independent,deltathesis.gr,https://www.deltathesis.gr,https://deltathesis.gr/,ok,yes,no,0,wordpress,Λεωφόρος Νίκης 3,Θεσσαλονίκη,54624,40.6331996666666,22.9384133582282,,,vrisko.gr,,,https://www.vrisko.gr/details/_acj6e_h2h41c723d74fce3406022d4k,thessaloniki
 ΖΑΜΑΝΗΣ ΒΑΣΙΛΕΙΟΣ,independent,greenandblue360.de,https://greenandblue360.de,https://greenandblue360.de,ok,yes,no,0,,ΨΑΡΩΝ 2 Β ΕΞΟΧΗ,ανατολική θερσσαλονίκη,,,,041157706000,1,smasth.gr,,,,
 ΘΩΜΑΣ ΑΝΑΣΤΑΣΙΟΣ,independent,thomas.gr,https://thomas.gr,https://thomas.gr,ok,yes,no,0,,ΝΕΑ ΗΡΑΚΛΕΟΥΣ 50 ΧΑΡΙΛΑΟΥ,ανατολική θεσσαλονίκη,,,,168097106000,1,smasth.gr,,,,
+Ιωαννίδης Real Estate,independent,ioannidisrealestate.gr,https://ioannidisrealestate.gr,https://ioannidisrealestate.gr,ok,yes,no,0,,,,,,,,,web search,,,,
 ΚΑΡΥΔΑΣ ΕΠΕ,independent,karida-shoes.com,https://karida-shoes.com,https://www.karida-shoes.com/,ok,yes,no,0,wordpress,ΜΗΤΡΟΠΟΛΕΩΣ 73,κέντρο θεσσαλονίκης,,,,042180706000,1,smasth.gr,,,,
 ΛΟΓΟΙΚΕΙΝ,independent,logoikein.gr,https://logoikein.gr,https://logoikein.gr,ok,yes,no,0,wordpress,"Ζουμετίκου, Θεσσαλονίκη 542 49, Ελλάδα",,54249,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/logoikein/2faa3b79-ad91-4193-ad63-c5d3efc849a6,,
 ΜΑΝΟΜΕΝΙΔΗΣ ΝΙΚΟΛΑΟΣ,independent,manomenidis.com,https://manomenidis.com,https://manomenidis.com,ok,yes,no,0,,ΒΊΤΣΙ 55,ανατολική θερσσαλονίκη,,,,040059206000,1,smasth.gr,,,,
 ΠΑΜΕ ΣΠΙΤΙ,independent,pamespiti.gr,https://pamespiti.gr,https://pamespiti.gr,ok,yes,no,0,,ΠΑΝΑΓΙΑΣ ΦΑΝΕΡΩΜΕΝΗΣ 10,κέντρο θερσσαλονίκης,,,,129839557000,1,smasth.gr,,,,
 ΠΑΠΑΔΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ ΚΑΙ ΣΙΑ ΟΕ,independent,hot.gr,https://hot.gr,https://hot.gr,ok,yes,no,0,,ΑΛ ΣΒΩΛΟΥ 40,κέντρο θεσσαλονίκης,,,,111111111111,1,smasth.gr,,,,
 ΣΑΛΒΑΡΑΣ ΚΑΙ ΣΥΝΕΡΓΑΤΕΣ,independent,salvaras.eu,https://www.salvaras.eu,https://www.salvaras.eu,ok,yes,no,0,,Βενιζέλου Ελευθερίου 7,Πανόραμα,55236,40.5890246963138,23.0371956854859,,,vrisko.gr,,,https://www.vrisko.gr/details/010aaabb6g2i717763501b173_3h3a37,thessalonikis
+1Spiti,independent,1spiti.gr,https://1spiti.gr,https://www.1spiti.gr/,ok,no,yes,21,,,,,,,,,web search,,,,
 AB ESTATE,independent,abestate.gr,https://abestate.gr,https://abestate.gr,ok,no,yes,24,,"Αβέρωφ Γεώργιου 17, 552 36","Πανόραμα, Άνω Πανόραμα",,,,,,tsakbam.eu,,,,
 ACB REAL ESTATE (Μούκας Ιωάννης Χ.),independent,acb.gr,https://www.acb.gr,https://plrealestate.gr/,ok,no,yes,26,,Φιλίππου 75-77,Θεσσαλονίκη,54635,40.6348520000000,22.9501757011952,,,vrisko.gr,,,https://www.vrisko.gr/details/bh63ba5_7c3h7c430g15c06c65b2a3_7,thessaloniki
+AENAOS REALESTATE S DEVELOPMENT,independent,aenaossarealty.gr,https://aenaossarealty.gr,https://aenaossarealty.gr,ok,no,yes,21,,ΑΔ ΚΟΡΑΗ 20 Ν ΕΛΒΕΤΙΑ,ανατολική θερσσαλονίκη,,,,154328406000,1,smasth.gr,,,,
 ALFA REAL ESTATE (Αθανασιάδου Ελένη Γ.),independent,alfa-realestate.gr,https://www.alfa-realestate.gr,https://www.alfa-realestate.gr,ok,no,yes,31,,Δημοκρατίας 32,Περαία,57019,40.5085094049266,22.9265001362457,,,vrisko.gr,,,https://www.vrisko.gr/details/a0212311bkd17aadc02ibece_2chb150,thessalonikis
 ALPHA REAL ESTATE SERVICES (Δίγκα Μαρία Χ.),independent,alpha-realestate.gr,https://alpha-realestate.gr,https://www.alpha-realestate.gr/,ok,no,yes,22,,Σμύρνης 43,Εύοσμος,56226,40.6729717652962,22.9103867344046,,,vrisko.gr,,,https://www.vrisko.gr/details/53ddd605b73e2fch0f7ia0a6dbbcak3d,thessalonikis
 ARTIPLAN,independent,artiplan.gr,https://artiplan.gr,https://www.artiplan.gr/,ok,no,yes,20,,ΝΙΚ ΠΛΑΣΤΗΡΑ 2 ΧΑΡΙΛΑΟΥ,ανατολική θερσσαλονίκη,,,,41132706000,1,smasth.gr,,,,
@@ -165,6 +177,7 @@ DELTA AKINITA,independent,delta-akinita.gr,https://delta-akinita.gr,https://www.
 DIAS HOME,independent,diashome.gr,https://diashome.gr,https://diashome.gr,ok,no,yes,14,,"Μεγακλέους 12, 543 51","Θεσσαλονίκη, Άνω Τούμπα",,,,,,tsakbam.eu,,,,
 EDMA Estate,independent,edmaestate.gr,https://edmaestate.gr,https://edmaestate.gr,ok,no,yes,10,,,,,,,,,web search,,,,
 ELEGANCE REAL ESTATE,independent,elegancerealestate.gr,https://elegancerealestate.gr,https://www.elegancerealestate.gr/,ok,no,yes,26,,Λ ΝΙΚΗΣ 1,ανατολική θερσσαλονίκη,,,,177095306000,2,smasth.gr,,,,
+ENTERHOME,independent,enterhome.com.gr,https://enterhome.com.gr,https://enterhome.com.gr,ok,no,yes,21,,ΙΩΝΙΑΣ 9 Β ΠΕΡΑΙΑ,ανατολική θερσσαλονίκη,,,,039588506000,1,smasth.gr,,,,
 ESTATE CENTER,independent,estatecenter.gr,https://estatecenter.gr,https://www.estatecenter.gr/,ok,no,yes,5,,"Τσιμισκή Ιωάννη 2, 5ος όροφος, 546 25",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 ESTIA NET,independent,estianet.com,https://estianet.com,https://www.estianet.com/,ok,no,yes,21,,ΑΝΘΕΩΝ 8 ΠΕΡΑΙΑ,περίχωρα θεσσαλονίκης,,,,801597149,1,smasth.gr,,,,
 Easy Home Real Estate,independent,easyhomethess.gr,https://easyhomethess.gr,https://easyhomethess.gr,ok,no,yes,208,,"Ἁγ. Δημητρίου 147, Θεσσαλονίκη 546 35, Ελλάδα",,54635,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/easy-home-real-estate/f8890ff3-dde3-4d14-b04f-056db7cbe62f,,
@@ -178,8 +191,10 @@ HOUSE LAND (Τριανταφυλλίδης Αδάμ Γ.),independent,houseland-e
 Hellenic Home,independent,hellenic-home.gr,https://hellenic-home.gr,https://www.hellenic-home.gr/,ok,no,yes,21,,,,,,,,,web search,,,,
 IDEAL PROPERTIES,independent,idealproperties.gr,https://idealproperties.gr,https://www.idealproperties.gr/,ok,no,yes,19,,"Λεωφόρος Θεσσαλονίκης 44, 570 19",Περαία,,,,,,tsakbam.eu,,,,
 INFOXREALESTATE,independent,info-x.gr,https://info-x.gr,https://info-x.gr,ok,no,yes,21,,ΜΗΤΡΟΠΟΛΕΩΣ 46-48,ανατολική θερσσαλονίκη,,,,159975906000,2,smasth.gr,,,,
+IOANNIDIS HOME (Ιωαννίδης Παναγιώτης Ν.),independent,ioannidishome.gr,https://ioannidishome.gr,https://www.ioannidishome.gr/,ok,no,yes,5,,Μελενίκου Κωνσταντίνου 43,Θεσσαλονίκη - Ροτόντα,54635,40.6348140000000,22.9530032177893,,,vrisko.gr,,,https://www.vrisko.gr/details/7e4bai555b7f6k1ebi_h4k1kbc045cc7,thessaloniki
 LIBERTY REAL ESTATE - ΜΗΛΙΟΣ Ν ΚΑΙ ΣΙΑ ΕΕ,independent,liberty.com.gr,https://www.liberty.com.gr,https://liberty.com.gr/,ok,no,yes,25,,Αγίας Σοφίας 21,Θεσσαλονίκη,54623,40.6324572000000,22.9449993778523,163022106000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/de0h7abk3eb0ch4aafaa60224f157jai,thessalonikis
 LIBRA-PROPERTIES,independent,libra-properties.gr,https://libra-properties.gr,https://libra-properties.gr,ok,no,yes,29,,ΑΛΑΜΑΝΑΣ 51 ΚΑΛΑΜΑΡΙΑ,ανατολική θεσσαλονίκη,,,,142748506000,1,smasth.gr,,,,
+Luxury Real Estate,independent,luxuryrealestate.gr,https://luxuryrealestate.gr,https://luxuryrealestate.gr,ok,no,yes,14,,,,,,,,,web search,,,,
 MAGICAL HOMES,independent,magicalhomes.gr,https://magicalhomes.gr,https://www.magicalhomes.gr/,ok,no,yes,21,,"Φιλίππου 34, 570 19",Περαία,,,,,,tsakbam.eu,,,,
 MPROPERTIES REAL ESTATE,independent,mproperties.gr,https://mproperties.gr,https://www.mproperties.gr/,ok,no,yes,35,,ΤΑΚΗ ΟΙΚΟΝΟΜΙΔΗ 58,ανατολική θεσσαλονίκη,,,,151975306000,1,smasth.gr,,,,
 MYKATOIKIA4U,independent,mykatoikia4u.gr,https://mykatoikia4u.gr,https://www.mykatoikia4u.gr/,ok,no,yes,30,,ΠΥΛΑΟΑΣ 53 ΑΝΩ ΤΟΥΜΠΑ,ανατολική θερσσαλονίκη,,,,177942806000,1,smasth.gr,,,,
@@ -191,6 +206,7 @@ OMIKRON ΔΙΑΧΕΙΡΙΣΗ ΑΚΙΝΗΤΩΝ (Γιαννακίδης Ευάγγ
 ONASIS HOME  ΜΟΝ ΙΚΕ,independent,onasishome.com,https://onasishome.com,https://www.onasishome.com/,ok,no,yes,22,,ΝΙΚΟΛΆΟΥ ΠΛΑΣΤΉΡΑ 1 ΣΤΑΎΡΟΣ ΘΕΣΣΑΛΟΝΊΚΗΣ,ανατολική θερσσαλονίκη,,,,147436906000,1,smasth.gr,,,,
 PANORAMA ESTATE - ΤΣΕΛΕΠΙΔΟΥ ΣΟΦΙΑ ΛΑΒΑΣΑ ΜΑΡΙΑ ΚΑΙ ΣΙΑ OE,independent,panorama.estate,https://panorama.estate,https://www.panorama.estate/,ok,no,yes,22,,"Παπαδοπούλου Π. 19, 1ος Όροφος",Πανόραμα,55236,40.5900616000000,23.0352674879109,,,vrisko.gr,,,https://www.vrisko.gr/details/abd365b_bf201cd5ch7dc43_6j11d37e,thessalonikis
 PERRONE REAL ESTATE,independent,perronerealestate.gr,https://perronerealestate.gr,https://perronerealestate.gr,ok,no,yes,20,,"Λεωφόρος Θεσσαλονίκης 14Γ, 570 19",Περαία,,,,,,tsakbam.eu,,,,
+PLANET-akinita,independent,planet-akinita.gr,https://planet-akinita.gr,https://www.planet-akinita.gr/,ok,no,yes,33,,,,,,,,,web search,,,,
 POINTERS PROPERTY SERVICES AE,independent,pointers.gr,https://pointers.gr,https://pointers.gr,ok,no,yes,17,,26 ΗΣ ΟΚΤΩΒΡΙΟΥ 43,δυτική θερσσαλονίκη,,,,138661804000,1,smasth.gr,,,,
 PRO CAPITAL (Κολόπτας Μιχαήλ Η.),independent,pro-capital.gr,https://www.pro-capital.gr,https://www.pro-capital.gr,ok,no,yes,23,,Φιλίππου 35,Θεσσαλονίκη,54631,40.6377550000000,22.9447204855072,,,vrisko.gr,,,https://www.vrisko.gr/details/_j0a657eab0c4ece2ccg274dd05ac004,thessalonikis
 PROGRESO REAL ESTATE,independent,progresorealestate.gr,https://progresorealestate.gr,https://www.progresorealestate.gr/,ok,no,yes,23,,ΜΑΚΡΥΓΙΑΝΝΗ 21 ΗΛΙΟΥΠΟΛΗ,δυτική θεσσαλονίκη,,,,166661806000,1,smasth.gr,,,,
@@ -226,10 +242,10 @@ inHome SKG,independent,inhomeskg.gr,https://inhomeskg.gr,https://inhomeskg.gr,ok
 Σαραφούδης Νικόλαος Π.,independent,nsarafoudis.gr,https://www.nsarafoudis.gr,https://www.nsarafoudis.gr,ok,no,yes,22,,"28ης Οκτωβρίου 18, Έναντι Eurobank",Καλοχώρι,57009,40.6103805000000,22.9539609707792,147489906000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/53da64ck36231046bg00_5ce2i045k4e,thessalonikis
 ΤΚ Properties,independent,tkproperties.gr,https://tkproperties.gr,https://www.tkproperties.gr/,ok,no,yes,31,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/TK-Properties/20914,,,
 BELLOS REAL ESTATE (Βαλκανίδου Σοφία Χ.),independent,bellos.net,https://www.bellos.net,https://www.bellos.net,ok,no,maybe,2,,Νικοπόλεως 46,Καλαμαριά,55131,40.5839007272727,22.9509848999999,042282106000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/d64300_6534g2j6f0113d53e540ga25c,thessalonikis
+HOUSE FOR YOU,independent,houseforyou.com.gr,https://houseforyou.com.gr,https://www.houseforyou.com.gr/,ok,no,maybe,0,,ΑΝΤΩΝΙΟΥ ΝΑΣΤΟΥ 19,ανατολική θερσσαλονίκη,,,,133199506000,1,smasth.gr,,,,
 ABG CONSTUCTION IKE,independent,,,,no_site,,,,,ΦΑΝΗΣ ΜΗΣΚΑΚΗ 19,περίχωρα θεσσαλονίκης,,,,148311404000,1,smasth.gr,,,,
-ACRON REAL ESTATE,independent,,,,no_site,,,,,ΤΣΙΜΙΣΚΗ 17,κέντρο θεσσαλονίκης,,,,155982606000,1,smasth.gr,,,,
-AENAOS REALESTATE S DEVELOPMENT,independent,,,,no_site,,,,,ΑΔ ΚΟΡΑΗ 20 Ν ΕΛΒΕΤΙΑ,ανατολική θερσσαλονίκη,,,,154328406000,1,smasth.gr,,,,
-ALPHACITY,independent,,,,no_site,,,,,"Ανθέων 13Β, Περαία 570 19, Ελλάδα",,57019,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/alphacity/98305c5b-b129-41d5-8e56-9c7dac095349,,
+ACRON REAL ESTATE,independent,akronrealestate.gr,https://akronrealestate.gr,,unreachable,,,,,ΤΣΙΜΙΣΚΗ 17,κέντρο θεσσαλονίκης,,,,155982606000,1,smasth.gr,,,,
+ALPHACITY,independent,alphacity.gr,https://alphacity.gr,https://alphacity.gr,bot_check_imperva,,,,,"Ανθέων 13Β, Περαία 570 19, Ελλάδα",,57019,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/alphacity/98305c5b-b129-41d5-8e56-9c7dac095349,,
 ANASTASIOU PROPERTIES REAL ESTATE,independent,anastasiouprorerties.gr,https://anastasiouprorerties.gr,,unreachable,,,,,ΕΡΜΟΥ 4,κέντρο θεσσαλονίκης,,,,151200806000,1,smasth.gr,,,,
 ANETPROPERTIES IKE,independent,,,,no_site,,,,,ΝΙΚΗΣ 23 ΠΑΝΟΡΑΜΑ,ανατολική θεσσαλονίκη,,,,175197504000,1,smasth.gr,,,,
 ANODOS,independent,,,,no_site,,,,,"Δεσπεραί 14, 546 21","Θεσσαλονίκη, Λευκός Πύργος - Ιππόδρομος",,,,,,tsakbam.eu,,,,
@@ -238,15 +254,14 @@ ANY HOME (Ρούπας Αλέξανδρος Γ.),independent,anyhome.gr,https://
 APEX REAL ESTATE,independent,,,,no_site,,,,,ΜΑΙΑΝΔΡΟΥ ΚΑΝΑΡΗ 3 ΕΥΟΣΜΟΣ,ανατολική θερσσαλονίκη,,,,53527011000,1,smasth.gr,,,,
 AR - X (Χαρίση Αργυρώ Δ.),independent,ar-x.gr,https://www.ar-x.gr,https://www.ar-x.gr,bot_check_imperva,,,,,Ηροδότου 22,Καλαμαριά,55133,40.5863730000000,22.9583578484848,,,vrisko.gr,,,https://www.vrisko.gr/details/117kbj0266203eaj4kc42iaf5i7k74ak,kalamaria
 ARKTOS PROPERTIES,independent,,,,no_site,,,,,"Κομνηνών 20, 4ος όροφος, 546 24",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
-ART PROPERTIES HOME,independent,,,,no_site,,,,,ΚΑΣΣΑΝΔΡΟΥ 147,κέντρο θεσσαλονίκης,,,,1523342060000,1,smasth.gr,,,,
+ART PROPERTIES HOME,independent,artpropertieshome.gr,https://artpropertieshome.gr,,bot_check_other,,,,,ΚΑΣΣΑΝΔΡΟΥ 147,κέντρο θεσσαλονίκης,,,,1523342060000,1,smasth.gr,,,,
+ARiadni Real Estate,independent,ariadni-realestate.com,https://ariadni-realestate.com,,unreachable,,,,,,,,,,,,web search,,,,
 AVENUE REALESTATE,independent,avenuerealestate.gr,https://avenuerealestate.gr,,bot_check_other,,,,,Β ΟΛΓΑΣ  59,ανατολική θερσσαλονίκη,,,,144891206000,1,smasth.gr,,,,
 Agias Sofias City Center,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
-Aktina Real Estate,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Alpha Home,independent,alphahome.gr,https://alphahome.gr,,bot_check_other,,,,,,Thessaloniki,,,,155062906000,2,web search;smasth.gr,,,,
 Altius Advisors PC,independent,,,,no_site,,,,,"Θεσσαλονίκη 546 40, Ελλάδα",,54640,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/altius-advisors-pc/8f84b5dd-01c2-4a18-a137-806e32a4c25e,,
 Antonia P,independent,,,,no_site,,,,,"Μητροπόλεως 19, Θεσσαλονίκη 546 24, Ελλάδα",,54624,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/antonia-p/e9794fb6-c295-4b57-8ba1-7a500712001c,,
 ArcBnB,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
-Argirakis Real Estate - Thessaloniki,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Astra Property Real Estate,independent,,,,no_site,,,,,"Γαλήνη 570 13, Ελλάδα",,57013,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/astra-property-real-estate/4a8e48cc-2486-4e3e-ac6b-0ee112eaa360,,
 Astro Real Estate,independent,astrorealestate.gr,https://astrorealestate.gr,,unreachable,,,,,,,,,,,,web search,,,,
 Atmabnb Property Management,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
@@ -261,7 +276,7 @@ BLUEFUNDS ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ,independent,,,,no_site,,,,,Πυλαία�
 BLUESTONE REAL ESTATE,independent,bluestonerealty.gr,https://bluestonerealty.gr,,http_403,,,,,,,,,,,,web search,,,,
 BOX REAL ESTATE,independent,boxmesitiko.gr,https://boxmesitiko.gr,,bot_check_other,,,,,ΕΠΤΑΛΟΦΟΥ 15 Κ ΤΟΥΜΠΑ,ανατολική θερσσαλονίκη,,,,155491406000,1,smasth.gr,,,,
 Barron,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
-Beta Homes,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
+Beta Homes,independent,betahomes.gr,https://betahomes.gr,,unreachable,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Blue Real Estate,independent,bluemesitiko.gr,https://bluemesitiko.gr,https://bluemesitiko.gr,bot_check_imperva,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/Blue-Real-Estate/6785,,,
 CASAMODA,independent,casamoda-realestate.gr,https://casamoda-realestate.gr,,unreachable,,,,,"Ωραιόκαστρο 570 13, Ελλάδα",,57013,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/casamoda/d08de854-8bb3-4fa6-89a0-b2c7fb813fd6,,
 CBRE ΑΤΡΙΑ ΑΕ,independent,,,,no_site,,,,,"Τσιμισκή Ιωάννη 86, 546 22",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
@@ -276,8 +291,8 @@ CLOBAL REALTY MON IKE,independent,,,,no_site,,,,,ΑΓ ΔΗΜΗΤΡΙΟΥ 89,κέ
 CLOCK REAL ESTATE - ΜΕΣΙΤΙΚΗ ΕΤΑΙΡΙΑ CLOCK ΟΕ,independent,clockrealestate.gr,https://clockrealestate.gr,,bot_check_other,,,,,Παπανδρέου Γεωργίου 10,Θεσσαλονίκη,54645,40.6005329285714,22.9511871000000,143311006000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/db71ak0j_i4j072b1_761dbc7f_2_1_d,thessalonikis
 COMTRUST REAL ESTATE (Πλατσατούρας Επαμεινώνδας Ε.),independent,comtrust.gr,https://www.comtrust.gr,https://www.comtrust.gr,bot_check_imperva,,,,,Αναγεννήσεως 23,Θεσσαλονίκη,54627,40.6432996675815,22.9278975904507,,,vrisko.gr,,,https://www.vrisko.gr/details/c75b31bg43d34a2fd76ead301a7e270f,thessalonikis
 COZY REAL ESTATE - Α ΚΟΥΡΤΗΣ ΜΟΝΟΠΡΟΣΩΠΗ ΙΚΕ,independent,cozyestate.gr,https://www.cozyestate.gr,,bot_check_other,,,,,Δελφών 154,Θεσσαλονίκη,54248,40.6028538899079,22.9588165431102,137601106000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/3gaa_c7kak2kdb2e4c1c364i3j6043b2,thessalonikis
-CYPRUS HOME,independent,,,,no_site,,,,,"Ολύμπου 125, 546 35","Θεσσαλονίκη, Διοικητήριο",,,,,,tsakbam.eu,,,,
-Celest Properties,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
+CYPRUS HOME,independent,cyprus-home.gr,https://cyprus-home.gr,https://cyprus-home.gr,bot_check_imperva,,,,,"Ολύμπου 125, 546 35","Θεσσαλονίκη, Διοικητήριο",,,,,,tsakbam.eu,,,,
+Celest Properties,independent,celestproperties.gr,https://celestproperties.gr,,bot_check_other,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Christos G Vergos Engineering n Constructions / Real Estate,independent,,,,no_site,,,,,"Πάρ. Βασ. Γεωργίου, Κολχικό 572 00, Ελλάδα",,57200,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/christos-g-vergos-engineering-n-constructions-real-estate/9416edf5-deed-4aff-b85e-cd2f89e056af,,
 City House,independent,,,,no_site,,,,,"Αγίας Σοφίας 106, Θεσσαλονίκη 546 34, Ελλάδα",,54634,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/city-house/203f3e42-23c2-4a02-a632-5ea8a628e376,,
 D DEVELOPEMENTS EE,independent,,,,no_site,,,,,ΑΓΙΟΥ ΔΗΜΗΤΡΙΟΥ 147,κέντρο θεσσαλονίκης,,,,172344506000,1,smasth.gr,,,,
@@ -285,11 +300,10 @@ D HOUSE DROSIA,independent,drosia-house.gr,https://drosia-house.gr,https://drosi
 DE HOME,independent,dehome.gr,https://dehome.gr,,bot_check_other,,,,,ΑΛ ΣΒΩΛΟΥ 6,ανατολική θερσσαλονίκη,,,,143797606000,1,smasth.gr,,,,
 DELTA PROPERTIES MANAGEMENT ΙΚΕ,independent,delta-properties.gr,https://www.delta-properties.gr,https://www.delta-properties.gr,bot_check_imperva,,,,,26ης Οκτωβρίου 26,Θεσσαλονίκη,54627,40.6397999000000,22.9315275613047,148482104000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/a53b302b60a56b3b7_cac_671aa40kd2,thessaloniki
 DEMAND,independent,,,,no_site,,,,,"Λεωφόρος Στρατού 7, 546 39","Θεσσαλονίκη, Αγία Τριάδα",,,,,,tsakbam.eu,,,,
-DERXIS,independent,,,,no_site,,,,,"Κομνηνών 4, 546 24",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
-DIMAR GROUP,independent,,,,no_site,,,,,"Παπανικολάου Γεώργιου 76, 570 10",Πεύκα (ή Ρετζίκι),,,,,,tsakbam.eu,,,,
+DERXIS,independent,derxis.gr,https://derxis.gr,https://derxis.gr,bot_check_imperva,,,,,"Κομνηνών 4, 546 24",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
+DIMAR GROUP,independent,dimargroup.gr,https://dimargroup.gr,https://dimargroup.gr,bot_check_imperva,,,,,"Παπανικολάου Γεώργιου 76, 570 10",Πεύκα (ή Ρετζίκι),,,,,,tsakbam.eu,,,,
 DION GROUP TOURISM REAL ESTATE,independent,,,,no_site,,,,,ΜΕΤΑΜΟΡΦΩΣΕΩΣ 44,ανατολική θερσσαλονίκη,,,,173023706000,1,smasth.gr,,,,
 DREAM HOME (Στάμου Αικατερίνη Κ.),independent,dream-home.gr,https://www.dream-home.gr,https://www.dream-home.gr,bot_check_imperva,,,,,Φιλιππουπόλεως 6,Αμπελόκηποι,56123,40.6503260000000,22.9292841115288,,,vrisko.gr,,,https://www.vrisko.gr/details/6a5fbab22b4fc4db341k6b4_0f601_03,thessalonikis
-Diamond Group Real Estate,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Dim,independent,,,,no_site,,,,,"Εθ. Αντιστάσεως 52, Ελευθέριο Κορδελιό 563 34, Ελλάδα",,56334,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/dim/3292fb5f-0b1c-44c4-b4b9-6280bb1b8614,,
 Domus City Apartment,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Domus-in,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
@@ -298,16 +312,14 @@ Dora Home Real Estate,independent,dorahomerealestate.gr,https://dorahomerealesta
 Dyna Evr,independent,,,,no_site,,,,,"Κιλκίς, Ωραιόκαστρο 570 13, Ελλάδα",,57013,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/dyna-evr/2a6a387c-8577-48f2-8098-831d2b2727d7,,
 EASYLIVING,independent,,,,no_site,,,,,26 ΟΚΤΩΒΡΙΟΥ 8,ανατολική θερσσαλονίκη,,,,178422306000,1,smasth.gr,,,,
 EINEHOME K X3 IKE,independent,finehome.gr,https://finehome.gr,https://finehome.gr,bot_check_imperva,,,,,ΚΑΡΑΟΛΗ ΔΗΜΗΤΡΙΟΥ ΤΩΝ ΚΥΠΡΙΩΝ 30,ανατολική θερσσαλονίκη,,,,171664006000,1,smasth.gr,,,,
-EL GRECO REAL ESTATE,independent,,,,no_site,,,,,"Δραγούμη Ίωνος 4, Γραφείο 405, 546 23",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 ELAK REAL ESTATE,independent,,,,no_site,,,,,ΗΡΩΩΝ ΠΟΛΥΤΕΧΝΕΙΟΥ 4 Β,περίχωρα θεσσαλονίκης,,,,127339406000,1,smasth.gr,,,,
 ELEVATEREAL ESTATE,independent,,,,no_site,,,,,28 ΟΚΤΩΒΡΙΟΥ 36,ανατολική θεσσαλονίκη,,,,40967906000,1,smasth.gr,,,,
 ELIN GROUP,independent,alemarestate.com,https://alemarestate.com,,unreachable,,,,,ΕΓΝΑΤΙΑ 84,κέντρο θεσσαλονίκης,,,,125503906000,1,smasth.gr,,,,
 ELITE REAL ESTATE GROUP MON IKE,independent,,,,no_site,,,,,ΕΡΜΟΥ 1,κέντρο θεσσαλονίκης,,,,169999606000,1,smasth.gr,,,,
 ELLE REAL ESTATE,independent,ya.ru,https://ya.ru,https://ya.ru/?nr=1&redirect_ts=1790504293.00000,ok,no,no,0,,ΞΙΦΙΛΙΝΩΝ 4 ΚΑΛΑΜΑΡΙΑ,ανατολική θεσσαλονίκη,,,,111111111111,1,smasth.gr,,,,
-ELLINDOM,independent,,,,no_site,,,,,"Εγνατία 54, 546 24",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
+ELLINDOM,independent,ellindom.com,https://ellindom.com,,unreachable,,,,,"Εγνατία 54, 546 24",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 ELYSIAN LUXURY REAL ESTATE,independent,elysianes.gr,https://elysianes.gr,,unreachable,,,,,ΑΓ ΚΩΝΣΤΑΝΤΙΝΟΥ 86 ΕΥΟΣΜΟΣ,δυτική θεσσαλονίκη,,,,173424506000,2,smasth.gr,,,,
 EMPIRE REAL ESTATE (Αγαθάκης Γεώργιος Σ.),independent,empire.com.gr,https://www.empire.com.gr,https://www.empire.com.gr,bot_check_imperva,,,,,Βασιλίσσης Όλγας 7,Θεσσαλονίκη,54640,40.6170231906806,22.9547793790259,,,vrisko.gr,,,https://www.vrisko.gr/details/d1c12_b_0jc0_i4jagaa75d53d_234c4,thessaloniki
-ENTERHOME,independent,,,,no_site,,,,,ΙΩΝΙΑΣ 9 Β ΠΕΡΑΙΑ,ανατολική θερσσαλονίκη,,,,039588506000,1,smasth.gr,,,,
 EPI SYSTEMS,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 ERGODESING CONTRUCTIONS EE,independent,,,,no_site,,,,,ΑΡΙΣΤΟΤΕΛΟΥΣ 7 ΚΕΝΤΡΟ,κέντρο θεσσαλονίκης,,,,123536805000,1,smasth.gr,,,,
 ESTIACITY (Ραιδεστινού Αικατερίνη Α.),independent,estiacity.gr,https://www.estiacity.gr,https://www.estiacity.gr,bot_check_imperva,,,,,Μητροπολίτου Γενναδίου 22,Νέοι Επιβάτες - Άνω Νέοι Επιβάτες,57019,40.4971137154623,22.9132518836061,,,vrisko.gr,,,https://www.vrisko.gr/details/b7432543bk127313411d26a30i0b7d23,thessalonikis
@@ -315,12 +327,11 @@ ESTIANET (Παμπαλιάρης Κωνσταντίνος Π.),independent,estia
 EUROCASA (Τσολακίδου Χρυσούλα Δ.),independent,,,,no_site,,,,,Καπετάν Γκόνη 27,Καλαμαριά,55131,40.5905278000000,22.9507394026578,,,vrisko.gr,,,https://www.vrisko.gr/details/002i573614b3bd0f570faa_07_1eb2_4,kalamaria
 EUROHOME,independent,eurohome-estate.gr,https://eurohome-estate.gr,https://eurohome-estate.gr,bot_check_imperva,,,,,ΑΝΔΡΕΑ ΠΑΠΑΝΔΡΕΟΥ 89,ανατολική θερσσαλονίκη,,,,042722506000,1,smasth.gr,,,,
 EXELIXIS (Ουζούνης Τιμολέων Γ.),independent,exelixis-estate.gr,https://www.exelixis-estate.gr,https://www.exelixis-estate.gr,bot_check_imperva,,,,,Συγγρού Ανδρέα 34,Θεσσαλονίκη,54630,40.6391612101449,22.9414983333333,,,vrisko.gr,,,https://www.vrisko.gr/details/aj6e224kbebdbfb2d_bjde5jd20bbj5e,thessaloniki
-EXTRA HOME,independent,,,,no_site,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/EXTRA-HOME/8525,,,
+EXTRA HOME,independent,extrahome.gr,https://extrahome.gr,https://extrahome.gr,bot_check_imperva,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/EXTRA-HOME/8525,,,
 Easy Land,independent,easy-land.gr,https://easy-land.gr,,unreachable,,,,,,,,,,,,web search,,,,
 Elevate-it - Έκδοση Κοινοχρήστων Θεσσαλονίκη,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Engel & Völkers Thessaloniki,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 F HOME REAL ESTATE,independent,,,,no_site,,,,,"Κωνσταντινουπόλεως 71, 546 44","Θεσσαλονίκη, Ιπποκράτειο",,,,,,tsakbam.eu,,,,
-FINE HOME,independent,,,,no_site,,,,,"Καραολή & Δημητρίου (Διοικητηρίου) 30, 546 30",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 FINPLUS REAL ESTATE,independent,,,,no_site,,,,,"Λεωφόρος Καραμανλή Κωνσταντίνου 108, 546 44","Θεσσαλονίκη, Βρυσάκι",,,,,,tsakbam.eu,,,,
 FIRST CLASS REAL ESTATE,independent,,,,no_site,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/FIRST-CLASS-REAL-ESTATE/9443,,,
 FIRSTCLASSREALESTATE,independent,,,,no_site,,,,,ΣΤΕΛΙΟΥ ΚΑΖΑΝΤΖΙΔΗ 47,περίχωρα θεσσαλονίκης,,,,137441706000,1,smasth.gr,,,,
@@ -331,35 +342,33 @@ G&J ΜΕΣΙΤΙΚΟ ΓΡΑΦΕΙΟ,independent,,,,no_site,,,,,,,,,,,,spitogatos
 GALANOS REAL ESTATE (Γαλανός Ελευθέριος Φ.),independent,galanosestate.gr,https://www.galanosestate.gr,https://www.galanosestate.gr,bot_check_imperva,,,,,Τσιμισκή Ιωάννη 27,Θεσσαλονίκη,54624,40.6340576000000,22.9408174416413,161595106000,1,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/_j13a3375j351b42ak0db55j6_1a352i,thessaloniki
 GALL,independent,,,,no_site,,,,,ΣΕΦΕΡΗ 10 ΚΑΛΑΜΑΡΙΑ,ανατολική θεσσαλονίκη,,,,176499606000,1,smasth.gr,,,,
 GE - HOME (Πανίδης Γεώργιος Κ.),independent,ge-home.gr,https://www.ge-home.gr,https://www.ge-home.gr,bot_check_imperva,,,,,Λεωφόρος Στρατού 27,Θεσσαλονίκη,54639,40.6197512398374,22.9579658000000,,,vrisko.gr,,,https://www.vrisko.gr/details/2cdd605j665e7dbba7d2_k2056b1d263,thessalonikis
-GEORGIADOY REAL ESTATE GROUP,independent,,,,no_site,,,,,ΠΡΟΥΣΗΣ 5 ΝΕΑΠΟΛΗ,δυτική θεσσαλονίκη,,,,165675106000,1,smasth.gr,,,,
 GIANNOULIS estate,independent,,,,no_site,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/GIANNOULIS-estate/1343,,,
 GIOVANNI REAL ESTATE (Μπλόσκας Ιωάννης Β.),independent,giovannirealestate.gr,https://www.giovannirealestate.gr,,unreachable,,,,,Πορφύρα Λάμπρου & Αλεξανδρείας,Θεσσαλονίκη,54646,40.5977171000000,22.9571453301115,,,vrisko.gr,,,https://www.vrisko.gr/details/af2e2f07a7564h7c24c173623b736daa,thessalonikis
 GMak Properties,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 GOLD HOME REAL ESTATE,independent,,,,no_site,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/GOLD-HOME-REAL-ESTATE/15444,,,
 GOLDEN HOUSE,independent,,,,no_site,,,,,"Σκρα 3, 546 22","Θεσσαλονίκη, Αγία Σοφία",,,,,,tsakbam.eu,,,,
 GONOWHOUSE,independent,,,,no_site,,,,,ΓΡΗΓ ΚΟΛΩΝΙΑΡΗ 120 ΜΕ ΡΗΓΑ ΦΕΡΑΙΟΥ 1,ανατολική θερσσαλονίκη,,,,148842406000,1,smasth.gr,,,,
-GOOD VIBE REAL ESTATE,independent,,,,no_site,,,,,"Φιλίππου 103, 546 35","Θεσσαλονίκη, Αγία Σοφία",,,,,,tsakbam.eu,,,,
+GOOD VIBE REAL ESTATE,independent,goodvibe.gr,https://goodvibe.gr,,http_502,,,,,"Φιλίππου 103, 546 35","Θεσσαλονίκη, Αγία Σοφία",,,,,,tsakbam.eu,,,,
 GOODDEAL,independent,,,,no_site,,,,,"Κομνηνών 8, 546 24",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
-GRACE REAL ESTATE,independent,,,,no_site,,,,,"Ρωμανού 11, 570 19",Περαία,,,,,,tsakbam.eu,,,,
 GREEK PROPERTY FOR SALE,independent,greekpropertyforsale.gr,https://greekpropertyforsale.gr,,http_503,,,,,ΠΤΟΛΕΜΑΊΩΝ 6,ανατολική θερσσαλονίκη,,,,174643806000,1,smasth.gr,,,,
 GREEKHOUSELAND,independent,,,,no_site,,,,,", 546 23",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 GREENPOWER,independent,,,,no_site,,,,,ΔΙΟΓΕΝΟΥΣ 1ΕΥΟΣΜΟΣ,δυτική θεσσαλονίκη,,,,041376406000,1,smasth.gr,,,,
-GRISS - GREEK REALTY INTERGRATED SOLUTIONS AND SERVICES ΙΚΕ,independent,,,,no_site,,,,,Δραγούμη Ίωνος 4,Θεσσαλονίκη,54624,40.6348449503546,22.9384310000000,,,vrisko.gr,,,https://www.vrisko.gr/details/50513gb33g7c6g1__22aa3ae65316aae,thessaloniki
 Gnpproperties,independent,gnpproperties.gr,https://gnpproperties.gr,,bot_check_cloudflare,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/Gnpproperties/20970,,,
 Golden House Thessaloniki,independent,goldenhousethessaloniki.gr,https://goldenhousethessaloniki.gr,https://goldenhousethessaloniki.gr,bot_check_imperva,,,,,,,,,,,,web search,,,,
 HABITAT REAL ESTATE OE,independent,habitatrealestate.gr,https://habitatrealestate.gr,,bot_check_cloudflare,,,,,ΖΕΥΞΙΔΟΣ 1 ΚΕΝΤΡΟ,κέντρο θεσσαλονίκης,,,,179357104000,1,smasth.gr,,,,
 HOME AGENCY (Ζαχαριά Βασιλική Π.),independent,homeagency.gr,https://www.homeagency.gr,https://www.homeagency.gr,bot_check_imperva,,,,,Καποδιστρίου 36,Καλαμαριά - Νέα Κρήνη,55132,40.5688271596731,22.9598297540528,,,vrisko.gr,,,https://www.vrisko.gr/details/7a667153443h24a7d36f7h1e1fd16db6,thessalonikis
 HOME CENTER,independent,home-center.gr,https://home-center.gr,https://home-center.gr,bot_check_imperva,,,,,ΚΑΡΑΟΛΗ ΔΗΜΗΤΡΙΟΥ 117 ΕΥΟΣΜΟΣ,δυτική θεσσαλονίκη,,,,041664106000,1,smasth.gr,,,,
-HOME TIME (Σάκκου Αλεξάνδρα Κ.),independent,,,,no_site,,,,,Φιλιππουπόλεως 75,Αμπελόκηποι,56123,40.6540770999999,22.9240378227866,,,vrisko.gr,,,https://www.vrisko.gr/details/0g0d4h5acgbedc3544dgd44f4711a365,thessalonikis
+HOME TIME (Σάκκου Αλεξάνδρα Κ.),independent,realestatehometime.gr,https://realestatehometime.gr,https://realestatehometime.gr,bot_check_imperva,,,,,Φιλιππουπόλεως 75,Αμπελόκηποι,56123,40.6540770999999,22.9240378227866,,,vrisko.gr,,,https://www.vrisko.gr/details/0g0d4h5acgbedc3544dgd44f4711a365,thessalonikis
 HOME-XPERT,independent,home-xpert.gr,https://home-xpert.gr,https://home-xpert.gr,bot_check_imperva,,,,,ΜΙΑΟΥΛΗ 7 ΑΓΙΑ ΤΡΙΑΔΑ,ανατολική θερσσαλονίκη,,,,145089506000,1,smasth.gr,,,,
 HOME4ALL REAL ESTATE,independent,homeforall.gr,https://homeforall.gr,https://homeforall.gr,bot_check_imperva,,,,,Μητροπόλεως 19,Θεσσαλονίκη,54624,40.6338960000000,22.9394408940724,,,vrisko.gr,,,https://www.vrisko.gr/details/bf20700423be5f5_24bdd_23b0df5ich,thessalonikis
 HOMEADORE & REMODELING SOLUTIONS,independent,,,,no_site,,,,,ΣΤΕΦ ΤΑΤΗ 7,κέντρο θεσσαλονίκης,,,,149206206000,2,smasth.gr,,,,
 HOMEADORE AND REMODELING SOLUTIONS - ΑΠΟΣΤΟΛΙΔΗΣ Γ ΑΛΕΞΑΝΔΡΗ Ι ΠΑΠΑΙΩΑΝΝΟΥ Α ΟΕ,independent,homeadore.gr,https://www.homeadore.gr,https://www.homeadore.gr,bot_check_imperva,,,,,Τάττη Στεφάνου 7,Θεσσαλονίκη,54622,40.6335928458057,22.9481877460327,,,vrisko.gr,,,https://www.vrisko.gr/details/44072h1cdf4ibjcb1c1e1bah_f4_dbd_,thessaloniki
 HOMETIME,independent,,,,no_site,,,,,ΦΙΛΙΠΟΥΠΟΛΕΩΣ 75,ανατολική θερσσαλονίκη,,,,039545906000,1,smasth.gr,,,,
-HOUSE FOR YOU,independent,,,,no_site,,,,,ΑΝΤΩΝΙΟΥ ΝΑΣΤΟΥ 19,ανατολική θερσσαλονίκη,,,,133199506000,1,smasth.gr,,,,
 HOUSES SERVICE,independent,propertieshouseservice.gr,https://propertieshouseservice.gr,,unreachable,,,,,ΚΩΝΣΤΑΝΤΙΝΟΥ ΚΑΡΑΜΑΝΛΗ 145,ανατολική θερσσαλονίκη,,,,192657906000,1,smasth.gr,,,,
 HOUSES UNDER THE SUN GREECE EE,independent,,,,no_site,,,,,ΚΩΝΣΤΑΝΤΙΝΟΥΠΟΛΕΩΣ 23 ΝΕΟ ΡΥΣΙΟ,ανατολική θερσσαλονίκη,,,,170425006000,1,smasth.gr,,,,
-Happy House Property,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
+Happy House Property,independent,happyhousepro.gr,https://happyhousepro.gr,,bot_check_other,,,,,,,,,,,,aetoitourealestate.eu,,,,
+Home in Greece,independent,home-ingreece.com,https://home-ingreece.com,https://home-ingreece.com,bot_check_imperva,,,,,,,,,,,,web search,,,,
+House Town,independent,housetown.gr,https://housetown.gr,https://housetown.gr,bot_check_imperva,,,,,,,,,,,,web search,,,,
 IKARIA 2009,independent,,,,no_site,,,,,ΣΥΜΕΩΝΙΔΗ 22 ΠΥΛΑΙΑ,ανατολική θεσσαλονίκη,,,,1689280406000,1,smasth.gr,,,,
 IKIA ESTATE (Ιωαννίδης Παναγιώτης),independent,ikia-estate.gr,https://www.ikia-estate.gr,,unreachable,,,,,Βενιζέλου Ελευθερίου 29,Συκιές,56625,40.6454548183605,22.9561226694254,,,vrisko.gr,,,https://www.vrisko.gr/details/7i52_0ae3h66ac_eb207a30g43_d3kai,thessalonikis
 IKOS REAL ESTATE,independent,,,,no_site,,,,,Λαγυνά,Λαγκαδάς,57200,,,,,vrisko.gr,,,https://www.vrisko.gr/details/6i2k46b63i66b0ag34agbe__5bc6ad4k,thessalonikis
@@ -368,7 +377,6 @@ INTERHOME,independent,interhome-group.gr,https://interhome-group.gr,https://inte
 INTERHOME (Τζιδημόπουλος Σάββας Π.),independent,interhome.gr,https://www.interhome.gr,,unreachable,,,,,Ρήγα Φεραίου 138,Συκιές,56625,40.6510091394799,22.9511548699588,,,vrisko.gr,,,https://www.vrisko.gr/details/_k16ceb4be7524367kca1ed_4i2fbg43,thessalonikis
 INVESTAR REAL ESTATE (Κεραμίδας Παντελής Ν.),independent,investar.gr,https://www.investar.gr,,unreachable,,,,,Καρρά & Καζαντζή,Κάτω Σχολάρι,57500,40.4293777269780,23.0248205806419,,,vrisko.gr,,,https://www.vrisko.gr/details/615261d7aa2231dc36b74j0f6k_gbj7e,thessalonikis
 INVISTA - ΚΑΚΑΛΤΣΗΣ Ν ΚΑΙ ΣΙΑ ΟΕ,independent,invista.gr,https://www.invista.gr,,unreachable,,,,,Παπανδρέου Ανδρέα 46 & Μακεδονίας 16Α,Καλαμαριά - Άγιος Ιωάννης,55135,40.5749160000000,22.9648970000000,043556706000,2,vrisko.gr;smasth.gr,,,https://www.vrisko.gr/details/2g1h3k2k4650614jd12d47613e3abfd7,thessalonikis
-IOANNIDIS HOME (Ιωαννίδης Παναγιώτης Ν.),independent,,,,no_site,,,,,Μελενίκου Κωνσταντίνου 43,Θεσσαλονίκη - Ροτόντα,54635,40.6348140000000,22.9530032177893,,,vrisko.gr,,,https://www.vrisko.gr/details/7e4bai555b7f6k1ebi_h4k1kbc045cc7,thessaloniki
 ISPC.DAO,independent,,,,no_site,,,,,"Τσιμισκή 71, Θεσσαλονίκη 546 22, Ελλάδα",,54622,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/ispc-dao/1b240291-5934-4d09-b0d8-9e057d91533d,,
 ITG GROUP INVESTMENTS | השקעות נדל״ן ביוון,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Ihouse,independent,,,,no_site,,,,,"Γεωρ. Δροσίνη 5, Θεσσαλονίκη 546 44, Ελλάδα",,54644,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/ihouse/1381f0d4-6f68-4c3d-838d-cacae301b090,,
@@ -380,8 +388,9 @@ KAROUTAS PROPERTIES - Α ΚΑΡΟΥΤΑΣ ΚΑΙ ΣΙΑ ΟΕ (Καρούτας �
 KASSANDRA PROPERTIES VIP,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 KATOIKIES.ONLINE,independent,,,,no_site,,,,,"Καπετάν Άγρα 4, 570 19",Περαία,,,,,,tsakbam.eu,,,,
 KEY HOME (Γραικός Στυλιανός Γ.),independent,keyhome.gr,https://www.keyhome.gr,,unreachable,,,,,Βιζυηνού 54,Θεσσαλονίκη,54636,40.6318545000000,22.9644622326733,,,vrisko.gr,,,https://www.vrisko.gr/details/2b_ibb750k5b__7j137ic73f_ccj3e47,thessaloniki
-KOUKIOS REAL ESTATE,independent,,,,no_site,,,,,"Κασσάνδρου 51, 546 33","Θεσσαλονίκη, Διοικητήριο",,,,,,tsakbam.eu,,,,
+KOUKIOS REAL ESTATE,independent,koukiosrealestate.gr,https://koukiosrealestate.gr,,unreachable,,,,,"Κασσάνδρου 51, 546 33","Θεσσαλονίκη, Διοικητήριο",,,,,,tsakbam.eu,,,,
 Katerina Mandalianou Realty & Design,independent,,,,no_site,,,,,"Βασ. Ηρακλειου 47, Θεσσαλονίκη 546 23, Ελλάδα",,54623,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/katerina-mandalianou-realty-design/ac042680-f7fb-483c-a588-26825a5078b6,,
+Kazakos Real Estate,independent,kazakos-real-estate.gr,https://kazakos-real-estate.gr,,unreachable,,,,,,,,,,,,web search,,,,
 Konstantinos A. Primerakis,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 L aparts Thessaloniki,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 LA MAISON (Κανταρτζή Ιωάννα),independent,,,,no_site,,,,,Παπάφη 19,Θεσσαλονίκη,54638,40.6212406558739,22.9611721000000,,,vrisko.gr,,,https://www.vrisko.gr/details/2k40015ja_5060a1_520dfbc01545a13,thessaloniki
@@ -390,7 +399,7 @@ LIAGAS REAL ESTATE,independent,,,,no_site,,,,,"Μητροπόλεως 40, 546 23
 LIFE HOME REAL ESTATE,independent,,,,no_site,,,,,", 562 24",Εύοσμος,,,,,,tsakbam.eu,,,,
 LINEA  AND B,independent,,,,no_site,,,,,ΔΩΔΕΚΑΝΗΣΟΥ 2,κέντρο θεσσαλονίκης,,,,187011606000,1,smasth.gr,,,,
 LIVINIT,independent,,,,no_site,,,,,ΠΑΝΑΓΗ ΤΣΑΛΔΑΡΗ 3 ΝΕΑΠΟΛΗ,ανατολική θερσσαλονίκη,,,,133404406000,1,smasth.gr,,,,
-LUCKY HOUSE,independent,,,,no_site,,,,,", 551 32",Καλαμαριά,,,,,,tsakbam.eu,,,,
+LUCKY HOUSE,independent,luckyhouse.gr,https://luckyhouse.gr,https://luckyhouse.gr,bot_check_imperva,,,,,", 551 32",Καλαμαριά,,,,,,tsakbam.eu,,,,
 Liapatis Real Estate,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 MANDRAOU HOME REAL ESTATE,independent,mandraou.gr,https://mandraou.gr,,unreachable,,,,,ΡΩΜΑΝΟΥ 27 ΠΕΡΑΙΑ,περίχωρα θεσσαλονίκης,,,,111111111111,1,smasth.gr,,,,
 MASTER HOUSE ΜΟΝΟΠΡΟΣΩΠΗ ΙΚΕ,independent,,,,no_site,,,,,Δελφών 13,Θεσσαλονίκη,54640,40.6158302852272,22.9584125000000,,,vrisko.gr,,,https://www.vrisko.gr/details/_d1_0ia3453ha727167j772jbh6jc25f,thessaloniki
@@ -409,7 +418,7 @@ MOUSE REAL ESTATE,independent,mouserealestate.gr,https://mouserealestate.gr,,bot
 MP ESTATE,independent,,,,no_site,,,,,ΟΜΟΝΟΙΑΣ 7 ΝΙΚΟΠΟΛΗ,ανατολική θερσσαλονίκη,,,,176576606000,1,smasth.gr,,,,
 MP REALTY (Παπαγρηγορίου Μαρία Χ.),independent,mprealty.gr,https://www.mprealty.gr,,unreachable,,,,,Πλουτάρχου 12,Καλαμαριά,55134,40.5888203800627,22.9624682000000,,,vrisko.gr,,,https://www.vrisko.gr/details/ch020k2c4bb01f1k4e6f7f2_bi5iaja5,kalamaria
 MY HOME PROPERTIES,independent,,,,no_site,,,,,ΡΩΜΑΝΟΥ 3 ΠΕΡΑΙΑ,ανατολική θερσσαλονίκη,,,,168737506000,1,smasth.gr,,,,
-MY HOUSE,independent,,,,no_site,,,,,"Μελενίκου Κωνσταντίνου 25, 546 35",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
+MY HOUSE,independent,myhouses.gr,https://myhouses.gr,,unreachable,,,,,"Μελενίκου Κωνσταντίνου 25, 546 35",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 Maestro Real Estate,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Minor HOUSE,independent,,,,no_site,,,,,"Κιλκίς, Ωραιόκαστρο 570 13, Ελλάδα",,57013,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/minor-house/d2bf0ebb-a96d-471f-9126-5d0e7eed2d3d,,
 Must Apartments,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
@@ -418,8 +427,8 @@ NEO SPITI,independent,,,,no_site,,,,,ΛΕΩΦ Γ ΠΑΠΑΝΙΚΟΛΑΟΥ 99,δ�
 NEOSPITI,independent,,,,no_site,,,,,"Λεωφόρος Παπανικολάου 99, 570 10",Πεύκα (ή Ρετζίκι),,,,,,tsakbam.eu,,,,
 NEW ENTRY (Χρήστου Μαρία Ι.),independent,new-entry.gr,https://www.new-entry.gr,,unreachable,,,,,Χρυσουλίδη Δ. 5,Καλαμαριά,55131,40.5857336000000,22.9525549800530,,,vrisko.gr,,,https://www.vrisko.gr/details/_hb2c04i_42bbe_hag2h050g754db54h,thessalonikis
 NEW HOME REAL ESTATE,independent,,,,no_site,,,,,ΙΑΣΩΝΙΔΟΥ 19,κέντρο θεσσαλονίκης,,,,168566404000,1,smasth.gr,,,,
-NIVESTA REAL ESTATE,independent,,,,no_site,,,,,"Πάροδος Αθ. Διάκου 10, 575 00",Επανομή,,,,,,tsakbam.eu,,,,
-NORTHLAND ESTATE,independent,,,,no_site,,,,,"Λεωφόρος Παπανικολάου 79 & Αρχιμήδη 1, 570 10",Πεύκα (ή Ρετζίκι),,,,,,tsakbam.eu,,,,
+NIVESTA REAL ESTATE,independent,nivesta.gr,https://nivesta.gr,,unreachable,,,,,"Πάροδος Αθ. Διάκου 10, 575 00",Επανομή,,,,,,tsakbam.eu,,,,
+NORTHLAND ESTATE,independent,northlandestate.gr,https://northlandestate.gr,https://northlandestate.gr,bot_check_imperva,,,,,"Λεωφόρος Παπανικολάου 79 & Αρχιμήδη 1, 570 10",Πεύκα (ή Ρετζίκι),,,,,,tsakbam.eu,,,,
 NV INTER ESTATES,independent,,,,no_site,,,,,ΔΕΛΦΩΝ 50 Α ΠΥΛΑΙΑ,ανατολική θερσσαλονίκη,,,,202187216,1,smasth.gr,,,,
 OMNIS PROGECTS EE,independent,omnisprojects.gr,https://omnisprojects.gr,,unreachable,,,,,ΑΓΙΟΥ ΔΗΜΗΤΡΙΟΥ 49 ΜΕ ΚΑΛΠΑΚΙΟΥ ΣΥΚΙΕΣ,ανατολική θερσσαλονίκη,,,,161532904000,1,smasth.gr,,,,
 OPEN 24 REAL ESTATE - ΔΙΑΜΑΝΤΙΔΗΣ ΔΙΑΜΑΝΤΗΣ ΜΟΝΟΠΡΟΣΩΠΗ ΙΚΕ,independent,open24estate.gr,https://www.open24estate.gr,https://www.open24estate.gr,bot_check_imperva,,,,,Ζαρίφη Νικολάου 14,Συκιές,56625,40.6484718732221,22.9465549102646,,,vrisko.gr,,,https://www.vrisko.gr/details/2326_fb_1a0j3_3kcjc0166kc757066c,thessalonikis
@@ -428,22 +437,23 @@ Oikia Thess,independent,oikia-thess.gr,https://oikia-thess.gr,,unreachable,,,,,,
 Oikos Estate Gremmenas Group,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 PALLADIA (Ραγτζή Νίκη Ι.),independent,,,,no_site,,,,,Μανουσογιαννάκη 2,Θεσσαλονίκη,54621,40.6292193000000,22.9501941916667,,,vrisko.gr,,,https://www.vrisko.gr/details/3g46ckc41b1_ac5e1i1j3cc665cjb67f,thessaloniki
 PANDA ΘΕΣΣΑΛΟΝΟΙΚΟΙ,independent,harpantidis.gr,https://harpantidis.gr,https://harpantidis.gr,bot_check_imperva,,,,,ΑΓ ΔΗΜΗΤΡΙΟΥ 71,ανατολική θερσσαλονίκη,,,,149960906000,1,smasth.gr,,,,
-PANORAMA ESTATE,independent,,,,no_site,,,,,ΠΑΠΑΔΟΠΟΥΛΟΥ 19 ΠΑΝΟΡΑΜΑ,ανατολική θερσσαλονίκη,,,,000142552106000,1,smasth.gr,,,,
 PAPPAS REALTY,independent,,,,no_site,,,,,"Πολυτεχνείου 45, 546 25",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 PARTHENON REAL ESTATE (Γεωργάκος Κωνσταντίνος Σ.),independent,nires.net,https://www.nires.net,,unreachable,,,,,Πολυτεχνείου 25,Θεσσαλονίκη,54626,40.6372842000000,22.9348051033264,,,vrisko.gr,,,https://www.vrisko.gr/details/a2b_4_af2_71044k_25b1g37ce51_a5b,thessaloniki
 PASALIDIS REALESTATE,independent,yahoo.gr,https://yahoo.gr,,unreachable,,,,,ΦΙΛΙΠΠΟΥ 55 ΠΥΛΑΙΑ,ανατολική θεσσαλονίκη,,,,11111111111,10,smasth.gr,,,,
-PERFECT HOME (Κοντός Χρήστος Ε.),independent,,,,no_site,,,,,Κασσάνδρου 123,Θεσσαλονίκη,54634,40.6346528000000,22.9503270988047,,,vrisko.gr,,,https://www.vrisko.gr/details/b_be2e22b402701a61354_dfbicba0b6,thessalonikis
+PERFECT HOME (Κοντός Χρήστος Ε.),independent,perfecthome.gr,https://perfecthome.gr,https://perfecthome.gr,bot_check_imperva,,,,,Κασσάνδρου 123,Θεσσαλονίκη,54634,40.6346528000000,22.9503270988047,,,vrisko.gr,,,https://www.vrisko.gr/details/b_be2e22b402701a61354_dfbicba0b6,thessalonikis
 PESIRIDIS GROUR,independent,,,,no_site,,,,,ΝΙΚΟΜΗΔΕΙΑΣ 25 ΗΛΙΟΥΠΟΛΗ,δυτική θεσσαλονίκη,,,,144343206000,1,smasth.gr,,,,
-PLANET ESTATE,independent,,,,no_site,,,,,"Ζέρβα Γρηγορίου 2, 575 00",Επανομή,,,,,,tsakbam.eu,,,,
+PLANET ESTATE,independent,planet-estate.gr,https://planet-estate.gr,,unreachable,,,,,"Ζέρβα Γρηγορίου 2, 575 00",Επανομή,,,,,,tsakbam.eu,,,,
 PLATINUM REAL ASTATE,independent,,,,no_site,,,,,ΤΡΙΠΤΟΛΕΜΟΥ 14,ανατολική θερσσαλονίκη,,,,144355506000,1,smasth.gr,,,,
 POSEIDON DEVELOPMENT IKE,independent,poseidonrealestate.gr,https://poseidonrealestate.gr,,unreachable,,,,,ΕΓΝΑΤΙΑ 81 Α,κέντρο θεσσαλονίκης,,,,136653506000,1,smasth.gr,,,,
 PRECON (Προγιόπουλος Φίλιππος Γ.),independent,precon.gr,https://www.precon.gr,,unreachable,,,,,Ήρωνος 5,Θεσσαλονίκη,54639,40.6168558802293,22.9597485659723,,,vrisko.gr,,,https://www.vrisko.gr/details/db37464e4jda136e1325ch5cc61gba02,thessalonikis
 PRO CAPITAL ΚΟΛΟΠΤΑΣ ΜΙΧΑΗΛ,independent,pro-lapital.gr,https://pro-lapital.gr,,unreachable,,,,,ΦΙΛΙΠΠΟΥ 35,ανατολική θερσσαλονίκη,,,,14355335000,1,smasth.gr,,,,
-PROMO HOME REAL ESTATE,independent,,,,no_site,,,,,"Αγίου Δημητρίου 139, 546 34",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
+PROMO HOME REAL ESTATE,independent,promohome-realestate.com,https://promohome-realestate.com,,unreachable,,,,,"Αγίου Δημητρίου 139, 546 34",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
 PROMOTION REAL ESTATE,independent,,,,no_site,,,,,ΠΡΕΒΕΖΗΣ 21 ΑΓΙΟΣ ΠΑΥΛΟΣ,δυτική θεσσαλονίκη,,,,039839406000,1,smasth.gr,,,,
 PROPER HOME,independent,,,,no_site,,,,,"Λεωφόρος Βασιλίσσης Όλγας 140, 546 45","Θεσσαλονίκη, Ποσειδώνιο",,,,,,tsakbam.eu,,,,
 PROPERTY VISION,independent,propertyvision.gr,https://www.propertyvision.gr,,bot_check_other,,,,,Αρτάκης 15,Θεσσαλονίκη - Τούμπα,54454,40.6080106666666,22.9753910215531,,,vrisko.gr,,,https://www.vrisko.gr/details/5_ahad432a2h2f34a20727271344bg73,thessalonikis
-PROTERA PROPERTIES,independent,,,,no_site,,,,,ΜΑΚΡΥΓΙΑΝΝΗ 31 ΘΕΡΜΗ,περίχωρα θεσσαλονίκη,,,,160565406000,1,smasth.gr,,,,
+PROTERA PROPERTIES,independent,proterraproperties.gr,https://proterraproperties.gr,,unreachable,,,,,ΜΑΚΡΥΓΙΑΝΝΗ 31 ΘΕΡΜΗ,περίχωρα θεσσαλονίκη,,,,160565406000,1,smasth.gr,,,,
+PROTERRA (Μίκρα),independent,proterra.gr,https://proterra.gr,,http_403,,,,,,,,,,,,web search,,,,
+Pame Spiti,independent,pame-spiti.gr,https://pame-spiti.gr,https://pame-spiti.gr,bot_check_imperva,,,,,,,,,,,,web search,,,,
 Passal Real Estate,independent,,,,no_site,,,,,"Παπάφη 22, Θεσσαλονίκη 546 39, Ελλάδα",,54639,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/passal-real-estate/23acb342-bba0-4dc1-bf3a-33d4e74e5733,,
 REAL A,independent,,,,no_site,,,,,"Ρήγα Φεραίου 79, Νεάπολη-Συκιές 567 28, Ελλάδα",,56728,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/real-a/63e65a17-a4f8-4d1e-b899-49579722cb6f,,
 REAL ASTATE PLUS,independent,,,,no_site,,,,,ΑΜΙΣΟΥ 45 ΚΑΛΑΜΑΡΙΑ,ανατολική θερσσαλονίκη,,,,125490606000,1,smasth.gr,,,,
@@ -452,7 +462,9 @@ REAL ESTATE PETIA SHEITANOVA,independent,neamesitiki.gr,https://neamesitiki.gr,h
 REAL ESTATE VASILIADIS (Βασιλειάδης Κωνσταντίνος Ν.),independent,vasiliadis-k.gr,https://www.vasiliadis-k.gr,,unreachable,,,,,Αγίου Νικολάου 2,Νέα Μηχανιώνα,57004,40.4608260000000,22.8614580000000,,,vrisko.gr,,,https://www.vrisko.gr/details/340fag5222_h66_74a6ac0c1a020_i1j,thessalonikis
 RES INTERNASIONAL,independent,,,,no_site,,,,,ΗΡΩΩΝ ΠΟΛΥΤΕΧΝΕΙΟΥ 50 ΕΥΟΣΜΟΣ,ανατολική θερσσαλονίκη,,,,040769806000,1,smasth.gr,,,,
 REVA,independent,,,,no_site,,,,,"Σαχτούρη Μίλτου, Θέρμη 570 01, Ελλάδα",,57001,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/reva/ba1cb84c-7a29-470a-9a66-8c0006db48d7,,
+Real Estate Liolidis,independent,mesitiko-liolidis.gr,https://mesitiko-liolidis.gr,https://mesitiko-liolidis.gr,bot_check_imperva,,,,,,,,,,,,web search,,,,
 Real Estate Plus,independent,realestateplus.gr,https://realestateplus.gr,,bot_check_other,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/Real-Estate-Plus/6956,,,
+Real Promotion,independent,realpromotion.gr,https://realpromotion.gr,https://realpromotion.gr,bot_check_imperva,,,,,,,,,,,,web search,,,,
 RealStatus Academy,independent,,,,no_site,,,,,"Σκιάθου 2, Θεσσαλονίκη 546 46, Ελλάδα",,54646,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/realstatus-academy/a9ce8eae-c523-43d6-9f69-d77b5add19f7,,
 Realty Dynamic,independent,realtydynamic.gr,https://realtydynamic.gr,https://realtydynamic.gr,bot_check_imperva,,,,,,,,,,,,web search,,,,
 Refined Properties,independent,refinedproperties.gr,https://refinedproperties.gr,,unreachable,,,,,"Ἀρμενοπούλου 23, Θεσσαλονίκη 546 35, Ελλάδα",,54635,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/refined-properties/34f25c9e-6aea-4881-a1c8-b9567efe41a9,,
@@ -484,9 +496,9 @@ TIME 4 HOME (Θεμελής Αλκιβιάδης Ν.),independent,,,,no_site,,,,
 TINKER,independent,,,,no_site,,,,,ΚΑΛΑΠΟΘΑΚΗ 3,ανατολική θερσσαλονίκη,,,,165449606000,1,smasth.gr,,,,
 TMTAYLOR-MADE REAL ESTATE SERVICES,independent,tailor-madeproperty.gr,https://tailor-madeproperty.gr,,unreachable,,,,,ΣΟΛΩΝΟΣ 52,ανατολική θερσσαλονίκη,,,,174845006000,1,smasth.gr,,,,
 TOP HOME,independent,,,,no_site,,,,,"Στρατηγού Καλλιδόπουλου Περικλή 30, 546 42","Θεσσαλονίκη, Φάληρο",,,,,,tsakbam.eu,,,,
-TREE HOUSE,independent,,,,no_site,,,,,ΜΕΛΕΝΙΚΟΥ 25 ΚΕΝΤΡΟ,κέντρο θεσσαλονίκης,,,,038650005000,1,smasth.gr,,,,
+TREE HOUSE,independent,treehouserealestate.gr,https://treehouserealestate.gr,https://treehouserealestate.gr,bot_check_imperva,,,,,ΜΕΛΕΝΙΚΟΥ 25 ΚΕΝΤΡΟ,κέντρο θεσσαλονίκης,,,,038650005000,1,smasth.gr,,,,
 TREEHOUSE,independent,,,,no_site,,,,,"Μελενίκου Κωνσταντίνου 25, 546 35",Θεσσαλονίκη,,,,,,tsakbam.eu,,,,
-TRILOFOS REAL ESTATE,independent,,,,no_site,,,,,ΖΑΧΑΡΙΆ ΠΑΠΑΓΡΗΓΟΡΊΟΥ 71,ανατολική θερσσαλονίκη,,,,043189206000,1,smasth.gr,,,,
+TRILOFOS REAL ESTATE,independent,trilofosrealestate.gr,https://trilofosrealestate.gr,https://trilofosrealestate.gr,bot_check_imperva,,,,,ΖΑΧΑΡΙΆ ΠΑΠΑΓΡΗΓΟΡΊΟΥ 71,ανατολική θερσσαλονίκη,,,,043189206000,1,smasth.gr,,,,
 TSAKALIDHS A,independent,,,,no_site,,,,,ΜΕΣΗΜΕΡΙ,περίχωρα θεσσαλονίκης,,,,141984706000,1,smasth.gr,,,,
 TSAPOURIS REAL ESTATE (Τσαπούρη Στεργιανή Δ.),independent,tsapourisrealestate.com,https://www.tsapourisrealestate.com,,unreachable,,,,,Εγνατίας 37,Θεσσαλονίκη,54630,40.6382423333333,22.9398138729121,,,vrisko.gr,,,https://www.vrisko.gr/details/_13_11dga02ec55i6aah4j1e6_6id637,thessalonikis
 TSIRIGOTIS REAL ESTATE,independent,tsirigotisrealestate.com,https://tsirigotisrealestate.com,,unreachable,,,,,ΝΑΥΑΡΧΟΥ ΚΟΥΝΤΟΥΡΙΩΤΟΥ 19,ανατολική θερσσαλονίκη,,,,164528106000,1,smasth.gr,,,,
@@ -494,20 +506,21 @@ TZAMALIS REAL ESTATE (Τζαμάλης Γρηγόριος Θ.),independent,,,,no
 Tatogio Home,independent,,,,no_site,,,,,"Βασ. Γεωργίου & Βασ. Κωνσταντίνου, Ιωνία 570 08, Ελλάδα",,57008,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/tatogio-home/3b4a0f3b-8aab-4b88-a5f6-3148e6af6bb7,,
 Tsireli,independent,tsireli.gr,https://tsireli.gr,https://tsireli.gr,bot_check_imperva,,,,,,Kalamaria (Nea Krini),,,,,,web search,,,,
 Tzikas Real Estate,independent,tzikas-realestate.gr,https://tzikas-realestate.gr,,unreachable,,,,,,Kalamaria (Aretsou),,,,042846406000,1,web search;smasth.gr,,,,
-UNLOCK REAL ESTATE,independent,,,,no_site,,,,,Β ΟΛΓΑΣ 29,ανατολική θερσσαλονίκη,,,,158559006000,2,smasth.gr,,,,
+UNLOCK REAL ESTATE,independent,unlockrealestate.gr,https://unlockrealestate.gr,,bot_check_other,,,,,Β ΟΛΓΑΣ 29,ανατολική θερσσαλονίκη,,,,158559006000,2,smasth.gr,,,,
+URBAN POINT Development & Real Estate,independent,urban-point.gr,https://urban-point.gr,,unreachable,,,,,,,,,,,,web search,,,,
 URBAN REAL ESTATE EE,independent,,,,no_site,,,,,ΙΑΣΩΝΙΔΟΥ 2 ΠΑΝΟΡΑΜΑ,ανατολική θεσσαλονίκη,,,,042542506000,1,smasth.gr,,,,
 VAGIONAKI REAL ESTATE (Κορνηλάκης Παύλος Δ.),independent,vagionakirealestate.gr,https://vagionakirealestate.gr,,bot_check_other,,,,,25ης Μαρτίου 73,Θεσσαλονίκη,54248,40.6014762000000,22.9615940688029,,,vrisko.gr,,,https://www.vrisko.gr/details/6f7f4h4_034h2j_b223g5g0_ab0g7ide,thessaloniki
 VECOSTATE A.E.,independent,,,,no_site,,,,,"Αγίας Σοφίας 46, 546 22","Θεσσαλονίκη, Αγία Σοφία",,,,,,tsakbam.eu,,,,
 VENUS HOUSE,independent,,,,no_site,,,,,"Ανθυπολοχαγού Τάγαρη 5, 542 48","Καλαμαριά, Κηφισιά",,,,,,tsakbam.eu,,,,
-VERO REAL ESTATE,independent,,,,no_site,,,,,"Γούναρη Δημήτριου & Ισαύρων, 546 22","Θεσσαλονίκη, Λευκός Πύργος - Ιππόδρομος",,,,,,tsakbam.eu,,,,
+VERO REAL ESTATE,independent,verorealestate.gr,https://verorealestate.gr,,bot_check_other,,,,,"Γούναρη Δημήτριου & Ισαύρων, 546 22","Θεσσαλονίκη, Λευκός Πύργος - Ιππόδρομος",,,,,,tsakbam.eu,,,,
 VICTORY REAL ESTATE (Λεβεντούδης Γρηγόριος Β.),independent,victory.net.gr,https://www.victory.net.gr,https://www.victory.net.gr,bot_check_imperva,,,,,Μητροπόλεως 34,Θεσσαλονίκη,54623,40.6323589999999,22.9418259312114,,,vrisko.gr,,,https://www.vrisko.gr/details/535i5j222a_37kdc2h6b0gc04e1d4513,thessaloniki
 VISION HOME,independent,visionhome.gr,https://visionhome.gr,,bot_check_other,,,,,ΒΟΥΛΓΑΡΗ 59,ανατολική θερσσαλονίκη,,,,192920606000,1,smasth.gr,,,,
-VRES AKINITO,independent,,,,no_site,,,,,"Χείλωνος 5, 546 45","Θεσσαλονίκη, Νέα Παραλία",,,,,,tsakbam.eu,,,,
 ViEstate,independent,viestate.gr,https://viestate.gr,,http_403,,,,,"Νικηφόρου Ουρανού 15, Θεσσαλονίκη 546 27, Ελλάδα",,54627,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/viestate/95a59210-332f-43ff-8673-1839d1457fa3,,
 WELCOMEBNB,independent,,,,no_site,,,,,"Λεωφόρος Παπανικολάου 25, 570 10",Πεύκα (ή Ρετζίκι),,,,,,tsakbam.eu,,,,
 Xri.Ma Investments,independent,xrimainvestments.gr,https://xrimainvestments.gr,,unreachable,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/Xri-Ma-Investments/19693,,,
-ZOGRAFOU properties,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
+ZOGRAFOU properties,independent,zografouproperties.gr,https://zografouproperties.gr,https://zografouproperties.gr,bot_check_imperva,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Zisis Real Estate,independent,,,,no_site,,,,,"Πιττακού 6, Θεσσαλονίκη 546 45, Ελλάδα",,54645,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/zisis-real-estate/c046e86d-698f-4366-82d6-95707fde81fc,,
+apex (Kalamaria),independent,realestate-apex.com,https://realestate-apex.com,,unreachable,,,,,,,,,,,,web search,,,,
 astyrealestate,independent,astyrealestate.pro.xe.gr,https://astyrealestate.pro.xe.gr,,http_404,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/astyrealestate/9821,,,
 at home,independent,,,,no_site,,,,,,,,,,,,aetoitourealestate.eu,,,,
 atHome real estate papafi 117,independent,,,,no_site,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/at-home-real-estate-papafi/2124,,,
@@ -537,6 +550,7 @@ sunflight,independent,,,,no_site,,,,,"Πλ. Φαναριωτών 7, Θεσσαλ
 ΑΡΧΗΚΤΗΜΑΤΙΚΗ (Τσιλιμπάκου Κυριακή Α.),independent,arxiktimatiki.gr,https://www.arxiktimatiki.gr,https://www.arxiktimatiki.gr,bot_check_imperva,,,,,Βαλαγιάννη 16 & Παπαναστασίου 44,Θεσσαλονίκη,54639,40.6152640000000,22.9622070000000,,,vrisko.gr,,,https://www.vrisko.gr/details/3f_db3bd1c1d312ca71k1fb12c7k_i4j,thessalonikis
 ΑΣΤΥ (Νικολαΐδης Γεώργιος Ι.),independent,astyhome.gr,https://www.astyhome.gr,https://www.astyhome.gr,bot_check_imperva,,,,,Σωκράτους 2 & Εγνατίας 87,Θεσσαλονίκη,54635,40.6337110000000,22.9484960000000,,,vrisko.gr,,,https://www.vrisko.gr/details/6h7c6g2gdgdf0cb46a77_c0b0g_g3jbc,thessaloniki
 ΑΥΣΤΡΑΛΟΣ,independent,,,,no_site,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/AYSTRALOS/4820,,,
+Ακίνητα 365,independent,akinita365.gr,https://akinita365.gr,,unreachable,,,,,,,,,,,,web search,,,,
 Αμίλητος Ιορδάνης Ε.,independent,,,,no_site,,,,,25ης Μαρτίου 14,Θεσσαλονίκη,54646,40.5989311999999,22.9527434349514,,,vrisko.gr,,,https://www.vrisko.gr/details/6h3da60aah34da5d4da22g7g_e0f2jbi,thessaloniki
 Αναστασόπουλος Αλέξανδρος Θ.,independent,,,,no_site,,,,,Μακεδονίας 119,Θεσσαλονίκη - Μαρτίου,54248,40.6018126821907,22.9623435410749,,,vrisko.gr,,,https://www.vrisko.gr/details/a607_0d_11d46g6a357g64bj05d637ai,thessalonikis
 Β2Β ESTATE,independent,,,,no_site,,,,,"Τσιμισκή 16, Θεσσαλονίκη 546 23, Ελλάδα",,54623,,,,,xe.gr,,https://www.xe.gr/property/s/mesitiko-grafeio/v2v-estate/7d2721f0-1166-40a3-a53b-9e811ad9fc0b,,
@@ -592,7 +606,6 @@ sunflight,independent,,,,no_site,,,,,"Πλ. Φαναριωτών 7, Θεσσαλ
 Ι.ΑΝΤΩΝΙΑΔΗΣ,independent,,,,no_site,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/I-ANTONIADHS/18884,,,
 ΙΓΝΑΤΙΑΔΗΣ ΔΗΜΗΤΡΙΟΣ,independent,,,,no_site,,,,,ΛΕΩΦ ΣΤΡΑΤΟΥ 39,ανατολική θερσσαλονίκη,,,,153724806000,1,smasth.gr,,,,
 ΙΔΑΝΙΚΟ ΣΠΙΤΙ REAL ESTATE (Τσακατσώνης Νικόλαος Μ.),independent,idaniko-spiti.com,https://www.idaniko-spiti.com,https://www.idaniko-spiti.com,bot_check_imperva,,,,,Κολοτούρου 4,Καλαμαριά,55132,40.5782176666666,22.9505227893242,,,vrisko.gr,,,https://www.vrisko.gr/details/5e_d50dfc12j_ad2374c5bc46g5126df,thessalonikis
-ΙΟΡΔΑΝΟΥ REAL ESTATE,independent,,,,no_site,,,,,"Παλαιών Πατρών Γερμανού 44, 546 22","Θεσσαλονίκη, Λευκός Πύργος - Ιππόδρομος",,,,,,tsakbam.eu,,,,
 Ιωαννίδης Σταύρος Χ.,independent,stavrosioannidis.com,https://stavrosioannidis.com,,bot_check_other,,,,,Θεσσαλονίκη,Θεσσαλονίκη,54633,,,,,vrisko.gr,,,https://www.vrisko.gr/details/_b_c1e_a5_710i6eb35_320ccg705aah,thessaloniki
 ΚΑΖΑΝΗΣ ΜΙΧΑΛΗΣ,independent,kazanis.gr,https://kazanis.gr,,unreachable,,,,,ΒΑΣ ΗΡΑΚΛΕΙΟΥ 14,κέντρο θεσσαλονίκης,,,,111111111111,1,smasth.gr,,,,
 ΚΑΛΕΣΗ ΜΑΡΙΑΝΝΑ ΚΑΙ ΣΙΑΟΕ,independent,kalesirealestate.com,https://kalesirealestate.com,,unreachable,,,,,25 ΜΑΡΤΙΟΥ 5 ΕΠΑΝΩΜΗ,ανατολική θερσσαλονίκη,,,,176498806000,1,smasth.gr,,,,
@@ -704,6 +717,7 @@ sunflight,independent,,,,no_site,,,,,"Πλ. Φαναριωτών 7, Θεσσαλ
 ΣΤΟΓΙΝΟΒΙΤΣ ΑΛΕΞΑΝΔΡΟΣ,independent,,,,no_site,,,,,ΕΜΜΑΝΟΥΗΛ ΠΑΠΠΑ 15 ΚΑΛΑΜΑΡΙΑ,ανατολική θερσσαλονίκη,,,,170031806000,1,smasth.gr,,,,
 ΣΤΟΙΚΟΣ Α ΑΛΕΞΑΝΔΡΟΣ,independent,,,,no_site,,,,,ΣΩΚΡΑΤΟΥΣ 6 ΤΡΙΛΟΦΟΣ,περίχωρα θεσσαλονίκης,,,,168159506000,1,smasth.gr,,,,
 ΣΩΤΗΡΙΑΔΗΣ ΙΩΑΝΝΗΣ,independent,,,,no_site,,,,,ΛΕΩΦ ΔΗΜΟΚΡΑΤΙΑΣ 11,ανατολική θερσσαλονίκη,,,,040560506000,1,smasth.gr,,,,
+Σαν στο σπίτι σου,independent,sanstospitisou.gr,https://sanstospitisou.gr,https://sanstospitisou.gr,bot_check_imperva,,,,,,,,,,,,web search,,,,
 Σαχινίδης Real Estate,independent,sachinidisrealestate.com,https://sachinidisrealestate.com,,http_429,,,,,,,,,,,,aetoitourealestate.eu,,,,
 Στόικος Γεώργιος Χ.,independent,stoikoshome.gr,https://www.stoikoshome.gr,https://www.stoikoshome.gr,bot_check_imperva,,,,,Βόγα Κίμωνος 81 & Γραβιάς 22,Θεσσαλονίκη,54645,40.6008700000000,22.9529230000000,,,vrisko.gr,,,https://www.vrisko.gr/details/4f54a___ah0c551i630hd1560k_0_13h,thessalonikis
 ΤΑΡΑΣΙΔΗΣ ΑΚΙΝΗΤΑ (Ταρασίδης Κοσμάς Σ.),independent,tarasidis-akinita.gr,https://www.tarasidis-akinita.gr,https://www.tarasidis-akinita.gr,bot_check_imperva,,,,,Κωνσταντινουπόλεως 130,Θεσσαλονίκη,54644,40.6080206382398,22.9631090000000,,,vrisko.gr,,,https://www.vrisko.gr/details/1g6f_e351616af7bd0105j515f1d6g_5,thessaloniki
