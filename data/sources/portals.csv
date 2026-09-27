@@ -1,5 +1,5 @@
 domain,name,kind,segment,owner_group,has_agency_directory,agency_directory_url_pattern,priority,notes
-spitogatos.gr,Spitogatos,portal,resale;new_build,Spitogatos Network,yes,https://www.spitogatos.gr/en/find-agents/{area},1,Largest portal; ~477 agencies Thessaloniki municipality + ~318 suburbs (directory counts)
+spitogatos.gr,Spitogatos,portal,resale;new_build,Spitogatos Network,yes,https://www.spitogatos.gr/en/find-agents/{area},1,Largest portal; ~477 agencies Thessaloniki municipality + ~318 suburbs (directory counts); first-wave portal + main agency discovery source
 xe.gr,XE (Χρυσή Ευκαιρία),portal,resale;new_build,XE,unknown,,1,Classifieds; many private owner listings
 spiti24.gr,Spiti24,portal,resale;new_build,Spitogatos Network,yes,https://www.spiti24.gr/en/estate-agents/{area},1,Same group as Spitogatos - heavy overlap expected
 tospitimou.gr,Tospitimou,portal,resale;new_build,Spitogatos Network,unknown,,3,Same group as Spitogatos - heavy overlap expected
