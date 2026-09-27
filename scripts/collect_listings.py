@@ -248,7 +248,9 @@ def extract(url, page):
 
     head = title + " " + text[:6000]
     if not rec["price_eur"]:
-        m = re.search(r"(?:€|EUR)\s*([\d.,\s]{3,12}\d)|([\d.,]{3,12}\d)\s*(?:€|EUR|ευρώ)", head, re.I)
+        # "150.000 €" / "€ 150.000" / "€700"; digits separated by spaces are never joined
+        # (titles like "2577591 – ... €700" would otherwise become 700700)
+        m = re.search(r"(?:€|EUR)\s?(\d{1,3}(?:[.,]\d{3})+|\d+)(?![\d.,])|(\d{1,3}(?:[.,]\d{3})+|\d+)\s?(?:€|EUR|ευρώ)", head, re.I)
         if m:
             v = num(m.group(1) or m.group(2))
             rec["price_eur"] = v if v and v >= 50 else ""
@@ -271,9 +273,9 @@ def extract(url, page):
             rec["type"] = t
             break
     tr = (title + " " + url).lower()
-    if re.search(r"ενοικ|rent|μίσθ|enoik", tr):
+    if re.search(r"ενοικ|μίσθ|enoik|for[-_ ]rent|to[-_ ]rent|\brent\b", tr):
         rec["transaction"] = "rent"
-    elif re.search(r"πώλη|πωλ|sale|agora|pwl|pol", tr):
+    elif re.search(r"πώλη|πωλ|pwlis|polisi|poleitai|for[-_ ]sale|\bsale\b", tr):
         rec["transaction"] = "sale"
     # Spitogatos-style location line used by many agency CRMs:
     # "Δήμος Θεσσαλονίκης , Χαριλάου" / "Θεσσαλονίκη Περιφ/κοί δήμοι, Καλαμαριά, Κέντρο"

@@ -44,8 +44,8 @@ AREAS = [
     ("Θεσσαλονίκη-Κέντρο", r"κεντρο θεσσαλον|center of thessalon|thessaloniki center|αριστοτελουσ|καμαρα|kamara|ροτοντα|λαδαδικα|βαρδαρ|vardar|ανω πολη|ano poli|αγια σοφια|αγιοσ δημητριοσ|ιπποδρομιου|λευκοσ πυργοσ|δεθ|πανεπιστημι|σκρα|λαχανοκηπ|ξηροκρηνη|ευαγγελιστρια|συντριβανι|παραλια θεσσαλον"),
     ("Θεσσαλονίκη", r"θεσσαλονικ|thessalonik|salonic|saloniki"),
 ]
-OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ"
-NOT_LISTING = re.compile(r"^αποτελεσματα|^results|^αναζητηση|^search|blog|ιστορια|ανοικοδομηση", re.I)
+OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ"
+NOT_LISTING = re.compile(r"^αποτελεσματα|^results|^αναζητηση|^search|blog|ιστορια|ανοικοδομηση|η εταιρεια|εταιρεια μασ|ποιοι ειμαστε|επικοινωνια|^ακινητα - |ευκαιριεσ ακινητων", re.I)
 FOREIGN = re.compile(r"[Ѐ-ӿ]")  # Cyrillic: translated duplicates of the same object
 
 TYPES = [
@@ -102,22 +102,26 @@ def main():
         if area is not None and not (5 <= area <= 100000):
             area = None
 
-        # sale / rent: words first, then price level
-        # the collector's reading of the page ("ΠΡΟΣ ΠΩΛΗΣΗ" etc.) wins; otherwise infer from wording
-        tx = r["transaction"] if r["transaction"] in ("sale", "rent") else ""
-        if not tx and re.search(r"ενοικ|προσ ενοικ|to rent|for rent|\brent|enoik|μισθωσ|lease", text):
+        # a price written in the title ("..., €700", "700 €") is the most reliable one
+        m = re.search(r"€\s?(\d{1,3}(?:\.\d{3})+|\d+)(?![\d.,])|(?<![\d.,])(\d{1,3}(?:\.\d{3})+|\d+)\s?€", title)
+        if m:
+            price = float((m.group(1) or m.group(2)).replace(".", ""))
+
+        # sale / rent: explicit words on the page or in the title win; price level only as a fallback
+        words = t + " " + u
+        tx = ""
+        if re.search(r"προσ ενοικ|ενοικιαζ|ενοικιαση|enoikiasi|enoikiaz|for[-_ ]rent|to[-_ ]rent|\brent\b|μισθωσ", words):
             tx = "rent"
-        if not tx and re.search(r"πωλ|προσ πωλ|for sale|\bsale|pwl|polis|poleit|agora|αγορα", text):
+        elif re.search(r"προσ πωλ|πωλειται|πωλουντ|πωληση|pwlisi|polisi|poleitai|for[-_ ]sale|\bsale\b", words):
             tx = "sale"
-        if price:
-            if price < 10000 and tx != "sale":
-                tx = "rent"
-            elif price >= 30000:
-                tx = "sale"
-        if price and tx == "rent" and price >= 30000:
-            tx = "sale"
+        elif r["transaction"] in ("sale", "rent"):
+            tx = r["transaction"]
+        elif price:
+            tx = "rent" if price < 10000 else "sale" if price >= 30000 else ""
         if price and tx == "sale" and price < 3000:
             price = None  # a monthly figure on a sale page is not the price
+        if price and tx == "rent" and price > 20000:
+            price = None  # a sale-sized figure on a rent page came from elsewhere on the page
 
         # the agency name ("Μεσιτικό Γραφείο X") must not be read as an office
         t_obj = re.sub(r"(κτηματο)?μεσιτικ\w*\s+γραφει\w*[^|·,-]*", " ", t)
@@ -129,13 +133,27 @@ def main():
         if not ptype:
             ptype = r["type"] or next((n for n, p in TYPES if re.search(p, u)), "")
 
-        area_name = first_area(text)
-        if area_name:
-            region = "thessaloniki"
-        elif re.search(OTHER_REGIONS, text):
+        # region: what the listing itself says (title, URL) beats the agency's own address
+        # or site menu that may have ended up in location_raw
+        own = re.sub(r"(κτηματο)?μεσιτικ\w*\s+γραφει\w*\s*θεσσαλονικ\w*", " ", t) + " " + u
+        loc = plain(r["location"])
+        specific = [a for a in AREAS if a[0] != "Θεσσαλονίκη"]
+        area_name, region = "", "unknown"
+        hit = next((n for n, pat in specific if re.search(pat, own)), "")
+        if re.search(OTHER_REGIONS, own) and not hit:
+            region = "other"
+        elif hit and not re.search(OTHER_REGIONS, own):
+            area_name, region = hit, "thessaloniki"
+        elif re.search(OTHER_REGIONS, own):
             region = "other"
         else:
-            region = "unknown"
+            hit = next((n for n, pat in specific if re.search(pat, loc)), "")
+            if hit and not re.search(OTHER_REGIONS, loc):
+                area_name, region = hit, "thessaloniki"
+            elif re.search(r"θεσσαλονικ|thessalonik", own + " " + loc):
+                area_name, region = "Θεσσαλονίκη", "thessaloniki"
+            elif re.search(OTHER_REGIONS, loc):
+                region = "other"
 
         dkey = (r["source_domain"], tx, ptype, price, area)
         if price and area and dkey in seen_key:

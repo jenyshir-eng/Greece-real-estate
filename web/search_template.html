@@ -92,7 +92,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
         <button type="button" data-tx="" aria-pressed="false">Все</button>
       </div>
       <label class="f" for="q">Поиск
-        <input id="q" type="search" placeholder="Καλαμαριά, студия, агентство…">
+        <input id="q" type="search" placeholder="Например: Каламария студия, Тумба, Kalamaria">
       </label>
       <label class="f" for="region">Регион
         <select id="region">
@@ -141,7 +141,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
       </div>
       <div class="list" id="list"></div>
       <button class="more" type="button" id="more" hidden>Показать ещё</button>
-      <p class="note">Пилотный сбор: до 30 объявлений с сайта каждого агентства, 198 сайтов. Район определён по заголовку и адресу страницы; если указан только город, объявление видно в «Все районы». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
+      <p class="note">Пилотный сбор: до 30 объявлений с сайта каждого агентства. Поиск понимает русский, греческий и латиницу. Район определён по объявлению; если в нём указан только город, объявление в районе «Салоники, район не указан». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
     </section>
   </div>
 </div>
@@ -149,6 +149,20 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
 <script>
 const DATA = __DATA__;
 const ASOF = "__ASOF__";
+const AREA_RU = {"Καλαμαριά":"Каламария","Πυλαία":"Пилея","Πανόραμα":"Панорама","Θέρμη":"Терми","Χορτιάτης":"Хортиатис",
+  "Θερμαϊκός":"Термаикос: Перея, Эпаноми, Миханиона","Νεάπολη-Συκιές":"Неаполи и Сикиес","Παύλος Μελάς":"Павлос Мелас: Ставруполи, Полихни, Эвкарпия",
+  "Κορδελιό-Εύοσμος":"Корделио и Эвосмос","Αμπελόκηποι-Μενεμένη":"Амбелокипи и Менемени","Ωραιόκαστρο":"Ореокастро","Δέλτα":"Дельта: Синдос, Калохори",
+  "Λαγκαδάς":"Лангадас","Θεσσαλονίκη-Ανατολικά":"Салоники, восток: Тумба, Харилау, Мартиу, Ано Тумба","Θεσσαλονίκη-Κέντρο":"Салоники, центр",
+  "Θεσσαλονίκη":"Салоники, район не указан"};
+const AREA_LAT = {"Καλαμαριά":"kalamaria kalamaria kalamariá","Πυλαία":"pylaia pilea","Πανόραμα":"panorama","Θέρμη":"thermi","Χορτιάτης":"chortiatis hortiatis",
+  "Θερμαϊκός":"thermaikos peraia epanomi michaniona перея эпаноми миханиона","Νεάπολη-Συκιές":"neapoli sykies",
+  "Παύλος Μελάς":"pavlos melas stavroupoli polichni efkarpia ставруполи полихни","Κορδελιό-Εύοσμος":"kordelio evosmos","Αμπελόκηποι-Μενεμένη":"ampelokipoi menemeni",
+  "Ωραιόκαστρο":"oraiokastro oreokastro","Δέλτα":"delta sindos kalochori","Λαγκαδάς":"lagkadas langadas",
+  "Θεσσαλονίκη-Ανατολικά":"toumba toumpa charilaou martiou тумба харилау мартиу","Θεσσαλονίκη-Κέντρο":"center centre kentro центр","Θεσσαλονίκη":""};
+const TYPE_SYN = {apartment:"квартира квартиру apartment flat διαμερισμα",studio:"студия студию гарсоньера studio γκαρσονιερα квартира",
+  maisonette:"мезонет таунхаус maisonette μεζονετα дом",house:"дом вилла коттедж house villa μονοκατοικια",land:"участок земля земельный plot land οικοπεδο",
+  store:"магазин коммерческое помещение store shop καταστημα",office:"офис office γραφειο",warehouse:"склад производство warehouse αποθηκη",
+  parking:"парковка гараж parking",building:"здание building κτιριο",hotel:"гостиница отель hotel ξενοδοχειο"};
 const TYPE_RU = {apartment:"Квартира",studio:"Студия",maisonette:"Мезонет",house:"Дом",land:"Участок",store:"Магазин / коммерция",office:"Офис",warehouse:"Склад",parking:"Парковка",building:"Здание",hotel:"Гостиница","":"Не указан"};
 const ICONS = {
   land:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 19h18M5 19l4-8 3 5 2-3 5 6"/></svg>',
@@ -164,12 +178,14 @@ const median = a => { if(!a.length) return null; const s=[...a].sort((x,y)=>x-y)
 const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/ς/g,"σ");
 
 let tx = "sale", page = 60;
-DATA.forEach(d => d._q = norm([d.t,d.ag,d.ar,d.lr].join(" ")));
+DATA.forEach(d => d._q = norm([d.t, d.ag, d.ar, d.lr, AREA_RU[d.ar]||"", AREA_LAT[d.ar]||"", TYPE_SYN[d.ty]||"", TYPE_RU[d.ty]||"",
+  d.tx==="rent" ? "аренда снять сдается rent" : d.tx==="sale" ? "продажа купить продается sale" : "",
+  d.rg==="thessaloniki" ? "салоники thessaloniki θεσσαλονικη" : ""].join(" ")));
 
 function fillSelect(el, values, label){
   values.forEach(v => { const o=document.createElement("option"); o.value=v; o.textContent=label?label(v):v; el.appendChild(o); });
 }
-fillSelect($("area"), [...new Set(DATA.map(d=>d.ar).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"el")));
+fillSelect($("area"), [...new Set(DATA.map(d=>d.ar).filter(Boolean))].sort((a,b)=>(AREA_RU[a]||a).localeCompare(AREA_RU[b]||b,"ru")), a => AREA_RU[a] ? `${AREA_RU[a]} (${a})` : a);
 fillSelect($("type"), Object.keys(TYPE_RU).filter(k=>k && DATA.some(d=>d.ty===k)), k=>TYPE_RU[k]);
 $("type").value = "apartment";
 if (window.matchMedia("(max-width:820px)").matches) $("fbox").open = false;
@@ -185,7 +201,7 @@ function current(){
     (!ag || d.ag===ag) && (!bed || (+d.bd||0)>=bed) &&
     (pmin===0 && pmax===Infinity || (d.p!=null && d.p>=pmin && d.p<=pmax)) &&
     (amin===0 && amax===Infinity || (d.m!=null && d.m>=amin && d.m<=amax)) &&
-    (!q || q.split(/\s+/).every(w => d._q.includes(w))));
+    (!q || q.split(/[\s,]+/).filter(Boolean).every(w => d._q.includes(w.replace(/(ами|ями|ах|ях|ой|ей|ую|юю|ом|ем|ы|и|а|я|у|ю|е)$/,"").slice(0, Math.max(3, w.length-2))))));
 }
 
 function render(reset){
@@ -210,7 +226,7 @@ function render(reset){
     if(d.bd) chips.push(`<span>${d.bd} сп.</span>`);
     if(d.fl) chips.push(`<span>этаж ${esc(d.fl)}</span>`);
     if(d.yr) chips.push(`<span>${d.yr} г.</span>`);
-    chips.push(`<span>${esc(d.ar || d.lr || (d.rg==="other"?"другой регион":"район не указан"))}</span>`);
+    chips.push(`<span>${esc(AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан"))}</span>`);
     chips.push(`<span>· ${esc(d.ag)}</span>`);
     a.innerHTML = `<div class="ico" aria-hidden="true">${iconFor(d.ty)}</div>
       <div class="main"><div class="t" title="${esc(d.t)}">${esc(d.t)}</div><div class="meta">${chips.join("")}</div></div>
@@ -225,6 +241,12 @@ function esc(s){ return String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&
 document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
   tx=b.dataset.tx; document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed", x===b)); render(true);
 }));
+const TYPE_WORDS = Object.values(TYPE_SYN).join(" ").split(" ").map(norm).filter(w => w.length > 3);
+$("q").addEventListener("input", () => {
+  // a type written in the search box ("студия", "дом", "участок") replaces the type menu choice
+  const words = norm($("q").value).split(/[\s,]+/).filter(w => w.length > 3);
+  if (words.some(w => TYPE_WORDS.some(t => t.startsWith(w.slice(0, Math.max(4, w.length - 2)))))) $("type").value = "";
+});
 ["q","region","area","type","pmin","pmax","amin","amax","bed","agency","sort"].forEach(id => $(id).addEventListener("input", () => render(true)));
 $("more").addEventListener("click", () => { page += 60; render(false); });
 $("reset").addEventListener("click", () => {
