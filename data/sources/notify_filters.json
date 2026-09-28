@@ -1,0 +1,15 @@
+{
+  "_help": "Условия утренней рассылки. transaction: sale | rent. types: apartment, studio, maisonette, house, land, store, office. areas: крупные районы (Καλαμαριά, Θεσσαλονίκη-Κέντρο, ...) или районы карты (vardaris, analipsi, kalamaria, ...). floor_min: -2 подвал, -1 полуподвал, 0 ισόγειο, 0.5 полуэтаж, 1, 2... keep_unknown: показывать ли объекты, где этаж/площадь не указаны.",
+  "filters": [
+    {
+      "name": "Пример: квартира на продажу до 200 000 €, без подвалов",
+      "enabled": true,
+      "transaction": "sale",
+      "types": ["apartment", "studio", "maisonette"],
+      "areas": [],
+      "price_max": 200000,
+      "floor_min": 0,
+      "keep_unknown": true
+    }
+  ]
+}

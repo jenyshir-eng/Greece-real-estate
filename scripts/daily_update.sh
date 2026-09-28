@@ -23,3 +23,5 @@ python3 scripts/refine_districts.py --max-pages 1500 || echo "WARNING: district 
 python3 scripts/normalize_listings.py || exit 1
 python3 scripts/group_properties.py || exit 1
 python3 scripts/build_search_page.py build/spiti-radar-search.html || exit 1
+# morning Telegram message with new properties for the saved filters (needs TELEGRAM_BOT_TOKEN)
+python3 scripts/notify_telegram.py || echo "WARNING: Telegram message not sent" >&2
