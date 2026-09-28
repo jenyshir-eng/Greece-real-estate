@@ -93,6 +93,16 @@ def parse_row(r):
         after_price = card[price.end():]
         lm = re.match(r"\s*(.*?)\s*(?=%s)" % TYPE_WORD, after_price)
         loc = (lm.group(1) if lm else after_price[:80]).strip(" -·,")
+    published = ""
+    if r["portal"] == "Indomio":
+        # Indomio card: "Studio / γκαρσονιέρα 36 τ.μ. για πώληση 100.000 € Δημοσιεύθηκε: 27/09/2026";
+        # the place is only in the email's heading ("... στην τοποθεσία Θεσσαλονίκη - Περιφ/κοί Δήμοι:")
+        head = re.search(r"τοποθεσία\s+(.+?)\s*:", text)
+        loc = head.group(1).strip() if head else loc
+        pub = re.search(r"Δημοσιεύθηκε:?\s*(\d{1,2})/(\d{1,2})/(\d{4})", card)
+        if pub:
+            published = "%s-%02d-%02d" % (pub.group(3), int(pub.group(2)), int(pub.group(1)))
+        card = re.split(r"Δημοσιεύθηκε", card)[0]
     bedrooms = re.search(r"(\d+)\s*υ/δ", card)
     floor = re.search(r"τ\.μ\.\s*(\d{1,2})ος|(ισόγειο|ημιυπόγειο|υπόγειο|ημιώροφος|υπερυψωμένο)", card)
     title = re.sub(r"^€\s?[\d.,]+\s*", "", card.split(" | ")[0] + (" · " + loc if "|" in card else ""))[:160]
@@ -114,7 +124,7 @@ def parse_row(r):
         "location": loc,
         "lat": "", "lon": "", "image": "",
         # the alert says the listing is new (or newly changed) on the day the email arrived
-        "date_published": "", "date_updated": day, "date_sitemap": "",
+        "date_published": published, "date_updated": day, "date_sitemap": "",
         "date_source": "portal alert",
         "scraped_at": (day + "T00:00:00Z") if day else datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
