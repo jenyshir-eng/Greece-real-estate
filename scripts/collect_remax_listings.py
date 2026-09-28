@@ -128,8 +128,8 @@ def parse_cards(page, tx, now):
 
 
 def paging(page, cat, area):
-    """Last page number and the area path the site uses for pages 2.. (/cat/108-8essalonikh-dhmos)."""
-    links = re.findall(r'href="(/%s/%s-[^"?]+)\?Property_page=(\d+)"' % (re.escape(cat), re.escape(area)), page)
+    """Last page number and the area path the page links use for pages 2.. (/cat/108 or /cat/108-slug)."""
+    links = re.findall(r'href="(/%s/%s(?:-[^"?]+)?)\?Property_page=(\d+)"' % (re.escape(cat), re.escape(area)), page)
     if not links:
         return 1, None
     return max(int(n) for _, n in links), links[0][0]
@@ -153,7 +153,7 @@ def main():
                 if a.max_pages and pages >= a.max_pages:
                     complete = False
                     break
-                # page 1 by area id; later pages only work under the area's full path
+                # page 1 by area id; later pages under the path the page itself links to
                 url = BASE + path + (f"?Property_page={n}" if n > 1 else "")
                 try:
                     page = fetch(url)
