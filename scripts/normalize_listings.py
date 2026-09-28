@@ -14,8 +14,9 @@ from collections import Counter
 
 IN = "data/listings/listings_thessaloniki.csv"
 IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by their own scripts
-              "data/listings/listings_alerts.csv"]  # portal alert emails (scripts/ingest_portal_alerts.py)
-PORTALS = ("xe.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr")
+              "data/listings/listings_alerts.csv",  # portal alert emails (scripts/ingest_portal_alerts.py)
+              "data/listings/listings_telegram.csv"]  # public Telegram channels (scripts/collect_telegram.py)
+PORTALS = ("xe.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")
 OUT = "data/listings/listings_normalized.csv"
 HINTS = "data/listings/district_hints.csv"  # district read from the page (scripts/refine_districts.py)
 HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
@@ -75,7 +76,7 @@ def neighbourhood(text, district):
     return (i, districts.AREAS[i]["district"]) if i else ("", "")
 
 
-OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια|υψηλομετωπ|ypsilometop|παλληνη|pallini|ραφηνα|γλυφαδα|μαρουσι|κηφισια αττικ|attik|attica|liosia|λιοσια|\bekali|εκαλη|acharn|\bvoula\b|βουλα\b|vouliagm|βουλιαγμ|syros|συρο\b|συροσ|karditsa|καρδιτσ|amint|αμυνται|marousi|chalandri|χαλανδρι|peristeri|περιστερι|nea smyrni|νεα σμυρνη|glyfada|rafina|\bvari\b|kavala|περιγιαλι καβαλ|thasos|paros|παροσ|naxos|ναξο|mykono|μυκονο|santorin|σαντορ|corfu|κερκυρ|zakynth|ζακυνθ"
+OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια|υψηλομετωπ|ypsilometop|makrygial|makrigial|μακρυγιαλ|psakoud|ψακουδ|mallorca|μαγιορκ|παλληνη|pallini|ραφηνα|γλυφαδα|μαρουσι|κηφισια αττικ|attik|attica|liosia|λιοσια|\bekali|εκαλη|acharn|\bvoula\b|βουλα\b|vouliagm|βουλιαγμ|syros|συρο\b|συροσ|karditsa|καρδιτσ|amint|αμυνται|marousi|chalandri|χαλανδρι|peristeri|περιστερι|nea smyrni|νεα σμυρνη|glyfada|rafina|\bvari\b|kavala|περιγιαλι καβαλ|thasos|paros|παροσ|naxos|ναξο|mykono|μυκονο|santorin|σαντορ|corfu|κερκυρ|zakynth|ζακυνθ"
 NOT_LISTING = re.compile(r"^αποτελεσματα|^results|^αναζητηση|^search|blog|ιστορια|ανοικοδομηση|η εταιρεια|εταιρεια μασ|ποιοι ειμαστε|επικοινωνια|^ακινητα - |ευκαιριεσ ακινητων|^ergebnisse|^print$|^rezultat|^risultati", re.I)
 FOREIGN = re.compile(r"[Ѐ-ӿ]")  # Cyrillic: translated duplicates of the same object
 
@@ -136,7 +137,7 @@ def main():
         if NOT_LISTING.search(t) or re.search(r"/listings/(areas/)?n/?\d+|/blog/|/news/|/print/|/insights?/|/articles?/|-guide-", u):
             drop["not a listing"] += 1
             continue
-        if FOREIGN.search(title) or re.search(r"/(ru|bg|sr|tr|zh|de|he|it|fr|ro)/|[?&](language|lang)=(de|bg|ru|sr|tr|it|fr|ro|zh|he)\b", u):
+        if (FOREIGN.search(title) and r["source_domain"] != "t.me") or re.search(r"/(ru|bg|sr|tr|zh|de|he|it|fr|ro)/|[?&](language|lang)=(de|bg|ru|sr|tr|it|fr|ro|zh|he)\b", u):
             drop["translated duplicate"] += 1
             continue
         # keep the query (e.g. ?dios_code=218938 identifies the listing), drop fragments and tracking
