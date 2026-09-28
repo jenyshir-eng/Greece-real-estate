@@ -55,6 +55,11 @@ def num(s):
         return ""
 
 
+# links that are one listing (others in the emails: unsubscribe, agency pages, saved searches)
+LISTING_URL = re.compile(r"spitogatos\.gr/aggelia/\d+|spiti24\.gr/akinito/\d+|tospitimou\.gr/akinito/\d+|"
+                         r"xe\.gr/p/[0-9a-f-]{20,}|xe\.gr/property/d/|indomio\.gr/aggelies/\d+|plot\.gr/\d{6,}", re.I)
+
+
 def parse_row(r):
     url = re.sub(r"[?&]utm_[^#]*$", "", r["url"].strip())
     ctx = r["context"]
@@ -83,12 +88,13 @@ def parse_row(r):
     loc = ""
     if "|" in card:
         # XE card: "Διαμέρισμα 37.0 τ.μ. 72.000 € | 1.946 € / τ.μ. Ισόγειο | 1 υ/δ | 1 μπ. | 1970 Συκιές"
-        loc = re.sub(r"^\d{4}\s+", "", card.rsplit("|", 1)[-1].strip())
+        loc = re.sub(r"^(\d{4}\s+|\d+\s*(μπ|υ/δ)\.?\s*)+", "", card.rsplit("|", 1)[-1].strip())
     elif price:
         after_price = card[price.end():]
         lm = re.match(r"\s*(.*?)\s*(?=%s)" % TYPE_WORD, after_price)
         loc = (lm.group(1) if lm else after_price[:80]).strip(" -·,")
     bedrooms = re.search(r"(\d+)\s*υ/δ", card)
+    floor = re.search(r"τ\.μ\.\s*(\d{1,2})ος|(ισόγειο|ημιυπόγειο|υπόγειο|ημιώροφος|υπερυψωμένο)", card)
     title = re.sub(r"^€\s?[\d.,]+\s*", "", card.split(" | ")[0] + (" · " + loc if "|" in card else ""))[:160]
     day = ""
     dm = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", r["received"] or "")
@@ -103,7 +109,8 @@ def parse_row(r):
         "type": "",
         "price_eur": num(price.group(1) or price.group(2)) if price else "",
         "area_m2": num(area.group(1)) if area else "",
-        "bedrooms": bedrooms.group(1) if bedrooms else "", "floor": "", "year_built": "",
+        "bedrooms": bedrooms.group(1) if bedrooms else "",
+        "floor": (floor.group(1) or floor.group(2)) if floor else "", "year_built": "",
         "location": loc,
         "lat": "", "lon": "", "image": "",
         # the alert says the listing is new (or newly changed) on the day the email arrived
@@ -128,8 +135,8 @@ def main():
             kept[r["url"]] = r
     new = skipped = 0
     for r in rows:
-        if not r.get("url"):
-            skipped += 1  # confirmation / service emails without listing links
+        if not r.get("url") or not LISTING_URL.search(r["url"]):
+            skipped += 1  # confirmation / service emails, unsubscribe and agency links
             continue
         item = parse_row(r)
         old = kept.get(item["url"])
