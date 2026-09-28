@@ -71,7 +71,12 @@ def num(s):
     return float(re.sub(r"[’'., ]", "", s))
 
 
-def parse_post(block, channel_title):
+# the channel's own region (column "focus") decides where its places are: Ampelokipoi in an Athens channel is Athens
+CHANNEL_REGION = [(r"^athens|athens:", "Αθήνα"), (r"^crete", "Κρήτη"), (r"^kefalonia", "Κεφαλονιά"),
+                  (r"^halkidiki", "Χαλκιδική"), (r"^peloponnese", "Πελοπόννησος"), (r"^thessaloniki", "Θεσσαλονίκη")]
+
+
+def parse_post(block, channel_title, channel_focus=""):
     link = re.search(r'data-post="([^"]+)"', block)
     when = re.search(r'<time datetime="([^"]+)"', block)
     body = re.search(r'<div class="tgme_widget_message_text[^>]*>(.*?)</div>', block, re.S)
@@ -97,6 +102,11 @@ def parse_post(block, channel_title):
         tx = "sale"
     coords = re.search(r"[?&@/](?:q=|ll=)?(4\d\.\d{3,}),\s*(2\d\.\d{3,})", raw)
     places = [greek for pat, greek in RU_PLACES if re.search(pat, low)]
+    home = next((g for pat, g in CHANNEL_REGION if re.search(pat, channel_focus.lower())), "")
+    if home and home != "Θεσσαλονίκη":
+        places = [home] + [p for p in places if p != home]  # a place name alone must not move it to Thessaloniki
+    elif home and not places:
+        places = [home]
     first_line = next((l.strip(" 🇬🇷‼️🔥🌊🏡📍") for l in text.splitlines() if len(l.strip()) > 8), "")[:120]
     ptype = next((t for t, pat in TYPES_RU if re.search(pat, low)), "")
     beds = re.search(r"(\d)\s*(?:спальн|bedroom|υπνοδωμ)|спальн\w*\s*[-–:]\s*(\d)", low)
@@ -148,7 +158,7 @@ def main():
                 when = re.search(r'<time datetime="([^"]+)"', b)
                 if when and (not oldest or when.group(1) < oldest):
                     oldest = when.group(1)
-                rec = parse_post(b, ch["title"])
+                rec = parse_post(b, ch["title"], ch.get("focus", ""))
                 if rec and rec["date_published"] >= cutoff:
                     new += rec["url"] not in kept
                     got += 1
