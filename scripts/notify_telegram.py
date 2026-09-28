@@ -3,7 +3,7 @@
 Filters: data/sources/notify_filters.json (list of named filters, see the file).
 Bot:     environment variable TELEGRAM_BOT_TOKEN (from @BotFather; never in the repo).
 Chat:    TELEGRAM_CHAT_ID, or found automatically from the last /start sent to the bot
-         and remembered in data/sources/notify_chat.json.
+         and remembered in data/listings/notify_chat.json.
 State:   data/listings/notified.txt - listing URLs already sent (one property is sent once,
          even when it is on several sites). The first run only records what exists today.
 
@@ -24,7 +24,7 @@ import districts  # noqa: E402
 
 LISTINGS = "data/listings/listings_normalized.csv"
 FILTERS = "data/sources/notify_filters.json"
-CHAT_FILE = "data/sources/notify_chat.json"
+CHAT_FILE = "data/listings/notify_chat.json"  # committed with the daily data
 STATE = "data/listings/notified.txt"
 SEARCH_URL = "https://claude.ai/artifact/2dfMzvjzzr22jEgLE1HnhG"
 MAX_ITEMS = 25
