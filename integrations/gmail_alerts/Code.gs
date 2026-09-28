@@ -73,7 +73,7 @@ function collectAlerts() {
         let url = resolveRedirect(m[1].replace(/&amp;/g, '&'));
         // tracking links (click.xe.gr/..., sendgrid, etc.): ask the tracker where it points,
         // without opening the listing page itself
-        if (!LISTING_LINK.test(url) && /^https?:/i.test(url) && !SKIP_LINK.test(url) && lookups < 40) {
+        if (!LISTING_LINK.test(url) && /^https?:/i.test(url) && !SKIP_LINK.test(url) && lookups < 150) {
           lookups++;
           url = followTracker(url);
         }
