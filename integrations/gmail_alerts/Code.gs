@@ -26,8 +26,8 @@ const PORTALS = {
   'indomio': 'Indomio',
   'xe.gr': 'XE',
 };
-// links that are listings (not logos, settings or unsubscribe links)
-const LISTING_LINK = /(spitogatos\.gr\/(aggelia|property)|spiti24\.gr\/\d|tospitimou\.gr\/.*\d{5,}|plot\.gr\/\d|car\.gr\/.*\d{6,}|indomio\.gr\/aggelies\/\d|xe\.gr\/property\/d\/)/i;
+// links that are listings (not logos, settings or unsubscribe links), on any of the portals
+const LISTING_LINK = /(spitogatos|spiti24|tospitimou|plot|car|indomio|xe)\.gr\/[^\s"<>]*?(aggelia|aggelies|property\/d\/|akinito|listing|ad\/|\/\d{6,})/i;
 // links that are never listings; not worth a lookup
 const SKIP_LINK = /unsubscribe|apenergopoi|settings|preferences|privacy|terms|facebook|instagram|twitter|youtube|linkedin|apple\.com|google\.com|\.(png|jpe?g|gif)(\?|$)/i;
 const QUERY = 'newer_than:4d (from:spitogatos OR from:spiti24 OR from:tospitimou OR from:plot.gr OR from:car.gr OR from:indomio OR from:xe.gr)';
@@ -86,7 +86,9 @@ function collectAlerts() {
         // text before and after the link; the card of the listing is in one of them
         const before = strip(body.slice(Math.max(0, at - 2500), at)).slice(-700);
         const after = strip(body.slice(at, at + 3000)).slice(0, 700);
-        rows.push([mid, msg.getDate(), PORTALS[portal], msg.getSubject(), url, text, before + ' ⟦LINK⟧ ' + after]);
+        const host = (url.match(/(spitogatos|spiti24|tospitimou|plot|car|indomio|xe)\.gr/i) || [])[1];
+        const name = host ? PORTALS[host.toLowerCase() === 'plot' ? 'plot.gr' : host.toLowerCase() === 'car' ? 'car.gr' : host.toLowerCase() === 'xe' ? 'xe.gr' : host.toLowerCase()] : PORTALS[portal];
+        rows.push([mid, msg.getDate(), name || PORTALS[portal], msg.getSubject(), url, text, before + ' ⟦LINK⟧ ' + after]);
       }
       if (!urls.size) {
         // keep a marker row so the email is not re-read; useful to see unknown formats
