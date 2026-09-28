@@ -42,7 +42,7 @@ AREAS = [
     ("Κορδελιό-Εύοσμος", r"ευοσμ|evosm|κορδελι|kordeli|ελευθεριο"),
     ("Αμπελόκηποι-Μενεμένη", r"αμπελοκηπ|ampelokip|μενεμεν|menemen"),
     ("Ωραιόκαστρο", r"ωραιοκαστρ|oraiokastr|oreokastr|παλαιοκαστρ"),
-    ("Χαλκηδόνα", r"κουφαλι|koufali|χαλκηδον|chalkidon|κοιμηση θεοτοκου"),
+    ("Χαλκηδόνα", r"κουφαλι|koufali|χαλκηδον|chalkidon|κοιμηση θεοτοκου|αγιο\w? αθανασι|agios athanasios|γεφυρα θεσσαλον|\bγεφυρα\b|gefyra"),
     ("Βόλβη", r"βολβη|volvi|ασπροβαλτα|asprovalta|σταυροσ θεσσαλον|νεα απολλωνια|apollonia|ρεντινα|nea madytos|μαδυτοσ"),
     ("Δέλτα", r"μαλγαρα|malgara|νεα μαγνησια|magnisia|αδενδρο|adendro|κυμινα|kymina|νεα χαλκηδονα|σινδοσ|sindos|καλοχωρι|kalochori|χαλαστρα|chalastra|διαβατα|diavata|δελτα"),
     ("Λαγκαδάς", r"λαγκαδα|lagkada|langada|λαγυνα|μυγδονι|mygdoni|\bλητη|\bliti\b|δρυμοσ|drymos|μελισσοχωρι|melissochori|ζαγκλιβερ|zagkliver|ασσηροσ|σοχοσ|κολχικο"),
@@ -75,7 +75,7 @@ def neighbourhood(text, district):
     return (i, districts.AREAS[i]["district"]) if i else ("", "")
 
 
-OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια|παλληνη|pallini|ραφηνα|γλυφαδα|μαρουσι|κηφισια αττικ"
+OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια|υψηλομετωπ|ypsilometop|παλληνη|pallini|ραφηνα|γλυφαδα|μαρουσι|κηφισια αττικ|attik|attica|liosia|λιοσια|\bekali|εκαλη|acharn|\bvoula\b|βουλα\b|vouliagm|βουλιαγμ|syros|συρο\b|συροσ|karditsa|καρδιτσ|amint|αμυνται|marousi|chalandri|χαλανδρι|peristeri|περιστερι|nea smyrni|νεα σμυρνη|glyfada|rafina|\bvari\b|kavala|περιγιαλι καβαλ|thasos|paros|παροσ|naxos|ναξο|mykono|μυκονο|santorin|σαντορ|corfu|κερκυρ|zakynth|ζακυνθ"
 NOT_LISTING = re.compile(r"^αποτελεσματα|^results|^αναζητηση|^search|blog|ιστορια|ανοικοδομηση|η εταιρεια|εταιρεια μασ|ποιοι ειμαστε|επικοινωνια|^ακινητα - |ευκαιριεσ ακινητων|^ergebnisse|^print$|^rezultat|^risultati", re.I)
 FOREIGN = re.compile(r"[Ѐ-ӿ]")  # Cyrillic: translated duplicates of the same object
 
@@ -124,6 +124,9 @@ def main():
             rows += list(csv.DictReader(open(extra, encoding="utf-8")))
     history = load_history()
     hints = {h["url"]: h for h in csv.DictReader(open(HINTS, encoding="utf-8"))} if os.path.exists(HINTS) else {}
+    # one street address with a house number repeated on many listings of a site = the agency's office
+    loc_count, site_count = Counter((r["source_domain"], r["location"]) for r in rows), Counter(r["source_domain"] for r in rows)
+    office_address = {k for k, n in loc_count.items() if k[1] and re.search(r"\d", k[1]) and n >= 5 and n / site_count[k[0]] >= 0.2}
     out, seen_url, seen_key = [], set(), set()
     drop = Counter()
     for r in rows:
@@ -144,6 +147,9 @@ def main():
             continue
         seen_url.add(key_url)
 
+        if (r["source_domain"], r["location"]) in office_address or \
+                re.search(r"\b2\d{9}\b|\b69\d{8}\b|@|info\b|τηλ\.?|tel\b", r["location"] or "", re.I):
+            r = dict(r, location="")  # agency address / phone in the location field
         text = " ".join([t, plain(r["location"]), u])
         try:
             price = float(r["price_eur"]) if r["price_eur"] else None
@@ -176,6 +182,8 @@ def main():
             price = None  # a monthly figure on a sale page is not the price
         if price and tx == "rent" and price > 20000:
             price = None  # a sale-sized figure on a rent page came from elsewhere on the page
+        if price and area and tx == "sale" and price / area < 250 and not re.search(r"οικοπεδ|αγροτεμ|\bplot|\bland\b|agric|parcel|εκταση", t + " " + u):
+            price = None  # e.g. 4.000 EUR for 115 m2: a monthly or wrong figure, not a sale price
 
         # the agency name ("Μεσιτικό Γραφείο X") must not be read as an office
         t_obj = re.sub(r"(κτηματο)?μεσιτικ\w*\s+γραφει\w*[^|·,-]*", " ", t)
