@@ -12,7 +12,7 @@ baitbeyavan,בית ביוון,channel,Greece sale
 greece_property,Греция отдых (краткосрочная аренда),channel,Greece short rent
 LoveGreece,Греция на русском,channel,Greece news
 greecetodayru,Греция сегодня,channel,Greece news
-realestate_thessaloniki,Недвижимость Салоники аренда продажа,group,Thessaloniki
+realestate_thessaloniki,Недвижимость Салоники аренда продажа (лента закрыта),private_channel,Thessaloniki
 thessaloniki_greece,Греция Салоники Северная Греция,group,Thessaloniki
 saloniki_chat,Салоники чат,group,Thessaloniki
 greece_realestate,Греция для иностранцев,group,Greece
@@ -23,3 +23,10 @@ algatrip_greece_chat,Греция чат,group,Greece
 chat_Greece,Греция чат,group,Greece
 forum_greece,Греция общий форум,group,Greece
 greecetop1,Греция + Афины,group,Greece
+athens_rent,Аренда квартир и комнат в Афинах,channel,Athens rent
+villasgreece,Греция: жизнь и недвижимость,channel,Greece sale
+greece_property_smagina,Переезд и недвижимость в Греции,channel,Greece
+salonikirealestate,Продажа недвижимости в Салониках (с 2022 не ведётся),inactive,Thessaloniki
+thessaloniki_city,Thessaloniki channel,channel,Thessaloniki news
+salonikichat,Салоники чат (мастера и вопросы),group,Thessaloniki
+thessaloniki_chat,Open chat of the Thessaloniki channel,group,Thessaloniki
