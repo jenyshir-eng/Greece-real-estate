@@ -14,9 +14,11 @@ from collections import Counter
 
 IN = "data/listings/listings_thessaloniki.csv"
 IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by their own scripts
+              "data/listings/listings_remax.csv",   # RE/MAX network result pages (scripts/collect_remax_listings.py)
+              "data/listings/listings_ktimatoemporiki.csv",  # Ktimatoemporiki network (scripts/collect_ktimatoemporiki.py)
               "data/listings/listings_alerts.csv",  # portal alert emails (scripts/ingest_portal_alerts.py)
               "data/listings/listings_telegram.csv"]  # public Telegram channels (scripts/collect_telegram.py)
-PORTALS = ("xe.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")
+PORTALS = ("xe.gr", "remax.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")
 OUT = "data/listings/listings_normalized.csv"
 HINTS = "data/listings/district_hints.csv"  # district read from the page (scripts/refine_districts.py)
 HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
