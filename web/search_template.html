@@ -67,6 +67,7 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
 .also a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
 .also a:hover{text-decoration-thickness:2px}
 .chip.multi{background:var(--accent);color:var(--surface)}
+.hint{margin:-4px 0 4px;font-size:11.5px;color:var(--muted);line-height:1.35}
 .chip.below{color:var(--accent);font-weight:600}
 .chip.above{color:var(--muted)}
 .maplink{position:relative;z-index:1;color:var(--accent)}
@@ -128,6 +129,18 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
       <label class="f" for="bed">Спален, минимум
         <select id="bed"><option value="">Любое</option><option>1</option><option>2</option><option>3</option><option>4</option></select>
       </label>
+      <label class="f" for="floor">Этаж
+        <select id="floor">
+          <option value="">Любой</option>
+          <option value="nobase">Без подвалов и полуподвалов</option>
+          <option value="1">Не ниже 1-го греч. (без ισόγειο)</option>
+          <option value="2">Не ниже 2-го греч.</option>
+          <option value="3">Не ниже 3-го греч.</option>
+          <option value="ground">Только ισόγειο (у земли)</option>
+        </select>
+      </label>
+      <label class="chk" for="nofloor"><input type="checkbox" id="nofloor" checked> Показывать объявления без этажа</label>
+      <p class="hint">Этажи по-гречески: ισόγειο — у земли (наш 1-й), 1-й греческий — наш 2-й.</p>
       <label class="f" for="fresh">Свежесть
         <select id="fresh">
           <option value="30">За 30 дней</option>
@@ -233,6 +246,7 @@ const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").
 
 let tx = "sale", page = 60;
 DATA.forEach(d => d._q = norm([d.t, (d.ags||[d.ag]).join(" "), d.ar, d.nb||"", MAPAREA[d.nb] ? MAPAREA[d.nb][0]+" "+MAPAREA[d.nb][1] : "", d.lr, AREA_RU[d.ar]||"", AREA_LAT[d.ar]||"", TYPE_SYN[d.ty]||"", TYPE_RU[d.ty]||"",
+  d.fn===-2 ? "подвал подвальный basement υπογειο" : d.fn===-1 ? "полуподвал цоколь цокольный ημιυπογειο" : d.fn===0 ? "первый этаж ισογειο ground" : "",
   d.tx==="rent" ? "аренда снять сдается rent" : d.tx==="sale" ? "продажа купить продается sale" : "",
   d.rg==="thessaloniki" ? "салоники thessaloniki θεσσαλονικη" : ""].join(" ")));
 
@@ -263,10 +277,11 @@ $("asof").textContent = "Сбор " + ASOF + " · " + DATA.length + " объек
 function current(){
   const q = norm($("q").value.trim()), region=$("region").value, area=$("area").value, type=$("type").value,
         pmin=+$("pmin").value||0, pmax=+$("pmax").value||Infinity, amin=+$("amin").value||0, amax=+$("amax").value||Infinity,
-        bed=+$("bed").value||0, ag=$("agency").value, fresh=+$("fresh").value||0, undated=$("undated").checked, who=$("who").value, src=$("src").value;
+        bed=+$("bed").value||0, floor=$("floor").value, nofloor=$("nofloor").checked, ag=$("agency").value, fresh=+$("fresh").value||0, undated=$("undated").checked, who=$("who").value, src=$("src").value;
   return DATA.filter(d =>
     (!tx || d.tx===tx) && (!region || d.rg===region) && (!area || (area.startsWith("nb:") ? d.nb===area.slice(3) : d.ar===area)) && (!type || d.ty===type) &&
     (!ag || (d.ags||[d.ag]).includes(ag)) && (!bed || (+d.bd||0)>=bed) &&
+    (!floor || (d.fn==null ? nofloor : floor==="nobase" ? d.fn>=0 : floor==="ground" ? d.fn===0 : d.fn>=+floor)) &&
     (!who || (who==="private" ? d.pv==="yes" : d.pv!=="yes")) &&
     (!src || (d.srcs||[d.src]).some(x => src==="site" ? !PORTAL_NAME[x] : !!PORTAL_NAME[x])) &&
     (!fresh || (d.ld ? ageDays(d.ld) <= fresh : undated)) && (fresh || undated || d.ld) &&
@@ -296,7 +311,7 @@ function render(reset){
     chips.push(`<span class="chip">${TYPE_RU[d.ty]||"—"}</span>`);
     if(d.m) chips.push(`<span>${d.m} м²</span>`);
     if(d.bd) chips.push(`<span>${d.bd} сп.</span>`);
-    if(d.fl) chips.push(`<span>этаж ${esc(d.fl)}</span>`);
+    if(d.fn!=null) chips.push(`<span title="Греческая нумерация: ισόγειο — у земли">${floorRu(d.fn)}</span>`);
     if(d.yr) chips.push(`<span>${d.yr} г.</span>`);
     chips.push(`<span>${esc(AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан"))}${d.nb && MAPAREA[d.nb] ? ` · <a class="maplink" href="${MAP_URL}" target="_blank" rel="noopener" title="Район на карте районов Салоник">${esc(nbName(d.nb))}</a>` : ""}</span>`);
     if(d.pv==="yes" || d.ag!==PORTAL_NAME[d.src]) chips.push(`<span>· ${esc(d.pv==="yes" ? "частный владелец" : d.ag)}</span>`);
@@ -320,6 +335,9 @@ function also(d){
   if(!d.alt || !d.alt.length) return "";
   return `<div class="also">Также на: ${d.alt.map(([n,u,p]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}${p?" · "+eur(p):""}</a>`).join("")}</div>`;
 }
+function floorRu(n){
+  return n===-2 ? "подвал" : n===-1 ? "полуподвал" : n===0 ? "ισόγειο (у земли)" : `${n}-й этаж греч.`;
+}
 function esc(s){ return String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
 document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
@@ -331,10 +349,11 @@ $("q").addEventListener("input", () => {
   const words = norm($("q").value).split(/[\s,]+/).filter(w => w.length > 3);
   if (words.some(w => TYPE_WORDS.some(t => t.startsWith(w.slice(0, Math.max(4, w.length - 2)))))) $("type").value = "";
 });
-["q","region","area","type","pmin","pmax","amin","amax","bed","agency","sort","fresh","undated","who","src"].forEach(id => $(id).addEventListener("input", () => render(true)));
+["q","region","area","type","pmin","pmax","amin","amax","bed","floor","nofloor","agency","sort","fresh","undated","who","src"].forEach(id => $(id).addEventListener("input", () => render(true)));
 $("more").addEventListener("click", () => { page += 60; render(false); });
 $("reset").addEventListener("click", () => {
-  ["q","area","pmin","pmax","amin","amax","bed","agency","who","src"].forEach(id => $(id).value="");
+  ["q","area","pmin","pmax","amin","amax","bed","floor","agency","who","src"].forEach(id => $(id).value="");
+  $("nofloor").checked=true;
   $("type").value="apartment";
   $("region").value="thessaloniki"; $("fresh").value="90"; $("undated").checked=true; render(true);
 });

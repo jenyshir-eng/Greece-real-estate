@@ -8,6 +8,8 @@ import datetime
 import json
 import sys
 
+sys.path.insert(0, "scripts")
+import districts  # noqa: E402
 
 PORTAL_NAME = {"xe.gr": "XE.gr", "spitogatos.gr": "Spitogatos", "spiti24.gr": "Spiti24",
                "tospitimou.gr": "Tospitimou", "plot.gr": "Plot", "indomio.gr": "Indomio"}
@@ -18,6 +20,25 @@ for r in csv.DictReader(open("data/listings/listings_normalized.csv", encoding="
 
 def num(r, k):
     return float(r[k]) if r.get(k) else None
+
+
+def floor_code(s):
+    """Greek floor numbering -> number: -2 basement, -1 semi-basement, 0 ground (ισόγειο), 1.. upper.
+    Values above 12 are data errors (usually the area) -> None."""
+    t = (s or "").strip().lower()
+    if not t:
+        return None
+    if "ημιυπ" in t or "semi" in t:
+        return -1
+    if "υπόγ" in t or "υπογ" in t or "basement" in t:
+        return -2
+    if "ισόγ" in t or "ισογ" in t or "ground" in t or "υπερυψ" in t:
+        return 0
+    try:
+        n = int(float(t.split()[0].rstrip("οςηº")))
+    except ValueError:
+        return None
+    return -2 if n < 0 else (n if n <= 12 else None)
 
 
 def rank(r):
@@ -38,7 +59,10 @@ for members in groups.values():
     rows.append({"u": r["url"], "t": r["title"][:140], "ag": r["agency"], "tx": r["transaction"],
                  "ty": first("type"), "p": p, "px": max(prices) if len(set(prices)) > 1 else None,
                  "m": m2, "pm": round(p / m2) if p and m2 else None, "bd": first("bedrooms")[:2] if (first("bedrooms")[:2].isdigit() and 0 < int(first("bedrooms")[:2]) <= 10) else "",
-                 "fl": first("floor")[:10], "yr": first("year_built"), "rg": r["region"], "ar": first("area"), "nb": first("neighbourhood"),
+                 "fn": floor_code(first("floor")), "yr": first("year_built"), "rg": r["region"], "nb": first("neighbourhood"),
+                 # district: the one of the map area if known, else the most specific one in the group
+                 "ar": (districts.AREAS[first("neighbourhood")]["district"] if first("neighbourhood") in districts.AREAS
+                        else next((m["area"] for m in members if m.get("area") not in ("", "Θεσσαλονίκη")), first("area"))),
                  "lr": r["location_raw"][:40], "ld": newest.get("listing_date", ""),
                  "lk": newest.get("listing_date_kind", ""), "fs": min((m["first_seen"] for m in members if m.get("first_seen")), default=""),
                  "src": r.get("source_domain", ""), "pv": r.get("private_owner", ""),
@@ -47,8 +71,6 @@ for members in groups.values():
                  # other sites with the same property: [name, url, price]
                  "alt": [[PORTAL_NAME.get(m.get("source_domain"), m["agency"]), m["url"], num(m, "price_eur")]
                          for m in members[1:]]})
-sys.path.insert(0, "scripts")
-import districts  # noqa: E402
 # map areas for the page: id -> [Russian name, Greek name, district, sale EUR/m2, rent EUR/m2]
 areas = {i: [a["ru"], a["gr"], a["district"], a.get("sale"), a.get("rent")] for i, a in districts.AREAS.items()}
 page = open("web/search_template.html", encoding="utf-8").read()
