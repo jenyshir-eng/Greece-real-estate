@@ -1,0 +1,64 @@
+username,link,type,title,region,topic,members,last_post,status,found_via
+rent_thessaloniki,https://t.me/rent_thessaloniki,channel,АРЕНДА САЛОНИКИ,Thessaloniki,Долгосрочная аренда (от 1 года) в Салониках и области,611,2026-08-13,active,TGStat search; profi-gr.com
+realestate_thessaloniki,https://t.me/realestate_thessaloniki,channel,Недвижимость_Салоники_Аренда_Продажа,Thessaloniki,Аренда/продажа/инвестиции в Салониках (viestate.gr),178,hidden,active?,profi-gr.com; username probe
+realty_profit_greece,https://t.me/realty_profit_greece,channel,НЕДВИЖИМОСТЬ ГРЕЦИЯ,Thessaloniki/Greece,Объекты для жизни и инвестиций (риэлтор из Салоник @svetlana_greece),295,2026-04-12,active,profi-gr.com
+greece_realestate,https://t.me/greece_realestate,channel,ГРЕЦИЯ ДЛЯ ИНОСТРАНЦЕВ,Thessaloniki/Greece,Путеводитель по покупке недвижимости в Греции для иностранцев (@svetlana_greece),168,hidden,active?,profi-gr.com; username probe
+greece_property,https://t.me/greece_property,channel,ГРЕЦИЯ ОТДЫХ,Thessaloniki/Greece,Краткосрочная летняя аренда (@svetlana_greece),197,2026-08-09,active,link in @rent_thessaloniki
+expert_property_greece,https://t.me/expert_property_greece,channel,Ваш риелтор в Греции на полуострове Халкидики,Halkidiki,Аренда и продажа на Халкидиках,127,hidden,active?,TGStat search
+salonikirealestate,https://t.me/salonikirealestate,channel,Салоники Недвижимость,Thessaloniki,Продажа в Салониках,4,2022-06-15,inactive,username probe
+thessalonikirealestate,https://t.me/thessalonikirealestate,channel,Thessaloniki Real Estate,Thessaloniki,Продажа в Салониках (EN),1,2022-06-15,inactive,username probe
+realestatethessaloniki,https://t.me/realestatethessaloniki,channel,Real Estate Thessaloniki- Halkidiki,Thessaloniki/Halkidiki,Купля-продажа,2,hidden,inactive,username probe
+thessalonikirental,https://t.me/thessalonikirental,channel,Thessaloniki Rental,Thessaloniki,Аренда,2,2025-09-04,inactive,username probe
+mamaxo_greece,https://t.me/mamaxo_greece,channel,Греция.Доход.Недвижка.,Greece,Арендный бизнес и инвестиции,9111,2026-09-26,active,TGStat search
+afinyrent,https://t.me/afinyrent,channel,АФИНЫ АРЕНДА,Athens,Посуточная аренда в Афинах,2871,2026-09-27,active,username probe
+GreeceTranio,https://t.me/GreeceTranio,channel,Жизнь и инвестиции в Греции от Tranio,Greece,Новости/аналитика/объекты (брокер Tranio),1549,2026-09-21,active,TGStat search
+greece_cyprus,https://t.me/greece_cyprus,channel,Греция и Кипр,Greece/Cyprus,Недвижимость и новости (Grekodom),1274,2026-09-21,active,WebSearch; TGStat; grekodom.ru
+grekodom,https://t.me/grekodom,channel,Grekodom Development,Greece/Cyprus,Застройщик/агентство (EN),211,2026-09-21,active,WebSearch; grekodom.com
+villasgreece,https://t.me/villasgreece,channel,ГРЕЦИЯ БЕЗ МАСОК,Greece,Жизнь в Греции + подборки домов,210,2026-09-26,active,TGStat search
+grestate,https://t.me/grestate,channel,Отдых в Греции,Greece,Аренда жилья для отдыха (grestate.ru),157,2026-05-29,active,username probe
+home_greece,https://t.me/home_greece,channel,Греция и Болгария недвижимость,Greece/Bulgaria,Продажа,147,2026-09-18,active,username probe
+athens_rent,https://t.me/athens_rent,channel,Афины | Аренда и Недвижимость,Athens,Аренда квартир и комнат в Афинах,139,2026-09-19,active,username probe
+greece_estate,https://t.me/greece_estate,channel,ГРЕЦИЯ НЕДВИЖИМОСТЬ ИНВЕСТИЦИИ ВНЖ,Athens/Greece,Продажа/инвестиции/ВНЖ,136,2026-06-23,active,username probe
+greekproperty,https://t.me/greekproperty,channel,GreeceRealEstate,Greece,Нетворкинг по греческой недвижимости (EN),85,2026-09-08,active,username probe
+greece_property_smagina,https://t.me/greece_property_smagina,channel,Недвижимость в Греции | Albatros,Greece,Покупка/аренда/Golden Visa,34,2026-09-23,active,link in @villasgreece
+propertygreece,https://t.me/propertygreece,channel,Жизнь и инвестиции в Греции,Greece,Недвижимость/инвестиции/ВНЖ,25,2026-08-30,active,username probe
+digitalnomadgr,https://t.me/digitalnomadgr,channel,ВНЖ Греции / Золотая Виза / Digital Nomad,Greece,ВНЖ и Golden Visa,17,2026-08-13,active,snowball crawl
+immogreece,https://t.me/immogreece,channel,EM - GREECE / Realestate,Greece,Недвижимость (DE/RU),15,2026-09-26,active,username probe
+rent_athens,https://t.me/rent_athens,channel,Недвижимость в Греции. Афины. Афинская Ривьера.,Athens,Аренда/продажа,14,2026-07-05,active,username probe
+kefalonia_gid,https://t.me/kefalonia_gid,channel,Остров Кефалония,Kefalonia,Жизнь на острове + сдача квартиры (частично по теме),1307,hidden,active?,TGStat search
+rentathens,https://t.me/rentathens,group,Недвижимость в Греции|Афины|Афинская Ривьера,Athens,Группа объявлений аренда/продажа,555,n/a,active,username probe
+joinchat/Hh7fBAZBym7QLkUb,https://t.me/joinchat/Hh7fBAZBym7QLkUb,group,Недвижимость в Греции,Greece,Инвестиции в недвижимость,54,n/a,unknown,WebSearch
+chat_grecia,https://t.me/chat_grecia,group,ЧАТ Греция Афины Салоники Патры...,Greece,Доска бесплатных объявлений (платное размещение),168,n/a,unknown,username probe
+goldenvisa_gr,https://t.me/goldenvisa_gr,group,Golden Visa Greece,Greece,Golden Visa,1,n/a,inactive,username probe
+greece_ua,https://t.me/greece_ua,group,Моряки Украины в Греции,Greece,Сообщество (в т.ч. недвижимость),335,n/a,community,username probe
+saloniki_chat,https://t.me/saloniki_chat,group,Салоники чат | Греция,Thessaloniki,Общий чат (не только недвижимость),324,n/a,community,username probe; WebSearch
+salonikichat,https://t.me/salonikichat,group,Чат Греция/Салоники,Thessaloniki,Общий чат,28,n/a,community,username probe
+thessaloniki_chat,https://t.me/thessaloniki_chat,group,ΘΕΣΣΑΛΟΝΙΚΗ - THESSALONIKI Chat,Thessaloniki,Общий чат (EN/GR),25,n/a,community,username probe
+athens_chat,https://t.me/athens_chat,group,Афины | Греция | Чат,Athens,Общий чат,2047,n/a,community,username probe
+chat_Greece,https://t.me/chat_Greece,group,Греция Чат (@LoveGreece),Greece,Общий чат,1564,n/a,community,link in @LoveGreece
+OnlineGreece,https://t.me/OnlineGreece,group,Прямой эфир Вся Греция,Greece,Общий чат,3315,n/a,community,snowball crawl
+ukrainianshelp,https://t.me/ukrainianshelp,group,Українці в Греції,Greece,Сообщество украинцев (темы вкл. жильё),8853,n/a,community,snowball crawl
+dubainedvija,https://t.me/dubainedvija,channel,Недвижимость Дубай/Россия/Испания/Турция/Греция/Кипр,Multi-country,Зарубежная недвижимость (Греция среди прочих),11751,2026-09-26,active,TGStat search
+ricci_real_estate,https://t.me/ricci_real_estate,channel,Ricci о недвижимости для жизни,Multi-country,Зарубежная недвижимость (упоминания Греции/Golden Visa),980,2026-09-27,active,WebSearch (@ricci_foreign_estate moved here)
+realestate_99,https://t.me/realestate_99,channel,Дом зарубежом RealEstate,Multi-country,Зарубежная недвижимость вкл. Грецию,566,2026-09-27,active,TGStat search
+discounthous,https://t.me/discounthous,channel,Discount-house.com,Multi-country,Портал зарубежной недвижимости,517,hidden,active?,prorealproperty.com
+realty_by_the_sea,https://t.me/realty_by_the_sea,channel,Дом у моря за рубежом,Multi-country,Застройщики вкл. Грецию,238,hidden,active?,TGStat search
+rental_villas,https://t.me/rental_villas,channel,АРЕНДА ВИЛЛ: Испания/Греция/...,Multi-country,Аренда вилл вкл. Миконос,124,2026-06-21,active,snowball crawl
+greeceland4,https://t.me/greeceland4,channel,Greeceland4u Greece&Cyprus Real Estate,Athens/Greece,Инвест-консалтинг (EN/HE),153,2024-12-03,inactive,WebSearch
+athensproperty,https://t.me/athensproperty,channel,SAMI REAL ESTATE,Athens,Продажа/аренда в Афинах,35,2024-11-14,inactive,username probe
+realestategr,https://t.me/realestategr,channel,Real Estate in Greece,Greece,Golden Visa проекты,21,2021-10-08,inactive,username probe
+greeceinvest,https://t.me/greeceinvest,channel,ВНЖ Digital nomad / Недвижимость в Греции,Greece,ВНЖ/недвижимость,17,2023-05-19,inactive,username probe
+real_estate_greece,https://t.me/real_estate_greece,channel,HOUSES FOR RENT IN GREECE,Greece,Аренда домов,7,2023-09-24,inactive,username probe
+real_estate_greek,https://t.me/real_estate_greek,channel,Доходная недвижимость Греции,Greece,Инвестиции,7,2023-02-25,inactive,username probe
+realestateathens,https://t.me/realestateathens,channel,Недвижимость в Афинах,Athens,Продажа,7,hidden,inactive,username probe
+greekgoldenvisa,https://t.me/greekgoldenvisa,channel,Golden visa Greece,Greece,Golden Visa,6,2023-03-02,inactive,username probe
+goldenvisagr,https://t.me/goldenvisagr,channel,Золотая виза Греции,Greece,Golden Visa,5,2023-03-02,inactive,username probe
+greecegoldenvisa,https://t.me/greecegoldenvisa,channel,Greece Golden Visa Programme,Greece,Golden Visa,5,hidden,inactive,username probe
+athensinvest,https://t.me/athensinvest,channel,Инвест-проекты в Афинах,Athens,Инвестиции,4,2021-03-31,inactive,username probe
+greece_rent,https://t.me/greece_rent,channel,Греция аренда недвижимости,Greece,Аренда,4,2025-07-30,inactive,username probe
+cretehome,https://t.me/cretehome,channel,На Крите как дома,Crete,Недвижимость на Крите,4,2021-10-08,inactive,username probe
+greeceru,https://t.me/greeceru,channel,GreeceRu,Greece,Аренда вилл,2,2026-09-28,tiny,username probe
+greekhome,https://t.me/greekhome,channel,GREEKHOME,Greece,,2,2026-04-08,tiny,username probe
+greekvillas,https://t.me/greekvillas,channel,GreekVillas,Greece,,2,2026-04-08,tiny,username probe
+creteproperty,https://t.me/creteproperty,channel,Ailit Group Projects // Greece Property,Crete/Greece,,1,2026-08-25,tiny,username probe
+hellasrealestate,https://t.me/hellasrealestate,channel,Dimi's REAL ESTATE HELLAS,Peloponnese,Агентство,1,2022-03-04,inactive,username probe
