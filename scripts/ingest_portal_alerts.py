@@ -105,6 +105,10 @@ def parse_row(r):
         card = re.split(r"Δημοσιεύθηκε", card)[0]
     bedrooms = re.search(r"(\d+)\s*υ/δ", card)
     floor = re.search(r"τ\.μ\.\s*(\d{1,2})ος|(ισόγειο|ημιυπόγειο|υπόγειο|ημιώροφος|υπερυψωμένο)", card)
+    if r["subject"].startswith("Browser capture"):
+        # card text from a portal results page (integrations/tampermonkey): the place is somewhere in it
+        loc = PRICE.sub(" ", card)[:160].strip()
+        floor = re.search(r"(\d{1,2})ος\s+όροφος|(ισόγειο|ημιυπόγειο|υπόγειο|ημιώροφος|υπερυψωμένο)", card, re.I)
     title = re.sub(r"^€\s?[\d.,]+\s*", "", card.split(" | ")[0] + (" · " + loc if "|" in card else ""))[:160]
     day = ""
     dm = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", r["received"] or "")
@@ -120,7 +124,7 @@ def parse_row(r):
         "price_eur": num(price.group(1) or price.group(2)) if price else "",
         "area_m2": num(area.group(1)) if area else "",
         "bedrooms": bedrooms.group(1) if bedrooms else "",
-        "floor": (floor.group(1) or floor.group(2)) if floor else "", "year_built": "",
+        "floor": (floor.group(1) or floor.group(2).lower()) if floor else "", "year_built": "",
         "location": loc,
         "lat": "", "lon": "", "image": "",
         # the alert says the listing is new (or newly changed) on the day the email arrived

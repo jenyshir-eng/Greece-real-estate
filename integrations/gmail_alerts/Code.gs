@@ -15,6 +15,15 @@
  *
  * Nothing leaves the account except what you publish: portal name, email date,
  * subject, listing link, link text and a short text fragment around the link.
+ *
+ * Browser captures (integrations/tampermonkey/spiti-radar.user.js) come in through doPost
+ * and are written to the same sheet, in the same columns, so Spiti Radar reads them
+ * together with the alerts. Setup (once):
+ *   4. Run `setupCapture` once; it logs the capture key.
+ *   5. Deploy → New deployment → Web app: execute as Me, access Anyone → Deploy.
+ *      Give the web app URL and the capture key to the Tampermonkey script.
+ *   Optional: script properties TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID make the bot
+ *   confirm every capture in Telegram.
  */
 
 const PORTALS = {
@@ -103,6 +112,55 @@ function collectAlerts() {
   });
   if (rows.length) sh.getRange(sh.getLastRow() + 1, 1, rows.length, rows[0].length).setValues(rows);
   Logger.log(rows.length + ' rows added');
+}
+
+const PROP_CAPTURE_KEY = 'SPITI_RADAR_CAPTURE_KEY';
+
+function setupCapture() {
+  const props = PropertiesService.getScriptProperties();
+  let key = props.getProperty(PROP_CAPTURE_KEY);
+  if (!key) {
+    key = Utilities.getUuid();
+    props.setProperty(PROP_CAPTURE_KEY, key);
+  }
+  Logger.log('Capture key: ' + key);
+}
+
+// body: {key, page, transaction, items: [{url, text}]}; one sheet row per listing
+function doPost(e) {
+  const props = PropertiesService.getScriptProperties();
+  let body;
+  try {
+    body = JSON.parse(e.postData.contents);
+  } catch (err) {
+    return reply({ok: false, error: 'bad json'});
+  }
+  if (!body.key || body.key !== props.getProperty(PROP_CAPTURE_KEY)) return reply({ok: false, error: 'bad key'});
+  const items = (body.items || []).filter(it => it && LISTING_LINK.test(String(it.url || ''))).slice(0, 200);
+  if (!items.length) return reply({ok: true, added: 0});
+  const host = (String(body.page || '').match(/\/\/(?:www\.)?([^\/]+)/) || [])[1] || '';
+  const key = Object.keys(PORTALS).find(k => host.toLowerCase().includes(k));
+  const portal = key ? PORTALS[key] : host;
+  const now = new Date();
+  const subject = 'Browser capture: ' + (body.transaction || '') + ' ' + String(body.page || '').slice(0, 300);
+  const rows = items.map(it => ['capture-' + now.getTime(), now, portal, subject, String(it.url).slice(0, 500),
+                                '', ' ⟦LINK⟧ ' + String(it.text || '').replace(/\s+/g, ' ').slice(0, 800)]);
+  const sh = SpreadsheetApp.openById(props.getProperty(PROP_SHEET_ID)).getSheetByName(SHEET_NAME);
+  sh.getRange(sh.getLastRow() + 1, 1, rows.length, rows[0].length).setValues(rows);
+  notifyTelegram(props, 'Spiti Radar: получено ' + rows.length + ' объявлений с ' + portal + '. Попадут в поиск после утреннего сбора.');
+  return reply({ok: true, added: rows.length});
+}
+
+function notifyTelegram(props, text) {
+  const token = props.getProperty('TELEGRAM_BOT_TOKEN');
+  const chat = props.getProperty('TELEGRAM_CHAT_ID');
+  if (!token || !chat) return;
+  UrlFetchApp.fetch('https://api.telegram.org/bot' + token + '/sendMessage',
+                    {method: 'post', payload: {chat_id: chat, text: text}, muteHttpExceptions: true});
+}
+
+function reply(obj) {
+  return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON);
 }
 
 function strip(html) {
