@@ -43,6 +43,7 @@ NOT_LISTINGS = "data/listings/not_listings.txt"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/128.0 Safari/537.36 SpitiRadar/0.1 (+https://spitiradar.gr/opt-out)")
 MIN_DELAY_S = 3.0
+TRANSLATED_PATH = re.compile(r"/(en|ru|de|bg|fr|it|zh|he|tr|sr|ro|uk|ar|nl|pl)(/|$)", re.I)
 MAX_PAGES_DISCOVERY = 12
 
 LISTING_HINT = re.compile(
@@ -404,6 +405,11 @@ def collect_site(row, per_site, known=None, max_new=0, ignore=frozenset()):
         final, home = site.get(base)
         site.base = final
         urls = discover(site, home, per_site)
+        # the same listing in English / Russian / ...: normalize drops it as a translated duplicate,
+        # so do not spend the day's page budget on it when the site has Greek pages
+        local = [u for u in urls if not TRANSLATED_PATH.search(urllib.parse.urlparse(u).path)]
+        if len(local) >= 0.3 * len(urls):
+            urls = local
         report["listing_urls"] = len(urls)
         fetched = 0
         for u in urls[:per_site]:
@@ -456,7 +462,9 @@ def main():
     known_by_site = {}
     if a.incremental:
         if a.per_site == 30:
-            a.per_site = 500  # look at the whole site; only unknown pages are fetched
+            # look at the whole site (sitemaps are cheap); only unknown or changed pages are fetched,
+            # at most --max-new a day, so big agencies (1000+ listings) fill in over a few days
+            a.per_site = 5000
         for r in csv.DictReader(open(OUT, encoding="utf-8")):
             k = known_by_site.setdefault(r["source_domain"], {})
             k[r["url"].rstrip("/")] = r
