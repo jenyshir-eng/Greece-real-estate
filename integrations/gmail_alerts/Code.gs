@@ -27,7 +27,8 @@ const PORTALS = {
   'xe.gr': 'XE',
 };
 // links that are listings (not logos, settings or unsubscribe links), on any of the portals
-const LISTING_LINK = /(spitogatos|spiti24|tospitimou|plot|car|indomio|xe)\.gr\/[^\s"<>]*?(aggelia|aggelies|property\/d\/|akinito|listing|ad\/|\/\d{6,})/i;
+// plot.gr puts the listing number right after the domain: plot.gr/40778351-diamerisma-...
+const LISTING_LINK = /(spitogatos|spiti24|tospitimou|plot|car|indomio|xe)\.gr\/(?:[^\s"<>]*?(aggelia|aggelies|property\/d\/|akinito|listing|ad\/|\/\d{6,})|\d{6,}-)/i;
 // links that are never listings; not worth a lookup
 const SKIP_LINK = /unsubscribe|apenergopoi|settings|preferences|privacy|terms|facebook|instagram|twitter|youtube|linkedin|apple\.com|google\.com|\.(png|jpe?g|gif)(\?|$)/i;
 const QUERY = 'newer_than:4d (from:spitogatos OR from:spiti24 OR from:tospitimou OR from:plot.gr OR from:car.gr OR from:indomio OR from:xe.gr)';
@@ -56,7 +57,11 @@ function collectAlerts() {
   if (!id) throw new Error('Run setup() first');
   const sh = SpreadsheetApp.openById(id).getSheetByName(SHEET_NAME);
   const last = sh.getLastRow();
-  const seen = new Set(last > 1 ? sh.getRange(2, 1, last - 1, 1).getValues().map(r => String(r[0])) : []);
+  const done = last > 1 ? sh.getRange(2, 1, last - 1, 5).getValues() : [];
+  // emails that gave listing links are done; emails that gave none (marker row) are read again,
+  // so a fixed link pattern picks up alerts that arrived before the fix
+  const seen = new Set(done.filter(r => r[4]).map(r => String(r[0])));
+  const marked = new Set(done.filter(r => !r[4]).map(r => String(r[0])));
   const rows = [];
   GmailApp.search(QUERY, 0, 200).forEach(thread => {
     thread.getMessages().forEach(msg => {
@@ -90,7 +95,7 @@ function collectAlerts() {
         const name = host ? PORTALS[host.toLowerCase() === 'plot' ? 'plot.gr' : host.toLowerCase() === 'car' ? 'car.gr' : host.toLowerCase() === 'xe' ? 'xe.gr' : host.toLowerCase()] : PORTALS[portal];
         rows.push([mid, msg.getDate(), name || PORTALS[portal], msg.getSubject(), url, text, before + ' ⟦LINK⟧ ' + after]);
       }
-      if (!urls.size) {
+      if (!urls.size && !marked.has(mid)) {
         // keep a marker row so the email is not re-read; useful to see unknown formats
         rows.push([mid, msg.getDate(), PORTALS[portal], msg.getSubject(), '', '', strip(body).slice(0, 600)]);
       }
