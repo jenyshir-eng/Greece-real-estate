@@ -124,7 +124,7 @@ def vs_market(p):
 
 
 def floor_ru(n):
-    return {-2: "подвал", -1: "полуподвал", 0: "ισόγειο", 0.5: "полуэтаж"}.get(n, f"{n}-й эт." if n is not None else "")
+    return {-2: "подвал", -1: "полуподвал", 0: "цокольный (ισόγειο)", 0.5: "полуэтаж"}.get(n, f"{n}-й эт." if n is not None else "")
 
 
 def line(p):
