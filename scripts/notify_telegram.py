@@ -104,7 +104,10 @@ def matches(p, f):
         if f.get(key) is None:
             continue
         if val is None:
-            if not f.get("keep_unknown", True) or key.startswith("price"):
+            keep = f.get("keep_unknown", True)
+            if key.startswith("floor"):
+                keep = f.get("keep_unknown_floor", keep)
+            if not keep or key.startswith("price"):
                 return False
             continue
         if (lo and val < f[key]) or (not lo and val > f[key]):
