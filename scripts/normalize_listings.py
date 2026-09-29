@@ -14,9 +14,11 @@ from collections import Counter
 
 IN = "data/listings/listings_thessaloniki.csv"
 IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by their own scripts
+              "data/listings/listings_remax.csv",   # RE/MAX network result pages (scripts/collect_remax_listings.py)
+              "data/listings/listings_ktimatoemporiki.csv",  # Ktimatoemporiki network (scripts/collect_ktimatoemporiki.py)
               "data/listings/listings_alerts.csv",  # portal alert emails (scripts/ingest_portal_alerts.py)
               "data/listings/listings_telegram.csv"]  # public Telegram channels (scripts/collect_telegram.py)
-PORTALS = ("xe.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")
+PORTALS = ("xe.gr", "remax.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")
 OUT = "data/listings/listings_normalized.csv"
 HINTS = "data/listings/district_hints.csv"  # district read from the page (scripts/refine_districts.py)
 HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
@@ -262,6 +264,7 @@ def main():
 
     fill_from_coordinates(out)
     fill_from_agency(out)
+    fill_map_point(out)
 
     with open(HISTORY, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["url", "first_seen", "last_seen"])
@@ -304,15 +307,46 @@ def in_thessaloniki_unit(lat, lon):
     return lon <= 23.20 or lat >= 40.55
 
 
-def fill_from_coordinates(out):
-    """Listings with coordinates but no district: nearest district centre (within ~4 km).
-    Sites that give every listing the same point (their office) are ignored."""
-    import math
+def office_point_sites(out):
+    """Sites that give most of their listings the same point: that is their office, not the property."""
     by_site = {}
     for r in out:
         if r["lat"] and r["lon"]:
             by_site.setdefault(r["source_domain"], []).append((r["lat"], r["lon"]))
-    office_like = {d for d, pts in by_site.items() if len(pts) >= 5 and Counter(pts).most_common(1)[0][1] / len(pts) > 0.5}
+    return {d for d, pts in by_site.items() if len(pts) >= 5 and Counter(pts).most_common(1)[0][1] / len(pts) > 0.5}
+
+
+def fill_map_point(out):
+    """One point per listing for the map, with how precise it is (geo):
+    site = the listing's own coordinates (some sites, e.g. RE/MAX, already blur them),
+    area = centre of its area on Jeny Shir's map, district = centre of the coarse district.
+    lat/lon stay as the site gave them."""
+    office_like = office_point_sites(out)
+    n = Counter()
+    for r in out:
+        r["map_lat"] = r["map_lon"] = r["geo"] = ""
+        try:
+            lat, lon = float(r["lat"]), float(r["lon"])
+            own = r["source_domain"] not in office_like and 34 < lat < 42 and 19 < lon < 30
+        except ValueError:
+            own = False
+        centre = (districts.AREAS.get(r["neighbourhood"]) or {}).get("centre")
+        if own:
+            r["map_lat"], r["map_lon"], r["geo"] = f"{lat:.5f}", f"{lon:.5f}", "site"
+        elif centre:
+            r["map_lat"], r["map_lon"], r["geo"] = f"{centre[0]:.5f}", f"{centre[1]:.5f}", "area"
+        elif r["region"] == "thessaloniki" and r["area"] in CENTRES:
+            c = CENTRES[r["area"]]
+            r["map_lat"], r["map_lon"], r["geo"] = f"{c[0]:.5f}", f"{c[1]:.5f}", "district"
+        n[r["geo"] or "none"] += 1
+    print("map point:", dict(n))
+
+
+def fill_from_coordinates(out):
+    """Listings with coordinates but no district: nearest district centre (within ~4 km).
+    Sites that give every listing the same point (their office) are ignored."""
+    import math
+    office_like = office_point_sites(out)
     moved = Counter()
     for r in out:
         if not (r["lat"] and r["lon"]) or r["source_domain"] in office_like or r["neighbourhood"]:
