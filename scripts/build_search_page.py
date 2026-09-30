@@ -54,6 +54,14 @@ def rank(r):
     return (r.get("source_kind") != "portal", bool(r.get("listing_date")), r.get("listing_date", ""), filled)
 
 
+def map_point(members):
+    best = min((m for m in members if m.get("map_lat")), key=lambda m: "sad".index(m.get("geo", "d")[:1] or "d"),
+               default=None)
+    if not best:
+        return {}
+    return {"la": round(float(best["map_lat"]), 4), "lo": round(float(best["map_lon"]), 4), "gq": best["geo"][:1]}
+
+
 rows = []
 for members in groups.values():
     members.sort(key=rank, reverse=True)
@@ -77,13 +85,53 @@ for members in groups.values():
                  "srcs": sorted({m.get("source_domain", "") for m in members}),
                  # other sites with the same property: [name, url, price]
                  "alt": [[PORTAL_NAME.get(m.get("source_domain"), m["agency"]), m["url"], num(m, "price_eur")]
-                         for m in members[1:]]})
+                         for m in members[1:]],
+                 # map point and its precision: s = the site's own point, a = map area centre, d = district centre
+                 **map_point(members)})
 # map areas for the page: id -> [Russian name, Greek name, district, sale EUR/m2, rent EUR/m2]
 areas = {i: [a["ru"], a["gr"], a["district"], a.get("sale"), a.get("rent")] for i, a in districts.AREAS.items()}
+# map outlines: [id, [[lon, lat], ...] per ring]; areas without a polygon are drawn at their centre
+geo = json.load(open("data/sources/thessaloniki_districts.geojson", encoding="utf-8"))
+outlines = []
+for f in geo["features"]:
+    g, pid = f["geometry"], f["properties"].get("id")
+    polys = [g["coordinates"]] if g["type"] == "Polygon" else g["coordinates"]
+    outlines.append([pid, [[[round(x, 4), round(y, 4)] for x, y in ring] for poly in polys for ring in poly[:1]]])
+centres = {a["id"]: a["centre"] for a in geo["areas_without_polygon"] if a.get("centre")}
+
+
+def sources():
+    """Sources tab: one row per site or portal with its listings in the base and how collection went."""
+    count = {}
+    for r in csv.DictReader(open("data/listings/listings_normalized.csv", encoding="utf-8")):
+        count[r["source_domain"]] = count.get(r["source_domain"], 0) + 1
+    report = {r["domain"]: r for r in csv.DictReader(open("data/listings/collect_report.csv", encoding="utf-8"))}
+    reg = list(csv.DictReader(open("data/sources/agencies_thessaloniki.csv", encoding="utf-8")))
+    names = {r["domain"]: r["name"] for r in reg}
+    out = []
+    for d, n in sorted(count.items(), key=lambda kv: -kv[1]):
+        rep = report.get(d, {})
+        kind = "portal" if d in PORTAL_NAME or d == "t.me" else ("network" if d in ("remax.gr", "ktimatoemporiki.gr") else "site")
+        status = "error" if rep.get("error") else "ok"
+        out.append([PORTAL_NAME.get(d, "Telegram" if d == "t.me" else names.get(d, d)), d, kind, n, status])
+    for d, r in report.items():
+        if d not in count:
+            out.append([names.get(d, d), d, "site", 0, "error" if r.get("error") else "empty"])
+    stat = {}
+    for r in reg:
+        s = r["site_status"]
+        s = "blocked" if s.startswith("bot_check") or s in ("http_403", "http_429") else s
+        stat[s] = stat.get(s, 0) + 1
+    return {"rows": out, "registry": stat, "agencies": len(reg)}
+
+
 page = open("web/search_template.html", encoding="utf-8").read()
 data = json.dumps(rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 asof = max((r["scraped_at"] for r in csv.DictReader(open("data/listings/listings_normalized.csv", encoding="utf-8"))), default="")[:10]
 asof = datetime.date.fromisoformat(asof).strftime("%d.%m.%Y") if asof else ""
 open(sys.argv[1], "w", encoding="utf-8").write(page.replace("__DATA__", data).replace("__ASOF__", asof)
-                                                 .replace("__MAPAREAS__", json.dumps(areas, ensure_ascii=False)))
+                                                 .replace("__MAPAREAS__", json.dumps(areas, ensure_ascii=False))
+                                                 .replace("__OUTLINES__", json.dumps(outlines, separators=(",", ":")))
+                                                 .replace("__CENTRES__", json.dumps(centres))
+                                                 .replace("__SOURCES__", json.dumps(sources(), ensure_ascii=False, separators=(",", ":"))))
 print(f"{sum(len(g) for g in groups.values())} listings, {len(rows)} properties -> {sys.argv[1]}")

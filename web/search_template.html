@@ -1,102 +1,210 @@
 <title>Spiti Radar Салоники</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
+/* Layout: sticky header with three views (search, map, sources); search = phrase box, filter rail + card grid; property opens in a side sheet. */
 :root{
-  --bg:#f3f5f2; --surface:#ffffff; --line:#dde3de; --ink:#18262a; --muted:#5d6d70;
-  --accent:#0e6b76; --accent-soft:#e2f0f0; --price:#8a4b12; --chip:#eef2ef;
-  --sale:#0e6b76; --rent:#7a4fa8;
-  --sans:"Commissioner",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --bg:#f3efe6; --surface:#fbf9f4; --sunk:#ebe5d8; --line:#ddd5c5; --ink:#1c2623; --muted:#68706a;
+  --accent:#1f4e45; --accent-ink:#fbf9f4; --accent-soft:#dde8e1; --price:#1c2623;
+  --good:#2d7a4e; --good-soft:#dcefe2; --warn:#9a5427; --warn-soft:#f3e3d6;
+  --m0:#e3ece6; --m1:#b9d3c6; --m2:#86b3a0; --m3:#4f8a78; --m4:#1f4e45; --mline:#f3efe6;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --r:14px;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#101617; --surface:#172022; --line:#28353a; --ink:#e3ebe9; --muted:#95a6a8;
-    --accent:#5cc0c9; --accent-soft:#16373b; --price:#e2a765; --chip:#1f2b2e;
-    --sale:#5cc0c9; --rent:#b894e0; color-scheme:dark;
+    --bg:#141917; --surface:#1b2220; --sunk:#232c29; --line:#2e3935; --ink:#e9e6de; --muted:#9ba49f;
+    --accent:#86c2ad; --accent-ink:#10201b; --accent-soft:#1f3630; --price:#f1ede4;
+    --good:#7ccb98; --good-soft:#1f3a2a; --warn:#e7a476; --warn-soft:#3b2a1f;
+    --m0:#1f2e29; --m1:#27463c; --m2:#3a6b5b; --m3:#5b9b84; --m4:#9fd6c0; --mline:#141917; color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#101617; --surface:#172022; --line:#28353a; --ink:#e3ebe9; --muted:#95a6a8;
-  --accent:#5cc0c9; --accent-soft:#16373b; --price:#e2a765; --chip:#1f2b2e;
-  --sale:#5cc0c9; --rent:#b894e0; color-scheme:dark;
+  --bg:#141917; --surface:#1b2220; --sunk:#232c29; --line:#2e3935; --ink:#e9e6de; --muted:#9ba49f;
+  --accent:#86c2ad; --accent-ink:#10201b; --accent-soft:#1f3630; --price:#f1ede4;
+  --good:#7ccb98; --good-soft:#1f3a2a; --warn:#e7a476; --warn-soft:#3b2a1f;
+  --m0:#1f2e29; --m1:#27463c; --m2:#3a6b5b; --m3:#5b9b84; --m4:#9fd6c0; --mline:#141917; color-scheme:dark;
 }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.45;padding-inline:16px;padding-block:20px 48px}
-.wrap{max-width:1180px;margin:0 auto;display:grid;gap:20px}
-.wrap>*,.layout>*{min-width:0}
-header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px}
-h1{font-size:24px;font-weight:700;letter-spacing:-.01em;margin:0;text-wrap:balance}
-h1 span{color:var(--accent)}
-.sub{color:var(--muted);font-size:13px;margin:0}
-.layout{display:grid;grid-template-columns:260px 1fr;gap:20px;align-items:start}
-@media (max-width:820px){.layout{grid-template-columns:1fr}}
-aside{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
-.filters{display:grid;gap:14px;margin-top:14px}
-aside summary{cursor:pointer;font-weight:700;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.45;margin:0;padding-inline:16px;padding-block:0 56px}
+a{color:var(--accent)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1240px;margin:0 auto;display:grid;gap:22px}
+.wrap>*{min-width:0}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line);margin-inline:-16px;padding:10px 16px}
+.top-in{max-width:1240px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-style:italic;font-size:24px;color:var(--accent);text-decoration:none;display:flex;align-items:baseline;gap:10px}
+.brand small{font-family:var(--sans);font-style:normal;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.tabs{display:flex;gap:4px}
+.tabs button{border:0;background:none;padding:8px 14px;border-radius:10px;font-weight:600;color:var(--muted);cursor:pointer;display:flex;gap:7px;align-items:center}
+.tabs button svg{width:17px;height:17px}
+.tabs button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink)}
+.asof{font-size:12.5px;color:var(--muted)}
+
+/* hero */
+.hero{display:grid;gap:14px;padding-top:26px}
+.eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(30px,4.6vw,50px);line-height:1.05;letter-spacing:-.015em;margin:0;text-wrap:balance;max-width:20ch}
+.lede{margin:0;color:var(--muted);font-size:16px;max-width:62ch}
+.ask{display:flex;gap:10px;flex-wrap:wrap}
+.ask input{flex:1 1 320px;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:16px}
+.btn{border:0;border-radius:12px;padding:12px 20px;font-weight:600;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+.examples{display:flex;flex-wrap:wrap;gap:8px}
+.examples button{border:0;background:var(--sunk);border-radius:999px;padding:7px 13px;font-size:13px;cursor:pointer;color:var(--ink)}
+.examples button:hover{background:var(--accent-soft)}
+.understood{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--muted);min-height:30px}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:4px 6px 4px 11px;font-size:13px}
+.pill button{border:0;background:none;cursor:pointer;color:var(--muted);font-size:15px;line-height:1;padding:0 4px}
+.pill.text{background:var(--sunk)}
+
+/* search layout */
+.layout{display:grid;grid-template-columns:270px 1fr;gap:22px;align-items:start}
+.layout>*{min-width:0}
+@media (max-width:860px){.layout{grid-template-columns:1fr}}
+aside{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 70px)}
+@media (max-width:860px){aside{position:static}}
+aside summary{cursor:pointer;list-style:none;font-family:var(--display);font-size:20px;display:flex;justify-content:space-between}
 aside summary::-webkit-details-marker{display:none}
-aside summary::after{content:"▾";color:var(--muted)}
+aside summary::after{content:"▾";color:var(--muted);font-family:var(--sans)}
 aside details:not([open]) summary::after{content:"▸"}
-@media (max-width:820px){aside{position:static}}
-label.f{display:grid;gap:5px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
-select,input[type=number],input[type=search]{width:100%;font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:7px 9px;text-transform:none;letter-spacing:0}
-select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.filters{display:grid;gap:14px;margin-top:14px}
+.f{display:grid;gap:6px;font-size:11.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.f select,.f input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:8px 10px;font-size:14px;text-transform:none;letter-spacing:0;font-weight:400;color:var(--ink)}
 .pair{display:grid;grid-template-columns:1fr 1fr;gap:6px}
-.seg{display:flex;border:1px solid var(--line);border-radius:7px;overflow:hidden}
-.seg button{flex:1;font:inherit;font-size:13px;font-weight:600;padding:7px 4px;border:0;background:var(--bg);color:var(--muted);cursor:pointer}
-.seg button+button{border-left:1px solid var(--line)}
-.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
-.chk{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--ink);cursor:pointer}
+.seg{display:flex;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:3px;gap:3px}
+.seg button{flex:1;border:0;background:none;border-radius:7px;padding:6px 4px;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.types{display:flex;flex-wrap:wrap;gap:6px}
+.types button{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;text-transform:none;letter-spacing:0;font-weight:500;color:var(--ink)}
+.types button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chk{display:flex;gap:8px;align-items:center;font-size:13px;cursor:pointer;text-transform:none;letter-spacing:0;font-weight:400;color:var(--ink)}
 .chk input{width:16px;height:16px;accent-color:var(--accent)}
-.chip.new{background:var(--accent);color:var(--surface);font-weight:600}
-.reset{font:inherit;font-size:13px;background:none;border:0;color:var(--accent);cursor:pointer;justify-self:start;padding:0;text-decoration:underline}
-.summary{display:flex;flex-wrap:wrap;gap:10px 28px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
-.stat{display:grid;gap:2px}
-.stat b{font-family:var(--mono);font-size:20px;font-weight:500;font-variant-numeric:tabular-nums}
-.stat small{font-size:12px;color:var(--muted)}
-.bar{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;color:var(--muted);font-size:13px}
-.bar select{width:auto}
-.list{display:grid;gap:8px}
-.item{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;color:inherit;text-decoration:none}
-.item:hover{border-color:var(--accent)}
-.item{position:relative}
-.item .t a{color:inherit;text-decoration:none}
-.item .t a::after{content:"";position:absolute;inset:0;border-radius:10px}
-.also{position:relative;z-index:1;margin-top:5px;font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 10px}
-.also a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
-.also a:hover{text-decoration-thickness:2px}
-.chip.multi{background:var(--accent);color:var(--surface)}
-.hint{margin:-4px 0 4px;font-size:11.5px;color:var(--muted);line-height:1.35}
-.chip.below{color:var(--accent);font-weight:600}
-.chip.above{color:var(--muted)}
-.maplink{position:relative;z-index:1;color:var(--accent)}
-.ico{width:44px;height:44px;border-radius:8px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center}
-.ico svg{width:22px;height:22px}
-.main{min-width:0;display:grid;gap:4px}
-.t{font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.meta{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:12.5px;color:var(--muted)}
-.chip{background:var(--chip);border-radius:5px;padding:1px 7px;color:var(--ink)}
-.chip.sale{color:var(--sale);font-weight:600}
-.chip.rent{color:var(--rent);font-weight:600}
-.money{text-align:right;display:grid;gap:2px;font-family:var(--mono);font-variant-numeric:tabular-nums}
-.money b{color:var(--price);font-size:16px;font-weight:500;white-space:nowrap}
-.money small{color:var(--muted);font-size:12px;white-space:nowrap}
-@media (max-width:520px){.item{grid-template-columns:36px 1fr}.ico{width:36px;height:36px}.money{grid-column:2;text-align:left;display:flex;gap:10px;align-items:baseline}}
-.more{font:inherit;font-weight:600;justify-self:center;padding:9px 18px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--accent);cursor:pointer}
-.empty{color:var(--muted);padding:24px;text-align:center}
-.note{font-size:12px;color:var(--muted);max-width:70ch}
+.hint{margin:0;font-size:11.5px;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:400;line-height:1.35}
+.linkbtn{border:0;background:none;color:var(--accent);text-decoration:underline;cursor:pointer;padding:0;justify-self:start;font-size:13px}
+
+/* results */
+.res{display:grid;gap:16px}
+.reshead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:10px 20px}
+.count{display:flex;align-items:baseline;gap:10px}
+.count b{font-family:var(--display);font-size:34px;font-weight:500;font-variant-numeric:tabular-nums}
+.count span{font-family:var(--display);font-size:19px;color:var(--muted)}
+.facts{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;font-variant-numeric:tabular-nums}
+.facts b{color:var(--ink);font-weight:600}
+.reshead select{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(262px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:grid;grid-template-rows:auto 1fr;cursor:pointer;text-align:left;padding:0;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.band{background:var(--accent-soft);padding:14px 16px 12px;display:grid;gap:8px;min-height:104px;align-content:space-between;position:relative}
+.badges{display:flex;flex-wrap:wrap;gap:5px}
+.bdg{font-size:11.5px;font-weight:600;border-radius:999px;padding:2px 9px;background:var(--surface);color:var(--ink)}
+.bdg.dark{background:var(--accent);color:var(--accent-ink)}
+.bdg.good{background:var(--good-soft);color:var(--good)}
+.bdg.warn{background:var(--warn-soft);color:var(--warn)}
+.place{font-family:var(--display);font-size:21px;line-height:1.1;text-wrap:balance}
+.place small{display:block;font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:2px}
+.body{padding:12px 16px 14px;display:grid;gap:6px;align-content:start}
+.row1{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.price{font-family:var(--display);font-size:24px;font-weight:500;color:var(--price);white-space:nowrap;font-variant-numeric:tabular-nums}
+.ppm{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.spec{font-size:13.5px;color:var(--ink)}
+.src{display:flex;flex-wrap:wrap;gap:5px;font-size:12px}
+.src span{background:var(--sunk);border-radius:6px;padding:1px 7px;color:var(--muted)}
+.when{font-size:12px;color:var(--muted)}
+.gauge{height:6px;border-radius:3px;background:var(--surface);position:relative;overflow:hidden}
+.gauge i{position:absolute;top:0;bottom:0;width:3px;border-radius:2px;background:var(--accent)}
+.gauge::before{content:"";position:absolute;left:50%;top:-1px;bottom:-1px;width:1px;background:var(--muted);opacity:.6}
+.more{justify-self:center}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 10px;font-size:15px}
+.note{font-size:12.5px;color:var(--muted);max-width:80ch;margin:0}
+
+/* sheet */
+.scrim{position:fixed;inset:0;background:rgba(10,14,12,.45);z-index:40}
+.sheet{position:fixed;top:0;right:0;bottom:0;width:min(560px,100%);background:var(--bg);z-index:41;overflow-y:auto;border-left:1px solid var(--line);
+  padding:calc(env(safe-area-inset-top,0px) + 18px) 20px calc(env(safe-area-inset-bottom,0px) + 30px);display:grid;gap:18px;align-content:start}
+.sheet header{display:flex;justify-content:space-between;align-items:start;gap:12px}
+.sheet h2{font-family:var(--display);font-weight:500;font-size:28px;line-height:1.1;margin:0;text-wrap:balance}
+.close{border:1px solid var(--line);background:var(--surface);border-radius:10px;width:38px;height:38px;cursor:pointer;font-size:18px;flex:none}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;display:grid;gap:10px}
+.panel h3{font-family:var(--display);font-weight:500;font-size:20px;margin:0}
+dl.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:0;font-size:14px}
+dl.kv dt{color:var(--muted)}
+dl.kv dd{margin:0;font-variant-numeric:tabular-nums}
+.orig{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--sunk);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--ink)}
+.orig:hover{background:var(--accent-soft)}
+.orig b{font-weight:600}
+.orig span{font-family:var(--mono);font-size:13px;color:var(--muted);white-space:nowrap}
+.tl{display:grid;gap:8px;margin:0;padding:0;list-style:none;font-size:14px}
+.tl li{display:grid;grid-template-columns:92px 1fr;gap:10px}
+.tl time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:1px}
+.bigprice{font-family:var(--display);font-size:34px;font-weight:500}
+.cmp{font-size:13.5px;color:var(--muted)}
+
+/* map */
+.mapview{display:grid;grid-template-columns:1fr 300px;gap:22px;align-items:start;padding-top:24px}
+.mapview>*{min-width:0}
+@media (max-width:900px){.mapview{grid-template-columns:1fr}}
+.mapbox{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:10px;overflow:hidden}
+.mapbox svg{width:100%;height:auto;display:block}
+.mapbox path{stroke:var(--mline);stroke-width:1.2;cursor:pointer;transition:opacity .15s}
+.mapbox path:hover,.mapbox circle.area:hover{opacity:.8}
+.mapbox path.sel,.mapbox circle.area.sel{stroke:var(--ink);stroke-width:2.2}
+.mapbox circle.area{stroke:var(--mline);stroke-width:1.2;cursor:pointer}
+.mapbox circle.dot{fill:var(--warn);opacity:.55;pointer-events:none}
+.mapbox text{font-family:var(--sans);font-size:10px;fill:var(--ink);pointer-events:none;paint-order:stroke;stroke:var(--surface);stroke-width:3px}
+.legend{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);flex-wrap:wrap;padding:8px 6px 2px;font-variant-numeric:tabular-nums}
+.legend i{display:inline-block;width:26px;height:10px;border-radius:2px}
+.mapside{display:grid;gap:14px}
+.mapside .seg{background:var(--surface)}
+
+/* sources */
+.srcview{display:grid;gap:18px;padding-top:24px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:2px}
+.tile b{font-family:var(--display);font-size:28px;font-weight:500;font-variant-numeric:tabular-nums}
+.tile small{color:var(--muted);font-size:13px}
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th,td{text-align:left;padding:9px 14px;border-bottom:1px solid var(--line)}
+th{font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700;background:var(--sunk)}
+td.n{font-variant-numeric:tabular-nums;text-align:right;font-family:var(--mono);font-size:13px}
+.st{font-size:12px;font-weight:600;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.st.ok{background:var(--good-soft);color:var(--good)}
+.st.error,.st.empty{background:var(--warn-soft);color:var(--warn)}
+.st.mail{background:var(--accent-soft);color:var(--accent)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
+<div class="top"><div class="top-in">
+  <a class="brand" href="#search">Spiti Radar <small>Салоники</small></a>
+  <nav class="tabs" role="tablist" aria-label="Разделы">
+    <button type="button" role="tab" id="tab-search" data-view="search" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Поиск</button>
+    <button type="button" role="tab" id="tab-map" data-view="map" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4l-6 2v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg>Карта</button>
+    <button type="button" role="tab" id="tab-sources" data-view="sources" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>Источники</button>
+  </nav>
+  <span class="asof" id="asof"></span>
+</div></div>
+
 <div class="wrap">
-  <header>
-    <div>
-      <h1>Spiti <span>Radar</span> · Салоники</h1>
-      <p class="sub" id="asof"></p>
-    </div>
-    <p class="sub" style="max-width:100%">Объекты с сайтов агентств и порталов. Одна квартира на нескольких сайтах — одна карточка со ссылками на все.</p>
-  </header>
+<section id="view-search" class="wrap" style="gap:22px">
+  <div class="hero">
+    <p class="eyebrow">Салоники и область</p>
+    <h1>Все объявления агентств и порталов в одном поиске.</h1>
+    <p class="lede">Пишите как человеку — на русском, греческом или английском. Одна квартира на нескольких сайтах показана одной карточкой со всеми ссылками.</p>
+    <form class="ask" id="askForm" autocomplete="off">
+      <input id="ask" type="search" aria-label="Что ищете" placeholder="Например: квартира в Каламарии до 200 000 €, 60–90 м², не первый этаж">
+      <button class="btn" type="submit">Искать</button>
+    </form>
+    <div class="examples" id="examples"></div>
+    <div class="understood" id="understood" aria-live="polite"></div>
+  </div>
 
   <div class="layout">
     <aside aria-label="Фильтры"><details id="fbox" open><summary>Фильтры</summary><div class="filters">
@@ -105,94 +213,53 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
         <button type="button" data-tx="rent" aria-pressed="false">Аренда</button>
         <button type="button" data-tx="" aria-pressed="false">Все</button>
       </div>
-      <label class="f" for="q">Поиск
-        <input id="q" type="search" placeholder="Например: Каламария студия, Тумба, Kalamaria">
-      </label>
       <label class="f" for="region">Регион
-        <select id="region">
-          <option value="thessaloniki">Салоники и область</option>
-          <option value="">Все, включая другие регионы</option>
-        </select>
+        <select id="region"><option value="thessaloniki">Салоники и область</option><option value="">Вся Греция</option></select>
       </label>
-      <label class="f" for="area">Район и квартал
+      <label class="f" for="area">Район
         <select id="area"><option value="">Все районы</option></select>
       </label>
-      <label class="f" for="type">Тип
-        <select id="type"><option value="">Все типы</option></select>
-      </label>
-      <div class="f" style="display:grid;gap:5px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">Цена, €
-        <div class="pair"><input id="pmin" type="number" min="0" placeholder="от" aria-label="Цена от"><input id="pmax" type="number" min="0" placeholder="до" aria-label="Цена до"></div>
-      </div>
-      <div class="f" style="display:grid;gap:5px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">Площадь, м²
-        <div class="pair"><input id="amin" type="number" min="0" placeholder="от" aria-label="Площадь от"><input id="amax" type="number" min="0" placeholder="до" aria-label="Площадь до"></div>
-      </div>
+      <div class="f">Тип<div class="types" id="types"></div></div>
+      <div class="f">Цена, €<div class="pair"><input id="pmin" type="number" min="0" inputmode="numeric" placeholder="от" aria-label="Цена от"><input id="pmax" type="number" min="0" inputmode="numeric" placeholder="до" aria-label="Цена до"></div></div>
+      <div class="f">Площадь, м²<div class="pair"><input id="amin" type="number" min="0" inputmode="numeric" placeholder="от" aria-label="Площадь от"><input id="amax" type="number" min="0" inputmode="numeric" placeholder="до" aria-label="Площадь до"></div></div>
       <label class="f" for="bed">Спален, минимум
         <select id="bed"><option value="">Любое</option><option>1</option><option>2</option><option>3</option><option>4</option></select>
       </label>
-      <div class="f" style="display:grid;gap:5px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">Этаж
+      <div class="f">Этаж
         <div class="pair">
-          <select id="flmin" aria-label="Этаж от"><option value="">от</option>
-          <option value="-2">подвал (υπόγειο)</option>
-          <option value="-1">полуподвал (ημιυπόγειο)</option>
-          <option value="0">цокольный (ισόγειο)</option>
-          <option value="0.5">полуэтаж (ημιόροφος)</option>
-          <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
-          <option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8 и выше</option>
-          </select>
-          <select id="flmax" aria-label="Этаж до"><option value="">до</option>
-          <option value="-2">подвал (υπόγειο)</option>
-          <option value="-1">полуподвал (ημιυπόγειο)</option>
-          <option value="0">цокольный (ισόγειο)</option>
-          <option value="0.5">полуэтаж (ημιόροφος)</option>
-          <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
-          <option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8+</option>
-          </select>
+          <select id="flmin" aria-label="Этаж от"><option value="">от</option><option value="-2">подвал</option><option value="-1">полуподвал</option><option value="0">цокольный</option><option value="0.5">полуэтаж</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="8">8+</option></select>
+          <select id="flmax" aria-label="Этаж до"><option value="">до</option><option value="-2">подвал</option><option value="-1">полуподвал</option><option value="0">цокольный</option><option value="0.5">полуэтаж</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="8">8+</option></select>
         </div>
+        <label class="chk" for="nofloor"><input type="checkbox" id="nofloor" checked> без указанного этажа тоже</label>
+        <p class="hint">Греческая нумерация: цокольный (ισόγειο) у земли, «1» первый над ним.</p>
       </div>
-      <label class="chk" for="nofloor"><input type="checkbox" id="nofloor" checked> Показывать объявления без этажа</label>
-      <p class="hint">Греческая нумерация: ισόγειο — у земли, «1» — первый над ним.</p>
       <label class="f" for="fresh">Свежесть
-        <select id="fresh">
-          <option value="30">За 30 дней</option>
-          <option value="90" selected>За 3 месяца</option>
-          <option value="180">За полгода</option>
-          <option value="365">За год</option>
-          <option value="">Любая дата</option>
-        </select>
+        <select id="fresh"><option value="7">За неделю</option><option value="30">За 30 дней</option><option value="90" selected>За 3 месяца</option><option value="365">За год</option><option value="">Любая дата</option></select>
       </label>
-      <label class="chk" for="undated"><input type="checkbox" id="undated" checked> Показывать объявления без даты</label>
+      <label class="chk" for="undated"><input type="checkbox" id="undated" checked> объявления без даты тоже</label>
       <label class="f" for="who">Кто продаёт
-        <select id="who">
-          <option value="">Все</option>
-          <option value="agency">Агентства</option>
-          <option value="private">Частные владельцы</option>
-        </select>
+        <select id="who"><option value="">Все</option><option value="agency">Агентства</option><option value="private">Частные владельцы</option></select>
       </label>
       <label class="f" for="src">Источник
-        <select id="src">
-          <option value="">Все источники</option>
-          <option value="site">Сайты агентств</option>
-          <option value="portal">Порталы и Telegram</option>
-        </select>
+        <select id="src"><option value="">Все источники</option><option value="site">Сайты агентств и сети</option><option value="portal">Порталы и Telegram</option><option value="multi">На нескольких сайтах</option></select>
       </label>
+      <label class="chk" for="below"><input type="checkbox" id="below"> дешевле средней по району</label>
       <label class="f" for="agency">Агентство
         <select id="agency"><option value="">Все агентства</option></select>
       </label>
-      <button class="reset" type="button" id="reset">Сбросить фильтры</button>
+      <button class="linkbtn" type="button" id="reset">Сбросить всё</button>
     </div></details></aside>
 
-    <section style="display:grid;gap:12px;min-width:0" aria-live="polite">
-      <div class="summary">
-        <div class="stat"><b id="sCount">0</b><small>объектов</small></div>
-        <div class="stat"><b id="sMed">—</b><small>медиана €/м²</small></div>
-        <div class="stat"><b id="sPrice">—</b><small>медианная цена</small></div>
-        <div class="stat"><b id="sAg">0</b><small>агентств</small></div>
-      </div>
-      <div class="bar">
-        <span id="shown"></span>
-        <label for="sort">Сортировка
+    <section class="res" aria-live="polite">
+      <div class="reshead">
+        <div style="display:grid;gap:4px">
+          <div class="count"><b id="sCount">0</b><span id="sWord">объектов</span></div>
+          <div class="facts" id="facts"></div>
+        </div>
+        <label for="sort" class="facts">Сортировка
           <select id="sort">
             <option value="new" selected>Сначала новые</option>
+            <option value="deal">Выгоднее к району</option>
             <option value="ppm">Дешевле за м²</option>
             <option value="pa">Цена по возрастанию</option>
             <option value="pd">Цена по убыванию</option>
@@ -200,172 +267,432 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
           </select>
         </label>
       </div>
-      <div class="list" id="list"></div>
-      <button class="more" type="button" id="more" hidden>Показать ещё</button>
-      <p class="note">Сбор с сайтов ~200 агентств Салоник (все объявления сайта, новые страницы — до 60 в день с каждого сайта), сети RE/MAX (все офисы) и Ktimatoemporiki; Порталы (Spitogatos, Indomio, Plot, Spiti24, Tospitimou) — новые объявления из их email-оповещений, с датой оповещения. Районы и средние цены за м² — по <a href="https://jenyshir.com/ru/maps/thessaloniki/" target="_blank" rel="noopener">карте районов Салоник Jeny Shir</a> (границы центра — открытые данные мэрии); «−15% к средней по району» сравнивает цену за м² объявления со средней по району на карте. Поиск понимает русский, греческий и латиницу. Дата — когда агентство опубликовало или обновило объявление; многие сайты дату не показывают, такие объявления помечены «дата не указана на сайте». Район определён по объявлению; если в нём указан только город, объявление в районе «Салоники, район не указан». Цены и характеристики — со страниц агентств, проверяйте на оригинале.</p>
+      <div class="grid" id="grid"></div>
+      <button class="btn ghost more" type="button" id="more" hidden>Показать ещё</button>
+      <p class="note" id="note"></p>
     </section>
   </div>
+</section>
+
+<section id="view-map" class="mapview" hidden>
+  <div class="mapbox">
+    <svg id="map" role="img" aria-label="Карта районов Салоник: цвет — медианная цена за м² найденных объектов"></svg>
+    <div class="legend" id="legend"></div>
+  </div>
+  <div class="mapside">
+    <div>
+      <p class="eyebrow">Карта районов</p>
+      <h1 style="font-size:32px">Где сколько стоит метр</h1>
+    </div>
+    <p class="lede" style="font-size:14px" id="mapLede"></p>
+    <div class="seg" role="group" aria-label="Сделка на карте">
+      <button type="button" data-mtx="sale" aria-pressed="true">Продажа</button>
+      <button type="button" data-mtx="rent" aria-pressed="false">Аренда</button>
+    </div>
+    <div class="seg" role="group" aria-label="Масштаб карты">
+      <button type="button" data-zoom="city" aria-pressed="true">Город</button>
+      <button type="button" data-zoom="all" aria-pressed="false">Вся область</button>
+    </div>
+    <div class="panel" id="areaInfo"><h3>Выберите район</h3><p class="cmp">Нажмите на район на карте.</p></div>
+  </div>
+</section>
+
+<section id="view-sources" class="srcview" hidden>
+  <div>
+    <p class="eyebrow">Откуда данные</p>
+    <h1 style="font-size:36px">Источники и их состояние</h1>
+  </div>
+  <div class="tiles" id="tiles"></div>
+  <p class="note" id="srcnote"></p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Источник</th><th>Тип</th><th style="text-align:right">Объявлений</th><th>Сбор</th></tr></thead>
+    <tbody id="srcrows"></tbody>
+  </table></div>
+</section>
 </div>
+
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="shTitle" hidden></div>
 
 <script>
 const DATA = __DATA__;
 const ASOF = "__ASOF__";
-const PORTAL_NAME = {"xe.gr":"XE.gr","spitogatos.gr":"Spitogatos","spiti24.gr":"Spiti24","tospitimou.gr":"Tospitimou","plot.gr":"Plot","indomio.gr":"Indomio","t.me":"Telegram"};
-const AREA_RU = {"Καλαμαριά":"Каламария","Πυλαία":"Пилея","Πανόραμα":"Панорама","Θέρμη":"Терми","Χορτιάτης":"Хортиатис",
-  "Θερμαϊκός":"Термаикос: Перея, Эпаноми, Миханиона","Νεάπολη-Συκιές":"Неаполи и Сикиес","Παύλος Μελάς":"Павлос Мелас: Ставруполи, Полихни, Эвкарпия",
-  "Κορδελιό-Εύοσμος":"Корделио и Эвосмос","Αμπελόκηποι-Μενεμένη":"Амбелокипи и Менемени","Ωραιόκαστρο":"Ореокастро","Δέλτα":"Дельта: Синдос, Калохори",
-  "Λαγκαδάς":"Лангадас","Θεσσαλονίκη-Ανατολικά":"Салоники, восток: Тумба, Харилау, Мартиу, Ано Тумба","Θεσσαλονίκη-Κέντρο":"Салоники, центр",
-  "Χαλκηδόνα":"Халкидона: Куфалья, Мальгара","Βόλβη":"Волви: Асправалта, Ставрос",
-  "Θεσσαλονίκη":"Салоники, район не указан"};
-const AREA_LAT = {"Καλαμαριά":"kalamaria kalamaria kalamariá","Πυλαία":"pylaia pilea","Πανόραμα":"panorama","Θέρμη":"thermi","Χορτιάτης":"chortiatis hortiatis",
-  "Θερμαϊκός":"thermaikos peraia epanomi michaniona перея эпаноми миханиона","Νεάπολη-Συκιές":"neapoli sykies",
-  "Παύλος Μελάς":"pavlos melas stavroupoli polichni efkarpia ставруполи полихни","Κορδελιό-Εύοσμος":"kordelio evosmos","Αμπελόκηποι-Μενεμένη":"ampelokipoi menemeni",
-  "Ωραιόκαστρο":"oraiokastro oreokastro","Δέλτα":"delta sindos kalochori","Λαγκαδάς":"lagkadas langadas",
-  "Θεσσαλονίκη-Ανατολικά":"toumba toumpa charilaou martiou тумба харилау мартиу","Θεσσαλονίκη-Κέντρο":"center centre kentro центр цимиски tsimiski","Χαλκηδόνα":"chalkidona koufalia","Βόλβη":"volvi asprovalta stavros асправалта",
-  "Θεσσαλονίκη":""};
-// areas of Jeny Shir's Thessaloniki map: id -> [ru, gr, district, sale EUR/m2, rent EUR/m2]
-const MAPAREA = __MAPAREAS__;
+const MAPAREA = __MAPAREAS__;          // id -> [ru, gr, district, sale EUR/m2, rent EUR/m2]
+const OUTLINES = __OUTLINES__;         // [id, rings[[lon,lat]...]]
+const CENTRES = __CENTRES__;           // id -> [lat, lon] for areas drawn as a circle
+const SOURCES = __SOURCES__;
 const MAP_URL = "https://jenyshir.com/ru/maps/thessaloniki/";
-const nbName = n => MAPAREA[n] ? MAPAREA[n][0] : n;
-const RESIDENTIAL = new Set(["apartment","studio","maisonette"]);
-// listing price per m2 against the map's average for its area (sale) or rent per m2 (rent)
+const PORTAL_NAME = {"xe.gr":"XE.gr","spitogatos.gr":"Spitogatos","spiti24.gr":"Spiti24","tospitimou.gr":"Tospitimou","plot.gr":"Plot","indomio.gr":"Indomio","t.me":"Telegram"};
+const NETWORK = {"remax.gr":"RE/MAX","ktimatoemporiki.gr":"Ktimatoemporiki"};
+const AREA_RU = {"Καλαμαριά":"Каламария","Πυλαία":"Пилея","Πανόραμα":"Панорама","Θέρμη":"Терми","Χορτιάτης":"Хортиатис",
+  "Θερμαϊκός":"Термаикос","Νεάπολη-Συκιές":"Неаполи и Сикиес","Παύλος Μελάς":"Павлос Мелас",
+  "Κορδελιό-Εύοσμος":"Корделио и Эвосмос","Αμπελόκηποι-Μενεμένη":"Амбелокипи и Менемени","Ωραιόκαστρο":"Ореокастро","Δέλτα":"Дельта",
+  "Λαγκαδάς":"Лангадас","Θεσσαλονίκη-Ανατολικά":"Салоники, восток","Θεσσαλονίκη-Κέντρο":"Салоники, центр",
+  "Χαλκηδόνα":"Халкидона","Βόλβη":"Волви","Θεσσαλονίκη":"Салоники"};
+const AREA_WORDS = {"Καλαμαριά":"каламари kalamari","Πυλαία":"пиле пилаи pylaia pilea","Πανόραμα":"панорам panorama","Θέρμη":"терми thermi","Χορτιάτης":"хортиат chortiat",
+  "Θερμαϊκός":"термаикос перея переа эпаноми миханион peraia epanomi michaniona","Νεάπολη-Συκιές":"неаполи сикиес neapoli sykies",
+  "Παύλος Μελάς":"павлос мелас ставруполи полихни эвкарпи stavroupoli polichni","Κορδελιό-Εύοσμος":"корделио эвосмос kordelio evosmos","Αμπελόκηποι-Μενεμένη":"амбелокипи менемени ampelokipoi menemeni","Ωραιόκαστρο":"ореокастро ораиокастро oraiokastro","Δέλτα":"дельта синдос калохори sindos kalochori",
+  "Λαγκαδάς":"лангадас lagkadas","Θεσσαλονίκη-Ανατολικά":"тумба харилау мартиу toumba charilaou","Θεσσαλονίκη-Κέντρο":"центр kentro center tsimiski цимиски",
+  "Χαλκηδόνα":"халкидон chalkidon","Βόλβη":"волви асправалт volvi asprovalta"};
+const TYPES = [["apartment","Квартира","квартир апартамент apartment flat διαμερισ"],["studio","Студия","студи гарсоньер studio γκαρσονιερ"],
+  ["maisonette","Мезонет","мезонет таунхаус maisonette μεζονετ"],["house","Дом","дом вилл коттедж house villa μονοκατοικ"],
+  ["land","Участок","участ земл plot land οικοπεδ"],["store","Коммерция","магазин коммерч store shop καταστημ"],
+  ["office","Офис","офис office γραφει"],["warehouse","Склад","склад warehouse αποθηκ"],["building","Здание","здани building κτιρι"],
+  ["hotel","Гостиница","гостиниц отел hotel ξενοδοχ"],["parking","Парковка","парковк гараж parking"]];
+const TYPE_RU = Object.fromEntries(TYPES.map(t=>[t[0],t[1]]));
+const RESIDENTIAL = new Set(["apartment","studio","maisonette","house"]);
+const $ = id => document.getElementById(id);
+const esc = s => String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = n => new Intl.NumberFormat("ru-RU").format(Math.round(n));
+const eur = n => n==null ? "—" : fmt(n) + " €";
+const median = a => { if(!a.length) return null; const s=[...a].sort((x,y)=>x-y), m=s.length>>1; return s.length%2?s[m]:(s[m-1]+s[m])/2; };
+const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/ς/g,"σ").replace(/ё/g,"е");
+const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+const ageDays = iso => Math.round((TODAY - new Date(iso+"T00:00:00"))/864e5);
+const ruDate = iso => { const [y,m,d]=iso.split("-"); return `${d}.${m}.${y}`; };
+function when(iso){ const a=ageDays(iso); return a<=0?"сегодня":a===1?"вчера":a<7?`${a} дн. назад`:ruDate(iso); }
+function plural(n, one, few, many){ const m=n%10, h=n%100; return m===1&&h!==11?one:m>=2&&m<=4&&(h<12||h>14)?few:many; }
+const floorRu = n => n===-2?"подвал":n===-1?"полуподвал":n===0?"цокольный":n===0.5?"полуэтаж":`${n}-й этаж`;
+const nbName = n => MAPAREA[n] ? MAPAREA[n][0] : "";
+const isPortal = s => !!PORTAL_NAME[s];
+const srcName = d => PORTAL_NAME[d.src] || NETWORK[d.src] || d.ag;
+
+// price per m2 against the map's average for the area: sale -> EUR/m2, rent -> EUR/m2 a month
 function vsMarket(d){
   const a = MAPAREA[d.nb]; if(!a || !d.p || !d.m || !RESIDENTIAL.has(d.ty)) return null;
   const ref = d.tx==="sale" ? a[3] : d.tx==="rent" ? a[4] : null; if(!ref) return null;
-  const v = d.tx==="sale" ? d.p/d.m : d.p/d.m;
-  const pct = Math.round((v/ref - 1) * 100);
-  return Math.abs(pct) > 60 ? null : pct;  // far off: probably a data error, better not to show
+  const pct = Math.round((d.p/d.m/ref - 1)*100);
+  return Math.abs(pct) > 60 ? null : pct;
 }
-const TYPE_SYN = {apartment:"квартира квартиру apartment flat διαμερισμα",studio:"студия студию гарсоньера studio γκαρσονιερα квартира",
-  maisonette:"мезонет таунхаус maisonette μεζονετα дом",house:"дом вилла коттедж house villa μονοκατοικια",land:"участок земля земельный plot land οικοπεδο",
-  store:"магазин коммерческое помещение store shop καταστημα",office:"офис office γραφειο",warehouse:"склад производство warehouse αποθηκη",
-  parking:"парковка гараж parking",building:"здание building κτιριο",hotel:"гостиница отель hotel ξενοδοχειο"};
-const TYPE_RU = {apartment:"Квартира",studio:"Студия",maisonette:"Мезонет",house:"Дом",land:"Участок",store:"Магазин / коммерция",office:"Офис",warehouse:"Склад",parking:"Парковка",building:"Здание",hotel:"Гостиница","":"Не указан"};
-const ICONS = {
-  land:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 19h18M5 19l4-8 3 5 2-3 5 6"/></svg>',
-  store:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 9h16l-1-4H5zM5 9v10h14V9M10 19v-5h4v5"/></svg>',
-  office:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 20V4h10v16M15 9h4v11M8 8h4M8 12h4M8 16h4"/></svg>',
-  house:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11l8-6 8 6v9H4zM10 20v-5h4v5"/></svg>',
-  default:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 21V5l6-2 6 2v16M9 8h1M14 8h1M9 12h1M14 12h1M9 16h1M14 16h1"/></svg>'
-};
-const iconFor = t => ICONS[{land:"land",store:"store",warehouse:"store",office:"office",house:"house",maisonette:"house"}[t]] || ICONS.default;
-const $ = id => document.getElementById(id);
-const eur = n => n==null||n==="" ? "—" : new Intl.NumberFormat("ru-RU").format(Math.round(n)) + " €";
-const median = a => { if(!a.length) return null; const s=[...a].sort((x,y)=>x-y), m=s.length>>1; return s.length%2?s[m]:(s[m-1]+s[m])/2; };
-const norm = s => (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/ς/g,"σ");
+DATA.forEach(d => {
+  d._vm = vsMarket(d);
+  d._n = 1 + (d.alt||[]).length;
+  d._q = norm([d.t, (d.ags||[d.ag]).join(" "), d.ar, AREA_RU[d.ar]||"", AREA_WORDS[d.ar]||"", MAPAREA[d.nb]?MAPAREA[d.nb][0]+" "+MAPAREA[d.nb][1]:"", d.lr,
+    (TYPES.find(t=>t[0]===d.ty)||["","",""])[2], (d.srcs||[]).map(s=>PORTAL_NAME[s]||NETWORK[s]||s).join(" ")].join(" "));
+});
 
-let tx = "sale", page = 60;
-DATA.forEach(d => d._q = norm([d.t, (d.ags||[d.ag]).join(" "), d.ar, d.nb||"", MAPAREA[d.nb] ? MAPAREA[d.nb][0]+" "+MAPAREA[d.nb][1] : "", d.lr, AREA_RU[d.ar]||"", AREA_LAT[d.ar]||"", TYPE_SYN[d.ty]||"", TYPE_RU[d.ty]||"",
-  d.fn===-2 ? "подвал подвальный basement υπογειο" : d.fn===-1 ? "полуподвал ημιυπογειο" : d.fn===0 ? "цокольный цоколь первый этаж ισογειο ground" : d.fn===0.5 ? "полуэтаж ημιοροφοσ mezzanine" : "",
-  d.tx==="rent" ? "аренда снять сдается rent" : d.tx==="sale" ? "продажа купить продается sale" : "",
-  d.rg==="thessaloniki" ? "салоники thessaloniki θεσσαλονικη" : ""].join(" ")));
-
-function fillSelect(el, values, label){
-  values.forEach(v => { const o=document.createElement("option"); o.value=v; o.textContent=label?label(v):v; el.appendChild(o); });
-}
-// district, then its neighbourhoods (with at least 3 objects) indented under it
+/* ---------- filter controls ---------- */
+let tx = "sale", types = new Set(["apartment"]), textQ = "", shown = 48;
 (() => {
-  const dist = [...new Set(DATA.map(d=>d.ar).filter(Boolean))].sort((a,b)=>(AREA_RU[a]||a).localeCompare(AREA_RU[b]||b,"ru"));
-  const nbCount = {}; DATA.forEach(d => { if(d.nb) nbCount[d.ar+"|"+d.nb] = (nbCount[d.ar+"|"+d.nb]||0)+1; });
-  const label = n => MAPAREA[n] ? `${MAPAREA[n][0]} (${MAPAREA[n][1]})` : n;
+  const dist = [...new Set(DATA.filter(d=>d.rg==="thessaloniki").map(d=>d.ar).filter(Boolean))].sort((a,b)=>(AREA_RU[a]||a).localeCompare(AREA_RU[b]||b,"ru"));
+  const nbCount = {}; DATA.forEach(d => { if(d.nb) nbCount[d.ar+"|"+d.nb]=(nbCount[d.ar+"|"+d.nb]||0)+1; });
   dist.forEach(a => {
-    const o=document.createElement("option"); o.value=a; o.textContent = AREA_RU[a] ? `${AREA_RU[a]} (${a})` : a; $("area").appendChild(o);
-    // skip an area that is the whole district (Каламария under Каламария)
-    Object.keys(nbCount).filter(k => k.startsWith(a+"|") && nbCount[k] >= 3).map(k=>k.split("|")[1])
-      .filter(n => !MAPAREA[n] || MAPAREA[n][1] !== a)
+    const o=document.createElement("option"); o.value=a; o.textContent = a==="Θεσσαλονίκη" ? "Салоники, район не указан" : (AREA_RU[a]||a); $("area").appendChild(o);
+    Object.keys(nbCount).filter(k=>k.startsWith(a+"|") && nbCount[k]>=3).map(k=>k.split("|")[1])
+      .filter(n => MAPAREA[n] && AREA_RU[a] !== MAPAREA[n][0])
       .sort((x,y)=>nbName(x).localeCompare(nbName(y),"ru")).forEach(n => {
-        const q=document.createElement("option"); q.value="nb:"+n; q.textContent=`\u00a0\u00a0\u00a0— ${label(n)}`; $("area").appendChild(q);
+        const q=document.createElement("option"); q.value="nb:"+n; q.textContent="   "+nbName(n); $("area").appendChild(q);
       });
   });
+  TYPES.filter(t => DATA.some(d=>d.ty===t[0])).forEach(([k,label]) => {
+    const b=document.createElement("button"); b.type="button"; b.dataset.ty=k; b.textContent=label; b.setAttribute("aria-pressed", types.has(k));
+    b.addEventListener("click", () => { types.has(k)?types.delete(k):types.add(k); syncTypes(); render(true); });
+    $("types").appendChild(b);
+  });
+  [...new Set(DATA.flatMap(d=>d.ags||[d.ag]))].sort((a,b)=>a.localeCompare(b,"el")).forEach(a => {
+    const o=document.createElement("option"); o.value=a; o.textContent=a; $("agency").appendChild(o);
+  });
+  if (matchMedia("(max-width:860px)").matches) $("fbox").open = false;
+  const listings = DATA.reduce((n,d)=>n+d._n,0);
+  $("asof").textContent = `Обновлено ${ASOF} · ${fmt(listings)} объявлений`;
 })();
-fillSelect($("type"), Object.keys(TYPE_RU).filter(k=>k && DATA.some(d=>d.ty===k)), k=>TYPE_RU[k]);
-$("type").value = "apartment";
-if (window.matchMedia("(max-width:820px)").matches) $("fbox").open = false;
-fillSelect($("agency"), [...new Set(DATA.flatMap(d=>d.ags||[d.ag]))].sort((a,b)=>a.localeCompare(b,"el")));
-$("asof").textContent = "Сбор " + ASOF + " · " + DATA.length + " объектов в базе (" + DATA.reduce((n,d)=>n+1+(d.alt||[]).length,0).toLocaleString("ru-RU") + " объявлений)";
+function syncTypes(){ document.querySelectorAll("#types button").forEach(b=>b.setAttribute("aria-pressed", types.has(b.dataset.ty))); }
+function syncTx(){ document.querySelectorAll(".seg [data-tx]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.tx===tx)); }
+const CTRL = ["region","area","pmin","pmax","amin","amax","bed","flmin","flmax","nofloor","fresh","undated","who","src","below","agency","sort"];
 
 function current(){
-  const q = norm($("q").value.trim()), region=$("region").value, area=$("area").value, type=$("type").value,
-        pmin=+$("pmin").value||0, pmax=+$("pmax").value||Infinity, amin=+$("amin").value||0, amax=+$("amax").value||Infinity,
-        bed=+$("bed").value||0, flmin=$("flmin").value, flmax=$("flmax").value, nofloor=$("nofloor").checked, ag=$("agency").value, fresh=+$("fresh").value||0, undated=$("undated").checked, who=$("who").value, src=$("src").value;
+  const v = id => $(id).value, region=v("region"), area=v("area"), ag=v("agency"), who=v("who"), src=v("src"),
+        pmin=+v("pmin")||0, pmax=+v("pmax")||Infinity, amin=+v("amin")||0, amax=+v("amax")||Infinity, bed=+v("bed")||0,
+        flmin=v("flmin"), flmax=v("flmax"), nofloor=$("nofloor").checked, fresh=+v("fresh")||0, undated=$("undated").checked, below=$("below").checked;
+  const words = norm(textQ).split(/[\s,]+/).filter(w=>w.length>1).map(w=>w.slice(0, Math.max(3, w.length-2)));
   return DATA.filter(d =>
-    (!tx || d.tx===tx) && (!region || d.rg===region) && (!area || (area.startsWith("nb:") ? d.nb===area.slice(3) : d.ar===area)) && (!type || d.ty===type) &&
-    (!ag || (d.ags||[d.ag]).includes(ag)) && (!bed || (+d.bd||0)>=bed) &&
-    ((flmin==="" && flmax==="") || (d.fn==null ? nofloor : (flmin==="" || d.fn>=+flmin) && (flmax==="" || +flmax===8 || d.fn<=+flmax))) &&
+    (!tx || d.tx===tx) && (!region || d.rg===region) &&
+    (!area || (area.startsWith("nb:") ? d.nb===area.slice(3) : d.ar===area)) &&
+    (!types.size || types.has(d.ty)) && (!ag || (d.ags||[d.ag]).includes(ag)) && (!bed || (+d.bd||0)>=bed) &&
+    ((flmin==="" && flmax==="") || (d.fn==null ? nofloor : (flmin===""||d.fn>=+flmin) && (flmax===""||+flmax===8||d.fn<=+flmax))) &&
     (!who || (who==="private" ? d.pv==="yes" : d.pv!=="yes")) &&
-    (!src || (d.srcs||[d.src]).some(x => src==="site" ? !PORTAL_NAME[x] : !!PORTAL_NAME[x])) &&
-    (!fresh || (d.ld ? ageDays(d.ld) <= fresh : undated)) && (fresh || undated || d.ld) &&
-    (pmin===0 && pmax===Infinity || (d.p!=null && d.p>=pmin && d.p<=pmax)) &&
-    (amin===0 && amax===Infinity || (d.m!=null && d.m>=amin && d.m<=amax)) &&
-    (!q || q.split(/[\s,]+/).filter(Boolean).every(w => d._q.includes(w.replace(/(ами|ями|ах|ях|ой|ей|ую|юю|ом|ем|ы|и|а|я|у|ю|е)$/,"").slice(0, Math.max(3, w.length-2))))));
+    (!src || (src==="multi" ? d._n>1 : (d.srcs||[d.src]).some(x => src==="site" ? !isPortal(x) : isPortal(x)))) &&
+    (!below || (d._vm!=null && d._vm<=-10)) &&
+    (!fresh || (d.ld ? ageDays(d.ld)<=fresh : undated)) &&
+    ((pmin===0 && pmax===Infinity) || (d.p!=null && d.p>=pmin && d.p<=pmax)) &&
+    ((amin===0 && amax===Infinity) || (d.m!=null && d.m>=amin && d.m<=amax)) &&
+    (!words.length || words.every(w => d._q.includes(w))));
 }
 
-function render(reset){
-  if(reset) page = 60;
-  let rows = current();
-  const sort=$("sort").value, big=1e15;
-  const key = {new:d=>d.ld ? ageDays(d.ld) : big, ppm:d=>d.pm??big, pa:d=>d.p??big, pd:d=>-(d.p??-big), ad:d=>-(d.m??-big)}[sort];
-  rows.sort((a,b)=>key(a)-key(b));
-  $("sCount").textContent = rows.length.toLocaleString("ru-RU");
-  const ppm = median(rows.map(d=>d.pm).filter(v=>v!=null));
-  $("sMed").textContent = ppm==null ? "—" : eur(ppm);
-  $("sPrice").textContent = eur(median(rows.map(d=>d.p).filter(v=>v!=null)));
-  $("sAg").textContent = new Set(rows.flatMap(d=>d.ags||[d.ag])).size;
-  const list=$("list"); list.textContent="";
-  if(!rows.length){ list.innerHTML='<p class="empty">Ничего не найдено. Ослабьте фильтры или нажмите «Сбросить фильтры».</p>'; }
-  rows.slice(0,page).forEach(d => {
-    const a=document.createElement("div"); a.className="item";
-    const chips=[];
-    if(d.ld && ageDays(d.ld) <= 7) chips.push(`<span class="chip new">новое</span>`);
-    if(d.tx) chips.push(`<span class="chip ${d.tx}">${d.tx==="sale"?"Продажа":"Аренда"}</span>`);
-    chips.push(`<span class="chip">${TYPE_RU[d.ty]||"—"}</span>`);
-    if(d.m) chips.push(`<span>${d.m} м²</span>`);
-    if(d.bd) chips.push(`<span>${d.bd} сп.</span>`);
-    if(d.fn!=null) chips.push(`<span title="Греческая нумерация: ισόγειο — у земли, 1 — первый над ним">${floorRu(d.fn)}</span>`);
-    if(d.yr) chips.push(`<span>${d.yr} г.</span>`);
-    chips.push(`<span>${esc(AREA_RU[d.ar] ? AREA_RU[d.ar].split(':')[0] : (d.rg==="other" ? "другой регион: "+(d.lr||"") : "район не указан"))}${d.nb && MAPAREA[d.nb] ? ` · <a class="maplink" href="${MAP_URL}" target="_blank" rel="noopener" title="Район на карте районов Салоник">${esc(nbName(d.nb))}</a>` : ""}</span>`);
-    if(d.pv==="yes" || d.ag!==PORTAL_NAME[d.src]) chips.push(`<span>· ${esc(d.pv==="yes" ? "частный владелец" : d.ag)}</span>`);
-    if(PORTAL_NAME[d.src]) chips.push(`<span class="chip">${PORTAL_NAME[d.src]}</span>`);
-    if(d.alt && d.alt.length) chips.push(`<span class="chip multi">на ${d.alt.length+1} сайтах</span>`);
-    const vm = vsMarket(d);
-    if(vm!=null && Math.abs(vm) >= 10) chips.push(`<span class="chip ${vm<0?"below":"above"}" title="Цена за м² против средней по району «${esc(nbName(d.nb))}» на карте районов Jeny Shir">${vm>0?"+":"−"}${Math.abs(vm)}% к средней по району</span>`);
-    chips.push(`<span>· ${d.ld ? (d.lk==="updated" ? "обновлено " : "опубликовано ") + ruDate(d.ld) : "дата не указана на сайте"}</span>`);
-    a.innerHTML = `<div class="ico" aria-hidden="true">${iconFor(d.ty)}</div>
-      <div class="main"><div class="t" title="${esc(d.t)}"><a href="${esc(d.u)}" target="_blank" rel="noopener">${esc(d.t)}</a></div><div class="meta">${chips.join("")}</div>${also(d)}</div>
-      <div class="money"><b>${d.p?(d.px?"от ":"")+eur(d.p)+(d.tx==="rent"?"/мес":""):"цена по запросу"}</b><small>${d.px?"до "+eur(d.px):(d.pm?eur(d.pm)+"/м²":"")}</small></div>`;
-    list.appendChild(a);
+/* ---------- phrase -> filters ---------- */
+const AREA_INDEX = (() => {
+  const out = [];
+  Object.entries(MAPAREA).forEach(([id,a]) => { [a[0],a[1]].forEach(n => n && out.push([norm(n).slice(0, Math.max(4, norm(n).length-2)), "nb:"+id, a[0]])); });
+  Object.entries(AREA_WORDS).forEach(([dist,w]) => w.split(" ").filter(Boolean).forEach(x => out.push([x, dist, AREA_RU[dist]])));
+  return out.sort((a,b)=>b[0].length-a[0].length);
+})();
+function num(s){ s=s.replace(/\s/g,"");
+  // 250.000 / 250,000 are thousands, 1,5 is a decimal
+  s = /\d{1,3}([.,]\d{3})+(?!\d)/.test(s) ? s.replace(/[.,](?=\d{3}(?!\d))/g,"") : s.replace(",","."); let k=1; if(/(k|к|тыс|χιλ)/i.test(s)) k=1000; if(/(млн|m$)/i.test(s)) k=1e6; const n=parseFloat(s.replace(/[^\d.]/g,"")); return isNaN(n)?null:Math.round(n*k); }
+function parsePhrase(raw){
+  let s = " " + norm(raw) + " ";
+  const used = [], take = re => { const m = s.match(re); if(m){ s = s.replace(m[0], " "); } return m; };
+  const set = (id, val) => { $(id).value = val; };
+  // clear what a phrase controls, keep region and sort
+  ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","agency"].forEach(id=>set(id,"")); $("below").checked=false;
+  if (take(/(?<![^\s,.;!?])(аренд[^\s,.;!?]*|снять|сним[^\s,.;!?]*|сда[^\s,.;!?]*|rent[^\s,.;!?]*|ενοικ[^\s,.;!?]*)/)) tx="rent";
+  else if (take(/(?<![^\s,.;!?])(продаж[^\s,.;!?]*|прода[^\s,.;!?]*|купить|куплю|покупк[^\s,.;!?]*|sale|buy|πωλ[^\s,.;!?]*|αγορ[^\s,.;!?]*)/)) tx="sale";
+  const found = new Set();
+  TYPES.forEach(([k,,w]) => w.split(" ").forEach(stem => { const re = new RegExp("(^|[\\s,])" + norm(stem) + "\\S*"); if (re.test(s)) { found.add(k); s = s.replace(re, " "); } }));
+  if (found.size) { types = found; }
+  const range = take(/(\d[\d\s.,]*)\s*[-–—]\s*(\d[\d\s.,]*)\s*(м2|м²|кв\.?\s*м|m2|sqm|τ\.?μ\.?|τμ)/);
+  if (range){ set("amin", num(range[1])); set("amax", num(range[2])); }
+  const about = !range && take(/(около|примерно|about|περιπου|~)\s*(\d+)\s*(м2|м²|кв\.?\s*м|m2|sqm|τ\.?μ\.?|τμ)/);
+  if (about){ const a=+about[2]; set("amin", Math.round(a*0.85)); set("amax", Math.round(a*1.15)); }
+  const amin = take(/(от|больше|более|from|over|απο)\s*(\d+)\s*(м2|м²|кв\.?\s*м|m2|sqm|τ\.?μ\.?|τμ)/); if (amin) set("amin", amin[2]);
+  const amax = take(/(до|меньше|менее|under|up to|εωσ)\s*(\d+)\s*(м2|м²|кв\.?\s*м|m2|sqm|τ\.?μ\.?|τμ)/); if (amax) set("amax", amax[2]);
+  const plain = !range && !about && !amin && !amax && take(/(?<![^\s,.;!?])(\d{2,3})\s*(м2|м²|кв\.?\s*м|m2|sqm|τ\.?μ\.?|τμ)/);
+  if (plain){ const a=+plain[1]; set("amin", Math.round(a*0.85)); set("amax", Math.round(a*1.15)); }
+  const bed = take(/(\d)\s*(спал[^\s,.;!?]*|bedroom[^\s,.;!?]*|br(?![^\s,.;!?])|υπνοδωμ[^\s,.;!?]*)/); if (bed) set("bed", Math.min(4,+bed[1]));
+  const rooms = !bed && take(/(\d)\s*[-‑]?\s*(комнатн[^\s,.;!?]*|комн[^\s,.;!?]*|room[^\s,.;!?]*)/); if (rooms) set("bed", Math.max(1, Math.min(4, +rooms[1]-1)));
+  const MONEY = "(€?\\s*\\d[\\d\\s.,]*\\s*(?:k|к|тыс[^\\s,.;!?]*|тысяч[^\\s,.;!?]*|χιλ[^\\s,.;!?]*|млн)?\\s*(?:€|евро|eur[^\\s,.;!?]*|ευρω)?)";
+  const pmax = take(new RegExp("(до|дешевле|не дороже|максимум|under|up to|max|below|εωσ|μεχρι)\\s*" + MONEY));
+  if (pmax){ const v=num(pmax[2]); if(v) set("pmax", v < 1000 && tx==="sale" ? v*1000 : v); }
+  const pmin = take(new RegExp("(от|дороже|from|over|απο)\\s*" + MONEY));
+  if (pmin){ const v=num(pmin[2]); if(v) set("pmin", v < 1000 && tx==="sale" ? v*1000 : v); }
+  if (take(/не\s+(на\s+)?(перв[^\s,.;!?]*|цокол[^\s,.;!?]*)(\s+этаж[^\s,.;!?]*)?|not\s+ground(\s+floor)?|οχι\s+ισογει[^\s,.;!?]*/)) { set("flmin","1"); $("nofloor").checked = true; }
+  else if (take(/без\s+подвал[^\s,.;!?]*|не\s+подвал[^\s,.;!?]*|no\s+basement/)) { set("flmin","0"); }
+  const fl = take(/(выше|от|above)\s+(\d)\s*(-?го|-?й)?\s*этаж[^\s,.;!?]*/); if (fl) set("flmin", fl[2]);
+  if (take(/частн[^\s,.;!?]*|собственник[^\s,.;!?]*|без\s+(агент[^\s,.;!?]*|посредник[^\s,.;!?]*|комисс[^\s,.;!?]*)|private|ιδιωτ[^\s,.;!?]*/)) set("who","private");
+  if (take(/дешевле\s+рынк[^\s,.;!?]*|ниже\s+рынк[^\s,.;!?]*|выгодн[^\s,.;!?]*|below\s+market|κατω\s+απο\s+την\s+αγορα/)) $("below").checked = true;
+  if (take(/на\s+нескольк[^\s,.;!?]*\s+сайт[^\s,.;!?]*|несколько\s+источник[^\s,.;!?]*/)) set("src","multi");
+  if (take(/за\s+(последн[^\s,.;!?]+\s+)?недел[^\s,.;!?]*|свеж[^\s,.;!?]*|нов[^\s,.;!?]*\s+объявлен[^\s,.;!?]*|this\s+week|new(?![^\s,.;!?])/)) set("fresh","7");
+  else if (take(/за\s+(последн[^\s,.;!?]+\s+)?месяц[^\s,.;!?]*|this\s+month/)) set("fresh","30");
+  for (const [stem, val] of AREA_INDEX) { const re = new RegExp("(^|[\\s,])" + stem.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\S*"); if (stem.length>=4 && re.test(s)) {
+    set("area", val);
+    // a small map area has no own menu line: fall back to its district
+    if ($("area").value !== val && val.startsWith("nb:") && MAPAREA[val.slice(3)]) set("area", MAPAREA[val.slice(3)][2]);
+    s = s.replace(re, " "); break; } }
+  // what is left and not a filler word is searched as text
+  const STOP = /^(в|во|на|и|с|со|у|по|для|или|район[^\s,.;!?]*|салоник[^\s,.;!?]*|thessalon[^\s,.;!?]*|θεσσαλονικ[^\s,.;!?]*|€|евро|м2|м²|этаж[^\s,.;!?]*|недвижимост[^\s,.;!?]*|ищу|найди|покажи|нужн[^\s,.;!?]*|хочу|около|до|от|the|in|a|an|for|with|σε|στη|στο|και|με|για|€\d*)$/;
+  textQ = s.split(/[\s,.;!?]+/).filter(w => w && !STOP.test(w) && !/^\d+$/.test(w)).join(" ");
+  syncTx(); syncTypes(); render(true);
+}
+
+/* ---------- what the search understood: one removable pill per active filter ---------- */
+function understood(){
+  const p = [];
+  const add = (label, clear, cls="") => p.push({label, clear, cls});
+  add(tx==="sale"?"Продажа":tx==="rent"?"Аренда":"Продажа и аренда", () => { tx="sale"; syncTx(); });
+  if (types.size) add([...types].map(t=>TYPE_RU[t]).join(", "), () => { types.clear(); syncTypes(); });
+  const ar = $("area"); if (ar.value) add(ar.options[ar.selectedIndex].textContent.trim(), () => ar.value="");
+  const pmin=$("pmin").value, pmax=$("pmax").value;
+  if (pmin||pmax) add((pmin?"от "+fmt(pmin)+" €":"") + (pmin&&pmax?" ":"") + (pmax?"до "+fmt(pmax)+" €":""), () => { $("pmin").value=""; $("pmax").value=""; });
+  const amin=$("amin").value, amax=$("amax").value;
+  if (amin||amax) add((amin&&amax ? `${amin}–${amax}` : amin ? "от "+amin : "до "+amax) + " м²", () => { $("amin").value=""; $("amax").value=""; });
+  if ($("bed").value) add(`от ${$("bed").value} спален`, () => $("bed").value="");
+  if ($("flmin").value||$("flmax").value) add("этаж " + ($("flmin").value?"от "+floorRu(+$("flmin").value).replace("-й этаж",""):"") + ($("flmax").value?" до "+floorRu(+$("flmax").value).replace("-й этаж",""):""), () => { $("flmin").value=""; $("flmax").value=""; });
+  if ($("who").value) add($("who").value==="private"?"Частники":"Агентства", () => $("who").value="");
+  if ($("src").value) add({site:"Сайты агентств",portal:"Порталы",multi:"На нескольких сайтах"}[$("src").value], () => $("src").value="");
+  if ($("below").checked) add("Дешевле района", () => $("below").checked=false);
+  if ($("fresh").value && $("fresh").value!=="90") add({"7":"За неделю","30":"За месяц","365":"За год"}[$("fresh").value], () => $("fresh").value="90");
+  if ($("agency").value) add($("agency").value, () => $("agency").value="");
+  if (textQ) add("«" + textQ + "»", () => { textQ=""; }, "text");
+  const box = $("understood"); box.textContent = "";
+  const lead = document.createElement("span"); lead.textContent = "Ищу:"; box.appendChild(lead);
+  p.forEach(x => {
+    const s=document.createElement("span"); s.className="pill "+x.cls; s.textContent=x.label;
+    const b=document.createElement("button"); b.type="button"; b.setAttribute("aria-label","Убрать: "+x.label); b.textContent="×";
+    b.addEventListener("click", () => { x.clear(); render(true); }); s.appendChild(b); box.appendChild(s);
   });
-  $("shown").textContent = rows.length ? `Показано ${Math.min(page,rows.length)} из ${rows.length}` : "";
-  $("more").hidden = rows.length <= page;
 }
-const TODAY = new Date(); TODAY.setHours(0,0,0,0);
-function ageDays(iso){ return Math.round((TODAY - new Date(iso + "T00:00:00")) / 864e5); }
-function ruDate(iso){ const [y,m,d] = iso.split("-"); return `${d}.${m}.${y}`; }
-function also(d){
-  if(!d.alt || !d.alt.length) return "";
-  return `<div class="also">Также на: ${d.alt.map(([n,u,p]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}${p?" · "+eur(p):""}</a>`).join("")}</div>`;
-}
-function floorRu(n){
-  return n===-2 ? "подвал" : n===-1 ? "полуподвал" : n===0 ? "цокольный (ισόγειο)" : n===0.5 ? "полуэтаж (ημιόροφος)" : `${n}-й этаж`;
-}
-function esc(s){ return String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
-document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
-  tx=b.dataset.tx; document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed", x===b)); render(true);
+/* ---------- cards ---------- */
+function card(d){
+  const b = document.createElement("button"); b.type="button"; b.className="card";
+  const badges = [];
+  if (d.ld && ageDays(d.ld)<=7) badges.push(`<span class="bdg dark">Новое</span>`);
+  if (d.pv==="yes") badges.push(`<span class="bdg">Частник</span>`);
+  if (d._n>1) badges.push(`<span class="bdg">На ${d._n} сайтах</span>`);
+  else if ((d.srcs||[]).every(isPortal)) badges.push(`<span class="bdg">Только ${esc(PORTAL_NAME[d.src]||"портал")}</span>`);
+  if (d._vm!=null && Math.abs(d._vm)>=10) badges.push(`<span class="bdg ${d._vm<0?"good":"warn"}">${d._vm>0?"+":"−"}${Math.abs(d._vm)}% к району</span>`);
+  const place = d.rg==="other" ? (d.lr||"Другой регион") : (nbName(d.nb) || AREA_RU[d.ar] || "Салоники");
+  const sub = d.rg==="other" ? "вне Салоник" : (nbName(d.nb) && AREA_RU[d.ar] && AREA_RU[d.ar]!==nbName(d.nb) ? AREA_RU[d.ar] : (d.ar==="Θεσσαλονίκη"||!d.ar ? "район не указан" : ""));
+  const gauge = d._vm!=null ? `<div class="gauge" title="Цена за м² относительно средней по району"><i style="left:calc(${Math.max(2,Math.min(98,50+d._vm*0.8))}% - 1px)"></i></div>` : "";
+  const spec = [TYPE_RU[d.ty]||"Объект", d.m?`${fmt(d.m)} м²`:"", d.fn!=null?floorRu(d.fn):"", d.bd?`${d.bd} сп.`:"", d.yr?`${d.yr} г.`:""].filter(Boolean).join(" · ");
+  const srcs = (d.srcs||[d.src]).map(s => PORTAL_NAME[s]||NETWORK[s]||"сайт агентства");
+  const uniq = [...new Set(srcs)].slice(0,3);
+  b.innerHTML = `<div class="band"><div class="badges">${badges.join("")}</div>
+    <div class="place">${esc(place)}${sub?`<small>${esc(sub)}</small>`:""}</div>${gauge}</div>
+    <div class="body"><div class="row1"><span class="price">${d.p ? (d.px?"от ":"") + eur(d.p) + (d.tx==="rent"?"<small style='font-size:14px'>/мес</small>":"") : "по запросу"}</span>
+    <span class="ppm">${d.pm && d.tx==="sale" ? fmt(d.pm)+" €/м²" : ""}</span></div>
+    <div class="spec">${esc(spec)}</div>
+    <div class="src">${uniq.map(s=>`<span>${esc(s)}</span>`).join("")}${srcs.length>uniq.length?`<span>+${srcs.length-uniq.length}</span>`:""}</div>
+    <div class="when">${d.ld ? (d.lk==="updated"?"обновлено ":"опубликовано ") + when(d.ld) : d.fs ? "найдено " + when(d.fs) : ""}</div></div>`;
+  b.addEventListener("click", () => openSheet(d, b));
+  return b;
+}
+function render(reset){
+  if (reset) shown = 48;
+  const rows = current();
+  const big = 1e15, sort = $("sort").value;
+  const key = {new:d=>d.ld?ageDays(d.ld):(d.fs?ageDays(d.fs)+400:big), deal:d=>d._vm??big, ppm:d=>d.pm??big, pa:d=>d.p??big, pd:d=>-(d.p??-big), ad:d=>-(d.m??-big)}[sort];
+  rows.sort((a,b)=>key(a)-key(b));
+  $("sCount").textContent = fmt(rows.length);
+  $("sWord").textContent = plural(rows.length,"объект","объекта","объектов");
+  const multi = rows.filter(d=>d._n>1).length, ppm = median(rows.filter(d=>d.tx!=="rent").map(d=>d.pm).filter(v=>v!=null));
+  const listings = rows.reduce((n,d)=>n+d._n,0), ag = new Set(rows.flatMap(d=>d.ags||[d.ag])).size;
+  $("facts").innerHTML = `<span><b>${fmt(listings)}</b> объявлений</span><span>на нескольких сайтах <b>${fmt(multi)}</b></span><span>агентств <b>${fmt(ag)}</b></span>${ppm?`<span>медиана <b>${fmt(ppm)} €/м²</b></span>`:""}`;
+  const g = $("grid"); g.textContent = "";
+  if (!rows.length) g.innerHTML = `<p class="empty">Ничего не нашлось. Уберите одно из условий в строке «Ищу» или нажмите «Сбросить всё».</p>`;
+  const frag = document.createDocumentFragment(); rows.slice(0, shown).forEach(d => frag.appendChild(card(d))); g.appendChild(frag);
+  $("more").hidden = rows.length <= shown;
+  $("more").textContent = `Показать ещё (${fmt(Math.min(48, rows.length-shown))} из ${fmt(rows.length-shown)})`;
+  understood();
+  if (!$("view-map").hidden) drawMap();
+}
+
+/* ---------- property sheet ---------- */
+let lastFocus = null;
+function openSheet(d, from){
+  lastFocus = from;
+  const vm = d._vm, a = MAPAREA[d.nb];
+  const place = d.rg==="other" ? (d.lr||"Другой регион") : [nbName(d.nb), AREA_RU[d.ar]].filter((x,i,arr)=>x && arr.indexOf(x)===i).join(", ") || "Салоники";
+  const origins = [[srcName(d), d.u, d.p], ...(d.alt||[])];
+  const prices = origins.map(o=>o[2]).filter(Boolean);
+  const hist = [];
+  if (d.fs) hist.push([d.fs, `Впервые найдено в Spiti Radar (${esc(srcName(d))})`]);
+  if (d.ld) hist.push([d.ld, d.lk==="updated" ? "Объявление обновлено на сайте" : "Объявление опубликовано на сайте"]);
+  if (prices.length>1 && Math.min(...prices)!==Math.max(...prices)) hist.push(["", `Цены на сайтах расходятся: от ${eur(Math.min(...prices))} до ${eur(Math.max(...prices))}`]);
+  hist.sort((x,y)=> (x[0]||"9") < (y[0]||"9") ? -1 : 1);
+  const kv = [["Тип", TYPE_RU[d.ty]||"не указан"], ["Сделка", d.tx==="rent"?"аренда":d.tx==="sale"?"продажа":"—"], ["Площадь", d.m?fmt(d.m)+" м²":"—"],
+    ["Этаж", d.fn!=null?floorRu(d.fn):"не указан"], ["Спален", d.bd||"—"], ["Год постройки", d.yr||"—"],
+    ["Цена за м²", d.pm ? fmt(d.pm)+(d.tx==="rent"?" €/м² в мес.":" €/м²") : "—"], ["Продаёт", d.pv==="yes" ? "частный владелец" : (d.ags||[d.ag]).join(", ")]];
+  const s = $("sheet");
+  s.innerHTML = `<header><div style="display:grid;gap:6px"><p class="eyebrow">${esc(place)}</p><h2 id="shTitle">${esc(TYPE_RU[d.ty]||"Объект")}${d.m?`, ${fmt(d.m)} м²`:""}</h2></div>
+      <button class="close" type="button" id="shClose" aria-label="Закрыть">×</button></header>
+    <div><div class="bigprice">${d.p?(d.px?"от ":"")+eur(d.p)+(d.tx==="rent"?" в месяц":""):"Цена по запросу"}</div>
+      ${vm!=null ? `<p class="cmp">${vm<0?"На "+Math.abs(vm)+"% дешевле":vm>0?"На "+vm+"% дороже":"Как"} средней цены за м² в районе «${esc(nbName(d.nb))}» (${fmt(d.tx==="sale"?a[3]:a[4])} €/м²${d.tx==="rent"?" в мес.":""}) по <a href="${MAP_URL}" target="_blank" rel="noopener">карте районов</a>.</p>` : ""}</div>
+    <div class="panel"><h3>Оригиналы</h3>${origins.map(([n,u,p]) => `<a class="orig" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(n)}</b><span>${p?eur(p):""} ↗</span></a>`).join("")}
+      <p class="cmp" style="margin:0">Фото, описание и контакты — на странице источника.</p></div>
+    <div class="panel"><h3>Характеристики</h3><dl class="kv">${kv.map(([k,v])=>`<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div>
+    <div class="panel"><h3>История</h3><ul class="tl">${hist.length ? hist.map(([t,x])=>`<li><time>${t?ruDate(t):"сейчас"}</time><span>${x}</span></li>`).join("") : "<li><time>—</time><span>Дата на сайте не указана.</span></li>"}</ul></div>
+    <p class="cmp" style="margin:0">${esc(d.t)}</p>`;
+  s.hidden = false; $("scrim").hidden = false; document.body.style.overflow = "hidden";
+  $("shClose").addEventListener("click", closeSheet); $("shClose").focus();
+}
+function closeSheet(){ $("sheet").hidden = true; $("scrim").hidden = true; document.body.style.overflow = ""; if (lastFocus) lastFocus.focus(); }
+$("scrim").addEventListener("click", closeSheet);
+document.addEventListener("keydown", e => { if (e.key==="Escape" && !$("sheet").hidden) closeSheet(); });
+
+/* ---------- map ---------- */
+let mtx = "sale", selArea = null;
+let zoom = "city";
+const W = 760, H = 640, KX = Math.cos(40.6*Math.PI/180);
+const ALL = (() => { let x0=180,x1=-180,y0=90,y1=-90; OUTLINES.flatMap(o => o[1].flat()).forEach(([x,y]) => { x0=Math.min(x0,x); x1=Math.max(x1,x); y0=Math.min(y0,y); y1=Math.max(y1,y); });
+  Object.values(CENTRES).forEach(([la,lo]) => { if (la>40.45 && la<40.85 && lo>22.7 && lo<23.2){ x0=Math.min(x0,lo); x1=Math.max(x1,lo); y0=Math.min(y0,la); y1=Math.max(y1,la); } });
+  return {x0:x0-0.01,x1:x1+0.01,y0:y0-0.01,y1:y1+0.01}; })();
+const CITY = {x0:22.87, x1:23.03, y0:40.55, y1:40.69};   // the municipality and its first ring of suburbs
+let bounds, scale, MW, MH;
+function setZoom(){ bounds = zoom==="city" ? CITY : ALL;
+  scale = Math.min(W/((bounds.x1-bounds.x0)*KX), H/(bounds.y1-bounds.y0));
+  MW = Math.round((bounds.x1-bounds.x0)*KX*scale); MH = Math.round((bounds.y1-bounds.y0)*scale); }
+setZoom();
+const px = (lo, la) => [((lo-bounds.x0)*KX*scale).toFixed(1), ((bounds.y1-la)*scale).toFixed(1)];
+function drawMap(){
+  // the map shows the market for the deal and property type chosen in the search; other filters would leave most areas empty
+  const rows = DATA.filter(d => d.tx===mtx && d.rg==="thessaloniki" && (!types.size || types.has(d.ty)));
+  $("mapLede").textContent = `Цвет района — медианная цена за м² (${types.size ? [...types].map(t=>TYPE_RU[t].toLowerCase()).join(", ") : "все типы"}, ${mtx==="sale"?"продажа":"аренда"}), районы с тремя и больше объектами. Оранжевые точки — объекты с точным адресом на сайте. Нажмите на район, чтобы увидеть детали и перейти к объектам.`;
+  const by = {}; rows.forEach(d => { if (d.nb && d.pm) (by[d.nb] ||= []).push(d.pm); });
+  const med = Object.fromEntries(Object.entries(by).filter(([,v])=>v.length>=3).map(([k,v])=>[k, median(v)]));
+  const vals = Object.values(med).sort((a,b)=>a-b);
+  const q = [0.2,0.4,0.6,0.8].map(f => vals.length ? vals[Math.min(vals.length-1, Math.floor(vals.length*f))] : 0);
+  const cls = v => v==null ? "var(--sunk)" : `var(--m${q.filter(t=>v>t).length})`;
+  let svg = "";
+  OUTLINES.forEach(([id, rings]) => {
+    const dpath = rings.map(r => "M" + r.map(([x,y]) => px(x,y).join(",")).join("L") + "Z").join("");
+    svg += `<path d="${dpath}" fill="${cls(med[id])}" data-id="${id}" class="${id===selArea?"sel":""}"><title>${esc(nbName(id))}${med[id]?": "+fmt(med[id])+" €/м²":""}</title></path>`;
+  });
+  Object.entries(CENTRES).forEach(([id,[la,lo]]) => {
+    if (!(la>bounds.y0 && la<bounds.y1 && lo>bounds.x0 && lo<bounds.x1)) return;
+    const [x,y] = px(lo,la);
+    svg += `<circle class="area ${id===selArea?"sel":""}" cx="${x}" cy="${y}" r="11" fill="${cls(med[id])}" data-id="${id}"><title>${esc(nbName(id))}${med[id]?": "+fmt(med[id])+" €/м²":""}</title></circle>`;
+  });
+  rows.filter(d => d.gq==="s" && d.la).slice(0, 3000).forEach(d => {
+    if (!(d.la>bounds.y0 && d.la<bounds.y1 && d.lo>bounds.x0 && d.lo<bounds.x1)) return;
+    const [x,y] = px(d.lo,d.la); svg += `<circle class="dot" cx="${x}" cy="${y}" r="1.8"></circle>`;
+  });
+  // labels for the larger areas
+  OUTLINES.forEach(([id, rings]) => {
+    const r = rings[0].map(([x,y]) => px(x,y).map(Number));
+    const xs = r.map(p=>p[0]), ys = r.map(p=>p[1]);
+    const w = Math.max(...xs)-Math.min(...xs), h = Math.max(...ys)-Math.min(...ys), label = nbName(id).replace(/\s*\(.*\)$/, "");
+    if (w < label.length*6.2 || h < 16) return;
+    const cx = xs.reduce((a,b)=>a+b,0)/xs.length, cy = ys.reduce((a,b)=>a+b,0)/ys.length;
+    if (cx<0 || cy<0 || cx>MW || cy>MH) return;
+    svg += `<text x="${cx.toFixed(1)}" y="${cy.toFixed(1)}" text-anchor="middle">${esc(label)}</text>`;
+  });
+  const m = $("map"); m.setAttribute("viewBox", `0 0 ${MW} ${MH}`); m.setAttribute("overflow","hidden"); m.innerHTML = svg;
+  m.querySelectorAll("[data-id]").forEach(el => el.addEventListener("click", () => { selArea = el.dataset.id; drawMap(); }));
+  const unit = mtx==="sale" ? "€/м²" : "€/м² в мес.";
+  $("legend").innerHTML = vals.length ? [`<span>медиана ${unit}:</span>`, `<span><i style="background:var(--m0)"></i> до ${fmt(q[0])}</span>`,
+    ...q.slice(0,3).map((t,i)=>`<span><i style="background:var(--m${i+1})"></i> ${fmt(t)}–${fmt(q[i+1])}</span>`), `<span><i style="background:var(--m4)"></i> от ${fmt(q[3])}</span>`,
+    `<span><i style="background:var(--sunk)"></i> мало данных</span>`].join("") : "<span>Под текущие фильтры не подошло ни одного объекта с районом.</span>";
+  const info = $("areaInfo");
+  if (!selArea){ info.innerHTML = `<h3>Выберите район</h3><p class="cmp" style="margin:0">Нажмите на район на карте. Всего ${fmt(rows.length)} ${plural(rows.length,"объект","объекта","объектов")} в Салониках и области.</p>`; return; }
+  const a = MAPAREA[selArea] || [selArea,"","",null,null], inA = rows.filter(d=>d.nb===selArea), ref = mtx==="sale" ? a[3] : a[4];
+  const mm = median(inA.map(d=>d.pm).filter(Boolean)), mp = median(inA.map(d=>d.p).filter(Boolean));
+  info.innerHTML = `<h3>${esc(a[0])}</h3><p class="cmp" style="margin:0">${esc(a[1])} · ${esc(AREA_RU[a[2]]||a[2]||"")}</p>
+    <dl class="kv"><dt>Объектов</dt><dd>${fmt(inA.length)}</dd><dt>Медиана за м²</dt><dd>${mm?fmt(mm)+" €":"—"}</dd><dt>Медианная цена</dt><dd>${mp?eur(mp):"—"}</dd>
+    <dt>По карте районов</dt><dd>${ref?fmt(ref)+" "+unit:"—"}</dd></dl>
+    <button class="btn" type="button" id="showArea">Показать объекты района</button>`;
+  $("showArea").addEventListener("click", () => { $("area").value = "nb:"+selArea; tx = mtx; syncTx(); show("search"); render(true); });
+}
+document.querySelectorAll("[data-zoom]").forEach(b => b.addEventListener("click", () => {
+  zoom = b.dataset.zoom; document.querySelectorAll("[data-zoom]").forEach(x=>x.setAttribute("aria-pressed", x===b)); setZoom(); drawMap();
 }));
-const TYPE_WORDS = Object.values(TYPE_SYN).join(" ").split(" ").map(norm).filter(w => w.length > 3);
-$("q").addEventListener("input", () => {
-  // a type written in the search box ("студия", "дом", "участок") replaces the type menu choice
-  const words = norm($("q").value).split(/[\s,]+/).filter(w => w.length > 3);
-  if (words.some(w => TYPE_WORDS.some(t => t.startsWith(w.slice(0, Math.max(4, w.length - 2)))))) $("type").value = "";
-});
-["q","region","area","type","pmin","pmax","amin","amax","bed","flmin","flmax","nofloor","agency","sort","fresh","undated","who","src"].forEach(id => $(id).addEventListener("input", () => render(true)));
-$("more").addEventListener("click", () => { page += 60; render(false); });
+document.querySelectorAll("[data-mtx]").forEach(b => b.addEventListener("click", () => {
+  mtx = b.dataset.mtx; document.querySelectorAll("[data-mtx]").forEach(x=>x.setAttribute("aria-pressed", x===b)); drawMap();
+}));
+
+/* ---------- sources ---------- */
+function drawSources(){
+  const rows = SOURCES.rows, reg = SOURCES.registry;
+  const sites = rows.filter(r=>r[2]==="site"), working = sites.filter(r=>r[4]==="ok" && r[3]>0).length;
+  const portals = rows.filter(r=>r[2]==="portal"), nets = rows.filter(r=>r[2]==="network");
+  const sum = a => a.reduce((n,r)=>n+r[3],0);
+  $("tiles").innerHTML = [
+    [working, "сайтов агентств отдают объявления", fmt(sum(sites))+" объявлений"],
+    [nets.length, "сети агентств (RE/MAX, Ktimatoemporiki)", fmt(sum(nets))+" объявлений"],
+    [portals.length, "порталов через письма-уведомления и Telegram", fmt(sum(portals))+" объявлений"],
+    [reg.blocked||0, "сайтов закрыты защитой от ботов", "не обходим по правилам сбора"],
+  ].map(([n,l,s]) => `<div class="tile"><b>${fmt(n)}</b><small>${l}</small><small>${s}</small></div>`).join("");
+  $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств Салоник: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio, Plot и XE приходят через письма-уведомления: только новые объявления, с датой письма.`;
+  const kindRu = {site:"сайт агентства", network:"сеть агентств", portal:"портал"};
+  $("srcrows").innerHTML = rows.map(([name, dom, kind, n, st]) => `<tr><td>${esc(name)}<br><small style="color:var(--muted)">${esc(dom)}</small></td><td>${kindRu[kind]}</td><td class="n">${fmt(n)}</td>
+    <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":"письма-уведомления") : st==="ok" ? "работает" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
+}
+
+/* ---------- views ---------- */
+function show(view){
+  ["search","map","sources"].forEach(v => { $("view-"+v).hidden = v!==view; $("tab-"+v).setAttribute("aria-selected", v===view); });
+  if (view==="map") drawMap();
+  if (view==="sources") drawSources();
+  try { history.replaceState(null, "", "#"+view); } catch(e) {}
+  window.scrollTo(0,0);
+}
+document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
+
+/* ---------- wiring ---------- */
+const EXAMPLES = ["Квартира в Каламарии до 200 000 €, 60–90 м²", "Студия до 90 тысяч, не первый этаж", "Аренда в центре до 700 €, 2 спальни",
+  "Частник, Тумба, за неделю", "Дом в Терми дешевле рынка", "Διαμέρισμα Πυλαία έως 250.000€"];
+EXAMPLES.forEach(x => { const b=document.createElement("button"); b.type="button"; b.textContent=x; b.addEventListener("click", () => { $("ask").value=x; parsePhrase(x); }); $("examples").appendChild(b); });
+$("askForm").addEventListener("submit", e => { e.preventDefault(); parsePhrase($("ask").value); });
+document.querySelectorAll(".seg [data-tx]").forEach(b => b.addEventListener("click", () => { tx=b.dataset.tx; syncTx(); render(true); }));
+CTRL.forEach(id => $(id).addEventListener("input", () => render(true)));
+$("more").addEventListener("click", () => { shown += 48; render(false); });
 $("reset").addEventListener("click", () => {
-  ["q","area","pmin","pmax","amin","amax","bed","flmin","flmax","agency","who","src"].forEach(id => $(id).value="");
-  $("nofloor").checked=true;
-  $("type").value="apartment";
-  $("region").value="thessaloniki"; $("fresh").value="90"; $("undated").checked=true; render(true);
+  ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","agency"].forEach(id=>$(id).value="");
+  $("region").value="thessaloniki"; $("fresh").value="90"; $("nofloor").checked=true; $("undated").checked=true; $("below").checked=false;
+  tx="sale"; types=new Set(["apartment"]); textQ=""; $("ask").value=""; syncTx(); syncTypes(); render(true);
 });
+$("note").innerHTML = `Сбор с сайтов ~200 агентств Салоник, сетей RE/MAX и Ktimatoemporiki, из писем-уведомлений порталов (Spitogatos, XE, Indomio, Plot, Spiti24, Tospitimou) и публичных Telegram-каналов. Средние цены по районам — <a href="${MAP_URL}" target="_blank" rel="noopener">карта районов Салоник Jeny Shir</a>. Цены и характеристики берутся со страниц источников; перед решением проверяйте оригинал.`;
 render(true);
+const start = (location.hash||"").slice(1);
+if (["map","sources"].includes(start)) show(start);
 </script>
