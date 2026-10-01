@@ -24,9 +24,9 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.dirname(__file__))
-from collect_listings import Site, robots_setup  # noqa: E402
+from collect_listings import Site, extract, robots_setup  # noqa: E402
 import districts  # noqa: E402
-from normalize_listings import AREAS, OTHER_REGIONS, PORTALS, plain  # noqa: E402
+from normalize_listings import AREAS, PORTALS, in_thessaloniki_unit, is_other, plain  # noqa: E402
 
 NORMALIZED = "data/listings/listings_normalized.csv"
 HINTS = "data/listings/district_hints.csv"
@@ -66,6 +66,17 @@ def jsonld_address(page):
 
 def decide(page):
     """-> (region, area, neighbourhood, how) or None."""
+    # the listing's own place line / fields and the map point on the page (scripts/collect_listings.py)
+    rec = extract("", page)
+    place = plain(rec["location"])
+    if is_other(place) and not districts_in(place):
+        return "other", "", "", "place"
+    try:
+        lat, lon = float(rec["lat"]), float(rec["lon"])
+        if not in_thessaloniki_unit(lat, lon):
+            return "other", "", "", "map point"
+    except ValueError:
+        pass
     structured = jsonld_address(page)
     crumbs = " ".join(re.sub(r"<[^>]+>", " ", b) for b in
                       re.findall(r"<(?:ol|ul|nav|div)[^>]*breadcrumb[^>]*>(.*?)</(?:ol|ul|nav|div)>", page, re.S | re.I))
@@ -90,7 +101,7 @@ def decide(page):
                 area = parent
             else:
                 nb = ""
-        if re.search(OTHER_REGIONS, src) and not area:
+        if is_other(src) and not area:
             return ("other", "", "", how) if how != "text" else None
         if area:
             return "thessaloniki", area, nb, how
@@ -103,19 +114,23 @@ def main():
     ap.add_argument("--per-site", type=int, default=80)
     ap.add_argument("--workers", type=int, default=25)
     ap.add_argument("--recheck-days", type=int, default=60)
+    ap.add_argument("--retry-days", type=int, default=7, help="pages where nothing was found: read again after")
     a = ap.parse_args()
     hints = {}
     if os.path.exists(HINTS):
         hints = {r["url"]: r for r in csv.DictReader(open(HINTS, encoding="utf-8"))}
     cutoff = (datetime.date.today() - datetime.timedelta(days=a.recheck_days)).isoformat()
+    retry = (datetime.date.today() - datetime.timedelta(days=a.retry_days)).isoformat()
     todo = defaultdict(list)
     for r in csv.DictReader(open(NORMALIZED, encoding="utf-8")):
         if r["source_domain"] in PORTALS or r["region"] == "other":
             continue
-        if r["area"] not in ("", "Θεσσαλονίκη"):
+        # district known from the listing itself: nothing to check
+        if r["area"] not in ("", "Θεσσαλονίκη") and r.get("region_how") != "agency":
             continue
         h = hints.get(r["url"])
-        if h and h["checked_at"] >= cutoff:
+        # pages where nothing was found are read again after a week (the reader improves)
+        if h and h["checked_at"] >= (cutoff if h["how"] else retry):
             continue
         todo[r["source_domain"]].append(r["url"])
     # spread the daily budget over sites

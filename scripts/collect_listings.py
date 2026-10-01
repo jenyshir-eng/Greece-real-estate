@@ -385,6 +385,16 @@ def extract(url, page):
                   r"(?=\s{2,}|\s*(?:Τιμή|Εμβαδό|Εμβαδόν|Price|Size|Όροφος|Floor|Κωδικός|Code|Τύπος|Type)\b|$)", text)
     if m and not re.search(r"^(του|της|των|of|the)\b", m.group(1).strip(), re.I):
         rec["location"] = (rec["location"] + " | " if rec["location"] else "") + m.group(1).strip()[:60]
+    # place fields with tags in between ("Τοποθεσία: </span><span> Άγιος Ιωάννης Ρέντης")
+    m = re.search(r"\|\s*(?:Περιοχή|Τοποθεσία|Location|Region|Νομός)\s*:?\s*(?:\|\s*)+([^|:€\d][^|:€]{2,60}?)\s*\|", cells)
+    if m and m.group(1).strip() not in rec["location"]:
+        rec["location"] = (rec["location"] + " | " if rec["location"] else "") + m.group(1).strip()
+    # the place line under the heading: "Ημαθία, Βέροια, Κέντρο" (agency CRMs put it right after the title)
+    head_place = place_under_heading(cells, title)
+    if head_place and head_place not in rec["location"]:
+        rec["location"] = (rec["location"] + " | " if rec["location"] else "") + head_place
+    if not rec["lat"]:
+        rec["lat"], rec["lon"] = script_point(page)
     if not rec["location"]:
         m = re.search(r"(Θεσσαλονίκη[^,|<]{0,40}|Καλαμαριά|Πυλαία|Πανόραμα|Θέρμη|Περαία|Εύοσμος|Νεάπολη|Σταυρούπολη|"
                       r"Αμπελόκηποι|Συκιές|Τούμπα|Χαριλάου|Πολίχνη|Ωραιόκαστρο|Επανομή|Τριανδρία|Κορδελιό|Μενεμένη)", title + " " + text[:3000])
@@ -396,6 +406,38 @@ def recheck_budget(n_known, days, cap):
     """Pages to re-read per run so every known listing is re-read about every `days` days
     (two runs a day)."""
     return min(cap, max(10, -(-n_known // (2 * days)))) if n_known else 0
+
+
+def place_under_heading(cells, title):
+    """First place-like cell after the listing's heading: words separated by commas or dashes,
+    no digits or prices (those are price / size lines)."""
+    core = re.split(r"\s+[-|–]\s+", re.sub(r"\s+", " ", title or "").strip())[0][:40]
+    if len(core) < 8:
+        return ""
+    # the title is also in <title> and in menus: try every place it appears
+    for m in re.finditer(re.escape(core), cells):
+        near = [c.strip() for c in cells[m.end():m.end() + 1500].split("|")[1:]]
+        for c in [c for c in near if c][:6]:
+            if re.fullmatch(r"[^\d€$:@/]{3,70}", c) and re.search(r"[,–-]", c) and len(c.split()) <= 8:
+                return c
+    return ""
+
+
+SCRIPT_POINT = [
+    re.compile(r"LatLng\(\s*(-?\d{1,2}\.\d{3,})\s*,\s*(-?\d{1,3}\.\d{3,})"),
+    re.compile(r"[\"']?lat(?:itude)?[\"']?\s*[:=]\s*[\"']?(-?\d{1,2}\.\d{3,})[\"']?\s*[,;]\s*(?:var |let |const )?"
+               r"[\"']?(?:lng|lon|long|longitude)[\"']?\s*[:=]\s*[\"']?(-?\d{1,3}\.\d{3,})", re.I),
+    re.compile(r"data-lat(?:itude)?=[\"'](-?\d{1,2}\.\d{3,})[\"'][^>]*data-(?:lng|lon|long|longitude)=[\"'](-?\d{1,3}\.\d{3,})", re.I),
+]
+
+
+def script_point(page):
+    """A map point written in the page's scripts or data attributes (inside Greece only)."""
+    for pat in SCRIPT_POINT:
+        for la, lo in pat.findall(page):
+            if 34 < float(la) < 42 and 19 < float(lo) < 30:
+                return la, lo
+    return "", ""
 
 
 def collect_site(row, per_site, known=None, max_new=0, ignore=frozenset(), recheck_days=7, max_recheck=150):
