@@ -6,8 +6,14 @@ portals (Spitogatos, XE, ...). Two listings are taken as one property when:
   - compatible type (equal, empty, or apartment~studio, house~maisonette);
   - compatible district (equal, or one of them unknown / "Θεσσαλονίκη"),
     and never a Thessaloniki listing with one from another region;
-  - floor and bedrooms do not contradict when both are known;
-  - when neither has a district, type, price and area must be exactly equal.
+  - floor, bedrooms, year built and the sites' own map points do not contradict;
+  - and at least two points of further evidence, because equal price, area and district
+    alone also fit different flats of one new building or street:
+      same floor 2, same year built 2, the sites' own map points within 250 m 2,
+      the same long title (one ad copied to several sites) 2,
+      same bedrooms 1, same map area 1, a rare word shared by the titles/addresses
+      (a street, a building name) 1, an exactly equal non-round price 1 or area 1;
+  - when one of them has no district, type, price and area must be exactly equal too.
 A group never holds two listings of the same site: a site does not publish one
 property twice, so this keeps identical new-build units apart and stops chains.
 
@@ -15,12 +21,16 @@ Input/output: data/listings/listings_normalized.csv (adds property_id, group_siz
 Usage: python3 scripts/group_properties.py
 """
 import csv
+import math
 import re
+import unicodedata
 from collections import Counter, defaultdict
 
 FILE = "data/listings/listings_normalized.csv"
 SIMILAR_TYPES = [{"apartment", "studio"}, {"house", "maisonette"}]
 GENERIC_AREA = {"", "Θεσσαλονίκη"}
+MIN_EVIDENCE = 2
+RARE_WORD_MAX = 25  # a word in at most this many listings tells places apart (a street, a building)
 
 
 def f(x):
@@ -57,6 +67,67 @@ def traits(r):
             "bedrooms": {digits(r["bedrooms"])} - {None}}
 
 
+def plain(s):
+    s = unicodedata.normalize("NFD", (s or "").lower())
+    return "".join(c for c in s if unicodedata.category(c) != "Mn").replace("ς", "σ")
+
+
+def words(r):
+    return {w for w in re.findall(r"[^\W\d_]{5,}", plain(r["title"] + " " + r["location_raw"]))}
+
+
+def point(r):
+    """The site's own coordinates (not an area centre, not the agency office)."""
+    if r.get("geo") != "site":
+        return None
+    try:
+        return float(r["map_lat"]), float(r["map_lon"])
+    except (KeyError, ValueError):
+        return None
+
+
+def km(a, b):
+    return math.hypot(a[0] - b[0], (a[1] - b[1]) * 0.76) * 111
+
+
+def year(r):
+    m = re.search(r"(?:18|19|20)\d{2}", r.get("year_built") or "")
+    return int(m.group(0)) if m else None
+
+
+def evidence(a, b):
+    """Points of evidence beyond price, area and district; None when something contradicts."""
+    score = 0
+    for k, pts in (("floor", 2), ("bedrooms", 1)):
+        da, db = digits(a[k]), digits(b[k])
+        if da is not None and db is not None:
+            if da != db:
+                return None
+            score += pts
+    ya, yb = year(a), year(b)
+    if ya and yb:
+        if abs(ya - yb) > 1:
+            return None
+        score += 2
+    pa, pb = point(a), point(b)
+    if pa and pb:
+        d = km(pa, pb)
+        if d > 2.5:
+            return None
+        score += 2 if d <= 0.25 else 0
+    if len(a["_t"]) >= 30 and a["_t"] == b["_t"]:
+        score += 2
+    if a["neighbourhood"] and a["neighbourhood"] == b["neighbourhood"]:
+        score += 1
+    if a["_w"] & b["_w"]:
+        score += 1
+    if a["_p"] == b["_p"] and a["_p"] % (10 if a["transaction"] == "rent" else 1000):
+        score += 1
+    if a["_m"] == b["_m"] and a["_m"] % 5:
+        score += 1
+    return score
+
+
 def same_property(a, b):
     if a["transaction"] != b["transaction"] or not a["transaction"]:
         return False
@@ -70,21 +141,13 @@ def same_property(a, b):
     if not ga and not gb and a["area"] != b["area"]:
         return False
     if ga or gb:
-        # without the same district, round figures (500 EUR, 50 m2) match unrelated objects:
-        # need exact figures plus one more sign (same floor or bedrooms, or non-round numbers)
+        # without the same district round figures (500 EUR, 50 m2) match unrelated objects
         if a["type"] == "land" or b["type"] == "land":
             return False
         if not (a["_p"] == b["_p"] and a["_m"] == b["_m"]):
             return False
-        same_extra = any(digits(a[k]) is not None and digits(a[k]) == digits(b[k]) for k in ("floor", "bedrooms"))
-        round_step = 50 if a["transaction"] == "rent" else 5000
-        if not same_extra and a["_p"] % round_step == 0 and a["_m"] % 5 == 0:
-            return False
-    for k in ("floor", "bedrooms"):
-        da, db = digits(a[k]), digits(b[k])
-        if da is not None and db is not None and da != db:
-            return False
-    return True
+    score = evidence(a, b)
+    return score is not None and score >= MIN_EVIDENCE
 
 
 def main():
@@ -92,6 +155,11 @@ def main():
     fields = [k for k in rows[0].keys() if k not in ("property_id", "group_size")] + ["property_id", "group_size"]
     for i, r in enumerate(rows):
         r["_i"], r["_p"], r["_m"] = i, f(r["price_eur"]), f(r["area_m2"])
+    # rare words only: area names, "apartment", "sale" and the like are in many listings
+    df = Counter(w for r in rows for w in words(r))
+    for r in rows:
+        r["_w"] = {w for w in words(r) if df[w] <= RARE_WORD_MAX}
+        r["_t"] = " ".join(re.findall(r"[^\W_]+", plain(r["title"])))
 
     parent = list(range(len(rows)))
     sites = [{r["source_domain"]} for r in rows]
