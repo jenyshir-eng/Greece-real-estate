@@ -312,7 +312,7 @@ def report_text():
     lines = [f"📊 <b>Обновление {at[8:10]}.{at[5:7]} {at[11:16]} UTC</b>: в базе {fmt(t['listings'])} объявлений",
              f"новых {fmt(t['new'])}, снято {fmt(t['removed'])}, подешевели {fmt(t['down'])}, подорожали {fmt(t['up'])}, "
              f"перепроверено сегодня {fmt(t['checked'])}"]
-    names = {"alerts": "письма порталов", "telegram": "Telegram-каналы", "remax": "RE/MAX", "ktimatoemporiki": "Ktimatoemporiki",
+    names = {"alerts": "письма порталов", "telegram": "Telegram-каналы", "remax": "RE/MAX", "ktimatoemporiki": "Ktimatoemporiki", "xe": "XE (страницы агентств)",
              "agencies": "сайты агентств", "normalize": "обработка", "districts": "уточнение районов",
              "normalize2": "обработка", "group": "склейка дублей"}
     if t["failed_steps"]:

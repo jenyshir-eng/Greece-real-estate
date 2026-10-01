@@ -596,8 +596,8 @@ function openSheet(d, from){
   if (d._ck) hist.push([d._ck, "Последняя проверка цены и наличия на сайте источника"]);
   if (prices.length>1 && Math.min(...prices)!==Math.max(...prices)) hist.push(["", `Цены на сайтах расходятся: от ${eur(Math.min(...prices))} до ${eur(Math.max(...prices))}`]);
   hist.sort((x,y)=> (x[0]||"9") < (y[0]||"9") ? -1 : 1);
-  const ckText = (c, u) => /^https?:\/\/(t\.me|(www\.)?(spitogatos|spiti24|tospitimou|plot|indomio|xe)\.gr)\b/.test(u)
-    ? "портал не перепроверяется: данные из уведомления" : c ? "проверено " + ruDate(c) : "ещё не перепроверялось";
+  const ckText = (c, u) => c ? "проверено " + ruDate(c) : /^https?:\/\/(t\.me|(www\.)?(spitogatos|spiti24|tospitimou|plot|indomio|xe)\.gr)\b/.test(u)
+    ? "портал не перепроверяется: данные из уведомления" : "ещё не перепроверялось";
   const kv = [["Тип", TYPE_RU[d.ty]||"не указан"], ["Сделка", d.tx==="rent"?"аренда":d.tx==="sale"?"продажа":"—"], ["Площадь", d.m?fmt(d.m)+" м²":"—"],
     ["Этаж", d.fn!=null?floorRu(d.fn):"не указан"], ["Спален", d.bd||"—"], ["Год постройки", d.yr||"—"],
     ["Цена за м²", d.pm ? fmt(d.pm)+(d.tx==="rent"?" €/м² в мес.":" €/м²") : "—"], ["Продаёт", d.pv==="yes" ? "частный владелец" : (d.ags||[d.ag]).join(", ")]];
@@ -691,7 +691,7 @@ document.querySelectorAll("[data-mtx]").forEach(b => b.addEventListener("click",
 
 /* ---------- sources ---------- */
 const STEP_RU = {alerts:"Письма порталов", telegram:"Telegram-каналы", remax:"RE/MAX", ktimatoemporiki:"Ktimatoemporiki",
-  agencies:"Сайты агентств (новые + перепроверка)", normalize:"Обработка", districts:"Уточнение районов", normalize2:"Обработка (2)", group:"Склейка дублей"};
+  agencies:"Сайты агентств (новые + перепроверка)", xe:"XE (страницы агентств)", normalize:"Обработка", districts:"Уточнение районов", normalize2:"Обработка (2)", group:"Склейка дублей"};
 function drawReport(){
   const r = REPORT, box = $("report"); if (!r) return;
   const t = r.totals, mins = s => s>=90 ? Math.round(s/60)+" мин" : s+" с";
@@ -719,10 +719,10 @@ function drawSources(){
     [portals.length, "порталов через письма-уведомления и Telegram", fmt(sum(portals))+" объявлений"],
     [reg.blocked||0, "сайтов закрыты защитой от ботов", "не обходим по правилам сбора"],
   ].map(([n,l,s]) => `<div class="tile"><b>${fmt(n)}</b><small>${l}</small><small>${s}</small></div>`).join("");
-  $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств Салоник: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio, Plot и XE приходят через письма-уведомления: только новые объявления, с датой письма.`;
+  $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств Салоник: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio и Plot приходят через письма-уведомления: только новые объявления, с датой письма. XE — ещё и со страниц агентств на xe.gr: последние объявления каждого агентства Салоник, с перепроверкой цены и наличия.`;
   const kindRu = {site:"сайт агентства", network:"сеть агентств", portal:"портал"};
   $("srcrows").innerHTML = rows.map(([name, dom, kind, n, st]) => `<tr><td>${esc(name)}<br><small style="color:var(--muted)">${esc(dom)}</small></td><td>${kindRu[kind]}</td><td class="n">${fmt(n)}</td>
-    <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":"письма-уведомления") : st==="ok" ? "работает" : st==="partial" ? "работает, последний сбор с ошибкой" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
+    <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":dom==="xe.gr"?"страницы агентств + письма":"письма-уведомления") : st==="ok" ? "работает" : st==="partial" ? "работает, последний сбор с ошибкой" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
 }
 
 /* ---------- views ---------- */

@@ -135,8 +135,16 @@ def main():
             cands = directories(tmp)
         stats["directory_entries"] = len(cands)
         seen = set()
+        by_name = {name_key(r["name"]): r for r in reg if name_key(r["name"])}
+        by_dom = {domain(r["website"] or r["final_url"]): r for r in reg if r["website"] or r["final_url"]}
         for c in cands:
             d, k = domain(c.get("website", "")), name_key(c.get("name", ""))
+            # a known agency: remember its XE page (its XE listings are collected daily from there)
+            known = by_dom.get(d) if d else None
+            known = known or by_name.get(k)
+            if known is not None and c.get("xe_url") and not known.get("xe_url"):
+                known["xe_url"] = c["xe_url"]
+                stats["xe_linked"] = stats.get("xe_linked", 0) + 1
             if not k or (d and d in known_dom) or c.get("vrisko_url") in known_url or c.get("xe_url") in known_url \
                     or k in known_name or k in seen:
                 continue
