@@ -139,8 +139,10 @@ dl.kv dt{color:var(--muted)}
 dl.kv dd{margin:0;font-variant-numeric:tabular-nums}
 .orig{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--sunk);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--ink)}
 .orig:hover{background:var(--accent-soft)}
-.orig b{font-weight:600}
-.orig span{font-family:var(--mono);font-size:13px;color:var(--muted);white-space:nowrap}
+.orig b{font-weight:600;display:block}
+.orig small{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.orig span{font-size:13px;font-weight:600;color:var(--accent);white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
+.openbtn{display:flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;text-align:center;margin-top:12px}
 .tl{display:grid;gap:8px;margin:0;padding:0;list-style:none;font-size:14px}
 .tl li{display:grid;grid-template-columns:92px 1fr;gap:10px}
 .tl time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:1px}
@@ -567,8 +569,9 @@ function openSheet(d, from){
   s.innerHTML = `<header><div style="display:grid;gap:6px"><p class="eyebrow">${esc(place)}</p><h2 id="shTitle">${esc(TYPE_RU[d.ty]||"Объект")}${d.m?`, ${fmt(d.m)} м²`:""}</h2></div>
       <button class="close" type="button" id="shClose" aria-label="Закрыть">×</button></header>
     <div><div class="bigprice">${d.p?(d.px?"от ":"")+eur(d.p)+(d.tx==="rent"?" в месяц":""):"Цена по запросу"}</div>
+      <a class="btn openbtn" href="${esc(d.u)}" target="_blank" rel="noopener">Открыть объявление на ${esc(srcName(d))} ↗</a>
       ${vm!=null ? `<p class="cmp">${vm<0?"На "+Math.abs(vm)+"% дешевле":vm>0?"На "+vm+"% дороже":"Как"} средней цены за м² в районе «${esc(nbName(d.nb))}» (${fmt(d.tx==="sale"?a[3]:a[4])} €/м²${d.tx==="rent"?" в мес.":""}) по <a href="${MAP_URL}" target="_blank" rel="noopener">карте районов</a>.</p>` : ""}</div>
-    <div class="panel"><h3>Оригиналы</h3>${origins.map(([n,u,p]) => `<a class="orig" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(n)}</b><span>${p?eur(p):""} ↗</span></a>`).join("")}
+    <div class="panel"><h3>Оригиналы</h3>${origins.map(([n,u,p]) => `<a class="orig" href="${esc(u)}" target="_blank" rel="noopener"><div><b>${esc(n)}</b>${p?`<small>${eur(p)}</small>`:""}</div><span>Открыть ↗</span></a>`).join("")}
       <p class="cmp" style="margin:0">Фото, описание и контакты — на странице источника.</p></div>
     <div class="panel"><h3>Характеристики</h3><dl class="kv">${kv.map(([k,v])=>`<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div>
     <div class="panel"><h3>История</h3><ul class="tl">${hist.length ? hist.map(([t,x])=>`<li><time>${t?ruDate(t):"сейчас"}</time><span>${x}</span></li>`).join("") : "<li><time>—</time><span>Дата на сайте не указана.</span></li>"}</ul></div>
