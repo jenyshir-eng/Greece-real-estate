@@ -194,7 +194,7 @@ def main():
         parts.append(f"<b>{html_escape(f['name'])}</b>: {len(hits)} новых\n" +
                      "\n".join(line(p) for p in hits[:MAX_ITEMS]) +
                      (f"\n…и ещё {len(hits) - MAX_ITEMS} — в поиске" if len(hits) > MAX_ITEMS else ""))
-    text = ("🏠 <b>Spiti Radar</b>: новое за сутки\n\n" + "\n\n".join(parts) +
+    text = ("🏠 <b>Spiti Radar</b>: новое с прошлого обновления\n\n" + "\n\n".join(parts) +
             f"\n\n<a href=\"{SEARCH_URL}\">Открыть поиск</a>") if parts else ""
     if a.dry_run:
         print(text or f"(nothing new for the filters; {len(new)} new properties overall)")
