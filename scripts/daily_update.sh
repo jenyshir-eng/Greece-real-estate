@@ -3,6 +3,7 @@
 #   1. new portal listings from the alert emails sheet (PORTAL_ALERTS_CSV_URL)
 #   1b. listing posts from public Telegram channels (data/sources/telegram_channels.csv)
 #   1c. agency networks with their own collectors: RE/MAX (all offices; map points for new listings), Ktimatoemporiki
+#   1d. XE.gr listings of Thessaloniki agencies from their public agency pages
 #   2. new / changed listings on agency sites (incremental, polite: >= 3 s per site),
 #      plus a re-check of known listings on rotation (price, still online)
 #   3. district check for listings without one (each page once, max 1500 a day)
@@ -37,6 +38,7 @@ fi
 step telegram python3 scripts/collect_telegram.py --days 120 || echo "WARNING: Telegram channels not updated" >&2
 step remax python3 scripts/collect_remax_listings.py --coords 60 --max-minutes 25 || echo "WARNING: RE/MAX listings not updated" >&2
 step ktimatoemporiki python3 scripts/collect_ktimatoemporiki.py || echo "WARNING: Ktimatoemporiki listings not updated" >&2
+step xe python3 scripts/collect_xe_profiles.py --max-minutes 20 || echo "WARNING: XE agency pages not updated" >&2
 step agencies python3 scripts/collect_listings.py --incremental --workers 25 || { echo "collection failed" >&2; exit 1; }
 step normalize python3 scripts/normalize_listings.py || exit 1
 # listings that only say "Θεσσαλονίκη": read the page once for the district, then normalize again

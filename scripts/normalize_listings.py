@@ -15,6 +15,7 @@ from collections import Counter
 IN = "data/listings/listings_thessaloniki.csv"
 IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by their own scripts
               "data/listings/listings_remax.csv",   # RE/MAX network result pages (scripts/collect_remax_listings.py)
+              "data/listings/listings_xe_profiles.csv",  # XE listings from agency pages (scripts/collect_xe_profiles.py)
               "data/listings/listings_ktimatoemporiki.csv",  # Ktimatoemporiki network (scripts/collect_ktimatoemporiki.py)
               "data/listings/listings_alerts.csv",  # portal alert emails (scripts/ingest_portal_alerts.py)
               "data/listings/listings_telegram.csv"]  # public Telegram channels (scripts/collect_telegram.py)
@@ -149,6 +150,11 @@ def main():
     for extra in IN_PORTALS:
         if os.path.exists(extra):
             rows += list(csv.DictReader(open(extra, encoding="utf-8")))
+    # an XE alert link (xe.gr/p/<id>) and the same listing read from the agency page: keep the page record
+    xe_ids = {m.group(1) for r in rows if r["source_domain"] == "xe.gr"
+              for m in [re.search(r"/property/d/[^/]+/([0-9a-f-]{36})", r["url"])] if m}
+    rows = [r for r in rows if not (r["source_domain"] == "xe.gr" and
+                                    (re.search(r"xe\.gr/p/([0-9a-f-]{36})", r["url"]) or [None, None])[1] in xe_ids)]
     history = load_history()
     hints = {h["url"]: h for h in csv.DictReader(open(HINTS, encoding="utf-8"))} if os.path.exists(HINTS) else {}
     # one street address with a house number repeated on many listings of a site = the agency's office

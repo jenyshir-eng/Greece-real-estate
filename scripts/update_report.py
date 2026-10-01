@@ -100,7 +100,7 @@ def main():
                 name, start, sec, code = parts
                 steps.append([name, int(sec), int(code)])
 
-    per = defaultdict(Counter)
+    per = defaultdict(Counter)  # per source domain
     for r in cur:
         per[r["source_domain"]]["listings"] += 1
         if r.get("checked_at") == today:
