@@ -17,7 +17,7 @@ else
   echo "WARNING: PORTAL_ALERTS_CSV_URL not set, portal alerts skipped" >&2
 fi
 python3 scripts/collect_telegram.py --days 120 || echo "WARNING: Telegram channels not updated" >&2
-python3 scripts/collect_remax_listings.py --coords 300 || echo "WARNING: RE/MAX listings not updated" >&2
+python3 scripts/collect_remax_listings.py --coords 60 --max-minutes 25 || echo "WARNING: RE/MAX listings not updated" >&2
 python3 scripts/collect_ktimatoemporiki.py || echo "WARNING: Ktimatoemporiki listings not updated" >&2
 python3 scripts/collect_listings.py --incremental --workers 25 || { echo "collection failed" >&2; exit 1; }
 python3 scripts/normalize_listings.py || exit 1
