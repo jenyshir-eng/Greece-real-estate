@@ -100,6 +100,10 @@ for f in geo["features"]:
 centres = {a["id"]: a["centre"] for a in geo["areas_without_polygon"] if a.get("centre")}
 
 
+# networks collected as a whole; the agency registry names one office with the network's domain
+NETWORK_NAME = {"remax.gr": "RE/MAX (все офисы)", "ktimatoemporiki.gr": "Ktimatoemporiki"}
+
+
 def sources():
     """Sources tab: one row per site or portal with its listings in the base and how collection went."""
     count = {}
@@ -112,8 +116,10 @@ def sources():
     for d, n in sorted(count.items(), key=lambda kv: -kv[1]):
         rep = report.get(d, {})
         kind = "portal" if d in PORTAL_NAME or d == "t.me" else ("network" if d in ("remax.gr", "ktimatoemporiki.gr") else "site")
-        status = "error" if rep.get("error") else "ok"
-        out.append([PORTAL_NAME.get(d, "Telegram" if d == "t.me" else names.get(d, d)), d, kind, n, status])
+        # listings are in the base but the last pass of the site failed: still working, not broken
+        status = ("partial" if n else "error") if rep.get("error") else "ok"
+        name = NETWORK_NAME.get(d) or PORTAL_NAME.get(d) or ("Telegram" if d == "t.me" else names.get(d, d))
+        out.append([name, d, kind, n, status])
     for d, r in report.items():
         if d not in count:
             out.append([names.get(d, d), d, "site", 0, "error" if r.get("error") else "empty"])

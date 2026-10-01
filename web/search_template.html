@@ -180,6 +180,7 @@ td.n{font-variant-numeric:tabular-nums;text-align:right;font-family:var(--mono);
 .st{font-size:12px;font-weight:600;border-radius:999px;padding:2px 9px;white-space:nowrap}
 .st.ok{background:var(--good-soft);color:var(--good)}
 .st.error,.st.empty{background:var(--warn-soft);color:var(--warn)}
+.st.partial{background:var(--good-soft);color:var(--good)}
 .st.mail{background:var(--accent-soft);color:var(--accent)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -656,7 +657,7 @@ document.querySelectorAll("[data-mtx]").forEach(b => b.addEventListener("click",
 /* ---------- sources ---------- */
 function drawSources(){
   const rows = SOURCES.rows, reg = SOURCES.registry;
-  const sites = rows.filter(r=>r[2]==="site"), working = sites.filter(r=>r[4]==="ok" && r[3]>0).length;
+  const sites = rows.filter(r=>r[2]==="site"), working = sites.filter(r=>(r[4]==="ok"||r[4]==="partial") && r[3]>0).length;
   const portals = rows.filter(r=>r[2]==="portal"), nets = rows.filter(r=>r[2]==="network");
   const sum = a => a.reduce((n,r)=>n+r[3],0);
   $("tiles").innerHTML = [
@@ -668,7 +669,7 @@ function drawSources(){
   $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств Салоник: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio, Plot и XE приходят через письма-уведомления: только новые объявления, с датой письма.`;
   const kindRu = {site:"сайт агентства", network:"сеть агентств", portal:"портал"};
   $("srcrows").innerHTML = rows.map(([name, dom, kind, n, st]) => `<tr><td>${esc(name)}<br><small style="color:var(--muted)">${esc(dom)}</small></td><td>${kindRu[kind]}</td><td class="n">${fmt(n)}</td>
-    <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":"письма-уведомления") : st==="ok" ? "работает" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
+    <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":"письма-уведомления") : st==="ok" ? "работает" : st==="partial" ? "работает, последний сбор с ошибкой" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
 }
 
 /* ---------- views ---------- */
