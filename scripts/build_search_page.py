@@ -1,11 +1,17 @@
 """Build the one-file search page from normalized listings.
 
 Usage: python3 scripts/build_search_page.py OUT.html
-Reads data/listings/listings_normalized.csv and web/search_template.html.
+Reads data/listings/listings_normalized.csv, price_history.csv, update_report.json and
+web/search_template.html.
+
+The data is written compactly (the page must open quickly on a phone): one array per property
+with the keys listed once, repeated strings (agency, district, site, ...) as numbers into a
+string table, dates as days since 2020-01-01, links as [site prefix, rest]. The page unpacks it.
 """
 import csv
 import datetime
 import json
+import os
 import re
 import sys
 
@@ -54,6 +60,39 @@ def rank(r):
     return (r.get("source_kind") != "portal", bool(r.get("listing_date")), r.get("listing_date", ""), filled)
 
 
+HISTORY = {}
+if os.path.exists("data/listings/price_history.csv"):
+    for h in csv.DictReader(open("data/listings/price_history.csv", encoding="utf-8")):
+        HISTORY.setdefault(h["url"], []).append([h["date"], int(h["price_eur"])])
+
+
+def history(url):
+    """[[date, price], ...] when the price changed at least once, else None."""
+    h = HISTORY.get(url) or []
+    return h if len(h) > 1 else None
+
+
+def words(s):
+    return set(re.findall(r"[^\W\d_]{3,}", (s or "").lower()))
+
+
+def short_title(r):
+    """The title for search and the sheet, without the agency's name and site boilerplate."""
+    t = r["title"]
+    for name in {r["agency"], r["agency"].split(" - ")[0]}:
+        if len(name) >= 4:
+            t = t.replace(name, " ")
+    t = re.sub(r"\s*[-|·–]\s*(Μεσιτικό Γραφείο|Real Estate|Κτηματομεσιτικό)[^-|·–]*$", "", t, flags=re.I)
+    t = re.sub(r"\s+", " ", t).strip(" -|·–,")
+    return t[:90]
+
+
+def short_location(r):
+    """The address line only when it says something the title does not."""
+    lr = r["location_raw"][:40]
+    return "" if words(lr) <= words(r["title"]) | {"θεσσαλονίκη", "θεσσαλονίκης", "ελλάδα", "greece"} else lr
+
+
 def map_point(members):
     best = min((m for m in members if m.get("map_lat")), key=lambda m: "sad".index(m.get("geo", "d")[:1] or "d"),
                default=None)
@@ -71,21 +110,26 @@ for members in groups.values():
     dated = [m for m in members if m.get("listing_date")]
     newest = max(dated, key=lambda m: m["listing_date"]) if dated else r
     p, m2 = (min(prices) if prices else None), num(r, "area_m2") or (num(members[0], "area_m2"))
-    rows.append({"u": r["url"], "t": r["title"][:140], "ag": r["agency"], "tx": r["transaction"],
+    own = num(r, "price_eur")
+    rows.append({"u": r["url"], "t": short_title(r), "ag": r["agency"], "tx": r["transaction"],
                  "ty": first("type"), "p": p, "px": max(prices) if len(set(prices)) > 1 else None,
+                 # the main link's own price when it is not the lowest of the group (0 = no price there)
+                 "p0": (own or 0) if own != p else None,
+                 "ck": r.get("checked_at") or None, "h": history(r["url"]),
                  "m": m2, "pm": round(p / m2) if p and m2 else None, "bd": first("bedrooms")[:2] if (first("bedrooms")[:2].isdigit() and 0 < int(first("bedrooms")[:2]) <= 10) else "",
                  "fn": floor_code(first("floor"), r["title"]), "yr": first("year_built"), "rg": r["region"], "nb": first("neighbourhood"),
                  # district: the one of the map area if known, else the most specific one in the group
                  "ar": (districts.AREAS[first("neighbourhood")]["district"] if first("neighbourhood") in districts.AREAS
                         else next((m["area"] for m in members if m.get("area") not in ("", "Θεσσαλονίκη")), first("area"))),
-                 "lr": r["location_raw"][:40], "ld": newest.get("listing_date", ""),
+                 "lr": short_location(r), "ld": newest.get("listing_date", ""),
                  "lk": newest.get("listing_date_kind", ""), "fs": min((m["first_seen"] for m in members if m.get("first_seen")), default=""),
                  "src": r.get("source_domain", ""), "pv": r.get("private_owner", ""),
                  "ags": sorted({m["agency"] for m in members}),
                  "srcs": sorted({m.get("source_domain", "") for m in members}),
-                 # other sites with the same property: [name, url, price]
-                 "alt": [[PORTAL_NAME.get(m.get("source_domain"), m["agency"]), m["url"], num(m, "price_eur")]
-                         for m in members[1:]],
+                 # other sites with the same property: [name, url, price, checked, price history]
+                 "alt": [[PORTAL_NAME.get(m.get("source_domain"), m["agency"]), m["url"], num(m, "price_eur"),
+                          m.get("checked_at") or None, history(m["url"])]
+                         for m in members[1:]] or None,
                  # map point and its precision: s = the site's own point, a = map area centre, d = district centre
                  **map_point(members)})
 # map areas for the page: id -> [Russian name, Greek name, district, sale EUR/m2, rent EUR/m2]
@@ -100,6 +144,10 @@ for f in geo["features"]:
 centres = {a["id"]: a["centre"] for a in geo["areas_without_polygon"] if a.get("centre")}
 
 
+# networks collected as a whole; the agency registry names one office with the network's domain
+NETWORK_NAME = {"remax.gr": "RE/MAX (все офисы)", "ktimatoemporiki.gr": "Ktimatoemporiki"}
+
+
 def sources():
     """Sources tab: one row per site or portal with its listings in the base and how collection went."""
     count = {}
@@ -112,8 +160,10 @@ def sources():
     for d, n in sorted(count.items(), key=lambda kv: -kv[1]):
         rep = report.get(d, {})
         kind = "portal" if d in PORTAL_NAME or d == "t.me" else ("network" if d in ("remax.gr", "ktimatoemporiki.gr") else "site")
-        status = "error" if rep.get("error") else "ok"
-        out.append([PORTAL_NAME.get(d, "Telegram" if d == "t.me" else names.get(d, d)), d, kind, n, status])
+        # listings are in the base but the last pass of the site failed: still working, not broken
+        status = ("partial" if n else "error") if rep.get("error") else "ok"
+        name = NETWORK_NAME.get(d) or PORTAL_NAME.get(d) or ("Telegram" if d == "t.me" else names.get(d, d))
+        out.append([name, d, kind, n, status])
     for d, r in report.items():
         if d not in count:
             out.append([names.get(d, d), d, "site", 0, "error" if r.get("error") else "empty"])
@@ -125,13 +175,100 @@ def sources():
     return {"rows": out, "registry": stat, "agencies": len(reg)}
 
 
+DAY0 = datetime.date(2020, 1, 1)
+DICT = {"ag", "tx", "ty", "rg", "nb", "ar", "lk", "src", "pv", "gq"}
+DATES = {"ld", "fs", "ck"}
+
+
+def pack(rows):
+    """Rows -> {"k": keys, "s": strings, "r": [[values in key order], ...]} (see the module doc)."""
+    strings, index = [], {}
+
+    def sid(x):
+        if x not in index:
+            index[x] = len(strings)
+            strings.append(x)
+        return index[x]
+
+    def day(iso):
+        try:
+            return (datetime.date.fromisoformat(iso[:10]) - DAY0).days
+        except ValueError:
+            return None
+
+    def link(u):
+        m = re.match(r"(https?://[^/]+/?)(.*)", u)
+        return [sid(m.group(1)), m.group(2)] if m else [sid(""), u]
+
+    def number(v):
+        return int(v) if isinstance(v, float) and v.is_integer() else v
+
+    def hist(h):
+        return [[day(d), p] for d, p in h] if h else None
+
+    out = []
+    for r in rows:
+        d = {}
+        for k, v in r.items():
+            if v in ("", None, []):
+                continue
+            if k in DICT:
+                v = sid(v)
+            elif k in DATES:
+                v = day(v)
+            elif k == "u":
+                v = link(v)
+            elif k == "h":
+                v = hist(v)
+            elif k == "ags":
+                if v == [r["ag"]]:
+                    continue
+                v = [sid(x) for x in v]
+            elif k == "srcs":
+                if v == [r["src"]]:
+                    continue
+                v = [sid(x) for x in v]
+            elif k == "alt":
+                v = [[sid(n), link(u), number(p), day(c) if c else None, hist(h)] for n, u, p, c, h in v]
+                v = [a[:max(i for i, x in enumerate(a) if x is not None) + 1] for a in v]
+            else:
+                v = number(v)
+            d[k] = v
+        out.append(d)
+    # the most often filled keys first, so missing values are mostly at the end and can be left off
+    fill = {}
+    for d in out:
+        for k in d:
+            fill[k] = fill.get(k, 0) + 1
+    keys = sorted(fill, key=lambda k: -fill[k])
+    packed = []
+    for d in out:
+        a = [d.get(k) for k in keys]
+        while a and a[-1] is None:
+            a.pop()
+        packed.append(a)
+    return {"k": keys, "s": strings, "r": packed}
+
+
+def report():
+    """The last run's report for the Sources tab (scripts/update_report.py), without the long lists."""
+    path = "data/listings/update_report.json"
+    if not os.path.exists(path):
+        return None
+    r = json.load(open(path, encoding="utf-8"))
+    r["removed"] = len(r.get("removed", []))
+    r["drops"] = len(r.get("drops", []))
+    return r
+
+
 page = open("web/search_template.html", encoding="utf-8").read()
-data = json.dumps(rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+data = json.dumps(pack(rows), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 asof = max((r["scraped_at"] for r in csv.DictReader(open("data/listings/listings_normalized.csv", encoding="utf-8"))), default="")[:10]
 asof = datetime.date.fromisoformat(asof).strftime("%d.%m.%Y") if asof else ""
 open(sys.argv[1], "w", encoding="utf-8").write(page.replace("__DATA__", data).replace("__ASOF__", asof)
                                                  .replace("__MAPAREAS__", json.dumps(areas, ensure_ascii=False))
                                                  .replace("__OUTLINES__", json.dumps(outlines, separators=(",", ":")))
                                                  .replace("__CENTRES__", json.dumps(centres))
-                                                 .replace("__SOURCES__", json.dumps(sources(), ensure_ascii=False, separators=(",", ":"))))
+                                                 .replace("__SOURCES__", json.dumps(sources(), ensure_ascii=False, separators=(",", ":")))
+                                                 .replace("__REPORT__", json.dumps(report(), ensure_ascii=False, separators=(",", ":"))))
 print(f"{sum(len(g) for g in groups.values())} listings, {len(rows)} properties -> {sys.argv[1]}")

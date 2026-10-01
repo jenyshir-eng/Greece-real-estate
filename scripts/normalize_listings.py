@@ -260,6 +260,9 @@ def main():
             "lat": r["lat"], "lon": r["lon"], "image": r["image"],
             "listing_date": ldate, "listing_date_kind": lkind, "first_seen": h["first_seen"],
             "scraped_at": r["scraped_at"],
+            # last time the listing was read on its source with this price (empty: portals via alerts,
+            # Telegram, and agency pages not re-read since the check began)
+            "checked_at": r.get("checked_at", ""),
         })
 
     fill_from_coordinates(out)

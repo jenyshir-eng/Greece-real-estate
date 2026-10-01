@@ -9,8 +9,11 @@ Candidates are URLs whose slug names a place of the Thessaloniki prefecture or
 Chalkidiki, plus the Thessaloniki branch ids (id-th*). Pages are fetched only
 when new or when the sitemap lastmod changed; the region from the JSON-LD
 decides what is kept (Thessaloniki, Chalkidiki).
+Known pages are also re-read on rotation (--recheck a run, the oldest check first, so each
+about weekly): price refreshed, a 404/410 page is dropped and written to data/listings/removed.csv.
+Pages that left the sitemap are dropped too (sold / withdrawn).
 
-Usage: python3 scripts/collect_ktimatoemporiki.py [--max-pages 0]
+Usage: python3 scripts/collect_ktimatoemporiki.py [--max-pages 0] [--recheck 80]
 Output: data/listings/listings_ktimatoemporiki.csv (same columns as listings_thessaloniki.csv + lastmod)
 """
 import argparse
@@ -31,10 +34,11 @@ SITEMAP = "https://ktimatoemporiki.gr/sitemap-properties.xml"
 DELAY_S = 3.0
 MAX_FAILS_IN_ROW = 5
 OUT = "data/listings/listings_ktimatoemporiki.csv"
+REMOVED = "data/listings/removed.csv"
 SKIP = "data/listings/listings_ktimatoemporiki.skip"  # url<TAB>lastmod of pages outside the region
 FIELDS = ["source_domain", "agency", "url", "title", "transaction", "type", "price_eur", "area_m2",
           "bedrooms", "floor", "year_built", "location", "lat", "lon", "image",
-          "date_published", "date_updated", "date_sitemap", "date_source", "scraped_at", "lastmod"]
+          "date_published", "date_updated", "date_sitemap", "date_source", "scraped_at", "lastmod", "checked_at"]
 PLACE = re.compile(
     r"thessalon|kalamari|pylaia|pylea|panorama|thermi|perea|peraia|evosmos|eyosmos|neapoli|sykies|stavroupoli|"
     r"polichni|ampelokipi|menemeni|kordelio|oraiokastro|chortiatis|triandria|toumba|charilaou|epanomi|michaniona|"
@@ -98,12 +102,14 @@ def row_from(d, url, lastmod, now):
         "date_source": "json-ld datePosted; sitemap lastmod",
         "scraped_at": now,
         "lastmod": lastmod,
+        "checked_at": now[:10],
     }
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-pages", type=int, default=0, help="limit property pages fetched (test runs)")
+    ap.add_argument("--recheck", type=int, default=80, help="known pages re-read per run (oldest check first)")
     a = ap.parse_args()
     now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     xml = fetch(SITEMAP)
@@ -121,13 +127,24 @@ def main():
         todo = todo[:a.max_pages]
     print(f"{len(entries)} properties in the sitemap, {len(cand)} candidates, {len(todo)} new or changed",
           file=sys.stderr)
+    if len(cand) < 0.5 * len(old):
+        sys.exit(f"sitemap has {len(cand)} candidates for {len(old)} known listings: looks broken, nothing changed")
     rows = {u: r for u, r in old.items() if u in cand}  # gone from the sitemap = sold / withdrawn
+    gone = [(r, "left the sitemap") for u, r in old.items() if u not in cand]
+    # re-check: pages unchanged in the sitemap, the longest unchecked first
+    week_ago = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+    checked = lambda r: r.get("checked_at") or r.get("scraped_at", "")[:10]
+    due = sorted((u for u, r in rows.items() if u not in todo and checked(r) <= week_ago), key=lambda u: checked(rows[u]))
+    todo = todo + due[:a.recheck]
     fails = 0
     for i, u in enumerate(todo, 1):
         try:
             page = fetch(u)
             fails = 0
         except (urllib.error.URLError, TimeoutError) as e:
+            if getattr(e, "code", None) in (404, 410) and u in rows:
+                gone.append((rows.pop(u), f"http {e.code}"))
+                continue
             fails += 1
             print(f"skip {u}: {getattr(e, 'code', type(e).__name__)}", file=sys.stderr)
             if fails >= MAX_FAILS_IN_ROW:
@@ -155,7 +172,15 @@ def main():
     os.replace(tmp, OUT)
     with open(SKIP, "w", encoding="utf-8") as f:
         f.writelines(f"{u}\t{lm}\n" for u, lm in sorted(skip.items()) if u in cand)
-    print(f"done: {len(rows)} listings in Thessaloniki / Chalkidiki", file=sys.stderr)
+    if gone:
+        new = not os.path.exists(REMOVED)
+        with open(REMOVED, "a", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            if new:
+                w.writerow(["date", "source_domain", "url", "reason"])
+            w.writerows([now[:10], "ktimatoemporiki.gr", r["url"], why] for r, why in gone)
+    print(f"done: {len(rows)} listings in Thessaloniki / Chalkidiki, {len(due[:a.recheck])} re-checked, "
+          f"{len(gone)} removed", file=sys.stderr)
 
 
 if __name__ == "__main__":

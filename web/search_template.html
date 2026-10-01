@@ -118,6 +118,10 @@ aside details:not([open]) summary::after{content:"▸"}
 .src{display:flex;flex-wrap:wrap;gap:5px;font-size:12px}
 .src span{background:var(--sunk);border-radius:6px;padding:1px 7px;color:var(--muted)}
 .when{font-size:12px;color:var(--muted)}
+.ck{color:var(--good)}
+.orig .meta{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.rep{display:grid;gap:10px}
+.rep table td,.rep table th{font-size:13px}
 .gauge{height:6px;border-radius:3px;background:var(--surface);position:relative;overflow:hidden}
 .gauge i{position:absolute;top:0;bottom:0;width:3px;border-radius:2px;background:var(--accent)}
 .gauge::before{content:"";position:absolute;left:50%;top:-1px;bottom:-1px;width:1px;background:var(--muted);opacity:.6}
@@ -139,8 +143,10 @@ dl.kv dt{color:var(--muted)}
 dl.kv dd{margin:0;font-variant-numeric:tabular-nums}
 .orig{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--sunk);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--ink)}
 .orig:hover{background:var(--accent-soft)}
-.orig b{font-weight:600}
-.orig span{font-family:var(--mono);font-size:13px;color:var(--muted);white-space:nowrap}
+.orig b{font-weight:600;display:block}
+.orig small{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.orig span{font-size:13px;font-weight:600;color:var(--accent);white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
+.openbtn{display:flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;text-align:center;margin-top:12px}
 .tl{display:grid;gap:8px;margin:0;padding:0;list-style:none;font-size:14px}
 .tl li{display:grid;grid-template-columns:92px 1fr;gap:10px}
 .tl time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:1px}
@@ -178,6 +184,7 @@ td.n{font-variant-numeric:tabular-nums;text-align:right;font-family:var(--mono);
 .st{font-size:12px;font-weight:600;border-radius:999px;padding:2px 9px;white-space:nowrap}
 .st.ok{background:var(--good-soft);color:var(--good)}
 .st.error,.st.empty{background:var(--warn-soft);color:var(--warn)}
+.st.partial{background:var(--good-soft);color:var(--good)}
 .st.mail{background:var(--accent-soft);color:var(--accent)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -244,6 +251,7 @@ td.n{font-variant-numeric:tabular-nums;text-align:right;font-family:var(--mono);
         <select id="src"><option value="">Все источники</option><option value="site">Сайты агентств и сети</option><option value="portal">Порталы и Telegram</option><option value="multi">На нескольких сайтах</option></select>
       </label>
       <label class="chk" for="below"><input type="checkbox" id="below"> дешевле средней по району</label>
+      <label class="chk" for="cheaper"><input type="checkbox" id="cheaper"> цена снижалась</label>
       <label class="f" for="agency">Агентство
         <select id="agency"><option value="">Все агентства</option></select>
       </label>
@@ -302,6 +310,7 @@ td.n{font-variant-numeric:tabular-nums;text-align:right;font-family:var(--mono);
     <p class="eyebrow">Откуда данные</p>
     <h1 style="font-size:36px">Источники и их состояние</h1>
   </div>
+  <div class="panel rep" id="report" hidden></div>
   <div class="tiles" id="tiles"></div>
   <p class="note" id="srcnote"></p>
   <div class="tablewrap"><table>
@@ -315,7 +324,23 @@ td.n{font-variant-numeric:tabular-nums;text-align:right;font-family:var(--mono);
 <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="shTitle" hidden></div>
 
 <script>
-const DATA = __DATA__;
+// compact data (scripts/build_search_page.py): keys once, strings as numbers, dates as days since 2020-01-01
+const DATA = (raw => {
+  const S = raw.s, K = raw.k, D0 = Date.UTC(2020,0,1);
+  const day = n => n==null ? null : new Date(D0 + n*864e5).toISOString().slice(0,10);
+  const url = l => S[l[0]] + l[1];
+  const hist = h => h ? h.map(([d,p]) => [day(d), p]) : null;
+  const STR = new Set(["ag","tx","ty","rg","nb","ar","lk","src","pv","gq"]);
+  return raw.r.map(a => {
+    const d = {};
+    K.forEach((k,i) => { const v = a[i]; if (v==null) return;
+      d[k] = STR.has(k) ? S[v] : (k==="ld"||k==="fs"||k==="ck") ? day(v) : k==="u" ? url(v) : k==="h" ? hist(v)
+        : (k==="ags"||k==="srcs") ? v.map(x=>S[x]) : k==="alt" ? v.map(([n,l,p,c,h]) => [S[n], url(l), p??null, day(c), hist(h)]) : v; });
+    d.ags ||= [d.ag]; d.srcs ||= [d.src];
+    return d;
+  });
+})(__DATA__);
+const REPORT = __REPORT__;
 const ASOF = "__ASOF__";
 const MAPAREA = __MAPAREAS__;          // id -> [ru, gr, district, sale EUR/m2, rent EUR/m2]
 const OUTLINES = __OUTLINES__;         // [id, rings[[lon,lat]...]]
@@ -364,7 +389,12 @@ function vsMarket(d){
   const pct = Math.round((d.p/d.m/ref - 1)*100);
   return Math.abs(pct) > 60 ? null : pct;
 }
+// price move of the main listing: last price against the first one seen
+function move(h){ if (!h || h.length<2) return null; const a=h[0][1], b=h[h.length-1][1]; return a && b!==a ? Math.round((b/a-1)*1000)/10 : null; }
 DATA.forEach(d => {
+  d._own = d.p0===undefined ? d.p : (d.p0||null);
+  d._ck = [d.ck, ...(d.alt||[]).map(o=>o[3])].filter(Boolean).sort().pop() || null;
+  d._mv = [move(d.h), ...(d.alt||[]).map(o=>move(o[4]))].filter(v=>v!=null).sort((x,y)=>x-y)[0] ?? null;
   d._vm = vsMarket(d);
   d._n = 1 + (d.alt||[]).length;
   d._q = norm([d.t, (d.ags||[d.ag]).join(" "), d.ar, AREA_RU[d.ar]||"", AREA_WORDS[d.ar]||"", MAPAREA[d.nb]?MAPAREA[d.nb][0]+" "+MAPAREA[d.nb][1]:"", d.lr,
@@ -398,12 +428,12 @@ let tx = "sale", types = new Set(["apartment"]), textQ = "", shown = 48;
 })();
 function syncTypes(){ document.querySelectorAll("#types button").forEach(b=>b.setAttribute("aria-pressed", types.has(b.dataset.ty))); }
 function syncTx(){ document.querySelectorAll(".seg [data-tx]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.tx===tx)); }
-const CTRL = ["region","area","pmin","pmax","amin","amax","bed","flmin","flmax","nofloor","fresh","undated","who","src","below","agency","sort"];
+const CTRL = ["region","area","pmin","pmax","amin","amax","bed","flmin","flmax","nofloor","fresh","undated","who","src","below","cheaper","agency","sort"];
 
 function current(){
   const v = id => $(id).value, region=v("region"), area=v("area"), ag=v("agency"), who=v("who"), src=v("src"),
         pmin=+v("pmin")||0, pmax=+v("pmax")||Infinity, amin=+v("amin")||0, amax=+v("amax")||Infinity, bed=+v("bed")||0,
-        flmin=v("flmin"), flmax=v("flmax"), nofloor=$("nofloor").checked, fresh=+v("fresh")||0, undated=$("undated").checked, below=$("below").checked;
+        flmin=v("flmin"), flmax=v("flmax"), nofloor=$("nofloor").checked, fresh=+v("fresh")||0, undated=$("undated").checked, below=$("below").checked, cheaper=$("cheaper").checked;
   const words = norm(textQ).split(/[\s,]+/).filter(w=>w.length>1).map(w=>w.slice(0, Math.max(3, w.length-2)));
   return DATA.filter(d =>
     (!tx || d.tx===tx) && (!region || d.rg===region) &&
@@ -412,7 +442,7 @@ function current(){
     ((flmin==="" && flmax==="") || (d.fn==null ? nofloor : (flmin===""||d.fn>=+flmin) && (flmax===""||+flmax===8||d.fn<=+flmax))) &&
     (!who || (who==="private" ? d.pv==="yes" : d.pv!=="yes")) &&
     (!src || (src==="multi" ? d._n>1 : (d.srcs||[d.src]).some(x => src==="site" ? !isPortal(x) : isPortal(x)))) &&
-    (!below || (d._vm!=null && d._vm<=-10)) &&
+    (!below || (d._vm!=null && d._vm<=-10)) && (!cheaper || (d._mv!=null && d._mv<0)) &&
     (!fresh || (d.ld ? ageDays(d.ld)<=fresh : undated)) &&
     ((pmin===0 && pmax===Infinity) || (d.p!=null && d.p>=pmin && d.p<=pmax)) &&
     ((amin===0 && amax===Infinity) || (d.m!=null && d.m>=amin && d.m<=amax)) &&
@@ -434,7 +464,7 @@ function parsePhrase(raw){
   const used = [], take = re => { const m = s.match(re); if(m){ s = s.replace(m[0], " "); } return m; };
   const set = (id, val) => { $(id).value = val; };
   // clear what a phrase controls, keep region and sort
-  ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","agency"].forEach(id=>set(id,"")); $("below").checked=false;
+  ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","agency"].forEach(id=>set(id,"")); $("below").checked=false; $("cheaper").checked=false;
   if (take(/(?<![^\s,.;!?])(аренд[^\s,.;!?]*|снять|сним[^\s,.;!?]*|сда[^\s,.;!?]*|rent[^\s,.;!?]*|ενοικ[^\s,.;!?]*)/)) tx="rent";
   else if (take(/(?<![^\s,.;!?])(продаж[^\s,.;!?]*|прода[^\s,.;!?]*|купить|куплю|покупк[^\s,.;!?]*|sale|buy|πωλ[^\s,.;!?]*|αγορ[^\s,.;!?]*)/)) tx="sale";
   const found = new Set();
@@ -460,6 +490,7 @@ function parsePhrase(raw){
   const fl = take(/(выше|от|above)\s+(\d)\s*(-?го|-?й)?\s*этаж[^\s,.;!?]*/); if (fl) set("flmin", fl[2]);
   if (take(/частн[^\s,.;!?]*|собственник[^\s,.;!?]*|без\s+(агент[^\s,.;!?]*|посредник[^\s,.;!?]*|комисс[^\s,.;!?]*)|private|ιδιωτ[^\s,.;!?]*/)) set("who","private");
   if (take(/дешевле\s+рынк[^\s,.;!?]*|ниже\s+рынк[^\s,.;!?]*|выгодн[^\s,.;!?]*|below\s+market|κατω\s+απο\s+την\s+αγορα/)) $("below").checked = true;
+  if (take(/подешевел[^\s,.;!?]*|снижен[^\s,.;!?]*\s+цен[^\s,.;!?]*|снизил[^\s,.;!?]*\s+цен[^\s,.;!?]*|цена\s+снижена|price\s+drop[^\s,.;!?]*|μειωση\s+τιμησ/)) $("cheaper").checked = true;
   if (take(/на\s+нескольк[^\s,.;!?]*\s+сайт[^\s,.;!?]*|несколько\s+источник[^\s,.;!?]*/)) set("src","multi");
   if (take(/за\s+(последн[^\s,.;!?]+\s+)?недел[^\s,.;!?]*|свеж[^\s,.;!?]*|нов[^\s,.;!?]*\s+объявлен[^\s,.;!?]*|this\s+week|new(?![^\s,.;!?])/)) set("fresh","7");
   else if (take(/за\s+(последн[^\s,.;!?]+\s+)?месяц[^\s,.;!?]*|this\s+month/)) set("fresh","30");
@@ -490,6 +521,7 @@ function understood(){
   if ($("who").value) add($("who").value==="private"?"Частники":"Агентства", () => $("who").value="");
   if ($("src").value) add({site:"Сайты агентств",portal:"Порталы",multi:"На нескольких сайтах"}[$("src").value], () => $("src").value="");
   if ($("below").checked) add("Дешевле района", () => $("below").checked=false);
+  if ($("cheaper").checked) add("Цена снижалась", () => $("cheaper").checked=false);
   if ($("fresh").value && $("fresh").value!=="90") add({"7":"За неделю","30":"За месяц","365":"За год"}[$("fresh").value], () => $("fresh").value="90");
   if ($("agency").value) add($("agency").value, () => $("agency").value="");
   if (textQ) add("«" + textQ + "»", () => { textQ=""; }, "text");
@@ -510,6 +542,7 @@ function card(d){
   if (d.pv==="yes") badges.push(`<span class="bdg">Частник</span>`);
   if (d._n>1) badges.push(`<span class="bdg">На ${d._n} сайтах</span>`);
   else if ((d.srcs||[]).every(isPortal)) badges.push(`<span class="bdg">Только ${esc(PORTAL_NAME[d.src]||"портал")}</span>`);
+  if (d._mv!=null && d._mv<0) badges.push(`<span class="bdg good">Цена ↓ ${String(Math.abs(d._mv)).replace(".",",")}%</span>`);
   if (d._vm!=null && Math.abs(d._vm)>=10) badges.push(`<span class="bdg ${d._vm<0?"good":"warn"}">${d._vm>0?"+":"−"}${Math.abs(d._vm)}% к району</span>`);
   const place = d.rg==="other" ? (d.lr||"Другой регион") : (nbName(d.nb) || AREA_RU[d.ar] || "Салоники");
   const sub = d.rg==="other" ? "вне Салоник" : (nbName(d.nb) && AREA_RU[d.ar] && AREA_RU[d.ar]!==nbName(d.nb) ? AREA_RU[d.ar] : (d.ar==="Θεσσαλονίκη"||!d.ar ? "район не указан" : ""));
@@ -523,7 +556,7 @@ function card(d){
     <span class="ppm">${d.pm && d.tx==="sale" ? fmt(d.pm)+" €/м²" : ""}</span></div>
     <div class="spec">${esc(spec)}</div>
     <div class="src">${uniq.map(s=>`<span>${esc(s)}</span>`).join("")}${srcs.length>uniq.length?`<span>+${srcs.length-uniq.length}</span>`:""}</div>
-    <div class="when">${d.ld ? (d.lk==="updated"?"обновлено ":"опубликовано ") + when(d.ld) : d.fs ? "найдено " + when(d.fs) : ""}</div></div>`;
+    <div class="when">${d.ld ? (d.lk==="updated"?"обновлено ":"опубликовано ") + when(d.ld) : d.fs ? "найдено " + when(d.fs) : ""}${d._ck ? ` · <span class="ck">проверено ${when(d._ck)}</span>` : ""}</div></div>`;
   b.addEventListener("click", () => openSheet(d, b));
   return b;
 }
@@ -553,13 +586,18 @@ function openSheet(d, from){
   lastFocus = from;
   const vm = d._vm, a = MAPAREA[d.nb];
   const place = d.rg==="other" ? (d.lr||"Другой регион") : [nbName(d.nb), AREA_RU[d.ar]].filter((x,i,arr)=>x && arr.indexOf(x)===i).join(", ") || "Салоники";
-  const origins = [[srcName(d), d.u, d.p], ...(d.alt||[])];
+  // every link with its own price, last check and price changes
+  const origins = [[srcName(d), d.u, d._own, d.ck, d.h], ...(d.alt||[])];
   const prices = origins.map(o=>o[2]).filter(Boolean);
   const hist = [];
   if (d.fs) hist.push([d.fs, `Впервые найдено в Spiti Radar (${esc(srcName(d))})`]);
   if (d.ld) hist.push([d.ld, d.lk==="updated" ? "Объявление обновлено на сайте" : "Объявление опубликовано на сайте"]);
+  origins.forEach(([n,,,,h]) => (h||[]).forEach(([t,p],i) => { if (i) hist.push([t, `${esc(n)}: цена ${p<h[i-1][1]?"снижена":"повышена"} с ${eur(h[i-1][1])} до <b>${eur(p)}</b>`]); }));
+  if (d._ck) hist.push([d._ck, "Последняя проверка цены и наличия на сайте источника"]);
   if (prices.length>1 && Math.min(...prices)!==Math.max(...prices)) hist.push(["", `Цены на сайтах расходятся: от ${eur(Math.min(...prices))} до ${eur(Math.max(...prices))}`]);
   hist.sort((x,y)=> (x[0]||"9") < (y[0]||"9") ? -1 : 1);
+  const ckText = (c, u) => /^https?:\/\/(t\.me|(www\.)?(spitogatos|spiti24|tospitimou|plot|indomio|xe)\.gr)\b/.test(u)
+    ? "портал не перепроверяется: данные из уведомления" : c ? "проверено " + ruDate(c) : "ещё не перепроверялось";
   const kv = [["Тип", TYPE_RU[d.ty]||"не указан"], ["Сделка", d.tx==="rent"?"аренда":d.tx==="sale"?"продажа":"—"], ["Площадь", d.m?fmt(d.m)+" м²":"—"],
     ["Этаж", d.fn!=null?floorRu(d.fn):"не указан"], ["Спален", d.bd||"—"], ["Год постройки", d.yr||"—"],
     ["Цена за м²", d.pm ? fmt(d.pm)+(d.tx==="rent"?" €/м² в мес.":" €/м²") : "—"], ["Продаёт", d.pv==="yes" ? "частный владелец" : (d.ags||[d.ag]).join(", ")]];
@@ -567,8 +605,9 @@ function openSheet(d, from){
   s.innerHTML = `<header><div style="display:grid;gap:6px"><p class="eyebrow">${esc(place)}</p><h2 id="shTitle">${esc(TYPE_RU[d.ty]||"Объект")}${d.m?`, ${fmt(d.m)} м²`:""}</h2></div>
       <button class="close" type="button" id="shClose" aria-label="Закрыть">×</button></header>
     <div><div class="bigprice">${d.p?(d.px?"от ":"")+eur(d.p)+(d.tx==="rent"?" в месяц":""):"Цена по запросу"}</div>
+      <a class="btn openbtn" href="${esc(d.u)}" target="_blank" rel="noopener">Открыть объявление на ${esc(srcName(d))}${d._own && d._own!==d.p ? " · "+eur(d._own) : ""} ↗</a>
       ${vm!=null ? `<p class="cmp">${vm<0?"На "+Math.abs(vm)+"% дешевле":vm>0?"На "+vm+"% дороже":"Как"} средней цены за м² в районе «${esc(nbName(d.nb))}» (${fmt(d.tx==="sale"?a[3]:a[4])} €/м²${d.tx==="rent"?" в мес.":""}) по <a href="${MAP_URL}" target="_blank" rel="noopener">карте районов</a>.</p>` : ""}</div>
-    <div class="panel"><h3>Оригиналы</h3>${origins.map(([n,u,p]) => `<a class="orig" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(n)}</b><span>${p?eur(p):""} ↗</span></a>`).join("")}
+    <div class="panel"><h3>Оригиналы</h3>${origins.map(([n,u,p,c,h]) => `<a class="orig" href="${esc(u)}" target="_blank" rel="noopener"><div><b>${esc(n)}</b><small>${p?eur(p)+(d.tx==="rent"?" в мес.":""):"цена не указана"}${h&&h.length>1?` · было ${eur(h[h.length-2][1])}`:""}</small><span class="meta">${ckText(c,u)}</span></div><span>Открыть ↗</span></a>`).join("")}
       <p class="cmp" style="margin:0">Фото, описание и контакты — на странице источника.</p></div>
     <div class="panel"><h3>Характеристики</h3><dl class="kv">${kv.map(([k,v])=>`<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div>
     <div class="panel"><h3>История</h3><ul class="tl">${hist.length ? hist.map(([t,x])=>`<li><time>${t?ruDate(t):"сейчас"}</time><span>${x}</span></li>`).join("") : "<li><time>—</time><span>Дата на сайте не указана.</span></li>"}</ul></div>
@@ -651,9 +690,27 @@ document.querySelectorAll("[data-mtx]").forEach(b => b.addEventListener("click",
 }));
 
 /* ---------- sources ---------- */
+const STEP_RU = {alerts:"Письма порталов", telegram:"Telegram-каналы", remax:"RE/MAX", ktimatoemporiki:"Ktimatoemporiki",
+  agencies:"Сайты агентств (новые + перепроверка)", normalize:"Обработка", districts:"Уточнение районов", normalize2:"Обработка (2)", group:"Склейка дублей"};
+function drawReport(){
+  const r = REPORT, box = $("report"); if (!r) return;
+  const t = r.totals, mins = s => s>=90 ? Math.round(s/60)+" мин" : s+" с";
+  const name = dom => PORTAL_NAME[dom] || NETWORK[dom] || (SOURCES.rows.find(x=>x[1]===dom)||[dom])[0];
+  const at = r.at;
+  box.hidden = false;
+  box.innerHTML = `<h3>Последнее обновление: ${at.slice(8,10)}.${at.slice(5,7)}.${at.slice(0,4)}, ${at.slice(11,16)} UTC</h3>
+    <div class="tiles">${[[t.new,"новых объявлений"],[t.removed,"снято с сайтов"],[t.down,"подешевели"],[t.up,"подорожали"],[t.checked,"перепроверено сегодня (цена и наличие)"]]
+      .map(([n,l]) => `<div class="tile"><b>${fmt(n)}</b><small>${l}</small></div>`).join("")}</div>
+    ${t.failed_steps.length ? `<p class="cmp" style="margin:0;color:var(--warn)">Не сработали шаги: ${t.failed_steps.map(x=>esc(STEP_RU[x]||x)).join(", ")}. Данные этих источников остались с прошлого обновления.</p>` : ""}
+    ${r.steps.length ? `<div class="tablewrap"><table><thead><tr><th>Шаг</th><th style="text-align:right">Время</th><th>Итог</th></tr></thead><tbody>${r.steps.map(([n,sec,code]) =>
+      `<tr><td>${esc(STEP_RU[n]||n)}</td><td class="n">${mins(sec)}</td><td><span class="st ${code?"error":"ok"}">${code?"ошибка":"готово"}</span></td></tr>`).join("")}</tbody></table></div>` : ""}
+    ${r.sources.length ? `<div class="tablewrap"><table><thead><tr><th>Источник</th><th style="text-align:right">Новые</th><th style="text-align:right">Сняты</th><th style="text-align:right">Цена ↓</th><th style="text-align:right">Цена ↑</th><th style="text-align:right">Проверено</th><th>Ошибка сбора</th></tr></thead><tbody>${r.sources.map(([dom,n,nw,rm,dn,up,ck,err]) =>
+      `<tr><td>${esc(name(dom))}<br><small style="color:var(--muted)">${esc(dom)}</small></td><td class="n">${nw||""}</td><td class="n">${rm||""}</td><td class="n">${dn||""}</td><td class="n">${up||""}</td><td class="n">${ck||""}</td><td>${err?`<span class="st error">${esc(err)}</span>`:""}</td></tr>`).join("")}</tbody></table></div>` : "<p class='cmp' style='margin:0'>Изменений по источникам нет.</p>"}`;
+}
 function drawSources(){
+  drawReport();
   const rows = SOURCES.rows, reg = SOURCES.registry;
-  const sites = rows.filter(r=>r[2]==="site"), working = sites.filter(r=>r[4]==="ok" && r[3]>0).length;
+  const sites = rows.filter(r=>r[2]==="site"), working = sites.filter(r=>(r[4]==="ok"||r[4]==="partial") && r[3]>0).length;
   const portals = rows.filter(r=>r[2]==="portal"), nets = rows.filter(r=>r[2]==="network");
   const sum = a => a.reduce((n,r)=>n+r[3],0);
   $("tiles").innerHTML = [
@@ -665,7 +722,7 @@ function drawSources(){
   $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств Салоник: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio, Plot и XE приходят через письма-уведомления: только новые объявления, с датой письма.`;
   const kindRu = {site:"сайт агентства", network:"сеть агентств", portal:"портал"};
   $("srcrows").innerHTML = rows.map(([name, dom, kind, n, st]) => `<tr><td>${esc(name)}<br><small style="color:var(--muted)">${esc(dom)}</small></td><td>${kindRu[kind]}</td><td class="n">${fmt(n)}</td>
-    <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":"письма-уведомления") : st==="ok" ? "работает" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
+    <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":"письма-уведомления") : st==="ok" ? "работает" : st==="partial" ? "работает, последний сбор с ошибкой" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
 }
 
 /* ---------- views ---------- */
@@ -688,7 +745,7 @@ CTRL.forEach(id => $(id).addEventListener("input", () => render(true)));
 $("more").addEventListener("click", () => { shown += 48; render(false); });
 $("reset").addEventListener("click", () => {
   ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","agency"].forEach(id=>$(id).value="");
-  $("region").value="thessaloniki"; $("fresh").value="90"; $("nofloor").checked=true; $("undated").checked=true; $("below").checked=false;
+  $("region").value="thessaloniki"; $("fresh").value="90"; $("nofloor").checked=true; $("undated").checked=true; $("below").checked=false; $("cheaper").checked=false;
   tx="sale"; types=new Set(["apartment"]); textQ=""; $("ask").value=""; syncTx(); syncTypes(); render(true);
 });
 $("note").innerHTML = `Сбор с сайтов ~200 агентств Салоник, сетей RE/MAX и Ktimatoemporiki, из писем-уведомлений порталов (Spitogatos, XE, Indomio, Plot, Spiti24, Tospitimou) и публичных Telegram-каналов. Средние цены по районам — <a href="${MAP_URL}" target="_blank" rel="noopener">карта районов Салоник Jeny Shir</a>. Цены и характеристики берутся со страниц источников; перед решением проверяйте оригинал.`;

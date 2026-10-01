@@ -16,6 +16,9 @@ Usage:
   python3 scripts/collect_listings.py --incremental [--max-new 60]
       daily mode: listing pages already collected are not fetched again unless the
       sitemap says they changed; only new ones are read (at most --max-new per site).
+      Known listings are re-read on rotation (oldest check first, so each one about every
+      --recheck-days days): the price is refreshed, and listings that answer 404/410, redirect
+      away or say "sold" are dropped and written to data/listings/removed.csv.
       Listings not seen for --forget-days are dropped.
 Outputs:
   data/listings/listings_thessaloniki.csv
@@ -30,6 +33,7 @@ import re
 import sys
 import threading
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import urllib.robotparser
@@ -40,6 +44,9 @@ OUT = "data/listings/listings_thessaloniki.csv"
 REPORT = "data/listings/collect_report.csv"
 # pages read in daily mode that turned out not to be listings: not read again
 NOT_LISTINGS = "data/listings/not_listings.txt"
+REMOVED = "data/listings/removed.csv"  # listings found gone on re-check: when, why
+SOLD = re.compile(r"πωλήθηκε|πουλήθηκε|ενοικιάστηκε|νοικιάστηκε|μη διαθέσιμ|δεν είναι (πλέον )?διαθέσιμ|"
+                  r"\bsold\b|\brented\b|no longer available|not available", re.I)
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/128.0 Safari/537.36 SpitiRadar/0.1 (+https://spitiradar.gr/opt-out)")
 MIN_DELAY_S = 3.0
@@ -385,15 +392,22 @@ def extract(url, page):
     return rec
 
 
-def collect_site(row, per_site, known=None, max_new=0, ignore=frozenset()):
+def recheck_budget(n_known, days, cap):
+    """Pages to re-read per run so every known listing is re-read about every `days` days
+    (two runs a day)."""
+    return min(cap, max(10, -(-n_known // (2 * days)))) if n_known else 0
+
+
+def collect_site(row, per_site, known=None, max_new=0, ignore=frozenset(), recheck_days=7, max_recheck=150):
     """known: {url: record} from earlier runs (incremental mode), else None.
     ignore: pages known not to be listings."""
     base = row["final_url"] or row["website"]
     site = Site(base)
     report = {"domain": row["domain"], "listing_urls": 0, "parsed": 0, "with_price": 0, "with_area": 0,
-              "new": 0, "changed": 0, "error": ""}
+              "new": 0, "changed": 0, "rechecked": 0, "price_changed": 0, "removed": 0, "error": ""}
     out = []
     now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    today = now[:10]
     try:
         txt = robots_setup(site)
         if txt and re.search(r"user-agent:\s*spitiradar", txt, re.I):
@@ -437,15 +451,72 @@ def collect_site(row, per_site, known=None, max_new=0, ignore=frozenset()):
                 old = known[fu.rstrip("/")]  # a redirect to a listing we already have
             rec["found_url"] = key
             rec["date_sitemap"] = mod
-            rec.update(source_domain=row["domain"], agency=row["name"], scraped_at=now)
+            rec.update(source_domain=row["domain"], agency=row["name"], scraped_at=now, checked_at=today)
             report["changed" if old is not None else "new"] += 1
             out.append(rec)
+        if known is not None:
+            recheck(site, row, known, out, report, now, recheck_days, max_recheck)
     except Exception as e:
         report["error"] = type(e).__name__
     report["parsed"] = len(out)
     report["with_price"] = sum(1 for r in out if r["price_eur"])
     report["with_area"] = sum(1 for r in out if r["area_m2"])
     return out, report
+
+
+def recheck(site, row, known, out, report, now, days, cap):
+    """Re-read known listings whose last check is the oldest: refresh the price, drop the gone ones.
+    Pages read today for another reason are not read again."""
+    today = now[:10]
+    by_key = {r["url"].rstrip("/"): i for i, r in enumerate(out)}
+    records = {id(r): r for r in known.values()}.values()  # url and found_url point to one record
+    due_before = (datetime.date.fromisoformat(today) - datetime.timedelta(days=days)).isoformat()
+    todo = [r for r in records if (r.get("checked_at") or "") < today]
+    # listings no longer linked from the site first, then the longest unchecked
+    linked = set(by_key)
+    todo.sort(key=lambda r: (r["url"].rstrip("/") in linked, r.get("checked_at") or ""))
+    # still linked from the site: due after `days`; no longer linked: every other day until it answers 404
+    recent = (datetime.date.fromisoformat(today) - datetime.timedelta(days=2)).isoformat()
+    todo = [r for r in todo if (r.get("checked_at") or "") <= (due_before if r["url"].rstrip("/") in linked else recent)]
+    gone = report.setdefault("_gone", [])
+    for old in todo[:recheck_budget(len(records), days, cap)]:
+        key = old["url"].rstrip("/")
+        try:
+            fu, page = site.get(old["url"])
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):
+                gone.append((old, f"http {e.code}"))
+            continue  # other refusals / timeouts: try again another day
+        except Exception:
+            continue
+        report["rechecked"] += 1
+        rec = extract(fu, page)
+        moved = fu.rstrip("/") != key
+        if SOLD.search(rec["title"]):
+            gone.append((old, "sold / not available"))
+            continue
+        if not (rec["price_eur"] or rec["area_m2"]):
+            if moved:
+                gone.append((old, "redirects to " + fu[:120]))
+            continue  # a page we cannot read today is not proof that the listing is gone
+        new = dict(old, checked_at=today, scraped_at=now)
+        for k in ("price_eur", "area_m2", "title"):
+            if rec[k] not in ("", None):
+                new[k] = rec[k]
+        if str(new["price_eur"]) != str(old.get("price_eur")) and rec["price_eur"]:
+            try:
+                changed = float(new["price_eur"]) != float(old.get("price_eur") or 0)
+            except ValueError:
+                changed = True
+            report["price_changed"] += changed
+        if key in by_key:
+            out[by_key[key]] = new
+        else:
+            out.append(new)
+    report["removed"] = len(gone)
+    if gone:
+        drop = {r["url"].rstrip("/") for r, _ in gone}
+        out[:] = [r for r in out if r["url"].rstrip("/") not in drop]
 
 
 def main():
@@ -457,6 +528,8 @@ def main():
     ap.add_argument("--incremental", action="store_true", help="daily mode: fetch only new or changed listing pages")
     ap.add_argument("--max-new", type=int, default=60, help="incremental: new listing pages to read per site")
     ap.add_argument("--forget-days", type=int, default=45, help="incremental: drop listings not seen for this long")
+    ap.add_argument("--recheck-days", type=int, default=7, help="incremental: re-read every known listing this often")
+    ap.add_argument("--max-recheck", type=int, default=150, help="incremental: re-read at most this many pages per site and run")
     a = ap.parse_args()
     import os
     known_by_site = {}
@@ -481,18 +554,20 @@ def main():
     if a.sites:
         rows = rows[:a.sites]
     print(f"{len(rows)} sites", file=sys.stderr)
-    listings, reports, lock, done = [], [], threading.Lock(), [0]
+    listings, reports, removed, lock, done = [], [], [], threading.Lock(), [0]
 
     def work(row):
         known = known_by_site.get(row["domain"], {}) if a.incremental else None
-        out, rep = collect_site(row, a.per_site, known, a.max_new, ignore)
+        out, rep = collect_site(row, a.per_site, known, a.max_new, ignore, a.recheck_days, a.max_recheck)
+        gone = rep.pop("_gone", [])
         if a.incremental:
             skipped = rep.pop("_skipped", [])
             known = {id(r): r for r in known.values()}  # one entry per record (url and found_url point to it)
             known = {r["url"].rstrip("/"): r for r in known.values()}
             # site down or blocked today: keep what we had; otherwise keep listings not
             # rediscovered today (discovery is limited) until they are too old
-            got = {r["url"].rstrip("/") for r in out} | {r.get("found_url", "") for r in out}
+            got = {r["url"].rstrip("/") for r in out} | {r.get("found_url", "") for r in out} | \
+                {r["url"].rstrip("/") for r, _ in gone}
             cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=a.forget_days)).strftime("%Y-%m-%d")
             out += [r for u, r in known.items() if u not in got and (r.get("scraped_at") or "")[:10] >= cutoff]
         with lock:
@@ -500,6 +575,7 @@ def main():
                 ignore.update(skipped)
             listings.extend(out)
             reports.append(rep)
+            removed.extend((r, why) for r, why in gone)
             done[0] += 1
             if done[0] % 10 == 0:
                 print(f"{done[0]}/{len(rows)} sites, {len(listings)} listings", file=sys.stderr)
@@ -509,7 +585,7 @@ def main():
 
     fields = ["source_domain", "agency", "url", "title", "transaction", "type", "price_eur", "area_m2",
               "bedrooms", "floor", "year_built", "location", "lat", "lon", "image",
-              "date_published", "date_updated", "date_sitemap", "date_source", "scraped_at", "found_url"]
+              "date_published", "date_updated", "date_sitemap", "date_source", "scraped_at", "found_url", "checked_at"]
     if a.incremental:
         with open(NOT_LISTINGS, "w", encoding="utf-8") as f:
             f.write("\n".join(sorted(ignore)) + "\n")
@@ -533,13 +609,30 @@ def main():
         w.writeheader()
         w.writerows(listings)
     with open(REPORT, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["domain", "listing_urls", "parsed", "with_price", "with_area",
-                                          "new", "changed", "error"], restval="", extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=["domain", "listing_urls", "parsed", "with_price", "with_area", "new", "changed",
+                                          "rechecked", "price_changed", "removed", "error"], restval="", extrasaction="ignore")
         w.writeheader()
         w.writerows(sorted(reports, key=lambda r: -r["parsed"]))
+    log_removed([(r["source_domain"], r["url"], why) for r, why in removed])
     print(f"done: {len(listings)} listings from {sum(1 for r in reports if r['parsed'])} of {len(rows)} sites"
           + (f"; today {sum(int(r.get('new') or 0) for r in reports)} new, "
-             f"{sum(int(r.get('changed') or 0) for r in reports)} changed" if a.incremental else ""), file=sys.stderr)
+             f"{sum(int(r.get('changed') or 0) for r in reports)} changed, "
+             f"{sum(int(r.get('rechecked') or 0) for r in reports)} re-checked, {len(removed)} removed"
+             if a.incremental else ""), file=sys.stderr)
+
+
+def log_removed(items):
+    """Append listings found gone: data/listings/removed.csv (date, source_domain, url, reason)."""
+    import os
+    if not items:
+        return
+    new = not os.path.exists(REMOVED)
+    today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+    with open(REMOVED, "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if new:
+            w.writerow(["date", "source_domain", "url", "reason"])
+        w.writerows([today, d, u, why] for d, u, why in items)
 
 
 if __name__ == "__main__":

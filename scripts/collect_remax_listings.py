@@ -10,9 +10,13 @@ Each card gives: RE/MAX id, property URL, category, approximate location
 Property pages add the approximate map point ("var $lat/$lng"); only listings
 without a point are opened, at most --coords a day.
 
-Usage: python3 scripts/collect_remax_listings.py [--areas 108 109] [--coords 300] [--max-pages 0]
-Output: data/listings/listings_remax.csv (same columns as listings_thessaloniki.csv + remax_id);
-        listings not seen in this run are dropped only when the run finished all result pages.
+Usage: python3 scripts/collect_remax_listings.py [--areas 108 109] [--coords 60] [--max-minutes 25] [--max-pages 0]
+The daily run has a time budget: when it is spent the run stops, keeps the listings it had and
+saves what it found; the next run starts from the first page again.
+Output: data/listings/listings_remax.csv (same columns as listings_thessaloniki.csv + remax_id, job);
+        a listing seen on a result page is checked that day (checked_at: price and availability);
+        listings missing from a category/area that this run read to the last page without errors
+        are dropped and written to data/listings/removed.csv.
 """
 import argparse
 import csv
@@ -31,15 +35,18 @@ BASE = "https://www.remax.gr"
 DELAY_S = 5.0     # remax.gr answers 403 to faster runs
 MAX_FAILS_IN_ROW = 5
 OUT = "data/listings/listings_remax.csv"
+REMOVED = "data/listings/removed.csv"
 CATEGORIES = {  # url part -> transaction
     "pwliseis-agora-katoikies": "sale", "pwliseis-agora-epaggelmatika": "sale", "pwliseis-agora-gi": "sale",
     "enoikiaseis-katoikies": "rent", "enoikiaseis-epaggelmatika": "rent", "enoikiaseis-gi": "rent",
 }
 FIELDS = ["source_domain", "agency", "url", "title", "transaction", "type", "price_eur", "area_m2",
           "bedrooms", "floor", "year_built", "location", "lat", "lon", "image",
-          "date_published", "date_updated", "date_sitemap", "date_source", "scraped_at", "remax_id"]
+          "date_published", "date_updated", "date_sitemap", "date_source", "scraped_at", "remax_id",
+          "checked_at", "job"]
 
 _last = [0.0]
+DEADLINE = float("inf")
 
 
 def fetch(url, retries=2):
@@ -122,6 +129,7 @@ def parse_cards(page, tx, now):
             "date_published": "", "date_updated": "", "date_sitemap": "",
             "date_source": "",
             "scraped_at": now,
+            "checked_at": now[:10],
             "remax_id": href.group(2),
         })
     return out
@@ -138,60 +146,75 @@ def paging(page, cat, area):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--areas", nargs="+", default=["108", "109"])
-    ap.add_argument("--coords", type=int, default=300, help="property pages opened for the map point (0 = none)")
+    ap.add_argument("--coords", type=int, default=60, help="property pages opened for the map point (0 = none)")
+    ap.add_argument("--max-minutes", type=float, default=25, help="time budget for the whole run (result pages + map points)")
     ap.add_argument("--max-pages", type=int, default=0, help="limit result pages (test runs)")
     a = ap.parse_args()
+    global DEADLINE
+    DEADLINE = time.time() + a.max_minutes * 60
     now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     old = {}
     if os.path.exists(OUT):
         old = {r["remax_id"]: r for r in csv.DictReader(open(OUT, encoding="utf-8"))}
-    found, pages, fails, complete = {}, 0, 0, True
-    for area in a.areas:
-        for cat, tx in CATEGORIES.items():
-            n, last, path = 1, 1, f"/{cat}/{area}"
-            while n <= last:
-                if a.max_pages and pages >= a.max_pages:
-                    complete = False
-                    break
-                # page 1 by area id; later pages under the path the page itself links to
-                url = BASE + path + (f"?Property_page={n}" if n > 1 else "")
-                try:
-                    page = fetch(url)
-                    fails = 0
-                except (urllib.error.URLError, TimeoutError) as e:
-                    fails += 1
-                    complete = False
-                    print(f"skip {url}: {getattr(e, 'code', type(e).__name__)}", file=sys.stderr)
-                    if fails >= MAX_FAILS_IN_ROW:
-                        print("stopping: repeated refusals; the listings file keeps earlier rows", file=sys.stderr)
-                        return save(old, found, False, a.coords)
-                    n += 1
-                    continue
-                pages += 1
-                lp, full = paging(page, cat, area)
-                last, path = max(last, lp), full or path
-                cards = parse_cards(page, tx, now)
-                for c in cards:
-                    found.setdefault(c["remax_id"], c)
-                if not cards:
-                    break
+    found, pages, fails, complete, done_jobs = {}, 0, 0, True, set()
+    # with the time budget a run covers part of the site: start each day at a different
+    # area/category so every part is refreshed within a few days
+    jobs = [(area, cat, tx) for area in a.areas for cat, tx in CATEGORIES.items()]
+    k = datetime.date.today().toordinal() % len(jobs)
+    for area, cat, tx in jobs[k:] + jobs[:k]:
+        n, last, path, job_ok = 1, 1, f"/{cat}/{area}", True
+        while n <= last:
+            if (a.max_pages and pages >= a.max_pages) or time.time() > DEADLINE:
+                complete = job_ok = False
+                break
+            # page 1 by area id; later pages under the path the page itself links to
+            url = BASE + path + (f"?Property_page={n}" if n > 1 else "")
+            try:
+                page = fetch(url)
+                fails = 0
+            except (urllib.error.URLError, TimeoutError) as e:
+                fails += 1
+                complete = job_ok = False
+                print(f"skip {url}: {getattr(e, 'code', type(e).__name__)}", file=sys.stderr)
+                if fails >= MAX_FAILS_IN_ROW:
+                    print("stopping: repeated refusals; the listings file keeps earlier rows", file=sys.stderr)
+                    return save(old, found, False, a.coords, done_jobs)
                 n += 1
-            print(f"{area}/{cat}: {last} pages, {len(found)} listings so far", file=sys.stderr)
-    save(old, found, complete, a.coords)
+                continue
+            pages += 1
+            lp, full = paging(page, cat, area)
+            last, path = max(last, lp), full or path
+            cards = parse_cards(page, tx, now)
+            for c in cards:
+                c["job"] = f"{area}/{cat}"
+                found.setdefault(c["remax_id"], c)
+            if not cards:
+                break
+            n += 1
+        if job_ok:
+            done_jobs.add(f"{area}/{cat}")
+        print(f"{area}/{cat}: {last} pages, {len(found)} listings so far", file=sys.stderr)
+    save(old, found, complete, a.coords, done_jobs)
 
 
-def save(old, found, complete, coords):
+def save(old, found, complete, coords, done_jobs=frozenset()):
     rows = {}
-    # listings gone from a complete run are dropped; after a partial run earlier rows stay
-    for k, r in (found.items() if complete else list(old.items()) + list(found.items())):
+    # listings gone from a fully read category/area are dropped; others stay until their part is read
+    gone = [r for k, r in old.items() if k not in found and (complete or r.get("job") in done_jobs)]
+    gone_ids = {r["remax_id"] for r in gone}
+    log_removed(gone)
+    for k, r in [(k, r) for k, r in old.items() if k not in gone_ids] + list(found.items()):
         prev = old.get(k, {})
         for f in ("lat", "lon"):  # the map point was read once; keep it
             r[f] = r.get(f) or prev.get(f, "")
         rows[k] = r
     todo = [r for r in rows.values() if not r["lat"]][:coords]
     for i, r in enumerate(todo, 1):
+        if time.time() > DEADLINE:
+            print(f"time budget spent: {i - 1} map points this run", file=sys.stderr)
+            break
         try:
-            page = fetch(r["url"])
+            page = fetch(r["url"], retries=0)  # a missing map point is not worth long waits
         except (urllib.error.URLError, TimeoutError) as e:
             print(f"no point for {r['url']}: {getattr(e, 'code', type(e).__name__)}", file=sys.stderr)
             continue
@@ -207,8 +230,21 @@ def save(old, found, complete, coords):
         w.writeheader()
         w.writerows(sorted(rows.values(), key=lambda r: int(r["remax_id"])))
     os.replace(tmp, OUT)
-    print(f"done: {len(rows)} listings ({len(found)} seen this run, complete={complete}), "
+    print(f"done: {len(rows)} listings ({len(found)} seen this run, complete={complete}, "
+          f"{len(done_jobs)} parts read fully, {len(gone)} removed), "
           f"{sum(1 for r in rows.values() if r['lat'])} with a map point", file=sys.stderr)
+
+
+def log_removed(rows):
+    if not rows:
+        return
+    new = not os.path.exists(REMOVED)
+    today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+    with open(REMOVED, "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if new:
+            w.writerow(["date", "source_domain", "url", "reason"])
+        w.writerows([today, "remax.gr", r["url"], "not on result pages"] for r in rows)
 
 
 if __name__ == "__main__":
