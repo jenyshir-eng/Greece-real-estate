@@ -82,10 +82,19 @@ def parse(html):
 def collect_area(area, rows, seen):
     page = 1
     while True:
-        try:
-            html = fetch(BASE.format(area=area, page=page))
-        except urllib.error.HTTPError as e:
-            print(f"{area}: HTTP {e.code}, skipped", file=sys.stderr)
+        html = None
+        for attempt in range(3):
+            try:
+                html = fetch(BASE.format(area=area, page=page))
+                break
+            except urllib.error.HTTPError as e:
+                print(f"{area}: HTTP {e.code}, skipped", file=sys.stderr)
+                return
+            except (urllib.error.URLError, TimeoutError, OSError) as e:
+                print(f"{area} page {page}: {e}, retry {attempt + 1}", file=sys.stderr)
+                time.sleep(10 * (attempt + 1))
+        if html is None:
+            print(f"{area}: no answer, skipped", file=sys.stderr)
             return
         batch = [r for r in parse(html) if r["vrisko_url"] not in seen]
         if not batch:
@@ -103,6 +112,8 @@ def main(out_path, areas):
     rows, seen = [], set()
     for area in areas:
         collect_area(area, rows, seen)
+    if not rows:
+        sys.exit("vrisko.gr: nothing collected")
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
