@@ -79,6 +79,30 @@ def neighbourhood(text, district):
 
 
 OTHER_REGIONS = r"χαλκιδικ|halkidik|chalkidik|κασσανδρ|kassandr|kasandr|σιθωνι|sithon|αθην|athens|athina|πειραια|piraeus|πιερια|pieria|κατεριν|katerin|καβαλ|kaval|σερρ|serres|κιλκισ|kilkis|αλεξανδρουπ|alexandroup|βεροια|veria|λαρισ|laris|κρητ|crete|evia|ευβοια|πευκοχωρι|χανιωτη|σανη|sani|ποτιδαι|νεα μουδανια|moudania|αχαρνε|αλιμο|καλαμακι|μικρολιμανο|αριδαια|πολυκαστρο|κεφαλονι|ροδο|θασο|thasos|εξαρχ|αττικ|σοζοπολ|αφυτο|ελανη|πολυχρον|φουρκα|μολα καλυβ|χανιωτ|chanioti|ν\. χαλκιδ|αγια αναστασια ανθεμ|κυπρ|cyprus|nicosia|λευκωσ|limassol|λεμεσ|καλλικρατ|kallikrat|λιτοχωρ|litochor|αλεξανδρει|alexandrei|πετραλων|petralon|κατω πετραλων|φλογητ|flogit|βεροι|ημαθι|imathi|πελλα|pella|γιαννιτσ|giannitsa|εδεσσα|edessa|ναουσα|naousa|κοζαν|kozani|ιωαννιν|ioannin|βολοσ\b|volos|πατρα|patra|θεσσαλια|υψηλομετωπ|ypsilometop|πελοποννησ|κεφαλονι|makrygial|makrigial|μακρυγιαλ|psakoud|ψακουδ|mallorca|μαγιορκ|παλληνη|pallini|ραφηνα|γλυφαδα|μαρουσι|κηφισια αττικ|attik|attica|liosia|λιοσια|\bekali|εκαλη|acharn|\bvoula\b|βουλα\b|vouliagm|βουλιαγμ|syros|συρο\b|συροσ|karditsa|καρδιτσ|amint|αμυνται|marousi|chalandri|χαλανδρι|peristeri|περιστερι|nea smyrni|νεα σμυρνη|glyfada|rafina|\bvari\b|kavala|περιγιαλι καβαλ|thasos|paros|παροσ|naxos|ναξο|mykono|μυκονο|santorin|σαντορ|corfu|κερκυρ|zakynth|ζακυνθ"
+# other regional units of Greece and Athens / Piraeus districts that agency sites in Thessaloniki also sell
+OTHER_REGIONS += (r"|ρεντη|rentis|νεο φαληρο|παλαιο φαληρο|faliro athin|νικαια|nikaia|κορυδαλλ|κερατσιν|keratsin|περαμα|perama|"
+                  r"μοσχατο|ζωγραφου|βυρωνα|ηλιουπολ|ilioupol|χολαργ|παπαγου|νεα ιωνια|μεταμορφωσ αττ|αιγαλε|χαιδαρι|"
+                  r"ιλιον|πετρουπολ|μενιδι|μελισσια|βριλησσ|πεντελ|νεα ερυθραια|αγια παρασκευη|γαλατσι|"
+                  r"πατησι|κυψελ|κολωνακ|kolonaki|πλακα αθ|μετς|παγκρατ|pagrati|νεοσ κοσμοσ|δαφνη αττ|αμπελοκηποι αθ|"
+                  r"ημαθια|imathia|veroia|\bδραμα\b|\bdrama\b|ξανθη\b|xanthi|κομοτην|komotini|ροδοπ|evros|ορεστιαδ|"
+                  r"φλωριν|florina|καστορι|kastoria|γρεβεν|grevena|τρικαλ|trikala|πρεβεζ|preveza|θεσπρωτ|ηγουμενιτσ|"
+                  r"αιτωλοακαρν|μεσολογγ|αγρινι|agrinio|ευρυταν|καρπενησ|φθιωτ|λαμια|lamia|φωκιδ|βοιωτ|θηβα|λιβαδει|"
+                  r"χαλκιδα|chalkida|αργολ|ναυπλι|nafplio|αρκαδ|τριπολ|κορινθ|korinth|λακων|σπαρτ|μεσσην|καλαματ|kalamata|"
+                  r"ηλεια|πυργοσ ηλ|αχαια|ηρακλειο κρ|heraklion|χανια|chania|ρεθυμν|rethymn|λασιθ|αγιοσ νικολαοσ κρ|"
+                  r"δωδεκανησ|καλυμν|κυκλαδ|λεσβ|μυτιλην|χιοσ\b|σαμοσ\b|λευκαδ|lefkada|ιθακ|αμοργ|τηνοσ\b|ανδροσ\b|"
+                  r"σιφνο|μηλοσ\b|σκιαθ|skiathos|σκοπελ|αλοννησ|πηλιο|pilio|θεσπρωτ|ναυπακτ|αμφισσ|δελφοι|αραχοβ|"
+                  r"σκυδρα|αλμωπ|αριδαι|κρυα βρυσ|πολυγυρο|ιερισσ|ουρανουπολ|αρναια|νικητη|νεοσ μαρμαρασ|τορωνη|"
+                  r"σερρων|σιδηροκαστρ|νιγριτ|ηρακλεια σερρ|πολυκαστρ|γουμενισσ|"
+                  r"albania|αλβανι|bulgaria|βουλγαρι|turkey|τουρκι|germany|γερμανι|dubai|ντουμπαι")
+_OTHER = re.compile(OTHER_REGIONS)
+
+
+def is_other(text):
+    """Names a place outside the Thessaloniki unit. A name followed by a house number is a street
+    of Thessaloniki (Κρήτης 76, Καστοριάς 12), not the region."""
+    return any(not re.match(r"[^\W\d]*\.?\s*\d", text[m.end():]) for m in _OTHER.finditer(text or ""))
+
+
 NOT_LISTING = re.compile(r"^αποτελεσματα|^results|^αναζητηση|^search|blog|ιστορια|ανοικοδομηση|η εταιρεια|εταιρεια μασ|ποιοι ειμαστε|επικοινωνια|^ακινητα - |ευκαιριεσ ακινητων|^ergebnisse|^print$|^rezultat|^risultati", re.I)
 FOREIGN = re.compile(r"[Ѐ-ӿ]")  # Cyrillic: translated duplicates of the same object
 
@@ -203,29 +227,35 @@ def main():
         own = re.sub(r"(κτηματο)?μεσιτικ\w*\s+γραφει\w*\s*θεσσαλονικ\w*", " ", t) + " " + u
         loc = plain(r["location"])
         specific = [a for a in AREAS if a[0] != "Θεσσαλονίκη"]
-        area_name, region = "", "unknown"
+        area_name, region, how = "", "unknown", ""
         hit = next((n for n, pat in specific if re.search(pat, own)), "")
-        if re.search(OTHER_REGIONS, own) and not hit:
-            region = "other"
-        elif hit and not re.search(OTHER_REGIONS, own):
-            area_name, region = hit, "thessaloniki"
-        elif re.search(OTHER_REGIONS, own):
-            region = "other"
+        if is_other(own) and not hit:
+            region, how = "other", "listing"
+        elif hit and not is_other(own):
+            area_name, region, how = hit, "thessaloniki", "listing"
+        elif is_other(own):
+            region, how = "other", "listing"
+        elif re.search(r"θεσσαλονικ|thessalonik", own):
+            area_name, region, how = "Θεσσαλονίκη", "thessaloniki", "listing"
         else:
+            # the location field: a named place of another region beats a bare "Θεσσαλονίκη"
+            # (that is often the agency's own address next to the property's place)
             hit = next((n for n, pat in specific if re.search(pat, loc)), "")
-            if hit and not re.search(OTHER_REGIONS, loc):
-                area_name, region = hit, "thessaloniki"
-            elif re.search(r"θεσσαλονικ|thessalonik", own + " " + loc):
-                area_name, region = "Θεσσαλονίκη", "thessaloniki"
-            elif re.search(OTHER_REGIONS, loc):
-                region = "other"
+            if hit and not is_other(loc):
+                area_name, region, how = hit, "thessaloniki", "listing"
+            elif is_other(loc):
+                region, how = "other", "listing"
+            elif re.search(r"θεσσαλονικ|thessalonik", loc):
+                area_name, region, how = "Θεσσαλονίκη", "thessaloniki", "location"
 
         h = hints.get(url)
         if h and h["region"] and area_name in ("", "Θεσσαλονίκη") and region != "other":
             if h["region"] == "other":
-                region, area_name = ("other", "") if region == "unknown" else (region, area_name)
+                # the page names another region; only the listing's own title / link outweighs it
+                if how != "listing":
+                    region, area_name, how = "other", "", "page"
             else:
-                region, area_name = "thessaloniki", h["area"] or area_name or "Θεσσαλονίκη"
+                region, area_name, how = "thessaloniki", h["area"] or area_name or "Θεσσαλονίκη", "page"
         nb = ""
         if region == "thessaloniki":
             nb, parent = neighbourhood(own, area_name)
@@ -257,6 +287,10 @@ def main():
             "area_m2": round(area, 1) if area else "", "price_per_m2": round(price / area) if price and area else "",
             "bedrooms": r["bedrooms"], "floor": r["floor"], "year_built": r["year_built"],
             "region": region, "area": area_name, "neighbourhood": nb, "location_raw": r["location"],
+            # where the region comes from: listing (its title, link or place field), location (a bare
+            # "Θεσσαλονίκη" in the place field), page (read again by refine_districts.py),
+            # coordinates, agency (guessed from the agency's other listings)
+            "region_how": how,
             "lat": r["lat"], "lon": r["lon"], "image": r["image"],
             "listing_date": ldate, "listing_date_kind": lkind, "first_seen": h["first_seen"],
             "scraped_at": r["scraped_at"],
@@ -359,8 +393,9 @@ def fill_from_coordinates(out):
         except ValueError:
             continue
         if r["region"] != "other" and not in_thessaloniki_unit(lat, lon):
-            if r["region"] == "unknown" and 34 < lat < 42 and 19 < lon < 30:
-                r["region"] = "other"  # somewhere else in Greece
+            generic = r["region"] == "unknown" or (r["area"] in ("", "Θεσσαλονίκη") and r["region_how"] != "listing")
+            if generic and 34 < lat < 42 and 19 < lon < 30:
+                r["region"], r["area"], r["region_how"] = "other", "", "coordinates"  # somewhere else in Greece
                 moved["region other"] += 1
             continue
         if r["region"] == "other":
@@ -368,6 +403,7 @@ def fill_from_coordinates(out):
         inside = districts.by_point(lat, lon)
         if inside and r["area"] in ("", "Θεσσαλονίκη", districts.AREAS[inside]["district"]):
             r["region"], r["area"], r["neighbourhood"] = "thessaloniki", districts.AREAS[inside]["district"], inside
+            r["region_how"] = r["region_how"] or "coordinates"
             moved["map area"] += 1
             continue
         if r["area"] not in ("", "Θεσσαλονίκη"):
@@ -375,6 +411,7 @@ def fill_from_coordinates(out):
         name, (clat, clon) = min(CENTRES.items(), key=lambda c: (c[1][0] - lat) ** 2 + ((c[1][1] - lon) * 0.76) ** 2)
         km = math.hypot(clat - lat, (clon - lon) * 0.76) * 111
         r["region"] = "thessaloniki"
+        r["region_how"] = r["region_how"] or "coordinates"
         if km <= 4:
             r["area"] = name
             moved["district"] += 1
@@ -396,7 +433,7 @@ def fill_from_agency(out):
     for r in out:
         c = per.get(r["source_domain"])
         if r["region"] == "unknown" and c and sum(c.values()) >= 10 and c["thessaloniki"] / sum(c.values()) >= 0.9:
-            r["region"], r["area"] = "thessaloniki", "Θεσσαλονίκη"
+            r["region"], r["area"], r["region_how"] = "thessaloniki", "Θεσσαλονίκη", "agency"
             n += 1
     print("region from agency profile:", n)
 

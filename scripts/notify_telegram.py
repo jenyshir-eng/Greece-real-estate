@@ -100,7 +100,11 @@ def summary(members):
     area = districts.AREAS[nb]["district"] if nb in districts.AREAS else first("area")
     return {"url": r["url"], "urls": {m["url"] for m in members}, "members": members, "tx": r["transaction"], "type": first("type"),
             "price": min(prices) if prices else None, "m2": num(first("area_m2")), "region": r["region"],
-            "area": area, "nb": nb, "floor": floor_level(first("floor")), "beds": num(first("bedrooms")),
+            "area": area, "nb": nb, "floor": floor_level(first("floor")),
+            # the region is confirmed when a listing of the group names the place itself (title, link,
+            # place field, the page read again, its map point), not only guessed from the agency
+            "region_ok": any(m.get("region_how") in ("listing", "page", "coordinates") or
+                             m.get("area") not in ("", "Θεσσαλονίκη") for m in members), "beds": num(first("bedrooms")),
             "sites": len(members), "source": PORTAL.get(r["source_domain"], r["agency"])}
 
 
@@ -109,6 +113,8 @@ def matches(p, f):
         return False
     if f.get("region", "thessaloniki") and p["region"] != f.get("region", "thessaloniki"):
         return False
+    if f.get("region", "thessaloniki") and not p["region_ok"] and not f.get("keep_unconfirmed_region"):
+        return False  # e.g. a Veria flat of a Thessaloniki agency whose page we could not place yet
     if f.get("types") and p["type"] not in f["types"]:
         return False
     places = f.get("areas") or []
