@@ -116,6 +116,8 @@ for members in groups.values():
                  # the main link's own price when it is not the lowest of the group (0 = no price there)
                  "p0": (own or 0) if own != p else None,
                  "ck": r.get("checked_at") or None, "h": history(r["url"]),
+                 # when this link was seen (alert email date for portals, otherwise the site date / first seen)
+                 "sd": r.get("listing_date") or r.get("first_seen") or None,
                  "m": m2, "pm": round(p / m2) if p and m2 else None, "bd": first("bedrooms")[:2] if (first("bedrooms")[:2].isdigit() and 0 < int(first("bedrooms")[:2]) <= 10) else "",
                  "fn": floor_code(first("floor"), r["title"]), "yr": first("year_built"), "rg": r["region"], "nb": first("neighbourhood"),
                  # district: the one of the map area if known, else the most specific one in the group
@@ -128,7 +130,7 @@ for members in groups.values():
                  "srcs": sorted({m.get("source_domain", "") for m in members}),
                  # other sites with the same property: [name, url, price, checked, price history]
                  "alt": [[PORTAL_NAME.get(m.get("source_domain"), m["agency"]), m["url"], num(m, "price_eur"),
-                          m.get("checked_at") or None, history(m["url"])]
+                          m.get("checked_at") or None, history(m["url"]), m.get("listing_date") or m.get("first_seen") or None]
                          for m in members[1:]] or None,
                  # map point and its precision: s = the site's own point, a = map area centre, d = district centre
                  **map_point(members)})
@@ -177,7 +179,7 @@ def sources():
 
 DAY0 = datetime.date(2020, 1, 1)
 DICT = {"ag", "tx", "ty", "rg", "nb", "ar", "lk", "src", "pv", "gq"}
-DATES = {"ld", "fs", "ck"}
+DATES = {"ld", "fs", "ck", "sd"}
 
 
 def pack(rows):
@@ -229,7 +231,8 @@ def pack(rows):
                     continue
                 v = [sid(x) for x in v]
             elif k == "alt":
-                v = [[sid(n), link(u), number(p), day(c) if c else None, hist(h)] for n, u, p, c, h in v]
+                v = [[sid(n), link(u), number(p), day(c) if c else None, hist(h), day(sd) if sd else None]
+                     for n, u, p, c, h, sd in v]
                 v = [a[:max(i for i, x in enumerate(a) if x is not None) + 1] for a in v]
             else:
                 v = number(v)

@@ -334,8 +334,8 @@ const DATA = (raw => {
   return raw.r.map(a => {
     const d = {};
     K.forEach((k,i) => { const v = a[i]; if (v==null) return;
-      d[k] = STR.has(k) ? S[v] : (k==="ld"||k==="fs"||k==="ck") ? day(v) : k==="u" ? url(v) : k==="h" ? hist(v)
-        : (k==="ags"||k==="srcs") ? v.map(x=>S[x]) : k==="alt" ? v.map(([n,l,p,c,h]) => [S[n], url(l), p??null, day(c), hist(h)]) : v; });
+      d[k] = STR.has(k) ? S[v] : (k==="ld"||k==="fs"||k==="ck"||k==="sd") ? day(v) : k==="u" ? url(v) : k==="h" ? hist(v)
+        : (k==="ags"||k==="srcs") ? v.map(x=>S[x]) : k==="alt" ? v.map(([n,l,p,c,h,sd]) => [S[n], url(l), p??null, day(c), hist(h), day(sd)]) : v; });
     d.ags ||= [d.ag]; d.srcs ||= [d.src];
     return d;
   });
@@ -391,7 +391,11 @@ function vsMarket(d){
 }
 // price move of the main listing: last price against the first one seen
 function move(h){ if (!h || h.length<2) return null; const a=h[0][1], b=h[h.length-1][1]; return a && b!==a ? Math.round((b/a-1)*1000)/10 : null; }
+const STALE_DAYS = 14;  // a portal / Telegram listing older than this may already be gone
+const isAlert = u => /^https?:\/\/(t\.me|(www\.)?(spitogatos|spiti24|tospitimou|plot|indomio|xe)\.gr)\b/.test(u||"") && !/xe\.gr\/property\/d\//.test(u);
 DATA.forEach(d => {
+  // only alert-email / Telegram links and none of them recent: the listing may be withdrawn
+  d._old = [[d.u, d.ck, d.sd], ...(d.alt||[]).map(o=>[o[1], o[3], o[5]])].every(([u,c,sd]) => isAlert(u) && !c && sd && ageDays(sd) > STALE_DAYS);
   d._own = d.p0===undefined ? d.p : (d.p0||null);
   d._ck = [d.ck, ...(d.alt||[]).map(o=>o[3])].filter(Boolean).sort().pop() || null;
   d._mv = [move(d.h), ...(d.alt||[]).map(o=>move(o[4]))].filter(v=>v!=null).sort((x,y)=>x-y)[0] ?? null;
@@ -556,7 +560,7 @@ function card(d){
     <span class="ppm">${d.pm && d.tx==="sale" ? fmt(d.pm)+" €/м²" : ""}</span></div>
     <div class="spec">${esc(spec)}</div>
     <div class="src">${uniq.map(s=>`<span>${esc(s)}</span>`).join("")}${srcs.length>uniq.length?`<span>+${srcs.length-uniq.length}</span>`:""}</div>
-    <div class="when">${d.ld ? (d.lk==="updated"?"обновлено ":"опубликовано ") + when(d.ld) : d.fs ? "найдено " + when(d.fs) : ""}${d._ck ? ` · <span class="ck">проверено ${when(d._ck)}</span>` : ""}</div></div>`;
+    <div class="when">${d.ld ? (d.lk==="updated"?"обновлено ":"опубликовано ") + when(d.ld) : d.fs ? "найдено " + when(d.fs) : ""}${d._ck ? ` · <span class="ck">проверено ${when(d._ck)}</span>` : ""}${d._old ? ` · могло быть уже снято` : ""}</div></div>`;
   b.addEventListener("click", () => openSheet(d, b));
   return b;
 }
@@ -587,7 +591,7 @@ function openSheet(d, from){
   const vm = d._vm, a = MAPAREA[d.nb];
   const place = d.rg==="other" ? (d.lr||"Другой регион") : [nbName(d.nb), AREA_RU[d.ar]].filter((x,i,arr)=>x && arr.indexOf(x)===i).join(", ") || "Салоники";
   // every link with its own price, last check and price changes
-  const origins = [[srcName(d), d.u, d._own, d.ck, d.h], ...(d.alt||[])];
+  const origins = [[srcName(d), d.u, d._own, d.ck, d.h, d.sd], ...(d.alt||[])];
   const prices = origins.map(o=>o[2]).filter(Boolean);
   const hist = [];
   if (d.fs) hist.push([d.fs, `Впервые найдено в Spiti Radar (${esc(srcName(d))})`]);
@@ -596,8 +600,9 @@ function openSheet(d, from){
   if (d._ck) hist.push([d._ck, "Последняя проверка цены и наличия на сайте источника"]);
   if (prices.length>1 && Math.min(...prices)!==Math.max(...prices)) hist.push(["", `Цены на сайтах расходятся: от ${eur(Math.min(...prices))} до ${eur(Math.max(...prices))}`]);
   hist.sort((x,y)=> (x[0]||"9") < (y[0]||"9") ? -1 : 1);
-  const ckText = (c, u) => c ? "проверено " + ruDate(c) : /^https?:\/\/(t\.me|(www\.)?(spitogatos|spiti24|tospitimou|plot|indomio|xe)\.gr)\b/.test(u)
-    ? "портал не перепроверяется: данные из уведомления" : "ещё не перепроверялось";
+  const ckText = (c, u, sd) => c ? "проверено " + ruDate(c) : isAlert(u)
+    ? (sd ? "из уведомления от " + ruDate(sd) : "из уведомления") + (sd && ageDays(sd) > STALE_DAYS ? " · могло быть уже снято" : " · портал не перепроверяется")
+    : "ещё не перепроверялось";
   const kv = [["Тип", TYPE_RU[d.ty]||"не указан"], ["Сделка", d.tx==="rent"?"аренда":d.tx==="sale"?"продажа":"—"], ["Площадь", d.m?fmt(d.m)+" м²":"—"],
     ["Этаж", d.fn!=null?floorRu(d.fn):"не указан"], ["Спален", d.bd||"—"], ["Год постройки", d.yr||"—"],
     ["Цена за м²", d.pm ? fmt(d.pm)+(d.tx==="rent"?" €/м² в мес.":" €/м²") : "—"], ["Продаёт", d.pv==="yes" ? "частный владелец" : (d.ags||[d.ag]).join(", ")]];
@@ -607,7 +612,7 @@ function openSheet(d, from){
     <div><div class="bigprice">${d.p?(d.px?"от ":"")+eur(d.p)+(d.tx==="rent"?" в месяц":""):"Цена по запросу"}</div>
       <a class="btn openbtn" href="${esc(d.u)}" target="_blank" rel="noopener">Открыть объявление на ${esc(srcName(d))}${d._own && d._own!==d.p ? " · "+eur(d._own) : ""} ↗</a>
       ${vm!=null ? `<p class="cmp">${vm<0?"На "+Math.abs(vm)+"% дешевле":vm>0?"На "+vm+"% дороже":"Как"} средней цены за м² в районе «${esc(nbName(d.nb))}» (${fmt(d.tx==="sale"?a[3]:a[4])} €/м²${d.tx==="rent"?" в мес.":""}) по <a href="${MAP_URL}" target="_blank" rel="noopener">карте районов</a>.</p>` : ""}</div>
-    <div class="panel"><h3>Оригиналы</h3>${origins.map(([n,u,p,c,h]) => `<a class="orig" href="${esc(u)}" target="_blank" rel="noopener"><div><b>${esc(n)}</b><small>${p?eur(p)+(d.tx==="rent"?" в мес.":""):"цена не указана"}${h&&h.length>1?` · было ${eur(h[h.length-2][1])}`:""}</small><span class="meta">${ckText(c,u)}</span></div><span>Открыть ↗</span></a>`).join("")}
+    <div class="panel"><h3>Оригиналы</h3>${origins.map(([n,u,p,c,h,sd]) => `<a class="orig" href="${esc(u)}" target="_blank" rel="noopener"><div><b>${esc(n)}</b><small>${p?eur(p)+(d.tx==="rent"?" в мес.":""):"цена не указана"}${h&&h.length>1?` · было ${eur(h[h.length-2][1])}`:""}</small><span class="meta">${ckText(c,u,sd)}</span></div><span>Открыть ↗</span></a>`).join("")}
       <p class="cmp" style="margin:0">Фото, описание и контакты — на странице источника.</p></div>
     <div class="panel"><h3>Характеристики</h3><dl class="kv">${kv.map(([k,v])=>`<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div>
     <div class="panel"><h3>История</h3><ul class="tl">${hist.length ? hist.map(([t,x])=>`<li><time>${t?ruDate(t):"сейчас"}</time><span>${x}</span></li>`).join("") : "<li><time>—</time><span>Дата на сайте не указана.</span></li>"}</ul></div>
