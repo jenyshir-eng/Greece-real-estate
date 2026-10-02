@@ -25,7 +25,7 @@ GEOJSON = _cfg.get("geojson", "data/sources/thessaloniki_districts.geojson")
 SITE_URL = _cfg.get("site_url", "https://radar.jenyshir.com")
 MAP_URL = _cfg.get("map_url", "https://jenyshir.com/ru/maps/thessaloniki/")
 SCHEDULE = [tuple(x) for x in _cfg.get("schedule", [[10, 13], [18, 43]])]  # update starts, Europe/Athens
-REMAX_AREAS = _cfg.get("remax_areas", ["108", "109"])
+REMAX_AREAS = _cfg.get("remax_areas", ["108", "109", "110"])  # 110 = rest of the prefecture
 XE_POSTAL = tuple(_cfg.get("xe_postal_prefixes", ["54", "55", "56", "570", "571", "572"]))
 VRISKO_AREAS = _cfg.get("vrisko_areas", [
     "thessalonikis", "thessaloniki", "kalamaria", "pylaia", "thermi", "neapoli", "evosmos", "stavroupoli", "peraia",

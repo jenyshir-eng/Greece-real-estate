@@ -23,6 +23,7 @@ import subprocess
 import sys
 import tempfile
 import urllib.parse
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -53,46 +54,83 @@ def domain(url):
 GREEK = dict(zip("αβγδεζηθικλμνξοπρσςτυφχψω", ["a", "v", "g", "d", "e", "z", "i", "th", "i", "k", "l", "m", "n", "x", "o",
                                                    "p", "r", "s", "s", "t", "y", "f", "ch", "ps", "o"]))
 REAL_ESTATE = re.compile(r"ακίνητ|ακινητ|μεσιτ|real estate|properties|πώληση|ενοικίαση|πωληση|ενοικιαση", re.I)
+# what a real estate agency site is full of (a travel or furniture site mentions "ενοικίαση" once or twice)
+REAL_ESTATE_MANY = re.compile(r"διαμέρισμα|διαμερισμα|μονοκατοικ|οικόπεδο|οικοπεδο|μεζονέτα|μεζονετα|τ\.μ\.|\bτμ\b|m²|"
+                              r"μεσιτ|ακίνητ|ακινητ|real estate|apartment|for sale|for rent|πώληση|πωληση|ενοικίαση|ενοικιαση", re.I)
 
 
 def latin(s):
     return "".join(GREEK.get(c, c) for c in plain(s))
 
 
-def site_guesses(name):
+# words too common to identify an agency on their own (capital.gr, home.gr, luxury...)
+COMMON = set("""home homes house houses capital luxury property properties golden gold best smart city prime top new real
+estate estates group invest investment investments greek greece hellenic hellas athens athina attica attiki global
+international elite premium royal urban dream ideal perfect key keys one first star sun sea blue green white red alpha
+omega delta meta pro plus max land lands living life build building buildings construction development developments
+consulting consultants services service broker brokers agency agents realty realtor homefinders finders find space
+spaces point center centre plaza world euro europe med mediterranean olympus olympic acropolis riviera south north
+east west""".split())
+
+
+def name_words(name):
     words = [w for w in re.findall(r"[a-z0-9]+", latin(re.sub(r"\(.*?\)", " ", name)))
              if len(w) > 1 and not re.fullmatch(NAME_NOISE.replace("\\b", "").strip("()"), w)]
-    words = [w for w in words if w not in ("mesitiko", "grafeio", "real", "estate", "ike", "oe", "ee", "epe", "ae")]
+    return [w for w in words if w not in ("mesitiko", "grafeio", "real", "estate", "ike", "oe", "ee", "epe", "ae")]
+
+
+def site_guesses(name):
+    words = name_words(name)
     if not words:
         return []
-    joined, first = "".join(words[:3]), words[0]
-    stems = [joined, "-".join(words[:3]), first]
-    # Greek ου is written "ou" in most domains (papadopoulos), υ alone "y" or "i"
-    stems = list(dict.fromkeys(x for st in stems for x in (st.replace("oy", "ou"), st)))
+    stems = []
+    if len(words) >= 2:
+        stems += ["".join(words[:3]), "-".join(words[:3]), "".join(words[:2])]
+    # one word alone (not a common one) only with a real estate suffix: negas -> negasrealestate.gr;
+    # a bare word domain (lithos.gr, horizon.gr, holiday.gr) is usually someone else's business
+    single = words[0] if words[0] not in COMMON and len(words[0]) >= 4 else ""
+    variants = lambda st: list(dict.fromkeys((st.replace("oy", "ou"), st)))  # Greek ου is usually "ou" in domains
     out = []
-    for st in stems:
-        if len(st) < 4:
-            continue
-        for tpl in ("{}.gr", "{}.com", "{}realestate.gr", "{}-realestate.gr", "{}.com.gr", "{}estate.gr"):
-            out.append("https://" + tpl.format(st))
-    return list(dict.fromkeys(out))[:14]
+    for st in [v for x in stems for v in variants(x)]:
+        if len(st) >= 5:
+            out += ["https://" + t.format(st) for t in ("{}.gr", "{}.com", "{}realestate.gr", "{}-realestate.gr", "{}.com.gr", "{}estate.gr")]
+    for st in variants(single) if single else []:
+        tpls = ("{}realestate.gr", "{}-realestate.gr", "{}estate.gr", "{}properties.gr", "{}realestate.com", "{}homes.gr")
+        if len(st) >= 9:  # a long coined name (filoktimatiki.gr): its bare domain too, checked against the title
+            tpls = ("{}.gr", "{}.com") + tpls
+        out += ["https://" + t.format(st) for t in tpls]
+    return list(dict.fromkeys(out))[:16]
+
+
+def names_agency(page, row):
+    """The page names the agency: its distinctive words all appear (Greek or Latin spelling)."""
+    low, lat = plain(page[:300000]), latin(page[:300000])
+    words = [w for w in name_words(row["name"]) if len(w) >= 3]
+    if not any(w not in COMMON for w in words):
+        return False
+    # every word of the name, common ones too: "holiday" alone is on any travel site, "holiday greece" less so
+    keys = words
+    compact = re.sub(r"[^a-zα-ω0-9]", "", low) + " " + re.sub(r"[^a-z0-9]", "", lat)
+    if len(keys) >= 2:  # the name as written, words next to each other ("horizon home", not "horizon ... home")
+        phrase = "".join(keys[:3])
+        return phrase in compact or phrase.replace("oy", "ou") in compact
+    return keys[0] in low or keys[0] in lat or keys[0].replace("oy", "ou") in lat
 
 
 def find_site(row):
     """First guessed domain that answers, names the agency and is about real estate."""
     import urllib.request
-    key = [w for w in latin(name_key(row["name"])).split() if len(w) >= 4] + \
-          [w for w in name_key(row["name"]).split() if len(w) >= 4]
-    if not key:
-        return ""
     for url in site_guesses(row["name"]):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 SpitiRadar/0.1 (+https://spitiradar.gr/opt-out)"})
             page = urllib.request.urlopen(req, timeout=12).read(400_000).decode("utf-8", "replace")
         except Exception:
             continue
-        low = plain(page)
-        if REAL_ESTATE.search(page) and any(k in low or k in latin(page[:200000]) for k in key):
+        bare = re.match(r"https://[a-z0-9]+\.(gr|com)$", url) and len(name_words(row["name"])) == 1
+        title = re.search(r"<title[^>]*>([^<]*)", page, re.I)
+        if bare and not (title and names_agency(title.group(1), row)):
+            continue  # a bare one-word domain counts only when its title names the agency
+        if len(REAL_ESTATE_MANY.findall(page)) >= 8 and names_agency(page, row):
             return url
     return ""
 
@@ -122,9 +160,11 @@ def main():
     ap.add_argument("--no-directories", action="store_true", help="skip the directories (recheck only)")
     ap.add_argument("--no-recheck", action="store_true", help="skip the second look at broken sites")
     ap.add_argument("--dry-run", action="store_true", help="change nothing, send nothing")
+    ap.add_argument("--quiet", action="store_true", help="no Telegram summary (first build of a registry)")
     a = ap.parse_args()
-    reg = list(csv.DictReader(open(REGISTRY, encoding="utf-8")))
-    fields = list(reg[0].keys())
+    rd = csv.DictReader(open(REGISTRY, encoding="utf-8"))
+    reg = list(rd)
+    fields = list(rd.fieldnames)
     known_dom = {d for r in reg for d in (r["domain"], domain(r["website"]), domain(r["final_url"])) if d}
     known_url = {u for r in reg for u in (r.get("vrisko_url"), r.get("xe_url")) if u}
     known_name = {name_key(r["name"]) for r in reg if name_key(r["name"])}
@@ -156,8 +196,10 @@ def main():
         print(f"{len(cands)} directory entries, {len(added)} new agencies", file=sys.stderr)
         with ThreadPoolExecutor(8) as ex:
             guesses = list(ex.map(lambda r: "" if r["website"] else find_site(r), added))
+        # one guessed site for several agencies: it belongs to none of them for sure
+        taken = Counter(domain(u) for u in guesses if u)
         for row, url in zip(added, guesses):
-            if url and domain(url) not in known_dom:
+            if url and domain(url) not in known_dom and taken[domain(url)] == 1:
                 row.update(website=url, domain=domain(url), found_via=row["found_via"] + "; site by domain guess")
         print(f"sites found by domain guess: {sum(1 for g in guesses if g)}", file=sys.stderr)
 
@@ -194,7 +236,8 @@ def main():
         w.writerow([datetime.date.today().isoformat(), stats.get("directory_entries", ""), stats["added"],
                     stats["added_with_site"], stats["added_collectable"], stats["rechecked"], stats["came_back"],
                     "; ".join(r["name"] for r in new_sites + became_ok)[:1000]])
-    telegram(stats, new_sites, became_ok, [r for r in added if r not in new_sites])
+    if not a.quiet:
+        telegram(stats, new_sites, became_ok, [r for r in added if r not in new_sites])
 
 
 def telegram(stats, new_sites, came_back, others):
