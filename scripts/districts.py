@@ -77,6 +77,8 @@ PATTERNS = [
     ("axios", r"κυμινα|kymina|μαλγαρα|malgara|αξιοσ\b"),
 ]
 _compiled = [(i, re.compile(p)) for i, p in PATTERNS if i in AREAS]  # only areas of this city's map
+# another city's map brings its own name patterns (property "pattern" of each area)
+_compiled += [(i, re.compile(a["pattern"])) for i, a in AREAS.items() if a.get("pattern") and i not in dict(PATTERNS)]
 
 
 def by_name(text, district=""):

@@ -466,10 +466,13 @@ function current(){
 /* ---------- phrase -> filters ---------- */
 const AREA_INDEX = (() => {
   const out = [];
-  Object.entries(MAPAREA).forEach(([id,a]) => { [a[0],a[1]].forEach(n => n && out.push([norm(n).slice(0, Math.max(4, norm(n).length-2)), "nb:"+id, a[0]])); });
+  // "Колонаки - Ликавитос": each part of a double name finds the area
+  Object.entries(MAPAREA).forEach(([id,a]) => { [a[0],a[1]].flatMap(n => (n||"").split(/\s+[-–]\s+/)).forEach(n => n && out.push([norm(n).slice(0, Math.max(4, norm(n).length-2)), "nb:"+id, a[0]])); });
   // "глифада" also matches "в Глифаде": a final vowel of a long word is dropped (Russian cases)
   Object.entries(AREA_WORDS).forEach(([dist,w]) => w.split(" ").filter(Boolean).forEach(x => out.push([x.length > 5 ? x.replace(/[аяоеиыуюь]$/, "") : x, dist, AREA_RU[dist]])));
-  return out.sort((a,b)=>b[0].length-a[0].length);
+  // longest name first; a map area beats the district word for the same place ("колонаки": Kolonaki, not "centre")
+  const w = x => x[0].length + (x[1].startsWith("nb:") ? 3 : 0);
+  return out.sort((a,b)=>w(b)-w(a));
 })();
 function num(s){ s=s.replace(/\s/g,"");
   // 250.000 / 250,000 are thousands, 1,5 is a decimal
