@@ -301,7 +301,7 @@ def drop_line(p, d):
     m = next(m for m in p["members"] if m["url"] == url)
     q = dict(p, url=url, price=new, source=PORTAL.get(m["source_domain"], m["agency"]))  # the link is the dropped one
     text = line(q).replace(f"<b>{money(new, p['tx'])}</b>",
-                           f"<b>{money(new, p['tx'])}</b> <s>{money(old, p['tx'])}</s> (−{str(pct).replace('.', ',')}%)", 1)
+                           f"<b>{money(new, p['tx'])}</b> (было {money(old, p['tx'])}, −{str(pct).replace('.', ',')}%)", 1)
     return text
 
 
