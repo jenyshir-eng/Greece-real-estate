@@ -29,6 +29,7 @@ import urllib.request
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import city  # noqa: E402
 import districts  # noqa: E402
 
 LISTINGS = "data/listings/listings_normalized.csv"
@@ -39,7 +40,8 @@ DROP_STATE = "data/listings/notified_drops.txt"
 HISTORY = "data/listings/price_history.csv"
 REPORT = "data/listings/update_report.json"
 LOG = "data/listings/notify_log.csv"
-SEARCH_URL = "https://radar.jenyshir.com"
+SEARCH_URL = city.SITE_URL
+TITLE = "Spiti Radar" + (" · " + city.TELEGRAM_TITLE if city.TELEGRAM_TITLE else "")  # which city the message is about
 MAX_ITEMS = 25
 LIMIT = 3900          # characters per message (Telegram: 4096), counted in UTF-16 units like Telegram
 DROP_DAYS = 3         # price drops newer than this are sent
@@ -54,6 +56,8 @@ DISTRICT_RU = {"Καλαμαριά": "Каламария", "Πυλαία": "Пи
                "Λαγκαδάς": "Лангадас", "Χαλκηδόνα": "Халкидона", "Βόλβη": "Волви",
                "Θεσσαλονίκη-Ανατολικά": "Салоники, восток", "Θεσσαλονίκη-Κέντρο": "Салоники, центр",
                "Θεσσαλονίκη": "Салоники"}
+if city.AREA_RU is not None:
+    DISTRICT_RU = city.AREA_RU
 PORTAL = {"xe.gr": "XE", "spitogatos.gr": "Spitogatos", "spiti24.gr": "Spiti24", "tospitimou.gr": "Tospitimou",
           "plot.gr": "Plot", "indomio.gr": "Indomio", "t.me": "Telegram"}
 
@@ -104,16 +108,16 @@ def summary(members):
             # the region is confirmed when a listing of the group names the place itself (title, link,
             # place field, the page read again, its map point), not only guessed from the agency
             "region_ok": any(m.get("region_how") in ("listing", "page", "coordinates") or
-                             m.get("area") not in ("", "Θεσσαλονίκη") for m in members), "beds": num(first("bedrooms")),
+                             m.get("area") not in ("", city.GENERIC) for m in members), "beds": num(first("bedrooms")),
             "sites": len(members), "source": PORTAL.get(r["source_domain"], r["agency"])}
 
 
 def matches(p, f):
     if f.get("transaction") and p["tx"] != f["transaction"]:
         return False
-    if f.get("region", "thessaloniki") and p["region"] != f.get("region", "thessaloniki"):
+    if f.get("region", city.KEY) and p["region"] != f.get("region", city.KEY):
         return False
-    if f.get("region", "thessaloniki") and not p["region_ok"] and not f.get("keep_unconfirmed_region"):
+    if f.get("region", city.KEY) and not p["region_ok"] and not f.get("keep_unconfirmed_region"):
         return False  # e.g. a Veria flat of a Thessaloniki agency whose page we could not place yet
     if f.get("types") and p["type"] not in f["types"]:
         return False
@@ -153,7 +157,7 @@ def floor_ru(n):
 
 
 def line(p):
-    place = districts.AREAS[p["nb"]]["ru"] if p["nb"] in districts.AREAS else DISTRICT_RU.get(p["area"], p["area"] or "Салоники")
+    place = districts.AREAS[p["nb"]]["ru"] if p["nb"] in districts.AREAS else DISTRICT_RU.get(p["area"], p["area"] or city.NAME_RU)
     bits = [f"{TYPE_RU.get(p['type'], 'объект')} {int(p['m2'])} м²" if p["m2"] else TYPE_RU.get(p["type"], "объект"),
             floor_ru(p["floor"])]
     price = f"{int(p['price']):,}".replace(",", " ") + (" €/мес" if p["tx"] == "rent" else " €") if p["price"] else "цена по запросу"
@@ -344,7 +348,7 @@ def main():
             print("first run: bot token or chat missing, nothing recorded yet", file=sys.stderr)
             return
         names = "\n".join("• " + html_escape(f["name"]) for f in filters)
-        ok, errors = send(token, chat, [f"✅ <b>Spiti Radar</b>: рассылка подключена.\nПосле каждого сбора пришлю новые объекты "
+        ok, errors = send(token, chat, [f"✅ <b>{TITLE}</b>: рассылка подключена.\nПосле каждого сбора пришлю новые объекты "
                                         f"и снижения цен по условиям:\n{names}"])
         log_delivery(1, ok, errors, "hello")
         if ok:
@@ -356,7 +360,7 @@ def main():
     hist = load_history()
     since = (datetime.date.today() - datetime.timedelta(days=DROP_DAYS)).isoformat()
     new_ids = {id(p) for p in new}
-    blocks, new_drops, n_new, n_drop = [("🏠 <b>Spiti Radar</b>: новое с прошлого обновления", [])], set(), 0, 0
+    blocks, new_drops, n_new, n_drop = [(f"🏠 <b>{TITLE}</b>: новое с прошлого обновления", [])], set(), 0, 0
     for f in filters:
         hits = sorted((p for p in new if matches(p, f)), key=lambda p: p["price"] or 1e12)
         if hits:

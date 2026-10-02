@@ -24,11 +24,13 @@ import sys
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import city  # noqa: E402
 
 UPDATE_LOG = "data/listings/update_log.csv"
-SCHEDULE = [(10, 13), (18, 43)]  # the update routines, Europe/Athens
+SCHEDULE = city.SCHEDULE  # the update routines, Europe/Athens
 NOTIFY_LOG = "data/listings/notify_log.csv"
-SITE = "https://radar.jenyshir.com/"
+SITE = city.SITE_URL.rstrip("/") + "/"
+TITLE = "Spiti Radar" + (" · " + city.TELEGRAM_TITLE if city.TELEGRAM_TITLE else "")
 
 
 def last_row(path):
@@ -83,7 +85,7 @@ def main():
     age = (now - when(run["at"])).total_seconds() / 3600 if run else None
     if run is None or when(run["at"]) < due:
         since = when(run["at"]).strftime("%d.%m %H:%M UTC") if run else "никогда"
-        send(f"⚠️ <b>Spiti Radar не обновлялся</b> с {since}. Плановый запуск не сохранил данные. "
+        send(f"⚠️ <b>{TITLE} не обновлялся</b> с {since}. Плановый запуск не сохранил данные. "
              f"Запускаю обновление повторно, итог придёт отдельным сообщением.")
         print(f"STALE: last saved run {since}", file=sys.stderr)
         sys.exit(2)
@@ -100,7 +102,7 @@ def main():
         problems.append(f"сайт radar.jenyshir.com показывает данные за {d}, а последний запуск {run['at'][:10]}: "
                         f"Cloudflare не пересобрал страницу")
     if problems:
-        send("⚠️ <b>Spiti Radar</b>: " + "; ".join(problems))
+        send(f"⚠️ <b>{TITLE}</b>: " + "; ".join(problems))
         print("PROBLEMS: " + "; ".join(problems), file=sys.stderr)
         sys.exit(3)
     print(f"OK: last run {run['at']} ({age:.1f} h ago), {run['new']} new, site date {d}", file=sys.stderr)

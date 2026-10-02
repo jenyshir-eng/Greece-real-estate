@@ -29,11 +29,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from check_agency_sites import check  # noqa: E402
 from normalize_listings import plain  # noqa: E402
 
-REGISTRY = "data/sources/agencies_thessaloniki.csv"
+import city  # noqa: E402
+
+REGISTRY = city.REGISTRY
 LOG = "data/sources/discovery_log.csv"
-VRISKO_AREAS = ["thessalonikis", "thessaloniki", "kalamaria", "pylaia", "thermi", "neapoli", "evosmos",
-                "stavroupoli", "peraia", "oraiokastro", "panorama", "sykies", "ampelokipoi", "polichni",
-                "epanomi", "michaniona", "chalastra", "sindos", "lagkadas"]
+VRISKO_AREAS = city.VRISKO_AREAS
 RECHECK = ("unreachable", "error", "bot_check", "http_")
 NAME_NOISE = r"\b(μεσιτικο|μεσιτικα|γραφειο|γραφεια|κτηματομεσιτικο|κτηματομεσιτικη|real|estate|realestate|properties|" \
              r"property|ακινητα|ακινητων|συμβουλοι|ικε|επε|οε|εε|ae|ike|ltd|group|the)\b"
@@ -110,7 +110,7 @@ def directories(tmp):
         for r in csv.DictReader(open(vr, encoding="utf-8")):
             out.append(dict(r, found_via="vrisko.gr (weekly)"))
     xe = os.path.join(tmp, "xe.csv")
-    if run([sys.executable, "scripts/collect_xe_agencies.py", xe]) and os.path.exists(xe):
+    if run([sys.executable, "scripts/collect_xe_agencies.py", xe] + list(city.XE_POSTAL)) and os.path.exists(xe):
         for r in csv.DictReader(open(xe, encoding="utf-8")):
             out.append({"name": r["name"], "website": "", "street": r["address"], "postal_code": r["postal_code"],
                         "xe_url": r["xe_url"], "found_via": "xe.gr (weekly)"})
@@ -204,7 +204,7 @@ def telegram(stats, new_sites, came_back, others):
         return
     import notify_telegram as nt
     esc = nt.html_escape
-    lines = [f"🔎 <b>Spiti Radar</b>: еженедельный поиск агентств",
+    lines = [f"🔎 <b>Spiti Radar{' · ' + city.TELEGRAM_TITLE if city.TELEGRAM_TITLE else ''}</b>: еженедельный поиск агентств",
              f"В справочниках vrisko.gr и xe.gr: {stats.get('directory_entries', '—')} записей, новых агентств {stats['added']}."]
     pieces = [f"• {esc(r['name'])} — <a href=\"{esc(r['final_url'] or r['website'])}\">сайт</a>" for r in new_sites]
     blocks = [("\n".join(lines), [])]

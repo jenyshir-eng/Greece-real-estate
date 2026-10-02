@@ -39,8 +39,11 @@ import urllib.request
 import urllib.robotparser
 from concurrent.futures import ThreadPoolExecutor
 
-REGISTRY = "data/sources/agencies_thessaloniki.csv"
-OUT = "data/listings/listings_thessaloniki.csv"
+sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+import city  # noqa: E402
+
+REGISTRY = city.REGISTRY
+OUT = city.AGENCY_LISTINGS
 REPORT = "data/listings/collect_report.csv"
 # pages read in daily mode that turned out not to be listings: not read again
 NOT_LISTINGS = "data/listings/not_listings.txt"

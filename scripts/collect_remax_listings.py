@@ -145,11 +145,15 @@ def paging(page, cat, area):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--areas", nargs="+", default=["108", "109"])
+    ap.add_argument("--areas", nargs="+", default=None, help="remax.gr area ids (default: the city's, scripts/city.py)")
     ap.add_argument("--coords", type=int, default=60, help="property pages opened for the map point (0 = none)")
     ap.add_argument("--max-minutes", type=float, default=25, help="time budget for the whole run (result pages + map points)")
     ap.add_argument("--max-pages", type=int, default=0, help="limit result pages (test runs)")
     a = ap.parse_args()
+    if a.areas is None:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import city
+        a.areas = city.REMAX_AREAS
     global DEADLINE
     DEADLINE = time.time() + a.max_minutes * 60
     now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")

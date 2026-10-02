@@ -16,6 +16,7 @@ import re
 import sys
 
 sys.path.insert(0, "scripts")
+import city  # noqa: E402
 import districts  # noqa: E402
 
 PORTAL_NAME = {"xe.gr": "XE.gr", "spitogatos.gr": "Spitogatos", "spiti24.gr": "Spiti24",
@@ -90,7 +91,7 @@ def short_title(r):
 def short_location(r):
     """The address line only when it says something the title does not."""
     lr = r["location_raw"][:40]
-    return "" if words(lr) <= words(r["title"]) | {"θεσσαλονίκη", "θεσσαλονίκης", "ελλάδα", "greece"} else lr
+    return "" if words(lr) <= words(r["title"]) | {"θεσσαλονίκη", "θεσσαλονίκης", "ελλάδα", "greece", city.GENERIC.lower()} else lr
 
 
 def map_point(members):
@@ -122,7 +123,7 @@ for members in groups.values():
                  "fn": floor_code(first("floor"), r["title"]), "yr": first("year_built"), "rg": r["region"], "nb": first("neighbourhood"),
                  # district: the one of the map area if known, else the most specific one in the group
                  "ar": (districts.AREAS[first("neighbourhood")]["district"] if first("neighbourhood") in districts.AREAS
-                        else next((m["area"] for m in members if m.get("area") not in ("", "Θεσσαλονίκη")), first("area"))),
+                        else next((m["area"] for m in members if m.get("area") not in ("", city.GENERIC)), first("area"))),
                  "lr": short_location(r), "ld": newest.get("listing_date", ""),
                  "lk": newest.get("listing_date_kind", ""), "fs": min((m["first_seen"] for m in members if m.get("first_seen")), default=""),
                  "src": r.get("source_domain", ""), "pv": r.get("private_owner", ""),
@@ -137,7 +138,7 @@ for members in groups.values():
 # map areas for the page: id -> [Russian name, Greek name, district, sale EUR/m2, rent EUR/m2]
 areas = {i: [a["ru"], a["gr"], a["district"], a.get("sale"), a.get("rent")] for i, a in districts.AREAS.items()}
 # map outlines: [id, [[lon, lat], ...] per ring]; areas without a polygon are drawn at their centre
-geo = json.load(open("data/sources/thessaloniki_districts.geojson", encoding="utf-8"))
+geo = json.load(open(city.GEOJSON, encoding="utf-8")) if os.path.exists(city.GEOJSON) else {"features": [], "areas_without_polygon": []}
 outlines = []
 for f in geo["features"]:
     g, pid = f["geometry"], f["properties"].get("id")
@@ -156,7 +157,7 @@ def sources():
     for r in csv.DictReader(open("data/listings/listings_normalized.csv", encoding="utf-8")):
         count[r["source_domain"]] = count.get(r["source_domain"], 0) + 1
     report = {r["domain"]: r for r in csv.DictReader(open("data/listings/collect_report.csv", encoding="utf-8"))}
-    reg = list(csv.DictReader(open("data/sources/agencies_thessaloniki.csv", encoding="utf-8")))
+    reg = list(csv.DictReader(open(city.REGISTRY, encoding="utf-8")))
     names = {r["domain"]: r["name"] for r in reg}
     out = []
     for d, n in sorted(count.items(), key=lambda kv: -kv[1]):
@@ -264,6 +265,10 @@ def report():
     return r
 
 
+# what the page says about the city (the template keeps the Thessaloniki tables as defaults)
+CITY = {"key": city.KEY, "name": city.NAME_RU, "gen": city.NAME_RU_GEN, "generic": city.GENERIC,
+        "map_url": city.MAP_URL if os.path.exists(city.GEOJSON) else "", "has_map": bool(outlines or centres),
+        "area_ru": city.AREA_RU, "area_words": city.AREA_WORDS, "map_box": city.MAP_BOX, "examples": city.EXAMPLES}
 page = open("web/search_template.html", encoding="utf-8").read()
 data = json.dumps(pack(rows), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 asof = max((r["scraped_at"] for r in csv.DictReader(open("data/listings/listings_normalized.csv", encoding="utf-8"))), default="")[:10]
@@ -272,6 +277,7 @@ open(sys.argv[1], "w", encoding="utf-8").write(page.replace("__DATA__", data).re
                                                  .replace("__MAPAREAS__", json.dumps(areas, ensure_ascii=False))
                                                  .replace("__OUTLINES__", json.dumps(outlines, separators=(",", ":")))
                                                  .replace("__CENTRES__", json.dumps(centres))
+                                                 .replace("__CITY__", json.dumps(CITY, ensure_ascii=False))
                                                  .replace("__SOURCES__", json.dumps(sources(), ensure_ascii=False, separators=(",", ":")))
                                                  .replace("__REPORT__", json.dumps(report(), ensure_ascii=False, separators=(",", ":"))))
 print(f"{sum(len(g) for g in groups.values())} listings, {len(rows)} properties -> {sys.argv[1]}")

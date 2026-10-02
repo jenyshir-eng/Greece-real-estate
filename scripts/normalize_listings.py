@@ -9,10 +9,15 @@ Usage: python3 scripts/normalize_listings.py
 """
 import csv
 import re
+import os
+import sys
 import unicodedata
 from collections import Counter
 
-IN = "data/listings/listings_thessaloniki.csv"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import city  # noqa: E402
+
+IN = city.AGENCY_LISTINGS
 IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by their own scripts
               "data/listings/listings_remax.csv",   # RE/MAX network result pages (scripts/collect_remax_listings.py)
               "data/listings/listings_xe_profiles.csv",  # XE listings from agency pages (scripts/collect_xe_profiles.py)
@@ -22,10 +27,10 @@ IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by 
 PORTALS = ("xe.gr", "remax.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")
 OUT = "data/listings/listings_normalized.csv"
 HINTS = "data/listings/district_hints.csv"  # district read from the page (scripts/refine_districts.py)
-HISTORY = "data/listings/seen_history.csv"
+HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
 ALERT_DAYS = 30  # listings known only from portal alerts / Telegram stay this long
 import datetime as _dt  # noqa: E402
-ALERT_CUTOFF = (_dt.date.today() - _dt.timedelta(days=ALERT_DAYS)).isoformat()  # url -> first_seen, last_seen across collection runs
+ALERT_CUTOFF = (_dt.date.today() - _dt.timedelta(days=ALERT_DAYS)).isoformat()
 
 
 def plain(s):
@@ -58,6 +63,8 @@ AREAS = [
     ("Θεσσαλονίκη-Κέντρο", r"τσιμισκ|tsimisk|μητροπολεωσ|mitropoleos|εγνατια|egnatia|ερμου|βενιζελου|προξενου κορομηλα|παυλου μελα|αγιασ σοφιασ|ναυαρινου|navarinou|κατουνη|ολυμπου|φιλικησ εταιρειασ|κεντρο θεσσαλον|center of thessalon|thessaloniki center|αριστοτελουσ|καμαρα|kamara|ροτοντα|λαδαδικα|βαρδαρ|vardar|ανω πολη|ano poli|αγια σοφια|αγιοσ δημητριοσ|ιπποδρομιου|λευκοσ πυργοσ|δεθ|πανεπιστημι|σκρα|λαχανοκηπ|ξηροκρηνη|ευαγγελιστρια|συντριβανι|παραλια θεσσαλον"),
     ("Θεσσαλονίκη", r"θεσσαλονικ|θεσ/νικ|thes+alonik|salonic|saloniki"),
 ]
+if city.AREAS is not None:  # another city: its districts, the bare city name last
+    AREAS = city.AREAS + [(city.GENERIC, city.GENERIC_RE)]
 # finer level: the areas of Jeny Shir's Thessaloniki map (scripts/districts.py)
 import os as _os, sys as _sys  # noqa: E401
 _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
@@ -98,6 +105,8 @@ OTHER_REGIONS += (r"|ρεντη|rentis|νεο φαληρο|παλαιο φαλη
                   r"σκυδρα|αλμωπ|αριδαι|κρυα βρυσ|πολυγυρο|ιερισσ|ουρανουπολ|αρναια|νικητη|νεοσ μαρμαρασ|τορωνη|"
                   r"σερρων|σιδηροκαστρ|νιγριτ|ηρακλεια σερρ|πολυκαστρ|γουμενισσ|"
                   r"albania|αλβανι|bulgaria|βουλγαρι|turkey|τουρκι|germany|γερμανι|dubai|ντουμπαι")
+if city.OTHER_REGIONS is not None:
+    OTHER_REGIONS = city.OTHER_REGIONS
 _OTHER = re.compile(OTHER_REGIONS)
 
 
@@ -241,45 +250,45 @@ def main():
         # or site menu that may have ended up in location_raw
         own = re.sub(r"(κτηματο)?μεσιτικ\w*\s+γραφει\w*\s*θεσσαλονικ\w*", " ", t) + " " + u
         loc = plain(r["location"])
-        specific = [a for a in AREAS if a[0] != "Θεσσαλονίκη"]
+        specific = [a for a in AREAS if a[0] != city.GENERIC]
         area_name, region, how = "", "unknown", ""
         hit = next((n for n, pat in specific if re.search(pat, own)), "")
         if is_other(own) and not hit:
             region, how = "other", "listing"
         elif hit and not is_other(own):
-            area_name, region, how = hit, "thessaloniki", "listing"
+            area_name, region, how = hit, city.KEY, "listing"
         elif is_other(own):
             region, how = "other", "listing"
-        elif re.search(r"θεσσαλονικ|thessalonik", own):
-            area_name, region, how = "Θεσσαλονίκη", "thessaloniki", "listing"
+        elif re.search(city.GENERIC_RE, own):
+            area_name, region, how = city.GENERIC, city.KEY, "listing"
         else:
-            # the location field: a named place of another region beats a bare "Θεσσαλονίκη"
+            # the location field: a named place of another region beats a bare city.GENERIC
             # (that is often the agency's own address next to the property's place)
             hit = next((n for n, pat in specific if re.search(pat, loc)), "")
             if hit and not is_other(loc):
-                area_name, region, how = hit, "thessaloniki", "listing"
+                area_name, region, how = hit, city.KEY, "listing"
             elif is_other(loc):
                 region, how = "other", "listing"
-            elif re.search(r"θεσσαλονικ|thessalonik", loc):
-                area_name, region, how = "Θεσσαλονίκη", "thessaloniki", "location"
+            elif re.search(city.GENERIC_RE, loc):
+                area_name, region, how = city.GENERIC, city.KEY, "location"
 
         h = hints.get(url)
-        if h and h["region"] and area_name in ("", "Θεσσαλονίκη") and region != "other":
+        if h and h["region"] and area_name in ("", city.GENERIC) and region != "other":
             if h["region"] == "other":
                 # the page names another region; only the listing's own title / link outweighs it
                 if how != "listing":
                     region, area_name, how = "other", "", "page"
             else:
-                region, area_name, how = "thessaloniki", h["area"] or area_name or "Θεσσαλονίκη", "page"
+                region, area_name, how = city.KEY, h["area"] or area_name or city.GENERIC, "page"
         nb = ""
-        if region == "thessaloniki":
+        if region == city.KEY:
             nb, parent = neighbourhood(own, area_name)
             if not nb:
                 nb, parent = neighbourhood(loc, area_name)
             if not nb and h and h.get("neighbourhood") and h["area"] == area_name:
                 nb = OLD_NB.get(h["neighbourhood"], h["neighbourhood"])
                 nb = nb if nb in districts.AREAS and districts.AREAS[nb]["district"] == area_name else ""
-            if nb and area_name in ("", "Θεσσαλονίκη"):
+            if nb and area_name in ("", city.GENERIC):
                 area_name = parent  # the neighbourhood tells the district
 
         dkey = (r["source_domain"], tx, ptype, price, area)
@@ -303,7 +312,7 @@ def main():
             "bedrooms": r["bedrooms"], "floor": r["floor"], "year_built": r["year_built"],
             "region": region, "area": area_name, "neighbourhood": nb, "location_raw": r["location"],
             # where the region comes from: listing (its title, link or place field), location (a bare
-            # "Θεσσαλονίκη" in the place field), page (read again by refine_districts.py),
+            # city.GENERIC in the place field), page (read again by refine_districts.py),
             # coordinates, agency (guessed from the agency's other listings)
             "region_how": how,
             "lat": r["lat"], "lon": r["lon"], "image": r["image"],
@@ -337,7 +346,7 @@ def main():
     print("region:", Counter(x["region"] for x in out))
     print("transaction:", Counter(x["transaction"] or "?" for x in out))
     print("type:", Counter(x["type"] or "?" for x in out).most_common())
-    print("area:", Counter(x["area"] for x in out if x["region"] == "thessaloniki").most_common())
+    print("area:", Counter(x["area"] for x in out if x["region"] == city.KEY).most_common())
 
 
 # approximate centres of the districts above (lat, lon)
@@ -350,13 +359,19 @@ CENTRES = {
     "Χορτιάτης": (40.598, 23.100), "Λαγκαδάς": (40.750, 23.068), "Χαλκηδόνα": (40.775, 22.600),
     "Βόλβη": (40.690, 23.450),
 }
+if city.CENTRES is not None:
+    CENTRES = city.CENTRES
 
 
 def in_thessaloniki_unit(lat, lon):
-    """Rough outline of the Thessaloniki regional unit; the south-east corner is Halkidiki."""
+    """Inside the region of the city (scripts/city.py; for Thessaloniki: the regional unit without Halkidiki)."""
+    return city.in_unit(lat, lon)
+
+
+def _thessaloniki_unit(lat, lon):
     if not (40.40 <= lat <= 41.10 and 22.50 <= lon <= 23.80):
         return False
-    return lon <= 23.20 or lat >= 40.55
+    return lon <= 23.20 or lat >= 40.55  # noqa (the Thessaloniki outline, kept for reference)
 
 
 def office_point_sites(out):
@@ -387,7 +402,7 @@ def fill_map_point(out):
             r["map_lat"], r["map_lon"], r["geo"] = f"{lat:.5f}", f"{lon:.5f}", "site"
         elif centre:
             r["map_lat"], r["map_lon"], r["geo"] = f"{centre[0]:.5f}", f"{centre[1]:.5f}", "area"
-        elif r["region"] == "thessaloniki" and r["area"] in CENTRES:
+        elif r["region"] == city.KEY and r["area"] in CENTRES:
             c = CENTRES[r["area"]]
             r["map_lat"], r["map_lon"], r["geo"] = f"{c[0]:.5f}", f"{c[1]:.5f}", "district"
         n[r["geo"] or "none"] += 1
@@ -408,7 +423,7 @@ def fill_from_coordinates(out):
         except ValueError:
             continue
         if r["region"] != "other" and not in_thessaloniki_unit(lat, lon):
-            generic = r["region"] == "unknown" or (r["area"] in ("", "Θεσσαλονίκη") and r["region_how"] != "listing")
+            generic = r["region"] == "unknown" or (r["area"] in ("", city.GENERIC) and r["region_how"] != "listing")
             if generic and 34 < lat < 42 and 19 < lon < 30:
                 r["region"], r["area"], r["region_how"] = "other", "", "coordinates"  # somewhere else in Greece
                 moved["region other"] += 1
@@ -416,22 +431,22 @@ def fill_from_coordinates(out):
         if r["region"] == "other":
             continue
         inside = districts.by_point(lat, lon)
-        if inside and r["area"] in ("", "Θεσσαλονίκη", districts.AREAS[inside]["district"]):
-            r["region"], r["area"], r["neighbourhood"] = "thessaloniki", districts.AREAS[inside]["district"], inside
+        if inside and r["area"] in ("", city.GENERIC, districts.AREAS[inside]["district"]):
+            r["region"], r["area"], r["neighbourhood"] = city.KEY, districts.AREAS[inside]["district"], inside
             r["region_how"] = r["region_how"] or "coordinates"
             moved["map area"] += 1
             continue
-        if r["area"] not in ("", "Θεσσαλονίκη"):
+        if r["area"] not in ("", city.GENERIC):
             continue  # the listing's text names another district: keep it
         name, (clat, clon) = min(CENTRES.items(), key=lambda c: (c[1][0] - lat) ** 2 + ((c[1][1] - lon) * 0.76) ** 2)
         km = math.hypot(clat - lat, (clon - lon) * 0.76) * 111
-        r["region"] = "thessaloniki"
+        r["region"] = city.KEY
         r["region_how"] = r["region_how"] or "coordinates"
         if km <= 4:
             r["area"] = name
             moved["district"] += 1
         else:
-            r["area"] = r["area"] or "Θεσσαλονίκη"
+            r["area"] = r["area"] or city.GENERIC
             moved["region only"] += 1
     print("from coordinates:", dict(moved), "; ignored office-point sites:", len(office_like))
 
@@ -441,14 +456,14 @@ def fill_from_agency(out):
     Thessaloniki most likely lists this one there too (district stays unknown)."""
     per = {}
     for r in out:
-        if r["region"] in ("thessaloniki", "other") and r.get("source_kind") != "portal":
+        if r["region"] in (city.KEY, "other") and r.get("source_kind") != "portal":
             c = per.setdefault(r["source_domain"], Counter())
             c[r["region"]] += 1
     n = 0
     for r in out:
         c = per.get(r["source_domain"])
-        if r["region"] == "unknown" and c and sum(c.values()) >= 10 and c["thessaloniki"] / sum(c.values()) >= 0.9:
-            r["region"], r["area"], r["region_how"] = "thessaloniki", "Θεσσαλονίκη", "agency"
+        if r["region"] == "unknown" and c and sum(c.values()) >= 10 and c[city.KEY] / sum(c.values()) >= 0.9:
+            r["region"], r["area"], r["region_how"] = city.KEY, city.GENERIC, "agency"
             n += 1
     print("region from agency profile:", n)
 

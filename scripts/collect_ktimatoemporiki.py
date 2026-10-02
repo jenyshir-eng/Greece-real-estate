@@ -47,6 +47,11 @@ PLACE = re.compile(
     r"halkidiki|chalkidiki|kassandra|sithonia|pefkochori|polichrono|kallithea|nikiti|neos-marmaras|"
     r"nea-moudania|nea-kallikratia|nea-potidea|afytos|hanioti|toroni|ouranoupoli|ierissos|vourvourou", re.I)
 REGIONS = ("thessaloniki", "halkidiki", "chalkidiki")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import city  # noqa: E402
+if city.KTIMATO_PLACE:
+    PLACE = re.compile(city.KTIMATO_PLACE, re.I)
+REGIONS = city.KTIMATO_REGIONS
 _last = [0.0]
 
 

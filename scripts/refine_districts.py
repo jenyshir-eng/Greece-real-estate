@@ -25,13 +25,14 @@ from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.dirname(__file__))
 from collect_listings import Site, extract, robots_setup  # noqa: E402
+import city  # noqa: E402
 import districts  # noqa: E402
 from normalize_listings import AREAS, PORTALS, in_thessaloniki_unit, is_other, plain  # noqa: E402
 
 NORMALIZED = "data/listings/listings_normalized.csv"
 HINTS = "data/listings/district_hints.csv"
 FIELDS = ["url", "region", "area", "neighbourhood", "how", "checked_at"]
-SPECIFIC = [(n, p) for n, p in AREAS if n not in ("Θεσσαλονίκη", "Πυλαία-Χορτιάτης")]
+SPECIFIC = [(n, p) for n, p in AREAS if n not in (city.GENERIC, "Πυλαία-Χορτιάτης")]
 BOILERPLATE = re.compile(r"<(script|style|nav|header|footer|aside|noscript|form|select)\b.*?</\1>", re.S | re.I)
 BOILER_BLOCK = re.compile(
     r"<(div|ul|section)\b[^>]*(?:class|id)=[\"'][^\"']*(menu|footer|navbar|sidebar|widget|related|similar|"
@@ -104,7 +105,7 @@ def decide(page):
         if is_other(src) and not area:
             return ("other", "", "", how) if how != "text" else None
         if area:
-            return "thessaloniki", area, nb, how
+            return city.KEY, area, nb, how
     return None
 
 
@@ -126,7 +127,7 @@ def main():
         if r["source_domain"] in PORTALS or r["region"] == "other":
             continue
         # district known from the listing itself: nothing to check
-        if r["area"] not in ("", "Θεσσαλονίκη") and r.get("region_how") != "agency":
+        if r["area"] not in ("", city.GENERIC) and r.get("region_how") != "agency":
             continue
         h = hints.get(r["url"])
         # pages where nothing was found are read again after a week (the reader improves)

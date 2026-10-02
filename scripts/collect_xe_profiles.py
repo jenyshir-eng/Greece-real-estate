@@ -30,7 +30,10 @@ import urllib.request
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/128.0 Safari/537.36 SpitiRadar/0.1 (+https://spitiradar.gr/opt-out)")
-REGISTRY = "data/sources/agencies_thessaloniki.csv"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import city  # noqa: E402
+
+REGISTRY = city.REGISTRY
 OUT = "data/listings/listings_xe_profiles.csv"
 REMOVED = "data/listings/removed.csv"
 DELAY_S = 3.0

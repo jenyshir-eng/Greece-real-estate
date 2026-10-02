@@ -346,15 +346,25 @@ const MAPAREA = __MAPAREAS__;          // id -> [ru, gr, district, sale EUR/m2, 
 const OUTLINES = __OUTLINES__;         // [id, rings[[lon,lat]...]]
 const CENTRES = __CENTRES__;           // id -> [lat, lon] for areas drawn as a circle
 const SOURCES = __SOURCES__;
-const MAP_URL = "https://jenyshir.com/ru/maps/thessaloniki/";
+const CITY = __CITY__;               // the city of this page (scripts/city.py)
+const MAP_URL = CITY.map_url;
+// the static text says Thessaloniki; another city's page renames it here
+(() => {
+  document.title = "Spiti Radar " + CITY.name;
+  document.querySelector(".brand small").textContent = CITY.name;
+  document.querySelector(".hero .eyebrow").textContent = CITY.name + " и область";
+  const opt = document.querySelector('#region option[value="thessaloniki"]'); opt.value = CITY.key; opt.textContent = CITY.name + " и область";
+  document.getElementById("map").setAttribute("aria-label", "Карта районов " + CITY.gen + ": цвет — медианная цена за м² найденных объектов");
+  if (!CITY.has_map) document.getElementById("tab-map").hidden = true;
+})();
 const PORTAL_NAME = {"xe.gr":"XE.gr","spitogatos.gr":"Spitogatos","spiti24.gr":"Spiti24","tospitimou.gr":"Tospitimou","plot.gr":"Plot","indomio.gr":"Indomio","t.me":"Telegram"};
 const NETWORK = {"remax.gr":"RE/MAX","ktimatoemporiki.gr":"Ktimatoemporiki"};
-const AREA_RU = {"Καλαμαριά":"Каламария","Πυλαία":"Пилея","Πανόραμα":"Панорама","Θέρμη":"Терми","Χορτιάτης":"Хортиатис",
+const AREA_RU = CITY.area_ru || {"Καλαμαριά":"Каламария","Πυλαία":"Пилея","Πανόραμα":"Панорама","Θέρμη":"Терми","Χορτιάτης":"Хортиатис",
   "Θερμαϊκός":"Термаикос","Νεάπολη-Συκιές":"Неаполи и Сикиес","Παύλος Μελάς":"Павлос Мелас",
   "Κορδελιό-Εύοσμος":"Корделио и Эвосмос","Αμπελόκηποι-Μενεμένη":"Амбелокипи и Менемени","Ωραιόκαστρο":"Ореокастро","Δέλτα":"Дельта",
   "Λαγκαδάς":"Лангадас","Θεσσαλονίκη-Ανατολικά":"Салоники, восток","Θεσσαλονίκη-Κέντρο":"Салоники, центр",
   "Χαλκηδόνα":"Халкидона","Βόλβη":"Волви","Θεσσαλονίκη":"Салоники"};
-const AREA_WORDS = {"Καλαμαριά":"каламари kalamari","Πυλαία":"пиле пилаи pylaia pilea","Πανόραμα":"панорам panorama","Θέρμη":"терми thermi","Χορτιάτης":"хортиат chortiat",
+const AREA_WORDS = CITY.area_words || {"Καλαμαριά":"каламари kalamari","Πυλαία":"пиле пилаи pylaia pilea","Πανόραμα":"панорам panorama","Θέρμη":"терми thermi","Χορτιάτης":"хортиат chortiat",
   "Θερμαϊκός":"термаикос перея переа эпаноми миханион peraia epanomi michaniona","Νεάπολη-Συκιές":"неаполи сикиес neapoli sykies",
   "Παύλος Μελάς":"павлос мелас ставруполи полихни эвкарпи stavroupoli polichni","Κορδελιό-Εύοσμος":"корделио эвосмос kordelio evosmos","Αμπελόκηποι-Μενεμένη":"амбелокипи менемени ampelokipoi menemeni","Ωραιόκαστρο":"ореокастро ораиокастро oraiokastro","Δέλτα":"дельта синдос калохори sindos kalochori",
   "Λαγκαδάς":"лангадас lagkadas","Θεσσαλονίκη-Ανατολικά":"тумба харилау мартиу toumba charilaou","Θεσσαλονίκη-Κέντρο":"центр kentro center tsimiski цимиски",
@@ -408,10 +418,10 @@ DATA.forEach(d => {
 /* ---------- filter controls ---------- */
 let tx = "sale", types = new Set(["apartment"]), textQ = "", shown = 48;
 (() => {
-  const dist = [...new Set(DATA.filter(d=>d.rg==="thessaloniki").map(d=>d.ar).filter(Boolean))].sort((a,b)=>(AREA_RU[a]||a).localeCompare(AREA_RU[b]||b,"ru"));
+  const dist = [...new Set(DATA.filter(d=>d.rg===CITY.key).map(d=>d.ar).filter(Boolean))].sort((a,b)=>(AREA_RU[a]||a).localeCompare(AREA_RU[b]||b,"ru"));
   const nbCount = {}; DATA.forEach(d => { if(d.nb) nbCount[d.ar+"|"+d.nb]=(nbCount[d.ar+"|"+d.nb]||0)+1; });
   dist.forEach(a => {
-    const o=document.createElement("option"); o.value=a; o.textContent = a==="Θεσσαλονίκη" ? "Салоники, район не указан" : (AREA_RU[a]||a); $("area").appendChild(o);
+    const o=document.createElement("option"); o.value=a; o.textContent = a===CITY.generic ? CITY.name + ", район не указан" : (AREA_RU[a]||a); $("area").appendChild(o);
     Object.keys(nbCount).filter(k=>k.startsWith(a+"|") && nbCount[k]>=3).map(k=>k.split("|")[1])
       .filter(n => MAPAREA[n] && AREA_RU[a] !== MAPAREA[n][0])
       .sort((x,y)=>nbName(x).localeCompare(nbName(y),"ru")).forEach(n => {
@@ -504,7 +514,7 @@ function parsePhrase(raw){
     if ($("area").value !== val && val.startsWith("nb:") && MAPAREA[val.slice(3)]) set("area", MAPAREA[val.slice(3)][2]);
     s = s.replace(re, " "); break; } }
   // what is left and not a filler word is searched as text
-  const STOP = /^(в|во|на|и|с|со|у|по|для|или|район[^\s,.;!?]*|салоник[^\s,.;!?]*|thessalon[^\s,.;!?]*|θεσσαλονικ[^\s,.;!?]*|€|евро|м2|м²|этаж[^\s,.;!?]*|недвижимост[^\s,.;!?]*|ищу|найди|покажи|нужн[^\s,.;!?]*|хочу|около|до|от|the|in|a|an|for|with|σε|στη|στο|και|με|για|€\d*)$/;
+  const STOP = /^(в|во|на|и|с|со|у|по|для|или|район[^\s,.;!?]*|салоник[^\s,.;!?]*|thessalon[^\s,.;!?]*|θεσσαλονικ[^\s,.;!?]*|афин[^\s,.;!?]*|athens|αθην[^\s,.;!?]*|аттик[^\s,.;!?]*|αττικ[^\s,.;!?]*|€|евро|м2|м²|этаж[^\s,.;!?]*|недвижимост[^\s,.;!?]*|ищу|найди|покажи|нужн[^\s,.;!?]*|хочу|около|до|от|the|in|a|an|for|with|σε|στη|στο|και|με|για|€\d*)$/;
   textQ = s.split(/[\s,.;!?]+/).filter(w => w && !STOP.test(w) && !/^\d+$/.test(w)).join(" ");
   syncTx(); syncTypes(); render(true);
 }
@@ -548,8 +558,8 @@ function card(d){
   else if ((d.srcs||[]).every(isPortal)) badges.push(`<span class="bdg">Только ${esc(PORTAL_NAME[d.src]||"портал")}</span>`);
   if (d._mv!=null && d._mv<0) badges.push(`<span class="bdg good">Цена ↓ ${String(Math.abs(d._mv)).replace(".",",")}%</span>`);
   if (d._vm!=null && Math.abs(d._vm)>=10) badges.push(`<span class="bdg ${d._vm<0?"good":"warn"}">${d._vm>0?"+":"−"}${Math.abs(d._vm)}% к району</span>`);
-  const place = d.rg==="other" ? (d.lr||"Другой регион") : (nbName(d.nb) || AREA_RU[d.ar] || "Салоники");
-  const sub = d.rg==="other" ? "вне Салоник" : (nbName(d.nb) && AREA_RU[d.ar] && AREA_RU[d.ar]!==nbName(d.nb) ? AREA_RU[d.ar] : (d.ar==="Θεσσαλονίκη"||!d.ar ? "район не указан" : ""));
+  const place = d.rg==="other" ? (d.lr||"Другой регион") : (nbName(d.nb) || AREA_RU[d.ar] || CITY.name);
+  const sub = d.rg==="other" ? "вне региона" : (nbName(d.nb) && AREA_RU[d.ar] && AREA_RU[d.ar]!==nbName(d.nb) ? AREA_RU[d.ar] : (d.ar===CITY.generic||!d.ar ? "район не указан" : ""));
   const gauge = d._vm!=null ? `<div class="gauge" title="Цена за м² относительно средней по району"><i style="left:calc(${Math.max(2,Math.min(98,50+d._vm*0.8))}% - 1px)"></i></div>` : "";
   const spec = [TYPE_RU[d.ty]||"Объект", d.m?`${fmt(d.m)} м²`:"", d.fn!=null?floorRu(d.fn):"", d.bd?`${d.bd} сп.`:"", d.yr?`${d.yr} г.`:""].filter(Boolean).join(" · ");
   const srcs = (d.srcs||[d.src]).map(s => PORTAL_NAME[s]||NETWORK[s]||"сайт агентства");
@@ -589,7 +599,7 @@ let lastFocus = null;
 function openSheet(d, from){
   lastFocus = from;
   const vm = d._vm, a = MAPAREA[d.nb];
-  const place = d.rg==="other" ? (d.lr||"Другой регион") : [nbName(d.nb), AREA_RU[d.ar]].filter((x,i,arr)=>x && arr.indexOf(x)===i).join(", ") || "Салоники";
+  const place = d.rg==="other" ? (d.lr||"Другой регион") : [nbName(d.nb), AREA_RU[d.ar]].filter((x,i,arr)=>x && arr.indexOf(x)===i).join(", ") || CITY.name;
   // every link with its own price, last check and price changes
   const origins = [[srcName(d), d.u, d._own, d.ck, d.h, d.sd], ...(d.alt||[])];
   const prices = origins.map(o=>o[2]).filter(Boolean);
@@ -629,18 +639,19 @@ let mtx = "sale", selArea = null;
 let zoom = "city";
 const W = 760, H = 640, KX = Math.cos(40.6*Math.PI/180);
 const ALL = (() => { let x0=180,x1=-180,y0=90,y1=-90; OUTLINES.flatMap(o => o[1].flat()).forEach(([x,y]) => { x0=Math.min(x0,x); x1=Math.max(x1,x); y0=Math.min(y0,y); y1=Math.max(y1,y); });
-  Object.values(CENTRES).forEach(([la,lo]) => { if (la>40.45 && la<40.85 && lo>22.7 && lo<23.2){ x0=Math.min(x0,lo); x1=Math.max(x1,lo); y0=Math.min(y0,la); y1=Math.max(y1,la); } });
+  Object.values(CENTRES).forEach(([la,lo]) => { if (!CITY.map_box || (la>CITY.map_box[0]-0.15 && la<CITY.map_box[1]+0.15 && lo>CITY.map_box[2]-0.2 && lo<CITY.map_box[3]+0.2)){ x0=Math.min(x0,lo); x1=Math.max(x1,lo); y0=Math.min(y0,la); y1=Math.max(y1,la); } });
   return {x0:x0-0.01,x1:x1+0.01,y0:y0-0.01,y1:y1+0.01}; })();
-const CITY = {x0:22.87, x1:23.03, y0:40.55, y1:40.69};   // the municipality and its first ring of suburbs
+// the city and its first ring of suburbs
+const CITYBOX = CITY.map_box ? {y0:CITY.map_box[0], y1:CITY.map_box[1], x0:CITY.map_box[2], x1:CITY.map_box[3]} : {x0:22.87, x1:23.03, y0:40.55, y1:40.69};
 let bounds, scale, MW, MH;
-function setZoom(){ bounds = zoom==="city" ? CITY : ALL;
+function setZoom(){ bounds = zoom==="city" ? CITYBOX : ALL;
   scale = Math.min(W/((bounds.x1-bounds.x0)*KX), H/(bounds.y1-bounds.y0));
   MW = Math.round((bounds.x1-bounds.x0)*KX*scale); MH = Math.round((bounds.y1-bounds.y0)*scale); }
 setZoom();
 const px = (lo, la) => [((lo-bounds.x0)*KX*scale).toFixed(1), ((bounds.y1-la)*scale).toFixed(1)];
 function drawMap(){
   // the map shows the market for the deal and property type chosen in the search; other filters would leave most areas empty
-  const rows = DATA.filter(d => d.tx===mtx && d.rg==="thessaloniki" && (!types.size || types.has(d.ty)));
+  const rows = DATA.filter(d => d.tx===mtx && d.rg===CITY.key && (!types.size || types.has(d.ty)));
   $("mapLede").textContent = `Цвет района — медианная цена за м² (${types.size ? [...types].map(t=>TYPE_RU[t].toLowerCase()).join(", ") : "все типы"}, ${mtx==="sale"?"продажа":"аренда"}), районы с тремя и больше объектами. Оранжевые точки — объекты с точным адресом на сайте. Нажмите на район, чтобы увидеть детали и перейти к объектам.`;
   const by = {}; rows.forEach(d => { if (d.nb && d.pm) (by[d.nb] ||= []).push(d.pm); });
   const med = Object.fromEntries(Object.entries(by).filter(([,v])=>v.length>=3).map(([k,v])=>[k, median(v)]));
@@ -678,7 +689,7 @@ function drawMap(){
     ...q.slice(0,3).map((t,i)=>`<span><i style="background:var(--m${i+1})"></i> ${fmt(t)}–${fmt(q[i+1])}</span>`), `<span><i style="background:var(--m4)"></i> от ${fmt(q[3])}</span>`,
     `<span><i style="background:var(--sunk)"></i> мало данных</span>`].join("") : "<span>Под текущие фильтры не подошло ни одного объекта с районом.</span>";
   const info = $("areaInfo");
-  if (!selArea){ info.innerHTML = `<h3>Выберите район</h3><p class="cmp" style="margin:0">Нажмите на район на карте. Всего ${fmt(rows.length)} ${plural(rows.length,"объект","объекта","объектов")} в Салониках и области.</p>`; return; }
+  if (!selArea){ info.innerHTML = `<h3>Выберите район</h3><p class="cmp" style="margin:0">Нажмите на район на карте. Всего ${fmt(rows.length)} ${plural(rows.length,"объект","объекта","объектов")} в регионе «${CITY.name}».</p>`; return; }
   const a = MAPAREA[selArea] || [selArea,"","",null,null], inA = rows.filter(d=>d.nb===selArea), ref = mtx==="sale" ? a[3] : a[4];
   const mm = median(inA.map(d=>d.pm).filter(Boolean)), mp = median(inA.map(d=>d.p).filter(Boolean));
   info.innerHTML = `<h3>${esc(a[0])}</h3><p class="cmp" style="margin:0">${esc(a[1])} · ${esc(AREA_RU[a[2]]||a[2]||"")}</p>
@@ -724,7 +735,7 @@ function drawSources(){
     [portals.length, "порталов через письма-уведомления и Telegram", fmt(sum(portals))+" объявлений"],
     [reg.blocked||0, "сайтов закрыты защитой от ботов", "не обходим по правилам сбора"],
   ].map(([n,l,s]) => `<div class="tile"><b>${fmt(n)}</b><small>${l}</small><small>${s}</small></div>`).join("");
-  $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств Салоник: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio и Plot приходят через письма-уведомления: только новые объявления, с датой письма. XE — ещё и со страниц агентств на xe.gr: последние объявления каждого агентства Салоник, с перепроверкой цены и наличия.`;
+  $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств ${CITY.gen}: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio и Plot приходят через письма-уведомления: только новые объявления, с датой письма. XE — ещё и со страниц агентств на xe.gr: последние объявления каждого агентства ${CITY.gen}, с перепроверкой цены и наличия.`;
   const kindRu = {site:"сайт агентства", network:"сеть агентств", portal:"портал"};
   $("srcrows").innerHTML = rows.map(([name, dom, kind, n, st]) => `<tr><td>${esc(name)}<br><small style="color:var(--muted)">${esc(dom)}</small></td><td>${kindRu[kind]}</td><td class="n">${fmt(n)}</td>
     <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":dom==="xe.gr"?"страницы агентств + письма":"письма-уведомления") : st==="ok" ? "работает" : st==="partial" ? "работает, последний сбор с ошибкой" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
@@ -741,7 +752,7 @@ function show(view){
 document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
 
 /* ---------- wiring ---------- */
-const EXAMPLES = ["Квартира в Каламарии до 200 000 €, 60–90 м²", "Студия до 90 тысяч, не первый этаж", "Аренда в центре до 700 €, 2 спальни",
+const EXAMPLES = CITY.examples || ["Квартира в Каламарии до 200 000 €, 60–90 м²", "Студия до 90 тысяч, не первый этаж", "Аренда в центре до 700 €, 2 спальни",
   "Частник, Тумба, за неделю", "Дом в Терми дешевле рынка", "Διαμέρισμα Πυλαία έως 250.000€"];
 EXAMPLES.forEach(x => { const b=document.createElement("button"); b.type="button"; b.textContent=x; b.addEventListener("click", () => { $("ask").value=x; parsePhrase(x); }); $("examples").appendChild(b); });
 $("askForm").addEventListener("submit", e => { e.preventDefault(); parsePhrase($("ask").value); });
@@ -750,10 +761,10 @@ CTRL.forEach(id => $(id).addEventListener("input", () => render(true)));
 $("more").addEventListener("click", () => { shown += 48; render(false); });
 $("reset").addEventListener("click", () => {
   ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","agency"].forEach(id=>$(id).value="");
-  $("region").value="thessaloniki"; $("fresh").value="90"; $("nofloor").checked=true; $("undated").checked=true; $("below").checked=false; $("cheaper").checked=false;
+  $("region").value=CITY.key; $("fresh").value="90"; $("nofloor").checked=true; $("undated").checked=true; $("below").checked=false; $("cheaper").checked=false;
   tx="sale"; types=new Set(["apartment"]); textQ=""; $("ask").value=""; syncTx(); syncTypes(); render(true);
 });
-$("note").innerHTML = `Сбор с сайтов ~200 агентств Салоник, сетей RE/MAX и Ktimatoemporiki, из писем-уведомлений порталов (Spitogatos, XE, Indomio, Plot, Spiti24, Tospitimou) и публичных Telegram-каналов. Средние цены по районам — <a href="${MAP_URL}" target="_blank" rel="noopener">карта районов Салоник Jeny Shir</a>. Цены и характеристики берутся со страниц источников; перед решением проверяйте оригинал.`;
+$("note").innerHTML = `Сбор с сайтов агентств ${CITY.gen}, сетей RE/MAX и Ktimatoemporiki, из писем-уведомлений порталов (Spitogatos, XE, Indomio, Plot, Spiti24, Tospitimou) и публичных Telegram-каналов. ${MAP_URL ? `Средние цены по районам — <a href="${MAP_URL}" target="_blank" rel="noopener">карта районов ${CITY.gen} Jeny Shir</a>. ` : ""}Цены и характеристики берутся со страниц источников; перед решением проверяйте оригинал.`;
 render(true);
 const start = (location.hash||"").slice(1);
 if (["map","sources"].includes(start)) show(start);
