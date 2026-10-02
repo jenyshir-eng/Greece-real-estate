@@ -22,7 +22,10 @@ IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by 
 PORTALS = ("xe.gr", "remax.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")
 OUT = "data/listings/listings_normalized.csv"
 HINTS = "data/listings/district_hints.csv"  # district read from the page (scripts/refine_districts.py)
-HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen across collection runs
+HISTORY = "data/listings/seen_history.csv"
+ALERT_DAYS = 30  # listings known only from portal alerts / Telegram stay this long
+import datetime as _dt  # noqa: E402
+ALERT_CUTOFF = (_dt.date.today() - _dt.timedelta(days=ALERT_DAYS)).isoformat()  # url -> first_seen, last_seen across collection runs
 
 
 def plain(s):
@@ -171,6 +174,12 @@ def main():
             continue
         if (FOREIGN.search(title) and r["source_domain"] != "t.me") or re.search(r"/(ru|bg|sr|tr|zh|de|he|it|fr|ro)/|[?&](language|lang)=(de|bg|ru|sr|tr|it|fr|ro|zh|he)\b", u):
             drop["translated duplicate"] += 1
+            continue
+        # portals (alert emails) and Telegram cannot be re-checked: after ALERT_DAYS the listing is
+        # most likely sold or withdrawn, so it leaves the search
+        if (r.get("date_source") == "portal alert" or r["source_domain"] == "t.me") and r.get("date_published") \
+                and r["date_published"] < ALERT_CUTOFF:
+            drop["old portal alert"] += 1
             continue
         # keep the query (e.g. ?dios_code=218938 identifies the listing), drop fragments and tracking
         key_url = re.sub(r"#.*$", "", url.lower())
