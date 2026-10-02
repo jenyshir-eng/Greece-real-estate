@@ -141,8 +141,17 @@ def main():
     if not a.url:
         sys.exit("set PORTAL_ALERTS_CSV_URL or pass --url")
     req = urllib.request.Request(a.url, headers={"User-Agent": "SpitiRadar/0.1"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        rows = list(csv.DictReader(io.StringIO(resp.read().decode("utf-8"))))
+    for attempt in range(4):  # Google answers an occasional 5xx / timeout: try again before giving up
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                rows = list(csv.DictReader(io.StringIO(resp.read().decode("utf-8"))))
+            break
+        except (OSError, ValueError) as e:
+            print(f"alerts sheet: {e}, retry {attempt + 1}", file=sys.stderr)
+            if attempt == 3:
+                raise
+            import time
+            time.sleep(20 * (attempt + 1))
     kept = {}
     if os.path.exists(OUT):
         for r in csv.DictReader(open(OUT, encoding="utf-8")):
