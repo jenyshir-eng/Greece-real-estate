@@ -6,12 +6,14 @@ Reads what the update runs commit to main (pull first):
 and checks the public site (radar.jenyshir.com) carries the same data date.
 
 Exit 0: all fine, nothing is sent.
-Exit 2: the last saved run is older than --max-hours: a warning goes to Telegram; whoever runs
-        this then starts the update again (the routine does).
+Exit 2: no run was saved after the last scheduled start (05:47 / 17:47 Athens) that began at
+        least --grace-hours ago: a warning goes to Telegram; whoever runs this then starts the
+        update again (the routine does). A run that is still going (started less than
+        --grace-hours ago) is not a failure.
 Exit 3: the run is fresh, but something else is wrong (Telegram not delivered, site stale):
         a warning goes to Telegram.
 
-Usage: python3 scripts/watchdog.py [--max-hours 8] [--quiet-ok]
+Usage: python3 scripts/watchdog.py [--grace-hours 4]
 """
 import argparse
 import csv
@@ -24,6 +26,7 @@ import urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 UPDATE_LOG = "data/listings/update_log.csv"
+SCHEDULE = [(5, 47), (17, 47)]  # the update routines, Europe/Athens
 NOTIFY_LOG = "data/listings/notify_log.csv"
 SITE = "https://radar.jenyshir.com/"
 
@@ -37,6 +40,17 @@ def last_row(path):
 
 def when(at):
     return datetime.datetime.strptime(at, "%Y-%m-%dT%H:%MZ")
+
+
+def last_due_start(now, grace_hours):
+    """UTC time of the latest scheduled update start that should have finished by now."""
+    from zoneinfo import ZoneInfo
+    athens = ZoneInfo("Europe/Athens")
+    local = now.replace(tzinfo=datetime.timezone.utc).astimezone(athens)
+    starts = [datetime.datetime.combine(local.date() - datetime.timedelta(days=d), datetime.time(h, m), athens)
+              for d in (0, 1, 2) for h, m in SCHEDULE]
+    due = [t for t in starts if t <= local - datetime.timedelta(hours=grace_hours)]
+    return max(due).astimezone(datetime.timezone.utc).replace(tzinfo=None)
 
 
 def site_date():
@@ -61,12 +75,13 @@ def send(text):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max-hours", type=float, default=8)
+    ap.add_argument("--grace-hours", type=float, default=4, help="how long a run may take before it counts as missing")
     a = ap.parse_args()
     now = datetime.datetime.utcnow()
     run = last_row(UPDATE_LOG)
+    due = last_due_start(now, a.grace_hours)
     age = (now - when(run["at"])).total_seconds() / 3600 if run else None
-    if age is None or age > a.max_hours:
+    if run is None or when(run["at"]) < due:
         since = when(run["at"]).strftime("%d.%m %H:%M UTC") if run else "никогда"
         send(f"⚠️ <b>Spiti Radar не обновлялся</b> с {since}. Плановый запуск не сохранил данные. "
              f"Запускаю обновление повторно, итог придёт отдельным сообщением.")
