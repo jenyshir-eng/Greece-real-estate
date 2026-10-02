@@ -99,7 +99,7 @@ def main():
     if err:
         problems.append(err)
     elif d and d < run["at"][:10]:
-        problems.append(f"сайт radar.jenyshir.com показывает данные за {d}, а последний запуск {run['at'][:10]}: "
+        problems.append(f"сайт {SITE} показывает данные за {d}, а последний запуск {run['at'][:10]}: "
                         f"Cloudflare не пересобрал страницу")
     if problems:
         send(f"⚠️ <b>{TITLE}</b>: " + "; ".join(problems))

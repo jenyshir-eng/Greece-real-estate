@@ -467,7 +467,8 @@ function current(){
 const AREA_INDEX = (() => {
   const out = [];
   Object.entries(MAPAREA).forEach(([id,a]) => { [a[0],a[1]].forEach(n => n && out.push([norm(n).slice(0, Math.max(4, norm(n).length-2)), "nb:"+id, a[0]])); });
-  Object.entries(AREA_WORDS).forEach(([dist,w]) => w.split(" ").filter(Boolean).forEach(x => out.push([x, dist, AREA_RU[dist]])));
+  // "глифада" also matches "в Глифаде": a final vowel of a long word is dropped (Russian cases)
+  Object.entries(AREA_WORDS).forEach(([dist,w]) => w.split(" ").filter(Boolean).forEach(x => out.push([x.length > 5 ? x.replace(/[аяоеиыуюь]$/, "") : x, dist, AREA_RU[dist]])));
   return out.sort((a,b)=>b[0].length-a[0].length);
 })();
 function num(s){ s=s.replace(/\s/g,"");

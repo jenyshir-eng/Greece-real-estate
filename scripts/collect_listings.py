@@ -583,7 +583,7 @@ def main():
             # look at the whole site (sitemaps are cheap); only unknown or changed pages are fetched,
             # at most --max-new a day, so big agencies (1000+ listings) fill in over a few days
             a.per_site = 5000
-        for r in csv.DictReader(open(OUT, encoding="utf-8")):
+        for r in (csv.DictReader(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else []):  # a new city has none yet
             k = known_by_site.setdefault(r["source_domain"], {})
             k[r["url"].rstrip("/")] = r
             if r.get("found_url"):
