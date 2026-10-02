@@ -6,7 +6,7 @@ Reads what the update runs commit to main (pull first):
 and checks the public site (radar.jenyshir.com) carries the same data date.
 
 Exit 0: all fine, nothing is sent.
-Exit 2: no run was saved after the last scheduled start (05:47 / 17:47 Athens) that began at
+Exit 2: no run was saved after the last scheduled start (10:13 / 18:43 Athens) that began at
         least --grace-hours ago: a warning goes to Telegram; whoever runs this then starts the
         update again (the routine does). A run that is still going (started less than
         --grace-hours ago) is not a failure.
@@ -26,7 +26,7 @@ import urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 UPDATE_LOG = "data/listings/update_log.csv"
-SCHEDULE = [(5, 47), (17, 47)]  # the update routines, Europe/Athens
+SCHEDULE = [(10, 13), (18, 43)]  # the update routines, Europe/Athens
 NOTIFY_LOG = "data/listings/notify_log.csv"
 SITE = "https://radar.jenyshir.com/"
 
