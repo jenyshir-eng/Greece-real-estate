@@ -37,7 +37,7 @@ else
 fi
 step telegram python3 scripts/collect_telegram.py --days 120 || echo "WARNING: Telegram channels not updated" >&2
 step remax python3 scripts/collect_remax_listings.py --coords 60 --max-minutes 25 || echo "WARNING: RE/MAX listings not updated" >&2
-step ktimatoemporiki python3 scripts/collect_ktimatoemporiki.py || echo "WARNING: Ktimatoemporiki listings not updated" >&2
+step ktimatoemporiki python3 scripts/collect_ktimatoemporiki.py --max-pages 400 || echo "WARNING: Ktimatoemporiki listings not updated" >&2
 step xe python3 scripts/collect_xe_profiles.py --max-minutes 20 || echo "WARNING: XE agency pages not updated" >&2
 step agencies python3 scripts/collect_listings.py --incremental --workers 25 || { echo "collection failed" >&2; exit 1; }
 step normalize python3 scripts/normalize_listings.py || exit 1
