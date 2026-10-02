@@ -9,8 +9,13 @@ import json
 import os
 import re
 
-FILE = os.path.join(os.path.dirname(__file__), "..", "data", "sources", "thessaloniki_districts.geojson")
-_data = json.load(open(FILE, encoding="utf-8"))
+import sys  # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import city  # noqa: E402
+
+# the city's map (data/sources of the current city folder); a city without one has no map areas
+FILE = city.GEOJSON
+_data = json.load(open(FILE, encoding="utf-8")) if os.path.exists(FILE) else {"features": [], "areas_without_polygon": []}
 AREAS = {f["properties"]["id"]: f["properties"] for f in _data["features"] if "gr" in f["properties"]}
 AREAS.update({p["id"]: p for p in _data["areas_without_polygon"]})
 
@@ -71,13 +76,13 @@ PATTERNS = [
     ("chalastra", r"χαλαστρα|chalastra"),
     ("axios", r"κυμινα|kymina|μαλγαρα|malgara|αξιοσ\b"),
 ]
-_compiled = [(i, re.compile(p)) for i, p in PATTERNS]
+_compiled = [(i, re.compile(p)) for i, p in PATTERNS if i in AREAS]  # only areas of this city's map
 
 
 def by_name(text, district=""):
     """First map area named in text that lies in the district (or any, for a generic one)."""
     for i, pat in _compiled:
-        if pat.search(text) and (district in ("", "Θεσσαλονίκη") or AREAS[i]["district"] == district):
+        if pat.search(text) and (district in ("", city.GENERIC) or AREAS[i]["district"] == district):
             return i
     return ""
 

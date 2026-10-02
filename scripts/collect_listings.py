@@ -39,8 +39,11 @@ import urllib.request
 import urllib.robotparser
 from concurrent.futures import ThreadPoolExecutor
 
-REGISTRY = "data/sources/agencies_thessaloniki.csv"
-OUT = "data/listings/listings_thessaloniki.csv"
+sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+import city  # noqa: E402
+
+REGISTRY = city.REGISTRY
+OUT = city.AGENCY_LISTINGS
 REPORT = "data/listings/collect_report.csv"
 # pages read in daily mode that turned out not to be listings: not read again
 NOT_LISTINGS = "data/listings/not_listings.txt"
@@ -580,7 +583,7 @@ def main():
             # look at the whole site (sitemaps are cheap); only unknown or changed pages are fetched,
             # at most --max-new a day, so big agencies (1000+ listings) fill in over a few days
             a.per_site = 5000
-        for r in csv.DictReader(open(OUT, encoding="utf-8")):
+        for r in (csv.DictReader(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else []):  # a new city has none yet
             k = known_by_site.setdefault(r["source_domain"], {})
             k[r["url"].rstrip("/")] = r
             if r.get("found_url"):

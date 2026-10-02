@@ -23,12 +23,17 @@ Usage: python3 scripts/group_properties.py
 import csv
 import math
 import re
+import os
+import sys
 import unicodedata
 from collections import Counter, defaultdict
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import city  # noqa: E402
+
 FILE = "data/listings/listings_normalized.csv"
 SIMILAR_TYPES = [{"apartment", "studio"}, {"house", "maisonette"}]
-GENERIC_AREA = {"", "Θεσσαλονίκη"}
+GENERIC_AREA = {"", city.GENERIC}
 MIN_EVIDENCE = 2
 RARE_WORD_MAX = 25  # a word in at most this many listings tells places apart (a street, a building)
 
@@ -135,7 +140,7 @@ def same_property(a, b):
         return False
     if not types_ok(a["type"], b["type"]):
         return False
-    if {a["region"], b["region"]} == {"thessaloniki", "other"}:
+    if {a["region"], b["region"]} == {city.KEY, "other"}:
         return False
     ga, gb = a["area"] in GENERIC_AREA, b["area"] in GENERIC_AREA
     if not ga and not gb and a["area"] != b["area"]:
