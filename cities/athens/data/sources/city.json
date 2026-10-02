@@ -8,7 +8,7 @@
  "agency_listings": "data/listings/listings_agencies.csv",
  "geojson": "data/sources/attica_districts.geojson",
  "site_url": "https://athens.jenyshir.com",
- "map_url": "",
+ "map_url": "https://jenyshir.com/ru/maps/athens/",
  "schedule": [
   [
    10,
@@ -644,10 +644,10 @@
   ]
  ],
  "map_box": [
-  37.85,
-  38.1,
-  23.62,
-  23.88
+  37.9,
+  38.07,
+  23.66,
+  23.86
  ],
  "examples": [
   "Квартира в Глифаде до 250 000 €, 60–90 м²",
