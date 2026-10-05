@@ -1,0 +1,64 @@
+name: Weekly agency discovery
+# Once a week: look for new real-estate agencies (vrisko.gr and xe.gr directories,
+# site checks) for both cities. Shares TELEGRAM_BOT_TOKEN.
+
+on:
+  schedule:
+    - cron: '0 2 * * 0'   # Sunday 05:00 Athens summer / 04:00 winter
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-branch-write
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      matrix:
+        city:
+          - { name: Thessaloniki, dir: '.',            path: 'data/sources' }
+          - { name: Athens,       dir: 'cities/athens', path: 'cities/athens/data/sources' }
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Discover (${{ matrix.city.name }})
+        working-directory: ${{ matrix.city.dir }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 scripts/discover_agencies.py
+
+      - name: Commit and push the agency list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          git config user.name  "spiti-radar-bot"
+          git config user.email "spiti-radar-bot@users.noreply.github.com"
+          git add ${{ matrix.city.path }}
+          if git diff --cached --quiet; then
+            echo "no agency changes"; exit 0
+          fi
+          git commit -m "Weekly agency search $(date -u +%F) (${{ matrix.city.name }})
+
+Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01JCA74WcNqZzwHCwbYr8Hss"
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 2))
+          done
+          echo "push failed after retries" >&2
+          exit 1
