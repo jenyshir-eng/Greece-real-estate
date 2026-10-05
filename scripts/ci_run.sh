@@ -38,6 +38,12 @@ push() {  # push(message, paths...)
     git -C "$ROOT" fetch -q origin main || continue
     git -C "$ROOT" reset -q --hard origin/main
     git -C "$ROOT" checkout "$mine" -- "$@"
+    if [ -z "${TELEGRAM_BOT_TOKEN:-}" ]; then
+      # this run sent nothing: what was sent meanwhile (the Telegram routine) stays recorded
+      for f in notified.txt notified_drops.txt notify_log.csv notify_chat.json; do
+        git -C "$ROOT" checkout origin/main -- "$dir/data/listings/$f" 2>/dev/null
+      done
+    fi
     git -C "$ROOT" commit -q -m "$msg" || return 0
   done
   return 1
