@@ -1,9 +1,8 @@
 # Spiti Radar on GitHub Actions: the updates, the watchdog and the weekly agency search.
 # All times are Europe/Athens. GitHub cron runs in UTC, so each job is scheduled at both UTC hours
 # (summer +3 / winter +2) and the "plan" step keeps only the one that is the right Athens hour.
-# Telegram: with the repository secret TELEGRAM_BOT_TOKEN the run sends the messages itself;
-# without it the Claude routine "Spiti Radar — Telegram" sends them after the runs
-# (scripts/notify_telegram.py --if-not-sent).
+# Repository secrets: TELEGRAM_BOT_TOKEN (the run sends the Telegram messages) and
+# PORTAL_ALERTS_CSV_URL (the published alerts sheet).
 name: Spiti Radar
 
 on:
