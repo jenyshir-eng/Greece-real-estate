@@ -28,10 +28,17 @@ push() {  # push(message, paths...)
     return 0
   fi
   git -C "$ROOT" commit -q -m "$msg"
+  local mine
+  mine=$(git -C "$ROOT" rev-parse HEAD)
   for wait in 2 4 8 16 32; do
     git -C "$ROOT" push -q origin HEAD:main && { echo "pushed: $msg"; return 0; }
     sleep $wait
-    git -C "$ROOT" pull -q --rebase origin main || { git -C "$ROOT" rebase --abort; return 1; }
+    # main moved: take it as it is and put this run's files on top (they are this city's own
+    # data, which this run has just rebuilt, so they win over another run of the same city)
+    git -C "$ROOT" fetch -q origin main || continue
+    git -C "$ROOT" reset -q --hard origin/main
+    git -C "$ROOT" checkout "$mine" -- "$@"
+    git -C "$ROOT" commit -q -m "$msg" || return 0
   done
   return 1
 }
