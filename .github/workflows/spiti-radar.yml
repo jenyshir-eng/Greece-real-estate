@@ -1,7 +1,9 @@
 # Spiti Radar on GitHub Actions: the updates, the watchdog and the weekly agency search.
 # All times are Europe/Athens. GitHub cron runs in UTC, so each job is scheduled at both UTC hours
 # (summer +3 / winter +2) and the "plan" step keeps only the one that is the right Athens hour.
-# Needs the repository secret TELEGRAM_BOT_TOKEN (Settings -> Secrets and variables -> Actions).
+# Needs two repository secrets (Settings -> Secrets and variables -> Actions):
+#   TELEGRAM_BOT_TOKEN     the bot for the Telegram messages
+#   PORTAL_ALERTS_CSV_URL  the published CSV of the portal alerts sheet
 name: Spiti Radar
 
 on:
@@ -26,7 +28,7 @@ permissions:
   contents: write
 
 env:
-  PORTAL_ALERTS_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSRbsqinH3KRJsUQztEqzsq2aKj0yUf_Izq4P8FvfHRHCdm2Wby6i2FyK1WaYLnJNmlVqXIAGnqz-Gk/pub?gid=0&single=true&output=csv"
+  PORTAL_ALERTS_CSV_URL: ${{ secrets.PORTAL_ALERTS_CSV_URL }}
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
 
 jobs:
