@@ -92,7 +92,7 @@ docs/telegram-sources.md    как искались Telegram-каналы
 
 Всё запускает GitHub Actions (`.github/workflows/spiti-radar.yml` → `scripts/ci_run.sh`): репозиторий публичный, это бесплатно и не тратит лимит Claude. Каждый запуск сохраняет данные своего города в `main`, Cloudflare пересобирает сайты. Ручной запуск: GitHub → Actions → Spiti Radar → Run workflow (job: update / watchdog / discover, city: thessaloniki / athens / both).
 
-Нужны два секрета репозитория (Settings → Secrets and variables → Actions): `TELEGRAM_BOT_TOKEN` и `PORTAL_ALERTS_CSV_URL` (ссылка на CSV таблицы писем).
+Сообщения в Telegram после каждого сбора отправляет короткая рутина Claude «Spiti Radar — Telegram» (`notify_telegram.py --if-not-sent`, 11:53, 12:53, 20:23, 21:23): токен бота хранится в окружении Claude. Если добавить секрет репозитория `TELEGRAM_BOT_TOKEN` (Settings → Secrets and variables → Actions), сообщения будет отправлять сам сбор, а рутина станет не нужна.
 
 | Что | Когда (Афины) |
 |---|---|

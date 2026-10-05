@@ -334,7 +334,17 @@ def report_text():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="print the messages, send nothing, change nothing")
+    ap.add_argument("--if-not-sent", action="store_true",
+                    help="only if the last saved update has no delivered message yet (sending after the run)")
     a = ap.parse_args()
+    if a.if_not_sent:
+        def last(path):
+            rows = list(csv.DictReader(open(path, encoding="utf-8"))) if os.path.exists(path) else []
+            return rows[-1] if rows else None
+        run, note = last("data/listings/update_log.csv"), last(LOG)
+        if run is None or (note and note["at"] >= run["at"] and note["delivered"] == note["messages"]):
+            print("the last update is already sent: nothing to do", file=sys.stderr)
+            return
     filters = [f for f in json.load(open(FILTERS, encoding="utf-8"))["filters"] if f.get("enabled", True)]
     sent = set(open(STATE, encoding="utf-8").read().split()) if os.path.exists(STATE) else None
     drops_sent = set(open(DROP_STATE, encoding="utf-8").read().splitlines()) if os.path.exists(DROP_STATE) else set()
