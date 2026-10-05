@@ -1,0 +1,92 @@
+# Spiti Radar on GitHub Actions: the updates, the watchdog and the weekly agency search.
+# All times are Europe/Athens. GitHub cron runs in UTC, so each job is scheduled at both UTC hours
+# (summer +3 / winter +2) and the "plan" step keeps only the one that is the right Athens hour.
+# Needs two repository secrets (Settings -> Secrets and variables -> Actions):
+#   TELEGRAM_BOT_TOKEN     the bot for the Telegram messages
+#   PORTAL_ALERTS_CSV_URL  the published CSV of the portal alerts sheet
+name: Spiti Radar
+
+on:
+  schedule:
+    - cron: "13 7,8 * * *"    # Thessaloniki 10:13
+    - cron: "43 7,8 * * *"    # Athens 10:43
+    - cron: "43 15,16 * * *"  # Thessaloniki 18:43
+    - cron: "13 16,17 * * *"  # Athens 19:13
+    - cron: "43 12,13 * * *"  # watchdog 15:43
+    - cron: "43 20,21 * * *"  # watchdog 23:43
+    - cron: "13 0,1 * * 0"    # weekly agency search, Sunday 03:13
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "update / watchdog / discover"
+        default: update
+      city:
+        description: "thessaloniki / athens / both"
+        default: both
+
+permissions:
+  contents: write
+
+env:
+  PORTAL_ALERTS_CSV_URL: ${{ secrets.PORTAL_ALERTS_CSV_URL }}
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      job: ${{ steps.p.outputs.job }}
+      cities: ${{ steps.p.outputs.cities }}
+    steps:
+      - id: p
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          IN_JOB: ${{ inputs.job }}
+          IN_CITY: ${{ inputs.city }}
+        run: |
+          now=$(( 10#$(TZ=Europe/Athens date +%H) * 60 + 10#$(date +%M) ))
+          case "$SCHEDULE" in
+            "13 7,8 * * *")   job=update;   cities='["thessaloniki"]'; at=$((10 * 60 + 13)) ;;
+            "43 7,8 * * *")   job=update;   cities='["athens"]'; at=$((10 * 60 + 43)) ;;
+            "43 15,16 * * *") job=update;   cities='["thessaloniki"]'; at=$((18 * 60 + 43)) ;;
+            "13 16,17 * * *") job=update;   cities='["athens"]'; at=$((19 * 60 + 13)) ;;
+            "43 12,13 * * *") job=watchdog; cities='["thessaloniki","athens"]'; at=$((15 * 60 + 43)) ;;
+            "43 20,21 * * *") job=watchdog; cities='["thessaloniki","athens"]'; at=$((23 * 60 + 43)) ;;
+            "13 0,1 * * 0")   job=discover; cities='["thessaloniki","athens"]'; at=$((3 * 60 + 13)) ;;
+            *) job=$IN_JOB; at=$now
+               case "$IN_CITY" in both) cities='["thessaloniki","athens"]' ;; *) cities="[\"$IN_CITY\"]" ;; esac ;;
+          esac
+          # each cron fires at two UTC hours; only the one that is the Athens time runs.
+          # GitHub may start a scheduled job late, so up to 55 minutes after the time still counts.
+          late=$(( (now - at + 1440) % 1440 ))
+          if [ "$late" -ge 55 ]; then
+            echo "Athens time $((now / 60)):$((now % 60)), this job is for $((at / 60)):$((at % 60)): skipped"; job=skip
+          fi
+          echo "job=$job" >> "$GITHUB_OUTPUT"
+          echo "cities=$cities" >> "$GITHUB_OUTPUT"
+
+  run:
+    needs: plan
+    if: needs.plan.outputs.job != 'skip'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 1   # the watchdog and the agency search do one city after the other
+      matrix:
+        city: ${{ fromJSON(needs.plan.outputs.cities) }}
+    concurrency:
+      group: spiti-${{ matrix.city }}   # one job per city at a time
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: ${{ needs.plan.outputs.job }} ${{ matrix.city }}
+        run: |
+          git config user.name "Spiti Radar"
+          git config user.email "spiti-radar@users.noreply.github.com"
+          ./scripts/ci_run.sh "${{ needs.plan.outputs.job }}" "${{ matrix.city }}"
