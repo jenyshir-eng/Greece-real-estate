@@ -41,6 +41,7 @@ jobs:
       - id: p
         env:
           SCHEDULE: ${{ github.event.schedule }}
+          GH_TOKEN: ${{ github.token }}
           IN_JOB: ${{ inputs.job }}
           IN_CITY: ${{ inputs.city }}
         run: |
@@ -56,11 +57,21 @@ jobs:
             *) job=$IN_JOB; at=$now
                case "$IN_CITY" in both) cities='["thessaloniki","athens"]' ;; *) cities="[\"$IN_CITY\"]" ;; esac ;;
           esac
-          # each cron fires at two UTC hours; only the one that is the Athens time runs.
-          # GitHub may start a scheduled job late, so up to 55 minutes after the time still counts.
+          # each cron fires at two UTC hours, one hour apart. GitHub often starts a scheduled job
+          # late, so a start up to 3 hours after the time still counts. Because the two firings are
+          # only an hour apart, the first one to claim the slot (a tag, which can be created once)
+          # runs and the other is skipped.
           late=$(( (now - at + 1440) % 1440 ))
-          if [ "$late" -ge 55 ]; then
+          if [ "$late" -ge 180 ]; then
             echo "Athens time $((now / 60)):$((now % 60)), this job is for $((at / 60)):$((at % 60)): skipped"; job=skip
+          elif [ -n "$SCHEDULE" ]; then
+            due=$(TZ=Europe/Athens date -d "@$(( $(date +%s) - late * 60 ))" +%Y%m%d-%H%M)
+            slot="slot-$due-$job"
+            out=$(gh api "repos/$GITHUB_REPOSITORY/git/refs" -f ref="refs/tags/$slot" -f sha="$GITHUB_SHA" 2>&1) \
+              || case "$out" in
+                   *"already exists"*) echo "$slot was already taken by the other firing: skipped"; job=skip ;;
+                   *) echo "could not claim $slot, running anyway: $out" ;;
+                 esac
           fi
           echo "job=$job" >> "$GITHUB_OUTPUT"
           echo "cities=$cities" >> "$GITHUB_OUTPUT"
