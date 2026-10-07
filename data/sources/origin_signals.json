@@ -1,0 +1,145 @@
+{
+  "_help": "Text signals for classifying listing origin. Each rule has 'patterns' (regex, case-insensitive, on accent-stripped text) and optionally 'domains' (source_domain exact match). First matching rule wins. Fields: origin_type, seller_manager, origin_confidence.",
+  "rules": [
+    {
+      "name": "eauction.gr direct",
+      "domains": ["eauction.gr", "eauctions.gsis.gr", "iauction.gr", "inauction.gr", "eauction24.gr"],
+      "origin_type": "AUCTION",
+      "seller_manager": "unknown",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "Altamira (doValue)",
+      "domains": ["altamiraproperties.gr"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "doValue",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "Intrum REO direct",
+      "domains": ["realestate.intrum.gr"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "Intrum",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "Cepal direct",
+      "domains": ["cepal.gr"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "Cepal",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "Quant direct",
+      "domains": ["qquant.gr"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "Quant",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "iOwn direct",
+      "domains": ["iown.gr"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "unknown",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "Prosperty auctions",
+      "domains": ["theprosperty.com"],
+      "origin_type": "AUCTION",
+      "seller_manager": "unknown",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "Savills e-auctions",
+      "domains": ["savills.gr"],
+      "origin_type": "AUCTION",
+      "seller_manager": "unknown",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "Landea auctions",
+      "domains": ["landea.gr"],
+      "origin_type": "AUCTION",
+      "seller_manager": "unknown",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "REInvest direct",
+      "domains": ["reinvest.gr"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "unknown",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "QProperties direct",
+      "domains": ["qproperties.gr"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "unknown",
+      "origin_confidence": "high"
+    },
+    {
+      "name": "auction keyword in text",
+      "patterns": ["e[- ]?auction|ηλεκτρονικ[οό]σ? πλειστηριασμ|πλειστηριασμ|δημοπρασ[ιί]|auction\\b|foreclosure"],
+      "origin_type": "AUCTION",
+      "seller_manager": "unknown",
+      "origin_confidence": "medium"
+    },
+    {
+      "name": "Altamira keyword",
+      "patterns": ["altamira|αλταμιρα"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "doValue",
+      "origin_confidence": "medium"
+    },
+    {
+      "name": "Intrum keyword",
+      "patterns": ["intrum\\b"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "Intrum",
+      "origin_confidence": "medium"
+    },
+    {
+      "name": "Cepal keyword",
+      "patterns": ["cepal\\b"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "Cepal",
+      "origin_confidence": "medium"
+    },
+    {
+      "name": "doValue keyword",
+      "patterns": ["dovalue|do value"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "doValue",
+      "origin_confidence": "medium"
+    },
+    {
+      "name": "Quant keyword",
+      "patterns": ["\\bquant\\b|qualco"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "Quant",
+      "origin_confidence": "medium"
+    },
+    {
+      "name": "REOCO / servicer generic",
+      "patterns": ["reoco\\b|servicer|npl\\b|non[- ]performing|εκτοσ ισολογισμου|εκτός ισολογισμού"],
+      "origin_type": "FUND_REOCO",
+      "seller_manager": "unknown",
+      "origin_confidence": "medium"
+    },
+    {
+      "name": "bank REO keywords",
+      "patterns": ["τραπεζικ[οόή]|τραπεζασ|bank[- ]owned|bank reo|reo propert|ακινητ[οα] τραπεζ|real estate owned"],
+      "origin_type": "BANK_REO",
+      "seller_manager": "unknown",
+      "origin_confidence": "low"
+    },
+    {
+      "name": "private owner (Greek)",
+      "patterns": ["ιδιωτ[ηή]σ|πωλε[ίι]ται απ[οό] (τον )?ιδιοκτ[ηή]τ|χωρ[ίι]σ μεσ[ίι]τ"],
+      "origin_type": "PRIVATE",
+      "seller_manager": "unknown",
+      "origin_confidence": "medium"
+    }
+  ]
+}

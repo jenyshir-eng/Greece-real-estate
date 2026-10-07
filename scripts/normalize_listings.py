@@ -8,6 +8,7 @@ Output: data/listings/listings_normalized.csv
 Usage: python3 scripts/normalize_listings.py
 """
 import csv
+import json
 import re
 import os
 import sys
@@ -31,6 +32,82 @@ HISTORY = "data/listings/seen_history.csv"  # url -> first_seen, last_seen acros
 ALERT_DAYS = 30  # listings known only from portal alerts / Telegram stay this long
 import datetime as _dt  # noqa: E402
 ALERT_CUTOFF = (_dt.date.today() - _dt.timedelta(days=ALERT_DAYS)).isoformat()
+
+_SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.abspath(__file__)))
+ORIGIN_SIGNALS = "data/sources/origin_signals.json"
+
+
+def _load_origin_rules():
+    path = ORIGIN_SIGNALS
+    if not os.path.exists(path):
+        path = os.path.join(os.path.dirname(_SCRIPT_DIR), ORIGIN_SIGNALS)
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        cfg = json.load(f)
+    rules = []
+    for r in cfg.get("rules", []):
+        compiled = [re.compile(p, re.I) for p in r.get("patterns", [])]
+        rules.append({
+            "name": r["name"],
+            "domains": set(r.get("domains", [])),
+            "patterns": compiled,
+            "origin_type": r["origin_type"],
+            "seller_manager": r.get("seller_manager", "unknown"),
+            "origin_confidence": r.get("origin_confidence", "low"),
+        })
+    return rules
+
+_ORIGIN_RULES = _load_origin_rules()
+
+
+def classify_origin(source_domain, text_fields):
+    """Return (origin_type, seller_manager, origin_confidence, origin_signals)."""
+    for rule in _ORIGIN_RULES:
+        if rule["domains"] and source_domain in rule["domains"]:
+            return rule["origin_type"], rule["seller_manager"], rule["origin_confidence"], rule["name"]
+        if rule["patterns"]:
+            for pat in rule["patterns"]:
+                if pat.search(text_fields):
+                    return rule["origin_type"], rule["seller_manager"], rule["origin_confidence"], rule["name"]
+    return "UNKNOWN", "unknown", "low", ""
+
+
+def listing_source(source_domain):
+    """Map source_domain to a canonical listing_source identifier."""
+    if source_domain in ("eauction.gr", "eauctions.gsis.gr", "iauction.gr", "inauction.gr", "eauction24.gr"):
+        return "eauction"
+    if source_domain == "altamiraproperties.gr":
+        return "altamira"
+    if source_domain == "realestate.intrum.gr":
+        return "intrum_reo"
+    if source_domain == "cepal.gr":
+        return "cepal"
+    if source_domain == "qquant.gr":
+        return "quant"
+    if source_domain in ("reinvest.gr",):
+        return "reinvest"
+    if source_domain in ("qproperties.gr",):
+        return "qproperties"
+    if source_domain in ("iown.gr",):
+        return "iown"
+    if source_domain in ("spitogatos.gr", "spiti24.gr"):
+        return "spitogatos"
+    if source_domain == "indomio.gr":
+        return "indomio"
+    if source_domain in ("plot.gr",):
+        return "plot_car"
+    if source_domain == "xe.gr":
+        return "xe"
+    if source_domain == "remax.gr":
+        return "remax"
+    if source_domain in ("tospitimou.gr",):
+        return "tospitimou"
+    if source_domain in ("ktimatoemporiki.gr",):
+        return "ktimatoemporiki"
+    if source_domain == "t.me":
+        return "telegram"
+    return "broker_site"
 
 
 def plain(s):
@@ -303,10 +380,18 @@ def main():
         h["last_seen"] = max(h["last_seen"] or seen_day, seen_day)
         ldate, lkind = listing_date(r)
 
+        origin_text = " ".join([plain(title), plain(r["agency"]), plain(url)])
+        o_type, o_mgr, o_conf, o_sig = classify_origin(r["source_domain"], origin_text)
+        if r["agency"].startswith("Ιδιώτης") and o_type == "UNKNOWN":
+            o_type, o_conf, o_sig = "PRIVATE", "high", "private_owner_flag"
+
         out.append({
             "source_domain": r["source_domain"], "agency": r["agency"], "url": url, "title": title,
             "source_kind": "portal" if r["source_domain"] in PORTALS else "agency_site",
             "private_owner": "yes" if r["agency"].startswith("Ιδιώτης") else "",
+            "listing_source": listing_source(r["source_domain"]),
+            "origin_type": o_type, "seller_manager": o_mgr if o_mgr != "unknown" else "",
+            "origin_confidence": o_conf, "origin_signals": o_sig,
             "transaction": tx, "type": ptype, "price_eur": int(price) if price else "",
             "area_m2": round(area, 1) if area else "", "price_per_m2": round(price / area) if price and area else "",
             "bedrooms": r["bedrooms"], "floor": r["floor"], "year_built": r["year_built"],
@@ -347,6 +432,8 @@ def main():
     print("transaction:", Counter(x["transaction"] or "?" for x in out))
     print("type:", Counter(x["type"] or "?" for x in out).most_common())
     print("area:", Counter(x["area"] for x in out if x["region"] == city.KEY).most_common())
+    print("origin_type:", Counter(x["origin_type"] for x in out).most_common())
+    print("listing_source:", Counter(x["listing_source"] for x in out).most_common())
 
 
 # approximate centres of the districts above (lat, lon)
