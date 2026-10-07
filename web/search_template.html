@@ -558,6 +558,9 @@ function card(d){
   const badges = [];
   if (d.ld && ageDays(d.ld)<=7) badges.push(`<span class="bdg dark">Новое</span>`);
   if (d.pv==="yes") badges.push(`<span class="bdg">Частник</span>`);
+  if (d.ot==="AUCTION") badges.push(`<span class="bdg warn">Аукцион</span>`);
+  else if (d.ot==="BANK_REO") badges.push(`<span class="bdg warn">Банк</span>`);
+  else if (d.ot==="FUND_REOCO") badges.push(`<span class="bdg warn">Фонд/servicer</span>`);
   if (d._n>1) badges.push(`<span class="bdg">На ${d._n} сайтах</span>`);
   else if ((d.srcs||[]).every(isPortal)) badges.push(`<span class="bdg">Только ${esc(PORTAL_NAME[d.src]||"портал")}</span>`);
   if (d._mv!=null && d._mv<0) badges.push(`<span class="bdg good">Цена ↓ ${String(Math.abs(d._mv)).replace(".",",")}%</span>`);
@@ -619,7 +622,9 @@ function openSheet(d, from){
     : "ещё не перепроверялось";
   const kv = [["Тип", TYPE_RU[d.ty]||"не указан"], ["Сделка", d.tx==="rent"?"аренда":d.tx==="sale"?"продажа":"—"], ["Площадь", d.m?fmt(d.m)+" м²":"—"],
     ["Этаж", d.fn!=null?floorRu(d.fn):"не указан"], ["Спален", d.bd||"—"], ["Год постройки", d.yr||"—"],
-    ["Цена за м²", d.pm ? fmt(d.pm)+(d.tx==="rent"?" €/м² в мес.":" €/м²") : "—"], ["Продаёт", d.pv==="yes" ? "частный владелец" : (d.ags||[d.ag]).join(", ")]];
+    ["Цена за м²", d.pm ? fmt(d.pm)+(d.tx==="rent"?" €/м² в мес.":" €/м²") : "—"],
+    ["Происхождение", {AUCTION:"аукцион",BANK_REO:"банковское имущество",FUND_REOCO:"фонд / servicer",PRIVATE:"частный владелец"}[d.ot]||""],
+    ["Продаёт", d.pv==="yes" ? "частный владелец" : (d.ags||[d.ag]).join(", ")]];
   const s = $("sheet");
   s.innerHTML = `<header><div style="display:grid;gap:6px"><p class="eyebrow">${esc(place)}</p><h2 id="shTitle">${esc(TYPE_RU[d.ty]||"Объект")}${d.m?`, ${fmt(d.m)} м²`:""}</h2></div>
       <button class="close" type="button" id="shClose" aria-label="Закрыть">×</button></header>

@@ -127,6 +127,8 @@ for members in groups.values():
                  "lr": short_location(r), "ld": newest.get("listing_date", ""),
                  "lk": newest.get("listing_date_kind", ""), "fs": min((m["first_seen"] for m in members if m.get("first_seen")), default=""),
                  "src": r.get("source_domain", ""), "pv": r.get("private_owner", ""),
+                 "ot": next((m.get("origin_type", "") for m in members if m.get("origin_confidence") == "high" and m.get("origin_type", "") not in ("", "UNKNOWN")),
+                            next((m.get("origin_type", "") for m in members if m.get("origin_type", "") not in ("", "UNKNOWN")), "")),
                  "ags": sorted({m["agency"] for m in members}),
                  "srcs": sorted({m.get("source_domain", "") for m in members}),
                  # other sites with the same property: [name, url, price, checked, price history]
@@ -179,7 +181,7 @@ def sources():
 
 
 DAY0 = datetime.date(2020, 1, 1)
-DICT = {"ag", "tx", "ty", "rg", "nb", "ar", "lk", "src", "pv", "gq"}
+DICT = {"ag", "tx", "ty", "rg", "nb", "ar", "lk", "src", "pv", "gq", "ot"}
 DATES = {"ld", "fs", "ck", "sd"}
 
 

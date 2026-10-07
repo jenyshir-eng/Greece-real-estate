@@ -102,14 +102,15 @@ def summary(members):
     prices = [num(m["price_eur"]) for m in members if num(m["price_eur"])]
     nb = first("neighbourhood")
     area = districts.AREAS[nb]["district"] if nb in districts.AREAS else first("area")
+    origin = next((m["origin_type"] for m in members if m.get("origin_confidence") == "high" and m.get("origin_type") not in ("", "UNKNOWN")),
+                  next((m["origin_type"] for m in members if m.get("origin_type") not in ("", "UNKNOWN")), "UNKNOWN"))
     return {"url": r["url"], "urls": {m["url"] for m in members}, "members": members, "tx": r["transaction"], "type": first("type"),
             "price": min(prices) if prices else None, "m2": num(first("area_m2")), "region": r["region"],
             "area": area, "nb": nb, "floor": floor_level(first("floor")),
-            # the region is confirmed when a listing of the group names the place itself (title, link,
-            # place field, the page read again, its map point), not only guessed from the agency
             "region_ok": any(m.get("region_how") in ("listing", "page", "coordinates") or
                              m.get("area") not in ("", city.GENERIC) for m in members), "beds": num(first("bedrooms")),
-            "sites": len(members), "source": PORTAL.get(r["source_domain"], r["agency"])}
+            "sites": len(members), "source": PORTAL.get(r["source_domain"], r["agency"]),
+            "origin": origin}
 
 
 def matches(p, f):
@@ -156,13 +157,18 @@ def floor_ru(n):
     return {-2: "подвал", -1: "полуподвал", 0: "цокольный (ισόγειο)", 0.5: "полуэтаж"}.get(n, f"{n}-й эт." if n is not None else "")
 
 
+ORIGIN_RU = {"AUCTION": "🔨 аукцион", "BANK_REO": "🏦 банк", "FUND_REOCO": "🏦 фонд/servicer"}
+
+
 def line(p):
     place = districts.AREAS[p["nb"]]["ru"] if p["nb"] in districts.AREAS else DISTRICT_RU.get(p["area"], p["area"] or city.NAME_RU)
     bits = [f"{TYPE_RU.get(p['type'], 'объект')} {int(p['m2'])} м²" if p["m2"] else TYPE_RU.get(p["type"], "объект"),
             floor_ru(p["floor"])]
     price = f"{int(p['price']):,}".replace(",", " ") + (" €/мес" if p["tx"] == "rent" else " €") if p["price"] else "цена по запросу"
     extra = f", на {p['sites']} сайтах" if p["sites"] > 1 else ""
-    return (f"• <b>{html_escape(place)}</b>, {', '.join(b for b in bits if b)} — <b>{price}</b>{vs_market(p)}{extra}\n"
+    tag = ORIGIN_RU.get(p.get("origin", ""), "")
+    tag_str = f" [{tag}]" if tag else ""
+    return (f"• <b>{html_escape(place)}</b>, {', '.join(b for b in bits if b)} — <b>{price}</b>{vs_market(p)}{extra}{tag_str}\n"
             f"  <a href=\"{html_escape(p['url'])}\">{html_escape(p['source'] or 'объявление')}</a>")
 
 
