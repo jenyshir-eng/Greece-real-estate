@@ -55,14 +55,11 @@ jobs:
             *) job=$IN_JOB; at=$now
                case "$IN_CITY" in both) cities='["thessaloniki","athens"]' ;; *) cities="[\"$IN_CITY\"]" ;; esac ;;
           esac
-          # each cron fires at two UTC hours, one hour apart. GitHub often starts a scheduled job
-          # late, so a start up to 3 hours after the time still counts. Because the two firings are
-          # only an hour apart, the first one to claim the slot (a tag, which can be created once)
-          # runs and the other is skipped.
-          late=$(( (now - at + 1440) % 1440 ))
-          if [ "$late" -ge 180 ]; then
-            echo "Athens time $((now / 60)):$((now % 60)), this job is for $((at / 60)):$((at % 60)): skipped"; job=skip
-          elif [ -n "$SCHEDULE" ]; then
+          # each cron fires at two UTC hours, one hour apart. GitHub often delays scheduled
+          # runs by hours, so there is no late cutoff. The first firing to claim a slot tag runs;
+          # the paired UTC firing and any stale re-delivery see "already exists" and skip.
+          if [ -n "$SCHEDULE" ]; then
+            late=$(( (now - at + 1440) % 1440 ))
             due=$(TZ=Europe/Athens date -d "@$(( $(date +%s) - late * 60 ))" +%Y%m%d-%H%M)
             slot="slot-$due-$job"
             out=$(gh api "repos/$GITHUB_REPOSITORY/git/refs" -f ref="refs/tags/$slot" -f sha="$GITHUB_SHA" 2>&1) \
