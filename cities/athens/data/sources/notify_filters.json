@@ -18,6 +18,24 @@
       "floor_min": 0,
       "keep_unknown": false,
       "keep_unknown_floor": true
+    },
+    {
+      "name": "Квартира 45-70 м², 100 000-180 000 €, без подвалов",
+      "enabled": true,
+      "transaction": "sale",
+      "types": [
+        "apartment",
+        "studio",
+        "maisonette"
+      ],
+      "areas": [],
+      "price_min": 100000,
+      "price_max": 180000,
+      "m2_min": 45,
+      "m2_max": 70,
+      "floor_min": 0,
+      "keep_unknown": false,
+      "keep_unknown_floor": true
     }
   ]
 }
