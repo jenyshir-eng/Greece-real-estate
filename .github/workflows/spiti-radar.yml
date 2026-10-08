@@ -6,12 +6,10 @@
 name: Spiti Radar
 
 on:
+  # The updates run from cron-job.org, which calls the workflow_dispatch API (job=update,
+  # city=thessaloniki or athens) because GitHub delays scheduled runs by hours.
+  # Only the weekly agency search stays on the GitHub schedule; a late start does not matter for it.
   schedule:
-    - cron: "13 7,8 * * *"    # Thessaloniki 10:13
-    - cron: "43 7,8 * * *"    # Athens 10:43
-    - cron: "13 11,12 * * *"  # both cities 14:13
-    - cron: "43 12,13 * * *"  # watchdog 15:43
-    - cron: "43 20,21 * * *"  # watchdog 23:43
     - cron: "13 0,1 * * 0"    # weekly agency search, Sunday 03:13
   workflow_dispatch:
     inputs:
