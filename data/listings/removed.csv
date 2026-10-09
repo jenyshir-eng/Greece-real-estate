@@ -612,3 +612,40 @@ date,source_domain,url,reason
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/517625,sold / not available
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/517626,sold / not available
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/540020,sold / not available
+2026-10-09,remax.gr,https://www.remax.gr/property/279103-polisi-oikopedo-gia-katoikia-kentro,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/348926-enoikiasi-katastima-eleytherio-kordelio,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/359091-polisi-gkarsoniera-studio-kamara,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/382859-polisi-diamerisma-rotonta,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/386256-polisi-diamerisma-katw-toympa,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/396733-polisi-diamerisma-agios-dhmhtrios,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/396747-polisi-diamerisma-agia-sofia,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/404376-enoikiasi-diamerisma-antigonidwn,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/406621-enoikiasi-diamerisma-dioikhthrio,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/406941-polisi-diamerisma-katw-toympa,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/407126-polisi-diamerisma-kentro,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/407243-enoikiasi-diamerisma-nea-elbetia,not on result pages
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/1b3f2e2a-bc22-4092-bff8-5361cf1120a0/thessalonikh-analhpsh-350-24,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/1fc5da16-06f1-459e-80e6-fce9ce0e54db/kalamaria-800-71,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/241699d2-67c9-4b21-be59-2e4d0616c0bd/thessalonikh-kentro-520-36,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/2bff8ace-fb2c-43d3-8e10-0df8b529e583/thessalonikh-analhpsh-560-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/2ffbc3b4-19d4-4f30-b4b0-e35b9dbdce55/thessalonikh-40-ekklhsies-530-52,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3977aedb-1b0d-4def-a422-b965ad28d9fe/eyosmos-650-77,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4fa19d53-eac3-461f-a3a0-4093bbc88853/thessalonikh-xhrokrhnh-430-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/543366,http 404
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/543360,http 404
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/543247,http 404
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/545073,http 404
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/544540,http 404
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/544496,http 404
+2026-10-09,elgrekorealestate.com,https://www.elgrekorealestate.com/gr/property/show/2467464/,http 404
+2026-10-09,grekodom.gr,https://www.grekodom.gr/realtyobject/3270-poleitai-xenodoheio-550-m2-stin-pieria,http 404
+2026-10-09,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%ce%b1%ce%bd%ce%b1%ce%b3%ce%af%ce%b1-%cf%86%ce%b1%ce%bd%ce%b5%cf%81%cf%89%ce%bc%ce%ad%ce%bd%ce%b7-1-24105/,http 404
+2026-10-09,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%ce%b4%ce%b9%ce%bf%ce%b9%ce%ba%ce%b7%cf%84%ce%ae%cf%81%ce%b9%ce%bf-1-24287/,http 404
+2026-10-09,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%ba%ce%ac%cf%84%cf%89-%cf%84%ce%bf%cf%8d%ce%bc%cf%80%ce%b1-1-24416/,http 404
+2026-10-09,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%ce%b1%ce%bd%ce%b1%ce%b3%ce%af%ce%b1-%cf%86%ce%b1%ce%bd%ce%b5%cf%81%cf%89%ce%bc%ce%ad%ce%bd%ce%b7-1-24105/,http 404
+2026-10-09,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%ce%b4%ce%b9%ce%bf%ce%b9%ce%ba%ce%b7%cf%84%ce%ae%cf%81%ce%b9%ce%bf-1-24287/,http 404
+2026-10-09,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%ba%ce%ac%cf%84%cf%89-%cf%84%ce%bf%cf%8d%ce%bc%cf%80%ce%b1-1-24416/,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122234,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122198,http 404
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/539153,sold / not available
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/240028,sold / not available
