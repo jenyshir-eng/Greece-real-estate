@@ -196,3 +196,16 @@ date,source_domain,url,reason
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/517625,sold / not available
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/517626,sold / not available
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/538884,sold / not available
+2026-10-09,remax.gr,https://www.remax.gr/property/398918-polisi-diamerisma-ampelokhpoi,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/401110-polisi-grafeio-plateia-koymoyndoyroy,not on result pages
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/d61b727e-bd3e-4547-b502-290c0a374f27/hrakleio-kanapitsa-480-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/e28333ff-3b63-4225-b1e4-b99e9e2c806f/voyla-dikhgorika-3000-135,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/063b81ae-d761-4552-9878-3ece90125b17/moschato-670-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0be1ab0c-4167-4886-bdd3-20bbec05d122/athhna-pagkrati-950-105,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,grecahouse.com,https://grecahouse.com/el/properties/108448-xenodocheio-oreoi-neos-pyrgos-551sqm,http 404
+2026-10-09,grekodom.com,https://www.grekodom.com/realtyobject/3270-for-sale-hotel-550-m2-on-the-olympic-coa,http 404
+2026-10-09,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-id-%cf%803919/,http 404
+2026-10-09,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%b1%ce%b3%cf%81%ce%bf%cf%84%ce%b5%ce%bc%ce%b1%cf%87%ce%af%ce%bf%cf%85-id-%cf%803917/,http 404
+2026-10-09,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%b1%ce%b3%cf%81%ce%bf%cf%84%ce%b5%ce%bc%ce%b1%cf%87%ce%af%ce%bf%cf%85-id-%cf%803920/,http 404
+2026-10-09,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b9%cf%83%cf%8c%ce%b3%ce%b5%ce%b9%ce%bf-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-70-%cf%84-%ce%bc-%cf%83%cf%84%ce%bf-%ce%be%ce%b7%cf%81%ce%bf%ce%ba%ce%ac%cf%83%cf%84%ce%b5/1603/,http 404
+2026-10-09,leonprimeestates.gr,https://leonprimeestates.gr/property/%cf%80%ce%ad%cf%84%cf%81%ce%b9%ce%bd%ce%b7-%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-130-%cf%84-%ce%bc-%ce%be%ce%b7%cf%81%ce%bf%ce%ba%ce%ac%cf%83%cf%84%ce%b5%ce%bb%ce%bf-%ce%b2%ce%b1/1602/,http 404
