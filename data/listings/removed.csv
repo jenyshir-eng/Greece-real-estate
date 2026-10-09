@@ -595,3 +595,20 @@ date,source_domain,url,reason
 2026-10-09,rewize.com,https://rewize.com/en/property/3560,http 404
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/538037,sold / not available
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/447826,sold / not available
+2026-10-09,remax.gr,https://www.remax.gr/property/404984-enoikiasi-diamerisma-analhpsh,not on result pages
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/f6d1b2f9-4bf0-4d0f-a62f-9da4d20ecde6/echedwro-450-3000,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/08d34303-4042-457a-8710-993d7890fedd/thessalonikh-1300-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/15b07b39-713a-450e-a296-8bc24bd0e7be/panorama-1150-136,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,best-house.gr,https://www.best-house.gr/akinito/460-diamerisma-100tm-z7538,http 404
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/545069,http 404
+2026-10-09,interakinita.gr,https://interakinita.gr/el/property/3040,http 404
+2026-10-09,mandraouhome.gr,https://www.mandraouhome.gr/portfolio-item/%ce%ba%ce%b1%cf%84%ce%ac%cf%83%cf%84%ce%b7%ce%bc%ce%b1-40%cf%84-%ce%bc-%ce%bd%ce%ad%ce%bf%ce%b9-%ce%b5%cf%80%ce%b9%ce%b2%ce%ac%cf%84%ce%b5%cf%82-e60-000/,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122512,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122472,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122470,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122360,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122314,http 404
+2026-10-09,remax.gr,https://www.remax.gr/property/398918-polisi-diamerisma-ampelokhpoi,http 404
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/517625,sold / not available
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/517626,sold / not available
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/540020,sold / not available
