@@ -649,3 +649,22 @@ date,source_domain,url,reason
 2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122198,http 404
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/539153,sold / not available
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/240028,sold / not available
+2026-10-09,remax.gr,https://www.remax.gr/property/407712-polisi-diamerisma-anw-polh,not on result pages
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/52f783ba-84ec-4153-9379-725683c0e93b/trilofos-750-136,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/5d4c19d2-4125-41d6-89d5-cf602229f738/eyosmos-600-92,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6386e883-4626-4f69-8073-043f60c63086/thessalonikh-xhrokrhnh-500-67,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/69c4e043-8b52-4b65-8f34-37b818f20301/thessalonikh-panepisthmia-1000-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6cbf73fc-3ea2-4ad1-b660-4a8e2b3dff46/thessalonikh-vardarh-600-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/76b6b270-9e79-47e8-bbf8-1aca3d4a2eba/kalamaria-1200-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/911cd82a-5b94-4ea3-b702-fd74fe616d3f/thessalonikh-falhro-460-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9d077656-da6f-451b-ba36-e172c8b48509/pylaia-550-42,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9df5fb29-9ea8-4181-8e02-4ac2098cd23f/triandria-350-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/543746,http 404
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/542972,http 404
+2026-10-09,casanova.com.gr,https://casanova.com.gr/el/property/543082,http 404
+2026-10-09,tzemis.gr,https://www.tzemis.gr/properties/%ce%bc%ce%bf%ce%bd%ce%b1%cf%83%cf%84%ce%b7%cf%81%ce%af%ce%bf%cf%85-%ce%b5%cf%841529/,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121856,http 404
+2026-10-09,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/117282,http 404
+2026-10-09,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-one-salonica-1-24513/,http 404
+2026-10-09,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-one-salonica-1-24513/,http 404
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/529485,sold / not available
