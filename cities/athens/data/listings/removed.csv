@@ -172,3 +172,17 @@ date,source_domain,url,reason
 2026-10-08,realestateone.gr,https://realestateone.gr/el/property/1552024,redirects to https://realestateone.gr/el/404
 2026-10-08,goldenhome.gr,https://goldenhome.gr/property/view/540227,sold / not available
 2026-10-08,goldenhome.gr,https://goldenhome.gr/property/view/529485,sold / not available
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/02d1ca1a-976e-4207-8f54-6c4d66245022/acharnes-lathea-850-200,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/06567059-3ec1-492a-ba14-b9bd89d71da2/alimos-kefallhnwn-25000-1572,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/11c35b67-3947-49ab-995e-1ece373e67a6/glyfada-kentro-2300-85,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1b28e0f6-9065-403f-9c92-8e22d7e9a1e2/khfisia-kentro-18000-760,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/25160ee8-1575-427d-83c5-02521e80f3ea/ilion-agios-fanoyrios-1250-230,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/647baf56-4d80-41cb-8043-1cb3d0566e7b/maroysi-kentro-1500-105,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/6ba2a6d9-2a5f-4118-8bfe-f09c122705fd/peiraias-plateia-ippodameias-800-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,grecahouse.com,https://grecahouse.com/el/properties/12944-monokatoikia-evvoia-eretria-kentro-230sqm,http 404
+2026-10-09,realestateone.gr,https://realestateone.gr/el/property/849164,redirects to https://realestateone.gr/el/404
+2026-10-09,tsrealestate.gr,https://tsrealestate.gr/el/property/15833,http 404
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/516324,sold / not available
+2026-10-09,neon-realestate.gr,https://neon-realestate.gr/property/2590787-diamerisma-pros-enoikiasi-moschato-60-t-m-e700/,http 404
+2026-10-09,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-570/,sold / not available
+2026-10-09,terra-greca.gr,https://terra-greca.gr/akinita/1584204-studio-%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%cf%80%ce%b1%ce%b3%ce%ba%cf%81%ce%ac%cf%84%ce%b9-30/,http 404
