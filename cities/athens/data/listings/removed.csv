@@ -186,3 +186,13 @@ date,source_domain,url,reason
 2026-10-09,neon-realestate.gr,https://neon-realestate.gr/property/2590787-diamerisma-pros-enoikiasi-moschato-60-t-m-e700/,http 404
 2026-10-09,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-570/,sold / not available
 2026-10-09,terra-greca.gr,https://terra-greca.gr/akinita/1584204-studio-%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%cf%80%ce%b1%ce%b3%ce%ba%cf%81%ce%ac%cf%84%ce%b9-30/,http 404
+2026-10-09,remax.gr,https://www.remax.gr/property/389143-polisi-diamerisma-koykaki-paidikh-xara,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/393466-polisi-diamerisma-agios-swsths,not on result pages
+2026-10-09,remax.gr,https://www.remax.gr/property/398467-polisi-monokatoikia-kapandriti,not on result pages
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/89529922-edbf-46df-b51a-3cd1a5c93085/galatsi-menidiatika-500-67,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/94a2ba57-ccdb-4da2-b19e-8ef700362d9f/athhna-kolwnaki-1700-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a49c93a3-9134-408f-a5b7-b6ae67fe95ca/nea-smyrnh-kentro-700-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-09,tsrealestate.gr,https://tsrealestate.gr/el/property/15898,http 404
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/517625,sold / not available
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/517626,sold / not available
+2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/538884,sold / not available
