@@ -209,3 +209,16 @@ date,source_domain,url,reason
 2026-10-09,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%b1%ce%b3%cf%81%ce%bf%cf%84%ce%b5%ce%bc%ce%b1%cf%87%ce%af%ce%bf%cf%85-id-%cf%803920/,http 404
 2026-10-09,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b9%cf%83%cf%8c%ce%b3%ce%b5%ce%b9%ce%bf-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-70-%cf%84-%ce%bc-%cf%83%cf%84%ce%bf-%ce%be%ce%b7%cf%81%ce%bf%ce%ba%ce%ac%cf%83%cf%84%ce%b5/1603/,http 404
 2026-10-09,leonprimeestates.gr,https://leonprimeestates.gr/property/%cf%80%ce%ad%cf%84%cf%81%ce%b9%ce%bd%ce%b7-%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-130-%cf%84-%ce%bc-%ce%be%ce%b7%cf%81%ce%bf%ce%ba%ce%ac%cf%83%cf%84%ce%b5%ce%bb%ce%bf-%ce%b2%ce%b1/1602/,http 404
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/2a251d93-f5a7-4063-adf3-5d5f8245ad13/nea-iwnia-perissos-450-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/389f66d1-21c3-4250-9229-1642a98ff9d3/khfisia-zhrineio-1000-92,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/462572bb-6e92-40c4-8591-9999c1883db5/voyla-nea-kalymnos-2200-135,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/48837318-d1ac-450a-aa23-266631f21209/athhna-gkyzh-590-28,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/48b1f6c4-082c-4190-8d40-8ad6898947e7/chalandri-anw-neo-chalandri-1200-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4ba752bc-2a54-4c34-b40c-0ee662b5227c/khfisia-nea-khfisia-1200-92,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4d327ea1-2d0f-420a-bbd7-9b41aa2cce68/nea-smyrnh-anw-nea-smyrnh-1200-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4f7af2f2-cf28-4dba-915b-1a9b9288c289/aigalew-anagennhsh-750-105,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/5211118f-6ffa-4af1-b190-9fd6f4231c06/athhna-neapolh-2100-190,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/592b2d2b-bb08-4b1c-b2e7-30e9e9eb57b9/kallithea-charokopoy-780-85,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/5d89d209-bf85-4111-a6aa-b7b4440ac221/khfisia-kentro-1550-104,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/5f651990-8005-4432-961e-f354cb31392a/athhna-plateia-attikhs-530-65,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/627ebeec-0c4d-416b-a493-0253404140f7/peiraias-kentrikos-limenas-750-76,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
