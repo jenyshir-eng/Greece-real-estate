@@ -91,6 +91,9 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Install Playwright for iOWN collector
+        if: needs.plan.outputs.job == 'update'
+        run: pip install playwright && playwright install --with-deps chromium
       - name: ${{ needs.plan.outputs.job }} ${{ matrix.city }}
         run: |
           git config user.name "Spiti Radar"
