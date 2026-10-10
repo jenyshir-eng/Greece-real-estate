@@ -251,3 +251,8 @@ date,source_domain,url,reason
 2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e1eb601e-d091-4543-a994-35fe4f034a62/zwgrafoy-kentro-600-53,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
 2026-10-10,santorini-invest.com,https://santorini-invest.com/property/8000m%c2%b2-plot-for-sale-in-andros-greece/,sold / not available
 2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/458051,sold / not available
+2026-10-10,remax.gr,https://www.remax.gr/property/361502-polisi-ktirio--petralwna,not on result pages
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ea6a1544-374c-4c58-8ba7-dc173fb0aed6/peiraias-kentro-600-58,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ee3d6a4e-1847-4718-81c8-5168704cde99/athhna-filopappoy-680-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f8b58a7e-4016-4985-a8d0-2b95a3b64e69/athhna-plateia-amerikhs-800-98,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,realestateone.gr,https://realestateone.gr/el/property/1551804,redirects to https://realestateone.gr/el/404
