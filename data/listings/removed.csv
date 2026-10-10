@@ -727,3 +727,11 @@ date,source_domain,url,reason
 2026-10-10,mesitiki.net,https://mesitiki.net/el/property/2757,http 404
 2026-10-10,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/120933,http 404
 2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/521132,sold / not available
+2026-10-10,remax.gr,https://www.remax.gr/property/397852-polisi-mezoneta-kardia,not on result pages
+2026-10-10,remax.gr,https://www.remax.gr/property/402910-enoikiasi-diamerisma-aretsoy,not on result pages
+2026-10-10,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/d85c0408-edea-48f8-a6e1-ad47365df77d/kassandreia-140000-3200,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-10,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/e226b134-b851-41a7-be7e-3493e295c10a/kassandreia-230000-4150,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-10,politia.gr,https://politia.gr/el/property/71790,http 404
+2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/540157,sold / not available
+2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/522854,sold / not available
+2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/458051,sold / not available
