@@ -717,3 +717,13 @@ date,source_domain,url,reason
 2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/538884,sold / not available
 2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/520363,sold / not available
 2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/535841,sold / not available
+2026-10-10,remax.gr,https://www.remax.gr/property/335648-enoikiasi-diamerisma-kentro,not on result pages
+2026-10-10,remax.gr,https://www.remax.gr/property/364913-polisi-diamerisma-nea-paralia,not on result pages
+2026-10-10,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/309fa5d0-4f96-4f12-a819-146134eb5802/thessalonikh-140000-405,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-10,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/53041d68-f868-42bf-ae04-2545ef533240/thessalonikh-ntepw-285000-194,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/543034,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/544466,http 404
+2026-10-10,hometarget.gr,https://hometarget.gr/el/property/4171,redirects to https://hometarget.gr/website/error
+2026-10-10,mesitiki.net,https://mesitiki.net/el/property/2757,http 404
+2026-10-10,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/120933,http 404
+2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/521132,sold / not available
