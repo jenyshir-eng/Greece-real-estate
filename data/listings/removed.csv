@@ -668,3 +668,52 @@ date,source_domain,url,reason
 2026-10-09,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-one-salonica-1-24513/,http 404
 2026-10-09,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-one-salonica-1-24513/,http 404
 2026-10-09,goldenhome.gr,https://goldenhome.gr/property/view/529485,sold / not available
+2026-10-10,remax.gr,https://www.remax.gr/property/367933-polisi-monokatoikia-soyrwth,not on result pages
+2026-10-10,remax.gr,https://www.remax.gr/property/367934-polisi-mezoneta-soyrwth,not on result pages
+2026-10-10,remax.gr,https://www.remax.gr/property/368069-polisi-diamerisma-nea-krhnh,not on result pages
+2026-10-10,remax.gr,https://www.remax.gr/property/379682-polisi-mezoneta-karampoyrnaki,not on result pages
+2026-10-10,remax.gr,https://www.remax.gr/property/396497-polisi-diamerisma-agios-iwannhs,not on result pages
+2026-10-10,remax.gr,https://www.remax.gr/property/398917-polisi-diamerisma-eyosmos,not on result pages
+2026-10-10,remax.gr,https://www.remax.gr/property/399080-polisi-diamerisma-nea-krhnh,not on result pages
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/add7fd01-fbf4-48ae-b02e-edfa0582eb48/thessalonikh-xhrokrhnh-470-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b433f7fa-af3c-4dbf-aad9-aa909cf26ad3/kalamaria-700-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/bc6c19bb-971f-438a-86c6-fc3d2c595bd9/thessalonikh-kentro-1200-85,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c4439cf4-3436-42d3-9c6a-5fff9631a37b/thessalonikh-anw-toympa-430-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c48f9ad2-b469-4d58-b91d-758199596b82/thessalonikh-anw-toympa-390-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d17721ce-3f2e-4f4c-a0b0-4e5ae313413d/thessalonikh-anw-polh-550-65,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/db062f0b-dcad-4865-a799-6212f5b7521d/thessalonikh-vardarh-420-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e6763fcc-9ea2-410c-ade6-e73f5f4914ee/thessalonikh-falhro-800-95,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ed932143-dbdd-47f5-812c-e1ccd0779567/thessalonikh-analhpsh-650-82,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f32ac5d4-2a69-4738-81b6-e76c9c4a89f0/triandria-450-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f35dfa5b-fe80-440b-8e22-89f6d1b515e2/thessalonikh-papafeio-400-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f54ca9f3-dbcf-4d75-8984-03dc9c8d9fc0/pylaia-650-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-10,angelou-realestate.gr,https://www.angelou-realestate.gr/single-property-page.php?id=608&sr=2,redirects to https://www.angelou-realestate.gr/noresults.php?id=
+2026-10-10,best-house.gr,https://www.best-house.gr/akinito/495-diamerisma-72tm-z7572,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/544345,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/543110,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/543017,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/543813,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/543157,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/544410,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/543827,http 404
+2026-10-10,casanova.com.gr,https://casanova.com.gr/el/property/543452,http 404
+2026-10-10,hometarget.gr,https://hometarget.gr/el/property/3544,redirects to https://hometarget.gr/website/error
+2026-10-10,hometarget.gr,https://hometarget.gr/el/property/3427,redirects to https://hometarget.gr/website/error
+2026-10-10,hometarget.gr,https://hometarget.gr/el/property/4156,redirects to https://hometarget.gr/website/error
+2026-10-10,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2467464/,http 404
+2026-10-10,mandraouhome.gr,https://www.mandraouhome.gr/portfolio-item/%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-75%cf%84-%ce%bc-%ce%bc%ce%b7%cf%87%ce%b1%ce%bd%ce%b9%cf%8e%ce%bd%ce%b1-e500/,http 404
+2026-10-10,theprosperty.com,https://theprosperty.com/listings/18537/,http 404
+2026-10-10,theprosperty.com,https://theprosperty.com/listings/18439/,http 404
+2026-10-10,theprosperty.com,https://theprosperty.com/listings/18376/,http 404
+2026-10-10,monopoly.com.gr,https://monopoly.com.gr/el/property/88109,http 404
+2026-10-10,politia.gr,https://politia.gr/el/property/71955,http 404
+2026-10-10,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123175,http 404
+2026-10-10,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121773,http 404
+2026-10-10,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121764,http 404
+2026-10-10,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121752,http 404
+2026-10-10,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121550,http 404
+2026-10-10,realestatepoint.gr,https://index.cy/sale/11787650-3-bedroom-apartment-for-sale-in-limassol-district/,http 404
+2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/516324,sold / not available
+2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/538884,sold / not available
+2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/520363,sold / not available
+2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/535841,sold / not available
