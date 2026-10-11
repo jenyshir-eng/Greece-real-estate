@@ -744,3 +744,15 @@ date,source_domain,url,reason
 2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/506154,sold / not available
 2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/420270,sold / not available
 2026-10-10,goldenhome.gr,https://goldenhome.gr/property/view/530095,sold / not available
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/6bba36b4-114b-4ff5-ab1b-7e056d947691/neapolh-125000-80,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/764abea7-7196-48a4-9ec7-a2a445d86c02/pylaia-109000-30,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/aa42fe21-ca86-413f-ae5a-1dfe771df280/thessalonikh-kalamaria-1000-147,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ab1126c4-6d38-4341-9537-94d36ca0ded8/thessalonikh-kalamaria-1000-260,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ab5921ba-2d4c-45c2-8c49-fd5fb13e4a4c/thessalonikh-analhpsh-95000-32,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,casanova.com.gr,https://casanova.com.gr/el/property/545035,http 404
+2026-10-11,casanova.com.gr,https://casanova.com.gr/el/property/545037,http 404
+2026-10-11,casanova.com.gr,https://casanova.com.gr/el/property/545012,http 404
+2026-10-11,casanova.com.gr,https://casanova.com.gr/el/property/544934,http 404
+2026-10-11,remax.gr,https://www.remax.gr/property/406795-polisi-gkarsoniera-studio-lewf-pathsiwn-lewf-axarnwn,http 404
+2026-10-11,goldenhome.gr,https://goldenhome.gr/property/view/481626,sold / not available
+2026-10-11,goldenhome.gr,https://goldenhome.gr/property/view/527069,sold / not available
