@@ -756,3 +756,10 @@ date,source_domain,url,reason
 2026-10-11,remax.gr,https://www.remax.gr/property/406795-polisi-gkarsoniera-studio-lewf-pathsiwn-lewf-axarnwn,http 404
 2026-10-11,goldenhome.gr,https://goldenhome.gr/property/view/481626,sold / not available
 2026-10-11,goldenhome.gr,https://goldenhome.gr/property/view/527069,sold / not available
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/b86bf8fd-8b0a-438a-8fa6-79397c8cdb39/peraia-270000-90,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/df572578-401c-4b6b-a856-3a1adcfc2094/thessalonikh-anw-polh-115000-40,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/e022e86a-196a-47e6-85dd-64d6e1c29090/thessalonikh-charilaoy-160000-82,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/e4729288-3503-4d83-99fe-54cb7c536f8a/thessalonikh-katw-toympa-125000-43,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/f5ba3c5e-aff8-494c-979f-8174748f4a75/thessalonikh-anw-polh-115000-60,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-11,goldenhome.gr,https://goldenhome.gr/property/view/509583,sold / not available
+2026-10-11,goldenhome.gr,https://goldenhome.gr/property/view/482781,sold / not available
