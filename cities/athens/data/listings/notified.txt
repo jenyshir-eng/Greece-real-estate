@@ -1079,6 +1079,7 @@ https://enterhome.com.gr/property.php?id=912
 https://enterhome.com.gr/property.php?id=970
 https://enterhome.com.gr/property.php?id=993
 https://enterhome.com.gr/property.php?id=994
+https://goldenhome.gr/property/view/115236
 https://goldenhome.gr/property/view/135001
 https://goldenhome.gr/property/view/168077
 https://goldenhome.gr/property/view/173148
@@ -1146,6 +1147,7 @@ https://goldenhome.gr/property/view/309023
 https://goldenhome.gr/property/view/309516
 https://goldenhome.gr/property/view/311397
 https://goldenhome.gr/property/view/311864
+https://goldenhome.gr/property/view/312149
 https://goldenhome.gr/property/view/312541
 https://goldenhome.gr/property/view/312982
 https://goldenhome.gr/property/view/315241
@@ -1185,6 +1187,7 @@ https://goldenhome.gr/property/view/379384
 https://goldenhome.gr/property/view/379536
 https://goldenhome.gr/property/view/379560
 https://goldenhome.gr/property/view/38021
+https://goldenhome.gr/property/view/382158
 https://goldenhome.gr/property/view/383413
 https://goldenhome.gr/property/view/385247
 https://goldenhome.gr/property/view/385256
@@ -1250,6 +1253,7 @@ https://goldenhome.gr/property/view/420270
 https://goldenhome.gr/property/view/423007
 https://goldenhome.gr/property/view/423502
 https://goldenhome.gr/property/view/424475
+https://goldenhome.gr/property/view/426362
 https://goldenhome.gr/property/view/430562
 https://goldenhome.gr/property/view/431194
 https://goldenhome.gr/property/view/431526
@@ -1279,6 +1283,8 @@ https://goldenhome.gr/property/view/442597
 https://goldenhome.gr/property/view/44265
 https://goldenhome.gr/property/view/443038
 https://goldenhome.gr/property/view/444610
+https://goldenhome.gr/property/view/444977
+https://goldenhome.gr/property/view/444982
 https://goldenhome.gr/property/view/445206
 https://goldenhome.gr/property/view/445239
 https://goldenhome.gr/property/view/445416
@@ -1332,6 +1338,7 @@ https://goldenhome.gr/property/view/466914
 https://goldenhome.gr/property/view/467065
 https://goldenhome.gr/property/view/468356
 https://goldenhome.gr/property/view/468522
+https://goldenhome.gr/property/view/469270
 https://goldenhome.gr/property/view/469674
 https://goldenhome.gr/property/view/470736
 https://goldenhome.gr/property/view/470898
@@ -1342,6 +1349,7 @@ https://goldenhome.gr/property/view/471239
 https://goldenhome.gr/property/view/472955
 https://goldenhome.gr/property/view/473048
 https://goldenhome.gr/property/view/473200
+https://goldenhome.gr/property/view/473472
 https://goldenhome.gr/property/view/473540
 https://goldenhome.gr/property/view/474286
 https://goldenhome.gr/property/view/474882
@@ -1538,9 +1546,11 @@ https://goldenhome.gr/property/view/519813
 https://goldenhome.gr/property/view/520338
 https://goldenhome.gr/property/view/520363
 https://goldenhome.gr/property/view/520698
+https://goldenhome.gr/property/view/520752
 https://goldenhome.gr/property/view/520820
 https://goldenhome.gr/property/view/520961
 https://goldenhome.gr/property/view/521154
+https://goldenhome.gr/property/view/521215
 https://goldenhome.gr/property/view/521485
 https://goldenhome.gr/property/view/521681
 https://goldenhome.gr/property/view/521823
@@ -1572,6 +1582,7 @@ https://goldenhome.gr/property/view/524256
 https://goldenhome.gr/property/view/524277
 https://goldenhome.gr/property/view/524465
 https://goldenhome.gr/property/view/524469
+https://goldenhome.gr/property/view/524473
 https://goldenhome.gr/property/view/524714
 https://goldenhome.gr/property/view/524941
 https://goldenhome.gr/property/view/524985
@@ -1726,6 +1737,7 @@ https://goldenhome.gr/property/view/536077
 https://goldenhome.gr/property/view/536125
 https://goldenhome.gr/property/view/536131
 https://goldenhome.gr/property/view/536155
+https://goldenhome.gr/property/view/536168
 https://goldenhome.gr/property/view/536190
 https://goldenhome.gr/property/view/536286
 https://goldenhome.gr/property/view/536321
@@ -8309,6 +8321,7 @@ https://makeadeal.gr/el/properties/%ce%b5%ce%be%ce%b1%ce%b9%cf%81%ce%b5%cf%84%ce
 https://makeadeal.gr/el/properties/%ce%b8%ce%b5%cf%83%cf%83%ce%b1%ce%bb%ce%bf%ce%bd%ce%af%ce%ba%ce%b7-%ce%b5%ce%bc%cf%80%ce%bf%cf%81%ce%b9%ce%ba%cf%8c-%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-10-400%cf%84%ce%bc/
 https://makeadeal.gr/el/properties/%ce%b8%ce%b5%cf%83%cf%83%ce%b1%ce%bb%ce%bf%ce%bd%ce%af%ce%ba%ce%b7-%ce%b5%ce%bc%cf%80%ce%bf%cf%81%ce%b9%ce%ba%cf%8c-%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-50-500%cf%84%ce%bc/
 https://makeadeal.gr/el/properties/%ce%bc%ce%b5%ce%b3%ce%ac%ce%bb%ce%bf-%cf%80%ce%b1%cf%81%ce%b1%ce%b8%ce%b1%ce%bb%ce%ac%cf%83%cf%83%ce%b9%ce%bf-%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-30-000%cf%84%ce%bc-%cf%83%cf%84%ce%bf/
+https://makeadeal.gr/el/properties/%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-%cf%81%ce%b5%cf%84%ce%b9%cf%81%ce%ad-139-%cf%84-%ce%bc-%ce%bc%ce%b5-%ce%b8%ce%ad%ce%b1-%cf%83%cf%84%ce%b7-%ce%b8%ce%ac%ce%bb%ce%b1%cf%83%cf%83%ce%b1/
 https://makeadeal.gr/el/properties/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-1-181%cf%84-%ce%bc-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bc%ce%b7-%ce%bc%ce%b5-%cf%80%ce%b1%ce%bd%ce%bf%cf%81%ce%b1%ce%bc%ce%b9%ce%ba%ce%ae-%ce%b8%ce%ad/
 https://makeadeal.gr/el/properties/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-1-914-%cf%84-%ce%bc-%cf%83%ce%b5-%cf%80%cf%81%ce%bf%ce%bd%ce%bf%ce%bc%ce%b9%ce%b1%ce%ba%ce%ae-%cf%84%ce%bf%cf%80%ce%bf%ce%b8%ce%b5%cf%83%ce%af%ce%b1/
 https://makeadeal.gr/el/properties/%cf%80%ce%ac%cf%84%cf%81%ce%b1-%ce%ba%ce%ad%ce%bd%cf%84%cf%81%ce%bf-140%cf%84%ce%bc-%ce%b3%cf%89%ce%bd%ce%b9%ce%b1%ce%ba%cf%8c-%ce%ba%ce%b1%cf%84%ce%ac%cf%83%cf%84%ce%b7%ce%bc%ce%b1-%cf%80%cf%81%ce%bf/
@@ -8525,6 +8538,7 @@ https://neon-realestate.gr/property/1812632-diamerisma-pros-polisi-korydallos-12
 https://neon-realestate.gr/property/2135437-grafeio-pros-enoikiasi-palaio-faliro-105-t-m-e1-100/
 https://neon-realestate.gr/property/2278877-diamerisma-pros-polisi-dafni-80-t-m-e310-000/
 https://neon-realestate.gr/property/2327576-studio-gkarsoniera-pros-enoikiasi-kentro-limani-20-t-m-e850/
+https://neon-realestate.gr/property/2327794-studio-gkarsoniera-pros-enoikiasi-kaminia-palaia-kokkinia-20-t-m-e800/
 https://neon-realestate.gr/property/2337281-diamerisma-pros-polisi-kallithea-89-t-m-e210-000/
 https://neon-realestate.gr/property/2415955-diamerisma-pros-polisi-kallithea-82-t-m-e265-000/
 https://neon-realestate.gr/property/2519367-diamerisma-pros-enoikiasi-neos-kosmos-97-t-m-e800/
@@ -9315,6 +9329,7 @@ https://spitionline.gr/el/listings/1303814
 https://spitionline.gr/el/listings/1303831
 https://spitionline.gr/el/listings/1303842
 https://spitionline.gr/el/listings/1303853
+https://spitionline.gr/el/listings/1303859
 https://spitionline.gr/el/listings/256175
 https://spitionline.gr/el/listings/318133
 https://spitionline.gr/el/listings/356651
@@ -9418,6 +9433,7 @@ https://sygrisis.gr/properties/whole-floor-apartment-athens-pagrati-55-sqm-3117-
 https://t.me/AfinyRent/257
 https://t.me/AfinyRent/307
 https://t.me/Astons_Greece/2200
+https://t.me/Astons_Greece/2237
 https://t.me/ImmoGreece/1151
 https://t.me/ImmoGreece/1154
 https://t.me/ImmoGreece/1165
@@ -11493,11 +11509,14 @@ https://www.akinitakritis.gr/property/56820/enoikiazetai-dyari-epiplomeno-diamer
 https://www.akinitakritis.gr/property/56821/enoikiazetai-polyteles-grafeio-kentro-irakleio-kritis
 https://www.akinitakritis.gr/property/56925/poleitai-orofodiamerisma-145-tm-stin-agia-sofia-thessaloniki-idaniko-gia-oikogeneies
 https://www.akinitakritis.gr/property/57662/poleitai-oikopedo-1513tm-stin-agtryfonas-karlovasi-idaniko-gia-kataskefi
+https://www.akinitakritis.gr/property/57669/monadiki-monokatoikia-153-tm-pros-polisi-ston-pyrgo-pythagoreio-idaniki-gia-oikogeneies
 https://www.akinitakritis.gr/property/57678/monokatoikia-180-tm-pros-polisi-sto-mesaio-karlovasi-idaniki-gia-oikogeneies
 https://www.akinitakritis.gr/property/57715/poleitai-petrini-monokatoikia-330tm-stin-koumeika-marathokabos-idaniki-efkairia
 https://www.akinitakritis.gr/property/57722/monokatoikia-93-tm-pros-polisi-sto-palio-karlovasi-idaniki-gia-oikogeneies
+https://www.akinitakritis.gr/property/57739/poleitai-neoklasiki-vila-1000-tm-ston-ormo-karlovasou-monadiki-efkairia
 https://www.akinitakritis.gr/property/57772/poleitai-oikopedo-519tm-sto-poseidonio-idaniko-gia-kataskefi
 https://www.akinitakritis.gr/property/57774/monokatoikia-120-tm-pros-polisi-stous-kosmadaious-idaniki-gia-oikogeneies
+https://www.akinitakritis.gr/property/57788/oikopedo-226-tm-pros-polisi-sto-vathy-idaniko-gia-ependysi
 https://www.akinitakritis.gr/property/57870/poleitai-katastima-88-tm-sto-kentro-thessalonikis-antigonidon
 https://www.akinitakritis.gr/property/58323/anakainismeni-garsoniera-48-tm-pros-polisi-sto-ano-xalandri-amesi-xrisi
 https://www.akinitakritis.gr/property/58328/mezoneta-204-tm-pros-polisi-sto-stountio-alfa-marousi-polytelis-kataskefi-me-kipo
@@ -11954,6 +11973,8 @@ https://www.akinitakritis.gr/property/60741/poleitai-diamerisma-54-tm-ston-5o-or
 https://www.akinitakritis.gr/property/60742/poleitai-polyteles-studio-38-tm-stin-plateia-eboriou-ano-ladadika-thessaloniki
 https://www.akinitakritis.gr/property/60748/efkairia-anakainisis-katoikia-213-tm-me-thea-sti-thalassa-sto-akrotiri
 https://www.akinitakritis.gr/property/60749/goiteftiki-vila-117-tm-me-thea-sti-thalassa-kai-ta-vouna-stin-apokorona
+https://www.akinitakritis.gr/property/60751/monadiki-monokatoikia-110-tm-pros-polisi-sti-drakaioi-marathokabos
+https://www.akinitakritis.gr/property/60752/oikopedo-650-tm-pros-polisi-ston-ag-dimitriokontakaika
 https://www.akinitapolis.gr/el-GR/id/15881/__(pros-polisi)-epaggelmatikos-choros-epaggelmatikos-choros-athina-kentro-athina-/estate.html
 https://www.akinitapolis.gr/el-GR/id/18024/__(pros-polisi)-epaggelmatikos-choros-katastima-athina-kentro-athina-/estate.html
 https://www.akinitapolis.gr/el-GR/id/22232/__(pros-polisi)-katikia-diamerisma-athina-kentro-nea-filadelfia-/estate.html
@@ -15361,7 +15382,9 @@ https://www.grekodom.com/realtyobject/12259-for-sale-villa-600-m2-in-thessalonik
 https://www.grekodom.com/realtyobject/12286-for-sale-villa-595-m2-in-central-greece
 https://www.grekodom.com/realtyobject/124-for-sale-detached-house-160-m2-in-kassand
 https://www.grekodom.com/realtyobject/12459-for-sale-detached-house-285-m2-in-sitho
+https://www.grekodom.com/realtyobject/12484-for-sale-land-570-m2-in-crete
 https://www.grekodom.com/realtyobject/12486-for-sale-land-15000-m2-in-crete
+https://www.grekodom.com/realtyobject/12488-for-sale-land-1675-m2-in-crete
 https://www.grekodom.com/realtyobject/12504-for-sale-building-470-m2-on-the-euboea
 https://www.grekodom.com/realtyobject/12508-for-sale-hotel-946-m2-on-the-euboea-isl
 https://www.grekodom.com/realtyobject/12545-for-sale-business-5000-m2-on-the-olympi
@@ -15469,10 +15492,12 @@ https://www.grekodom.com/realtyobject/15810-for-sale-maisonette-115-m2-in-easter
 https://www.grekodom.com/realtyobject/15824-for-sale-detached-house-145-m2-in-sitho
 https://www.grekodom.com/realtyobject/15825-for-sale-maisonette-110-m2-in-eastern-p
 https://www.grekodom.com/realtyobject/15994-for-sale-villa-400-m2-in-crete
+https://www.grekodom.com/realtyobject/16004-for-sale-villa-680-m2-in-thessaloniki
 https://www.grekodom.com/realtyobject/16057-for-sale-land-2300-m2-in-kassandra-chal
 https://www.grekodom.com/realtyobject/16355-for-sale-maisonette-245-m2-in-attica
 https://www.grekodom.com/realtyobject/16364-for-sale-commercial-property-220-m2-in
 https://www.grekodom.com/realtyobject/16409-for-sale-land-1200-m2-in-thessaloniki
+https://www.grekodom.com/realtyobject/16541-for-sale-detached-house-300-m2-in-attic
 https://www.grekodom.com/realtyobject/16553-for-sale-land-3373-m2-in-crete
 https://www.grekodom.com/realtyobject/16554-for-sale-land-2580-m2-in-crete
 https://www.grekodom.com/realtyobject/16555-for-sale-land-17934-m2-in-crete
@@ -15484,6 +15509,7 @@ https://www.grekodom.com/realtyobject/16940-for-sale-detached-house-280-m2-on-th
 https://www.grekodom.com/realtyobject/175-for-sale-villa-300-m2-in-kassandra-chalki
 https://www.grekodom.com/realtyobject/1755-for-sale-maisonette-150-m2-in-kassandra
 https://www.grekodom.com/realtyobject/17758-for-sale-hotel-318-m2-on-the-island-of
+https://www.grekodom.com/realtyobject/17955-for-sale-detached-house-235-m2-in-corfu
 https://www.grekodom.com/realtyobject/18051-for-sale-commercial-property-209-m2-in
 https://www.grekodom.com/realtyobject/18076-for-sale-hotel-1286-m2-on-the-olympic-c
 https://www.grekodom.com/realtyobject/18107-for-sale-maisonette-180-m2-in-attica
@@ -15655,6 +15681,7 @@ https://www.grekodom.com/realtyobject/23067-for-sale-building-1200-m2-in-athens
 https://www.grekodom.com/realtyobject/23071-for-sale-land-23000-m2-in-epirus
 https://www.grekodom.com/realtyobject/23097-for-sale-land-6012-m2-in-kassandra-chal
 https://www.grekodom.com/realtyobject/23110-for-sale-maisonette-270-m2-in-athens
+https://www.grekodom.com/realtyobject/23115-for-sale-land-4070-m2-in-crete
 https://www.grekodom.com/realtyobject/23142-for-sale-building-300-m2-in-athens
 https://www.grekodom.com/realtyobject/23146-for-sale-building-520-m2-in-athens
 https://www.grekodom.com/realtyobject/23187-for-sale-villa-484-m2-in-eastern-pelopo
@@ -15718,6 +15745,7 @@ https://www.grekodom.com/realtyobject/24869-for-rent-business-104-m2-in-athens
 https://www.grekodom.com/realtyobject/24889-for-sale-hotel-240-m2-in-sithonia-chalk
 https://www.grekodom.com/realtyobject/24898-for-sale-land-3345-m2-in-paphos
 https://www.grekodom.com/realtyobject/24926-for-sale-detached-house-140-m2-in-corfu
+https://www.grekodom.com/realtyobject/24952-for-sale-land-11065-m2-in-crete
 https://www.grekodom.com/realtyobject/24953-for-sale-land-26001-m2-in-crete
 https://www.grekodom.com/realtyobject/24991-for-sale-detached-house-300-m2-in-attic
 https://www.grekodom.com/realtyobject/25030-for-sale-commercial-property-310-m2-in
@@ -15746,11 +15774,16 @@ https://www.grekodom.com/realtyobject/2565-for-sale-detached-house-300-m2-in-the
 https://www.grekodom.com/realtyobject/25707-for-sale-hotel-2200-m2-in-rhodes
 https://www.grekodom.com/realtyobject/25728-for-sale-land-10368-m2-in-larnaka
 https://www.grekodom.com/realtyobject/25743-for-sale-land-5800-m2-in-kassandra-chal
+https://www.grekodom.com/realtyobject/25746-for-sale-land-9521-m2-in-kassandra-chal
+https://www.grekodom.com/realtyobject/25748-for-sale-land-42000-m2-in-corfu
+https://www.grekodom.com/realtyobject/25749-for-sale-land-250-m2-in-kassandra-chalk
+https://www.grekodom.com/realtyobject/25751-for-sale-hotel-412-m2-in-corfu
 https://www.grekodom.com/realtyobject/25758-for-sale-villa-630-m2-in-limassol
 https://www.grekodom.com/realtyobject/25759-for-sale-land-380-m2-in-athos-chalkidik
 https://www.grekodom.com/realtyobject/25760-for-sale-land-500-m2-in-athos-chalkidik
 https://www.grekodom.com/realtyobject/2589-for-sale-land-in-thessaloniki
 https://www.grekodom.com/realtyobject/2592-for-sale-detached-house-173-m2-in-the-su
+https://www.grekodom.com/realtyobject/25935-for-sale-land-12300-m2-in-kassandra-cha
 https://www.grekodom.com/realtyobject/25949-for-sale-maisonette-320-m2-in-attica
 https://www.grekodom.com/realtyobject/25986-for-sale-land-4744-m2-in-crete
 https://www.grekodom.com/realtyobject/26036-for-sale-land-5908-m2-in-thessaloniki
@@ -15780,8 +15813,11 @@ https://www.grekodom.com/realtyobject/2649-for-sale-land-10000-m2-in-kassandra-c
 https://www.grekodom.com/realtyobject/2650-for-sale-land-7000-m2-in-asprovalta
 https://www.grekodom.com/realtyobject/26504-for-sale-land-10800-m2-in-sithonia-chal
 https://www.grekodom.com/realtyobject/26507-for-rent-flat-44-m2-in-athens
+https://www.grekodom.com/realtyobject/26511-for-rent-flat-41-m2-in-athens
 https://www.grekodom.com/realtyobject/26558-for-sale-villa-100-m2-in-sithonia-chalk
 https://www.grekodom.com/realtyobject/26673-for-sale-detached-house-240-m2-in-chalk
+https://www.grekodom.com/realtyobject/26688-for-rent-flat-42-m2-in-athens
+https://www.grekodom.com/realtyobject/26693-for-sale-land-550-m2-in-crete
 https://www.grekodom.com/realtyobject/26714-for-sale-detached-house-230-m2-in-attic
 https://www.grekodom.com/realtyobject/26738-for-rent-maisonette-95-m2-on-the-euboea
 https://www.grekodom.com/realtyobject/26741-for-sale-commercial-property-480-m2-in
@@ -15789,8 +15825,12 @@ https://www.grekodom.com/realtyobject/26760-for-sale-land-2306-m2-in-corfu
 https://www.grekodom.com/realtyobject/26775-for-rent-flat-33-m2-in-athens
 https://www.grekodom.com/realtyobject/26790-for-sale-detached-house-600-m2-in-kassa
 https://www.grekodom.com/realtyobject/26828-for-sale-land-1140-m2-in-sithonia-chalk
+https://www.grekodom.com/realtyobject/26831-for-sale-villa-320-m2-in-volos-pilio
 https://www.grekodom.com/realtyobject/26845-for-sale-land-7250-m2-in-sithonia-chalk
+https://www.grekodom.com/realtyobject/26856-for-sale-land-355-m2-in-the-suburbs-of
 https://www.grekodom.com/realtyobject/26891-for-sale-villa-307-m2-in-crete
+https://www.grekodom.com/realtyobject/26892-for-rent-flat-49-m2-in-athens
+https://www.grekodom.com/realtyobject/26894-for-rent-flat-43-m2-in-athens
 https://www.grekodom.com/realtyobject/26933-for-sale-land-625-m2-in-attica
 https://www.grekodom.com/realtyobject/26934-for-sale-land-470-m2-in-attica
 https://www.grekodom.com/realtyobject/26944-for-sale-villa-500-m2-in-loutraki
@@ -15798,6 +15838,7 @@ https://www.grekodom.com/realtyobject/26967-for-sale-detached-house-180-m2-in-ea
 https://www.grekodom.com/realtyobject/26976-for-sale-land-9848-m2-in-crete
 https://www.grekodom.com/realtyobject/26997-for-sale-villa-220-m2-in-attica
 https://www.grekodom.com/realtyobject/26999-for-sale-detached-house-230-m2-in-attic
+https://www.grekodom.com/realtyobject/27001-for-sale-detached-house-116-m2-in-kassa
 https://www.grekodom.com/realtyobject/27042-for-rent-flat-36-m2-in-athens
 https://www.grekodom.com/realtyobject/27043-for-rent-flat-30-m2-in-athens
 https://www.grekodom.com/realtyobject/27055-for-sale-commercial-property-14810-m2-i
@@ -15810,19 +15851,25 @@ https://www.grekodom.com/realtyobject/27134-for-sale-building-in-athens
 https://www.grekodom.com/realtyobject/27151-for-sale-hotel-450-m2-in-sithonia-chalk
 https://www.grekodom.com/realtyobject/27154-for-sale-land-2745-m2-in-corfu
 https://www.grekodom.com/realtyobject/27161-for-sale-villa-150-m2-on-the-olympic-co
+https://www.grekodom.com/realtyobject/2720-for-sale-maisonette-210-m2-on-the-olympi
 https://www.grekodom.com/realtyobject/27292-for-sale-flat-85-m2-in-limassol
 https://www.grekodom.com/realtyobject/273-for-sale-villa-200-m2-in-sithonia-chalkid
 https://www.grekodom.com/realtyobject/2754-for-sale-land-7850-m2-in-athos-chalkidik
 https://www.grekodom.com/realtyobject/2761-for-sale-land-56000-m2-in-kassandra-chal
 https://www.grekodom.com/realtyobject/2770-for-sale-land-4465-m2-in-kassandra-chalk
+https://www.grekodom.com/realtyobject/27964-for-rent-flat-47-m2-in-athens
 https://www.grekodom.com/realtyobject/2801-for-sale-land-18000-m2-in-athos-chalkidi
 https://www.grekodom.com/realtyobject/282-for-sale-villa-820-m2-in-kassandra-chalki
 https://www.grekodom.com/realtyobject/28611-for-sale-detached-house-290-m2-in-attic
 https://www.grekodom.com/realtyobject/2869-for-sale-land-2993-m2-in-chalkidiki
+https://www.grekodom.com/realtyobject/28691-for-sale-hotel-700-m2-in-sithonia-chalk
+https://www.grekodom.com/realtyobject/28721-for-sale-business-4500-m2-in-thrace
 https://www.grekodom.com/realtyobject/28724-for-sale-hotel-1300-m2-in-crete
 https://www.grekodom.com/realtyobject/28732-for-sale-land-1400-m2-in-corfu
 https://www.grekodom.com/realtyobject/28738-for-sale-land-883-m2-on-the-olympic-coa
 https://www.grekodom.com/realtyobject/28740-for-sale-land-852-m2-on-the-olympic-coa
+https://www.grekodom.com/realtyobject/28745-for-rent-flat-180-m2-in-athens
+https://www.grekodom.com/realtyobject/2878-for-sale-villa-330-m2-in-corfu
 https://www.grekodom.com/realtyobject/28795-for-sale-land-4000-m2-on-the-olympic-co
 https://www.grekodom.com/realtyobject/28864-for-sale-building-7700-m2-in-thessaloni
 https://www.grekodom.com/realtyobject/28883-for-sale-detached-house-380-m2-in-the-s
@@ -15834,9 +15881,11 @@ https://www.grekodom.com/realtyobject/29012-for-sale-land-500-m2-in-the-suburbs-
 https://www.grekodom.com/realtyobject/29136-for-sale-building-1400-m2-in-attica
 https://www.grekodom.com/realtyobject/29180-for-sale-land-450-m2-on-the-olympic-coa
 https://www.grekodom.com/realtyobject/29194-for-sale-maisonette-155-m2-in-western-p
+https://www.grekodom.com/realtyobject/29209-for-rent-villa-130-m2-in-central-greece
 https://www.grekodom.com/realtyobject/29219-for-sale-business-in-athens
 https://www.grekodom.com/realtyobject/29228-for-sale-land-2070-m2-in-crete
 https://www.grekodom.com/realtyobject/29231-for-sale-maisonette-200-m2-in-athens
+https://www.grekodom.com/realtyobject/29233-for-rent-flat-56-m2-in-athens
 https://www.grekodom.com/realtyobject/29235-for-sale-commercial-property-78-m2-in-a
 https://www.grekodom.com/realtyobject/29245-for-sale-flat-135-m2-in-the-suburbs-of
 https://www.grekodom.com/realtyobject/29322-for-sale-business-700-m2-in-athos-chalk
@@ -15857,7 +15906,10 @@ https://www.grekodom.com/realtyobject/29675-for-sale-land-500-m2-in-kriaritsi
 https://www.grekodom.com/realtyobject/29751-for-sale-detached-house-130-m2-in-attic
 https://www.grekodom.com/realtyobject/29754-for-sale-land-5500-m2-in-thessaloniki
 https://www.grekodom.com/realtyobject/29769-for-sale-building-720-m2-in-thessalonik
+https://www.grekodom.com/realtyobject/29949-for-rent-flat-37-m2-in-athens
 https://www.grekodom.com/realtyobject/29964-for-sale-detached-house-270-m2-in-thess
+https://www.grekodom.com/realtyobject/29990-for-rent-flat-70-m2-on-the-olympic-coas
+https://www.grekodom.com/realtyobject/29991-for-rent-flat-72-m2-on-the-olympic-coas
 https://www.grekodom.com/realtyobject/3001-for-sale-land-1400-m2-in-the-suburbs-of
 https://www.grekodom.com/realtyobject/30035-for-sale-building-1100-m2-in-athens
 https://www.grekodom.com/realtyobject/30042-for-sale-maisonette-234-m2-in-the-subur
@@ -15870,12 +15922,16 @@ https://www.grekodom.com/realtyobject/3013-for-sale-land-1306-m2-in-corfu
 https://www.grekodom.com/realtyobject/30144-for-sale-building-533-m2-in-attica
 https://www.grekodom.com/realtyobject/30168-for-sale-maisonette-230-m2-in-attica
 https://www.grekodom.com/realtyobject/30172-for-rent-maisonette-110-m2-in-eastern-p
+https://www.grekodom.com/realtyobject/30173-for-sale-land-560-m2-in-attica
 https://www.grekodom.com/realtyobject/30184-for-sale-land-13289-m2-in-kassandra-cha
+https://www.grekodom.com/realtyobject/30203-for-rent-business-450-m2-on-the-olympic
 https://www.grekodom.com/realtyobject/30214-for-sale-commercial-property-155-m2-in
 https://www.grekodom.com/realtyobject/30231-for-sale-land-3450-m2-in-athos-chalkidi
 https://www.grekodom.com/realtyobject/30241-for-sale-commercial-property-330-m2-in
+https://www.grekodom.com/realtyobject/30273-for-sale-detached-house-299-m2-in-attic
 https://www.grekodom.com/realtyobject/30291-for-sale-land-2373-m2-in-attica
 https://www.grekodom.com/realtyobject/30296-for-sale-land-9200-m2-in-attica
+https://www.grekodom.com/realtyobject/30300-for-sale-hotel-730-m2-on-the-olympic-co
 https://www.grekodom.com/realtyobject/30309-for-sale-hotel-1300-m2-in-athos-chalkid
 https://www.grekodom.com/realtyobject/30336-for-sale-land-507-m2-in-athos-chalkidik
 https://www.grekodom.com/realtyobject/30341-for-sale-detached-house-90-m2-in-serres
@@ -15889,32 +15945,44 @@ https://www.grekodom.com/realtyobject/30403-for-sale-commercial-property-30-m2-i
 https://www.grekodom.com/realtyobject/30410-for-sale-villa-300-m2-in-crete
 https://www.grekodom.com/realtyobject/30448-for-sale-land-5300-m2-in-sithonia-chalk
 https://www.grekodom.com/realtyobject/30468-for-sale-hotel-507-m2-in-corfu
+https://www.grekodom.com/realtyobject/30474-for-sale-land-29063-m2-in-crete
+https://www.grekodom.com/realtyobject/30489-for-sale-hotel-1600-m2-in-attica
 https://www.grekodom.com/realtyobject/30546-for-rent-flat-28-m2-in-athens
 https://www.grekodom.com/realtyobject/3056-for-sale-land-194-m2-in-central-greece
+https://www.grekodom.com/realtyobject/30568-for-rent-flat-180-m2-in-athens
 https://www.grekodom.com/realtyobject/3062-for-sale-detached-house-240-m2-in-corfu
 https://www.grekodom.com/realtyobject/30654-for-sale-land-1000-m2-on-the-olympic-co
 https://www.grekodom.com/realtyobject/30689-for-sale-land-190-m2-in-crete
 https://www.grekodom.com/realtyobject/3070-for-sale-villa-604-m2-in-the-suburbs-of
+https://www.grekodom.com/realtyobject/30700-for-rent-business-231-m2-on-the-olympic
 https://www.grekodom.com/realtyobject/30706-for-sale-commercial-property-300-m2-in
 https://www.grekodom.com/realtyobject/30710-for-sale-detached-house-350-m2-in-the-s
+https://www.grekodom.com/realtyobject/30720-for-rent-business-200-m2-on-the-olympic
 https://www.grekodom.com/realtyobject/30729-for-sale-detached-house-125-m2-in-kassa
 https://www.grekodom.com/realtyobject/30733-for-sale-detached-house-200-m2-in-the-s
 https://www.grekodom.com/realtyobject/30734-for-sale-detached-house-400-m2-in-attic
 https://www.grekodom.com/realtyobject/3077-for-sale-detached-house-440-m2-in-kassan
 https://www.grekodom.com/realtyobject/30771-for-sale-maisonette-70-m2-in-corfu
+https://www.grekodom.com/realtyobject/30772-for-sale-land-14300-m2-in-athos-chalkid
 https://www.grekodom.com/realtyobject/30777-for-sale-land-20000-m2-in-crete
 https://www.grekodom.com/realtyobject/30788-for-sale-building-913-m2-in-athens
 https://www.grekodom.com/realtyobject/30793-for-sale-land-205000-m2-in-corfu
 https://www.grekodom.com/realtyobject/30807-for-sale-land-10000-m2-in-sithonia-chal
+https://www.grekodom.com/realtyobject/30824-for-rent-flat-47-m2-in-athens
+https://www.grekodom.com/realtyobject/30840-for-sale-villa-320-m2-in-the-suburbs-of
 https://www.grekodom.com/realtyobject/30859-for-sale-land-10000-m2-in-kassandra-cha
 https://www.grekodom.com/realtyobject/30869-for-sale-building-1130-m2-in-thessaloni
 https://www.grekodom.com/realtyobject/30893-for-sale-land-18500-m2-in-the-suburbs-o
 https://www.grekodom.com/realtyobject/30907-for-sale-detached-house-300-m2-in-corfu
 https://www.grekodom.com/realtyobject/30919-for-sale-land-9000-m2-in-corfu
 https://www.grekodom.com/realtyobject/30939-for-sale-land-500-m2-in-sithonia-chalki
+https://www.grekodom.com/realtyobject/30960-for-rent-business-700-m2-on-the-olympic
+https://www.grekodom.com/realtyobject/30992-for-sale-land-3020-m2-in-crete
 https://www.grekodom.com/realtyobject/31049-for-sale-land-6100-m2-in-chalkidiki
 https://www.grekodom.com/realtyobject/31061-for-sale-detached-house-110-m2-in-kassa
 https://www.grekodom.com/realtyobject/31082-for-sale-hotel-260-m2-in-corfu
+https://www.grekodom.com/realtyobject/31088-for-rent-flat-73-m2-in-athens
+https://www.grekodom.com/realtyobject/31102-for-sale-business-640-m2-in-kassandra-c
 https://www.grekodom.com/realtyobject/31103-for-sale-commercial-property-374-m2-in
 https://www.grekodom.com/realtyobject/31104-for-sale-commercial-property-480-m2-in
 https://www.grekodom.com/realtyobject/31142-for-sale-detached-house-180-m2-in-attic
@@ -15924,6 +15992,7 @@ https://www.grekodom.com/realtyobject/31243-for-sale-detached-house-340-m2-in-th
 https://www.grekodom.com/realtyobject/31249-for-rent-flat-230-m2-in-athens
 https://www.grekodom.com/realtyobject/31263-for-sale-detached-house-150-m2-in-kassa
 https://www.grekodom.com/realtyobject/31281-for-sale-building-650-m2-in-athens
+https://www.grekodom.com/realtyobject/31296-for-sale-business-200-m2-in-kassandra-c
 https://www.grekodom.com/realtyobject/31318-for-sale-land-2407-m2-in-chalkidiki
 https://www.grekodom.com/realtyobject/31349-for-sale-land-1273-m2-in-attica
 https://www.grekodom.com/realtyobject/31357-for-sale-complex-650-m2-in-attica
@@ -15942,6 +16011,7 @@ https://www.grekodom.com/realtyobject/31794-for-sale-land-5330-m2-in-sithonia-ch
 https://www.grekodom.com/realtyobject/31871-for-sale-building-620-m2-in-athens
 https://www.grekodom.com/realtyobject/31917-for-sale-land-7135-m2-in-sithonia-chalk
 https://www.grekodom.com/realtyobject/31920-for-sale-detached-house-330-m2-in-thess
+https://www.grekodom.com/realtyobject/31977-for-sale-business-900-m2-in-corfu
 https://www.grekodom.com/realtyobject/32007-for-sale-land-500-m2-in-the-suburbs-of
 https://www.grekodom.com/realtyobject/32020-for-sale-building-350-m2-in-athens
 https://www.grekodom.com/realtyobject/32069-for-rent-flat-30-m2-in-loutraki
@@ -15993,6 +16063,7 @@ https://www.grekodom.com/realtyobject/4307-for-sale-land-14741-m2-in-ionian-isla
 https://www.grekodom.com/realtyobject/4313-for-sale-land-25325-m2-in-ionian-islands
 https://www.grekodom.com/realtyobject/4333-for-sale-detached-house-140-m2-on-the-is
 https://www.grekodom.com/realtyobject/4337-for-sale-land-601-m2-in-attica
+https://www.grekodom.com/realtyobject/4341-for-sale-detached-house-120-m2-on-the-is
 https://www.grekodom.com/realtyobject/4371-for-sale-maisonette-125-m2-in-sithonia-c
 https://www.grekodom.com/realtyobject/4411-for-sale-business-700-m2-on-the-olympic
 https://www.grekodom.com/realtyobject/4414-for-sale-hotel-98000-m2-on-islands
@@ -16005,10 +16076,12 @@ https://www.grekodom.com/realtyobject/4557-for-sale-land-498-m2-on-the-olympic-c
 https://www.grekodom.com/realtyobject/4724-for-sale-detached-house-196-m2-in-kassan
 https://www.grekodom.com/realtyobject/4726-for-sale-land-623-m2-in-sithonia-chalkid
 https://www.grekodom.com/realtyobject/4818-for-sale-detached-house-138-m2-in-chalki
+https://www.grekodom.com/realtyobject/4856-for-sale-detached-house-136-m2-in-easter
 https://www.grekodom.com/realtyobject/4875-for-sale-villa-330-m2-in-attica
 https://www.grekodom.com/realtyobject/4913-for-sale-land-10000-m2-on-the-olympic-co
 https://www.grekodom.com/realtyobject/4914-for-sale-land-400-m2-on-the-olympic-coas
 https://www.grekodom.com/realtyobject/4941-for-sale-land-15000-m2-in-corfu
+https://www.grekodom.com/realtyobject/4966-for-sale-maisonette-175-m2-in-eastern-pe
 https://www.grekodom.com/realtyobject/4988-for-sale-detached-house-164-m2-in-chalki
 https://www.grekodom.com/realtyobject/5008-for-sale-maisonette-115-m2-in-eastern-pe
 https://www.grekodom.com/realtyobject/5016-for-sale-flat-96-m2-in-kassandra-chalkid
@@ -16023,6 +16096,7 @@ https://www.grekodom.com/realtyobject/5518-for-sale-villa-280-m2-in-corfu
 https://www.grekodom.com/realtyobject/5550-for-sale-detached-house-170-m2-in-kassan
 https://www.grekodom.com/realtyobject/5578-for-sale-hotel-685-m2-in-sithonia-chalki
 https://www.grekodom.com/realtyobject/5658-for-sale-land-2000-m2-in-attica
+https://www.grekodom.com/realtyobject/568-for-sale-land-274615-m2-in-crete
 https://www.grekodom.com/realtyobject/5690-for-sale-detached-house-110-m2-in-kassan
 https://www.grekodom.com/realtyobject/5715-for-sale-flat-105-m2-in-corfu
 https://www.grekodom.com/realtyobject/5734-for-sale-villa-220-m2-on-the-olympic-coa
@@ -16035,6 +16109,7 @@ https://www.grekodom.com/realtyobject/5816-for-sale-detached-house-520-m2-in-the
 https://www.grekodom.com/realtyobject/5825-for-sale-land-4700-m2-in-kassandra-chalk
 https://www.grekodom.com/realtyobject/5827-for-sale-hotel-5350-m2-in-central-greece
 https://www.grekodom.com/realtyobject/5934-for-sale-land-900-m2-in-attica
+https://www.grekodom.com/realtyobject/5955-for-sale-land-10885-m2-in-crete
 https://www.grekodom.com/realtyobject/5957-for-sale-detached-house-160-m2-in-crete
 https://www.grekodom.com/realtyobject/6007-for-sale-land-525-m2-on-the-olympic-coas
 https://www.grekodom.com/realtyobject/6030-for-sale-land-525-m2-on-the-olympic-coas
@@ -16063,6 +16138,8 @@ https://www.grekodom.com/realtyobject/6466-for-sale-flat-223-m2-in-the-suburbs-o
 https://www.grekodom.com/realtyobject/6509-for-sale-villa-484-m2-in-western-pelopon
 https://www.grekodom.com/realtyobject/6563-for-sale-hotel-241-m2-in-eastern-pelopon
 https://www.grekodom.com/realtyobject/6569-for-sale-flat-70-m2-on-the-olympic-coast
+https://www.grekodom.com/realtyobject/6591-for-sale-land-65025-m2-in-sithonia-chalk
+https://www.grekodom.com/realtyobject/6634-for-sale-maisonette-180-m2-in-thessaloni
 https://www.grekodom.com/realtyobject/6651-for-sale-land-4200-m2-in-crete
 https://www.grekodom.com/realtyobject/6653-for-sale-land-999-m2-in-crete
 https://www.grekodom.com/realtyobject/6661-for-sale-business-70-m2-in-zante
@@ -16097,6 +16174,7 @@ https://www.grekodom.com/realtyobject/7857-for-sale-land-162-m2-in-thessaloniki
 https://www.grekodom.com/realtyobject/7876-for-sale-building-1200-m2-in-thessalonik
 https://www.grekodom.com/realtyobject/7881-for-sale-commercial-property-24-m2-in-th
 https://www.grekodom.com/realtyobject/7894-for-sale-land-7774-m2-in-santorini
+https://www.grekodom.com/realtyobject/7935-for-sale-villa-250-m2-in-corfu
 https://www.grekodom.com/realtyobject/7950-for-sale-land-1000-m2-on-the-olympic-coa
 https://www.grekodom.com/realtyobject/7969-for-sale-land-3800-m2-in-ionian-islands
 https://www.grekodom.com/realtyobject/7974-for-sale-land-4200-m2-in-the-suburbs-of
@@ -16138,6 +16216,7 @@ https://www.grekodom.com/realtyobject/8975-for-sale-land-317-m2-in-kassandra-cha
 https://www.grekodom.com/realtyobject/9057-for-sale-land-4900-m2-on-the-olympic-coa
 https://www.grekodom.com/realtyobject/9109-for-sale-maisonette-135-m2-in-corfu
 https://www.grekodom.com/realtyobject/9117-for-rent-detached-house-280-m2-on-the-ol
+https://www.grekodom.com/realtyobject/9138-for-sale-land-4194-m2-in-crete
 https://www.grekodom.com/realtyobject/9190-for-sale-land-17500-m2-in-rhodes
 https://www.grekodom.com/realtyobject/9228-for-sale-maisonette-110-m2-in-corfu
 https://www.grekodom.com/realtyobject/9260-for-sale-detached-house-379-m2-in-the-su
@@ -16155,6 +16234,7 @@ https://www.grekodom.com/realtyobject/9446-for-sale-commercial-property-90-m2-on
 https://www.grekodom.com/realtyobject/9448-for-sale-commercial-property-570-m2-on-t
 https://www.grekodom.com/realtyobject/9467-for-sale-villa-280-m2-in-corfu
 https://www.grekodom.com/realtyobject/9514-for-sale-business-600-m2-on-the-olympic
+https://www.grekodom.com/realtyobject/9522-for-sale-business-83-m2-in-sithonia-chal
 https://www.grekodom.com/realtyobject/9527-for-sale-detached-house-190-m2-in-the-su
 https://www.grekodom.com/realtyobject/9538-for-sale-maisonette-140-m2-in-corfu
 https://www.grekodom.com/realtyobject/9541-for-sale-land-34000-m2-in-chalkidiki
@@ -18040,6 +18120,7 @@ https://www.northproject.gr/el-GR/id/28041/__(pros-polisi)-katikia-monokatikia-a
 https://www.northproject.gr/el-GR/id/28042/__(pros-polisi)-epaggelmatikos-choros-piraias-piraias-/estate.html
 https://www.northproject.gr/el-GR/id/28043/__(pros-polisi)-epaggelmatikos-choros-grafio-piraias-piraias-/estate.html
 https://www.northproject.gr/el-GR/id/28044/__(pros-polisi)-katikia-diamerisma-athina-boria-kifisia-/estate.html
+https://www.northproject.gr/el-GR/id/28045/__(pros-enikiasi)-katikia-monokatikia-athina-boria-nea-erithraia-/estate.html
 https://www.oikia-domi.gr/property.php?id=1957
 https://www.oikia-domi.gr/property.php?id=2325
 https://www.oikia-domi.gr/property.php?id=2328
@@ -18172,6 +18253,7 @@ https://www.planethomes.gr/akinito/20409-2/
 https://www.planethomes.gr/akinito/20563-2/
 https://www.planethomes.gr/akinito/20589-2/
 https://www.planethomes.gr/akinito/20829-2/
+https://www.planethomes.gr/akinito/20841-2/
 https://www.planethomes.gr/akinito/21168-2/
 https://www.planethomes.gr/akinito/21856-2/
 https://www.planethomes.gr/akinito/22305-2/
@@ -18256,6 +18338,7 @@ https://www.planethomes.gr/akinito/28688-2/
 https://www.planethomes.gr/akinito/28689-2/
 https://www.planethomes.gr/akinito/28754-2/
 https://www.planethomes.gr/akinito/28800-2/
+https://www.planethomes.gr/akinito/28838-2/
 https://www.planethomes.gr/akinito/28851-2/
 https://www.planethomes.gr/akinito/28856-2/
 https://www.planethomes.gr/akinito/28947-2/
@@ -18420,6 +18503,7 @@ https://www.planethomes.gr/akinito/33911-2/
 https://www.planethomes.gr/akinito/33970-2/
 https://www.planethomes.gr/akinito/33992-2/
 https://www.planethomes.gr/akinito/34035-2/
+https://www.planethomes.gr/akinito/34099-2/
 https://www.planethomes.gr/akinito/34107-2/
 https://www.planethomes.gr/akinito/34116-2/
 https://www.planethomes.gr/akinito/34144-2/
@@ -18734,6 +18818,7 @@ https://www.planethomes.gr/akinito/37670-2/
 https://www.planethomes.gr/akinito/37673-2/
 https://www.planethomes.gr/akinito/37676-2/
 https://www.planethomes.gr/akinito/37677-2/
+https://www.planethomes.gr/akinito/37696-2/
 https://www.planethomes.gr/akinito/37721-2/
 https://www.planethomes.gr/akinito/37744-2/
 https://www.planethomes.gr/akinito/37761-2/
@@ -18765,6 +18850,7 @@ https://www.planethomes.gr/akinito/38143-2/
 https://www.planethomes.gr/akinito/38156-2/
 https://www.planethomes.gr/akinito/38179-2/
 https://www.planethomes.gr/akinito/38235-2/
+https://www.planethomes.gr/akinito/38237-2/
 https://www.planethomes.gr/akinito/38246-2/
 https://www.planethomes.gr/akinito/38260-2/
 https://www.planethomes.gr/akinito/38270-2/
@@ -18944,6 +19030,7 @@ https://www.planethomes.gr/akinito/40788-2/
 https://www.planethomes.gr/akinito/40852-2/
 https://www.planethomes.gr/akinito/40863-2/
 https://www.planethomes.gr/akinito/40896-2/
+https://www.planethomes.gr/akinito/40897-2/
 https://www.planethomes.gr/akinito/40905-2/
 https://www.planethomes.gr/akinito/40906-2/
 https://www.planethomes.gr/akinito/40930-2/
@@ -19025,7 +19112,12 @@ https://www.planethomes.gr/akinito/41912-2/
 https://www.planethomes.gr/akinito/41931-2/
 https://www.planethomes.gr/akinito/41942-2/
 https://www.planethomes.gr/akinito/41947-2/
+https://www.planethomes.gr/akinito/42048-2/
+https://www.planethomes.gr/akinito/42158-2/
+https://www.planethomes.gr/akinito/42246-2/
+https://www.planethomes.gr/akinito/42284-2/
 https://www.planethomes.gr/akinito/42319-2/
+https://www.planethomes.gr/akinito/42383-2/
 https://www.planethomes.gr/akinito/42437-2/
 https://www.planethomes.gr/akinito/42531-2/
 https://www.planethomes.gr/akinito/42532-2/
@@ -19107,6 +19199,7 @@ https://www.planethomes.gr/akinito/42791-2/
 https://www.planethomes.gr/akinito/42793-2/
 https://www.planethomes.gr/akinito/42795-2/
 https://www.planethomes.gr/akinito/42796-2/
+https://www.planethomes.gr/akinito/42807-2/
 https://www.planethomes.gr/akinito/42811-2/
 https://www.planethomes.gr/akinito/42813-2/
 https://www.planethomes.gr/akinito/42848-2/
@@ -19156,8 +19249,54 @@ https://www.planethomes.gr/akinito/43053-2/
 https://www.planethomes.gr/akinito/43054-2/
 https://www.planethomes.gr/akinito/43058-2/
 https://www.planethomes.gr/akinito/43060-2/
+https://www.planethomes.gr/akinito/43065-2/
+https://www.planethomes.gr/akinito/43066-2/
+https://www.planethomes.gr/akinito/43067-2/
 https://www.planethomes.gr/akinito/43068-2/
 https://www.planethomes.gr/akinito/43070-2/
+https://www.planethomes.gr/akinito/43075-2/
+https://www.planethomes.gr/akinito/43078-2/
+https://www.planethomes.gr/akinito/43081-2/
+https://www.planethomes.gr/akinito/43088-2/
+https://www.planethomes.gr/akinito/43092-2/
+https://www.planethomes.gr/akinito/43096-2/
+https://www.planethomes.gr/akinito/43097-2/
+https://www.planethomes.gr/akinito/43106-2/
+https://www.planethomes.gr/akinito/43143-2/
+https://www.planethomes.gr/akinito/43145-2/
+https://www.planethomes.gr/akinito/43153-2/
+https://www.planethomes.gr/akinito/43158-2/
+https://www.planethomes.gr/akinito/43164-2/
+https://www.planethomes.gr/akinito/43169-2/
+https://www.planethomes.gr/akinito/43171-2/
+https://www.planethomes.gr/akinito/43174-2/
+https://www.planethomes.gr/akinito/43177-2/
+https://www.planethomes.gr/akinito/43179-2/
+https://www.planethomes.gr/akinito/43182-2/
+https://www.planethomes.gr/akinito/43183-2/
+https://www.planethomes.gr/akinito/43200-2/
+https://www.planethomes.gr/akinito/43202-2/
+https://www.planethomes.gr/akinito/43204-2/
+https://www.planethomes.gr/akinito/43206-2/
+https://www.planethomes.gr/akinito/43217-2/
+https://www.planethomes.gr/akinito/43220-2/
+https://www.planethomes.gr/akinito/43222-2/
+https://www.planethomes.gr/akinito/43224-2/
+https://www.planethomes.gr/akinito/43228-2/
+https://www.planethomes.gr/akinito/43229-2/
+https://www.planethomes.gr/akinito/43230-2/
+https://www.planethomes.gr/akinito/43244-2/
+https://www.planethomes.gr/akinito/43247-2/
+https://www.planethomes.gr/akinito/43249-2/
+https://www.planethomes.gr/akinito/43250-2/
+https://www.planethomes.gr/akinito/43251-2/
+https://www.planethomes.gr/akinito/43255-2/
+https://www.planethomes.gr/akinito/43257-2/
+https://www.planethomes.gr/akinito/43265-2/
+https://www.planethomes.gr/akinito/43268-2/
+https://www.planethomes.gr/akinito/43270-2/
+https://www.planethomes.gr/akinito/43274-2/
+https://www.planethomes.gr/akinito/43276-2/
 https://www.planethomes.gr/akinito/43312-2/
 https://www.planethomes.gr/akinito/4413-2/
 https://www.planethomes.gr/akinito/46779-2/
@@ -19345,6 +19484,12 @@ https://www.plot.gr/57425897-diamerisma-74-tm-gia-enoikiasi-thessaloniki-perifer
 https://www.plot.gr/57426098-diamerisma-83-tm-gia-pwlisi-thessaloniki-periferiakoi-dimoi-efosmos-anwthen-perifereiakoy?event=from-search-subscription
 https://www.plot.gr/57426189-diamerisma-62-tm-gia-pwlisi-thessaloniki-periferiakoi-dimoi-sykies-kentro?event=from-search-subscription
 https://www.plot.gr/57427949-diamerisma-164-tm-gia-pwlisi-thessaloniki-periferiakoi-dimoi-kalamaria-agios-iwannis?event=from-search-subscription
+https://www.plot.gr/57463553-diamerisma-70-tm-gia-enoikiasi-thessaloniki-periferiakoi-dimoi-thermaikos-peraia?event=from-search-subscription
+https://www.plot.gr/57463569-studio-gkarsoniera-55-tm-gia-enoikiasi-thessaloniki-periferiakoi-dimoi-thermaikos-neoi-epivates?event=from-search-subscription
+https://www.plot.gr/57463599-oikopedo-4063-tm-gia-pwlisi-thessaloniki-periferiakoi-dimoi-xortiatis-filyro?event=from-search-subscription
+https://www.plot.gr/57463755-epixeirisi-267-tm-gia-pwlisi-thessaloniki-periferiakoi-dimoi-wraiokastro-asprovrysi?event=from-search-subscription
+https://www.plot.gr/57489378-mezoneta-120-tm-gia-enoikiasi-thessaloniki-periferiakoi-dimoi-xortiatis-kentro?event=from-search-subscription
+https://www.plot.gr/57489679-mezoneta-180-tm-gia-pwlisi-thessaloniki-periferiakoi-dimoi-efosmos-anwthen-perifereiakoy?event=from-search-subscription
 https://www.pmdrealestate.gr/en/properties/1059610
 https://www.pmdrealestate.gr/en/properties/1059731
 https://www.pmdrealestate.gr/en/properties/1059825
@@ -19921,11 +20066,16 @@ https://www.re1.gr/property/56273/poleitai-diamerisma-68-tm-me-sygxrones-aneseis
 https://www.re1.gr/property/56322/garsoniera-33-tm-pros-polisi-stin-martiou-thessaloniki-ena-teleio-spiti-gia-nea-xekinimata
 https://www.re1.gr/property/56757/diamerismata-400-tm-se-oraia-topothesia-stin-almyri-me-thea-ton-saroniko
 https://www.re1.gr/property/57662/agorase-to-oikopedo-1513tm-stin-agtryfonas-karlovasi-idaniko-gia-ependysi
+https://www.re1.gr/property/57669/efryxori-monokatoikia-153-tm-ston-pyrgo-pythagoreio-idaniki-efkairia-gia-agora
+https://www.re1.gr/property/57670/ependytiki-efkairia-oikopedo-8000-tm-sto-pythagoreio-myloi-mi-xasete-ayti-ti-monadiki-prosfora
 https://www.re1.gr/property/57678/efkairia-monokatoikia-180-tm-sto-mesaio-karlovasi-idaniki-gia-monimi-katoikia
+https://www.re1.gr/property/57696/oikopedo-245-tm-pros-polisi-stin-alonistiki-karlovasi-monadiki-efkairia
 https://www.re1.gr/property/57715/exairetiki-petrini-monokatoikia-330tm-pros-polisi-stin-koumeika-marathokabos
 https://www.re1.gr/property/57722/efkairia-monokatoikia-93-tm-sto-palio-karlovasi-dimiourgiste-2-diamerismata
+https://www.re1.gr/property/57739/vila-1000-tm-pros-polisi-ston-ormo-karlovasou-oneiremenos-xoros-diaviosis
 https://www.re1.gr/property/57772/agorase-to-oikopedo-519tm-sto-poseidonio-idaniko-gia-ependysi
 https://www.re1.gr/property/57774/efkairia-monokatoikia-120-tm-stous-kosmadaious-idaniki-gia-monimi-katoikia
+https://www.re1.gr/property/57788/vathy-oikopedo-226-tm-pros-polisi-dimiourgiste-to-oneiro-sas
 https://www.re1.gr/property/57870/anakalypste-to-katastima-88-tm-stin-antigonidon-thessaloniki-poleitai
 https://www.re1.gr/property/58011/efkairia-epaggelmatiko-akinito-1148-tm-sto-kaloxori-9-metra-ypsos-1148-tm
 https://www.re1.gr/property/58015/akinito-400-tm-me-diorofi-katoikia-stin-afyto-kassandra
@@ -20083,6 +20233,8 @@ https://www.re1.gr/property/60741/efryxoro-diamerisma-54-tm-me-anakainisi-to-202
 https://www.re1.gr/property/60742/polyteles-studio-38-tm-stin-kardia-tis-thessalonikis-plateia-eboriou-ano-ladadika
 https://www.re1.gr/property/60748/protzekt-anakainisis-213-tm-me-dynatotites-anaptyxis-stin-akrotiri
 https://www.re1.gr/property/60749/vila-117-tm-stin-apokorona-idaniki-gia-monimi-katoikia-i-ependysi
+https://www.re1.gr/property/60751/poleitai-monokatoikia-110-tm-sti-drakaioi-idaniki-gia-oikogeneies
+https://www.re1.gr/property/60752/efkairia-oikopedo-650-tm-pros-polisi-ston-ag-dimitriokontakaika
 https://www.realestategalakoutis.gr/property/1032
 https://www.realestategalakoutis.gr/property/1038
 https://www.realestategalakoutis.gr/property/1054
@@ -20346,6 +20498,7 @@ https://www.remax.gr/property/255499-polisi-agrotemachio-nhsida
 https://www.remax.gr/property/255605-polisi-oikopedo-gia-katoikia-kentro
 https://www.remax.gr/property/255606-polisi-agrotemachio-kentro
 https://www.remax.gr/property/255607-polisi-agrotemachio-plaka
+https://www.remax.gr/property/259411-enoikiasi-epaggelmatiko-ktirio-kentro
 https://www.remax.gr/property/264326-polisi-monokatoikia-kentro
 https://www.remax.gr/property/264987-polisi-oikopedo-gia-katoikia-kakia-8alassa
 https://www.remax.gr/property/265086-polisi-oikopedo-gia-katoikia-lagonhsi
@@ -20499,6 +20652,7 @@ https://www.remax.gr/property/310883-polisi-katastima-gkraba
 https://www.remax.gr/property/310934-polisi-oikopedo-gia-katoikia-diwnh
 https://www.remax.gr/property/310936-enoikiasi-katastima-metaksoyrgeio
 https://www.remax.gr/property/310946-polisi-katastima-plateia-gkyzh
+https://www.remax.gr/property/310950-enoikiasi-katastima-eksarxeia-neapolh
 https://www.remax.gr/property/311182-polisi-monokatoikia-mayro-lithari
 https://www.remax.gr/property/311280-polisi-xenodocheio-stathmos-larishs
 https://www.remax.gr/property/311392-enoikiasi-grafeio-ampelokhpoi-pentagwno
@@ -20611,6 +20765,7 @@ https://www.remax.gr/property/323438-polisi-diamerisma-akadhmia-platwnos
 https://www.remax.gr/property/323461-polisi-oikopedo-gia-katoikia-borineza
 https://www.remax.gr/property/323500-polisi-oikopedo-gia-katoikia-gerakas
 https://www.remax.gr/property/323515-polisi-epaggelmatiko-ktirio-neos-kosmos
+https://www.remax.gr/property/323516-enoikiasi-epaggelmatiko-ktirio-neos-kosmos
 https://www.remax.gr/property/323520-polisi-oikopedo-gia-katoikia-lagonhsi
 https://www.remax.gr/property/323537-polisi-agrotemachio-afidnes
 https://www.remax.gr/property/323552-polisi-katastima-plateia-klaythmwnos
@@ -20877,6 +21032,7 @@ https://www.remax.gr/property/342979-polisi-epaggelmatiko-ktirio-glyka-nera
 https://www.remax.gr/property/343073-polisi-monokatoikia-plateia-attikhs
 https://www.remax.gr/property/343147-polisi-polukatoikia-psyrrh
 https://www.remax.gr/property/343226-polisi-agrotemachio-dionysos
+https://www.remax.gr/property/343249-enoikiasi-katastima-anw-pathsia
 https://www.remax.gr/property/343273-polisi-oikopedo-gia-katoikia-paiania
 https://www.remax.gr/property/343450-polisi-mezoneta-porto-rafth
 https://www.remax.gr/property/343506-polisi-monokatoikia-8hseio
@@ -20959,6 +21115,7 @@ https://www.remax.gr/property/346841-polisi-katastima-gkazi
 https://www.remax.gr/property/346842-polisi-diamerisma-kolwnaki-lykabhttos
 https://www.remax.gr/property/346844-polisi-oikopedo-gia-katoikia-sxinias
 https://www.remax.gr/property/346853-polisi-katastima-kypselh
+https://www.remax.gr/property/346854-enoikiasi-katastima-neos-kosmos
 https://www.remax.gr/property/346934-enoikiasi-katastima-akadhmia
 https://www.remax.gr/property/346966-polisi-oikopedo-gia-katoikia-axarnes
 https://www.remax.gr/property/346976-polisi-epaggelmatiko-ktirio-anw-liosia
@@ -20990,6 +21147,7 @@ https://www.remax.gr/property/348095-polisi-oikopedo-gia-epaggelmatiki-chrisi-mo
 https://www.remax.gr/property/348150-polisi-oikopedo-gia-katoikia-kapandriti
 https://www.remax.gr/property/348195-polisi-polukatoikia-kentro
 https://www.remax.gr/property/348243-polisi-monokatoikia-psyrrh
+https://www.remax.gr/property/348432-enoikiasi-katastima-kolwnaki
 https://www.remax.gr/property/348531-polisi-oikopedo-gia-katoikia-spata
 https://www.remax.gr/property/348629-polisi-epaggelmatiko-ktirio-xrysallida
 https://www.remax.gr/property/348781-polisi-oikopedo-gia-katoikia-kypselh
@@ -21030,6 +21188,7 @@ https://www.remax.gr/property/351751-polisi-gkarsoniera-studio-koykaki-makrygian
 https://www.remax.gr/property/351753-polisi-gkarsoniera-studio-koykaki-makrygiannh
 https://www.remax.gr/property/351755-polisi-diamerisma-koykaki-makrygiannh
 https://www.remax.gr/property/351756-polisi-diamerisma-koykaki-makrygiannh
+https://www.remax.gr/property/351761-enoikiasi-epaggelmatiko-ktirio-akadhmia-platwnos
 https://www.remax.gr/property/351831-polisi-diamerisma-koykaki-makrygiannh
 https://www.remax.gr/property/351832-polisi-diamerisma-koykaki-makrygiannh
 https://www.remax.gr/property/351837-polisi-gkarsoniera-studio-koykaki-makrygiannh
@@ -21286,6 +21445,7 @@ https://www.remax.gr/property/360634-polisi-oikopedo-gia-katoikia-kantza
 https://www.remax.gr/property/360659-enoikiasi-katastima-agios-antwnios
 https://www.remax.gr/property/360678-polisi-katastima-neos-kosmos
 https://www.remax.gr/property/360840-polisi-oikopedo-gia-katoikia-neos-koybaras
+https://www.remax.gr/property/360847-enoikiasi-epaggelmatiko-ktirio-ampelokhpoi
 https://www.remax.gr/property/360930-polisi-oikopedo-gia-katoikia-foinikia
 https://www.remax.gr/property/360951-polisi-oikopedo-gia-katoikia-porto-rafth
 https://www.remax.gr/property/360958-polisi-monokatoikia-kiteza
@@ -21326,6 +21486,7 @@ https://www.remax.gr/property/361870-polisi-oikopedo-gia-katoikia-kentro
 https://www.remax.gr/property/361893-enoikiasi-katastima-nea-iwnia
 https://www.remax.gr/property/361910-enoikiasi-katastima-peristeri
 https://www.remax.gr/property/361923-polisi-apothiki-sepolia
+https://www.remax.gr/property/361924-enoikiasi-katastima-neos-kosmos
 https://www.remax.gr/property/361995-polisi-monokatoikia-lagonhsi
 https://www.remax.gr/property/362010-polisi-oikopedo-gia-katoikia-kolwnos
 https://www.remax.gr/property/362011-polisi-katastima-kentro-pagkratioy
@@ -21507,6 +21668,8 @@ https://www.remax.gr/property/367133-polisi-monokatoikia-lagonhsi
 https://www.remax.gr/property/367212-polisi-diamerisma-gkraba
 https://www.remax.gr/property/367250-polisi-epicheirisi-profhths-hlias
 https://www.remax.gr/property/367299-polisi-oikopedo-gia-katoikia-nea-makrh
+https://www.remax.gr/property/367303-enoikiasi-aithousa-kentro-athhna
+https://www.remax.gr/property/367306-enoikiasi-grafeio-kolwnaki-lykabhttos
 https://www.remax.gr/property/367381-polisi-diamerisma-kolwnaki-lykabhttos
 https://www.remax.gr/property/367403-polisi-diamerisma-kolwnos
 https://www.remax.gr/property/367473-enoikiasi-katastima-pl-biktwrias
@@ -21778,6 +21941,7 @@ https://www.remax.gr/property/375140-polisi-diamerisma-kentro
 https://www.remax.gr/property/375181-polisi-agrotemachio-agia-marina
 https://www.remax.gr/property/375182-polisi-oikopedo-gia-katoikia-agia-marina
 https://www.remax.gr/property/375202-polisi-diamerisma-rafhna
+https://www.remax.gr/property/375216-enoikiasi-grafeio-syntagma
 https://www.remax.gr/property/375235-polisi-oikopedo-gia-katoikia-lagonhsi
 https://www.remax.gr/property/375253-polisi-oikopedo-gia-katoikia-lagonhsi
 https://www.remax.gr/property/375263-polisi-monokatoikia-dionysos
@@ -21881,6 +22045,7 @@ https://www.remax.gr/property/377061-polisi-grafeio-plateia-kaniggos
 https://www.remax.gr/property/377084-polisi-diamerisma-anabyssos-kentro
 https://www.remax.gr/property/377115-polisi-diamerisma-ntrafi
 https://www.remax.gr/property/377153-polisi-diamerisma-koykaki-makrygiannh
+https://www.remax.gr/property/377165-enoikiasi-epaggelmatiko-ktirio-sepolia
 https://www.remax.gr/property/377201-polisi-polukatoikia-gerakas
 https://www.remax.gr/property/377202-enoikiasi-katastima-eksarxeia
 https://www.remax.gr/property/377254-polisi-monokatoikia-glyka-nera
@@ -21957,6 +22122,8 @@ https://www.remax.gr/property/378554-polisi-oikopedo-gia-katoikia-gerakas
 https://www.remax.gr/property/378561-polisi-xenodocheio-syntagma
 https://www.remax.gr/property/378578-polisi-oikopedo-gia-katoikia-agios-nektarios
 https://www.remax.gr/property/378580-polisi-katastima-xrysoypolh
+https://www.remax.gr/property/378581-enoikiasi-epaggelmatiko-ktirio-pl-biktwrias
+https://www.remax.gr/property/378582-enoikiasi-katastima-pl-biktwrias
 https://www.remax.gr/property/378594-polisi-grafeio-omonoia
 https://www.remax.gr/property/378607-polisi-oikopedo-gia-epaggelmatiki-chrisi-agios-pantelehmonas
 https://www.remax.gr/property/378629-polisi-oikopedo-gia-katoikia-kentro
@@ -22099,6 +22266,7 @@ https://www.remax.gr/property/380869-polisi-polukatoikia-pathsia
 https://www.remax.gr/property/380917-polisi-diamerisma-plateia-attikhs
 https://www.remax.gr/property/380924-polisi-polukatoikia-porto-rafth
 https://www.remax.gr/property/380926-enoikiasi-katastima-sepolia
+https://www.remax.gr/property/380927-enoikiasi-katastima-anw-kypselh
 https://www.remax.gr/property/380930-enoikiasi-katastima-menidiatika
 https://www.remax.gr/property/380954-polisi-apothiki-profhths-hlias
 https://www.remax.gr/property/380987-enoikiasi-polukatoikia-lagonhsi
@@ -22114,6 +22282,7 @@ https://www.remax.gr/property/381103-polisi-oikopedo-gia-katoikia-ntrafi
 https://www.remax.gr/property/381104-polisi-diamerisma-gkazi
 https://www.remax.gr/property/381109-polisi-diamerisma-agios-iwannhs
 https://www.remax.gr/property/381116-polisi-diamerisma-agios-iwannhs
+https://www.remax.gr/property/381117-enoikiasi-katastima-kentro-athhna
 https://www.remax.gr/property/381120-polisi-diamerisma-agios-iwannhs
 https://www.remax.gr/property/381121-polisi-diamerisma-agios-iwannhs
 https://www.remax.gr/property/381123-polisi-diamerisma-agios-iwannhs
@@ -22181,6 +22350,7 @@ https://www.remax.gr/property/382258-polisi-katastima-kentro
 https://www.remax.gr/property/382263-polisi-agrotemachio-mylos
 https://www.remax.gr/property/382288-polisi-diamerisma-botanikos
 https://www.remax.gr/property/382289-polisi-diamerisma-botanikos
+https://www.remax.gr/property/382290-enoikiasi-grafeio-pagkrati
 https://www.remax.gr/property/382293-polisi-monokatoikia-porto-rafth
 https://www.remax.gr/property/382304-enoikiasi-oikopedo-gia-katoikia-kapsalwna
 https://www.remax.gr/property/382330-polisi-diamerisma-eksarxeia
@@ -22218,6 +22388,7 @@ https://www.remax.gr/property/383107-polisi-diamerisma-nireas
 https://www.remax.gr/property/383113-polisi-mezoneta-kentro
 https://www.remax.gr/property/383121-polisi-agrotemachio-mikrolimano
 https://www.remax.gr/property/383124-polisi-katastima-galatsi
+https://www.remax.gr/property/383142-enoikiasi-katastima-agios-eleytherios-rizoypolh
 https://www.remax.gr/property/383200-polisi-monokatoikia-anw-petralwna
 https://www.remax.gr/property/383230-polisi-katastima-kentro
 https://www.remax.gr/property/383259-polisi-epaggelmatiko-ktirio-diodia
@@ -22266,9 +22437,12 @@ https://www.remax.gr/property/383924-polisi-diamerisma-polygwno
 https://www.remax.gr/property/383928-enoikiasi-katastima-8hseio
 https://www.remax.gr/property/383952-polisi-bila-pallhnh
 https://www.remax.gr/property/383953-polisi-oikopedo-gia-katoikia-ntrafi
+https://www.remax.gr/property/383965-enoikiasi-epaggelmatiko-ktirio-goydh
 https://www.remax.gr/property/383980-polisi-oikopedo-gia-katoikia-akthmones
 https://www.remax.gr/property/383999-polisi-monokatoikia-gerakas
+https://www.remax.gr/property/384003-enoikiasi-katastima-kerameikos
 https://www.remax.gr/property/384008-polisi-oikopedo-gia-katoikia-anthoypolh
+https://www.remax.gr/property/384017-enoikiasi-grafeio-sepolia
 https://www.remax.gr/property/384020-polisi-katastima-perissos
 https://www.remax.gr/property/384029-polisi-oikopedo-gia-katoikia-kentro
 https://www.remax.gr/property/384116-polisi-bila-soynio
@@ -22281,6 +22455,7 @@ https://www.remax.gr/property/384197-polisi-diamerisma-ghrokomeio
 https://www.remax.gr/property/384198-polisi-diamerisma-ghrokomeio
 https://www.remax.gr/property/384202-polisi-mezoneta-kentro
 https://www.remax.gr/property/384207-polisi-parking-attikh
+https://www.remax.gr/property/384209-enoikiasi-epaggelmatiko-ktirio-goydh
 https://www.remax.gr/property/384215-enoikiasi-katastima-lewf-pathsiwn-lewf-axarnwn
 https://www.remax.gr/property/384216-enoikiasi-ekthesiakos-choros-katw-pathsia
 https://www.remax.gr/property/384217-enoikiasi-katastima-sepolia-skoyze
@@ -22292,6 +22467,7 @@ https://www.remax.gr/property/384262-polisi-diamerisma-kentro-pagkratioy
 https://www.remax.gr/property/384281-polisi-oikopedo-gia-katoikia-kentro
 https://www.remax.gr/property/384297-polisi-mezoneta-neraki
 https://www.remax.gr/property/384298-enoikiasi-biomichaniko-biotechniko-diodia
+https://www.remax.gr/property/384373-enoikiasi-epaggelmatiko-ktirio-filopappoy
 https://www.remax.gr/property/384429-polisi-katastima-koybaras
 https://www.remax.gr/property/384502-polisi-monokatoikia-gkazi
 https://www.remax.gr/property/384534-polisi-katastima-polygwno
@@ -22421,6 +22597,7 @@ https://www.remax.gr/property/386082-polisi-diamerisma-pagkrati
 https://www.remax.gr/property/386101-polisi-epaggelmatiko-ktirio-pallhnh
 https://www.remax.gr/property/386112-polisi-gkarsoniera-studio-plateia-koliatsoy
 https://www.remax.gr/property/386120-polisi-oikopedo-gia-katoikia-nea-makrh
+https://www.remax.gr/property/386127-enoikiasi-aithousa-kentro-athhna
 https://www.remax.gr/property/386128-polisi-epicheirisi-kentro-athhna
 https://www.remax.gr/property/386136-polisi-oikopedo-gia-katoikia-anw-liosia
 https://www.remax.gr/property/386169-enoikiasi-agrotemachio-kallitexnoypolh
@@ -22463,6 +22640,7 @@ https://www.remax.gr/property/386555-polisi-diamerisma-alsos-pagkratioy
 https://www.remax.gr/property/386556-polisi-diamerisma-alsos-pagkratioy
 https://www.remax.gr/property/386573-polisi-mezoneta-lagonhsi
 https://www.remax.gr/property/386581-polisi-diamerisma-kentro
+https://www.remax.gr/property/386649-enoikiasi-katastima-omonoia
 https://www.remax.gr/property/386653-polisi-epaggelmatiko-ktirio-garghttos
 https://www.remax.gr/property/386660-polisi-diamerisma-lykabhttos
 https://www.remax.gr/property/386676-polisi-apothiki-kynosargoys
@@ -22575,6 +22753,7 @@ https://www.remax.gr/property/388139-polisi-diamerisma-ampelokhpoi-pentagwno
 https://www.remax.gr/property/388141-polisi-diamerisma-neos-kosmos
 https://www.remax.gr/property/388144-polisi-monokatoikia-xalkoytsi
 https://www.remax.gr/property/388167-enoikiasi-grafeio-nosokomeio-paidwn
+https://www.remax.gr/property/388194-enoikiasi-katastima-agios-swsths
 https://www.remax.gr/property/388212-enoikiasi-apothiki-kynosargoys
 https://www.remax.gr/property/388279-enoikiasi-katastima-mpalana
 https://www.remax.gr/property/388281-polisi-oikopedo-gia-katoikia-kentro
@@ -22732,6 +22911,7 @@ https://www.remax.gr/property/390170-polisi-loft-pagkrati
 https://www.remax.gr/property/390178-polisi-diamerisma-kentro-athhna
 https://www.remax.gr/property/390179-enoikiasi-katastima-kentro
 https://www.remax.gr/property/390188-polisi-oikopedo-gia-katoikia-pagkrati
+https://www.remax.gr/property/390203-enoikiasi-katastima-omonoia
 https://www.remax.gr/property/390256-polisi-diamerisma-eksarxeia-neapolh
 https://www.remax.gr/property/390257-enoikiasi-grafeio-gkyzh-pedion-arews
 https://www.remax.gr/property/390258-polisi-biomichaniko-biotechniko-anw-pathsia
@@ -22746,6 +22926,7 @@ https://www.remax.gr/property/390402-polisi-katastima-agios-eleytherios
 https://www.remax.gr/property/390411-polisi-diamerisma-nea-kypselh
 https://www.remax.gr/property/390412-polisi-monokatoikia-lagonhsi
 https://www.remax.gr/property/390424-enoikiasi-katastima-kentro
+https://www.remax.gr/property/390446-enoikiasi-grafeio-kolwnaki
 https://www.remax.gr/property/390456-polisi-monokatoikia-kalybia-8orikoy
 https://www.remax.gr/property/390463-polisi-diamerisma-eksarxeia-neapolh
 https://www.remax.gr/property/390516-polisi-oikopedo-gia-epaggelmatiki-chrisi-ilion
@@ -22822,6 +23003,7 @@ https://www.remax.gr/property/391476-polisi-oikopedo-gia-katoikia-gerakas
 https://www.remax.gr/property/391480-polisi-katastima-kentro-athhna
 https://www.remax.gr/property/391481-polisi-oikopedo-gia-katoikia-trigwno-lagoy
 https://www.remax.gr/property/391482-polisi-oikopedo-gia-katoikia-paiania
+https://www.remax.gr/property/391508-enoikiasi-katastima-akadhmia-platwnos
 https://www.remax.gr/property/391518-polisi-oikopedo-gia-katoikia-oikismos-kokkino-limanaki
 https://www.remax.gr/property/391530-polisi-biomichaniko-biotechniko-nea-iwnia
 https://www.remax.gr/property/391535-polisi-oikopedo-gia-katoikia-botanikos
@@ -22931,6 +23113,7 @@ https://www.remax.gr/property/392590-enoikiasi-katastima-syntagma
 https://www.remax.gr/property/392613-polisi-mezoneta-rafhna
 https://www.remax.gr/property/392621-enoikiasi-katastima-anw-petralwna
 https://www.remax.gr/property/392628-polisi-diamerisma-petralwna
+https://www.remax.gr/property/392637-enoikiasi-katastima-omonoia
 https://www.remax.gr/property/392644-polisi-katastima-ampelokhpoi-pentagwno
 https://www.remax.gr/property/392658-polisi-epaggelmatiko-ktirio-plateia-kaniggos
 https://www.remax.gr/property/392661-polisi-monokatoikia-neos-boytzas
@@ -22980,6 +23163,7 @@ https://www.remax.gr/property/393199-enoikiasi-grafeio-tsalaboyta
 https://www.remax.gr/property/393203-polisi-oikopedo-gia-katoikia-porto-rafth
 https://www.remax.gr/property/393249-polisi-diamerisma-kentro
 https://www.remax.gr/property/393253-polisi-diamerisma-plateia-amerikhs
+https://www.remax.gr/property/393258-enoikiasi-katastima-kentro-athhna
 https://www.remax.gr/property/393261-polisi-epicheirisi-aigalew
 https://www.remax.gr/property/393280-polisi-monokatoikia-malakasa
 https://www.remax.gr/property/393288-polisi-oikopedo-gia-epaggelmatiki-chrisi-kentro
@@ -23054,6 +23238,7 @@ https://www.remax.gr/property/394063-enoikiasi-diamerisma-lewf-pathsiwn-lewf-axa
 https://www.remax.gr/property/394073-polisi-diamerisma-plateia-koliatsoy
 https://www.remax.gr/property/394090-polisi-oikopedo-gia-katoikia-porto-rafth
 https://www.remax.gr/property/394094-polisi-oikopedo-gia-katoikia-axarnes
+https://www.remax.gr/property/394100-enoikiasi-katastima-neos-kosmos
 https://www.remax.gr/property/394107-polisi-epaggelmatiko-ktirio-kentro-palaio-menidi
 https://www.remax.gr/property/394111-polisi-oikopedo-gia-katoikia-sepolia
 https://www.remax.gr/property/394154-polisi-diamerisma-agios-pantelehmonas
@@ -23105,6 +23290,7 @@ https://www.remax.gr/property/394686-polisi-monokatoikia-panorama
 https://www.remax.gr/property/394697-enoikiasi-katastima-kentro
 https://www.remax.gr/property/394704-polisi-apothiki-palatianh
 https://www.remax.gr/property/394708-polisi-mezoneta-kalybia-8orikoy
+https://www.remax.gr/property/394711-enoikiasi-katastima-kolwnaki-lykabhttos
 https://www.remax.gr/property/394728-polisi-diamerisma-kynosargoys
 https://www.remax.gr/property/394737-polisi-apothiki-neos-kosmos
 https://www.remax.gr/property/394746-enoikiasi-katastima-kypselh
@@ -23118,6 +23304,7 @@ https://www.remax.gr/property/394793-enoikiasi-diamerisma-pathsia
 https://www.remax.gr/property/394795-polisi-diamerisma-kypselh
 https://www.remax.gr/property/394817-polisi-diamerisma-agios-pantelehmonas
 https://www.remax.gr/property/394849-polisi-monokatoikia-agios-eleytherios-rizoypolh
+https://www.remax.gr/property/394866-enoikiasi-katastima-monasthraki
 https://www.remax.gr/property/394871-polisi-diamerisma-garghttos
 https://www.remax.gr/property/394873-polisi-monokatoikia-kentro
 https://www.remax.gr/property/394936-polisi-bila-pikermi
@@ -23382,6 +23569,7 @@ https://www.remax.gr/property/398090-enoikiasi-bila-kentro
 https://www.remax.gr/property/398098-enoikiasi-katastima-lewf-pathsiwn-lewf-axarnwn
 https://www.remax.gr/property/398106-polisi-gkarsoniera-studio-ellhnorwswn
 https://www.remax.gr/property/398108-polisi-diamerisma-plateia-amerikhs
+https://www.remax.gr/property/398142-enoikiasi-epaggelmatiko-ktirio-agios-iwannhs
 https://www.remax.gr/property/398158-enoikiasi-grafeio-omonoia
 https://www.remax.gr/property/398196-polisi-diamerisma-kypselh
 https://www.remax.gr/property/398216-polisi-diamerisma-gkyzh-areios-pagos
@@ -23475,6 +23663,7 @@ https://www.remax.gr/property/399149-enoikiasi-katastima-metaksoyrgeio
 https://www.remax.gr/property/399158-polisi-diamerisma-plateia-amerikhs
 https://www.remax.gr/property/399179-polisi-monokatoikia-artemida-loytsa
 https://www.remax.gr/property/399188-polisi-diamerisma-lewf-pathsiwn-lewf-axarnwn
+https://www.remax.gr/property/399192-enoikiasi-epaggelmatiko-ktirio-kolwnos-kolokynthoys
 https://www.remax.gr/property/399198-enoikiasi-diamerisma-moyseio
 https://www.remax.gr/property/399200-polisi-apothiki-dasos
 https://www.remax.gr/property/399223-enoikiasi-katastima-alsoypolh
@@ -23507,6 +23696,7 @@ https://www.remax.gr/property/399810-polisi-polukatoikia-omonoia
 https://www.remax.gr/property/399812-polisi-katastima-osios-loykas
 https://www.remax.gr/property/399817-polisi-diamerisma-plateia-gkyzh
 https://www.remax.gr/property/399822-enoikiasi-grafeio-syntagma
+https://www.remax.gr/property/399834-enoikiasi-katastima-monasthraki
 https://www.remax.gr/property/399842-polisi-diamerisma-kantza
 https://www.remax.gr/property/399843-polisi-polukatoikia-kentro-athhna
 https://www.remax.gr/property/399844-polisi-epaggelmatiko-ktirio-kentro-athhna
@@ -23552,6 +23742,8 @@ https://www.remax.gr/property/400183-polisi-epaggelmatiko-ktirio-eksarxeia-neapo
 https://www.remax.gr/property/400185-enoikiasi-oikopedo-gia-epaggelmatiki-chrisi-korwpi
 https://www.remax.gr/property/400186-polisi-diamerisma-mati
 https://www.remax.gr/property/400192-enoikiasi-grafeio-syntagma
+https://www.remax.gr/property/400224-enoikiasi-grafeio-panormoy
+https://www.remax.gr/property/400227-enoikiasi-katastima-panormoy
 https://www.remax.gr/property/400258-enoikiasi-katastima-aigalew
 https://www.remax.gr/property/400271-polisi-monokatoikia-kalamos
 https://www.remax.gr/property/400296-enoikiasi-diamerisma-garghttos
@@ -23583,6 +23775,7 @@ https://www.remax.gr/property/400542-polisi-monokatoikia-mylos
 https://www.remax.gr/property/400545-polisi-diamerisma-porto-rafth
 https://www.remax.gr/property/400547-enoikiasi-grafeio-gkyzh-pedion-arews
 https://www.remax.gr/property/400548-polisi-katastima-plateia-koliatsoy
+https://www.remax.gr/property/400621-enoikiasi-grafeio-kolwnaki
 https://www.remax.gr/property/400643-enoikiasi-grafeio-kallimarmaro
 https://www.remax.gr/property/400684-polisi-monokatoikia-porto-rafth
 https://www.remax.gr/property/400719-polisi-diamerisma-neapolh-eksarxeiwn
@@ -23598,6 +23791,7 @@ https://www.remax.gr/property/400802-enoikiasi-katastima-kentro
 https://www.remax.gr/property/400812-enoikiasi-monokatoikia-agia-marina
 https://www.remax.gr/property/400838-polisi-diamerisma-ano-vakalopoulo
 https://www.remax.gr/property/400855-polisi-diamerisma-ampelokhpoi-pentagwno
+https://www.remax.gr/property/400856-enoikiasi-katastima-omonoia
 https://www.remax.gr/property/400872-enoikiasi-grafeio-omonoia
 https://www.remax.gr/property/400879-polisi-diamerisma-eksarxeia-neapolh
 https://www.remax.gr/property/400880-polisi-monokatoikia-agia-triada
@@ -23663,6 +23857,7 @@ https://www.remax.gr/property/401450-enoikiasi-katastima-eksarxeia-neapolh
 https://www.remax.gr/property/401457-polisi-epaggelmatiko-ktirio-eksarxeia
 https://www.remax.gr/property/401461-polisi-bila-neo-sykamino
 https://www.remax.gr/property/401492-polisi-oikopedo-gia-katoikia-mpalana
+https://www.remax.gr/property/401497-enoikiasi-katastima-gkazi
 https://www.remax.gr/property/401502-enoikiasi-katastima-eksarxeia
 https://www.remax.gr/property/401504-polisi-diamerisma-fwkiwnos-negrh
 https://www.remax.gr/property/401509-polisi-diamerisma-anw-kypselh
@@ -23673,6 +23868,7 @@ https://www.remax.gr/property/401571-enoikiasi-katastima-tsoympa
 https://www.remax.gr/property/401589-polisi-oikopedo-gia-katoikia-ntrafi
 https://www.remax.gr/property/401608-polisi-diamerisma-ghrokomeio
 https://www.remax.gr/property/401613-polisi-diamerisma-kynosargoys
+https://www.remax.gr/property/401621-enoikiasi-katastima-kentro-athhna
 https://www.remax.gr/property/401679-enoikiasi-grafeio-eksarxeia
 https://www.remax.gr/property/401682-enoikiasi-diamerisma-pyrgos-athhnwn
 https://www.remax.gr/property/401711-enoikiasi-katastima-axarnes
@@ -23689,6 +23885,7 @@ https://www.remax.gr/property/401764-polisi-mezoneta-kentro
 https://www.remax.gr/property/401765-polisi-mezoneta-kentro
 https://www.remax.gr/property/401766-enoikiasi-diamerisma-katw-leontari
 https://www.remax.gr/property/401787-polisi-polukatoikia-sepolia-skoyze
+https://www.remax.gr/property/401792-enoikiasi-grafeio-syntagma
 https://www.remax.gr/property/401834-polisi-monokatoikia-porto-rafth
 https://www.remax.gr/property/401878-enoikiasi-diamerisma-plateia-mabilh
 https://www.remax.gr/property/401921-polisi-diamerisma-filopappoy
@@ -23707,9 +23904,11 @@ https://www.remax.gr/property/402039-polisi-monokatoikia-anabyssos
 https://www.remax.gr/property/402044-polisi-oikopedo-gia-katoikia-skala-wrwpoy
 https://www.remax.gr/property/402047-polisi-diamerisma-agios-artemios
 https://www.remax.gr/property/402049-enoikiasi-grafeio-alsos-pagkratioy
+https://www.remax.gr/property/402051-enoikiasi-grafeio-mets-kallimarmaro
 https://www.remax.gr/property/402058-polisi-monokatoikia-porto-rafth
 https://www.remax.gr/property/402060-polisi-monokatoikia-kentro
 https://www.remax.gr/property/402061-enoikiasi-diamerisma-agios-iwannhs-8eologos
+https://www.remax.gr/property/402074-enoikiasi-katastima-lofos-finopoyloy
 https://www.remax.gr/property/402082-polisi-agrotemachio-skarpiza
 https://www.remax.gr/property/402104-polisi-oikopedo-gia-katoikia-porto-rafth
 https://www.remax.gr/property/402120-polisi-oikopedo-gia-katoikia-lagonhsi
@@ -23747,12 +23946,14 @@ https://www.remax.gr/property/402382-polisi-oikopedo-gia-katoikia-nea-makrh
 https://www.remax.gr/property/402387-polisi-diamerisma-ampelokhpoi
 https://www.remax.gr/property/402400-polisi-diamerisma-stathmos-larishs
 https://www.remax.gr/property/402403-polisi-katastima-kentro
+https://www.remax.gr/property/402421-enoikiasi-katastima-kolwnaki
 https://www.remax.gr/property/402431-polisi-diamerisma-porto-rafth
 https://www.remax.gr/property/402432-polisi-polukatoikia-plateia-amerikhs
 https://www.remax.gr/property/402459-polisi-oikopedo-gia-katoikia-lagonhsi
 https://www.remax.gr/property/402503-polisi-katastima-ilisia
 https://www.remax.gr/property/402513-polisi-oikopedo-gia-katoikia-botanikos
 https://www.remax.gr/property/402526-polisi-oikopedo-gia-katoikia-nea-kypselh
+https://www.remax.gr/property/402527-enoikiasi-grafeio-ghrokomeio
 https://www.remax.gr/property/402533-polisi-diamerisma-plateia-amerikhs
 https://www.remax.gr/property/402534-enoikiasi-diamerisma-mets-kallimarmaro
 https://www.remax.gr/property/402545-enoikiasi-grafeio-mpalana
@@ -23887,6 +24088,7 @@ https://www.remax.gr/property/403723-polisi-diamerisma-eksarxeia
 https://www.remax.gr/property/403726-polisi-gkarsoniera-studio-neos-kosmos
 https://www.remax.gr/property/403733-polisi-diamerisma-neos-kosmos
 https://www.remax.gr/property/403744-polisi-gkarsoniera-studio-neos-kosmos
+https://www.remax.gr/property/403747-enoikiasi-katastima-neos-kosmos
 https://www.remax.gr/property/403817-polisi-oikopedo-gia-katoikia-lagonhsi
 https://www.remax.gr/property/403823-polisi-gkarsoniera-studio-a-nekrotafeio
 https://www.remax.gr/property/403827-polisi-gkarsoniera-studio-eksarxeia-neapolh
@@ -23997,6 +24199,7 @@ https://www.remax.gr/property/404763-polisi-diamerisma-kentro
 https://www.remax.gr/property/404766-polisi-diamerisma-kentro
 https://www.remax.gr/property/404768-polisi-monokatoikia-porto-rafth
 https://www.remax.gr/property/404770-polisi-diamerisma-kentro
+https://www.remax.gr/property/404782-enoikiasi-katastima-kentro-athhna
 https://www.remax.gr/property/404788-enoikiasi-aithousa-lazaroy
 https://www.remax.gr/property/404798-polisi-katastima-kentro
 https://www.remax.gr/property/404804-polisi-diamerisma-nea-filotheh
@@ -24069,6 +24272,7 @@ https://www.remax.gr/property/405554-polisi-diamerisma-rafhna
 https://www.remax.gr/property/405556-polisi-diamerisma-eksarxeia-neapolh
 https://www.remax.gr/property/405566-polisi-oikopedo-gia-epaggelmatiki-chrisi-kolwnaki-lykabhttos
 https://www.remax.gr/property/405607-polisi-mezoneta-kentro
+https://www.remax.gr/property/405617-enoikiasi-grafeio-kolwnaki
 https://www.remax.gr/property/405627-enoikiasi-katastima-kentro
 https://www.remax.gr/property/405631-enoikiasi-diamerisma-eksarxeia-neapolh
 https://www.remax.gr/property/405648-polisi-diamerisma-syntagma
@@ -24192,6 +24396,7 @@ https://www.remax.gr/property/406430-polisi-polukatoikia-lewf-pathsiwn-lewf-axar
 https://www.remax.gr/property/406444-enoikiasi-diamerisma-gerakas
 https://www.remax.gr/property/406446-enoikiasi-diamerisma-gerakas
 https://www.remax.gr/property/406450-polisi-diamerisma-plateia-gkyzh
+https://www.remax.gr/property/406452-enoikiasi-katastima-neos-kosmos
 https://www.remax.gr/property/406461-polisi-diamerisma-eksarxeia
 https://www.remax.gr/property/406487-enoikiasi-diamerisma-eksarxeia-neapolh
 https://www.remax.gr/property/406504-polisi-katastima-metaksoyrgeio
@@ -24311,6 +24516,7 @@ https://www.remax.gr/property/407185-polisi-diamerisma-erythros
 https://www.remax.gr/property/407188-polisi-agrotemachio-aspropyrgos
 https://www.remax.gr/property/407200-enoikiasi-katastima-gkazi
 https://www.remax.gr/property/407201-enoikiasi-grafeio-gkazi
+https://www.remax.gr/property/407202-enoikiasi-grafeio-gkazi
 https://www.remax.gr/property/407204-enoikiasi-grafeio-gkazi
 https://www.remax.gr/property/407207-enoikiasi-mezoneta-diwnh
 https://www.remax.gr/property/407212-enoikiasi-katastima-gkazi
@@ -24395,6 +24601,7 @@ https://www.remax.gr/property/407696-polisi-diamerisma-nea-filotheh
 https://www.remax.gr/property/407697-polisi-diamerisma-metaksoyrgeio
 https://www.remax.gr/property/407707-enoikiasi-diamerisma-nea-kypselh
 https://www.remax.gr/property/407742-polisi-katastima-kentro-athhna
+https://www.remax.gr/property/407744-enoikiasi-katastima-kentro-athhna
 https://www.remax.gr/property/407750-polisi-katastima-kypselh
 https://www.remax.gr/property/407751-polisi-diamerisma-kypselh
 https://www.remax.gr/property/407754-polisi-diamerisma-attikh
@@ -24432,6 +24639,7 @@ https://www.remax.gr/property/408001-polisi-oikopedo-gia-katoikia-petralwna
 https://www.remax.gr/property/408006-enoikiasi-diamerisma-kypselh
 https://www.remax.gr/property/408007-enoikiasi-diamerisma-kolwnos
 https://www.remax.gr/property/408020-enoikiasi-diamerisma-kypselh
+https://www.remax.gr/property/408021-enoikiasi-katastima-kolwnaki-lykabhttos
 https://www.remax.gr/property/408022-polisi-diamerisma-kentro
 https://www.remaxfriends.gr/el/properties/2354870
 https://www.remaxfriends.gr/el/properties/2368058
@@ -25164,6 +25372,7 @@ https://www.spitogatos.gr/aggelia/1116027226
 https://www.spitogatos.gr/aggelia/1116053822
 https://www.spitogatos.gr/aggelia/1116059379
 https://www.spitogatos.gr/aggelia/1116664418
+https://www.spitogatos.gr/aggelia/1116747399
 https://www.spitogatos.gr/aggelia/1116883340
 https://www.spitogatos.gr/aggelia/1116976742
 https://www.spitogatos.gr/aggelia/1117014542
@@ -25268,6 +25477,7 @@ https://www.spitogatos.gr/aggelia/1119679958
 https://www.spitogatos.gr/aggelia/1119680241
 https://www.spitogatos.gr/aggelia/1119689031
 https://www.spitogatos.gr/aggelia/1119699599
+https://www.spitogatos.gr/aggelia/1119704667
 https://www.spitogatos.gr/aggelia/1119724203
 https://www.spitogatos.gr/aggelia/1119726057
 https://www.spitogatos.gr/aggelia/1119736021
@@ -25281,6 +25491,7 @@ https://www.spitogatos.gr/aggelia/1119783505
 https://www.spitogatos.gr/aggelia/1119790603
 https://www.spitogatos.gr/aggelia/1119797811
 https://www.spitogatos.gr/aggelia/1119800135
+https://www.spitogatos.gr/aggelia/1119800236
 https://www.spitogatos.gr/aggelia/1119812901
 https://www.spitogatos.gr/aggelia/1119820468
 https://www.spitogatos.gr/aggelia/1119822683
@@ -25316,6 +25527,7 @@ https://www.spitogatos.gr/aggelia/1119944877
 https://www.spitogatos.gr/aggelia/1119946309
 https://www.spitogatos.gr/aggelia/1119948813
 https://www.spitogatos.gr/aggelia/1119985593
+https://www.spitogatos.gr/aggelia/1119987899
 https://www.spitogatos.gr/aggelia/1119991450
 https://www.spitogatos.gr/aggelia/1120002047
 https://www.spitogatos.gr/aggelia/1120002711
@@ -25364,6 +25576,7 @@ https://www.spitogatos.gr/aggelia/1120339837
 https://www.spitogatos.gr/aggelia/1120341182
 https://www.spitogatos.gr/aggelia/1120342191
 https://www.spitogatos.gr/aggelia/1120361567
+https://www.spitogatos.gr/aggelia/1120362881
 https://www.spitogatos.gr/aggelia/1120365926
 https://www.spitogatos.gr/aggelia/1120375780
 https://www.spitogatos.gr/aggelia/1120376040
@@ -25450,6 +25663,7 @@ https://www.spitogatos.gr/aggelia/1120765797
 https://www.spitogatos.gr/aggelia/1120766143
 https://www.spitogatos.gr/aggelia/1120767866
 https://www.spitogatos.gr/aggelia/1120768007
+https://www.spitogatos.gr/aggelia/1120768060
 https://www.spitogatos.gr/aggelia/1120772126
 https://www.spitogatos.gr/aggelia/1120777429
 https://www.spitogatos.gr/aggelia/1120777511
@@ -26295,6 +26509,16 @@ https://www.spitogatos.gr/aggelia/1121043376
 https://www.spitogatos.gr/aggelia/1121043637
 https://www.spitogatos.gr/aggelia/1121043670
 https://www.spitogatos.gr/aggelia/1121043843
+https://www.spitogatos.gr/aggelia/1121044173
+https://www.spitogatos.gr/aggelia/1121044175
+https://www.spitogatos.gr/aggelia/1121044689
+https://www.spitogatos.gr/aggelia/1121044722
+https://www.spitogatos.gr/aggelia/1121044739
+https://www.spitogatos.gr/aggelia/1121044749
+https://www.spitogatos.gr/aggelia/1121044827
+https://www.spitogatos.gr/aggelia/1121045282
+https://www.spitogatos.gr/aggelia/1121045588
+https://www.spitogatos.gr/aggelia/1121045592
 https://www.spitogatos.gr/aggelia/2212365041
 https://www.spitogatos.gr/aggelia/2212589102
 https://www.spitogatos.gr/aggelia/2212919109
@@ -26331,6 +26555,7 @@ https://www.spitogatos.gr/aggelia/2220315534
 https://www.spitogatos.gr/aggelia/2220408749
 https://www.spitogatos.gr/aggelia/2220544092
 https://www.spitogatos.gr/aggelia/2220624875
+https://www.spitogatos.gr/aggelia/2220779835
 https://www.spitogatos.gr/aggelia/2220888124
 https://www.spitogatos.gr/aggelia/2220918079
 https://www.spitogatos.gr/aggelia/2220940707
@@ -26418,6 +26643,7 @@ https://www.spitogatos.gr/aggelia/2221035445
 https://www.spitogatos.gr/aggelia/2221039862
 https://www.spitogatos.gr/aggelia/2221040394
 https://www.spitogatos.gr/aggelia/2221043750
+https://www.spitogatos.gr/aggelia/2221044860
 https://www.sqmrealtors.gr/en/properties/1969512
 https://www.sqmrealtors.gr/en/properties/2307211
 https://www.sqmrealtors.gr/en/properties/2524251
@@ -27746,6 +27972,7 @@ https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1b76cb1b-8b86-4db3
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1ba9ec85-8ad0-4d80-afbd-e6e84e659aca/nea-smyrnh-chrysakh-2900-220
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1bc162be-d289-4a91-aa16-6a2f257d9c73/anw-liosia-drosoypolh-550-35
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1bdfa3d0-b1af-4e44-86ac-c35141456b85/peiraias-kaminia-750-128
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1cc11aa1-6b6c-4017-9c8e-f2a07d7f6c0e/maroysi-agioi-anargyroi-2200-80
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1d3aacdd-5ab9-4f82-a49f-67cb7edf1f51/alimos-ektelwnistwn-eforiakwn-1300-192
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1d96ce64-bfa5-4326-8721-8abe6069ad37/maroysi-agioi-anargyroi-15000-920
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1ee9756d-329b-455b-8a59-129ce5086e6d/athhna-kolwnaki-2700-150
@@ -28081,7 +28308,9 @@ https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7e3fba75-0524-4c7a
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7e9be662-3a0e-4f96-bcd6-32552fad25ee/galatsi-akthmones-4000-280
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7f4630a1-58fe-4428-901f-6d9d2a0da82e/athhna-omonoia-320-26
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7f6e45a3-5d88-4268-b45f-9edbe62660d9/athhna-omonoia-22500-2980
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/8007125a-6e49-4738-929d-6f101363b593/athhna-ippokrateio-550-60
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/8009e70a-152c-4d52-93dd-b4122792e71a/athhna-moyseio-3200-482
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/800ecec1-b394-4037-a81a-f897221083f1/polichnh-thessalonikhs-1000-164
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/802093a6-383d-4ebd-8b93-bbfbb2c6f05d/moschato-lachanagora-700-140
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/803e9901-09b6-49c6-ad0a-996b037268a3/athhna-kerameikos-3000-560
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/80f234e8-1a42-48ef-ac46-58a7334ad409/peiraias-kentrikos-limenas-800-78
@@ -28167,6 +28396,8 @@ https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/977d6223-6d51-4f3d
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/977f1644-5dc8-4272-865c-c486ce985e8d/glyfada-terpsithea-580-45
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/978bea12-cbbc-4bf7-bf9e-e4d9550e1dcf/athhna-katw-pathsia-1200-150
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/98c89f3f-9837-4d7e-ba4a-bcc5f2e41008/athhna-moyseio-3900-241
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/98f4d537-1f97-4856-844c-1248efa5e8d8/athhna-lamprinh-1500-60
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/99135d00-3d0e-47dd-b89a-9ac8b71c4c88/metamorfwsh-palies-koykoyvaoynes-3000-480
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/991c3f74-249f-46b8-aa21-dda607f3f865/peiraias-kentrikos-limenas-980-70
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/9a4a1179-9a14-4a97-aee7-df2b7edc6842/agios-stefanos-nymfwn-2100-295
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/9a4f143f-8c93-40f3-be51-0390464b87e5/korydallos-plateia-eleytherias-2800-97
@@ -28212,6 +28443,7 @@ https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a7c508be-9464-41b0
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a7ef24ab-9002-4f9e-863a-950fa77323fd/kallithea-tzitzifies-2600-267
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a843be72-29c4-47d3-92d7-05977793c7d6/peristeri-tsalavoyta-6500-150
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a87b0c43-469e-4830-b226-69672b93ad36/agia-paraskeyh-peykakia-1800-80
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a911a4d1-e859-4534-90a5-9aad9b270dba/athhna-kolwnos-5000-388
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a9ba7dbf-9546-4fde-8214-86c704be2ad6/glyfada-kentro-9375-375
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/aa0d4153-dffb-4db4-96a1-96cb607cbf55/maroysi-agioi-anargyroi-1100-36
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/aa30c8d9-466f-44e9-86b4-594be928bea6/khfisia-nea-khfisia-4500-400
@@ -28514,6 +28746,7 @@ https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/54d6a266-0474-4ebb-9b37-3
 https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/572e3d0c-fbec-4da6-8009-538242ba66a6/alimos-kefallhnwn-5000-750
 https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/59c15d86-9492-4bd2-88b8-c724dbcc21b5/pylaia-3500-4008
 https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/5dccb00b-5820-448f-b560-56381bfea447/aspropyrgos-14000-70000
+https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/606ce826-8278-4c4f-9350-b1c9437e1957/echedwro-600-2000
 https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/62e17b73-eea6-4837-999f-3f82ec1cb905/metamorfwsh-7000-10000
 https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/65aed594-35b1-4923-a5fe-1da318ca56f2/mandra-3000-12000
 https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/6890ecc0-7db5-4e2f-ad20-8285c1830d0b/aspropyrgos-1300-1375
@@ -28590,6 +28823,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/0417ddcd-8c7a-4f82-bf6f-ca287
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0423f0fb-3edc-47ff-93ca-0666311f637d/khfisia-kentro-2300-125
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0438a8b2-2b78-4b5e-855b-e93a0b87a9b9/athhna-neapolh-650-37
 https://www.xe.gr/property/d/enoikiaseis-katoikion/043ffdc9-c809-4a29-9ebd-f5d7cbfd9f2a/drosia-2150-220
+https://www.xe.gr/property/d/enoikiaseis-katoikion/048ee62b-1f79-4581-82bb-4ef384303023/dionysos-2900-300
 https://www.xe.gr/property/d/enoikiaseis-katoikion/04e6a516-4cc6-4741-b0ae-de6524331fe1/athhna-koyntoyriwtika-1100-140
 https://www.xe.gr/property/d/enoikiaseis-katoikion/052ce268-0134-4fbb-90f6-b021042535f7/hlioypolh-kanaria-600-80
 https://www.xe.gr/property/d/enoikiaseis-katoikion/056c3a51-acf9-41dc-92e1-0bf4d80e3285/anavyssos-5000-300
@@ -28597,6 +28831,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/05b334d2-dfee-4c01-9fa8-c51ae
 https://www.xe.gr/property/d/enoikiaseis-katoikion/05e058dd-59ad-45b5-9429-5fc905d99558/khfisia-kefalari-6000-350
 https://www.xe.gr/property/d/enoikiaseis-katoikion/06087301-e108-4bef-8d4e-ea190e8f1a0d/voyla-katw-voyla-1100-65
 https://www.xe.gr/property/d/enoikiaseis-katoikion/063b81ae-d761-4552-9878-3ece90125b17/moschato-670-60
+https://www.xe.gr/property/d/enoikiaseis-katoikion/067b89bb-cdf0-41bf-a230-6d4e83bd476c/rafhna-800-90
 https://www.xe.gr/property/d/enoikiaseis-katoikion/06ae84be-cccf-4d99-9246-3eb22e6d183f/athhna-kolwnaki-2500-125
 https://www.xe.gr/property/d/enoikiaseis-katoikion/06bef2f3-b317-409c-a41c-d33a4933b1c9/voyliagmenh-kavoyri-2250-92
 https://www.xe.gr/property/d/enoikiaseis-katoikion/06cc3499-4079-4990-96ee-cc9b398ce36d/vyrwnas-nea-elvetia-800-100
@@ -28608,6 +28843,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/076d34dd-1175-4fbb-a775-7611d
 https://www.xe.gr/property/d/enoikiaseis-katoikion/077f18cb-7e6b-486c-bd17-35d40f52a3f1/khfisia-nea-khfisia-2500-270
 https://www.xe.gr/property/d/enoikiaseis-katoikion/07d087bc-d753-4ee6-af40-bea7abce980e/palaio-falhro-amfithea-750-65
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0813a42c-efd4-484d-9463-30dd72e53462/glyfada-kentro-3300-132
+https://www.xe.gr/property/d/enoikiaseis-katoikion/081ab63a-4be0-4844-9eec-77bb4a2d7794/athhna-pagkrati-610-52
 https://www.xe.gr/property/d/enoikiaseis-katoikion/08426ac4-8eca-4ee8-942f-7cba81d92871/glyfada-kentro-1250-50
 https://www.xe.gr/property/d/enoikiaseis-katoikion/088231ca-77ae-4d55-bbba-7b751ac043fa/chalandri-katw-chalandri-600-50
 https://www.xe.gr/property/d/enoikiaseis-katoikion/08b666e8-6dea-4141-a22b-1cbd0a27562b/nea-smyrnh-kentro-600-55
@@ -28627,6 +28863,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/0a3a87ae-7981-40d1-938e-4ad0e
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0a60a4e3-fa7f-40a4-b107-9f7ceec5566d/palaio-falhro-planhtario-1200-111
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0a73fde6-2578-461f-95d7-3575dc0797eb/glyfada-gkolf-3000-170
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0b0ef298-00a0-4f09-b9fb-4d3040e79161/athhna-plateia-amerikhs-600-90
+https://www.xe.gr/property/d/enoikiaseis-katoikion/0b5b1954-32ab-4c97-b0b2-a7d336c41abd/glyfada-aixwnh-1950-134
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0b907cd7-8692-42ac-a4db-4cdf060b738f/maroysi-alsos-kthmatos-syggroy-950-100
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0be1ab0c-4167-4886-bdd3-20bbec05d122/athhna-pagkrati-950-105
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0c7b86ac-5bf4-44ad-96f3-00212aff0257/glyfada-aixwnh-1650-90
@@ -28785,6 +29022,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/274770ac-6613-4ae4-9822-75318
 https://www.xe.gr/property/d/enoikiaseis-katoikion/27d79a09-6c09-4a1a-ac10-a7369dd22ab0/peiraias-pasalimani-marina-zeas-900-104
 https://www.xe.gr/property/d/enoikiaseis-katoikion/282bd991-407a-47c7-8610-52da6f89f4f0/vyrwnas-850-110
 https://www.xe.gr/property/d/enoikiaseis-katoikion/28392af6-eb90-472d-b109-7039c4dcc314/athhna-pedion-arews-480-30
+https://www.xe.gr/property/d/enoikiaseis-katoikion/283be856-32cd-4ac8-93d2-3d5f12af388e/thessalonikh-vardarh-740-28
 https://www.xe.gr/property/d/enoikiaseis-katoikion/283f1ac8-7e9f-4464-a06b-1411360bf837/keratsini-amfialh-550-75
 https://www.xe.gr/property/d/enoikiaseis-katoikion/28475270-3032-4d29-aa9f-ce5a542e95e2/voyla-panorama-1200-100
 https://www.xe.gr/property/d/enoikiaseis-katoikion/28a83582-e7bc-4ce4-9b96-eedccc8bc12d/glyfada-kentro-4900-360
@@ -29037,6 +29275,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/5f1e7a8b-89ef-4741-9775-fc538
 https://www.xe.gr/property/d/enoikiaseis-katoikion/5f5064a4-6260-4603-afba-1482774135e1/kineta-1300-107
 https://www.xe.gr/property/d/enoikiaseis-katoikion/5f651990-8005-4432-961e-f354cb31392a/athhna-plateia-attikhs-530-65
 https://www.xe.gr/property/d/enoikiaseis-katoikion/5f80158e-dc66-4f03-86bf-e63fba1571b6/athhna-kypselh-380-52
+https://www.xe.gr/property/d/enoikiaseis-katoikion/5fb622b7-cf1d-4afd-b69c-7ff625f3d089/keratsini-agios-pantelehmonas-700-82
 https://www.xe.gr/property/d/enoikiaseis-katoikion/5fc40f57-484f-442b-8359-e7ad4d138e7e/khfisia-politeia-1800-120
 https://www.xe.gr/property/d/enoikiaseis-katoikion/6088ba72-2512-4d0e-b705-838e21655a95/argyroypolh-kentro-1000-117
 https://www.xe.gr/property/d/enoikiaseis-katoikion/6088ba72-2512-4d0e-b705-838e21655a95/argyroypolh-kentro-950-117
@@ -29075,6 +29314,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/6685f974-a992-46e3-97cf-a6025
 https://www.xe.gr/property/d/enoikiaseis-katoikion/66dadd1c-1395-4822-b2e3-0ce914af4993/melissia-orio-khfisias-1500-120
 https://www.xe.gr/property/d/enoikiaseis-katoikion/66e7314d-3d08-4185-8d35-427fc52cea4f/chalandri-agia-anna-2000-235
 https://www.xe.gr/property/d/enoikiaseis-katoikion/66ec0d92-0d78-4427-9be0-83c670911b94/athhna-ippokratoys-725-47
+https://www.xe.gr/property/d/enoikiaseis-katoikion/6719bf02-8656-418c-b83e-88777dc5fd73/larisa-850-90
 https://www.xe.gr/property/d/enoikiaseis-katoikion/6743e275-4650-48c8-9dff-e273bd4c0a50/athhna-ippokratoys-1400-114
 https://www.xe.gr/property/d/enoikiaseis-katoikion/67a72856-1036-47de-ad4e-6f1be1309e24/khfisia-politeia-1600-85
 https://www.xe.gr/property/d/enoikiaseis-katoikion/67c0260e-5086-4762-856c-e304cddbf931/athhna-kolwnaki-450-25
@@ -29203,6 +29443,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/82a2ee37-9228-4f50-8569-bfd76
 https://www.xe.gr/property/d/enoikiaseis-katoikion/82cf9917-95e5-4c31-b7a7-f7ccbfe7b829/athhna-koliatsoy-650-55
 https://www.xe.gr/property/d/enoikiaseis-katoikion/82da4129-61ba-422e-9d7d-48fcd56c329a/vyrwnas-analhpsh-780-115
 https://www.xe.gr/property/d/enoikiaseis-katoikion/832a5d9c-4279-4995-86d2-fad35ab712a4/kallithea-lofos-filaretoy-800-75
+https://www.xe.gr/property/d/enoikiaseis-katoikion/83383cf0-d494-4350-8f9d-68a5a4099917/thessalonikh-vardarh-790-32
 https://www.xe.gr/property/d/enoikiaseis-katoikion/84141223-1fd4-4e3f-95bb-2715f2d41cf7/agios-dhmhtrios-attikhs-soyli-800-88
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8448d4fd-253d-4914-ba6b-71bf9a21cf6b/glyfada-anw-glyfada-2800-177
 https://www.xe.gr/property/d/enoikiaseis-katoikion/84b7de00-67d5-4518-9002-5522392f1def/kallithea-stathmos-hsap-tayroy-480-50
@@ -29227,6 +29468,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/88e8a9e4-9a9b-44b9-b1cf-3e5a7
 https://www.xe.gr/property/d/enoikiaseis-katoikion/890ed85a-7d05-4ac6-97e1-d08180ca5e68/glyfada-kentro-1950-145
 https://www.xe.gr/property/d/enoikiaseis-katoikion/89ceed59-2291-4cce-b2fa-87e87771e54f/athhna-neapolh-1500-120
 https://www.xe.gr/property/d/enoikiaseis-katoikion/89f2b96b-51c0-48bc-b7e8-a3eda33806a3/zwgrafoy-anw-ilisia-740-75
+https://www.xe.gr/property/d/enoikiaseis-katoikion/8a3a274d-390b-4650-809e-49b80d411e7e/korydallos-orio-agias-varvaras-450-75
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8a8c480b-7db2-421c-ab5b-a660cc86e221/lykovrysh-kentro-2300-206
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8b7b504a-bd5b-4a46-a074-43019d5b226a/kallithea-tzitzifies-1000-71
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8b8861d4-6b24-400e-a5e6-d0aaa8f80f6c/glyfada-terpsithea-900-70
@@ -29353,9 +29595,11 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/a82384ed-cf0a-4f0a-9a5a-aec93
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a83054e0-3f28-439e-b248-3fc21fc4d164/athhna-koliatsoy-650-85
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a8408057-62eb-4e65-b893-abb1306eb5c5/chalandri-pathma-4300-320
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a84ef9fe-97e1-4bdc-828e-1024904d8248/athhna-plateia-amerikhs-700-90
+https://www.xe.gr/property/d/enoikiaseis-katoikion/a86ec585-6a04-4208-8c5e-958a8dd2a655/athhna-alepotrypa-600-57
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a875a348-7077-43e3-afec-e911d0ddc5d5/palaio-falhro-plateia-ntavarh-950-55
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a9076bc6-5112-4b30-98b7-5a9dc70007d4/wrwpos-380-54
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a9364a58-8386-4378-af21-cb55e45efc0e/ekalh-950-60
+https://www.xe.gr/property/d/enoikiaseis-katoikion/a950eaa0-180a-4338-9bd1-c55eef9e7c87/kallithea-ote-1100-100
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a9799032-0a6a-405b-84ed-ad621376ca18/chalandri-dhmarcheio-3500-312
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a98cf539-bbf9-4f0d-a94d-990edfe7862d/gerakas-kentro-1100-112
 https://www.xe.gr/property/d/enoikiaseis-katoikion/a99f5d14-6091-43c0-85ee-eb8941566ac6/patra-300-34
@@ -29764,6 +30008,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0229274c-d557-48ff-82
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0269d959-108c-416a-8b9b-909685b4062f/agios-stefanos-250000-300
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0317f17b-27b0-4fa0-ac98-cab984225c1c/lykovrysh-kentro-1000000-361
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0332a23b-2d75-413d-910b-1546a49d0b7e/athhna-agios-eleytherios-300000-440
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/035e3f3a-5d2f-4073-a721-0c0b89b9c17d/nea-filadelfeia-attikhs-lazaroy-250000-122
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/039ffa78-5dfd-4b70-b03b-0a2ee05c5dcd/tayros-attikhs-kentro-1070000-450
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/03c40e42-f972-4824-92c0-40faf1529707/kamari-3700000-1020
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/03e6cea0-c4f1-49c7-958d-96ee8e8bab14/afidnes-790000-1300
@@ -29891,6 +30136,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2b799f92-4e93-4038-a3
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2b8ad430-4174-44fa-9fe6-153adae42ff8/schhmatari-2000000-3200
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2c2b8aa4-16c5-468c-abc5-38a63992fce6/rodos-140000-55
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2c91fa0a-9936-4ba6-8a0c-dd7c757f4801/markopoylo-mesogaias-markopoylo-1780000-900
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2d2bd62a-6783-4dab-9514-62b768464b1e/ellhniko-katw-soyrmena-460000-141
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2d2d6f77-3f60-457d-b613-1c311f250157/athhna-nea-filotheh-1650000-505
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2d4b7f56-b73b-4951-b02d-e450a7f7bf45/peiraias-tampoyria-180000-112
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2d877c1f-791c-4480-a2b0-a620e7e7daeb/agios-dhmhtrios-attikhs-kentro-300000-74
@@ -30186,6 +30432,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/85d12ebe-493b-40db-92
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/85f8cd10-30f3-40b1-bb2c-da409e40f10f/khfisia-nea-khfisia-370000-208
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/86fb57c9-36ca-4dd1-b3cb-3432d75812b4/kiato-250000-250
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/870d219c-aca3-4c8d-be3e-fab8d8aa5fac/keratsini-tampoyria-320000-271
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/87277c3a-86ba-4617-8735-ef821fd48490/gerakas-mpalana-1000000-450
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/87522a19-3381-4794-abd9-28087856a7f7/athhna-moyseio-800000-550
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/876d5db6-981a-4cce-9753-875c150ccff3/sparth-1500000-1000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/878b9132-b56e-49de-9cda-910fa356f88c/chaidari-dasos-85000-85
@@ -30277,9 +30524,11 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a56ff0ac-c2fa-4360-b0
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a61487f5-6ce2-4cc6-9a58-aa30e0f4816e/athhna-metaxoyrgeio-6000000-2150
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a614ffe7-353a-4c8b-8c2c-534efb1fce20/athhna-exarcheia-100000-26
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a6294b3f-7370-4f27-8167-4305e9cc3852/rovies-69000-100
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a724381f-b4dc-4c61-8fa8-51f35c189a81/acharnes-ayliza-189000-131
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a73a60d1-6fc3-420b-a4e6-060bac8cbe50/athhna-ilisia-1600000-165
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a767c31b-d403-46dd-8666-60b657a52991/athhna-omonoia-850000-370
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a769a534-5332-47b1-8075-d2648bd08ff2/agios-dhmhtrios-attikhs-elia-3800000-2350
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a77fe139-aaeb-4012-a9c4-4a6648c71f07/maroysi-agioi-anargyroi-110000-23
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a7bc0996-c8d3-4bdd-bb3e-e22fe3f1c851/acharnes-mesonychi-950000-1092
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a8004f49-cf34-4ab7-9e0b-5ac9810554b0/chaidari-2300000-1150
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a8301ac0-7ed8-4303-93a6-8428b83ef11c/athhna-nirvana-220000-240
@@ -30305,6 +30554,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b1d0e848-3729-4f73-99
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b2e387d3-29c6-417a-b7bf-d5e6158ef8e4/skaramagkas-1850000-1400
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b30b708f-58f2-47bb-be55-8c2157fd573e/eleysina-1800000-750
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b3cac6a8-1d70-43d4-8964-5c88b054cc43/acharnes-ayliza-280000-270
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b41163ce-58d4-46b5-b3e7-352ad6d4efb4/athhna-plateia-vathhs-275000-135
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b4170383-cbec-450f-a61e-bc12c828097e/glyfada-pyrnari-2400000-800
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b4253bf0-9d1b-477f-a91c-862463934407/peiraias-kentro-650000-209
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b42e4b2c-979d-434f-9466-0836aeaf50df/athhna-treis-gefyres-20000-30
@@ -30333,6 +30583,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/ba388345-e324-49ee-9c
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/bb18c465-35a8-4c93-a951-942b9d31c493/aigalew-lioymh-150000-133
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/bb619c02-a3e3-4e86-85ab-4df262d2b50e/hlioypolh-charaygh-3000000-2570
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/bb6ce030-dc34-487d-8b8b-25aa9fbda771/athhna-katw-pathsia-60000-66
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/bb90a0ce-9dcc-4109-8416-10b4e38efeea/athhna-omonoia-3150000-2100
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/bbb7c519-aee5-4270-b61e-47c12f48bdd1/glyfada-kentro-1300000-48
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/bc75e47e-5dfc-4f7a-ac98-bf832a035fff/ymhttos-agios-dionysios-2300000-1150
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/bceb7b89-de21-4ced-8949-68b739e0fda8/athhna-gkazi-1300000-607
@@ -30749,6 +31000,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/2d8e7dfc-f548-4a80-b577-8996
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/2dabd792-f5f6-477c-b802-60747ca114b2/sarwnida-450000-1450
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/2dae5ae2-62e9-4c08-a507-c72e88ddc729/katw-synoikia-trikalwn-35000-307
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/2dc442d6-5a5e-441e-a781-861b65bc3c88/perdika-1000000-16500
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/2e05cd38-9ee3-41ed-9f1e-bab77480f7d5/porto-rafth-250000-2000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/2eda4698-b421-47e4-bfa4-0c7f8f65a43c/sarwnida-340000-1240
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/2ef11273-9c8f-4204-857c-99a1633b6c83/schinias-60000-725
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/2f17ec76-f77d-4a7d-b881-68ced8b01c60/dikastika-400000-1200
@@ -30770,6 +31022,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/316b556f-b138-47f7-ad46-08c3
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/31a99c50-48b2-43a1-94ad-9d0148ef09e2/thrakomakedones-270000-1052
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/31a99c50-48b2-43a1-94ad-9d0148ef09e2/thrakomakedones-285000-1052
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/31d33da4-600b-42a4-bc82-23b70b8e6462/peiraias-agia-sofia-550000-484
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/3253c0a0-a180-4758-a20c-f4d8ff9c17a6/nikhth-250000-1000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/32566343-83bf-4a7d-afad-c0f82fbd9efb/athhna-akadhmia-platwnos-3000000-3519
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/3296d96d-04f9-4899-b495-a534576be356/nea-filadelfeia-attikhs-alsos-490000-396
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/32d9353b-b059-40aa-956c-1fa247cc9596/maroysi-nea-filotheh-800000-351
@@ -30866,6 +31119,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/46858848-2a78-4e7e-afc0-5478
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/46e420e1-8496-4f0a-9142-6ae736832089/dionysos-270000-800
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/46fd80bc-0533-457e-a310-a9a2d12f7a5c/kythnos-500000-106580
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/4704a658-2679-4ca0-a59e-033d78a948a2/nea-makrh-200000-900
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/471d06c4-778a-479a-a13f-e81429f3642c/anw-liosia-agios-nikolaos-120000-430
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/472af0d2-6b7c-41a4-96a1-62089646955a/dionysos-400000-815
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/478628d1-8bd1-4603-ad2a-8a641fd3c678/athhna-rizoypolh-145000-151
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/48001695-fe91-4abc-aa66-97538ec61456/peiraias-kokkinia-200000-166
@@ -31033,6 +31287,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/6dfcb339-5b4e-4b37-8898-e315
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6e113f94-5c38-4299-9909-ce10f7aa11d5/palea-fokea-198000-660
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6e1b128e-c6de-4f80-8226-b41ca0db4a36/kyparissia-5000-203
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6e1b128e-c6de-4f80-8226-b41ca0db4a36/kyparissia-8000-203
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/6e28627d-3df8-476d-a2fd-f6699c62ff03/skydra-67000-11500
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6e77cf9c-4880-4102-b68e-f3c4ee8b3ca8/agios-dhmhtrios-attikhs-asyrmatos-200000-157
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6e790ae0-7da5-4b1b-9a7d-966de8d8cd4a/mwlos-90000-31196
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6e93863c-c577-4ebd-8fb3-e3f9a10d4631/dionysos-350000-817
@@ -31108,6 +31363,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/7c4e1bf9-0a22-41c8-8169-4379
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/7c5100b2-a7cd-4e5c-8e8c-1566f35f35ee/porto-rafth-55000-235
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/7c6358c6-f931-44ef-9820-823f0c6fa429/peristeri-anw-lofos-150000-132
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/7c924328-8662-4896-b7e7-581d90451172/sarwnida-295000-650
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/7cbf8a44-dafc-475a-af39-a05103c8ffd7/kea-70000-1645
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/7cf9fa96-0b05-4db2-854b-c62a1414ae45/ekalh-2500000-2350
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/7d03c9cd-881f-4ffb-8b5a-d54658a20817/chalandri-polydroso-850000-423
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/7d42747a-5bce-43fa-ac98-fcc811e7dccd/artemis-90000-640
@@ -31254,6 +31510,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/9bf3f110-f70a-4a9b-a2c3-2968
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/9c55eb4c-6659-42cb-b003-fb33c96994b8/maroysi-nea-filotheh-1950000-1370
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/9c5cf6b2-d7e1-4cb9-ac19-78a69e6948b8/anavyssos-350000-611
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/9c770929-f653-49d4-84f6-81eaad1e9b97/perama-neo-ikonio-130000-250
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/9cab28c8-7ad6-48b8-9ab3-03d7d6b1fa84/nea-filadelfeia-attikhs-apomachoi-130000-257
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/9cf56c4c-454e-490e-a99f-7b1e3dab09ec/ntrafi-650000-3060
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/9d345ded-cf8a-4255-819a-309a883825b1/nea-erythraia-mortero-450000-434
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/9d613a0c-91c3-492f-8339-68fa5132fe8f/athhna-a-nekrotafeio-570000-128
@@ -31334,6 +31591,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/ad4b773c-2460-4aae-bea8-35ed
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/ad625650-02d7-4b26-964c-84e722e08b9f/nea-iwnia-saframpolh-128000-276
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/ad7b766c-1617-421f-a8f4-60c13eaac1c2/vrilhssia-anw-vrilhssia-270000-437
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/ad8abe0a-e5ba-41e1-9416-1600f9b97771/meligalas-49000-14694
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/ada2fc0a-02fd-4170-a9b9-32a1cfce5349/kea-30000-511
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/adaf8c28-7c21-4d3a-82f7-65538fe6ae83/vasiliko-45000-319
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/adb012f9-2259-4d6c-8d3d-76d903c39221/khfisia-adames-oikismos-grammos-foinikas-200000-350
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/addc5138-5f82-4188-9739-24797239b788/ritswna-580000-40000
@@ -31719,6 +31977,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/02ee19fc-db31-4a3c-bc56-72f28c60
 https://www.xe.gr/property/d/poliseis-katoikion/02f07436-944b-4de6-b6a0-3e9ed0be342f/artemis-430000-225
 https://www.xe.gr/property/d/poliseis-katoikion/03057b3d-00d2-4768-93b8-77f14b118959/papagoy-900000-150
 https://www.xe.gr/property/d/poliseis-katoikion/030a70b2-cd20-49ed-a153-6bcebf576a3e/nea-iwnia-neapolh-220000-77
+https://www.xe.gr/property/d/poliseis-katoikion/032a0a6a-1fcd-4163-84ba-96961f8b62cc/kalamata-453000-126
 https://www.xe.gr/property/d/poliseis-katoikion/0332739a-b8a5-40f7-8f9a-32fa5b16ad6f/chalandri-katw-chalandri-325000-62
 https://www.xe.gr/property/d/poliseis-katoikion/037b19c4-da5c-4332-8d6a-8b0faf090478/agia-paraskeyh-paradeisos-880000-640
 https://www.xe.gr/property/d/poliseis-katoikion/039816be-b5b0-4d2a-841c-b87cd1d21a69/agios-dhmhtrios-attikhs-nekrotafeio-kallitheas-420000-100
@@ -31804,6 +32063,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/0ed74e87-9ab3-44b7-b15e-3591df35
 https://www.xe.gr/property/d/poliseis-katoikion/0ef75255-024e-457a-a4ec-905d86605b3f/nea-smyrnh-alsos-160000-54
 https://www.xe.gr/property/d/poliseis-katoikion/0f22b541-a3bf-47ea-90ed-79a47144a70f/maroysi-orio-vrilhssiwn-560000-117
 https://www.xe.gr/property/d/poliseis-katoikion/0f287adc-8ec7-45f5-bf7d-1b85b36f5468/paiania-520000-345
+https://www.xe.gr/property/d/poliseis-katoikion/0f30b0f7-ab43-4700-ac1d-4cbe34ce24ce/kiato-560000-124
 https://www.xe.gr/property/d/poliseis-katoikion/0f503485-8c30-4af8-80ac-c48b34728524/palaio-falhro-kopsacheila-285000-67
 https://www.xe.gr/property/d/poliseis-katoikion/0f515df9-da5f-4157-8dde-78d1c1eceadf/maroysi-neo-terma-220000-72
 https://www.xe.gr/property/d/poliseis-katoikion/0fac5553-2d6c-4419-be24-795524d35655/agios-stefanos-kentro-550000-300
@@ -31941,6 +32201,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/22d440ed-a760-4bd6-b081-184e0032
 https://www.xe.gr/property/d/poliseis-katoikion/230410c1-5be7-44c2-bb1b-cb8c1ecf43ee/athhna-profhths-hlias-225000-72
 https://www.xe.gr/property/d/poliseis-katoikion/23104a12-8e22-4a0d-801d-e59d3a2e8751/ormos-kardianhs-270000-55
 https://www.xe.gr/property/d/poliseis-katoikion/231f92fa-1ac7-4d6d-bc38-0a2709e07799/kallithea-charokopoy-200000-96
+https://www.xe.gr/property/d/poliseis-katoikion/23473a8f-1313-4823-9dfa-38bb1284a290/kalamata-253000-75
 https://www.xe.gr/property/d/poliseis-katoikion/235c5558-660d-4168-b20d-54ed4d0de654/korydallos-plateia-eleytherias-3000000-60
 https://www.xe.gr/property/d/poliseis-katoikion/239eee7d-1907-417d-898d-687069cee93a/hlioypolh-katw-hlioypolh-730000-175
 https://www.xe.gr/property/d/poliseis-katoikion/23cc93c8-4c4b-447c-80e6-e871e533d92e/leontario-leontari-kantza-720000-320
@@ -31953,6 +32214,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/2450d824-dc7e-4658-b0c1-e0195dab
 https://www.xe.gr/property/d/poliseis-katoikion/2481f9ab-81a5-4a1c-b66f-f0d4114eb5ec/gerakas-stayros-310000-76
 https://www.xe.gr/property/d/poliseis-katoikion/24d223fa-aa78-432c-9904-74f0f995b549/athhna-ilisia-550000-80
 https://www.xe.gr/property/d/poliseis-katoikion/252d5c43-4c73-4796-9b56-4e4b5a98d8e1/hlioypolh-katw-hlioypolh-165000-69
+https://www.xe.gr/property/d/poliseis-katoikion/2547965c-d3fd-4f01-b959-0ceebfb94a99/filotheh-1300000-250
 https://www.xe.gr/property/d/poliseis-katoikion/254e7d4f-d57a-4cf1-9341-e209d51b4b33/alimos-kythhriwn-pani-560000-92
 https://www.xe.gr/property/d/poliseis-katoikion/255533fa-0057-43c7-8035-56e218c3d2b3/agios-stefanos-kentro-285000-71
 https://www.xe.gr/property/d/poliseis-katoikion/257eb1ff-87ee-4cdb-95d3-e85ea12dec51/athhna-kypselh-95000-55
@@ -31974,6 +32236,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/27e0d957-048d-4542-98c6-f37d5b33
 https://www.xe.gr/property/d/poliseis-katoikion/28126b87-2d47-461c-b8fc-a56c579851cc/agios-khrykos-165000-107
 https://www.xe.gr/property/d/poliseis-katoikion/28839d16-2c9d-480f-9688-fc93147525cc/glyfada-kentro-550000-90
 https://www.xe.gr/property/d/poliseis-katoikion/289c1728-d2d1-4761-a376-a98baa96d35d/argyroypolh-kentro-575000-118
+https://www.xe.gr/property/d/poliseis-katoikion/28a94757-8dc6-4062-84ce-8b9c803e5d6b/dafnh-attikhs-oria-ymhttoy-305000-77
 https://www.xe.gr/property/d/poliseis-katoikion/28d7553d-5cbc-48c3-ac5b-f33a8769ef04/kallithea-charokopoy-205000-50
 https://www.xe.gr/property/d/poliseis-katoikion/28eda021-ffc4-4722-a5fa-7c5b0be4360a/dafnh-attikhs-oria-ymhttoy-300000-74
 https://www.xe.gr/property/d/poliseis-katoikion/29002dcf-1ac6-4884-bbbb-aca5377abe1d/glyfada-aixwnh-630000-104
@@ -31983,6 +32246,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/291f2323-3f97-4b52-8cc3-8b8e8d0f
 https://www.xe.gr/property/d/poliseis-katoikion/292d06d1-4c18-4b3f-a3cb-cb470ef9b209/athhna-neapolh-200000-61
 https://www.xe.gr/property/d/poliseis-katoikion/293a3348-ad0c-4741-bd40-ab8244c4534f/agios-iwannhs-renths-kentro-95000-56
 https://www.xe.gr/property/d/poliseis-katoikion/293b7e72-3fa0-47bc-9ad6-e4160013af9a/nea-pentelh-1500000-308
+https://www.xe.gr/property/d/poliseis-katoikion/2970c1ba-16d2-497f-aaf4-96a3d3e29544/nea-iwnia-195000-110
 https://www.xe.gr/property/d/poliseis-katoikion/29713efe-fe26-4f89-9aee-6aa13692c9e2/palaio-falhro-ghpeda-295000-97
 https://www.xe.gr/property/d/poliseis-katoikion/29883566-a9aa-41cf-aa10-504ff69f60a6/khfisia-kentro-875000-227
 https://www.xe.gr/property/d/poliseis-katoikion/29c6d5d5-de90-469f-8c05-064acb738d77/alimos-kalamaki-850000-200
@@ -32030,6 +32294,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/2e2a9874-3a62-4a45-9283-8104308f
 https://www.xe.gr/property/d/poliseis-katoikion/2e51b7e1-5f5c-4881-b5b8-5b9132760acf/athhna-plateia-papadiamanth-125000-30
 https://www.xe.gr/property/d/poliseis-katoikion/2e8ea158-5497-44d6-b16c-88ececa7c01f/glyfada-pyrnari-600000-88
 https://www.xe.gr/property/d/poliseis-katoikion/2e943add-713e-43ab-a43a-6afa6b3f93c0/nikaia-mhtropolh-150000-102
+https://www.xe.gr/property/d/poliseis-katoikion/2ea1885b-7455-4a7e-8ca9-b483155ce2cb/hrakleio-hpeirwtika-443700-93
 https://www.xe.gr/property/d/poliseis-katoikion/2ecca42e-f5d8-4ec5-b444-c788e1f9da1a/glyfada-kentro-500000-145
 https://www.xe.gr/property/d/poliseis-katoikion/2f06b8e4-7b23-4217-aa00-5798217f5834/vyrwnas-kareas-488000-144
 https://www.xe.gr/property/d/poliseis-katoikion/2f0fcd47-1b8a-4870-a809-5940b37530df/athhna-agios-pantelehmonas-137000-93
@@ -32166,6 +32431,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/4190445b-d6a0-4433-9657-6e1ac892
 https://www.xe.gr/property/d/poliseis-katoikion/41a591cd-d51f-4c95-9009-6a53fdd54265/gerakas-garghttos-i-295000-82
 https://www.xe.gr/property/d/poliseis-katoikion/41c270bd-fd04-4a3e-8194-3cfb88f1a985/voyla-dikhgorika-340000-74
 https://www.xe.gr/property/d/poliseis-katoikion/41f29b4d-9b80-4377-b98a-d3a487db0afb/peristeri-khpoypolh-178000-104
+https://www.xe.gr/property/d/poliseis-katoikion/42392a73-0c16-4a22-80cb-a8213d2cc3e2/chalandri-pathma-450000-106
 https://www.xe.gr/property/d/poliseis-katoikion/425ada6c-2ea7-44ee-8850-ce2ba92a71e6/athhna-kypselh-160000-72
 https://www.xe.gr/property/d/poliseis-katoikion/427aa71c-b05c-4224-901f-75962f810552/athhna-anw-kypselh-450000-215
 https://www.xe.gr/property/d/poliseis-katoikion/428d7b37-d17d-44ca-9051-aa0af3e769a8/palaio-falhro-kentro-340000-115
@@ -32275,6 +32541,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/4fc0ae5e-e04a-4b9d-8a39-03219be4
 https://www.xe.gr/property/d/poliseis-katoikion/4ff67802-a2ae-4383-b19b-8fb2c10d084c/athhna-agios-loykas-150000-67
 https://www.xe.gr/property/d/poliseis-katoikion/4ffd49ba-8ebf-4758-ba81-6268b73a59aa/athhna-nea-kypselh-180000-52
 https://www.xe.gr/property/d/poliseis-katoikion/5013fab9-39d0-4089-b590-3f46f6520263/elatiwn-565000-120
+https://www.xe.gr/property/d/poliseis-katoikion/5014f830-3d32-4e7a-9e4b-d975be80e557/kalamata-370000-103
 https://www.xe.gr/property/d/poliseis-katoikion/5021edcf-0288-4a18-bdf0-07eb574662c8/nea-erythraia-mortero-350000-170
 https://www.xe.gr/property/d/poliseis-katoikion/502ded75-5be9-435e-94be-e2ecd7a784ec/kiato-80000-70
 https://www.xe.gr/property/d/poliseis-katoikion/509c1d2b-01d1-464f-831d-06223cfbfa66/athhna-kypselh-189000-77
@@ -32385,6 +32652,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/5d540f54-7125-4465-ab7c-7930ab1a
 https://www.xe.gr/property/d/poliseis-katoikion/5d59fe5a-0f32-4cff-bc75-045590ecded3/chalandri-dhmarcheio-300000-114
 https://www.xe.gr/property/d/poliseis-katoikion/5dae5e65-a844-4101-b568-ca6a70311a38/anw-liosia-agios-iwannhs-theologos-80000-75
 https://www.xe.gr/property/d/poliseis-katoikion/5db3a245-96f9-4e73-9767-b2703dd698da/chalandri-metamorfwsh-500000-124
+https://www.xe.gr/property/d/poliseis-katoikion/5e0aafe7-17f4-4d4c-91ac-72317e69712b/cholargos-anw-cholargos-530000-99
 https://www.xe.gr/property/d/poliseis-katoikion/5e1f4b55-4c0e-4abb-bf72-777c6d4b96b1/ekalh-650000-260
 https://www.xe.gr/property/d/poliseis-katoikion/5e4384c6-c43e-4234-b67e-718339df38d6/moschato-250000-55
 https://www.xe.gr/property/d/poliseis-katoikion/5e61266a-46a4-4ad4-b424-7e25c4ee2538/athhna-plateia-viktwrias-425000-132
@@ -32447,6 +32715,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/6575f640-5121-4b23-aac2-6d7af05b
 https://www.xe.gr/property/d/poliseis-katoikion/65cd0ff0-b0e5-4984-aa41-4a4706357983/glyka-nera-plagia-ymhttoy-575000-163
 https://www.xe.gr/property/d/poliseis-katoikion/66430774-72cf-46bc-8e1b-7ec97ca543d5/palaio-falhro-kopsacheila-630000-120
 https://www.xe.gr/property/d/poliseis-katoikion/669cffbb-7c83-40a5-a148-c03e61ab7663/glyfada-terpsithea-615000-116
+https://www.xe.gr/property/d/poliseis-katoikion/66a7f423-46d5-41eb-a895-8cb00952a15e/glyfada-pyrnari-399000-57
 https://www.xe.gr/property/d/poliseis-katoikion/66b778dc-24d8-46c2-bb6c-61534047dc5b/athhna-plateia-viktwrias-135000-95
 https://www.xe.gr/property/d/poliseis-katoikion/66ed2aa2-1bac-4ca5-9414-bc9d08a1e4ba/athhna-ampelokhpoi-295000-87
 https://www.xe.gr/property/d/poliseis-katoikion/66ef4536-5734-47c8-b1c0-468c7ab0a988/palaio-falhro-agia-varvara-610000-133
@@ -32529,6 +32798,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/7181a613-ea7b-4ff2-a29d-0b824168
 https://www.xe.gr/property/d/poliseis-katoikion/719feefe-d4ec-46c8-8e02-3c8c1d02626f/argyroypolh-kentro-445000-103
 https://www.xe.gr/property/d/poliseis-katoikion/719ffd88-2c1b-45c2-bc54-4cdb9a18a1c9/anavyssos-380000-260
 https://www.xe.gr/property/d/poliseis-katoikion/7233a318-d23f-4060-b5de-4aeeaa120c8c/glyfada-anw-glyfada-480000-140
+https://www.xe.gr/property/d/poliseis-katoikion/72411a3c-72db-43a0-be84-b7f96f85eee8/kallithea-tzitzifies-180000-85
 https://www.xe.gr/property/d/poliseis-katoikion/72ac5572-552f-4314-a459-1c8913ecc483/neo-psychiko-agia-sofia-faros-240000-92
 https://www.xe.gr/property/d/poliseis-katoikion/7304863a-7ba0-411a-9232-9f2ec216fa71/athhna-pedion-arews-290000-85
 https://www.xe.gr/property/d/poliseis-katoikion/73219b45-5556-440f-9e08-2b3678a64f6f/athhna-anw-kypselh-195000-70
@@ -32647,6 +32917,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/83daad69-54c8-454f-886e-18fd543f
 https://www.xe.gr/property/d/poliseis-katoikion/83eb85c7-5705-404a-924a-46018c870807/ilion-michelh-120000-70
 https://www.xe.gr/property/d/poliseis-katoikion/84096130-b26a-494b-b211-bf15f0474c8c/krwpia-890000-203
 https://www.xe.gr/property/d/poliseis-katoikion/8413b865-cf22-4beb-8349-357cde62cc5a/rodopolh-550000-228
+https://www.xe.gr/property/d/poliseis-katoikion/8418c2b6-2f0e-4fac-bca4-7a5203d4aa02/glyfada-paniwnia-2450000-179
 https://www.xe.gr/property/d/poliseis-katoikion/841a7432-d6c1-4dec-a373-73606c06726d/athhna-agios-nikolaos-125000-81
 https://www.xe.gr/property/d/poliseis-katoikion/841b8992-fcf1-4898-bfe4-33193b57f758/zwgrafoy-kentro-200000-97
 https://www.xe.gr/property/d/poliseis-katoikion/84327518-1478-438f-8ab2-595117f4d231/agia-paraskeyh-stayros-350000-94
@@ -32893,6 +33164,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/a8d052ea-baf9-4a52-afd7-9abc6793
 https://www.xe.gr/property/d/poliseis-katoikion/a8d9196c-3eed-4c32-9b3a-4477c0f9182c/palaio-falhro-panagitsa-500000-101
 https://www.xe.gr/property/d/poliseis-katoikion/a8de4c83-b44a-473a-a95d-49a92f152bc7/athhna-lofos-strefh-500000-130
 https://www.xe.gr/property/d/poliseis-katoikion/a8e00f35-cc83-4e57-a4a3-0559f1152b97/dionysos-800000-263
+https://www.xe.gr/property/d/poliseis-katoikion/a902f2fc-616b-4cf7-a54f-ec42b33fafbb/glyfada-aixwnh-650000-104
 https://www.xe.gr/property/d/poliseis-katoikion/a9207995-ccb4-47d6-b116-495633a4d638/vrilhssia-kentro-770000-135
 https://www.xe.gr/property/d/poliseis-katoikion/a9330639-4e30-4074-982f-539b1f7d9522/anavyssos-280000-80
 https://www.xe.gr/property/d/poliseis-katoikion/a9541789-f9f1-4327-97a8-ec4943a51084/peiraias-ydraiika-110000-51
@@ -32927,6 +33199,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/ac35b0df-f799-4114-8de9-9fabceb1
 https://www.xe.gr/property/d/poliseis-katoikion/ac7c079d-c76a-4e90-a43c-3f0e12050b33/gerakas-garghttos-ii-600000-150
 https://www.xe.gr/property/d/poliseis-katoikion/ac7e4dcc-0de7-4520-bfc3-be94a528542a/argyroypolh-trachwnes-420000-70
 https://www.xe.gr/property/d/poliseis-katoikion/ac97640a-d2cf-46ff-a6aa-2dcc1da31c51/kallithea-charokopoy-118000-34
+https://www.xe.gr/property/d/poliseis-katoikion/acbc3f51-2b8d-487c-8b99-dc03fda7d3f9/athhna-lykavhttos-678000-115
 https://www.xe.gr/property/d/poliseis-katoikion/acedd80d-5b11-49be-849d-dfedd92250b2/athhna-koyntoyriwtika-235000-70
 https://www.xe.gr/property/d/poliseis-katoikion/acedd80d-5b11-49be-849d-dfedd92250b2/athhna-koyntoyriwtika-240000-70
 https://www.xe.gr/property/d/poliseis-katoikion/ad0af6d0-41ac-4532-84cf-d4833990e002/vyrwnas-192000-58
@@ -33048,6 +33321,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/bdbf2e91-01b4-4e7c-ab34-417ec001
 https://www.xe.gr/property/d/poliseis-katoikion/bdc7249e-e18f-43ae-8c32-6e86f5554ac4/hlioypolh-kanaria-310000-75
 https://www.xe.gr/property/d/poliseis-katoikion/bde755ab-131d-4b26-a2b8-2950358572a9/palaio-falhro-trokantero-370000-130
 https://www.xe.gr/property/d/poliseis-katoikion/be0e5df5-71f9-4e9f-8625-39db397fe3d5/kallithea-tzitzifies-230000-78
+https://www.xe.gr/property/d/poliseis-katoikion/be2ee70c-2800-48cd-836c-97049d88f439/agia-paraskeyh-stayros-310000-137
 https://www.xe.gr/property/d/poliseis-katoikion/be394563-d6d5-47a0-9152-cf79703c5d90/hrakleio-kentro-480000-116
 https://www.xe.gr/property/d/poliseis-katoikion/be3bb10e-0849-44c0-8c0b-c88f1be46edb/athhna-kolwnaki-920000-100
 https://www.xe.gr/property/d/poliseis-katoikion/be48dfdb-bac1-4533-b45b-f6ad9242d33e/pallhnh-kentro-1450000-595
@@ -33308,6 +33582,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/e2134a7b-e0d6-436a-8601-7fbc2736
 https://www.xe.gr/property/d/poliseis-katoikion/e21d7551-64d2-4c70-8b4d-1bcb09355691/nea-erythraia-kastritsa-1000000-300
 https://www.xe.gr/property/d/poliseis-katoikion/e289708d-375e-4341-9101-f92fbf4da3e2/thrakomakedones-1680000-500
 https://www.xe.gr/property/d/poliseis-katoikion/e28b527b-66c8-4d23-aebb-9b381d3d6ff2/petroypolh-michelh-205000-96
+https://www.xe.gr/property/d/poliseis-katoikion/e2d552a3-b554-478f-81c9-2a565d8f9744/vrilhssia-kentro-550000-294
 https://www.xe.gr/property/d/poliseis-katoikion/e2fdfc52-b0cd-4d5a-b644-9947bdc5f1e5/athhna-ampelokhpoi-170000-48
 https://www.xe.gr/property/d/poliseis-katoikion/e37911f3-25cc-46a1-97e1-56be4cc9af40/maroysi-orio-vrilhssiwn-500000-97
 https://www.xe.gr/property/d/poliseis-katoikion/e3843886-b283-4787-b58d-024e6e27698e/athhna-plateia-attikhs-115000-34
@@ -33417,6 +33692,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/f029be4d-bbf5-4370-aa11-ebf36f37
 https://www.xe.gr/property/d/poliseis-katoikion/f04059ed-2067-4de3-8780-4c0fc98816a6/keratsini-agios-gewrgios-155000-72
 https://www.xe.gr/property/d/poliseis-katoikion/f044a897-2c43-4034-8a6e-caa6e21e1f93/glyfada-kentro-394240-57
 https://www.xe.gr/property/d/poliseis-katoikion/f0582587-d2da-4011-8e9d-a1dcd8984ce3/athhna-nirvana-400000-326
+https://www.xe.gr/property/d/poliseis-katoikion/f0650e09-f13d-418c-a627-d4d83dfe6a45/cholargos-anw-cholargos-650000-130
 https://www.xe.gr/property/d/poliseis-katoikion/f1175196-4454-4c66-bcb0-de15824e2764/nea-erythraia-mortero-490000-271
 https://www.xe.gr/property/d/poliseis-katoikion/f17a5705-21f2-410d-bf6f-7966ef9ac1ed/agia-paraskeyh-nea-zwh-950000-191
 https://www.xe.gr/property/d/poliseis-katoikion/f19d73f2-6987-435e-a6f8-7f7bbb4c571e/apollwnas-390000-210
@@ -33505,6 +33781,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/fe1c12ac-720f-4d69-8be5-5af4d59b
 https://www.xe.gr/property/d/poliseis-katoikion/fe1fb4c3-324f-49ba-98c3-2c8e324ba103/gerakas-garghttos-i-520000-135
 https://www.xe.gr/property/d/poliseis-katoikion/fe7accbd-9a06-4e36-a7b4-b1d4bfbc4178/hrakleio-kentro-330000-97
 https://www.xe.gr/property/d/poliseis-katoikion/fe8c8d4d-a4d2-48db-8357-a30b0c3c8ed2/kallithea-lofos-filaretoy-165000-82
+https://www.xe.gr/property/d/poliseis-katoikion/fe96cfe4-7380-470b-aa90-78ebe5bcc6e1/glyfada-kentro-800000-102
 https://www.xe.gr/property/d/poliseis-katoikion/fec38b4a-f226-4081-a68e-6d268783335f/anavyssos-600000-200
 https://www.xe.gr/property/d/poliseis-katoikion/fed1a1e1-3309-4b6b-963d-bcd712138ad7/nea-makrh-360000-167
 https://www.xe.gr/property/d/poliseis-katoikion/fee34671-ccff-43c0-bac6-c02d385c504c/vrilhssia-kentro-440000-117
@@ -33612,6 +33889,7 @@ https://xronisrealestate.gr/property.php?id=2325
 https://xronisrealestate.gr/property.php?id=2326
 https://xronisrealestate.gr/property.php?id=2327
 https://xronisrealestate.gr/property.php?id=2328
+https://xronisrealestate.gr/property.php?id=2329
 https://xronisrealestate.gr/property.php?id=792
 https://xronisrealestate.gr/property.php?id=935
 https://yazbekrealestate.com/property/13078/
