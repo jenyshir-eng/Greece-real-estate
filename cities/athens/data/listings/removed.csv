@@ -328,3 +328,38 @@ date,source_domain,url,reason
 2026-10-12,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=802adcf8-bf6b-496d-aedb-d006cc7e0d08,redirects to https://bee-realestate.gr/errorPage
 2026-10-12,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-2-585/,sold / not available
 2026-10-12,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-3%ce%b1%cf%81%ce%b9-%cf%83%ce%b5-%cf%80%ce%bf%ce%bb%cf%85%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-id-%cf%804084/,http 404
+2026-10-12,remax.gr,https://www.remax.gr/property/310241-polisi-mezoneta-gkazi,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/310244-polisi-mezoneta-gkazi,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/310245-polisi-mezoneta-gkazi,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/393249-polisi-diamerisma-kentro,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/393702-polisi-katastima-attikh,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/403996-polisi-diamerisma-attikh,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/407593-polisi-epaggelmatiko-ktirio-botanikos,not on result pages
+2026-10-12,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-pallini-id-a4-3949,left the sitemap
+2026-10-12,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/fbd7a34a-513d-497b-84ac-a70de0e17509/argyroypolh-kentro-530000-230,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/10176cf0-5d6c-424b-8670-75ffa82a503f/khfisia-kentro-1300-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/310dff04-dfca-4f53-a3cf-d50b51141285/drosia-2500-190,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/60a9f97a-c152-4523-bcf0-b79aff289441/nea-erythraia-kentro-2500-96,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-12,planethomes.gr,https://www.planethomes.gr/akinito/42962-2/,http 404
+2026-10-12,grekodom.com,https://www.grekodom.com/realtyobject/22184-for-sale-maisonette-198-m2-in-attica,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15932,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15930,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15608,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15640,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15641,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15874,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15840,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15844,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15843,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15830,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15829,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15828,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15824,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15823,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15822,http 404
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/395237,sold / not available
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/409307,sold / not available
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/514902,sold / not available
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/540503,sold / not available
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/442564,sold / not available
+2026-10-12,neon-realestate.gr,https://neon-realestate.gr/property/2519367-diamerisma-pros-enoikiasi-neos-kosmos-97-t-m-e800/,http 404
