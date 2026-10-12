@@ -864,3 +864,12 @@ date,source_domain,url,reason
 2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/539096,sold / not available
 2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/459651,sold / not available
 2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/539527,sold / not available
+2026-10-12,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/5a4efa2f-45cb-4ae7-a908-bbc76538fcc1/sykies-190000-200,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-12,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/abe59363-0e93-41c9-b536-a5ad5e43cf82/epanomh-230000-12000,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-12,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/afb27e47-a178-4c84-afcc-e1dcaed686ab/hmerh-elia-640000-11011,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-12,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/057a4cdb-7058-4ea3-a924-fb62416e57d3/kassandreia-100000-35,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/18bad7f7-7950-480e-b09f-7948331f908e/kalamaria-660000-141,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-12,casanova.com.gr,https://casanova.com.gr/el/property/545044,http 404
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/35754,sold / not available
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/540503,sold / not available
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/442564,sold / not available
