@@ -363,3 +363,27 @@ date,source_domain,url,reason
 2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/540503,sold / not available
 2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/442564,sold / not available
 2026-10-12,neon-realestate.gr,https://neon-realestate.gr/property/2519367-diamerisma-pros-enoikiasi-neos-kosmos-97-t-m-e800/,http 404
+2026-10-12,remax.gr,https://www.remax.gr/property/402431-polisi-diamerisma-porto-rafth,not on result pages
+2026-10-12,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-lavrio-id-a4-9570,left the sitemap
+2026-10-12,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-duplex-apartment-for-sale-in-kallimarmaro-id-a4-13650,left the sitemap
+2026-10-12,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/seaview-apartment-for-sale-in-vouliagmeni-id-a4-11324,left the sitemap
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/6a38d4bd-18e6-40d4-a229-eea04cfdc679/khfisia-profhths-hlias-1290-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7c2a3a61-9d58-45f5-80a0-df2d96d5b46f/maroysi-kentro-3100-225,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/92eac28d-6072-48b9-aa64-575ab383b1ca/petroypolh-kentro-1100-137,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/b06bd6ce-f646-4a26-ac9e-aaf7466c4aa5/khfisia-kentro-2000-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-12,buy2greece.com,https://www.buy2greece.com/properties/2447824-apartment-for-sale-markopoulo-55-sq-m-105-000-2447824,http 404
+2026-10-12,infinityproperty.gr,https://www.infinityproperty.gr/property/for-rent-industrial-warehouse-rest-of-attica-aspropirgos-4300m%c2%b2-10000m%c2%b2-e25000/6178/,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15931,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15814,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15614,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15628,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15625,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15623,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15621,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15620,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15618,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15617,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15613,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15610,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15597,http 404
+2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15596,http 404
