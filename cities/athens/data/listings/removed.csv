@@ -387,3 +387,24 @@ date,source_domain,url,reason
 2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15610,http 404
 2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15597,http 404
 2026-10-12,tsrealestate.gr,https://tsrealestate.gr/el/property/15596,http 404
+2026-10-12,remax.gr,https://www.remax.gr/property/308977-polisi-epaggelmatiko-ktirio-kypselh,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/369933-polisi-monokatoikia-porto-rafth,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/383534-enoikiasi-diamerisma-a-nekrotafeio,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/387619-polisi-diamerisma-kolwnos-kolokynthoys,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/395699-enoikiasi-diamerisma-pyrgos-athhnwn,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/396336-polisi-diamerisma-eyelpidwn,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/399759-polisi-diamerisma-neos-kosmos,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/400739-enoikiasi-diamerisma-ellhnorwswn,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/406945-polisi-diamerisma-polygwno,not on result pages
+2026-10-12,remax.gr,https://www.remax.gr/property/407316-polisi-diamerisma-ampelokhpoi-pentagwno,not on result pages
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/de8d8693-9887-434e-97c9-4a5d56a166dc/khfisia-agia-kyriakh-1320-124,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/d9bb3a18-2dbd-4a50-851a-f44e6337e4a3/agios-iwannhs-1300-5000,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/033a5db8-6c1c-42ef-9095-afcd8c099a65/peristeri-nea-zwh-830-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/043ffdc9-c809-4a29-9ebd-f5d7cbfd9f2a/drosia-2150-220,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0cb21658-5e09-44a9-b66c-78bb87711a1f/voyla-anw-voyla-1700-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0e778ffb-cab5-4ad8-a4f1-35a3119ba0a6/nea-smyrnh-chrysakh-800-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0fdd2eaa-8639-48a5-ac4a-9d296587989e/agios-stefanos-kentro-1950-381,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/103410fd-9324-461c-ac66-33e1ff84e61c/spata-750-20,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/178b08d9-18f1-423d-9a15-6bafece16b9e/aigalew-anagennhsh-500-38,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/19caec37-99ec-474a-b741-e97f41463e94/athhna-agios-nikolaos-500-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-12,goldenhome.gr,https://goldenhome.gr/property/view/495908,sold / not available
