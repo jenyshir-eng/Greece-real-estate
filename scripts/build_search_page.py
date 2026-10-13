@@ -129,6 +129,9 @@ for members in groups.values():
                  "src": r.get("source_domain", ""), "pv": r.get("private_owner", ""),
                  "ags": sorted({m["agency"] for m in members}),
                  "srcs": sorted({m.get("source_domain", "") for m in members}),
+                 # bank (servicer REO) or auction; auction: date and round of the next e-auction
+                 "sg": "auction" if any(m.get("segment") == "auction" for m in members) else first("segment"),
+                 "ad": first("auction_date"), "rd": first("auction_round"),
                  # other sites with the same property: [name, url, price, checked, price history]
                  "alt": [[PORTAL_NAME.get(m.get("source_domain"), m["agency"]), m["url"], num(m, "price_eur"),
                           m.get("checked_at") or None, history(m["url"]), m.get("listing_date") or m.get("first_seen") or None]
@@ -149,6 +152,8 @@ centres = {a["id"]: a["centre"] for a in geo["areas_without_polygon"] if a.get("
 
 # networks collected as a whole; the agency registry names one office with the network's domain
 NETWORK_NAME = {"remax.gr": "RE/MAX (все офисы)", "ktimatoemporiki.gr": "Ktimatoemporiki"}
+# loan servicers' marketplaces (scripts/collect_servicers.py): bank-owned and auction properties
+SERVICER_NAME = {"altamiraproperties.gr": "Altamira (doValue): банк и аукционы", "intrum.gr": "Intrum: банковские объекты"}
 
 
 def sources():
@@ -162,10 +167,11 @@ def sources():
     out = []
     for d, n in sorted(count.items(), key=lambda kv: -kv[1]):
         rep = report.get(d, {})
-        kind = "portal" if d in PORTAL_NAME or d == "t.me" else ("network" if d in ("remax.gr", "ktimatoemporiki.gr") else "site")
+        kind = "portal" if d in PORTAL_NAME or d == "t.me" else ("network" if d in ("remax.gr", "ktimatoemporiki.gr")
+                                                                 else "servicer" if d in SERVICER_NAME else "site")
         # listings are in the base but the last pass of the site failed: still working, not broken
         status = ("partial" if n else "error") if rep.get("error") else "ok"
-        name = NETWORK_NAME.get(d) or PORTAL_NAME.get(d) or ("Telegram" if d == "t.me" else names.get(d, d))
+        name = NETWORK_NAME.get(d) or SERVICER_NAME.get(d) or PORTAL_NAME.get(d) or ("Telegram" if d == "t.me" else names.get(d, d))
         out.append([name, d, kind, n, status])
     for d, r in report.items():
         if d not in count:
@@ -179,8 +185,8 @@ def sources():
 
 
 DAY0 = datetime.date(2020, 1, 1)
-DICT = {"ag", "tx", "ty", "rg", "nb", "ar", "lk", "src", "pv", "gq"}
-DATES = {"ld", "fs", "ck", "sd"}
+DICT = {"ag", "tx", "ty", "rg", "nb", "ar", "lk", "src", "pv", "gq", "sg"}
+DATES = {"ld", "fs", "ck", "sd", "ad"}
 
 
 def pack(rows):

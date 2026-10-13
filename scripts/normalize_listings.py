@@ -22,6 +22,7 @@ IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by 
               "data/listings/listings_remax.csv",   # RE/MAX network result pages (scripts/collect_remax_listings.py)
               "data/listings/listings_xe_profiles.csv",  # XE listings from agency pages (scripts/collect_xe_profiles.py)
               "data/listings/listings_ktimatoemporiki.csv",  # Ktimatoemporiki network (scripts/collect_ktimatoemporiki.py)
+              "data/listings/listings_servicers.csv",  # bank (REO) and auction listings (scripts/collect_servicers.py)
               "data/listings/listings_alerts.csv",  # portal alert emails (scripts/ingest_portal_alerts.py)
               "data/listings/listings_telegram.csv"]  # public Telegram channels (scripts/collect_telegram.py)
 PORTALS = ("xe.gr", "remax.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")
@@ -321,6 +322,9 @@ def main():
             # last time the listing was read on its source with this price (empty: portals via alerts,
             # Telegram, and agency pages not re-read since the check began)
             "checked_at": r.get("checked_at", ""),
+            # bank = sold by a loan servicer (REO), auction = e-auction (price is the starting price)
+            "segment": r.get("segment", ""), "auction_date": r.get("auction_date", ""),
+            "auction_round": r.get("auction_round", ""),
         })
 
     fill_from_coordinates(out)
