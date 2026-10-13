@@ -431,3 +431,22 @@ date,source_domain,url,reason
 2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/540993,sold / not available
 2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/540157,sold / not available
 2026-10-13,neon-realestate.gr,https://neon-realestate.gr/property/2590529-diamerisma-pros-enoikiasi-kallithea-90-t-m-e800/,http 404
+2026-10-13,remax.gr,https://www.remax.gr/property/378360-polisi-grafeio-gkyzh-pedion-arews,not on result pages
+2026-10-13,remax.gr,https://www.remax.gr/property/391408-polisi-diamerisma-kentro,not on result pages
+2026-10-13,remax.gr,https://www.remax.gr/property/406431-polisi-diamerisma-eksarxeia-neapolh,not on result pages
+2026-10-13,remax.gr,https://www.remax.gr/property/407674-polisi-oikopedo-gia-katoikia-metaksoyrgeio,not on result pages
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3e006dcf-d8a6-4213-9a36-cc1caa915ce0/khfisia-kentro-1550-104,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3e8f223d-50ac-4852-ab6a-32940912e1ec/palaio-falhro-plateia-ntavarh-800-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3f08e6eb-398e-47ab-b7e6-75a8216136e8/egaleo-lioymh-450-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/48e6054c-cd38-4581-837d-ac297433d108/chaidari-koyneliwn-600-63,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4ad64875-7b23-4d45-9d29-c0c850da2b38/chalandri-anw-neo-chalandri-1100-88,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/653bf393-b793-48b1-a145-29117faa3fea/khfisia-kentro-2400-160,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/69fe1ef5-3485-4f39-9bb2-c56c44a5d7a4/aigalew-lioymh-700-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6b5045ea-c375-4981-ae0d-7965d365e31a/ymhttos-kentro-500-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,tsrealestate.gr,https://tsrealestate.gr/el/property/15882,http 404
+2026-10-13,realestateone.gr,https://realestateone.gr/el/property/1553259,redirects to https://realestateone.gr/el/404
+2026-10-13,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-2%ce%b1%cf%81%ce%b9-%cf%83%ce%b5-%cf%80%ce%bf%ce%bb%cf%85%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-id-%cf%804070/,http 404
+2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/505617,sold / not available
+2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/35754,sold / not available
+2026-10-13,horizonrealestate.gr,https://horizonrealestate.gr/buy/127-vouliagmeni-studio-42-tm,http 404
+2026-10-13,horizonrealestate.gr,https://horizonrealestate.gr/buy/145-praktoreio-opap,http 404
