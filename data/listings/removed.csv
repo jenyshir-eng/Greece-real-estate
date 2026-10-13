@@ -953,3 +953,14 @@ date,source_domain,url,reason
 2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/468281,sold / not available
 2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/419589,sold / not available
 2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/520811,sold / not available
+2026-10-13,remax.gr,https://www.remax.gr/property/377542-polisi-diamerisma-8ermh,not on result pages
+2026-10-13,remax.gr,https://www.remax.gr/property/403155-enoikiasi-diamerisma-agios-dhmhtrios,not on result pages
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/3f2eba4e-8783-4f06-a25f-e23719b1018c/peyka-485-98,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/54be99ea-fef2-43c3-8874-0c7a88e148d1/thessalonikh-dikasthria-2200-340,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/6e10a9ca-a3aa-4d51-af72-c5a75e6dd222/thessalonikh-falhro-500-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/6e19b013-f2a7-4a53-9347-c0003737d7ef/eleytherio-kordelio-500-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/70da5afe-274d-42f7-95fe-258ef78b40fc/thessalonikh-analhpsh-200-22,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-%ce%bd%ce%ad%ce%bf-%cf%80%ce%b1%ce%bd%cf%8c%cf%81%ce%b1%ce%bc%ce%b1-%ce%bd%cf%8c%ce%bc%ce%bf%cf%82-751-3-3149/,http 404
+2026-10-13,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-%ce%bd%ce%ad%ce%bf-%cf%80%ce%b1%ce%bd%cf%8c%cf%81%ce%b1%ce%bc%ce%b1-%ce%bd%cf%8c%ce%bc%ce%bf%cf%82-751-3-3149/,http 404
+2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/539293,sold / not available
+2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/514902,sold / not available
