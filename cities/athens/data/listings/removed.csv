@@ -467,3 +467,16 @@ date,source_domain,url,reason
 2026-10-13,tsrealestate.gr,https://tsrealestate.gr/el/property/15771,http 404
 2026-10-13,tsrealestate.gr,https://tsrealestate.gr/el/property/15766,http 404
 2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/468281,sold / not available
+2026-10-13,remax.gr,https://www.remax.gr/property/338165-polisi-diamerisma-porto-rafth,not on result pages
+2026-10-13,remax.gr,https://www.remax.gr/property/390665-polisi-monokatoikia-porto-rafth,not on result pages
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/a9364a58-8386-4378-af21-cb55e45efc0e/ekalh-950-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ac4e0d6f-8e0b-449b-9179-75eade3a382f/kallithea-agia-eleoysa-750-85,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/accace5b-6d7e-4c12-8df9-7dd224f148ea/aigalew-anagennhsh-870-82,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ad3c0dec-97a9-4f7f-9ce9-97c0565e2ed6/cholargos-fanerwmenh-1200-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ae2a6844-806f-48bb-8d34-4ce1bba83820/kallithea-charokopoy-750-95,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/afd00625-447e-44f1-a32c-ec38f5e785d7/agioi-anargyroi-analhpsh-950-158,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b36a41bb-feab-42e9-a271-c5486ba876e9/glyfada-kentro-700-48,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/bbdf0c03-4522-4ac7-88f9-0056ade4f948/athhna-kypselh-600-54,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/bf358ce4-a9d1-4e16-b614-2dc8fdebcdf9/khfisia-strofyli-3500-188,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c0c1a607-32d2-446b-a79e-e694a61d6401/athhna-kerameikos-480-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,realestateone.gr,https://realestateone.gr/el/property/1552410,redirects to https://realestateone.gr/el/404
