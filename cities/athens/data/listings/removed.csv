@@ -450,3 +450,20 @@ date,source_domain,url,reason
 2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/35754,sold / not available
 2026-10-13,horizonrealestate.gr,https://horizonrealestate.gr/buy/127-vouliagmeni-studio-42-tm,http 404
 2026-10-13,horizonrealestate.gr,https://horizonrealestate.gr/buy/145-praktoreio-opap,http 404
+2026-10-13,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/amerikis-square-apartment-for-sale-athens-id-a4-3400,left the sitemap
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/704580a4-4618-4e8c-bc51-7eea9607c004/alimos-kalamaki-1051-89,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/743bca58-732c-49da-90d2-317921979516/nea-smyrnh-kentro-470-32,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/86170561-9ddf-4a02-a6e4-8f7061ee5c3b/aigalew-ierapolh-580-25,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8de80e40-9eb6-4952-85f7-2179e7f087a9/glyfada-anw-glyfada-500-36,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/91734b9b-10b4-47ef-91ad-d7ceaa0add87/athhna-agios-artemios-900-104,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9405019a-6ba5-43c0-8c4f-c74a5c54dc29/peristeri-aspra-chwmata-700-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9c2e4dfd-6ff7-4e11-b392-c0929014f1e7/maroysi-neo-terma-1000-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9cd76d1f-c2f5-48da-81b5-ff42d67efc4d/athhna-pagkrati-950-105,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/a6c8fb47-486c-4914-8880-3696e04234ba/nea-smyrnh-kentro-1200-128,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/a91efa15-3c75-450a-9210-2894857f2bb7/kallithea-agia-eleoysa-550-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-13,tsrealestate.gr,https://tsrealestate.gr/el/property/15926,http 404
+2026-10-13,tsrealestate.gr,https://tsrealestate.gr/el/property/15914,http 404
+2026-10-13,tsrealestate.gr,https://tsrealestate.gr/el/property/15913,http 404
+2026-10-13,tsrealestate.gr,https://tsrealestate.gr/el/property/15771,http 404
+2026-10-13,tsrealestate.gr,https://tsrealestate.gr/el/property/15766,http 404
+2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/468281,sold / not available
