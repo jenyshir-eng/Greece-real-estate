@@ -153,7 +153,8 @@ centres = {a["id"]: a["centre"] for a in geo["areas_without_polygon"] if a.get("
 # networks collected as a whole; the agency registry names one office with the network's domain
 NETWORK_NAME = {"remax.gr": "RE/MAX (все офисы)", "ktimatoemporiki.gr": "Ktimatoemporiki"}
 # loan servicers' marketplaces (scripts/collect_servicers.py): bank-owned and auction properties
-SERVICER_NAME = {"altamiraproperties.gr": "Altamira (doValue): банк и аукционы", "intrum.gr": "Intrum: банковские объекты"}
+SERVICER_NAME = {"altamiraproperties.gr": "Altamira (doValue): банк и аукционы", "intrum.gr": "Intrum: банковские объекты",
+                 "reinvest.gr": "Cepal (reinvest.gr): банковские объекты", "reauction.gr": "REauction: аукционы"}
 
 
 def sources():

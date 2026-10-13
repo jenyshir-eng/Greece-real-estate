@@ -3,7 +3,7 @@
 #   1. new portal listings from the alert emails sheet (PORTAL_ALERTS_CSV_URL)
 #   1b. listing posts from public Telegram channels (data/sources/telegram_channels.csv)
 #   1c. agency networks with their own collectors: RE/MAX (all offices; map points for new listings), Ktimatoemporiki
-#   1c2. bank-owned (REO) and auction properties from the servicer marketplaces (Altamira/doValue, Intrum)
+#   1c2. bank-owned (REO) and auction properties from the servicer marketplaces (Altamira/doValue, Intrum, Cepal)
 #   1d. XE.gr listings of Thessaloniki agencies from their public agency pages
 #   2. new / changed listings on agency sites (incremental, polite: >= 3 s per site),
 #      plus a re-check of known listings on rotation (price, still online)

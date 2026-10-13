@@ -13,7 +13,9 @@ so a listing that left it is sold or withdrawn: it is dropped and written to
 data/listings/removed.csv. A servicer that suddenly returns far fewer listings than known is
 treated as broken and its known listings are kept unchanged.
 
-Segments: auction (commercialization auction, price = starting price) and bank (servicer sale).
+Cepal bank-owned properties on reinvest.gr and auctions on reauction.gr (scripts/servicers_eagents.py).
+
+Segments: auction (price = starting price) and bank (servicer sale).
 
 Usage: python3 scripts/collect_servicers.py
 Output: data/listings/listings_servicers.csv (columns of listings_thessaloniki.csv plus
@@ -32,6 +34,7 @@ import zoneinfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import city  # noqa: E402
+import servicers_eagents  # noqa: E402
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/128.0 Safari/537.36 SpitiRadar/0.1 (+https://spitiradar.gr/opt-out)")
@@ -61,17 +64,20 @@ ATHENS = zoneinfo.ZoneInfo("Europe/Athens")
 _last = [0.0]
 
 
-def fetch_json(url):
+def fetch_text(url, accept="text/html"):
     wait = DELAY_S - (time.time() - _last[0])
     if wait > 0:
         time.sleep(wait)
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json",
-                                               "Accept-Language": "el,en"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept, "Accept-Language": "el,en"})
     try:
         with urllib.request.urlopen(req, timeout=40) as r:
-            return json.load(r)
+            return r.read().decode("utf-8", "replace")
     finally:
         _last[0] = time.time()
+
+
+def fetch_json(url):
+    return json.loads(fetch_text(url, "application/json"))
 
 
 def search_url(api, commercialization, box, page):
@@ -158,11 +164,15 @@ def main():
     old = {}
     if os.path.exists(OUT):
         old = {r["url"]: r for r in csv.DictReader(open(OUT, encoding="utf-8"))}
+    # (source_domain, collector): every collector returns {url: row} or raises
+    sources = [(d, lambda d=d, n=n, a=a, s=s: collect(d, n, a, s, box, now)) for d, n, a, s in SERVICERS]
+    sources += [(site[0], lambda site=site: servicers_eagents.collect(site, box, now, fetch_text, fetch_json, city.in_unit))
+                for site in servicers_eagents.SITES]
     rows, gone, failed = {}, [], 0
-    for domain, name, api, site in SERVICERS:
+    for domain, run in sources:
         known = {u: r for u, r in old.items() if r["source_domain"] == domain}
         try:
-            got = collect(domain, name, api, site, box, now)
+            got = run()
         except (urllib.error.URLError, TimeoutError, ValueError) as e:
             print(f"{domain}: {getattr(e, 'code', '') or type(e).__name__} {e}; known listings kept", file=sys.stderr)
             rows.update(known)
@@ -193,7 +203,7 @@ def main():
                 w.writerow(["date", "source_domain", "url", "reason"])
             w.writerows([now[:10], r["source_domain"], r["url"], "left the servicer marketplace"] for r in gone)
     print(f"done: {len(rows)} servicer / auction listings, {len(gone)} removed", file=sys.stderr)
-    return 1 if failed == len(SERVICERS) else 0
+    return 1 if failed == len(sources) else 0
 
 
 if __name__ == "__main__":
