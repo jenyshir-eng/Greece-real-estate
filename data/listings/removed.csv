@@ -938,3 +938,18 @@ date,source_domain,url,reason
 2026-10-13,dovile.gr,https://dovile.gr/el/property/71546,http 404
 2026-10-13,katikia.com.gr,https://katikia.com.gr/el/property/2206,http 404
 2026-10-13,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%81%ce%bf%cf%84%cf%8c%ce%bd%cf%84%ce%b1-1-24503/,http 404
+2026-10-13,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/5ef2dac5-88ed-4376-9202-c9366b272188/panorama-500000-250,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/78efd671-af7a-416e-91cc-6ba3dbba0de4/agia-paraskeyh-200000-201,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/9424d9ea-c63f-48cb-a677-062a57f0ad5c/thessalonikh-anw-toympa-250000-91,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/986434cb-8144-4b3a-9b15-8367861807c9/thermh-1150000-450,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/f9dc4c92-84c1-4509-96a3-bac00a25e8d6/eyosmos-290000-141,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/05b26aa4-6b47-4a50-8f52-33a8a176e9de/kallithea-1950-650,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/05fb7ded-6138-4e89-a5ec-f0d439fd65f5/wraiokastro-17000-3700,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/0cca6af7-97a9-4a05-bb4a-c17c48005d8b/thessalonikh-xhrokrhnh-2200-636,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1946408a-cd5c-4617-b31d-be58cd6cfa91/thessalonikh-vardarh-499-168,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/195a1d30-72cd-4619-bf4e-03af46cdb66f/kalamaria-650-49,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/252005a8-1e55-49e8-ac87-b4fc15e09bf1/thessalonikh-analhpsh-650-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-13,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/11646,http 404
+2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/468281,sold / not available
+2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/419589,sold / not available
+2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/520811,sold / not available
