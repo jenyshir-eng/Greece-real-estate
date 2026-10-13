@@ -250,6 +250,9 @@ td.n{font-variant-numeric:tabular-nums;text-align:right;font-family:var(--mono);
       <label class="f" for="src">Источник
         <select id="src"><option value="">Все источники</option><option value="site">Сайты агентств и сети</option><option value="portal">Порталы и Telegram</option><option value="multi">На нескольких сайтах</option></select>
       </label>
+      <label class="f" for="seg">Банки и аукционы
+        <select id="seg"><option value="">Все объявления</option><option value="any">Только банковские и аукционы</option><option value="auction">Только аукционы</option><option value="bank">Только банковские (без аукционов)</option><option value="none">Без банковских и аукционов</option></select>
+      </label>
       <label class="chk" for="below"><input type="checkbox" id="below"> дешевле средней по району</label>
       <label class="chk" for="cheaper"><input type="checkbox" id="cheaper"> цена снижалась</label>
       <label class="f" for="agency">Агентство
@@ -330,11 +333,11 @@ const DATA = (raw => {
   const day = n => n==null ? null : new Date(D0 + n*864e5).toISOString().slice(0,10);
   const url = l => S[l[0]] + l[1];
   const hist = h => h ? h.map(([d,p]) => [day(d), p]) : null;
-  const STR = new Set(["ag","tx","ty","rg","nb","ar","lk","src","pv","gq"]);
+  const STR = new Set(["ag","tx","ty","rg","nb","ar","lk","src","pv","gq","sg"]);
   return raw.r.map(a => {
     const d = {};
     K.forEach((k,i) => { const v = a[i]; if (v==null) return;
-      d[k] = STR.has(k) ? S[v] : (k==="ld"||k==="fs"||k==="ck"||k==="sd") ? day(v) : k==="u" ? url(v) : k==="h" ? hist(v)
+      d[k] = STR.has(k) ? S[v] : (k==="ld"||k==="fs"||k==="ck"||k==="sd"||k==="ad") ? day(v) : k==="u" ? url(v) : k==="h" ? hist(v)
         : (k==="ags"||k==="srcs") ? v.map(x=>S[x]) : k==="alt" ? v.map(([n,l,p,c,h,sd]) => [S[n], url(l), p??null, day(c), hist(h), day(sd)]) : v; });
     d.ags ||= [d.ag]; d.srcs ||= [d.src];
     return d;
@@ -358,7 +361,7 @@ const MAP_URL = CITY.map_url;
   if (!CITY.has_map) document.getElementById("tab-map").hidden = true;
 })();
 const PORTAL_NAME = {"xe.gr":"XE.gr","spitogatos.gr":"Spitogatos","spiti24.gr":"Spiti24","tospitimou.gr":"Tospitimou","plot.gr":"Plot","indomio.gr":"Indomio","t.me":"Telegram"};
-const NETWORK = {"remax.gr":"RE/MAX","ktimatoemporiki.gr":"Ktimatoemporiki"};
+const NETWORK = {"remax.gr":"RE/MAX","ktimatoemporiki.gr":"Ktimatoemporiki","altamiraproperties.gr":"Altamira (doValue)","intrum.gr":"Intrum"};
 const AREA_RU = CITY.area_ru || {"Καλαμαριά":"Каламария","Πυλαία":"Пилея","Πανόραμα":"Панорама","Θέρμη":"Терми","Χορτιάτης":"Хортиатис",
   "Θερμαϊκός":"Термаикос","Νεάπολη-Συκιές":"Неаполи и Сикиес","Παύλος Μελάς":"Павлос Мелас",
   "Κορδελιό-Εύοσμος":"Корделио и Эвосмос","Αμπελόκηποι-Μενεμένη":"Амбелокипи и Менемени","Ωραιόκαστρο":"Ореокастро","Δέλτα":"Дельта",
@@ -442,10 +445,10 @@ let tx = "sale", types = new Set(["apartment"]), textQ = "", shown = 48;
 })();
 function syncTypes(){ document.querySelectorAll("#types button").forEach(b=>b.setAttribute("aria-pressed", types.has(b.dataset.ty))); }
 function syncTx(){ document.querySelectorAll(".seg [data-tx]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.tx===tx)); }
-const CTRL = ["region","area","pmin","pmax","amin","amax","bed","flmin","flmax","nofloor","fresh","undated","who","src","below","cheaper","agency","sort"];
+const CTRL = ["region","area","pmin","pmax","amin","amax","bed","flmin","flmax","nofloor","fresh","undated","who","src","seg","below","cheaper","agency","sort"];
 
 function current(){
-  const v = id => $(id).value, region=v("region"), area=v("area"), ag=v("agency"), who=v("who"), src=v("src"),
+  const v = id => $(id).value, region=v("region"), area=v("area"), ag=v("agency"), who=v("who"), src=v("src"), seg=v("seg"),
         pmin=+v("pmin")||0, pmax=+v("pmax")||Infinity, amin=+v("amin")||0, amax=+v("amax")||Infinity, bed=+v("bed")||0,
         flmin=v("flmin"), flmax=v("flmax"), nofloor=$("nofloor").checked, fresh=+v("fresh")||0, undated=$("undated").checked, below=$("below").checked, cheaper=$("cheaper").checked;
   const words = norm(textQ).split(/[\s,]+/).filter(w=>w.length>1).map(w=>w.slice(0, Math.max(3, w.length-2)));
@@ -456,6 +459,7 @@ function current(){
     ((flmin==="" && flmax==="") || (d.fn==null ? nofloor : (flmin===""||d.fn>=+flmin) && (flmax===""||+flmax===8||d.fn<=+flmax))) &&
     (!who || (who==="private" ? d.pv==="yes" : d.pv!=="yes")) &&
     (!src || (src==="multi" ? d._n>1 : (d.srcs||[d.src]).some(x => src==="site" ? !isPortal(x) : isPortal(x)))) &&
+    (!seg || (seg==="any" ? !!d.sg : seg==="none" ? !d.sg : d.sg===seg)) &&
     (!below || (d._vm!=null && d._vm<=-10)) && (!cheaper || (d._mv!=null && d._mv<0)) &&
     (!fresh || (d.ld ? ageDays(d.ld)<=fresh : undated)) &&
     ((pmin===0 && pmax===Infinity) || (d.p!=null && d.p>=pmin && d.p<=pmax)) &&
@@ -482,7 +486,7 @@ function parsePhrase(raw){
   const used = [], take = re => { const m = s.match(re); if(m){ s = s.replace(m[0], " "); } return m; };
   const set = (id, val) => { $(id).value = val; };
   // clear what a phrase controls, keep region and sort
-  ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","agency"].forEach(id=>set(id,"")); $("below").checked=false; $("cheaper").checked=false;
+  ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","seg","agency"].forEach(id=>set(id,"")); $("below").checked=false; $("cheaper").checked=false;
   if (take(/(?<![^\s,.;!?])(аренд[^\s,.;!?]*|снять|сним[^\s,.;!?]*|сда[^\s,.;!?]*|rent[^\s,.;!?]*|ενοικ[^\s,.;!?]*)/)) tx="rent";
   else if (take(/(?<![^\s,.;!?])(продаж[^\s,.;!?]*|прода[^\s,.;!?]*|купить|куплю|покупк[^\s,.;!?]*|sale|buy|πωλ[^\s,.;!?]*|αγορ[^\s,.;!?]*)/)) tx="sale";
   const found = new Set();
@@ -509,6 +513,9 @@ function parsePhrase(raw){
   if (take(/частн[^\s,.;!?]*|собственник[^\s,.;!?]*|без\s+(агент[^\s,.;!?]*|посредник[^\s,.;!?]*|комисс[^\s,.;!?]*)|private|ιδιωτ[^\s,.;!?]*/)) set("who","private");
   if (take(/дешевле\s+рынк[^\s,.;!?]*|ниже\s+рынк[^\s,.;!?]*|выгодн[^\s,.;!?]*|below\s+market|κατω\s+απο\s+την\s+αγορα/)) $("below").checked = true;
   if (take(/подешевел[^\s,.;!?]*|снижен[^\s,.;!?]*\s+цен[^\s,.;!?]*|снизил[^\s,.;!?]*\s+цен[^\s,.;!?]*|цена\s+снижена|price\s+drop[^\s,.;!?]*|μειωση\s+τιμησ/)) $("cheaper").checked = true;
+  const sg = take(/аукцион[^\s,.;!?]*|торг(и|ах|ам)(?![^\s,.;!?])|πλειστηριασμ[^\s,.;!?]*|auction[^\s,.;!?]*|(от|у)\s+банк[^\s,.;!?]*|банковск[^\s,.;!?]*|банк[аио]?(?![^\s,.;!?])|τραπεζ[^\s,.;!?]*|bank[^\s,.;!?]*|repossess[^\s,.;!?]*/);
+  // banks and auctions are re-read in full on every update, so an old listing date does not mean stale
+  if (sg) { set("seg", /аукц|торг|πλειστ|auction/.test(sg[0]) ? "auction" : "any"); set("fresh", ""); }
   if (take(/на\s+нескольк[^\s,.;!?]*\s+сайт[^\s,.;!?]*|несколько\s+источник[^\s,.;!?]*/)) set("src","multi");
   if (take(/за\s+(последн[^\s,.;!?]+\s+)?недел[^\s,.;!?]*|свеж[^\s,.;!?]*|нов[^\s,.;!?]*\s+объявлен[^\s,.;!?]*|this\s+week|new(?![^\s,.;!?])/)) set("fresh","7");
   else if (take(/за\s+(последн[^\s,.;!?]+\s+)?месяц[^\s,.;!?]*|this\s+month/)) set("fresh","30");
@@ -538,6 +545,7 @@ function understood(){
   if ($("flmin").value||$("flmax").value) add("этаж " + ($("flmin").value?"от "+floorRu(+$("flmin").value).replace("-й этаж",""):"") + ($("flmax").value?" до "+floorRu(+$("flmax").value).replace("-й этаж",""):""), () => { $("flmin").value=""; $("flmax").value=""; });
   if ($("who").value) add($("who").value==="private"?"Частники":"Агентства", () => $("who").value="");
   if ($("src").value) add({site:"Сайты агентств",portal:"Порталы",multi:"На нескольких сайтах"}[$("src").value], () => $("src").value="");
+  if ($("seg").value) add({any:"Банки и аукционы",auction:"Аукционы",bank:"Банковские",none:"Без банков и аукционов"}[$("seg").value], () => $("seg").value="");
   if ($("below").checked) add("Дешевле района", () => $("below").checked=false);
   if ($("cheaper").checked) add("Цена снижалась", () => $("cheaper").checked=false);
   if ($("fresh").value && $("fresh").value!=="90") add({"7":"За неделю","30":"За месяц","365":"За год"}[$("fresh").value], () => $("fresh").value="90");
@@ -558,6 +566,8 @@ function card(d){
   const badges = [];
   if (d.ld && ageDays(d.ld)<=7) badges.push(`<span class="bdg dark">Новое</span>`);
   if (d.pv==="yes") badges.push(`<span class="bdg">Частник</span>`);
+  if (d.sg==="auction") badges.push(`<span class="bdg warn">Аукцион${d.ad ? " · торги " + ruDate(d.ad) : ""}</span>`);
+  else if (d.sg==="bank") badges.push(`<span class="bdg warn">Банковский</span>`);
   if (d._n>1) badges.push(`<span class="bdg">На ${d._n} сайтах</span>`);
   else if ((d.srcs||[]).every(isPortal)) badges.push(`<span class="bdg">Только ${esc(PORTAL_NAME[d.src]||"портал")}</span>`);
   if (d._mv!=null && d._mv<0) badges.push(`<span class="bdg good">Цена ↓ ${String(Math.abs(d._mv)).replace(".",",")}%</span>`);
@@ -570,7 +580,7 @@ function card(d){
   const uniq = [...new Set(srcs)].slice(0,3);
   b.innerHTML = `<div class="band"><div class="badges">${badges.join("")}</div>
     <div class="place">${esc(place)}${sub?`<small>${esc(sub)}</small>`:""}</div>${gauge}</div>
-    <div class="body"><div class="row1"><span class="price">${d.p ? (d.px?"от ":"") + eur(d.p) + (d.tx==="rent"?"<small style='font-size:14px'>/мес</small>":"") : "по запросу"}</span>
+    <div class="body"><div class="row1"><span class="price">${d.p ? (d.sg==="auction"?"старт ":"") + (d.px?"от ":"") + eur(d.p) + (d.tx==="rent"?"<small style='font-size:14px'>/мес</small>":"") : "по запросу"}</span>
     <span class="ppm">${d.pm && d.tx==="sale" ? fmt(d.pm)+" €/м²" : ""}</span></div>
     <div class="spec">${esc(spec)}</div>
     <div class="src">${uniq.map(s=>`<span>${esc(s)}</span>`).join("")}${srcs.length>uniq.length?`<span>+${srcs.length-uniq.length}</span>`:""}</div>
@@ -620,10 +630,15 @@ function openSheet(d, from){
   const kv = [["Тип", TYPE_RU[d.ty]||"не указан"], ["Сделка", d.tx==="rent"?"аренда":d.tx==="sale"?"продажа":"—"], ["Площадь", d.m?fmt(d.m)+" м²":"—"],
     ["Этаж", d.fn!=null?floorRu(d.fn):"не указан"], ["Спален", d.bd||"—"], ["Год постройки", d.yr||"—"],
     ["Цена за м²", d.pm ? fmt(d.pm)+(d.tx==="rent"?" €/м² в мес.":" €/м²") : "—"], ["Продаёт", d.pv==="yes" ? "частный владелец" : (d.ags||[d.ag]).join(", ")]];
+  if (d.sg==="auction") kv.push(["Торги", d.ad ? ruDate(d.ad) : "дата не объявлена"], ["Раунд торгов", d.rd||"не указан"]);
+  if (d.sg==="bank") kv.push(["Продавец", "банк / сервисер проблемных кредитов"]);
+  const segNote = d.sg==="auction" ? "Аукцион: указана стартовая цена, а не рыночная. Объект может быть занят, иметь обременения, осмотр может быть невозможен; для участия нужна регистрация (ΑΦΜ, TAXISnet) до срока, указанного на сайте."
+    : d.sg==="bank" ? "Банковский объект (продаёт сервисер проблемных кредитов): цена часто ниже рынка, но возможны обременения, плохое состояние и долгие сроки сделки." : "";
   const s = $("sheet");
   s.innerHTML = `<header><div style="display:grid;gap:6px"><p class="eyebrow">${esc(place)}</p><h2 id="shTitle">${esc(TYPE_RU[d.ty]||"Объект")}${d.m?`, ${fmt(d.m)} м²`:""}</h2></div>
       <button class="close" type="button" id="shClose" aria-label="Закрыть">×</button></header>
     <div><div class="bigprice">${d.p?(d.px?"от ":"")+eur(d.p)+(d.tx==="rent"?" в месяц":""):"Цена по запросу"}</div>
+      ${segNote ? `<p class="cmp" style="color:var(--warn)">${segNote}</p>` : ""}
       <a class="btn openbtn" href="${esc(d.u)}" target="_blank" rel="noopener">Открыть объявление на ${esc(srcName(d))}${d._own && d._own!==d.p ? " · "+eur(d._own) : ""} ↗</a>
       ${vm!=null ? `<p class="cmp">${vm<0?"На "+Math.abs(vm)+"% дешевле":vm>0?"На "+vm+"% дороже":"Как"} средней цены за м² в районе «${esc(nbName(d.nb))}» (${fmt(d.tx==="sale"?a[3]:a[4])} €/м²${d.tx==="rent"?" в мес.":""}) по <a href="${MAP_URL}" target="_blank" rel="noopener">карте районов</a>.</p>` : ""}</div>
     <div class="panel"><h3>Оригиналы</h3>${origins.map(([n,u,p,c,h,sd]) => `<a class="orig" href="${esc(u)}" target="_blank" rel="noopener"><div><b>${esc(n)}</b><small>${p?eur(p)+(d.tx==="rent"?" в мес.":""):"цена не указана"}${h&&h.length>1?` · было ${eur(h[h.length-2][1])}`:""}</small><span class="meta">${ckText(c,u,sd)}</span></div><span>Открыть ↗</span></a>`).join("")}
@@ -711,7 +726,7 @@ document.querySelectorAll("[data-mtx]").forEach(b => b.addEventListener("click",
 
 /* ---------- sources ---------- */
 const STEP_RU = {alerts:"Письма порталов", telegram:"Telegram-каналы", remax:"RE/MAX", ktimatoemporiki:"Ktimatoemporiki",
-  agencies:"Сайты агентств (новые + перепроверка)", xe:"XE (страницы агентств)", normalize:"Обработка", districts:"Уточнение районов", normalize2:"Обработка (2)", group:"Склейка дублей"};
+  agencies:"Сайты агентств (новые + перепроверка)", servicers:"Банки и аукционы (Altamira, Intrum)", xe:"XE (страницы агентств)", normalize:"Обработка", districts:"Уточнение районов", normalize2:"Обработка (2)", group:"Склейка дублей"};
 function drawReport(){
   const r = REPORT, box = $("report"); if (!r) return;
   const t = r.totals, mins = s => s>=90 ? Math.round(s/60)+" мин" : s+" с";
@@ -731,16 +746,17 @@ function drawSources(){
   drawReport();
   const rows = SOURCES.rows, reg = SOURCES.registry;
   const sites = rows.filter(r=>r[2]==="site"), working = sites.filter(r=>(r[4]==="ok"||r[4]==="partial") && r[3]>0).length;
-  const portals = rows.filter(r=>r[2]==="portal"), nets = rows.filter(r=>r[2]==="network");
+  const portals = rows.filter(r=>r[2]==="portal"), nets = rows.filter(r=>r[2]==="network"), servicers = rows.filter(r=>r[2]==="servicer");
   const sum = a => a.reduce((n,r)=>n+r[3],0);
   $("tiles").innerHTML = [
     [working, "сайтов агентств отдают объявления", fmt(sum(sites))+" объявлений"],
     [nets.length, "сети агентств (RE/MAX, Ktimatoemporiki)", fmt(sum(nets))+" объявлений"],
     [portals.length, "порталов через письма-уведомления и Telegram", fmt(sum(portals))+" объявлений"],
+    [servicers.length, "площадки банков и аукционов (Altamira, Intrum)", fmt(sum(servicers))+" объявлений"],
     [reg.blocked||0, "сайтов закрыты защитой от ботов", "не обходим по правилам сбора"],
   ].map(([n,l,s]) => `<div class="tile"><b>${fmt(n)}</b><small>${l}</small><small>${s}</small></div>`).join("");
   $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств ${CITY.gen}: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio и Plot приходят через письма-уведомления: только новые объявления, с датой письма. XE — ещё и со страниц агентств на xe.gr: последние объявления каждого агентства ${CITY.gen}, с перепроверкой цены и наличия.`;
-  const kindRu = {site:"сайт агентства", network:"сеть агентств", portal:"портал"};
+  const kindRu = {site:"сайт агентства", network:"сеть агентств", portal:"портал", servicer:"банк / аукционы"};
   $("srcrows").innerHTML = rows.map(([name, dom, kind, n, st]) => `<tr><td>${esc(name)}<br><small style="color:var(--muted)">${esc(dom)}</small></td><td>${kindRu[kind]}</td><td class="n">${fmt(n)}</td>
     <td><span class="st ${kind==="portal"?"mail":st}">${kind==="portal" ? (dom==="t.me"?"публичные каналы":dom==="xe.gr"?"страницы агентств + письма":"письма-уведомления") : st==="ok" ? "работает" : st==="partial" ? "работает, последний сбор с ошибкой" : st==="empty" ? "нет объявлений" : "ошибка сбора"}</span></td></tr>`).join("");
 }
@@ -761,14 +777,15 @@ const EXAMPLES = CITY.examples || ["Квартира в Каламарии до 
 EXAMPLES.forEach(x => { const b=document.createElement("button"); b.type="button"; b.textContent=x; b.addEventListener("click", () => { $("ask").value=x; parsePhrase(x); }); $("examples").appendChild(b); });
 $("askForm").addEventListener("submit", e => { e.preventDefault(); parsePhrase($("ask").value); });
 document.querySelectorAll(".seg [data-tx]").forEach(b => b.addEventListener("click", () => { tx=b.dataset.tx; syncTx(); render(true); }));
+$("seg").addEventListener("input", () => { if (["any","auction","bank"].includes($("seg").value) && $("fresh").value==="90") $("fresh").value=""; });
 CTRL.forEach(id => $(id).addEventListener("input", () => render(true)));
 $("more").addEventListener("click", () => { shown += 48; render(false); });
 $("reset").addEventListener("click", () => {
-  ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","agency"].forEach(id=>$(id).value="");
+  ["area","pmin","pmax","amin","amax","bed","flmin","flmax","who","src","seg","agency"].forEach(id=>$(id).value="");
   $("region").value=CITY.key; $("fresh").value="90"; $("nofloor").checked=true; $("undated").checked=true; $("below").checked=false; $("cheaper").checked=false;
   tx="sale"; types=new Set(["apartment"]); textQ=""; $("ask").value=""; syncTx(); syncTypes(); render(true);
 });
-$("note").innerHTML = `Сбор с сайтов агентств ${CITY.gen}, сетей RE/MAX и Ktimatoemporiki, из писем-уведомлений порталов (Spitogatos, XE, Indomio, Plot, Spiti24, Tospitimou) и публичных Telegram-каналов. ${MAP_URL ? `Средние цены по районам — <a href="${MAP_URL}" target="_blank" rel="noopener">карта районов ${CITY.gen} Jeny Shir</a>. ` : ""}Цены и характеристики берутся со страниц источников; перед решением проверяйте оригинал.`;
+$("note").innerHTML = `Сбор с сайтов агентств ${CITY.gen}, сетей RE/MAX и Ktimatoemporiki, площадок банков и аукционов (Altamira/doValue, Intrum), из писем-уведомлений порталов (Spitogatos, XE, Indomio, Plot, Spiti24, Tospitimou) и публичных Telegram-каналов. ${MAP_URL ? `Средние цены по районам — <a href="${MAP_URL}" target="_blank" rel="noopener">карта районов ${CITY.gen} Jeny Shir</a>. ` : ""}Цены и характеристики берутся со страниц источников; перед решением проверяйте оригинал.`;
 render(true);
 const start = (location.hash||"").slice(1);
 if (["map","sources"].includes(start)) show(start);
