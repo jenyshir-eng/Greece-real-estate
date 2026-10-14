@@ -527,3 +527,37 @@ date,source_domain,url,reason
 2026-10-14,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-2-585/,http 404
 2026-10-14,grekodom.com,https://www.grekodom.com/realtyobject/28707-for-sale-land-13000-m2-in-athos-chalkid,http 404
 2026-10-14,grekodom.com,https://www.grekodom.com/realtyobject/31318-for-sale-land-2407-m2-in-chalkidiki,http 404
+2026-10-14,remax.gr,https://www.remax.gr/property/320474-polisi-katastima-gkazi,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/354620-polisi-diamerisma-neapolh-eksarxeiwn,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/371024-polisi-agrotemachio-anw-liosia,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/396219-enoikiasi-diamerisma-lewf-pathsiwn-lewf-axarnwn,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/399198-enoikiasi-diamerisma-moyseio,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/399759-polisi-diamerisma-neos-kosmos,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/406265-enoikiasi-diamerisma-eksarxeia-neapolh,not on result pages
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/5c04f644-ca69-4f15-9253-02b86b37a2ed/krwpia-4100000-7000,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/6c446be9-26ea-40bc-b0fd-67d66fa25a3f/khfisia-agia-kyriakh-270000-124,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/6ed7b491-cd1c-46d6-ba37-8c7b0203eb32/athhna-pedion-arews-370000-416,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7182bd01-6477-4d33-af01-281f46605b1d/khfisia-panorama-1200000-1200,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7859d144-bd34-4e21-a171-1585e3448936/kallithea-chrysakh-350000-236,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/88ee2218-7516-4d2b-91d1-55ef79e348e9/athhna-omonoia-600000-60,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/8bc39b9f-90bd-446c-9a0e-6d1a28e657f7/karelas-680000-3000,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b757afd4-0689-4cf6-9e8f-f6161d2917a5/peristeri-anthoypolh-620000-500,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/c3014bcb-e38c-4d39-8e6c-5d50b300a23f/nea-erythraia-kentro-170000-106,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/cb479fba-f23e-4f65-90f5-7b304bd4899b/khfisia-kentro-500000-39,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/f450821a-972d-431c-8112-9c67a7224c39/thessalonikh-kentro-600000-60,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/fd04726a-f90d-4a6d-b8da-c30e37da38c2/paiania-karelas-1420000-700,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/01a61fb6-1925-41bb-ae1e-6a7b6419aedd/ntrafi-95000-680,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/03269c5e-c591-4595-9c75-d1da03a0daa0/khfisia-agia-kyriakh-680000-1000,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,buy2greece.com,https://www.buy2greece.com/properties/2277381-plot-of-land-for-sale-gazi-1-145-sq-m-900-000-2505441,http 404
+2026-10-14,buy2greece.com,https://www.buy2greece.com/properties/2511795-plot-of-land-for-sale-kythnos-42-sq-m-40-000-2511795,http 404
+2026-10-14,buy2greece.com,https://www.buy2greece.com/properties/for-sale-land-plot-cyclades-milos-52-163-sq-m-700-000-1612808,http 404
+2026-10-14,buy2greece.com,https://www.buy2greece.com/properties/2391816-parcel-for-sale-keratea-2-473-sq-m-20-000-2391816,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15925,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15619,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15611,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15603,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15586,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15905,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15901,http 404
+2026-10-14,neon-realestate.gr,https://neon-realestate.gr/property/2523233-diamerisma-pros-enoikiasi-palaio-faliro-85-t-m-e830/,http 404
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/539865,sold / not available
