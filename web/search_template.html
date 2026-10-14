@@ -361,7 +361,7 @@ const MAP_URL = CITY.map_url;
   if (!CITY.has_map) document.getElementById("tab-map").hidden = true;
 })();
 const PORTAL_NAME = {"xe.gr":"XE.gr","spitogatos.gr":"Spitogatos","spiti24.gr":"Spiti24","tospitimou.gr":"Tospitimou","plot.gr":"Plot","indomio.gr":"Indomio","t.me":"Telegram"};
-const NETWORK = {"remax.gr":"RE/MAX","ktimatoemporiki.gr":"Ktimatoemporiki","altamiraproperties.gr":"Altamira (doValue)","intrum.gr":"Intrum"};
+const NETWORK = {"remax.gr":"RE/MAX","ktimatoemporiki.gr":"Ktimatoemporiki","altamiraproperties.gr":"Altamira (doValue)","intrum.gr":"Intrum","reinvest.gr":"Cepal","reauction.gr":"REauction"};
 const AREA_RU = CITY.area_ru || {"Καλαμαριά":"Каламария","Πυλαία":"Пилея","Πανόραμα":"Панорама","Θέρμη":"Терми","Χορτιάτης":"Хортиатис",
   "Θερμαϊκός":"Термаикос","Νεάπολη-Συκιές":"Неаполи и Сикиес","Παύλος Μελάς":"Павлос Мелас",
   "Κορδελιό-Εύοσμος":"Корделио и Эвосмос","Αμπελόκηποι-Μενεμένη":"Амбелокипи и Менемени","Ωραιόκαστρο":"Ореокастро","Δέλτα":"Дельта",
@@ -726,7 +726,7 @@ document.querySelectorAll("[data-mtx]").forEach(b => b.addEventListener("click",
 
 /* ---------- sources ---------- */
 const STEP_RU = {alerts:"Письма порталов", telegram:"Telegram-каналы", remax:"RE/MAX", ktimatoemporiki:"Ktimatoemporiki",
-  agencies:"Сайты агентств (новые + перепроверка)", servicers:"Банки и аукционы (Altamira, Intrum)", xe:"XE (страницы агентств)", normalize:"Обработка", districts:"Уточнение районов", normalize2:"Обработка (2)", group:"Склейка дублей"};
+  agencies:"Сайты агентств (новые + перепроверка)", servicers:"Банки и аукционы (Altamira, Intrum, Cepal, REauction)", xe:"XE (страницы агентств)", normalize:"Обработка", districts:"Уточнение районов", normalize2:"Обработка (2)", group:"Склейка дублей"};
 function drawReport(){
   const r = REPORT, box = $("report"); if (!r) return;
   const t = r.totals, mins = s => s>=90 ? Math.round(s/60)+" мин" : s+" с";
@@ -752,7 +752,7 @@ function drawSources(){
     [working, "сайтов агентств отдают объявления", fmt(sum(sites))+" объявлений"],
     [nets.length, "сети агентств (RE/MAX, Ktimatoemporiki)", fmt(sum(nets))+" объявлений"],
     [portals.length, "порталов через письма-уведомления и Telegram", fmt(sum(portals))+" объявлений"],
-    [servicers.length, "площадки банков и аукционов (Altamira, Intrum)", fmt(sum(servicers))+" объявлений"],
+    [servicers.length, "площадки банков и аукционов (Altamira, Intrum, Cepal, REauction)", fmt(sum(servicers))+" объявлений"],
     [reg.blocked||0, "сайтов закрыты защитой от ботов", "не обходим по правилам сбора"],
   ].map(([n,l,s]) => `<div class="tile"><b>${fmt(n)}</b><small>${l}</small><small>${s}</small></div>`).join("");
   $("srcnote").textContent = `В реестре ${fmt(SOURCES.agencies)} агентств ${CITY.gen}: у ${fmt(reg.no_site||0)} нет своего сайта, ${fmt(reg.unreachable||0)} сайтов не открываются, ${fmt(reg.blocked||0)} закрыты защитой от ботов. Их объекты попадают в поиск через порталы. Spitogatos, Spiti24, Tospitimou, Indomio и Plot приходят через письма-уведомления: только новые объявления, с датой письма. XE — ещё и со страниц агентств на xe.gr: последние объявления каждого агентства ${CITY.gen}, с перепроверкой цены и наличия.`;
@@ -785,7 +785,7 @@ $("reset").addEventListener("click", () => {
   $("region").value=CITY.key; $("fresh").value="90"; $("nofloor").checked=true; $("undated").checked=true; $("below").checked=false; $("cheaper").checked=false;
   tx="sale"; types=new Set(["apartment"]); textQ=""; $("ask").value=""; syncTx(); syncTypes(); render(true);
 });
-$("note").innerHTML = `Сбор с сайтов агентств ${CITY.gen}, сетей RE/MAX и Ktimatoemporiki, площадок банков и аукционов (Altamira/doValue, Intrum), из писем-уведомлений порталов (Spitogatos, XE, Indomio, Plot, Spiti24, Tospitimou) и публичных Telegram-каналов. ${MAP_URL ? `Средние цены по районам — <a href="${MAP_URL}" target="_blank" rel="noopener">карта районов ${CITY.gen} Jeny Shir</a>. ` : ""}Цены и характеристики берутся со страниц источников; перед решением проверяйте оригинал.`;
+$("note").innerHTML = `Сбор с сайтов агентств ${CITY.gen}, сетей RE/MAX и Ktimatoemporiki, площадок банков и аукционов (Altamira/doValue, Intrum, Cepal, REauction), из писем-уведомлений порталов (Spitogatos, XE, Indomio, Plot, Spiti24, Tospitimou) и публичных Telegram-каналов. ${MAP_URL ? `Средние цены по районам — <a href="${MAP_URL}" target="_blank" rel="noopener">карта районов ${CITY.gen} Jeny Shir</a>. ` : ""}Цены и характеристики берутся со страниц источников; перед решением проверяйте оригинал.`;
 render(true);
 const start = (location.hash||"").slice(1);
 if (["map","sources"].includes(start)) show(start);

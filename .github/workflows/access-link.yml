@@ -1,0 +1,34 @@
+# Time-limited links to the Spiti Radar sites, sent to the owner's Telegram chat.
+# Run: GitHub -> Actions -> Access link -> Run workflow (hours, label).
+# Repository secrets: ACCESS_SECRET (same value as in both Cloudflare Pages projects) and
+# TELEGRAM_BOT_TOKEN. The repository is public, so the link is never printed to the log.
+name: Access link
+on:
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: "How many hours the link works"
+        default: "24"
+      label:
+        description: "Who it is for (latin letters, digits, '-'; optional)"
+        default: ""
+permissions:
+  contents: read
+jobs:
+  link:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Send link to Telegram
+        env:
+          ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          HOURS: ${{ inputs.hours }}
+          LABEL: ${{ inputs.label }}
+        run: python3 scripts/make_access_link.py --hours "$HOURS" --label "$LABEL" --telegram
