@@ -561,3 +561,34 @@ date,source_domain,url,reason
 2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15901,http 404
 2026-10-14,neon-realestate.gr,https://neon-realestate.gr/property/2523233-diamerisma-pros-enoikiasi-palaio-faliro-85-t-m-e830/,http 404
 2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/539865,sold / not available
+2026-10-14,remax.gr,https://www.remax.gr/property/358584-polisi-diamerisma-osios-loykas,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/370604-polisi-epaggelmatiko-ktirio-kentro-athhna,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/376022-polisi-diamerisma-kolwnaki-lykabhttos,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/376368-polisi-diamerisma-makrygiannh,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/390557-polisi-diamerisma-panormoy,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/391551-polisi-gkarsoniera-studio-koykaki-makrygiannh,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/393467-polisi-diamerisma-agios-swsths,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/400966-polisi-diamerisma-plateia-amerikhs,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/404913-enoikiasi-diamerisma-gkyzh-pedion-arews,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/407229-enoikiasi-diamerisma-porto-rafth,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/407553-enoikiasi-diamerisma-anw-liosia,not on result pages
+2026-10-14,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-rent-in-kifisia-athens-id-a01-973,left the sitemap
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/204cfdf4-a38f-4093-b3f2-d6a815d63860/anavyssos-640000-2008,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/2803557c-f798-4350-9d17-24d6d508c5fb/maroysi-swros-500000-250,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/2fbdff00-9c98-4e17-938f-2a6f796b029e/psychiko-2600000-636,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/30cc08b2-c867-49c0-9bea-620ca3f56f75/glyka-nera-plagia-ymhttoy-110000-240,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/33922a82-0955-478f-b8c8-e9337003e24b/khfisia-politeia-1200000-837,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/34c44553-6a9a-49a7-9833-0dc926e9ac9d/gerakas-mpalana-260000-520,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/354abd4d-4015-46c7-8a48-84589d536e0a/zefyria-1100000-6800,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/779b4fd0-982d-4599-9bb9-6bd6e8f03307/galaxidi-2000000-22000,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/7b63d373-beab-4a09-8322-78a33e8a07b2/gerakas-mpalana-130000-260,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/8191d3f9-4dc6-4302-9128-05e5965c79f5/paiania-150000-507,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/840e49c0-552d-4d40-a92f-90074621184e/maroysi-ergatikes-polykatoikies-785000-915,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/84ac072d-b410-4aaa-baaf-9df0112f7408/ekalh-435000-860,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15909,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15903,http 404
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/539465,sold / not available
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/507380,sold / not available
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/331656,sold / not available
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/467487,sold / not available
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/467400,sold / not available
