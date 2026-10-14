@@ -498,3 +498,32 @@ date,source_domain,url,reason
 2026-10-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f36e2c81-7b83-4d19-afa9-358a00dca3f0/athhna-exarcheia-700-46,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
 2026-10-13,infinityproperty.gr,https://www.infinityproperty.gr/property/for-rent-industrial-industrial-space-rest-of-attica-mandra-1500m%c2%b2-4000m%c2%b2-e7000/5687/,http 404
 2026-10-13,goldenhome.gr,https://goldenhome.gr/property/view/253342,sold / not available
+2026-10-14,remax.gr,https://www.remax.gr/property/389666-enoikiasi-grafeio-plateia-klaythmwnos,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/404135-enoikiasi-parking-gkyzh-areios-pagos,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/406480-polisi-grafeio-neos-kosmos,not on result pages
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/fd811f9a-91d3-45e9-966d-f8c935339562/athhna-hpeiroy-550-82,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/03c40e42-f972-4824-92c0-40faf1529707/kamari-3700000-1020,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/1074e634-82cd-414c-82d5-d384b49fc466/athhna-kolwnaki-1580000-217,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/190839b4-b39e-40b2-a1b4-77db92823ce3/khfisia-kentro-2430000-255,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/195516e9-532b-4ee5-b139-2dc3f1be1c75/khfisia-kentro-430000-180,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2f09c0b2-875c-42a3-96d6-7969f1132c9d/glyka-nera-foyresi-135000-115,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/439768c3-fa2f-4684-98f4-1ceaf6028e3a/maroysi-kentro-650000-225,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/483902c3-53a6-4b73-a551-a32888adc5ae/peyka-40000-50,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/560a97b6-8b12-4c73-8c3f-01a6bff697f7/athhna-katw-petralwna-1300000-600,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-14,grecahouse.com,https://grecahouse.com/el/properties/11225-katastima-athina-kentro-kolonaki-lykavittos-kolonaki-150sqm,http 404
+2026-10-14,realestateone.gr,https://realestateone.gr/el/property/1552601,redirects to https://realestateone.gr/el/404
+2026-10-14,realestateone.gr,https://realestateone.gr/el/property/849861,redirects to https://realestateone.gr/el/404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/13165,http 404
+2026-10-14,tsrealestate.gr,https://tsrealestate.gr/el/property/15910,http 404
+2026-10-14,vmproperties.gr,https://vmproperties.gr/property/86-3709,http 404
+2026-10-14,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=0694ecdd-b0dc-4fd0-9cfc-207c99301708,redirects to https://bee-realestate.gr/errorPage
+2026-10-14,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=7042e272-fdb7-4cac-8163-42860447fee6,redirects to https://bee-realestate.gr/errorPage
+2026-10-14,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=144f7571-af27-4e91-bbb8-299d623c1d9a,redirects to https://bee-realestate.gr/errorPage
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/537059,sold / not available
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/178615,sold / not available
+2026-10-14,neon-realestate.gr,https://neon-realestate.gr/property/2600087-mezoneta-pros-polisi-kallipoli-freattyda-129-t-m-e245-000/,http 404
+2026-10-14,neon-realestate.gr,https://neon-realestate.gr/property/2603881-diamerisma-pros-polisi-kallipoli-freattyda-54-t-m-e125-000/,http 404
+2026-10-14,neon-realestate.gr,https://neon-realestate.gr/property/2542722-diamerisma-pros-enoikiasi-kallithea-78-t-m-e800/,http 404
+2026-10-14,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-2-585/,http 404
+2026-10-14,grekodom.com,https://www.grekodom.com/realtyobject/28707-for-sale-land-13000-m2-in-athos-chalkid,http 404
+2026-10-14,grekodom.com,https://www.grekodom.com/realtyobject/31318-for-sale-land-2407-m2-in-chalkidiki,http 404
