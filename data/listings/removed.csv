@@ -1092,3 +1092,75 @@ date,source_domain,url,reason
 2026-10-14,rewize.com,https://rewize.com/akinito/4924,sold / not available
 2026-10-14,rewize.com,https://rewize.com/akinito/4925,sold / not available
 2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/253342,sold / not available
+2026-10-14,remax.gr,https://www.remax.gr/property/395227-polisi-diamerisma-analhpsh,not on result pages
+2026-10-14,remax.gr,https://www.remax.gr/property/400876-enoikiasi-grafeio-kentro-8essalonikh,not on result pages
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/d5bcbfe6-7911-41bc-9b2d-e621b75ff566/pylaia-1450-240,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/db110ef1-872b-4e22-a281-96eeea8897a6/kalochwri-5000-1250,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/2b1b845c-fe3e-4ba5-960b-b7bd9655cf05/thessalonikh-600-3150,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/4bc8d316-97b4-401b-b702-d6c2d0ac43c7/nea-kallikrateia-417-20000,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/588974fc-11d6-4763-9cdb-bfdce4f7f26d/agios-athanasios-1500-9200,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/64e091bd-b883-49b8-a8eb-7335842a4cc0/thessalonikh-limani-2500-10970,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/7ee80f37-a525-489f-8a3d-9b2ffed6780b/lagkadas-1000-3000,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/9fc45dfc-23f0-44b3-842b-dd034b5d2a10/stayros-500-500,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/c2f6dbcb-8700-432d-ae74-08aa13fe6e94/eleytherio-kordelio-1300-1700,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/d6b36c13-ff7f-4bd9-9916-27fa0d6ea2bb/agia-paraskeyh-1500-10150,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/f5507b61-3755-46fd-ba78-aa708161b656/pentalofos-500-30000,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/00fcb544-0fba-4a71-8c55-ff3fd6c363ff/thessalonikh-anw-polh-500-33,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0966a199-55e2-46fd-95d5-9578f77046c1/thessalonikh-katw-toympa-450-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-14,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/11431c41-25a6-47b4-839d-24962aac09ba/agios-paylos-agios-paylos-620-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-14,four-walls.gr,https://four-walls.gr/properties/2400018,http 404
+2026-10-14,four-walls.gr,https://four-walls.gr/en/properties/2400018,http 404
+2026-10-14,mandraouhome.gr,https://www.mandraouhome.gr/portfolio-item/studio-%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-50%cf%84-%ce%bc-%ce%bd%ce%ad%ce%bf%ce%b9-%ce%b5%cf%80%ce%b9%ce%b2%ce%ac%cf%84%ce%b5%cf%82-e400/,http 404
+2026-10-14,mandraouhome.gr,https://www.mandraouhome.gr/portfolio-item/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-100%cf%84-%ce%bc-%ce%bd%ce%ad%ce%bf%ce%b9-%ce%b5%cf%80%ce%b9%ce%b2%ce%ac%cf%84%ce%b5%cf%82-e600/,http 404
+2026-10-14,mandraouhome.gr,https://www.mandraouhome.gr/portfolio-item/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-80%cf%84-%ce%bc-%ce%bd%ce%ad%ce%bf%ce%b9-%ce%b5%cf%80%ce%b9%ce%b2%ce%ac%cf%84%ce%b5%cf%82-e500/,http 404
+2026-10-14,mandraouhome.gr,https://www.mandraouhome.gr/portfolio-item/%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-230%cf%84-%ce%bc-%ce%bd%ce%ad%ce%bf%ce%b9-%ce%b5%cf%80%ce%b9%ce%b2%ce%ac%cf%84%ce%b5%cf%82-e1-300/,http 404
+2026-10-14,monopoly.com.gr,https://monopoly.com.gr/el/property/92982,http 404
+2026-10-14,politia.gr,https://politia.gr/el/property/71969,http 404
+2026-10-14,politia.gr,https://politia.gr/el/property/71945,http 404
+2026-10-14,aki-nito.gr,https://aki-nito.gr/el/property/4607,http 404
+2026-10-14,aki-nito.gr,https://aki-nito.gr/el/property/5018,http 404
+2026-10-14,rewize.com,https://rewize.com/akinito/4948,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4949,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4835,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4837,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4840,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4851,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4951,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4955,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4883,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/5510,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4899,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4950,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4863,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4974,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/5377,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/5358,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/5347,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/5340,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/5319,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/5228,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/5188,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4880,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4919,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4940,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4945,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4927,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4953,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4957,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4961,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4962,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4963,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4964,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4966,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4808,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4864,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4980,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4981,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4982,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4986,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4856,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4944,sold / not available
+2026-10-14,rewize.com,https://rewize.com/akinito/4806,sold / not available
+2026-10-14,rewize.com,https://rewize.com/en/property/2874,sold / not available
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/537059,sold / not available
+2026-10-14,goldenhome.gr,https://goldenhome.gr/property/view/535052,sold / not available
