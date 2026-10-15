@@ -639,3 +639,39 @@ date,source_domain,url,reason
 2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/432567,sold / not available
 2026-10-15,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-583/,sold / not available
 2026-10-15,grekodom.com,https://www.grekodom.com/realtyobject/22370-for-sale-land-10500-m2-in-kassandra-cha,http 404
+2026-10-15,remax.gr,https://www.remax.gr/property/358134-polisi-oikopedo-gia-katoikia-zefyri,not on result pages
+2026-10-15,remax.gr,https://www.remax.gr/property/389984-polisi-xenodocheio-attikh,not on result pages
+2026-10-15,remax.gr,https://www.remax.gr/property/398108-polisi-diamerisma-plateia-amerikhs,not on result pages
+2026-10-15,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/kallithea-apartment-for-rent-in-athens-id-a01-981,left the sitemap
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/2bf68649-1119-496f-959f-0c220363e0c6/voyliagmenh-kavoyri-1330000-226,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/319188c2-c938-4191-ad9b-7c766a3ceda6/drosia-195000-55,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/379bf3fd-c74f-4fe7-aab0-b458e994afd5/aigalew-estayrwmenos-70000-50,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/3e55ac47-cdde-40b6-aca7-f58af5a5fa8b/gerakas-mpalana-395000-110,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2340924-apartment-for-sale-vironas-78-sq-m-175-000-2340924,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2388611-apartment-for-sale-chalandri-80-sq-m-190-000-2388611,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2380419-office-for-sale-chalandri-70-sq-m-180-000-2380419,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2375446-parking-for-sale-zografou-155-sq-m-140-000-2375446,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2323418-plot-of-land-for-sale-kythira-11-490-sq-m-30-000-2323418,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2390124-apartment-for-rent-chalandri-80-sq-m-1-000-2390124,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2385129-apartment-for-sale-vironas-70-sq-m-100-000-2385129,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2386586-residential-building-for-sale-argyroupoli-333-sq-m-520-000-2386586,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2356836-business-for-sale-koridallos-50-sq-m-55-000-2356836,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2352828-apartment-for-sale-goudi-52-sq-m-210-000-2352828,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2375250-apartment-for-sale-zografou-89-sq-m-260-000-2375250,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1615009-parcel-for-sale-chios-244-sq-m-23-000-2345534,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1944755-apartment-for-sale-kaisariani-52-sq-m-175-000-2349547,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2380457-apartment-for-sale-chalandri-80-sq-m-250-000-2380457,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1615052-plot-of-land-for-sale-chios-399-sq-m-42-000-2345536,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1813125-warehouse-for-sale-galatsi-90-sq-m-22-000-2340988,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1725509-shop-for-sale-exarchia-neapoli-175-sq-m-150-000-2340981,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2294263-commercial-office-building-for-sale-ilioupoli-623-sq-m-1-500-000-2340962,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2283983-studio-for-sale-kallithea-44-sq-m-117-000-2340938,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1612023-plot-of-land-for-sale-thasos-278-38-sq-m-35-000-2311709,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1608531-villa-for-sale-varnavas-312-sq-m-320-000-1608531,http 404
+2026-10-15,tsrealestate.gr,https://tsrealestate.gr/el/property/15883,http 404
+2026-10-15,tsrealestate.gr,https://tsrealestate.gr/el/property/15646,http 404
+2026-10-15,tsrealestate.gr,https://tsrealestate.gr/el/property/15666,http 404
+2026-10-15,vmproperties.gr,https://vmproperties.gr/property/87-3861,http 404
+2026-10-15,neon-realestate.gr,https://neon-realestate.gr/property/2600087-mezoneta-pros-polisi-kallipoli-freattyda-129-t-m-e250-000/,http 404
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/490703,sold / not available
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/521807,sold / not available
