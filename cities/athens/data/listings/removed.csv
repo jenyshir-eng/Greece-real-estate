@@ -696,3 +696,13 @@ date,source_domain,url,reason
 2026-10-15,bluecollection.villas,https://www.bluecollection.villas/properties/mykonos-villas-ref-180412495-code-gld-9/,http 404
 2026-10-15,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%ba%ce%b1%cf%84%ce%ac%cf%83%cf%84%ce%b7%ce%bc%ce%b1-id-%cf%803888/,http 404
 2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/528514,sold / not available
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/61263f9e-21ad-47b2-b488-06a8a846ed53/kallithea-kentro-265000-82,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/623d40f3-d34b-4940-aeae-7575655dc10b/palaio-falhro-nekrotafeia-150000-52,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/626377a2-9e74-42fe-a4a9-411f43744fff/agios-dhmhtrios-attikhs-ethnikhs-antistasews-240000-97,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/68d25deb-9eea-4f0f-a05f-ebce665c4344/athhna-ippokrateio-780000-168,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/411596,sold / not available
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/522588,sold / not available
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/522446,sold / not available
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/355161,sold / not available
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/517161,sold / not available
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/540451,sold / not available
