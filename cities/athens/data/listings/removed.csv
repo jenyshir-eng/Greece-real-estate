@@ -675,3 +675,24 @@ date,source_domain,url,reason
 2026-10-15,neon-realestate.gr,https://neon-realestate.gr/property/2600087-mezoneta-pros-polisi-kallipoli-freattyda-129-t-m-e250-000/,http 404
 2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/490703,sold / not available
 2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/521807,sold / not available
+2026-10-15,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/maisonette-for-sale-in-athens-id-a4-10936,left the sitemap
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/415ce14f-0b2d-4224-844f-efdcfd05f6fa/zwgrafoy-kentro-120000-63,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/437b833e-dfb4-44f9-93d9-479c011b76fc/athhna-kypselh-250000-105,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/44de1f04-39c1-46eb-a931-72ba5d05b9c3/drosia-630000-218,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/4b8bdab3-7786-4a32-95ea-f1504d848fbd/anoixh-kentro-490000-390,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/4ce0b82f-da3a-46e3-820b-d73788d64b41/kallithea-tzitzifies-875000-150,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/50d09a19-7ad6-4e97-b782-0906e1a90b0b/khfisia-nea-khfisia-750000-290,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/561e041b-1d4e-4a71-9d1c-2e5ba03dc123/drosia-525000-125,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/5a886804-11a6-4de8-b9c6-1bb6635f49b3/athhna-plateia-viktwrias-120000-71,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1612212-plot-of-land-for-sale-geropotamos-16-658-47-sq-m-475-000-2329404,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1611853-plot-of-land-for-sale-menemeni-1-238-sq-m-590-000-2329389,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2340507-detached-house-for-sale-dafnouses-100-sq-m-62-000-2340507,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1614625-detached-house-for-sale-kalamos-320-sq-m-395-000-2340620,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2034642-shop-for-sale-kallithea-230-sq-m-155-000-2340855,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/2132535-apartment-for-sale-patision-acharnon-113-sq-m-148-000-2340899,http 404
+2026-10-15,buy2greece.com,https://www.buy2greece.com/properties/1613176-parcel-for-sale-karpathos-8-200-sq-m-45-000-2347943,http 404
+2026-10-15,tsrealestate.gr,https://tsrealestate.gr/el/property/15877,http 404
+2026-10-15,tsrealestate.gr,https://tsrealestate.gr/el/property/15955,http 404
+2026-10-15,bluecollection.villas,https://www.bluecollection.villas/properties/mykonos-villas-ref-180412495-code-gld-9/,http 404
+2026-10-15,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%ba%ce%b1%cf%84%ce%ac%cf%83%cf%84%ce%b7%ce%bc%ce%b1-id-%cf%803888/,http 404
+2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/528514,sold / not available
