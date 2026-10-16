@@ -730,3 +730,17 @@ date,source_domain,url,reason
 2026-10-16,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-570/,sold / not available
 2026-10-16,terra-greca.gr,https://terra-greca.gr/akinita/2392525-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%ac%ce%b3%ce%b9%ce%bf%cf%82-%ce%b4%ce%b7%ce%bc%ce%ae%cf%84/,http 404
 2026-10-16,terra-greca.gr,https://terra-greca.gr/akinita/2440786-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%ac%ce%b3%ce%b9%ce%bf%cf%82-%ce%b4%ce%b7%ce%bc%ce%ae%cf%84/,http 404
+2026-10-16,remax.gr,https://www.remax.gr/property/322881-polisi-diamerisma-kolwnaki,not on result pages
+2026-10-16,remax.gr,https://www.remax.gr/property/371056-polisi-diamerisma-kentro-pagkratioy,not on result pages
+2026-10-16,remax.gr,https://www.remax.gr/property/371538-enoikiasi-grafeio-kolwnaki,not on result pages
+2026-10-16,remax.gr,https://www.remax.gr/property/386001-enoikiasi-grafeio-kolwnaki,not on result pages
+2026-10-16,remax.gr,https://www.remax.gr/property/392069-polisi-grafeio-ilisia,not on result pages
+2026-10-16,remax.gr,https://www.remax.gr/property/392070-polisi-diamerisma-ilisia,not on result pages
+2026-10-16,remax.gr,https://www.remax.gr/property/406190-polisi-diamerisma-katw-petralwna,not on result pages
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/9f427226-0148-45ea-8025-8a680992595c/peiraias-kastela-profhths-hlias-830000-387,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/abc00729-caa2-4763-a420-0cf842d11ad8/ekalh-600000-341,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,buy2greece.com,https://www.buy2greece.com/properties/1987646-apartment-for-rent-zografou-42-sq-m-380-1987646,http 404
+2026-10-16,tsrealestate.gr,https://tsrealestate.gr/el/property/15778,http 404
+2026-10-16,dedesrealestate.gr,https://dedesrealestates.gr/akinito/monokatoikia-110t-m-enoikiasi-799e/,http 404
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/540962,sold / not available
+2026-10-16,grekodom.com,https://www.grekodom.com/realtyobject/20539-for-sale-building-737-m2-in-athens,http 404
