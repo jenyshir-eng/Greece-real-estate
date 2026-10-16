@@ -1528,3 +1528,43 @@ date,source_domain,url,reason
 2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/516723,sold / not available
 2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/516724,sold / not available
 2026-10-15,goldenhome.gr,https://goldenhome.gr/property/view/540451,sold / not available
+2026-10-16,remax.gr,https://www.remax.gr/property/384276-polisi-diamerisma-anw-polh,not on result pages
+2026-10-16,remax.gr,https://www.remax.gr/property/391324-polisi-biomichaniko-biotechniko-analhpsh,not on result pages
+2026-10-16,remax.gr,https://www.remax.gr/property/408037-enoikiasi-gkarsoniera-studio-rotonta,not on result pages
+2026-10-16,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/fb81e445-a3d4-4b08-a9ba-061923a7c464/thessalonikh-anw-polh-260-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/109c074b-3435-4ef6-aa2d-43bda97a72a7/menemenh-9500-165,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/25228ec7-081c-4531-85f5-e047d9708b2b/eyosmos-100000-146,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/2d773938-cc63-472b-ac68-24ee85479d47/iwnia-thessalonikhs-260000-400,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/3fedad37-9b0b-4f6a-9d48-7de6925dd6db/thessalonikh-xhrokrhnh-43000-40,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/612bc0d1-821f-4e64-ba22-fc2dc442e9c4/sindos-800000-750,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/6e2b2bff-6ec9-4e6c-9415-dffa440315ac/thessalonikh-kentro-85000-34,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/70dc6824-4788-4948-93ec-264bf188c495/palaiokastro-700000-2204,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/79330006-dfc4-4a22-a79c-e4798e24aec4/kalandra-1800000-650,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/8c0d1ca8-7ca1-4d41-8512-25d44beb130d/thessalonikh-vardarh-119999-90,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/ce7894eb-0b90-495d-978d-a97cc8e010f6/thessalonikh-vardarh-174999-168,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-16,greekexclusiveproperties.com,https://www.greekexclusiveproperties.com/property/hotel-for-sale-caldera-santorini-with-21-rooms-can-be-sold-either-25-49-100-of-the-hotel,sold / not available
+2026-10-16,kosmopolishouse.gr,https://kosmopolishouse.gr/akinita/gkarsoniera-023,http 404
+2026-10-16,kosmopolishouse.gr,https://kosmopolishouse.gr/akinita/diamerisma-130,http 404
+2026-10-16,monopoly.com.gr,https://monopoly.com.gr/el/property/84810,http 404
+2026-10-16,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/11899,http 404
+2026-10-16,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/11898,http 404
+2026-10-16,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123264,http 404
+2026-10-16,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123237,http 404
+2026-10-16,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123228,http 404
+2026-10-16,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123165,http 404
+2026-10-16,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123135,http 404
+2026-10-16,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123062,http 404
+2026-10-16,rewize.com,https://rewize.com/akinito/7564,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/6129,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/6130,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/6152,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/5240,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/5533,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/5528,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/5531,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/5532,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/5534,sold / not available
+2026-10-16,rewize.com,https://rewize.com/en/property/2437,sold / not available
+2026-10-16,rewize.com,https://rewize.com/akinito/2437,sold / not available
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/539519,sold / not available
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/540703,sold / not available
