@@ -744,3 +744,44 @@ date,source_domain,url,reason
 2026-10-16,dedesrealestate.gr,https://dedesrealestates.gr/akinito/monokatoikia-110t-m-enoikiasi-799e/,http 404
 2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/540962,sold / not available
 2026-10-16,grekodom.com,https://www.grekodom.com/realtyobject/20539-for-sale-building-737-m2-in-athens,http 404
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/acropolis-view-apartment-for-sale-in-athens-id-a4-13300,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-id-a4-12886,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-neos-kosmos-id-a4-13267,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-gazi-athens-id-a4-12879,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-neos-kosmos-athens-id-a4-13252,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-apartment-for-sale-in-gazi-id-a4-12881,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-apartment-for-sale-in-neos-kosmos-id-a4-13048,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-furnished-apartment-for-sale-in-neos-kosmos-id-a4-13298,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-maisonette-for-sale-in-neos-kosmos-id-a4-13248,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-neos-kosmos-apartment-for-long-term-rent-id-a01-1042,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-one-bedroom-apartment-for-sale-id-a4-12876,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/fully-furnished-apartment-for-sale-in-neos-kosmos-athens-id-a4-13253,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/furnished-apartment-for-sale-in-neos-kosmos-athens-id-a4-13295,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/furnished-maisonette-for-sale-in-neos-kosmos-athens-id-a4-13249,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/maisonette-for-sale-in-neos-kosmos-athens-fully-furnished-id-a4-13251,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/neos-kosmos-golden-visa-apartment-for-sale-in-athens-id-a4-13268,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/new-build-apartment-for-sale-in-neos-kosmos-athens-id-a4-13297,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/one-bedroom-apartment-for-sale-in-neos-kosmos-athens-id-a4-13254,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/one-bedroom-apartment-for-sale-in-neos-kosmos-athens-id-a4-13296,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/one-bedroom-maisonette-for-sale-in-neos-kosmos-athens-id-a4-13250,left the sitemap
+2026-10-16,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/two-bedroom-apartment-for-sale-in-athens-id-a4-12885,left the sitemap
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/bf98ed21-348c-4792-ba8c-d78683870c40/varnavas-330000-110,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/c91df777-e7b2-4bcc-be1c-9f1bc110dc17/kallithea-agia-eleoysa-145000-68,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ccf3fec4-eafa-4b30-a4bf-07ec0a0134a8/gerakas-mpalana-590000-210,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ceba6e4c-cc30-436e-a598-94fd6a26ea5b/kamari-3650000-1020,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/d0fdb12f-69b5-434e-9732-60666112a5f6/athhna-exarcheia-255000-73,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/d3dcf5e2-a58f-48a7-a169-b6b8e80fc999/glyka-nera-foyresi-275000-70,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/d98af2f2-2004-4faa-a593-45a43e05f6b0/nea-erythraia-kentro-730000-250,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/e4a84957-930b-47f6-af8f-1cc622e88556/nea-smyrnh-anw-nea-smyrnh-330000-114,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/e614f9ff-677a-4888-8a25-9d97fee67def/khfisia-kentro-420000-86,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/eb3b7493-32eb-4d4e-baec-85956e60b2ff/athhna-plateia-amerikhs-52000-43,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/f04059ed-2067-4de3-8780-4c0fc98816a6/keratsini-agios-gewrgios-155000-72,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-16,buy2greece.com,https://www.buy2greece.com/properties/1611725-plot-of-land-for-sale-andros-41-180-18-sq-m-650-000-2308573,http 404
+2026-10-16,buy2greece.com,https://www.buy2greece.com/properties/for-sale-residential-maisonette-evoia-dirfis-120-sq-m-2-bedrooms-150-000-1610177,http 404
+2026-10-16,tsrealestate.gr,https://tsrealestate.gr/el/property/15992,http 404
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/478998,sold / not available
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/538966,sold / not available
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/472955,sold / not available
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/540163,sold / not available
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/531009,sold / not available
+2026-10-16,goldenhome.gr,https://goldenhome.gr/property/view/531008,sold / not available
