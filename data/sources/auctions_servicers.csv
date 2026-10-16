@@ -1,6 +1,6 @@
 domain,name,kind,segment,notes
-eauction.gr,eAuction (notaries),auction_platform,auction,Official e-auctions; bidders need AFM + TAXISNET; robots.txt disallows all crawling: not collected
-eauctions.gsis.gr,AADE e-auctions,auction_platform,auction,Tax authority auctions
+eauction.gr,eAuction (notaries),auction_platform,auction,Official e-auctions; bidders need AFM + TAXISNET; auction search behind Imperva (Incapsula block page, checked 2026-10-16): not collected directly
+eauctions.gsis.gr,AADE e-auctions,auction_platform,auction,Concessions of beach / seashore use (not real estate sales): not collected
 iauction.gr,iAuction,auction_platform,auction,marketplace.iauction.gr
 inauction.gr,InAuction,auction_platform,auction,Aggregates auctions across Greece
 landea.gr,Landea,auction_platform,auction,Auction search
