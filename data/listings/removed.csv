@@ -1691,3 +1691,20 @@ date,source_domain,url,reason
 2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/541132,sold / not available
 2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/200109,sold / not available
 2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/539831,sold / not available
+2026-10-17,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/427cead3-682d-4ea3-ae7d-2562c816a5fc/thessalonikh-kentro-49000-30,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-17,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/42cbeca2-7922-4d0d-8b6e-2869e42baa26/thessalonikh-falhro-160000-52,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-17,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/5923882a-fcf5-439c-a384-c42858f6160f/thessalonikh-katw-toympa-90000-75,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-17,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/6396fbd1-61af-428b-99ee-778f75ddeea0/thessalonikh-charilaoy-148000-41,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-17,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/6c23ca29-4de1-4d90-9bf9-cbeb191a5e62/dhmos-mikras-480000-570,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-17,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/6db9f997-933c-41dc-810f-945c07920a95/peraia-153000-55,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-17,hometarget.gr,https://hometarget.gr/el/property/4118,redirects to https://hometarget.gr/website/error
+2026-10-17,monopoly.com.gr,https://monopoly.com.gr/el/property/98974,http 404
+2026-10-17,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121415,http 404
+2026-10-17,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121413,http 404
+2026-10-17,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121365,http 404
+2026-10-17,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121364,http 404
+2026-10-17,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121269,http 404
+2026-10-17,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121135,http 404
+2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/541110,sold / not available
+2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/533155,sold / not available
+2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/533188,sold / not available
