@@ -3141,6 +3141,7 @@ https://edmaestate.gr/property.php?id=1530
 https://edmaestate.gr/property.php?id=1531
 https://edmaestate.gr/property.php?id=1535
 https://edmaestate.gr/property.php?id=1540
+https://edmaestate.gr/property.php?id=1542
 https://edmaestate.gr/property.php?id=1544
 https://edmaestate.gr/property.php?id=1549
 https://edmaestate.gr/property.php?id=1550
@@ -3353,7 +3354,9 @@ https://eliteps.gr/el/property/11143
 https://eliteps.gr/el/property/11157
 https://eliteps.gr/el/property/11175
 https://eliteps.gr/el/property/11186
+https://eliteps.gr/el/property/11198
 https://eliteps.gr/el/property/11201
+https://eliteps.gr/el/property/11284
 https://eliteps.gr/el/property/11296
 https://eliteps.gr/el/property/11298
 https://eliteps.gr/el/property/11301
@@ -3390,9 +3393,13 @@ https://eliteps.gr/el/property/11852
 https://eliteps.gr/el/property/11867
 https://eliteps.gr/el/property/11880
 https://eliteps.gr/el/property/11888
+https://eliteps.gr/el/property/11892
 https://eliteps.gr/el/property/11902
 https://eliteps.gr/el/property/11922
+https://eliteps.gr/el/property/11932
 https://eliteps.gr/el/property/11935
+https://eliteps.gr/el/property/11953
+https://eliteps.gr/el/property/11956
 https://eliteps.gr/el/property/11957
 https://eliteps.gr/el/property/11979
 https://eliteps.gr/el/property/12022
@@ -4559,6 +4566,7 @@ https://goldenhome.gr/property/view/455454
 https://goldenhome.gr/property/view/456039
 https://goldenhome.gr/property/view/456265
 https://goldenhome.gr/property/view/456278
+https://goldenhome.gr/property/view/456358
 https://goldenhome.gr/property/view/456476
 https://goldenhome.gr/property/view/456588
 https://goldenhome.gr/property/view/456703
@@ -4617,6 +4625,7 @@ https://goldenhome.gr/property/view/465772
 https://goldenhome.gr/property/view/465874
 https://goldenhome.gr/property/view/465875
 https://goldenhome.gr/property/view/466066
+https://goldenhome.gr/property/view/466067
 https://goldenhome.gr/property/view/466189
 https://goldenhome.gr/property/view/466210
 https://goldenhome.gr/property/view/466218
@@ -5365,6 +5374,7 @@ https://goldenhome.gr/property/view/527156
 https://goldenhome.gr/property/view/527157
 https://goldenhome.gr/property/view/527158
 https://goldenhome.gr/property/view/527159
+https://goldenhome.gr/property/view/527175
 https://goldenhome.gr/property/view/527215
 https://goldenhome.gr/property/view/527234
 https://goldenhome.gr/property/view/527257
@@ -5497,6 +5507,7 @@ https://goldenhome.gr/property/view/531865
 https://goldenhome.gr/property/view/531889
 https://goldenhome.gr/property/view/531934
 https://goldenhome.gr/property/view/531961
+https://goldenhome.gr/property/view/531962
 https://goldenhome.gr/property/view/532021
 https://goldenhome.gr/property/view/532038
 https://goldenhome.gr/property/view/532161
@@ -6375,6 +6386,8 @@ https://goldenhome.gr/property/view/541100
 https://goldenhome.gr/property/view/541102
 https://goldenhome.gr/property/view/541110
 https://goldenhome.gr/property/view/541112
+https://goldenhome.gr/property/view/541119
+https://goldenhome.gr/property/view/541120
 https://goldenhome.gr/property/view/541131
 https://goldenhome.gr/property/view/541132
 https://goldenhome.gr/property/view/541133
@@ -6383,6 +6396,7 @@ https://goldenhome.gr/property/view/541138
 https://goldenhome.gr/property/view/541139
 https://goldenhome.gr/property/view/541141
 https://goldenhome.gr/property/view/541146
+https://goldenhome.gr/property/view/541162
 https://goldenhome.gr/property/view/541175
 https://goldenhome.gr/property/view/541181
 https://goldenhome.gr/property/view/541183
@@ -7401,6 +7415,7 @@ https://index.cy/auction/two-bedroom-apartment-in-paralimni-famagusta-auction-30
 https://index.cy/el/sale/10085787-2-bedroom-apartment-for-sale-in-kamares-larnaca-district/
 https://index.cy/el/sale/10086692-3-bedroom-apartment-for-sale-in-oroklini-larnaca-district/
 https://index.cy/el/sale/10221023-2-bedroom-apartment-for-sale-in-tersefanou-larnaca-district/
+https://index.cy/el/sale/10357729-3-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/el/sale/10369682-3-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/el/sale/10371895-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/el/sale/10434603-2-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
@@ -7409,6 +7424,7 @@ https://index.cy/el/sale/10617315-2-bedroom-apartment-for-sale-in-germasogeia-to
 https://index.cy/el/sale/10633163-4-bedroom-apartment-for-sale-in-agia-paraskevi-limassol-district/
 https://index.cy/el/sale/10644595-3-bedroom-apartment-for-sale-in-agios-tychonas-limassol-district/
 https://index.cy/el/sale/10656093-1-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/
+https://index.cy/el/sale/10779088-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/el/sale/10797563-3-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
 https://index.cy/el/sale/10866479-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/el/sale/10881329-2-bedroom-apartment-for-sale-in-agia-paraskevi-limassol-district/
@@ -7422,6 +7438,8 @@ https://index.cy/el/sale/11613868-3-bedroom-apartment-for-sale-in-ypsonas-limass
 https://index.cy/el/sale/11615430-3-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/el/sale/11643313-4-bedroom-house-for-sale-in-protaras-famagusta-district/
 https://index.cy/el/sale/11644902-2-bedroom-apartment-for-sale-in-paralimni-famagusta-district/
+https://index.cy/el/sale/11688750-1-bedroom-apartment-for-sale-in-oroklini-larnaca-district/
+https://index.cy/el/sale/11688846-1-bedroom-apartment-for-sale-in-oroklini-larnaca-district/
 https://index.cy/el/sale/11690666-1-bedroom-apartment-for-sale-in-kamares-larnaca-district/
 https://index.cy/el/sale/11739916-4-bedroom-house-for-sale-in-larnaca-district/
 https://index.cy/el/sale/2579324-2-bedroom-apartment-for-sale-in-larnaca/
@@ -7458,6 +7476,7 @@ https://index.cy/el/sale/9770333-2-bedroom-apartment-for-sale-in-aradippou-larna
 https://index.cy/el/sale/9773527-2-bedroom-apartment-for-sale-in-agia-triada-limassol-district/
 https://index.cy/el/sale/9827625-2-bedroom-apartment-for-sale-in-limassol-omonoia/
 https://index.cy/el/sale/9852155-2-bedroom-apartment-for-sale-in-limassol-zakaki/
+https://index.cy/el/sale/9879150-2-bedroom-apartment-for-sale-in-kamares-larnaca-district/
 https://index.cy/el/sale/9894499-1-bedroom-apartment-for-sale-in-limassol-neapolis/
 https://index.cy/el/sale/9894557-1-bedroom-apartment-for-sale-in-limassol-neapolis/
 https://index.cy/el/sale/9938071-1-bedroom-apartment-for-sale-in-paphos/
@@ -7487,11 +7506,13 @@ https://index.cy/iw/sale/10572855-2-bedroom-apartment-for-sale-in-larnaca-makenz
 https://index.cy/iw/sale/10617315-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
 https://index.cy/iw/sale/10633163-4-bedroom-apartment-for-sale-in-agia-paraskevi-limassol-district/
 https://index.cy/iw/sale/10644595-3-bedroom-apartment-for-sale-in-agios-tychonas-limassol-district/
+https://index.cy/iw/sale/10655549-1-bedroom-apartment-for-sale-in-limassol-neapolis/
 https://index.cy/iw/sale/10656093-1-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/
 https://index.cy/iw/sale/10732662-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/iw/sale/10779088-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/iw/sale/10797563-3-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
 https://index.cy/iw/sale/10799432-3-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/
+https://index.cy/iw/sale/10799666-2-bedroom-apartment-for-sale-in-tombs-of-the-kings-paphos-district/
 https://index.cy/iw/sale/10833337-2-bedroom-apartment-for-sale-in-larnaca-makenzy/
 https://index.cy/iw/sale/10836515-3-bedroom-apartment-for-sale-in-limassol-neapolis/
 https://index.cy/iw/sale/10838005-2-bedroom-apartment-for-sale-in-drosia-larnaca-district/
@@ -7514,6 +7535,7 @@ https://index.cy/iw/sale/11040421-2-bedroom-apartment-for-sale-in-larnaca/
 https://index.cy/iw/sale/11041471-3-bedroom-apartment-for-sale-in-larnaca/
 https://index.cy/iw/sale/11184146-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/iw/sale/11195535-4-bedroom-house-for-sale-in-ineia-paphos-district/
+https://index.cy/iw/sale/11251779-3-bedroom-house-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/iw/sale/11331701-5-bedroom-house-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/iw/sale/11379908-4-bedroom-house-for-sale-in-palodeia-limassol-district/
 https://index.cy/iw/sale/11446300-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
@@ -7561,6 +7583,7 @@ https://index.cy/iw/sale/4642477-3-bedroom-apartment-for-sale-in-engomi-nicosia-
 https://index.cy/iw/sale/4709526-2-bedroom-house-for-sale-in-pissouri-limassol-district/
 https://index.cy/iw/sale/5232834-3-bedroom-apartment-for-sale-in-limassol-agios-antonios/
 https://index.cy/iw/sale/53864-2-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/
+https://index.cy/iw/sale/54044-2-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/
 https://index.cy/iw/sale/58311-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
 https://index.cy/iw/sale/604559-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
 https://index.cy/iw/sale/6111735-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
@@ -7604,6 +7627,7 @@ https://index.cy/iw/sale/9418636-4-bedroom-house-for-sale-in-agios-theodoros-lar
 https://index.cy/iw/sale/9514772-3-bedroom-apartment-for-sale-in-strovolos-chryseleousa-nicosia-district/
 https://index.cy/iw/sale/9515481-2-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
 https://index.cy/iw/sale/9594876-2-bedroom-house-for-sale-in-chlorakas-paphos-district/
+https://index.cy/iw/sale/9647346-3-bedroom-apartment-for-sale-in-limassol-agia-fyla/
 https://index.cy/iw/sale/9675136-3-bedroom-apartment-for-sale-in-limassol-katholiki/
 https://index.cy/iw/sale/9711019-3-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
 https://index.cy/iw/sale/9717844-2-bedroom-apartment-for-sale-in-parekklisia-limassol-district/
@@ -7793,6 +7817,7 @@ https://index.cy/rent/11884103-3-bedroom-house-for-rent-in-paphos-district/
 https://index.cy/rent/11885077-5-bedroom-house-for-rent-in-limassol-agia-fyla/
 https://index.cy/rent/11885202-5-bedroom-house-for-rent-in-agios-tychonas-limassol-district/
 https://index.cy/rent/11886952-4-bedroom-apartment-for-rent-in-nicosia-district/
+https://index.cy/rent/11889053-3-bedroom-apartment-for-rent-in-limassol-district/
 https://index.cy/rent/11896009-2-bedroom-apartment-for-rent-in-agios-dometios-agios-georgios-nicosia-district/
 https://index.cy/sale/10027148-42sqm-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/sale/10028409-1-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
@@ -7823,6 +7848,7 @@ https://index.cy/sale/10285742-1-bedroom-apartment-for-sale-in-kato-polemidia-li
 https://index.cy/sale/10286028-2-bedroom-apartment-for-sale-in-parekklisia-limassol-district/
 https://index.cy/sale/10310491-4-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
 https://index.cy/sale/10325357-2-bedroom-apartment-for-sale-in-limassol-omonoia/
+https://index.cy/sale/10326028-2-bedroom-apartment-for-sale-in-tombs-of-the-kings-paphos-district/
 https://index.cy/sale/10334935-2-bedroom-apartment-for-sale-in-larnaca-makenzy/
 https://index.cy/sale/10335085-3-bedroom-house-for-sale-in-anglisides-larnaca-district/
 https://index.cy/sale/10335097-3-bedroom-house-for-sale-in-anglisides-larnaca-district/
@@ -8051,6 +8077,7 @@ https://index.cy/sale/11470493-3-bedroom-house-for-sale-in-pervolia-larnacas/
 https://index.cy/sale/11471413-3-bedroom-house-for-sale-in-paphos-anavargos/
 https://index.cy/sale/11471449-3-bedroom-house-for-sale-in-paphos-anavargos/
 https://index.cy/sale/11479664-3-bedroom-house-for-sale-in-agia-marinouda-paphos-district/
+https://index.cy/sale/11506167-4-bedroom-house-for-sale-in-larnaca-agios-ioannis/
 https://index.cy/sale/11506167-4-bedroom-house-for-sale-in-larnaca-district/
 https://index.cy/sale/11506228-3-bedroom-apartment-for-sale-in-dhekelia-larnaca-district/
 https://index.cy/sale/11506423-3-bedroom-apartment-for-sale-in-dhekelia-larnaca-district/
@@ -8094,6 +8121,7 @@ https://index.cy/sale/11627352-44sqm-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11627665-41sqm-apartment-for-sale-in-paphos-emba/
 https://index.cy/sale/11627697-41sqm-apartment-for-sale-in-paphos-emba/
 https://index.cy/sale/11627924-3-bedroom-house-for-sale-in-paphos-emba/
+https://index.cy/sale/11628146-3-bedroom-house-for-sale-in-kiti-larnaca-district/
 https://index.cy/sale/11628282-1-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
 https://index.cy/sale/11628715-studio-apartment-for-sale-in-limassol-mesa-geitonia/
 https://index.cy/sale/11629429-3-bedroom-house-for-sale-in-drosia-larnaca-district/
@@ -8261,6 +8289,7 @@ https://index.cy/sale/11706097-2-bedroom-apartment-for-sale-in-limassol-agios-ne
 https://index.cy/sale/11706124-2-bedroom-apartment-for-sale-in-limassol-agios-ioannis/
 https://index.cy/sale/11706144-2-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
 https://index.cy/sale/11706154-2-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
+https://index.cy/sale/11706181-3-bedroom-apartment-for-sale-in-larnaca-sotiros/
 https://index.cy/sale/11706188-3-bedroom-apartment-for-sale-in-larnaca-sotiros/
 https://index.cy/sale/11706217-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/11706223-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
@@ -8451,6 +8480,7 @@ https://index.cy/sale/11808655-3-bedroom-house-for-sale-in-pyla-larnaca-district
 https://index.cy/sale/11808693-2-bedroom-apartment-for-sale-in-kato-paphos/
 https://index.cy/sale/11808709-2-bedroom-apartment-for-sale-in-paphos-agios-theodoros/
 https://index.cy/sale/11808730-3-bedroom-apartment-for-sale-in-paphos-agios-theodoros/
+https://index.cy/sale/11808751-3-bedroom-house-for-sale-in-kiti-larnaca-district/
 https://index.cy/sale/11809288-1-bedroom-apartment-for-sale-in-paphos-agios-theodoros/
 https://index.cy/sale/11809448-2-bedroom-apartment-for-sale-in-paphos-agios-theodoros/
 https://index.cy/sale/11809923-3-bedroom-house-for-sale-in-oroklini-larnaca-district/
@@ -8728,6 +8758,8 @@ https://index.cy/sale/11865869-2-bedroom-apartment-for-sale-in-limassol-agios-ne
 https://index.cy/sale/11865961-1-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
 https://index.cy/sale/11865984-1-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
 https://index.cy/sale/11866318-4-bedroom-house-for-sale-in-latsia-nicosia-district/
+https://index.cy/sale/11866382-2-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
+https://index.cy/sale/11866390-3-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
 https://index.cy/sale/11866398-3-bedroom-house-for-sale-in-aglantzia-nicosia-district/
 https://index.cy/sale/11866412-2-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
 https://index.cy/sale/11866420-1-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
@@ -8757,10 +8789,15 @@ https://index.cy/sale/11874544-3-bedroom-apartment-for-sale-in-paphos-district/
 https://index.cy/sale/11874567-3-bedroom-apartment-for-sale-in-limassol-neapolis/
 https://index.cy/sale/11874605-1-bedroom-apartment-for-sale-in-asomatos-limassol-district/
 https://index.cy/sale/11874643-2-bedroom-apartment-for-sale-in-asomatos-limassol-district/
+https://index.cy/sale/11874654-3-bedroom-apartment-for-sale-in-limassol-agia-zoni/
+https://index.cy/sale/11875508-3-bedroom-house-for-sale-in-meneou-larnaca-district/
 https://index.cy/sale/11875721-2-bedroom-apartment-for-sale-in-columbia-area-limassol-district/
 https://index.cy/sale/11875971-2-bedroom-apartment-for-sale-in-kamares-larnaca-district/
 https://index.cy/sale/11875995-3-bedroom-apartment-for-sale-in-limassol-neapolis/
 https://index.cy/sale/11876024-1-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
+https://index.cy/sale/11876038-4-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
+https://index.cy/sale/11876067-2-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
+https://index.cy/sale/11876110-3-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
 https://index.cy/sale/11876125-40sqm-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11876150-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
 https://index.cy/sale/11876163-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
@@ -8799,6 +8836,7 @@ https://index.cy/sale/11885184-1-bedroom-apartment-for-sale-in-limassol-agia-fyl
 https://index.cy/sale/11885232-2-bedroom-apartment-for-sale-in-limassol-panthea/
 https://index.cy/sale/11885604-3-bedroom-house-for-sale-in-dali-nicosia-district/
 https://index.cy/sale/11885832-1-bedroom-apartment-for-sale-in-larnaca-district/
+https://index.cy/sale/11885886-4-bedroom-house-for-sale-in-aradippou-larnaca-district/
 https://index.cy/sale/11886129-2-bedroom-apartment-for-sale-in-columbia-area-limassol-district/
 https://index.cy/sale/11886145-3-bedroom-apartment-for-sale-in-columbia-area-limassol-district/
 https://index.cy/sale/11886160-2-bedroom-apartment-for-sale-in-columbia-area-limassol-district/
@@ -8816,6 +8854,7 @@ https://index.cy/sale/11886387-2-bedroom-apartment-for-sale-in-limassol-katholik
 https://index.cy/sale/11886403-3-bedroom-apartment-for-sale-in-limassol-katholiki/
 https://index.cy/sale/11886419-2-bedroom-apartment-for-sale-in-limassol-katholiki/
 https://index.cy/sale/11886466-2-bedroom-apartment-for-sale-in-paphos-universal/
+https://index.cy/sale/11886486-1-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/sale/11886510-1-bedroom-apartment-for-sale-in-larnaca-sotiros/
 https://index.cy/sale/11886534-2-bedroom-apartment-for-sale-in-oroklini-larnaca-district/
 https://index.cy/sale/11886551-2-bedroom-apartment-for-sale-in-kissonerga-paphos-district/
@@ -8869,9 +8908,11 @@ https://index.cy/sale/11896359-2-bedroom-apartment-for-sale-in-kiti-larnaca-dist
 https://index.cy/sale/11896694-2-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/sale/11896726-2-bedroom-apartment-for-sale-in-latsia-nicosia-district/
 https://index.cy/sale/11896774-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/11897067-1-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11897077-1-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11897097-2-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11897107-2-bedroom-apartment-for-sale-in-limassol-district/
+https://index.cy/sale/11897116-2-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11897125-2-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11897134-1-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11897144-1-bedroom-apartment-for-sale-in-limassol-district/
@@ -8885,8 +8926,11 @@ https://index.cy/sale/11897337-2-bedroom-apartment-for-sale-in-limassol-mesa-gei
 https://index.cy/sale/11897349-1-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
 https://index.cy/sale/11897361-2-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
 https://index.cy/sale/11897372-2-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
+https://index.cy/sale/11897389-1-bedroom-apartment-for-sale-in-chlorakas-paphos-district/
+https://index.cy/sale/11897393-51sqm-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/sale/11897472-3-bedroom-apartment-for-sale-in-nicosia-pallouriotissa/
 https://index.cy/sale/11897510-1-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
+https://index.cy/sale/11897550-3-bedroom-house-for-sale-in-kiti-larnaca-district/
 https://index.cy/sale/11897574-3-bedroom-apartment-for-sale-in-strovolos-acropolis-nicosia-district/
 https://index.cy/sale/11897594-2-bedroom-apartment-for-sale-in-strovolos-acropolis-nicosia-district/
 https://index.cy/sale/11897603-3-bedroom-apartment-for-sale-in-strovolos-acropolis-nicosia-district/
@@ -8914,6 +8958,13 @@ https://index.cy/sale/11900402-1-bedroom-apartment-for-sale-in-livadia-larnakas-
 https://index.cy/sale/11900410-1-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/11900418-1-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/11900426-1-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/11909797-3-bedroom-apartment-for-sale-in-ypsonas-limassol-district/
+https://index.cy/sale/11909807-1-bedroom-apartment-for-sale-in-ypsonas-limassol-district/
+https://index.cy/sale/11910007-2-bedroom-apartment-for-sale-in-limassol-panthea/
+https://index.cy/sale/11910082-2-bedroom-apartment-for-sale-in-limassol-mesa-geitonia/
+https://index.cy/sale/11910545-3-bedroom-apartment-for-sale-in-mandria-paphos-district/
+https://index.cy/sale/11915575-3-bedroom-house-for-sale-in-paphos-district/
+https://index.cy/sale/11916064-3-bedroom-house-for-sale-in-paphos-district/
 https://index.cy/sale/1307621-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
 https://index.cy/sale/1381343-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/1398549-2-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/
@@ -8951,6 +9002,8 @@ https://index.cy/sale/5232729-3-bedroom-apartment-for-sale-in-limassol-agios-ant
 https://index.cy/sale/5232834-3-bedroom-apartment-for-sale-in-limassol-agios-antonios/
 https://index.cy/sale/5337588-3-bedroom-apartment-for-sale-in-krasas-larnaca-district/
 https://index.cy/sale/53864-2-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/
+https://index.cy/sale/54044-2-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/
+https://index.cy/sale/54059-2-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/
 https://index.cy/sale/5493598-3-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/58311-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
 https://index.cy/sale/5985991-3-bedroom-apartment-for-sale-in-tombs-of-the-kings-paphos-district/
@@ -14235,6 +14288,7 @@ https://rewize.com/akinito/7580
 https://rewize.com/akinito/7581
 https://rewize.com/akinito/7582
 https://rewize.com/akinito/7583
+https://rewize.com/akinito/7585
 https://rewize.com/akinito/7586
 https://rewize.com/akinito/7587
 https://rewize.com/akinito/7588
@@ -14362,6 +14416,7 @@ https://rewize.com/akinito/7830
 https://rewize.com/akinito/7831
 https://rewize.com/akinito/7832
 https://rewize.com/akinito/7833
+https://rewize.com/akinito/7835
 https://rewize.com/akinito/786
 https://rewize.com/akinito/820
 https://rewize.com/akinito/828
@@ -16552,6 +16607,7 @@ https://www.antoniouhome.gr/property/397
 https://www.antoniouhome.gr/property/398
 https://www.antoniouhome.gr/property/399
 https://www.antoniouhome.gr/property/400
+https://www.antoniouhome.gr/property/401
 https://www.apoiko.gr/property.php?id=1310
 https://www.apoiko.gr/property.php?id=1338
 https://www.apoiko.gr/property.php?id=1344
@@ -17715,6 +17771,7 @@ https://www.domino-estate.gr/property/8308
 https://www.domino-estate.gr/property/8311
 https://www.domino-estate.gr/property/8313
 https://www.domino-estate.gr/property/8314
+https://www.domino-estate.gr/property/8316
 https://www.domino-estate.gr/property/998
 https://www.eightrealestate.gr/property/1346
 https://www.eightrealestate.gr/property/1359
@@ -17741,6 +17798,7 @@ https://www.eightrealestate.gr/property/2309
 https://www.eightrealestate.gr/property/2338
 https://www.eightrealestate.gr/property/2428
 https://www.eightrealestate.gr/property/2451
+https://www.eightrealestate.gr/property/2459
 https://www.eightrealestate.gr/property/2489
 https://www.eightrealestate.gr/property/2490
 https://www.eightrealestate.gr/property/2491
@@ -17772,6 +17830,7 @@ https://www.eightrealestate.gr/property/3024
 https://www.eightrealestate.gr/property/3031
 https://www.eightrealestate.gr/property/3032
 https://www.eightrealestate.gr/property/3041
+https://www.eightrealestate.gr/property/3042
 https://www.eightrealestate.gr/property/3045
 https://www.eightrealestate.gr/property/3047
 https://www.eightrealestate.gr/property/3048
@@ -17799,6 +17858,7 @@ https://www.eightrealestate.gr/property/3115
 https://www.eightrealestate.gr/property/3118
 https://www.eightrealestate.gr/property/3134
 https://www.eightrealestate.gr/property/3135
+https://www.eightrealestate.gr/property/3138
 https://www.eightrealestate.gr/property/3140
 https://www.eightrealestate.gr/property/3151
 https://www.eightrealestate.gr/property/3152
@@ -17828,6 +17888,8 @@ https://www.eightrealestate.gr/property/3220
 https://www.eightrealestate.gr/property/3221
 https://www.eightrealestate.gr/property/3222
 https://www.eightrealestate.gr/property/3224
+https://www.eightrealestate.gr/property/3226
+https://www.eightrealestate.gr/property/3229
 https://www.eightrealestate.gr/property/3231
 https://www.eightrealestate.gr/property/3237
 https://www.eightrealestate.gr/property/3239
@@ -18434,6 +18496,8 @@ https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%
 https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-160-%cf%84-%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%ce%ba%ce%b1%ce%bb%ce%b1%ce%bc%ce%b1%cf%81%ce%b9%ce%ac/
 https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-100-%cf%84-%ce%bc-%cf%83%cf%84%ce%b7-%ce%bd%ce%b9%ce%ba%ce%ae%cf%84/
 https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-100-%cf%84-%ce%bc-%cf%83%cf%84%ce%bf-%cf%80%ce%b5%cf%85%ce%ba%ce%bf/
+https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-110-%cf%84-%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%bf%cf%84%ce%af/
+https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-112-%cf%84-%ce%bc-%cf%83%cf%84%ce%b7-%cf%83%ce%af%ce%b2%ce%b7%cf%81/
 https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-133-%cf%84-%ce%bc-s5-%cf%83%cf%84%ce%b7-%ce%bd%ce%b9%ce%ba%ce%ae/
 https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-160-%cf%84-%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%ce%ac%cf%86%cf%85%cf%84/
 https://www.ellasestate.com/el/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-200-%cf%84-%ce%bc-%cf%83%cf%84%ce%b7-%ce%bd%ce%b9%ce%ba%ce%ae%cf%84/
@@ -18694,6 +18758,7 @@ https://www.ellasestate.com/property/for-sale-duplex-apartment-127-sq-m-a3-in-so
 https://www.ellasestate.com/property/for-sale-hotel-1750-sq-m-in-neos-marmaras-halkidiki/
 https://www.ellasestate.com/property/for-sale-hotel-386-sq-m-in-neos-marmaras-halkidiki/
 https://www.ellasestate.com/property/for-sale-hotel-400-sq-m-in-nikiti-chalkidiki/
+https://www.ellasestate.com/property/for-sale-hotel-753-sq-m-in-fourka-halkidiki/
 https://www.ellasestate.com/property/for-sale-land-1000-sq-m-in-gazi-athens/
 https://www.ellasestate.com/property/for-sale-land-11000-sq-m-in-limnos/
 https://www.ellasestate.com/property/for-sale-land-130-sq-m-in-sykies-thessaloniki/
@@ -18785,6 +18850,7 @@ https://www.ellasestate.com/property/for-sale-maisonette-140-sq-m-in-nea-fokea-h
 https://www.ellasestate.com/property/for-sale-maisonette-147-sq-m-in-polichni-thessaloniki/
 https://www.ellasestate.com/property/for-sale-maisonette-150-sq-m-in-hanioti-halkidiki/
 https://www.ellasestate.com/property/for-sale-maisonette-150-sq-m-in-moles-kalives-halkidiki/
+https://www.ellasestate.com/property/for-sale-maisonette-151sq-m-in-metamorfosi-halkidiki/
 https://www.ellasestate.com/property/for-sale-maisonette-160-sq-m-in-ano-peraia-thermaikos/
 https://www.ellasestate.com/property/for-sale-maisonette-160-sq-m-in-kalamaria-thessaloniki/
 https://www.ellasestate.com/property/for-sale-maisonette-160-sq-m-in-kriopigi-halkidiki/
@@ -21836,6 +21902,7 @@ https://www.greenandgrey.gr/property/2013
 https://www.greenandgrey.gr/property/2040
 https://www.greenandgrey.gr/property/2086
 https://www.greenandgrey.gr/property/2127
+https://www.greenandgrey.gr/property/2136
 https://www.greenandgrey.gr/property/2152?language=en
 https://www.greenandgrey.gr/property/2167
 https://www.greenandgrey.gr/property/2180
@@ -28264,6 +28331,7 @@ https://www.oikia-thess.gr/property/1133
 https://www.oikia-thess.gr/property/1134
 https://www.oikia-thess.gr/property/1135
 https://www.oikia-thess.gr/property/1136
+https://www.oikia-thess.gr/property/1137
 https://www.oikia-thess.gr/property/294
 https://www.oikia-thess.gr/property/329
 https://www.oikia-thess.gr/property/330
@@ -28685,6 +28753,7 @@ https://www.papastefanou.gr/property/1840
 https://www.papastefanou.gr/property/1958
 https://www.papastefanou.gr/property/1995
 https://www.papastefanou.gr/property/2009
+https://www.papastefanou.gr/property/2125
 https://www.papastefanou.gr/property/2155
 https://www.papastefanou.gr/property/2224
 https://www.papastefanou.gr/property/2251
@@ -28695,6 +28764,7 @@ https://www.papastefanou.gr/property/2485
 https://www.papastefanou.gr/property/2562
 https://www.papastefanou.gr/property/2656
 https://www.papastefanou.gr/property/2677
+https://www.papastefanou.gr/property/2689
 https://www.papastefanou.gr/property/2835
 https://www.papastefanou.gr/property/2878
 https://www.papastefanou.gr/property/2911
@@ -28708,6 +28778,8 @@ https://www.papastefanou.gr/property/2982
 https://www.papastefanou.gr/property/3038
 https://www.papastefanou.gr/property/3077
 https://www.papastefanou.gr/property/3104
+https://www.papastefanou.gr/property/3130
+https://www.papastefanou.gr/property/3221
 https://www.papastefanou.gr/property/3308
 https://www.papastefanou.gr/property/3313
 https://www.papastefanou.gr/property/3337
@@ -28722,6 +28794,7 @@ https://www.papastefanou.gr/property/3635
 https://www.papastefanou.gr/property/3645
 https://www.papastefanou.gr/property/3693
 https://www.papastefanou.gr/property/3741
+https://www.papastefanou.gr/property/3755
 https://www.papastefanou.gr/property/3809
 https://www.papastefanou.gr/property/3818
 https://www.papastefanou.gr/property/3824
@@ -28734,6 +28807,7 @@ https://www.papastefanou.gr/property/3978
 https://www.papastefanou.gr/property/3995
 https://www.papastefanou.gr/property/4001
 https://www.papastefanou.gr/property/4005
+https://www.papastefanou.gr/property/4008
 https://www.papastefanou.gr/property/4016
 https://www.papastefanou.gr/property/4019
 https://www.papastefanou.gr/property/4096
@@ -28743,6 +28817,7 @@ https://www.papastefanou.gr/property/4138
 https://www.papastefanou.gr/property/4143
 https://www.papastefanou.gr/property/4149
 https://www.papastefanou.gr/property/4160
+https://www.papastefanou.gr/property/4166
 https://www.papastefanou.gr/property/4174
 https://www.papastefanou.gr/property/4216
 https://www.papastefanou.gr/property/4230
@@ -29364,6 +29439,16 @@ https://www.plot.gr/57590058-diamerisma-80-tm-pros-enoikiasi-thessaloniki-perife
 https://www.plot.gr/57590425-studio-gkarsoniera-23-tm-pros-enoikiasi-thessaloniki-periferiakoi-dimoi-thermaikos?event=from-search-subscription
 https://www.plot.gr/57592515-katastima-450-tm-pros-enoikiasi-thessaloniki-periferiakoi-dimoi-kalamaria-kentro?event=from-search-subscription
 https://www.plot.gr/57603357-diamerisma-70-tm-pros-enoikiasi-thessaloniki-periferiakoi-dimoi-wraiokastro-kentro?event=from-search-subscription
+https://www.plot.gr/57618113-mezoneta-92-tm-pros-pwlisi-thessaloniki-periferiakoi-dimoi-thermi-plagiari?event=from-search-subscription
+https://www.plot.gr/57618177-diamerisma-96-tm-pros-pwlisi-thessaloniki-periferiakoi-dimoi-kalamaria-agios-panteleimwn?event=from-search-subscription
+https://www.plot.gr/57618190-grafeio-90-tm-pros-enoikiasi-thessaloniki-periferiakoi-dimoi-pylaia-mediterranean-cosmos?event=from-search-subscription
+https://www.plot.gr/57618191-monokatoikia-60-tm-pros-pwlisi-thessaloniki-periferiakoi-dimoi-thermaikos-neoi-epivates?event=from-search-subscription
+https://www.plot.gr/57618194-grafeio-270-tm-pros-enoikiasi-thessaloniki-periferiakoi-dimoi-pylaia-mediterranean-cosmos?event=from-search-subscription
+https://www.plot.gr/57618197-grafeio-157-tm-pros-enoikiasi-thessaloniki-periferiakoi-dimoi-pylaia-mediterranean-cosmos?event=from-search-subscription
+https://www.plot.gr/57618203-grafeio-414-tm-pros-enoikiasi-thessaloniki-periferiakoi-dimoi-pylaia-mediterranean-cosmos?event=from-search-subscription
+https://www.plot.gr/57618344-oikopedo-240-tm-pros-pwlisi-thessaloniki-periferiakoi-dimoi-thermaikos-neoi-epivates?event=from-search-subscription
+https://www.plot.gr/57618368-studio-gkarsoniera-55-tm-pros-pwlisi-thessaloniki-periferiakoi-dimoi-thermaikos-skala-n-epivatwn?event=from-search-subscription
+https://www.plot.gr/57618610-studio-gkarsoniera-45-tm-pros-enoikiasi-thessaloniki-periferiakoi-dimoi-kalamaria-agios-iwannis?event=from-search-subscription
 https://www.pozoglourealestate.gr/property/132
 https://www.pozoglourealestate.gr/property/146
 https://www.pozoglourealestate.gr/property/149
@@ -34878,6 +34963,7 @@ https://www.spitogatos.gr/aggelia/1115989276
 https://www.spitogatos.gr/aggelia/1116027226
 https://www.spitogatos.gr/aggelia/1116053822
 https://www.spitogatos.gr/aggelia/1116059379
+https://www.spitogatos.gr/aggelia/1116419681
 https://www.spitogatos.gr/aggelia/1116664418
 https://www.spitogatos.gr/aggelia/1116747399
 https://www.spitogatos.gr/aggelia/1116883340
@@ -35103,6 +35189,7 @@ https://www.spitogatos.gr/aggelia/1120125201
 https://www.spitogatos.gr/aggelia/1120125906
 https://www.spitogatos.gr/aggelia/1120126724
 https://www.spitogatos.gr/aggelia/1120129085
+https://www.spitogatos.gr/aggelia/1120136389
 https://www.spitogatos.gr/aggelia/1120137600
 https://www.spitogatos.gr/aggelia/1120146383
 https://www.spitogatos.gr/aggelia/1120146957
@@ -35156,6 +35243,7 @@ https://www.spitogatos.gr/aggelia/1120393962
 https://www.spitogatos.gr/aggelia/1120396117
 https://www.spitogatos.gr/aggelia/1120397323
 https://www.spitogatos.gr/aggelia/1120402897
+https://www.spitogatos.gr/aggelia/1120405674
 https://www.spitogatos.gr/aggelia/1120407293
 https://www.spitogatos.gr/aggelia/1120414568
 https://www.spitogatos.gr/aggelia/1120421877
@@ -35287,6 +35375,7 @@ https://www.spitogatos.gr/aggelia/1120823751
 https://www.spitogatos.gr/aggelia/1120823868
 https://www.spitogatos.gr/aggelia/1120824933
 https://www.spitogatos.gr/aggelia/1120826654
+https://www.spitogatos.gr/aggelia/1120826677
 https://www.spitogatos.gr/aggelia/1120827736
 https://www.spitogatos.gr/aggelia/1120828445
 https://www.spitogatos.gr/aggelia/1120831386
@@ -35298,6 +35387,7 @@ https://www.spitogatos.gr/aggelia/1120832694
 https://www.spitogatos.gr/aggelia/1120833454
 https://www.spitogatos.gr/aggelia/1120833535
 https://www.spitogatos.gr/aggelia/1120833677
+https://www.spitogatos.gr/aggelia/1120835712
 https://www.spitogatos.gr/aggelia/1120836805
 https://www.spitogatos.gr/aggelia/1120836872
 https://www.spitogatos.gr/aggelia/1120836966
@@ -36431,6 +36521,7 @@ https://www.spitogatos.gr/aggelia/1121079161
 https://www.spitogatos.gr/aggelia/1121079166
 https://www.spitogatos.gr/aggelia/1121079184
 https://www.spitogatos.gr/aggelia/1121079186
+https://www.spitogatos.gr/aggelia/1121079198
 https://www.spitogatos.gr/aggelia/1121079355
 https://www.spitogatos.gr/aggelia/1121079692
 https://www.spitogatos.gr/aggelia/1121079728
@@ -36524,8 +36615,18 @@ https://www.spitogatos.gr/aggelia/1121091629
 https://www.spitogatos.gr/aggelia/1121092816
 https://www.spitogatos.gr/aggelia/1121093032
 https://www.spitogatos.gr/aggelia/1121093109
+https://www.spitogatos.gr/aggelia/1121093119
 https://www.spitogatos.gr/aggelia/1121093132
 https://www.spitogatos.gr/aggelia/1121093360
+https://www.spitogatos.gr/aggelia/1121093741
+https://www.spitogatos.gr/aggelia/1121093779
+https://www.spitogatos.gr/aggelia/1121093786
+https://www.spitogatos.gr/aggelia/1121093793
+https://www.spitogatos.gr/aggelia/1121093820
+https://www.spitogatos.gr/aggelia/1121093827
+https://www.spitogatos.gr/aggelia/1121094050
+https://www.spitogatos.gr/aggelia/1121094202
+https://www.spitogatos.gr/aggelia/1121094283
 https://www.spitogatos.gr/aggelia/118034054
 https://www.spitogatos.gr/aggelia/2210077889
 https://www.spitogatos.gr/aggelia/2210367421
@@ -36540,6 +36641,7 @@ https://www.spitogatos.gr/aggelia/2216179624
 https://www.spitogatos.gr/aggelia/2216770314
 https://www.spitogatos.gr/aggelia/2217104990
 https://www.spitogatos.gr/aggelia/2217315834
+https://www.spitogatos.gr/aggelia/2217571600
 https://www.spitogatos.gr/aggelia/2217628398
 https://www.spitogatos.gr/aggelia/2217671596
 https://www.spitogatos.gr/aggelia/2218002972
@@ -36839,6 +36941,7 @@ https://www.terrahomes.gr/property/29550
 https://www.terrahomes.gr/property/29551
 https://www.terrahomes.gr/property/29552
 https://www.terrahomes.gr/property/29553
+https://www.terrahomes.gr/property/29554
 https://www.terrahomes.gr/property/3131
 https://www.terrahomes.gr/property/3241
 https://www.terrahomes.gr/property/3277
@@ -36998,6 +37101,8 @@ https://www.thehacienda.gr/property/7463
 https://www.thehacienda.gr/property/7464
 https://www.thehacienda.gr/property/7465
 https://www.thehacienda.gr/property/7466
+https://www.thehacienda.gr/property/7468
+https://www.thehacienda.gr/property/7469
 https://www.thessaloniki-realestate.gr/en/property/apartment-agios-fanourios-1-24419/
 https://www.thessaloniki-realestate.gr/en/property/flatlet-agion-panton-1-24054/
 https://www.thessaloniki-realestate.gr/en/property/flatlet-efklidis-1-24402/
@@ -37293,6 +37398,7 @@ https://www.thesskatoikia.gr/property/1030
 https://www.thesskatoikia.gr/property/1037
 https://www.thesskatoikia.gr/property/1041
 https://www.thesskatoikia.gr/property/1047
+https://www.thesskatoikia.gr/property/1054
 https://www.thesskatoikia.gr/property/1058
 https://www.thesskatoikia.gr/property/1059
 https://www.thesskatoikia.gr/property/1065
@@ -38660,6 +38766,7 @@ https://www.tzikas-realestate.gr/property/7853
 https://www.tzikas-realestate.gr/property/7854
 https://www.tzikas-realestate.gr/property/7855
 https://www.tzikas-realestate.gr/property/7856
+https://www.tzikas-realestate.gr/property/7857
 https://www.unityrealestate.gr/property/246
 https://www.unityrealestate.gr/property/247
 https://www.unityrealestate.gr/property/251
