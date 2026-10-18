@@ -851,3 +851,10 @@ date,source_domain,url,reason
 2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/540275,sold / not available
 2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/312232,sold / not available
 2026-10-17,goldenhome.gr,https://goldenhome.gr/property/view/340634,sold / not available
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/b80f3874-8fe7-4a17-b55c-de1f9d841465/athhna-pagkrati-1100-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/bdcf045b-2848-46cf-95ec-985800c6d97a/khfisia-profhths-hlias-750-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/f91219aa-e442-441d-9440-c86f33defb5c/athhna-plateia-klaythmwnos-170-27,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/1845c6ea-6bb8-4a6f-84c0-05a2d6716a71/pylaia-3500-4008,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-10-18,tsrealestate.gr,https://tsrealestate.gr/el/property/16004,http 404
+2026-10-18,tsrealestate.gr,https://tsrealestate.gr/el/property/15877,http 404
+2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/534098,sold / not available
