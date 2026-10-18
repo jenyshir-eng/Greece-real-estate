@@ -883,3 +883,5 @@ date,source_domain,url,reason
 2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/530303,sold / not available
 2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/541084,sold / not available
 2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/536190,sold / not available
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/595a7abd-9586-42cd-b50c-c6c2481b87be/athhna-kypselh-600-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6477b647-c153-400f-ba85-2391f0f7bac7/filotheh-2500-135,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
