@@ -1761,3 +1761,15 @@ date,source_domain,url,reason
 2026-10-18,rewize.com,https://rewize.com/akinito/3505,sold / not available
 2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/537658,sold / not available
 2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/533689,sold / not available
+2026-10-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/cec17b6f-3ff6-4b9f-8a91-e66dab12ff72/thessalonikh-charilaoy-177000-74,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/df465d99-01a8-4c75-b088-2a1d40ee1761/thessalonikh-ntepw-197000-59,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/df803fc5-fce8-4e44-a081-b846fdb990db/thessalonikh-anw-polh-155000-100,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ef14603d-a959-4148-8b2c-211319e41edf/polichnh-thessalonikhs-anw-polh-135000-60,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/f3f11abc-8459-495c-a324-1b5d3f8ba1f0/thessalonikh-kentro-300000-63,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ff0d454c-031f-4281-a2d5-f282a9368109/thessalonikh-analhpsh-92000-26,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ff526b9a-f5ef-4ac3-af62-71d902053a6c/marmari-90000-30,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/014ac5fa-ce57-4f39-ae33-0047a9bf6e83/ampelokhpoi-350-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/15819de4-3aee-427d-af9a-160ea8c030c0/thessalonikh-katw-toympa-200-28,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-18,rewize.com,https://rewize.com/akinito/6823,sold / not available
+2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/312232,sold / not available
+2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/539291,sold / not available
