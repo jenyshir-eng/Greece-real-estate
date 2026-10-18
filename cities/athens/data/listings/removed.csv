@@ -858,3 +858,17 @@ date,source_domain,url,reason
 2026-10-18,tsrealestate.gr,https://tsrealestate.gr/el/property/16004,http 404
 2026-10-18,tsrealestate.gr,https://tsrealestate.gr/el/property/15877,http 404
 2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/534098,sold / not available
+2026-10-18,remax.gr,https://www.remax.gr/property/386295-polisi-diamerisma-neos-kosmos,not on result pages
+2026-10-18,remax.gr,https://www.remax.gr/property/395722-polisi-diamerisma-neos-kosmos,not on result pages
+2026-10-18,remax.gr,https://www.remax.gr/property/398755-polisi-diamerisma-kypselh,not on result pages
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/052ce268-0134-4fbb-90f6-b021042535f7/hlioypolh-kanaria-600-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/06ae84be-cccf-4d99-9246-3eb22e6d183f/athhna-kolwnaki-2500-125,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/076d34dd-1175-4fbb-a775-7611d497899c/cholargos-anw-cholargos-1000-72,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/172225e6-d829-45fd-b60c-9f22acdbfa68/alimos-anw-kalamaki-1380-105,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/1dc8b10a-c92c-4bc8-8c23-d58244bc879a/khfisia-profhths-hlias-750-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/23b8191f-21e2-46d7-9f56-5aa40377e44b/nea-erythraia-mortero-2500-240,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-18,attractionproperties.gr,https://attractionproperties.gr/el/property/1479,http 404
+2026-10-18,attractionproperties.gr,https://attractionproperties.gr/el/property/1478,http 404
+2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/540924,sold / not available
+2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/530936,sold / not available
+2026-10-18,goldenhome.gr,https://goldenhome.gr/property/view/441188,sold / not available
