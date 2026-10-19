@@ -1867,3 +1867,17 @@ date,source_domain,url,reason
 2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/540255,sold / not available
 2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/535987,sold / not available
 2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/540574,sold / not available
+2026-10-19,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/1fc93b29-6351-4229-87eb-9dac78194e01/nikhth-100000-4500,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-19,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/2574c92f-d3bd-46d9-8537-d4fc5332ffdd/psakoydia-520000-2500,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-19,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/321797d9-2fe2-4102-b6f5-6ed04a947b40/ydroysa-1560000-260000,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-19,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/4d4260e2-1821-4b06-9dfe-ded663a02b04/pylaia-200000-215,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-19,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/50cc640f-03c6-428f-9d5d-a6d9f783b7e8/kriaritsi-80000-500,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-19,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/70dbfe98-ab13-489d-8b2c-0b830ecd9059/palioyri-470000-17000,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-19,dovile.gr,https://dovile.gr/el/property/47709,http 404
+2026-10-19,dovile.gr,https://dovile.gr/el/property/94914,http 404
+2026-10-19,monopoly.com.gr,https://monopoly.com.gr/el/property/98988,http 404
+2026-10-19,monopoly.com.gr,https://monopoly.com.gr/el/property/98520,http 404
+2026-10-19,tzemis.gr,https://www.tzemis.gr/properties/%ce%b5%ce%b3%ce%bd%ce%b1%cf%84%ce%af%ce%b1-%ce%b1%ce%b3%ce%af%ce%b1%cf%82-%cf%83%ce%bf%cf%86%ce%af%ce%b1%cf%82-%ce%b5%cf%841754/,http 404
+2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/226556,sold / not available
+2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/512525,sold / not available
+2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/524211,sold / not available
