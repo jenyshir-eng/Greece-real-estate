@@ -929,3 +929,21 @@ date,source_domain,url,reason
 2026-10-19,planethomes.gr,https://www.planethomes.gr/akinito/35823-2/,http 404
 2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/388428,sold / not available
 2026-10-19,grekodom.com,https://www.grekodom.com/realtyobject/7276-for-sale-villa-300-m2-on-the-olympic-coa,http 404
+2026-10-19,remax.gr,https://www.remax.gr/property/287968-enoikiasi-grafeio-akadhmia,not on result pages
+2026-10-19,remax.gr,https://www.remax.gr/property/325921-polisi-diamerisma-katw-pathsia,not on result pages
+2026-10-19,remax.gr,https://www.remax.gr/property/326087-polisi-grafeio-katw-pathsia,not on result pages
+2026-10-19,remax.gr,https://www.remax.gr/property/408343-enoikiasi-diamerisma-ampelokhpoi-pentagwno,not on result pages
+2026-10-19,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/business-for-sale-in-nea-athens-id-a6-449,left the sitemap
+2026-10-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/dde7c2af-be88-450a-8379-73178d1f5990/agia-marina-650-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/de61b63b-cd78-4a97-8910-fa16c3992612/athhna-kallirrohs-550-25,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/de993872-c39d-4b5a-ac6a-4b19edc426d1/peristeri-lofos-axiwmatikwn-650-105,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e9788b0d-33f8-408e-a336-0592f2f9f710/peiraias-kokkinia-450-46,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f80e8907-16b3-4fa0-b469-fbb6203c8459/athhna-agios-artemios-700-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/facd1699-3143-4247-82e0-5b10ae6573a8/athhna-plateia-papadiamanth-750-83,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/fe599103-75a4-46a1-8f3e-029f21e3d485/peristeri-tsalavoyta-700-97,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-19,planethomes.gr,https://www.planethomes.gr/akinito/51235-2/,http 404
+2026-10-19,tsrealestate.gr,https://tsrealestate.gr/el/property/16011,http 404
+2026-10-19,realestateone.gr,https://realestateone.gr/el/property/1553100,redirects to https://realestateone.gr/el/404
+2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/524211,sold / not available
+2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/453548,sold / not available
+2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/535542,sold / not available
