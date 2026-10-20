@@ -1043,3 +1043,11 @@ date,source_domain,url,reason
 2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/535987,sold / not available
 2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/540574,sold / not available
 2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/540097,sold / not available
+2026-10-20,remax.gr,https://www.remax.gr/property/393939-enoikiasi-katastima-agios-iwannhs,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/399149-enoikiasi-katastima-metaksoyrgeio,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/406614-enoikiasi-katastima-fanerwmenh,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/408051-enoikiasi-diamerisma-maroysi,not on result pages
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/453e2395-31cc-4797-b928-8ac1fd517af8/alimos-kalamaki-88000-38,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/4a3b2343-8ddd-48b2-8288-49fc6f2ebb94/neo-psychiko-plateia-eleytherias-180000-108,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/5d540f54-7125-4465-ab7c-7930ab1a7156/athhna-kolwnaki-1150000-146,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/419583,sold / not available
