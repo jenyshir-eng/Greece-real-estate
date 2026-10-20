@@ -1942,3 +1942,18 @@ date,source_domain,url,reason
 2026-10-20,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/117604,http 404
 2026-10-20,grekodom.gr,https://www.grekodom.gr/realtyobject/23764-poleitai-xenodoheio-740-m2-stin-kerkura,http 404
 2026-10-20,remax.gr,https://www.remax.gr/property/385944-polisi-gkarsoniera-studio-katw-pathsia,http 404
+2026-10-20,remax.gr,https://www.remax.gr/property/357876-polisi-diamerisma-8ermh,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/357877-polisi-diamerisma-8ermh,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/367897-polisi-mezoneta-kentro,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/387628-polisi-apothiki-3hrokrhnh,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/390934-polisi-oikopedo-gia-katoikia-agia-triada,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/397381-enoikiasi-diamerisma-8ermh,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/407237-enoikiasi-gkarsoniera-studio-kentro-8essalonikh,not on result pages
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/cc186bbb-44e4-4c59-9240-67ffbb32e310/thessalonikh-kentro-230000-44,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/eefaf080-170a-4f03-b673-ba623894beab/thessalonikh-analhpsh-188000-100,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/f0a157c2-70c7-4888-ba7a-b1bf8b54fcc3/kalamaria-218000-94,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-20,dovile.gr,https://dovile.gr/el/property/73086,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2386860/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2277455/,http 404
+2026-10-20,remax.gr,https://www.remax.gr/property/388996-polisi-diamerisma-plateia-amerikhs,http 404
+2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/516790,sold / not available
