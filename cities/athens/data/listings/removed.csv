@@ -966,3 +966,27 @@ date,source_domain,url,reason
 2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/377353,sold / not available
 2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/529267,sold / not available
 2026-10-19,goldenhome.gr,https://goldenhome.gr/property/view/512525,sold / not available
+2026-10-20,remax.gr,https://www.remax.gr/property/374078-polisi-mezoneta-kentro,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/400194-polisi-diamerisma-neo-psyxiko,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/400969-polisi-diamerisma-khfisia,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/406663-polisi-diamerisma-nea-erythraia,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/407762-polisi-diamerisma-toyfa,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/407919-polisi-diamerisma-katw-peykh,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/408204-polisi-oikopedo-gia-katoikia-pathma-brilhssiwn,not on result pages
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/f2b1c3a4-a9f7-4fc8-99bc-b9018b535753/drapetswna-tampakika-180000-120,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/0e5ee8fa-31cb-4bc0-9503-08a6339a12c2/anw-liosia-drosoypolh-28000-152,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-20,realestateone.gr,https://realestateone.gr/el/property/1552508,redirects to https://realestateone.gr/el/404
+2026-10-20,tsrealestate.gr,https://tsrealestate.gr/el/property/15825,http 404
+2026-10-20,tsrealestate.gr,https://tsrealestate.gr/el/property/15875,http 404
+2026-10-20,vmproperties.gr,https://vmproperties.gr/property/87-3580,http 404
+2026-10-20,kappaland.gr,https://kappaland.gr/aksiopoiisimi-gi/kappaland-pwlisi-oikopedo-anthousa-11325.html,http 404
+2026-10-20,kappaland.gr,https://kappaland.gr/aksiopoiisimi-gi/kappaland-pwlisi-oikopedo-paiania-1525.html,http 404
+2026-10-20,kappaland.gr,https://kappaland.gr/pwliseis/kappaland-pwlisi-diamerisma-agia-paraskevi-5224.html,http 404
+2026-10-20,kappaland.gr,https://kappaland.gr/pwliseis/kappaland-pwlisi-mezoneta-korwpi-51125.html,http 404
+2026-10-20,kappaland.gr,https://kappaland.gr/pwliseis/kappaland-pwlisi-diamerisma-paiania-121125.html,http 404
+2026-10-20,neon-realestate.gr,https://neon-realestate.gr/property/2138880-diamerisma-pros-polisi-kallithea-50-t-m-e205-000/,http 404
+2026-10-20,invistarealestate.gr,https://www.invistarealestate.gr/el-GR/id/26726/__(pros-enikiasi)-epaggelmatikos-choros-grafio-athina-notia-glifada/estate.html,redirects to https://www.invistarealestate.gr/
+2026-10-20,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-2-576/,sold / not available
+2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/525505,sold / not available
+2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/540878,sold / not available
+2026-10-20,hellenicgrounds.gr,https://hellenicgrounds.gr/property/luxury-maisonette-with-private-pool-and-garden-in-voula/1772/,http 404
