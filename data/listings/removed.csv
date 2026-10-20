@@ -1911,3 +1911,34 @@ date,source_domain,url,reason
 2026-10-20,rewize.com,https://rewize.com/en/property/2473,sold / not available
 2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/489263,sold / not available
 2026-10-20,goldenhome.gr,https://goldenhome.gr/property/view/540115,sold / not available
+2026-10-20,remax.gr,https://www.remax.gr/property/277339-enoikiasi-epaggelmatiko-ktirio-kwnstantinopolitika,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/277404-polisi-katastima-kentro,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/277518-enoikiasi-epaggelmatiko-ktirio-kwnstantinopolitika,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/335648-enoikiasi-diamerisma-kentro,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/367831-polisi-mezoneta-palios-oikismos-panoramatos,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/391309-enoikiasi-katastima-agios-rafahl,not on result pages
+2026-10-20,remax.gr,https://www.remax.gr/property/404259-enoikiasi-katastima-kentro,not on result pages
+2026-10-20,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/3d789a35-ed56-47a5-9b63-50d20286191c/peyka-530000-320,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-20,angelou-realestate.gr,https://www.angelou-realestate.gr/single-property-page.php?id=612&sr=2,redirects to https://www.angelou-realestate.gr/noresults.php?id=
+2026-10-20,interakinita.gr,https://interakinita.gr/el/property/2876,http 404
+2026-10-20,monopoly.com.gr,https://monopoly.com.gr/el/property/98360,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2338676/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2338849/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2039883/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2340540/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2107980/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/gr/property/show/545343/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/545343/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2039978/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/gr/property/show/2039978/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/gr/property/show/2107980/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/gr/property/show/2338849/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/gr/property/show/2340540/,http 404
+2026-10-20,elgrekorealestate.com,https://www.elgrekorealestate.com/gr/property/show/2039883/,http 404
+2026-10-20,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/11295,http 404
+2026-10-20,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/12097,http 404
+2026-10-20,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/117786,http 404
+2026-10-20,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/117605,http 404
+2026-10-20,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/117604,http 404
+2026-10-20,grekodom.gr,https://www.grekodom.gr/realtyobject/23764-poleitai-xenodoheio-740-m2-stin-kerkura,http 404
+2026-10-20,remax.gr,https://www.remax.gr/property/385944-polisi-gkarsoniera-studio-katw-pathsia,http 404
