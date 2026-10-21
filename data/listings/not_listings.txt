@@ -2418,6 +2418,8 @@ https://i-house.gr/property/1973?language=se
 https://i-house.gr/property/1974
 https://i-house.gr/property/305
 https://index.cy/el/sale/10881501-1-bedroom-apartment-for-sale-in-agia-paraskevi-limassol-district
+https://index.cy/el/sale/11507473-2-bedroom-apartment-for-sale-in-larnaca-agios-nikolaos-limassol-district
+https://index.cy/el/sale/6922700-2-bedroom-apartment-for-sale-in-larnaca-district
 https://index.cy/sale/10036719-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/pdf
 https://index.cy/sale/10049301-3-bedroom-apartment-for-sale-in-germasogeia-limassol-district/pdf
 https://index.cy/sale/10085787-2-bedroom-apartment-for-sale-in-kamares-larnaca-district/pdf
@@ -2480,8 +2482,10 @@ https://index.cy/sale/11195535-4-bedroom-house-for-sale-in-ineia-paphos-district
 https://index.cy/sale/11251779-3-bedroom-house-for-sale-in-livadia-larnakas-larnaca-district/pdf
 https://index.cy/sale/11331701-5-bedroom-house-for-sale-in-livadia-larnakas-larnaca-district/pdf
 https://index.cy/sale/11379908-4-bedroom-house-for-sale-in-palodeia-limassol-district/pdf
+https://index.cy/sale/11384197-2-bedroom-apartment-for-sale-in-larnaca/pdf
 https://index.cy/sale/11446300-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/pdf
 https://index.cy/sale/11506648-3-bedroom-apartment-for-sale-in-dhekelia-larnaca-district/pdf
+https://index.cy/sale/11507473-2-bedroom-apartment-for-sale-in-larnaca-agios-nikolaos-limassol-district/pdf
 https://index.cy/sale/11507570-2-bedroom-apartment-for-sale-in-asomatos-limassol-district/pdf
 https://index.cy/sale/11507670-2-bedroom-apartment-for-sale-in-asomatos-limassol-district/pdf
 https://index.cy/sale/11511488-3-bedroom-apartment-for-sale-in-dhekelia-larnaca-district/pdf
@@ -2518,6 +2522,7 @@ https://index.cy/sale/11836843-3-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/sale/1307621-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/pdf
 https://index.cy/sale/1398549-2-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/pdf
 https://index.cy/sale/2579324-2-bedroom-apartment-for-sale-in-larnaca/pdf
+https://index.cy/sale/4052656-4-bedroom-house-for-sale-in-anglisides-larnaca-district/pdf
 https://index.cy/sale/4053575-2-bedroom-apartment-for-sale-in-larnaca-district/pdf
 https://index.cy/sale/4366604-3-bedroom-apartment-for-sale-in-larnaca-agios-nikolaos-limassol-district/pdf
 https://index.cy/sale/4394984-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/pdf
@@ -2535,6 +2540,7 @@ https://index.cy/sale/58311-2-bedroom-apartment-for-sale-in-germasogeia-tourist-
 https://index.cy/sale/604559-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/pdf
 https://index.cy/sale/6111735-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/pdf
 https://index.cy/sale/654974-4-bedroom-apartment-for-sale-in-nicosia-district/pdf
+https://index.cy/sale/6922700-2-bedroom-apartment-for-sale-in-larnaca-district/pdf
 https://index.cy/sale/6928942-3-bedroom-apartment-for-sale-in-trachoni-lemesou-limassol-district/pdf
 https://index.cy/sale/6929336-4-bedroom-house-for-sale-in-pissouri-limassol-district/pdf
 https://index.cy/sale/6929790-2-bedroom-apartment-for-sale-in-pyrgos-lemesou-limassol-district/pdf
@@ -7165,6 +7171,8 @@ https://www.elgrekorealestate.com/ru/property/show/2652967
 https://www.elgrekorealestate.com/ru/property/show/2657955
 https://www.elgrekorealestate.com/ru/property/show/2659938
 https://www.elgrekorealestate.com/ru/property/show/2665187
+https://www.elgrekorealestate.com/ru/property/show/2665878
+https://www.elgrekorealestate.com/ru/property/show/2666177
 https://www.elgrekorealestate.com/ru/property/show/435549
 https://www.elgrekorealestate.com/ru/property/show/436615
 https://www.elgrekorealestate.com/ru/property/show/436711
@@ -7721,6 +7729,7 @@ https://www.ependitikiaigaiou.gr/property/8857/Diamerisma-Ano%20Toumpa?language=
 https://www.forumland.gr/istoriko-kentro-diamerisma-pros-enoikiasi_F-24949.html
 https://www.forumland.gr/istoriko-kentro-gkarsoniera-pros-enoikiasi_F-25091.html
 https://www.forumland.gr/kalamaria-agios-panteleimonas-diamerisma-pros-polisi_F-25113.html
+https://www.forumland.gr/kalamaria-karampoyrnaki-diamerisma-pros-polisi_F-24552.html
 https://www.forumland.gr/kalamaria-kentro--pros-enoikiasi_F-24928.html
 https://www.forumland.gr/kalamaria-nea-krini-mezoneta-pros-polisi_F-25101.html
 https://www.forumland.gr/mpotsari-diamerisma-pros-polisi_F-25266.html
