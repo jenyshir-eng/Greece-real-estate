@@ -1094,3 +1094,20 @@ date,source_domain,url,reason
 2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/531837,sold / not available
 2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/531101,sold / not available
 2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/540260,sold / not available
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/cc0bfeaf-6f2f-47d7-9e25-02acf2f83dbb/agia-paraskeyh-agiannhs-270000-115,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/d20adf36-6afa-40b3-a8d6-649a9d515d8a/agios-kwnstantinos-300000-120,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/de79ec74-559c-41a8-97de-62d71c89835a/maroysi-swros-295000-170,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,tsrealestate.gr,https://tsrealestate.gr/el/property/16001,http 404
+2026-10-21,realestateone.gr,https://realestateone.gr/el/property/1553237,redirects to https://realestateone.gr/el/404
+2026-10-21,realestateone.gr,https://realestateone.gr/el/property/1553244,redirects to https://realestateone.gr/el/404
+2026-10-21,vasilopoulosestates.gr,https://vasilopoulosestates.gr/listing/%ce%ba%ce%b1%cf%83%cf%84%cf%81%ce%af-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%ce%b4%ce%ba177/,http 404
+2026-10-21,vasilopoulosestates.gr,https://vasilopoulosestates.gr/listing/%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-%ce%ba%ce%b1%cf%83%cf%84%cf%81%ce%af-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%b4%ce%ba%ce%b125/,http 404
+2026-10-21,vmproperties.gr,https://vmproperties.gr/property/87-3856,http 404
+2026-10-21,grekodom.com,https://www.grekodom.com/realtyobject/8471-for-sale-maisonette-135-m2-in-the-suburb,http 404
+2026-10-21,grekodom.com,https://www.grekodom.com/realtyobject/12982-for-sale-villa-370-m2-in-loutraki,http 404
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/540102,sold / not available
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/385646,sold / not available
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/531290,sold / not available
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/540115,sold / not available
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/520060,sold / not available
+2026-10-21,terra-greca.gr,https://terra-greca.gr/akinita/2334750-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%ac%ce%bd%cf%89-%cf%80%ce%b1%cf%84%ce%ae%cf%83%ce%b9%ce%b1-68/,http 404
