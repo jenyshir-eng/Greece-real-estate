@@ -1071,3 +1071,26 @@ date,source_domain,url,reason
 2026-10-21,irisrealestate.gr,https://irisrealestate.gr/property/%ce%b5%ce%bd%ce%bf%ce%b9%ce%ba%ce%af%ce%b1%cf%83%ce%b7-%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-id-%ce%b54701/,http 404
 2026-10-21,planethomes.gr,https://www.planethomes.gr/akinito/43475-2/,http 404
 2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/536486,sold / not available
+2026-10-21,remax.gr,https://www.remax.gr/property/379297-enoikiasi-katastima-kentro,not on result pages
+2026-10-21,remax.gr,https://www.remax.gr/property/392171-enoikiasi-katastima-kentro,not on result pages
+2026-10-21,remax.gr,https://www.remax.gr/property/406663-polisi-diamerisma-nea-erythraia,not on result pages
+2026-10-21,remax.gr,https://www.remax.gr/property/406927-polisi-diamerisma-amalieio-orfanotrofeio,not on result pages
+2026-10-21,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-penthouse-for-sale-in-kato-patisia-id-a4-2227,left the sitemap
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/a7a81ed1-a88b-431d-85c1-ca44dc15b038/filotheh-349000-114,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ab8a3be3-985a-448f-808f-99d8cba2e8fb/keratsini-limani-119000-80,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/b1600caf-275b-41b0-b6b9-c226fcf3966a/peiraias-neo-falhro-145000-71,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/bbc4aa2e-711f-4693-aea6-5befe9caaff1/athhna-anw-kypselh-110000-50,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/bcf736d5-4b20-4b93-a0b3-091bcda6e7b9/maroysi-kokkinia-80000-40,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/c755f542-6da5-4535-96fd-4e9926278403/gerakas-stayros-365000-95,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/c8aea87a-5f19-4145-9828-cf52e84354cb/glyfada-aixwnh-499000-90,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-21,realestateone.gr,https://realestateone.gr/el/property/1553519,redirects to https://realestateone.gr/el/404
+2026-10-21,tsrealestate.gr,https://tsrealestate.gr/el/property/15988,http 404
+2026-10-21,tsrealestate.gr,https://tsrealestate.gr/el/property/15982,http 404
+2026-10-21,tsrealestate.gr,https://tsrealestate.gr/el/property/15915,http 404
+2026-10-21,tsrealestate.gr,https://tsrealestate.gr/el/property/15773,http 404
+2026-10-21,neon-realestate.gr,https://neon-realestate.gr/property/2592179-oikopedo-pros-polisi-chalandri-332-t-m-e420-000/,http 404
+2026-10-21,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b5%cf%80%ce%b9%cf%80%ce%bb%cf%89%ce%bc%ce%ad%ce%bd%ce%bf-%ce%b4%cf%85%ce%ac%cf%81%ce%b9-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%bb%ce%ac%ce%ba%ce%b1-%ce%b4%ce%af%cf%80%ce%bb%ce%b1-%cf%83%cf%84%ce%b7/1652/,http 404
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/540255,sold / not available
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/531837,sold / not available
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/531101,sold / not available
+2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/540260,sold / not available
