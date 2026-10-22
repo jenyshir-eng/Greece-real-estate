@@ -1200,3 +1200,30 @@ date,source_domain,url,reason
 2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/541489,sold / not available
 2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/406743,sold / not available
 2026-10-22,grekodom.com,https://www.grekodom.com/realtyobject/3333-for-sale-villa-550-m2-in-athens,http 404
+2026-10-22,remax.gr,https://www.remax.gr/property/391622-polisi-oikopedo-gia-katoikia-kentro,not on result pages
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/5c66b47f-27a9-4ab4-8d01-828ffa55c2b3/zwgrafoy-anw-ilisia-470-32,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/61ac23a7-1717-49ec-834d-0cc3a2bcf202/athhna-ampelokhpoi-800-74,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/65f20184-02d0-41d7-9943-d4e534ab2235/kallithea-chrysakh-800-69,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6a8da9a1-387b-4791-981c-ec73963558ff/kitsi-950-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/70d827f6-3cd9-4cbb-b793-eb9caadc642b/khfisia-kentro-4000-213,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/75c01e8d-b10a-483a-a281-3485347f2f06/maroysi-neo-terma-930-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/792f625d-1c48-488f-af4c-8297b9076444/athhna-goyva-700-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/7aa75ae3-6f1b-47ef-a9ac-7b13da43440c/vrilhssia-kentro-1500-135,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/7d6dbce1-4c4d-45b7-a655-f35cbf5ee58f/agia-paraskeyh-hpeiroy-1150-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9200967f-57d4-4e7e-8549-4e1fd0d65b51/athhna-ampelokhpoi-750-87,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9298b986-f452-4a44-ad00-6a8a8a98a0e3/kalyvia-thorikoy-lagonhsi-paralia-4900-300,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9f75e650-c046-416c-948e-b3af7734a9e6/athhna-lofos-lamprakh-520-36,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,leadestate.gr,https://www.leadestate.gr/properties/property_detail/4576,http 404
+2026-10-22,tsrealestate.gr,https://tsrealestate.gr/el/property/15763,http 404
+2026-10-22,kappaland.gr,https://kappaland.gr/aksiopoiisimi-gi/kappaland-pwlisi-oikopedo-koropi-08625.html,http 404
+2026-10-22,kappaland.gr,https://kappaland.gr/aksiopoiisimi-gi/kappaland-pwlisi-oikopedo-koropi-080625.html,http 404
+2026-10-22,kappaland.gr,https://kappaland.gr/aksiopoiisimi-gi/kappaland-pwlisi-oikopedo-koropi-08062025.html,http 404
+2026-10-22,hellenicgrounds.gr,https://hellenicgrounds.gr/property/contemporary-residence-in-voula-with-premium-amenities/1402/,http 404
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/187513,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/350393,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/493309,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/539140,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/472479,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/489263,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/486826,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/532843,sold / not available
