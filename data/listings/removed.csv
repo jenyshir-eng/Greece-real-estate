@@ -2114,3 +2114,9 @@ date,source_domain,url,reason
 2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/403875,sold / not available
 2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/522452,sold / not available
 2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/533666,sold / not available
+2026-10-22,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/976b9877-d44d-456d-9994-94b6cf836562/nea-skiwnh-95000-425,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-10-22,hometarget.gr,https://hometarget.gr/el/property/4153,redirects to https://hometarget.gr/website/error
+2026-10-22,hometarget.gr,https://hometarget.gr/el/property/4089,redirects to https://hometarget.gr/website/error
+2026-10-22,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-full-floor-apartment-1064/,http 404
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/512946,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/538793,sold / not available
