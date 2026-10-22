@@ -1127,3 +1127,27 @@ date,source_domain,url,reason
 2026-10-21,grekodom.com,https://www.grekodom.com/realtyobject/4472-for-sale-business-1250-m2-in-sithonia-ch,http 404
 2026-10-21,hellenicgrounds.gr,https://hellenicgrounds.gr/property/furnished-studio-apartment-ampelokipi-athens/1565/,http 404
 2026-10-21,goldenhome.gr,https://goldenhome.gr/property/view/326577,sold / not available
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/58b19cd3-56d9-443c-bf17-e411523e21f0/zwgrafoy-goydh-550-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/6606c7e0-8868-474c-a3ff-5096b2012c80/athhna-kolwnos-450-68,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7541c487-0872-41c6-8551-92a70648a0f4/vrilhssia-kentro-1300-150,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/772ef614-862b-48cb-bdf7-a4ef9e7ea9ce/glyfada-kentro-1600-78,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/90a50533-1cc4-48bc-9b94-e69ba625bd98/chalandri-katw-chalandri-2500-288,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-22,realestateone.gr,https://realestateone.gr/el/property/1553501,redirects to https://realestateone.gr/el/404
+2026-10-22,tsrealestate.gr,https://tsrealestate.gr/el/property/16019,http 404
+2026-10-22,tsrealestate.gr,https://tsrealestate.gr/el/property/15977,http 404
+2026-10-22,tsrealestate.gr,https://tsrealestate.gr/el/property/15923,http 404
+2026-10-22,tsrealestate.gr,https://tsrealestate.gr/el/property/15974,http 404
+2026-10-22,tsrealestate.gr,https://tsrealestate.gr/el/property/15981,http 404
+2026-10-22,tsrealestate.gr,https://tsrealestate.gr/el/property/15980,http 404
+2026-10-22,tsrealestate.gr,https://tsrealestate.gr/el/property/15976,http 404
+2026-10-22,vasilopoulosestates.gr,https://vasilopoulosestates.gr/listing/%cf%80%ce%bf%ce%bb%cf%85%cf%84%ce%b5%ce%bb%ce%b7%cf%82-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba-%cf%83%cf%84%ce%bf-%cf%80%ce%b1%ce%bd-%ce%b2%ce%bf%cf%85%ce%bb%ce%b1%cf%82-%ce%b2%ce%b9%ce%bb355/,http 404
+2026-10-22,vmproperties.gr,https://vmproperties.gr/property/88-3354,http 404
+2026-10-22,vmproperties.gr,https://vmproperties.gr/property/87-3500,http 404
+2026-10-22,planethomes.gr,https://www.planethomes.gr/akinito/39013-2/,http 404
+2026-10-22,planethomes.gr,https://www.planethomes.gr/akinito/31439-2/,http 404
+2026-10-22,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-2-576/,sold / not available
+2026-10-22,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-583/,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/531299,sold / not available
+2026-10-22,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%cf%83%cf%84%ce%bf-%ce%ba%ce%ad%ce%bd%cf%84%cf%81%ce%bf-%cf%84%ce%b7%cf%82-%cf%87%cf%8e%cf%81%ce%b1%cf%82-%ce%b6%ce%b1%ce%ba%cf%85/1641/,http 404
+2026-10-22,grekodom.com,https://www.grekodom.com/realtyobject/19055-for-sale-hotel-1100-m2-on-the-olympic-c,http 404
+2026-10-22,terra-greca.gr,https://terra-greca.gr/akinita/1883958-studio-%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%cf%80%ce%b1%cf%84%ce%ae%cf%83%ce%b9%ce%b1-37-%cf%84/,http 404
