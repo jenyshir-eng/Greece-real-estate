@@ -1177,3 +1177,26 @@ date,source_domain,url,reason
 2026-10-22,planethomes.gr,https://www.planethomes.gr/akinito/35684-2/,http 404
 2026-10-22,grekodom.com,https://www.grekodom.com/realtyobject/9012-for-sale-business-162-m2-on-the-olympic,http 404
 2026-10-22,grekodom.com,https://www.grekodom.com/realtyobject/30203-for-rent-business-450-m2-on-the-olympic,http 404
+2026-10-22,remax.gr,https://www.remax.gr/property/367569-polisi-oikopedo-gia-katoikia-ekalh,not on result pages
+2026-10-22,remax.gr,https://www.remax.gr/property/391155-polisi-mezoneta-brilhssia,not on result pages
+2026-10-22,remax.gr,https://www.remax.gr/property/402647-polisi-oikopedo-gia-katoikia-maroysi,not on result pages
+2026-10-22,remax.gr,https://www.remax.gr/property/405815-enoikiasi-diamerisma-mets,not on result pages
+2026-10-22,remax.gr,https://www.remax.gr/property/408274-polisi-diamerisma-eykalyptoi-anw-faros,not on result pages
+2026-10-22,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/duplex-apartment-for-sale-in-chalandri-athens,left the sitemap
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/248e886c-aa50-4aa9-8777-c8965f4855d0/ekalh-880-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/2b7ac113-83de-4f69-a63f-c5217d7eb107/neo-psychiko-plateia-eleytherias-1700-156,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/2bf30330-282d-4dae-a84c-f2f632e2eccb/nea-erythraia-kastri-1250-110,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/2f62a960-e3dc-4721-b376-ccc8fce46364/athhna-agios-thwmas-750-82,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3308f55e-d42b-4163-a6d5-e9e147ea4a6d/anavyssos-3500-250,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3734d026-9c57-41f2-8e20-b1cf9ab08f59/moschato-580-48,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/40834f77-5c3a-4a4d-b93a-cb93f994295c/alimos-kythhriwn-pani-3300-150,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/409efec5-f354-42ca-8836-b74e1a248ff0/moschato-700-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/429e4f51-6b11-473c-8160-2b2aa2527853/athhna-agios-thwmas-500-25,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/54ffde92-915f-4982-aae8-68f626401b3f/kallithea-tzitzifies-1000-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/568f787a-d674-4dd6-a1b8-1b10b9d36f34/vyrwnas-680-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-22,planethomes.gr,https://www.planethomes.gr/akinito/43555-2/,http 404
+2026-10-22,planethomes.gr,https://www.planethomes.gr/akinito/40202-2/,http 404
+2026-10-22,realestateone.gr,https://realestateone.gr/el/property/1552018,redirects to https://realestateone.gr/el/404
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/541489,sold / not available
+2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/406743,sold / not available
+2026-10-22,grekodom.com,https://www.grekodom.com/realtyobject/3333-for-sale-villa-550-m2-in-athens,http 404
