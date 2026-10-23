@@ -1263,3 +1263,31 @@ date,source_domain,url,reason
 2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/538827,sold / not available
 2026-10-23,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-570/,sold / not available
 2026-10-23,grekodom.com,https://www.grekodom.com/realtyobject/30198-for-sale-business-450-m2-on-the-olympic,http 404
+2026-10-23,remax.gr,https://www.remax.gr/property/353803-polisi-diamerisma-neo-psyxiko,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/356131-enoikiasi-grafeio-hrakleio,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/356132-polisi-grafeio-hrakleio,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/356198-polisi-ktirio--hrakleio,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/356199-enoikiasi-ktirio--hrakleio,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/394918-enoikiasi-diamerisma-anw-brilhssia,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/404202-enoikiasi-grafeio-eksarxeia-neapolh,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/406437-polisi-monokatoikia-agia-paraskeyh,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/406946-polisi-diamerisma-plateia-dhmokratias,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/408827-enoikiasi-diamerisma-brilhssia,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/408828-enoikiasi-diamerisma-brilhssia,not on result pages
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/faa2c6e9-081c-4d5f-863d-18f5e4cccb81/petroypolh-khpoypolh-620-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/fc1e01d4-0fb5-4294-8f56-cc6fe55befea/nikaia-aspra-chwmata-600-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15946,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15945,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15944,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15943,http 404
+2026-10-23,realestateone.gr,https://realestateone.gr/el/property/1552908,redirects to https://realestateone.gr/el/404
+2026-10-23,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=689261b9-1df5-4d51-9c37-ae229956abb7,redirects to https://bee-realestate.gr/errorPage
+2026-10-23,vmproperties.gr,https://vmproperties.gr/property/84-3808,http 404
+2026-10-23,planethomes.gr,https://www.planethomes.gr/akinito/43681-2/,http 404
+2026-10-23,irisrealestate.gr,https://irisrealestate.gr/property/%ce%b5%ce%bd%ce%bf%ce%b9%ce%ba%ce%af%ce%b1%cf%83%ce%b7-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-2%ce%ac%cf%81%ce%b9-id-%ce%b5-4877/,http 404
+2026-10-23,neon-realestate.gr,https://neon-realestate.gr/property/2657753-diamerisma-pros-polisi-vyronas-55-t-m-e80-000/,http 404
+2026-10-23,neon-realestate.gr,https://neon-realestate.gr/property/2557082-diamerisma-pros-enoikiasi-palaio-faliro-80-t-m-e1-250/,http 404
+2026-10-23,neon-realestate.gr,https://neon-realestate.gr/property/2526361-diamerisma-pros-enoikiasi-kastella-pasalimani-45-t-m-e700/,http 404
+2026-10-23,neon-realestate.gr,https://neon-realestate.gr/property/2656163-studio-gkarsoniera-pros-enoikiasi-kallithea-32-t-m-e540/,http 404
+2026-10-23,neon-realestate.gr,https://neon-realestate.gr/property/2445202-diamerisma-pros-enoikiasi-neos-kosmos-85-t-m-e700/,http 404
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/226556,sold / not available
