@@ -1227,3 +1227,39 @@ date,source_domain,url,reason
 2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/489263,sold / not available
 2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/486826,sold / not available
 2026-10-22,goldenhome.gr,https://goldenhome.gr/property/view/532843,sold / not available
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/aedfb0d4-be04-4d34-b06c-67acba6ae77c/athhna-katw-pathsia-460-78,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b11b4fd0-4f6d-413a-b1ff-ed62e849e062/athhna-nea-kypselh-700-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b4d6ae4c-b1b2-4a38-868f-881373716447/maroysi-neo-terma-1100-115,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b62eed13-e67e-4ae5-ba49-744b75fa863d/chalandri-dhmarcheio-950-95,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/bd7ebcc3-f14e-4f91-8e26-8c16bc8ee736/nea-erythraia-kastri-6000-650,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c282c786-dcea-4010-9f4e-ef2c34bdb8d9/voyla-dikhgorika-8500-250,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ca3bbf64-0b21-4588-888e-23eb50dbceb4/zwgrafoy-370-24,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/cf363c5e-eb77-4c93-b6b7-565dc9f7fc06/athhna-thhseio-1200-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-23,leadestate.gr,https://www.leadestate.gr/properties/property_detail/4654,http 404
+2026-10-23,leadestate.gr,https://www.leadestate.gr/properties/property_detail/4650,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/16056,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/16057,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15995,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15997,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15994,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15993,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15991,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15989,http 404
+2026-10-23,realestateone.gr,https://realestateone.gr/el/property/1553887,redirects to https://realestateone.gr/el/404
+2026-10-23,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=025ca5f9-9f1a-4503-9e12-12a03186b2f2,redirects to https://bee-realestate.gr/errorPage
+2026-10-23,vmproperties.gr,https://vmproperties.gr/property/84-2695,http 404
+2026-10-23,vmproperties.gr,https://vmproperties.gr/property/86-3176,http 404
+2026-10-23,vmproperties.gr,https://vmproperties.gr/property/86-3177,http 404
+2026-10-23,vmproperties.gr,https://vmproperties.gr/property/87-3845,http 404
+2026-10-23,vmproperties.gr,https://vmproperties.gr/property/87-3857,http 404
+2026-10-23,vmproperties.gr,https://vmproperties.gr/property/87-3858,http 404
+2026-10-23,planethomes.gr,https://www.planethomes.gr/akinito/33365-2/,http 404
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/534259,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/539421,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/445132,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/512745,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/511404,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/525021,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/538827,sold / not available
+2026-10-23,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-570/,sold / not available
+2026-10-23,grekodom.com,https://www.grekodom.com/realtyobject/30198-for-sale-business-450-m2-on-the-olympic,http 404
