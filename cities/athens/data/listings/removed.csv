@@ -1291,3 +1291,21 @@ date,source_domain,url,reason
 2026-10-23,neon-realestate.gr,https://neon-realestate.gr/property/2656163-studio-gkarsoniera-pros-enoikiasi-kallithea-32-t-m-e540/,http 404
 2026-10-23,neon-realestate.gr,https://neon-realestate.gr/property/2445202-diamerisma-pros-enoikiasi-neos-kosmos-85-t-m-e700/,http 404
 2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/226556,sold / not available
+2026-10-23,remax.gr,https://www.remax.gr/property/332686-polisi-katastima-xalandri,not on result pages
+2026-10-23,remax.gr,https://www.remax.gr/property/346709-polisi-apothiki-metamorfwsh,not on result pages
+2026-10-23,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/building-for-sale-in-athens-id-ab-1054,left the sitemap
+2026-10-23,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/89b1caa8-7762-4206-a2bd-4f3f47aa3529/chalandri-dhmarcheio-950000-330,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-23,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/8a15ef6e-12e4-4c3a-9e64-8548f7ce70eb/ilion-riminitwn-285000-102,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-23,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b6b432ba-8f51-4d24-9385-0a0ced077283/passarwna-886000-3322,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-23,grecahouse.com,https://grecahouse.com/el/properties/108426-diamerisma-marousi-neo-terma-75sqm,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15952,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15949,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15948,http 404
+2026-10-23,tsrealestate.gr,https://tsrealestate.gr/el/property/15947,http 404
+2026-10-23,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=959e8496-15cb-4efa-a6d1-b29583e20fae,redirects to https://bee-realestate.gr/errorPage
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/475091,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/415295,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/407196,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/403875,sold / not available
+2026-10-23,goldenhome.gr,https://goldenhome.gr/property/view/540076,sold / not available
+2026-10-23,grekodom.com,https://www.grekodom.com/realtyobject/3830-for-sale-detached-house-408-m2-on-the-is,http 404
