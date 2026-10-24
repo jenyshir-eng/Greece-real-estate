@@ -2260,3 +2260,16 @@ date,source_domain,url,reason
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/531290,sold / not available
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/539008,sold / not available
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/535379,sold / not available
+2026-10-24,remax.gr,https://www.remax.gr/property/278143-polisi-oikopedo-gia-katoikia-agxialos,not on result pages
+2026-10-24,remax.gr,https://www.remax.gr/property/355735-polisi-grafeio-kentro,not on result pages
+2026-10-24,remax.gr,https://www.remax.gr/property/358786-polisi-mezoneta-perioxh-aerodromioy,not on result pages
+2026-10-24,remax.gr,https://www.remax.gr/property/406855-enoikiasi-gkarsoniera-studio-8ermaikos,not on result pages
+2026-10-24,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/a17fcae2-e51e-4d9e-8334-9e3d353b2e67/eyosmos-170000-76,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-24,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/a57a29ff-c36c-4813-a41d-e161a3996328/thessalonikh-katw-toympa-188000-90,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-24,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/bfac3a56-2f93-4678-a464-161fa4143180/pylaia-109000-30,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-24,monopoly.com.gr,https://monopoly.com.gr/el/property/93663,http 404
+2026-10-24,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=838d6c53-c7b2-4080-b1a9-278289a8f3f1,redirects to https://bee-realestate.gr/errorPage
+2026-10-24,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121341,http 404
+2026-10-24,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121253,http 404
+2026-10-24,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121037,http 404
+2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/467113,sold / not available
