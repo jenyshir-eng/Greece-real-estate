@@ -2280,3 +2280,14 @@ date,source_domain,url,reason
 2026-10-24,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/en/property/plot-neapoli-3-4152/,http 404
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/343252,sold / not available
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/539816,sold / not available
+2026-10-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/1c6204e2-a8a1-492e-8391-81c83925b00c/thessalonikh-katw-toympa-500-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/28c2070a-692d-402f-b9ac-4e52f4eec994/thessalonikh-analhpsh-450-52,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/46582601-d09a-4676-ba20-830ea502c3a0/thessalonikh-falhro-400-37,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/924f555f-6aca-4dc0-a201-18f7914ebafa/thessalonikh-katw-toympa-600-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b5422f80-6ede-4a10-8207-caf1a6a2f276/thessalonikh-analhpsh-320-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-24,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/12036,http 404
+2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/522344,sold / not available
+2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/539855,sold / not available
+2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/331881,sold / not available
+2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/529854,sold / not available
+2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/540854,sold / not available
