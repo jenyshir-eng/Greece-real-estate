@@ -2273,3 +2273,10 @@ date,source_domain,url,reason
 2026-10-24,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121253,http 404
 2026-10-24,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121037,http 404
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/467113,sold / not available
+2026-10-24,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/de198efb-c7cd-4b1a-bc3e-713126134fc3/kalamaria-325000-82,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/33134e83-da0b-4831-86c7-cd853b4698c6/thessalonikh-kentro-430-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7c34b396-b9d4-4ced-8fce-9ff6195a57d5/thessalonikh-kentro-1800-138,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-24,bee-panoramic.gr,https://bee-realestate.gr/property?lang=el&id=6764921c-e049-47e5-aeb8-e10e22b558c8,redirects to https://bee-realestate.gr/errorPage
+2026-10-24,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/en/property/plot-neapoli-3-4152/,http 404
+2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/343252,sold / not available
+2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/539816,sold / not available
