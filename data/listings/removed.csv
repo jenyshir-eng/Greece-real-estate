@@ -2325,3 +2325,9 @@ date,source_domain,url,reason
 2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/524380,sold / not available
 2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/536108,sold / not available
 2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/536112,sold / not available
+2026-10-25,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/5be09dde-234d-4b1d-a28b-1d903871c3dc/thessalonikh-analhpsh-165000-50,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-25,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=689261b9-1df5-4d51-9c37-ae229956abb7,redirects to https://bee-realestate.gr/errorPage
+2026-10-25,bee-panoramic.gr,https://bee-realestate.gr/property?lang=el&id=838d6c53-c7b2-4080-b1a9-278289a8f3f1,redirects to https://bee-realestate.gr/errorPage
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/542698,sold / not available
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/540019,sold / not available
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/538789,sold / not available
