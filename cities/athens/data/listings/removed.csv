@@ -1381,3 +1381,8 @@ date,source_domain,url,reason
 2026-10-25,vmproperties.gr,https://vmproperties.gr/property/88-3414,http 404
 2026-10-25,kappaland.gr,https://kappaland.gr/pwliseis/kappaland-pwlisi-monokatoikia-paiania-572024.html,http 404
 2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/520363,sold / not available
+2026-10-25,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/3aac5991-2f81-4a83-a572-0ef0935af9e5/agios-dhmhtrios-attikhs-nekrotafeio-510000-526,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-25,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/50e182f3-1e24-41d9-ab5e-5403959e238d/acharnes-lathea-155000-70,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/540019,sold / not available
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/466323,sold / not available
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/532329,sold / not available
