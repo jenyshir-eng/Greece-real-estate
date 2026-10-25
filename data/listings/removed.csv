@@ -2298,3 +2298,25 @@ date,source_domain,url,reason
 2026-10-25,katikia.com.gr,https://katikia.com.gr/el/property/2509,http 404
 2026-10-25,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123315,http 404
 2026-10-25,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=6764921c-e049-47e5-aeb8-e10e22b558c8,redirects to https://bee-realestate.gr/errorPage
+2026-10-25,remax.gr,https://www.remax.gr/property/371840-polisi-diamerisma-3hrokrhnh,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/376211-polisi-diamerisma-stathmos-ose,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/378655-polisi-diamerisma-triandria,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/395441-polisi-diamerisma-ntepw,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/395884-polisi-diamerisma-agia-sofia,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/396957-polisi-diamerisma-triandria,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/400052-polisi-diamerisma-xarilaoy,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/402330-polisi-diamerisma-anw-polh,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/405606-polisi-mezoneta-katw-toympa,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/407544-polisi-monokatoikia-anw-polh,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/407678-polisi-diamerisma-istoriko-kentro,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/407848-polisi-diamerisma-analhpsh,not on result pages
+2026-10-25,remax.gr,https://www.remax.gr/property/408009-polisi-diamerisma-dioikhthrio,not on result pages
+2026-10-25,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/eb547350-cb78-49d5-bdc2-c447632413c9/eyosmos-600-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-25,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f1d37d22-8e46-4c56-8133-61067e7d6572/thessalonikh-anw-polh-350-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-25,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f6288935-5972-4832-b24e-005da1086fe5/thessalonikh-charilaoy-330-34,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-25,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/fe440e43-8818-41ee-8188-7df47009cdef/thessalonikh-vardarh-680-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/512898,sold / not available
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/389703,sold / not available
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/486826,sold / not available
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/502959,sold / not available
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/326577,sold / not available
