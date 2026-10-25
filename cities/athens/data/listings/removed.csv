@@ -1372,3 +1372,12 @@ date,source_domain,url,reason
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/536977,sold / not available
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/522452,sold / not available
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/524380,sold / not available
+2026-10-25,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/02ee19fc-db31-4a3c-bc56-72f28c604934/palaio-falhro-plateia-ntavarh-130000-40,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-25,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/0bf036c6-3917-4cfe-b323-305238a2b172/gerakas-garghttos-ii-470000-138,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-25,kroikos.gr,https://kroikos.gr/el/katoikies/enoikiasi/1933-112-m2-fully-redesigned-in-vibrant-kypseli,http 404
+2026-10-25,tsrealestate.gr,https://tsrealestate.gr/el/property/16008,http 404
+2026-10-25,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=838d6c53-c7b2-4080-b1a9-278289a8f3f1,redirects to https://bee-realestate.gr/errorPage
+2026-10-25,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-3%ce%b1%cf%81%ce%b9-%cf%83%ce%b5-%cf%80%ce%bf%ce%bb%cf%85%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-id-%cf%803964/,http 404
+2026-10-25,vmproperties.gr,https://vmproperties.gr/property/88-3414,http 404
+2026-10-25,kappaland.gr,https://kappaland.gr/pwliseis/kappaland-pwlisi-monokatoikia-paiania-572024.html,http 404
+2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/520363,sold / not available
