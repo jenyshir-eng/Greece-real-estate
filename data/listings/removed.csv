@@ -2291,3 +2291,10 @@ date,source_domain,url,reason
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/331881,sold / not available
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/529854,sold / not available
 2026-10-24,goldenhome.gr,https://goldenhome.gr/property/view/540854,sold / not available
+2026-10-25,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ba73889d-fa24-4f0a-afff-217173fb7370/thessalonikh-kentro-1100-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-25,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d2619991-d939-4f55-b07d-d91949a50b3d/peraia-900-126,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-25,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d38a8294-2604-423a-b2d6-0c88b8fa8621/kalamaria-1200-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-25,dora.estate,https://dora.estate/property/%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-116-%cf%84-%ce%bc/,http 404
+2026-10-25,katikia.com.gr,https://katikia.com.gr/el/property/2509,http 404
+2026-10-25,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123315,http 404
+2026-10-25,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=6764921c-e049-47e5-aeb8-e10e22b558c8,redirects to https://bee-realestate.gr/errorPage
