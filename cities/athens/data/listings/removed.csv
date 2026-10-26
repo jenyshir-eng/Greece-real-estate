@@ -1406,3 +1406,14 @@ date,source_domain,url,reason
 2026-10-26,realestateone.gr,https://realestateone.gr/el/property/1554146,redirects to https://realestateone.gr/el/404
 2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/519255,sold / not available
 2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/467113,sold / not available
+2026-10-26,remax.gr,https://www.remax.gr/property/367486-polisi-oikopedo-gia-epaggelmatiki-chrisi-maroysi,not on result pages
+2026-10-26,remax.gr,https://www.remax.gr/property/368351-polisi-diamerisma-agios-petros,not on result pages
+2026-10-26,remax.gr,https://www.remax.gr/property/378013-polisi-diamerisma-nea-smyrnh,not on result pages
+2026-10-26,remax.gr,https://www.remax.gr/property/388951-polisi-diamerisma-anw-kalamaki,not on result pages
+2026-10-26,remax.gr,https://www.remax.gr/property/398987-polisi-diamerisma-nekrotafeia,not on result pages
+2026-10-26,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/e89e2860-d9eb-4deb-9eaf-e5d19b5a8c17/psychiko-1100000-170,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-26,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/026dfd29-d30a-41cc-9ddb-fa4b63c2b201/ilion-kentro-3600-400,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-26,vrettos-estate.gr,https://www.vrettos-estate.gr/portfolio-items/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-115%cf%84%ce%bc-%ce%b8%cf%81%ce%b1%ce%ba%ce%bf%ce%bc%ce%b1%ce%ba%ce%b5%ce%b4%cf%8c%ce%bd%ce%b5%cf%82/,http 404
+2026-10-26,attractionproperties.gr,https://attractionproperties.gr/el/property/1495,http 404
+2026-10-26,attractionproperties.gr,https://attractionproperties.gr/el/property/1476,http 404
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/542603,sold / not available
