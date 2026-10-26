@@ -1430,3 +1430,7 @@ date,source_domain,url,reason
 2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/539521,sold / not available
 2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/521823,sold / not available
 2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/220219,sold / not available
+2026-10-26,remax.gr,https://www.remax.gr/property/394662-polisi-oikopedo-gia-katoikia-metamorfwsh,not on result pages
+2026-10-26,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/4f8f4cd6-4fa0-49f5-a478-0ca90f852b3f/thessalonikh-vardarh-350-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-26,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/54bee593-fcc8-4bec-bc92-16058e5c5add/athhna-ellhnorwswn-3500-438,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/542317,sold / not available
