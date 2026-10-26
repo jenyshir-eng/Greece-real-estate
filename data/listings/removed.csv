@@ -2331,3 +2331,17 @@ date,source_domain,url,reason
 2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/542698,sold / not available
 2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/540019,sold / not available
 2026-10-25,goldenhome.gr,https://goldenhome.gr/property/view/538789,sold / not available
+2026-10-26,remax.gr,https://www.remax.gr/property/405423-polisi-katastima-martioy,not on result pages
+2026-10-26,remax.gr,https://www.remax.gr/property/407669-enoikiasi-diamerisma-istoriko-kentro,not on result pages
+2026-10-26,remax.gr,https://www.remax.gr/property/408780-enoikiasi-diamerisma-leykos-pyrgos,not on result pages
+2026-10-26,remax.gr,https://www.remax.gr/property/408795-enoikiasi-gkarsoniera-studio-analhpsh,not on result pages
+2026-10-26,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/622f215f-a27e-46c7-8c51-989e244ccded/thessalonikh-papafeio-85000-30,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-26,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/9d8d1f31-21b5-478c-8ec6-597df4498047/thessalonikh-papafeio-105000-45,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-26,politia.gr,https://politia.gr/el/property/71975,http 404
+2026-10-26,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=959e8496-15cb-4efa-a6d1-b29583e20fae,redirects to https://bee-realestate.gr/errorPage
+2026-10-26,bee-panoramic.gr,https://bee-realestate.gr/property?lang=el&id=689261b9-1df5-4d51-9c37-ae229956abb7,redirects to https://bee-realestate.gr/errorPage
+2026-10-26,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/120768,http 404
+2026-10-26,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/120725,http 404
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/220219,sold / not available
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/529125,sold / not available
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/402875,sold / not available

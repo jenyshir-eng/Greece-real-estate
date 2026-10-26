@@ -3180,6 +3180,7 @@ https://edmaestate.gr/property.php?id=1347
 https://edmaestate.gr/property.php?id=1351
 https://edmaestate.gr/property.php?id=1360
 https://edmaestate.gr/property.php?id=1361
+https://edmaestate.gr/property.php?id=1362
 https://edmaestate.gr/property.php?id=1363
 https://edmaestate.gr/property.php?id=1367
 https://edmaestate.gr/property.php?id=1368
@@ -4273,6 +4274,7 @@ https://goldenhome.gr/property/view/255562
 https://goldenhome.gr/property/view/255737
 https://goldenhome.gr/property/view/257611
 https://goldenhome.gr/property/view/257619
+https://goldenhome.gr/property/view/258398
 https://goldenhome.gr/property/view/258762
 https://goldenhome.gr/property/view/259187
 https://goldenhome.gr/property/view/259972
@@ -5031,6 +5033,7 @@ https://goldenhome.gr/property/view/460861
 https://goldenhome.gr/property/view/460908
 https://goldenhome.gr/property/view/460926
 https://goldenhome.gr/property/view/460930
+https://goldenhome.gr/property/view/460967
 https://goldenhome.gr/property/view/461494
 https://goldenhome.gr/property/view/461798
 https://goldenhome.gr/property/view/461799
@@ -5323,6 +5326,7 @@ https://goldenhome.gr/property/view/491098
 https://goldenhome.gr/property/view/491231
 https://goldenhome.gr/property/view/491245
 https://goldenhome.gr/property/view/491257
+https://goldenhome.gr/property/view/491462
 https://goldenhome.gr/property/view/491523
 https://goldenhome.gr/property/view/491665
 https://goldenhome.gr/property/view/491669
@@ -5460,6 +5464,7 @@ https://goldenhome.gr/property/view/501082
 https://goldenhome.gr/property/view/501158
 https://goldenhome.gr/property/view/501208
 https://goldenhome.gr/property/view/501232
+https://goldenhome.gr/property/view/501274
 https://goldenhome.gr/property/view/501352
 https://goldenhome.gr/property/view/501384
 https://goldenhome.gr/property/view/501406
@@ -5536,6 +5541,7 @@ https://goldenhome.gr/property/view/504927
 https://goldenhome.gr/property/view/504966
 https://goldenhome.gr/property/view/504970
 https://goldenhome.gr/property/view/504973
+https://goldenhome.gr/property/view/504986
 https://goldenhome.gr/property/view/505003
 https://goldenhome.gr/property/view/505007
 https://goldenhome.gr/property/view/505010
@@ -6107,6 +6113,7 @@ https://goldenhome.gr/property/view/527764
 https://goldenhome.gr/property/view/527766
 https://goldenhome.gr/property/view/527802
 https://goldenhome.gr/property/view/527824
+https://goldenhome.gr/property/view/527832
 https://goldenhome.gr/property/view/527873
 https://goldenhome.gr/property/view/527934
 https://goldenhome.gr/property/view/527960
@@ -7538,6 +7545,9 @@ https://goldenhome.gr/property/view/542113
 https://goldenhome.gr/property/view/542114
 https://goldenhome.gr/property/view/542123
 https://goldenhome.gr/property/view/542125
+https://goldenhome.gr/property/view/542127
+https://goldenhome.gr/property/view/542129
+https://goldenhome.gr/property/view/542130
 https://goldenhome.gr/property/view/542131
 https://goldenhome.gr/property/view/542150
 https://goldenhome.gr/property/view/542151
@@ -7776,6 +7786,7 @@ https://gproperty.gr/en/property/for-sale-bright-through-apartment-104sqm-kamara
 https://gproperty.gr/en/property/for-sale-commercial-property-244sqm-voulgari/
 https://gproperty.gr/en/property/for-sale-excellent-through-apartment-110sqm-under-egnatia-street/
 https://gproperty.gr/en/property/for-sale-exceptional-plot-140sqm-ano-poli/
+https://gproperty.gr/en/property/for-sale-fully-renovated-apartment-117sqm-sykies/
 https://gproperty.gr/en/property/for-sale-newly-built-apartment-117sqm-thermi/
 https://gproperty.gr/en/property/for-sale-newly-built-apartment-with-mezzanine-104sqm-thermi/
 https://gproperty.gr/en/property/for-sale-newly-built-penthouse-maisonette-147sqm-thermi/
@@ -9141,6 +9152,7 @@ https://index.cy/rent/11938908-4-bedroom-house-for-rent-in-nicosia-district/
 https://index.cy/rent/11938933-3-bedroom-apartment-for-rent-in-limassol-zakaki/
 https://index.cy/rent/11939068-3-bedroom-apartment-for-rent-in-limassol-district/
 https://index.cy/rent/11940910-3-bedroom-house-for-rent-in-pegeia-paphos-district/
+https://index.cy/rent/12025741-3-bedroom-apartment-for-rent-in-limassol-agia-fyla/
 https://index.cy/sale/10027148-42sqm-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/sale/10028409-1-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
 https://index.cy/sale/10036719-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
@@ -9234,6 +9246,7 @@ https://index.cy/sale/10504033-5-bedroom-house-for-sale-in-livadia-larnakas-larn
 https://index.cy/sale/10504744-5-bedroom-house-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10506590-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10506986-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/10507045-1-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10507401-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10508379-1-bedroom-apartment-for-sale-in-limassol-zakaki/
 https://index.cy/sale/10558335-2-bedroom-apartment-for-sale-in-drosia-larnaca-district/
@@ -9285,6 +9298,7 @@ https://index.cy/sale/10722983-4-bedroom-house-for-sale-in-voroklini-tourist-are
 https://index.cy/sale/10725022-3-bedroom-apartment-for-sale-in-larnaca-chrysopolitissa/
 https://index.cy/sale/10732662-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10732684-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/10732717-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10733831-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10735152-1257sqm-plot-for-sale-in-moniatis-limassol-district/
 https://index.cy/sale/10777792-2-bedroom-apartment-for-sale-in-paralimni-famagusta-district/
@@ -9494,11 +9508,16 @@ https://index.cy/sale/11641787-3-bedroom-house-for-sale-in-agia-thekla-famagusta
 https://index.cy/sale/11642581-2-bedroom-apartment-for-sale-in-kapparis-famagusta-district/
 https://index.cy/sale/11643313-4-bedroom-house-for-sale-in-protaras-famagusta-district/
 https://index.cy/sale/11643370-2-bedroom-house-for-sale-in-agia-thekla-famagusta-district/
+https://index.cy/sale/11644025-5-bedroom-house-for-sale-in-protaras-famagusta-district/
+https://index.cy/sale/11644119-4-bedroom-house-for-sale-in-kapparis-famagusta-district/
 https://index.cy/sale/11644142-1-bedroom-apartment-for-sale-in-paralimni-famagusta-district/
+https://index.cy/sale/11644537-5-bedroom-house-for-sale-in-famagusta-agia-napa/
 https://index.cy/sale/11644599-2-bedroom-apartment-for-sale-in-sotira-famagusta-district/
+https://index.cy/sale/11644843-4-bedroom-house-for-sale-in-protaras-famagusta-district/
 https://index.cy/sale/11644902-2-bedroom-apartment-for-sale-in-paralimni-famagusta-district/
 https://index.cy/sale/11645005-2-bedroom-house-for-sale-in-frenaros-famagusta-district/
 https://index.cy/sale/11645052-1-bedroom-apartment-for-sale-in-kapparis-famagusta-district/
+https://index.cy/sale/11645108-3-bedroom-house-for-sale-in-agia-thekla-famagusta-district/
 https://index.cy/sale/11645320-1-bedroom-apartment-for-sale-in-paralimni-famagusta-district/
 https://index.cy/sale/11645366-3-bedroom-house-for-sale-in-frenaros-famagusta-district/
 https://index.cy/sale/11645377-3-bedroom-house-for-sale-in-frenaros-famagusta-district/
@@ -9513,6 +9532,7 @@ https://index.cy/sale/11646673-3-bedroom-house-for-sale-in-frenaros-famagusta-di
 https://index.cy/sale/11646688-3-bedroom-house-for-sale-in-sotira-famagusta-district/
 https://index.cy/sale/11646781-2-bedroom-house-for-sale-in-kapparis-famagusta-district/
 https://index.cy/sale/11646848-2-bedroom-house-for-sale-in-sotira-famagusta-district/
+https://index.cy/sale/11646871-4-bedroom-house-for-sale-in-kapparis-famagusta-district/
 https://index.cy/sale/11646976-3-bedroom-house-for-sale-in-pernera-famagusta-district/
 https://index.cy/sale/11646991-2-bedroom-apartment-for-sale-in-paralimni-famagusta-district/
 https://index.cy/sale/11647011-2-bedroom-apartment-for-sale-in-paralimni-famagusta-district/
@@ -9524,6 +9544,7 @@ https://index.cy/sale/11647186-3-bedroom-house-for-sale-in-famagusta-agia-napa/
 https://index.cy/sale/11647225-4-bedroom-house-for-sale-in-famagusta-agia-napa/
 https://index.cy/sale/11647265-2-bedroom-house-for-sale-in-frenaros-famagusta-district/
 https://index.cy/sale/11647285-3-bedroom-house-for-sale-in-frenaros-famagusta-district/
+https://index.cy/sale/11647349-4-bedroom-house-for-sale-in-paralimni-famagusta-district/
 https://index.cy/sale/11647407-31sqm-apartment-for-sale-in-kapparis-famagusta-district/
 https://index.cy/sale/11647415-1-bedroom-apartment-for-sale-in-deryneia-famagusta-district/
 https://index.cy/sale/11647488-3-bedroom-apartment-for-sale-in-kapparis-famagusta-district/
@@ -9901,6 +9922,7 @@ https://index.cy/sale/11820100-4-bedroom-apartment-for-sale-in-limassol-district
 https://index.cy/sale/11820117-4-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11820134-4-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11820175-3-bedroom-house-for-sale-in-geroskipou-paphos-district/
+https://index.cy/sale/11820209-3-bedroom-house-for-sale-in-famagusta-agia-napa/
 https://index.cy/sale/11820243-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/11820296-1-bedroom-apartment-for-sale-in-paphos-moutallos/
 https://index.cy/sale/11820305-4-bedroom-house-for-sale-in-limassol-agios-athanasios/
@@ -10294,6 +10316,7 @@ https://index.cy/sale/11892448-3-bedroom-apartment-for-sale-in-paphos-district/
 https://index.cy/sale/11892907-2-bedroom-apartment-for-sale-in-paphos-district/
 https://index.cy/sale/11892954-2-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
 https://index.cy/sale/11893209-3-bedroom-house-for-sale-in-kissonerga-paphos-district/
+https://index.cy/sale/11895848-3-bedroom-house-for-sale-in-famagusta-agia-napa/
 https://index.cy/sale/11895879-2-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/sale/11895897-2-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/sale/11896094-2-bedroom-apartment-for-sale-in-kato-polemidia-limassol-district/
@@ -10463,6 +10486,7 @@ https://index.cy/sale/11939049-3-bedroom-apartment-for-sale-in-aradippou-larnaca
 https://index.cy/sale/11939070-2-bedroom-apartment-for-sale-in-vergina-larnaca-district/
 https://index.cy/sale/11939100-3-bedroom-apartment-for-sale-in-vergina-larnaca-district/
 https://index.cy/sale/11939137-2-bedroom-apartment-for-sale-in-vergina-larnaca-district/
+https://index.cy/sale/11939148-4-bedroom-house-for-sale-in-kato-paphos/
 https://index.cy/sale/11939177-2-bedroom-apartment-for-sale-in-vergina-larnaca-district/
 https://index.cy/sale/11939212-2-bedroom-apartment-for-sale-in-vergina-larnaca-district/
 https://index.cy/sale/11939312-3-bedroom-apartment-for-sale-in-vergina-larnaca-district/
@@ -10532,6 +10556,7 @@ https://index.cy/sale/11950039-3-bedroom-house-for-sale-in-limassol-agia-fyla/
 https://index.cy/sale/11950076-3-bedroom-apartment-for-sale-in-ypsonas-limassol-district/
 https://index.cy/sale/11950099-2-bedroom-apartment-for-sale-in-paralimni-famagusta-district/
 https://index.cy/sale/11950128-2-bedroom-apartment-for-sale-in-kapparis-famagusta-district/
+https://index.cy/sale/11950136-5-bedroom-house-for-sale-in-protaras-famagusta-district/
 https://index.cy/sale/11950158-2-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/sale/11950166-2-bedroom-apartment-for-sale-in-paphos-emba/
 https://index.cy/sale/11950175-2-bedroom-apartment-for-sale-in-ypsonas-limassol-district/
@@ -10557,6 +10582,7 @@ https://index.cy/sale/11952434-2-bedroom-apartment-for-sale-in-limassol-district
 https://index.cy/sale/11952446-3-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11952470-2-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
 https://index.cy/sale/11952497-1-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
+https://index.cy/sale/11993216-2-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11993248-2-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/sale/11993497-3-bedroom-apartment-for-sale-in-mandria-paphos-district/
 https://index.cy/sale/11993563-2-bedroom-apartment-for-sale-in-limassol-panthea/
@@ -10567,23 +10593,46 @@ https://index.cy/sale/12003645-3-bedroom-apartment-for-sale-in-livadia-larnakas-
 https://index.cy/sale/12003652-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/12003659-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/12003666-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/12004002-1-bedroom-apartment-for-sale-in-limassol-agia-fyla/
+https://index.cy/sale/12004022-1-bedroom-apartment-for-sale-in-limassol-agia-fyla/
+https://index.cy/sale/12004042-1-bedroom-apartment-for-sale-in-limassol-agia-fyla/
+https://index.cy/sale/12004062-1-bedroom-apartment-for-sale-in-limassol-agia-fyla/
+https://index.cy/sale/12004082-1-bedroom-apartment-for-sale-in-limassol-agia-fyla/
+https://index.cy/sale/12004114-1-bedroom-apartment-for-sale-in-limassol-agia-fyla/
 https://index.cy/sale/12004195-3-bedroom-apartment-for-sale-in-limassol-agia-fyla/
 https://index.cy/sale/12004215-3-bedroom-apartment-for-sale-in-limassol-agia-fyla/
 https://index.cy/sale/12004275-3-bedroom-apartment-for-sale-in-limassol-agia-fyla/
+https://index.cy/sale/12004339-1-bedroom-apartment-for-sale-in-limassol-linopetra/
 https://index.cy/sale/12004363-2-bedroom-apartment-for-sale-in-limassol-linopetra/
 https://index.cy/sale/12004375-2-bedroom-apartment-for-sale-in-limassol-linopetra/
 https://index.cy/sale/12004414-2-bedroom-apartment-for-sale-in-agios-nikolaos-larnaca-district/
 https://index.cy/sale/12004458-2-bedroom-apartment-for-sale-in-agios-nikolaos-larnaca-district/
 https://index.cy/sale/12004558-3-bedroom-house-for-sale-in-nicosia-district/
 https://index.cy/sale/12025666-40sqm-apartment-for-sale-in-kato-paphos/
+https://index.cy/sale/12025855-1-bedroom-apartment-for-sale-in-limassol-agia-fyla/
+https://index.cy/sale/12026160-1-bedroom-apartment-for-sale-in-vergina-larnaca-district/
+https://index.cy/sale/12027031-2-bedroom-apartment-for-sale-in-vergina-larnaca-district/
 https://index.cy/sale/12028411-2-bedroom-apartment-for-sale-in-vergina-larnaca-district/
 https://index.cy/sale/12030447-3-bedroom-apartment-for-sale-in-vergina-larnaca-district/
+https://index.cy/sale/12041717-4-bedroom-house-for-sale-in-famagusta-agia-napa/
 https://index.cy/sale/12046391-3-bedroom-house-for-sale-in-lakatameia-agios-nikolaos-nicosia-district/
 https://index.cy/sale/12046401-4-bedroom-house-for-sale-in-lakatameia-agios-nikolaos-nicosia-district/
 https://index.cy/sale/12046411-3-bedroom-house-for-sale-in-lakatameia-agios-nikolaos-nicosia-district/
 https://index.cy/sale/12049658-3-bedroom-house-for-sale-in-psimolofou-nicosia-district/
 https://index.cy/sale/12049686-3-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
 https://index.cy/sale/12050514-3-bedroom-house-for-sale-in-psimolofou-nicosia-district/
+https://index.cy/sale/12112598-2-bedroom-apartment-for-sale-in-limassol-zakaki/
+https://index.cy/sale/12112612-1-bedroom-apartment-for-sale-in-limassol-zakaki/
+https://index.cy/sale/12112757-1-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
+https://index.cy/sale/12112764-1-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
+https://index.cy/sale/12112778-1-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
+https://index.cy/sale/12112791-1-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/
+https://index.cy/sale/12112800-1-bedroom-apartment-for-sale-in-larnaca-district/
+https://index.cy/sale/12112824-46sqm-apartment-for-sale-in-larnaca-district/
+https://index.cy/sale/12112832-1-bedroom-apartment-for-sale-in-larnaca-district/
+https://index.cy/sale/12112840-1-bedroom-apartment-for-sale-in-larnaca-district/
+https://index.cy/sale/12112848-1-bedroom-apartment-for-sale-in-larnaca-district/
+https://index.cy/sale/12112856-1-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/sale/1307621-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
 https://index.cy/sale/1381343-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/1398549-2-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/
@@ -10694,6 +10743,7 @@ https://index.cy/sale/7216879-1-bedroom-apartment-for-sale-in-oroklini-larnaca-d
 https://index.cy/sale/7330764-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/7330772-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/7527651-1-bedroom-apartment-for-sale-in-oroklini-larnaca-district/
+https://index.cy/sale/7577389-3-bedroom-apartment-for-sale-in-parekklisia-limassol-district/
 https://index.cy/sale/7588631-4-bedroom-apartment-for-sale-in-empa-paphos-district/
 https://index.cy/sale/7597904-3-bedroom-apartment-for-sale-in-paphos-district/
 https://index.cy/sale/7663595-2-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
@@ -10715,6 +10765,7 @@ https://index.cy/sale/7928902-3-bedroom-apartment-for-sale-in-chlorakas-paphos-d
 https://index.cy/sale/7928909-3-bedroom-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/sale/7928915-3-bedroom-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/sale/8053538-1-bedroom-apartment-for-sale-in-pyrgos-lemesou-limassol-district/
+https://index.cy/sale/8080248-2-bedroom-apartment-for-sale-in-agia-paraskevi-limassol-district/
 https://index.cy/sale/8139180-3-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/sale/8139188-3-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/sale/8139220-3-bedroom-apartment-for-sale-in-paphos-universal/
@@ -14933,6 +14984,7 @@ https://realten.gr/property/618
 https://realten.gr/property/623
 https://realten.gr/property/624
 https://realten.gr/property/625
+https://realten.gr/property/626
 https://remax-analogia.gr/property/106
 https://remax-analogia.gr/property/1429
 https://remax-analogia.gr/property/1903
@@ -20890,6 +20942,7 @@ https://www.ellasestate.com/el/property/for-sale-maisonette-118-sq-m-b1-in-kaliv
 https://www.ellasestate.com/el/property/for-sale-maisonette-118-sq-m-z1-in-kalives-halkidiki/
 https://www.ellasestate.com/el/property/for-sale-maisonette-180-sq-m-in-elia-nikitis-halkidiki/
 https://www.ellasestate.com/el/property/for-sale-maisonette-3-3-k1-109-m%c2%b2-in-kalamaria-thessaloniki/
+https://www.ellasestate.com/el/property/for-sale-maisonette-b-%ce%b413-155-sq-m-in-kalamaria-thessaloniki/
 https://www.ellasestate.com/el/property/for-sale-studio-%ce%b9%cf%824-46-sq-m-in-thessaloniki/
 https://www.ellasestate.com/el/property/for-sale-villa-115-sq-m-in-sani-halkidiki/
 https://www.ellasestate.com/el/property/for-sale-villa-120-sq-m-in-gerakini-halkidiki/
@@ -20966,6 +21019,7 @@ https://www.ellasestate.com/property/for-sale-apartment-100-sq-m-in-the-center-o
 https://www.ellasestate.com/property/for-sale-apartment-100-sq-m-in-vardaris-thessaloniki/
 https://www.ellasestate.com/property/for-sale-apartment-103-sq-m-in-neos-marmaras-%ce%b7alkidiki/
 https://www.ellasestate.com/property/for-sale-apartment-103-sq-m-in-panorama-thessaloniki-2/
+https://www.ellasestate.com/property/for-sale-apartment-103-sq-m-in-panorama-thessaloniki/
 https://www.ellasestate.com/property/for-sale-apartment-104-sq-m-in-kalamaria-thessaloniki/
 https://www.ellasestate.com/property/for-sale-apartment-107-sq-m-in-perea-thessaloniki/
 https://www.ellasestate.com/property/for-sale-apartment-108-sq-m-in-analipsi-thessaloniki/
@@ -21407,6 +21461,7 @@ https://www.ellasestate.com/property/for-sale-villa-530-sq-m-in-nea-gonia-halkid
 https://www.ellasestate.com/property/for-sale-villa-78-sq-m-in-sani-halkidiki-550000e/
 https://www.ellasestate.com/property/half-building-for-sale-185-sq-m-in-nea-fokea-halkidiki/
 https://www.ellasestate.com/property/land-plot-for-sale-341-sq-m-in-nea-fokaia-halkidiki/
+https://www.ellasestate.com/property/maisonette-%ce%b3-%ce%b421-155-sq-m-in-kalamaria-thessaloniki/
 https://www.ellasestate.com/property/maisonette-of-415-m%c2%b2-for-sale-in-omonia-stavroupoli/
 https://www.ellasestate.com/property/new-duplex-apartment-of-144-sq-m-for-sale-in-toumba-area/
 https://www.ellasestate.com/property/villa-470-sq-m-pournari-puleas/
@@ -24531,6 +24586,8 @@ https://www.gmakproperties.gr/property/488
 https://www.gmakproperties.gr/property/490
 https://www.greekexclusiveproperties.com/property/1-bedroom-maisonette-for-rent-glyfada-golf-100-sqm/
 https://www.greekexclusiveproperties.com/property/2-bedroom-apartment-for-rent-elliniko-kato-elliniko-102-sqm/
+https://www.greekexclusiveproperties.com/property/2-bedroom-apartment-for-rent-glyfada-kato-glyfada-105-sqm
+https://www.greekexclusiveproperties.com/property/2-bedroom-apartment-for-rent-glyfada-kato-glyfada-135-sqm-2
 https://www.greekexclusiveproperties.com/property/2-bedroom-apartment-for-rent-glyfada-kato-glyfada-135-sqm/
 https://www.greekexclusiveproperties.com/property/2-bedroom-apartment-for-rent-glyfada-kato-glyfada-140-sqm/
 https://www.greekexclusiveproperties.com/property/2-bedroom-apartment-for-rent-voula-pigadakia-150-sqm/
@@ -24541,10 +24598,15 @@ https://www.greekexclusiveproperties.com/property/240-sqm-house-in-a-4-000-sqm-l
 https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-glyfada-aixoni-120-sqm/
 https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-glyfada-aixoni-182-sqm/
 https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-glyfada-golf-140-sqm/
+https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-glyfada-kato-glyfada-125-sqm-2nd-floor
 https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-glyfada-kato-glyfada-125-sqm/
+https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-glyfada-kato-glyfada-130-sqm-2
+https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-glyfada-kato-glyfada-190-sqm-2
 https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-varkiza-125-sqm/
 https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-voula-center-117-sqm/
+https://www.greekexclusiveproperties.com/property/3-bedroom-apartment-for-rent-voula-kalymniotika-120-sqm
 https://www.greekexclusiveproperties.com/property/3-bedroom-maisonette-for-rent-glyfada-golf-234-sqm/
+https://www.greekexclusiveproperties.com/property/3-bedroom-maisonette-for-rent-palaio-faliro-agia-varvara-188-sqm
 https://www.greekexclusiveproperties.com/property/3-bedroom-villa-for-rent-vouliagmeni-center-150-sqm
 https://www.greekexclusiveproperties.com/property/340-sq-m-villa-for-sale-peloponnese-greece-pylos/
 https://www.greekexclusiveproperties.com/property/4-bedroom-apartment-for-rent-glyfada-kato-glyfada-140-sqm
@@ -24553,8 +24615,11 @@ https://www.greekexclusiveproperties.com/property/4-bedroom-maisonette-for-rent-
 https://www.greekexclusiveproperties.com/property/4-bedroom-villa-for-rent-varkiza-vari-500-sqm/
 https://www.greekexclusiveproperties.com/property/4-luxury-houses-for-sale-oia-santorini-property-of-234-sqm
 https://www.greekexclusiveproperties.com/property/5-bedroom-house-for-rent-glyfada-aigli-430-sqm/
+https://www.greekexclusiveproperties.com/property/5-bedroom-house-for-rent-varkiza-vari-270-sqm
 https://www.greekexclusiveproperties.com/property/74sqm-renovated-in-2023-airy-apartment-on-the-2nd-floor/
 https://www.greekexclusiveproperties.com/property/apartment-for-rent-varkiza-112-sqm/
+https://www.greekexclusiveproperties.com/property/apartment-for-rent-voula-dikigorika-145-sqm
+https://www.greekexclusiveproperties.com/property/apartment-for-rent-vouliagmeni-kavouri-154-sqm
 https://www.greekexclusiveproperties.com/property/building-in-very-big-land-plot-200-000sqm-near-thessaloniki/
 https://www.greekexclusiveproperties.com/property/hotel-for-sale-caldera-santorini-with-21-rooms-can-be-sold-either-25-49-100-of-the-hotel
 https://www.greekexclusiveproperties.com/property/hotel-for-sale-caldera-santorini-with-21-rooms-can-be-sold-either-25-49-100-of-the-hotel/
@@ -24567,6 +24632,7 @@ https://www.greekexclusiveproperties.com/property/land-plot-caldera-hotel-40-000
 https://www.greekexclusiveproperties.com/property/luxury-apartments-in-north-athens-to-get-the-gold-visa-for-260k
 https://www.greekexclusiveproperties.com/property/luxury-villa-in-mykonos-with-10000-sqm-land/
 https://www.greekexclusiveproperties.com/property/magnificent-villa-sea-views-corfu-630-sq-m/
+https://www.greekexclusiveproperties.com/property/maisonette-for-rent-voula-kalymniotika-245-sqm
 https://www.greekexclusiveproperties.com/property/new-exclusive-9-cave-suites-caldera-santorini-total-500-sq-m-ideal-property/
 https://www.greekexclusiveproperties.com/property/newly-constructed-villas-chania-crete-your-modern-oasis-with-180-views/
 https://www.greekexclusiveproperties.com/property/prime-land-for-sale-in-paros-156-acres-of-land-in-golden-beach
@@ -25301,7 +25367,9 @@ https://www.grekodom.gr/realtyobject/13997-poleitai-vila-270-m2-sti-mkono
 https://www.grekodom.gr/realtyobject/14002-poleitai-gi-3800-m2-sti-thessaloniki
 https://www.grekodom.gr/realtyobject/14006-poleitai-gi-690-m2-stin-athina
 https://www.grekodom.gr/realtyobject/14015-poleitai-ktirio-800-m2-sto-loutraki
+https://www.grekodom.gr/realtyobject/14016-poleitai-gi-350-m2-stin-attiki
 https://www.grekodom.gr/realtyobject/14018-poleitai-gi-4000-m2-sta-perihora-thessa
+https://www.grekodom.gr/realtyobject/14027-enoikiazetai-diamerisma-74-m2-stin-athi
 https://www.grekodom.gr/realtyobject/14028-poleitai-gi-330-m2-stin-attiki
 https://www.grekodom.gr/realtyobject/14037-poleitai-mezoneta-100-m2-sta-dodekanisa
 https://www.grekodom.gr/realtyobject/14050-poleitai-monokatoikia-120-m2-sti-voreia
@@ -25380,6 +25448,7 @@ https://www.grekodom.gr/realtyobject/14743-poleitai-epaggelmatiko-horo-235-m2-st
 https://www.grekodom.gr/realtyobject/14750-poleitai-vila-163-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/14759-enoikiazetai-epiheirisi-247-m2-stin-ath
 https://www.grekodom.gr/realtyobject/14764-poleitai-ktirio-430-m2-stin-athina
+https://www.grekodom.gr/realtyobject/14790-enoikiazetai-diamerisma-74-m2-stin-athi
 https://www.grekodom.gr/realtyobject/14818-poleitai-gi-1350-m2-stin-attiki
 https://www.grekodom.gr/realtyobject/14819-poleitai-gi-210000-m2-sti-kuklade
 https://www.grekodom.gr/realtyobject/14832-poleitai-gi-8800-m2-stin-attiki
@@ -25394,6 +25463,7 @@ https://www.grekodom.gr/realtyobject/14936-poleitai-diamerisma-86-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/14950-poleitai-diamerisma-203-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/15035-poleitai-vila-228-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/1513-poleitai-xenodoheio-2000-m2-stin-kassand
+https://www.grekodom.gr/realtyobject/15138-enoikiazetai-diamerisma-55-m2-stin-athi
 https://www.grekodom.gr/realtyobject/15142-poleitai-diamerisma-100-m2-stin-athina
 https://www.grekodom.gr/realtyobject/15162-poleitai-vila-450-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/15166-poleitai-sugkrotima-500-m2-stin-anatoli
@@ -25473,10 +25543,16 @@ https://www.grekodom.gr/realtyobject/16165-poleitai-vila-535-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16167-poleitai-vila-385-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16168-poleitai-vila-494-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16185-poleitai-vila-323-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/16186-poleitai-vila-510-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/16187-poleitai-vila-323-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/16188-poleitai-vila-510-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16190-poleitai-vila-323-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/16194-poleitai-vila-129-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/16201-poleitai-vila-112-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16235-poleitai-vila-128-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16238-poleitai-vila-157-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16243-poleitai-vila-157-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/16249-poleitai-vila-129-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16254-poleitai-vila-128-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16256-poleitai-vila-134-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16257-poleitai-vila-128-m2-sti-pafo
@@ -25484,6 +25560,7 @@ https://www.grekodom.gr/realtyobject/16259-poleitai-vila-157-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16261-poleitai-vila-128-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16269-poleitai-vila-128-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16272-poleitai-vila-128-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/16275-poleitai-vila-129-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16278-poleitai-vila-128-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16281-poleitai-vila-93-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16283-poleitai-vila-116-m2-sti-pafo
@@ -25492,6 +25569,7 @@ https://www.grekodom.gr/realtyobject/16290-poleitai-vila-135-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16293-poleitai-vila-93-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16299-poleitai-vila-135-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16301-poleitai-vila-134-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/16304-poleitai-vila-129-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16307-poleitai-vila-116-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16310-poleitai-vila-134-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/16313-poleitai-vila-116-m2-sti-pafo
@@ -25570,10 +25648,12 @@ https://www.grekodom.gr/realtyobject/17825-poleitai-vila-156-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/17826-poleitai-vila-288-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/17827-poleitai-diamerisma-83-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/17830-poleitai-diamerisma-96-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/17834-poleitai-vila-sti-pafo
 https://www.grekodom.gr/realtyobject/17835-poleitai-vila-sti-pafo
 https://www.grekodom.gr/realtyobject/17836-poleitai-vila-206-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/17837-poleitai-vila-206-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/17839-poleitai-vila-sti-pafo
+https://www.grekodom.gr/realtyobject/17840-poleitai-vila-sti-pafo
 https://www.grekodom.gr/realtyobject/17842-poleitai-epiheirisi-37-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/17843-poleitai-epiheirisi-sti-pafo
 https://www.grekodom.gr/realtyobject/17844-poleitai-epiheirisi-sti-pafo
@@ -25602,6 +25682,7 @@ https://www.grekodom.gr/realtyobject/17901-poleitai-vila-293-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/17908-poleitai-vila-123-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/17909-poleitai-vila-118-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/17910-poleitai-vila-128-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/17911-poleitai-gi-sti-lemeso
 https://www.grekodom.gr/realtyobject/17915-poleitai-diamerisma-112-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/17916-poleitai-diamerisma-154-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/17917-poleitai-diamerisma-216-m2-sti-lemeso
@@ -25615,11 +25696,13 @@ https://www.grekodom.gr/realtyobject/17952-poleitai-gi-5500-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/17955-poleitai-monokatoikia-235-m2-stin-kerku
 https://www.grekodom.gr/realtyobject/18005-poleitai-diamerisma-90-m2-sti-larnaka
 https://www.grekodom.gr/realtyobject/18043-poleitai-gi-12000-m2-sti-sithonia
+https://www.grekodom.gr/realtyobject/18047-enoikiazetai-diamerisma-150-m2-stin-ath
 https://www.grekodom.gr/realtyobject/18051-poleitai-epaggelmatiko-horo-209-m2-sto
 https://www.grekodom.gr/realtyobject/18057-poleitai-gi-22000-m2-stin-athina
 https://www.grekodom.gr/realtyobject/18076-poleitai-xenodoheio-1286-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/18079-poleitai-monokatoikia-162-m2-sti-larnak
 https://www.grekodom.gr/realtyobject/18082-poleitai-monokatoikia-172-m2-sti-larnak
+https://www.grekodom.gr/realtyobject/18092-poleitai-xenodoheio-stin-kentriki-ellad
 https://www.grekodom.gr/realtyobject/18107-poleitai-mezoneta-180-m2-stin-attiki
 https://www.grekodom.gr/realtyobject/18110-poleitai-mezoneta-94-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/18113-enoikiazetai-diamerisma-138-m2-stin-kef
@@ -25768,6 +25851,7 @@ https://www.grekodom.gr/realtyobject/19850-poleitai-epiheirisi-400-m2-stin-kerku
 https://www.grekodom.gr/realtyobject/19851-poleitai-gi-10262-m2-sti-halkidiki
 https://www.grekodom.gr/realtyobject/19854-poleitai-gi-13000-m2-sti-zakuntho
 https://www.grekodom.gr/realtyobject/19868-poleitai-gi-32500-m2-stin-kriti
+https://www.grekodom.gr/realtyobject/19875-enoikiazetai-diamerisma-100-m2-stin-ath
 https://www.grekodom.gr/realtyobject/19876-poleitai-sugkrotima-332-m2-stin-dutiki
 https://www.grekodom.gr/realtyobject/19877-poleitai-gi-200-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/19882-poleitai-gi-3000-m2-stin-pieria
@@ -25805,6 +25889,7 @@ https://www.grekodom.gr/realtyobject/20266-poleitai-xenodoheio-2200-m2-stin-athi
 https://www.grekodom.gr/realtyobject/20270-poleitai-vila-197-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/20272-poleitai-diamerisma-147-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/20274-poleitai-diamerisma-270-m2-sti-lemeso
+https://www.grekodom.gr/realtyobject/20278-enoikiazetai-diamerisma-42-m2-stin-pier
 https://www.grekodom.gr/realtyobject/20279-enoikiazetai-diamerisma-36-m2-stin-pier
 https://www.grekodom.gr/realtyobject/20312-poleitai-gi-776-m2-sti-thasso
 https://www.grekodom.gr/realtyobject/20313-poleitai-gi-1086-m2-sti-thasso
@@ -26244,6 +26329,7 @@ https://www.grekodom.gr/realtyobject/24096-poleitai-gi-4000-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/24097-poleitai-gi-6260-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/24098-poleitai-gi-4450-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/24099-poleitai-gi-3000-m2-stin-kerkura
+https://www.grekodom.gr/realtyobject/24110-poleitai-xenodoheio-1000-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/24118-poleitai-gi-6711-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/24120-poleitai-monokatoikia-330-m2-stin-attik
 https://www.grekodom.gr/realtyobject/24125-poleitai-gi-1350-m2-stin-attiki
@@ -26365,6 +26451,7 @@ https://www.grekodom.gr/realtyobject/25072-poleitai-diamerisma-200-m2-stin-athin
 https://www.grekodom.gr/realtyobject/25078-poleitai-vila-520-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/25081-poleitai-monokatoikia-520-m2-ston-tho
 https://www.grekodom.gr/realtyobject/25083-poleitai-epiheirisi-1110-m2-sti-voreia
+https://www.grekodom.gr/realtyobject/25086-poleitai-vila-550-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/25088-poleitai-epiheirisi-192-m2-stin-agia-na
 https://www.grekodom.gr/realtyobject/25097-poleitai-gi-170-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/25102-poleitai-gi-604-m2-stin-pieria
@@ -26751,6 +26838,7 @@ https://www.grekodom.gr/realtyobject/28746-poleitai-monokatoikia-430-m2-stin-ken
 https://www.grekodom.gr/realtyobject/28756-poleitai-monokatoikia-250-m2-stin-athin
 https://www.grekodom.gr/realtyobject/2878-poleitai-vila-330-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/28795-poleitai-gi-4000-m2-stin-pieria
+https://www.grekodom.gr/realtyobject/28800-poleitai-diamerisma-88-m2-stin-athina
 https://www.grekodom.gr/realtyobject/28806-poleitai-gi-23000-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/28819-poleitai-diamerisma-75-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/28864-poleitai-ktirio-7700-m2-sti-thessalonik
@@ -27180,6 +27268,7 @@ https://www.grekodom.gr/realtyobject/31802-poleitai-xenodoheio-322-m2-sti-sithon
 https://www.grekodom.gr/realtyobject/31803-poleitai-vila-240-m2-stin-peiro
 https://www.grekodom.gr/realtyobject/31812-poleitai-vila-127-m2-sti-larnaka
 https://www.grekodom.gr/realtyobject/31814-poleitai-monokatoikia-120-m2-sti-voreia
+https://www.grekodom.gr/realtyobject/31821-enoikiazetai-xenodoheio-600-m2-stin-pie
 https://www.grekodom.gr/realtyobject/31831-poleitai-ktirio-344-m2-stin-athina
 https://www.grekodom.gr/realtyobject/31833-poleitai-vila-470-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/31847-poleitai-monokatoikia-215-m2-stin-kerku
@@ -27190,6 +27279,7 @@ https://www.grekodom.gr/realtyobject/31877-poleitai-monokatoikia-430-m2-stin-ath
 https://www.grekodom.gr/realtyobject/31886-poleitai-gi-14625-m2-stin-kassandra
 https://www.grekodom.gr/realtyobject/31892-poleitai-monokatoikia-160-m2-stin-anato
 https://www.grekodom.gr/realtyobject/31895-poleitai-ktirio-247-m2-stin-kentriki-el
+https://www.grekodom.gr/realtyobject/31899-poleitai-gi-354-m2-sta-perihora-thessal
 https://www.grekodom.gr/realtyobject/31911-poleitai-monokatoikia-400-m2-sti-halkid
 https://www.grekodom.gr/realtyobject/31917-poleitai-gi-7135-m2-sti-sithonia
 https://www.grekodom.gr/realtyobject/31920-poleitai-monokatoikia-330-m2-sti-thessa
@@ -27582,6 +27672,7 @@ https://www.grekodom.gr/realtyobject/3400-poleitai-epaggelmatiko-horo-70-m2-sta-
 https://www.grekodom.gr/realtyobject/34002-poleitai-monokatoikia-106-m2-stin-anato
 https://www.grekodom.gr/realtyobject/34005-poleitai-vila-176-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/34006-poleitai-gi-2970-m2-stin-kriti
+https://www.grekodom.gr/realtyobject/34007-poleitai-xenodoheio-1000-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/34015-poleitai-vila-500-m2-stin-athina
 https://www.grekodom.gr/realtyobject/34017-poleitai-gi-2894-m2-sti-sithonia
 https://www.grekodom.gr/realtyobject/34018-poleitai-gi-5000-m2-sti-sithonia
@@ -27805,6 +27896,7 @@ https://www.grekodom.gr/realtyobject/35371-poleitai-ktirio-1163-m2-sti-thessalon
 https://www.grekodom.gr/realtyobject/35372-poleitai-vila-235-m2-stin-kassandra
 https://www.grekodom.gr/realtyobject/35378-poleitai-vila-sti-lemeso
 https://www.grekodom.gr/realtyobject/35394-poleitai-monokatoikia-158-m2-stin-kassa
+https://www.grekodom.gr/realtyobject/35429-poleitai-gi-10000-m2-sti-sithonia
 https://www.grekodom.gr/realtyobject/35449-poleitai-gi-257-m2-sti-thessaloniki
 https://www.grekodom.gr/realtyobject/3546-poleitai-vila-250-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/3548-poleitai-gi-9600-m2-stin-pieria
@@ -27854,8 +27946,10 @@ https://www.grekodom.gr/realtyobject/35709-poleitai-diamerisma-167-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/35715-enoikiazetai-diamerisma-60-m2-stin-pier
 https://www.grekodom.gr/realtyobject/35721-poleitai-gi-5500-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/35723-poleitai-epiheirisi-707-m2-stin-kriti
+https://www.grekodom.gr/realtyobject/35728-enoikiazetai-vila-352-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/35736-poleitai-gi-5000-m2-stin-kassandra
 https://www.grekodom.gr/realtyobject/3574-poleitai-monokatoikia-65-m2-stin-kentrik
+https://www.grekodom.gr/realtyobject/35742-enoikiazetai-vila-456-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/35743-poleitai-gi-12500-m2-sti-sithonia
 https://www.grekodom.gr/realtyobject/35766-poleitai-gi-5000-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/3577-poleitai-gi-1417-m2-stin-attiki
@@ -27958,6 +28052,7 @@ https://www.grekodom.gr/realtyobject/36300-poleitai-mezoneta-165-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/36301-poleitai-gi-64000-m2-stin-evoia
 https://www.grekodom.gr/realtyobject/36302-poleitai-gi-2400-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/36304-poleitai-monokatoikia-220-m2-sti-sithon
+https://www.grekodom.gr/realtyobject/36318-poleitai-gi-700-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/36328-poleitai-ktirio-300-m2-stin-athina
 https://www.grekodom.gr/realtyobject/36346-poleitai-monokatoikia-245-m2-stin-kassa
 https://www.grekodom.gr/realtyobject/36350-poleitai-gi-2670-m2-sta-perihora-thessa
@@ -27995,6 +28090,7 @@ https://www.grekodom.gr/realtyobject/36507-poleitai-monokatoikia-168-m2-stin-ath
 https://www.grekodom.gr/realtyobject/36511-enoikiazetai-epiheirisi-187-m2-sti-leme
 https://www.grekodom.gr/realtyobject/36516-poleitai-gi-4370-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/36520-poleitai-gi-7000-m2-stin-kerkura
+https://www.grekodom.gr/realtyobject/36524-poleitai-gi-5792-m2-stin-kassandra
 https://www.grekodom.gr/realtyobject/36531-poleitai-gi-7999-m2-sti-pafo
 https://www.grekodom.gr/realtyobject/36538-poleitai-gi-4683-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/36548-poleitai-diamerisma-120-m2-sti-lemeso
@@ -28051,6 +28147,7 @@ https://www.grekodom.gr/realtyobject/36755-poleitai-gi-5889-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/36756-poleitai-gi-12000-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/36771-poleitai-diamerisma-150-m2-sti-thessalo
 https://www.grekodom.gr/realtyobject/36772-poleitai-mezoneta-200-m2-sti-thessaloni
+https://www.grekodom.gr/realtyobject/36774-poleitai-gi-12500-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/36775-poleitai-monokatoikia-100-m2-sti-voreia
 https://www.grekodom.gr/realtyobject/36778-poleitai-gi-12588-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/36788-poleitai-monokatoikia-175-m2-sti-lemeso
@@ -28134,9 +28231,14 @@ https://www.grekodom.gr/realtyobject/37194-poleitai-gi-7000-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/37201-enoikiazetai-monokatoikia-170-m2-sti-le
 https://www.grekodom.gr/realtyobject/37204-poleitai-gi-17175-m2-stin-kassandra
 https://www.grekodom.gr/realtyobject/37205-poleitai-gi-4000-m2-stin-kassandra
+https://www.grekodom.gr/realtyobject/37207-poleitai-gi-8000-m2-stin-kassandra
 https://www.grekodom.gr/realtyobject/37211-poleitai-vila-sti-lemeso
+https://www.grekodom.gr/realtyobject/37212-poleitai-gi-5500-m2-sti-halkidiki
+https://www.grekodom.gr/realtyobject/37214-poleitai-gi-14000-m2-sti-halkidiki
 https://www.grekodom.gr/realtyobject/37217-poleitai-epaggelmatiko-horo-100-m2-stin
 https://www.grekodom.gr/realtyobject/37224-poleitai-gi-7500-m2-ston-volo---pilio
+https://www.grekodom.gr/realtyobject/37243-poleitai-diamerisma-172-m2-sti-lemeso
+https://www.grekodom.gr/realtyobject/37244-poleitai-diamerisma-325-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/37252-poleitai-monokatoikia-286-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/37270-poleitai-gi-9500-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/37282-poleitai-diamerisma-200-m2-sti-lemeso
@@ -28152,7 +28254,9 @@ https://www.grekodom.gr/realtyobject/37336-poleitai-monokatoikia-526-m2-stin-ath
 https://www.grekodom.gr/realtyobject/37341-poleitai-monokatoikia-85-m2-stin-kassan
 https://www.grekodom.gr/realtyobject/37349-poleitai-gi-8500-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/37351-enoikiazetai-epiheirisi-325-m2-stin-ath
+https://www.grekodom.gr/realtyobject/37372-enoikiazetai-monokatoikia-185-m2-stin-e
 https://www.grekodom.gr/realtyobject/37374-poleitai-gi-20934-m2-sti-thasso
+https://www.grekodom.gr/realtyobject/37375-poleitai-epiheirisi-900-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/37383-poleitai-epiheirisi-130-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/37386-poleitai-mezoneta-160-m2-stin-attiki
 https://www.grekodom.gr/realtyobject/37389-poleitai-ktirio-550-m2-stin-athina
@@ -28193,8 +28297,12 @@ https://www.grekodom.gr/realtyobject/3757-poleitai-xenodoheio-560-m2-sti-thasso
 https://www.grekodom.gr/realtyobject/37577-poleitai-gi-1000-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/37580-poleitai-epaggelmatiko-horo-320-m2-stin
 https://www.grekodom.gr/realtyobject/37581-poleitai-epaggelmatiko-horo-720-m2-stin
+https://www.grekodom.gr/realtyobject/37582-poleitai-monokatoikia-150-m2-stin-attik
+https://www.grekodom.gr/realtyobject/37583-poleitai-monokatoikia-91-m2-stin-athina
+https://www.grekodom.gr/realtyobject/37592-poleitai-epiheirisi-226-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/37597-poleitai-gi-2890-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/37599-poleitai-gi-440-m2-stin-kriti
+https://www.grekodom.gr/realtyobject/37607-poleitai-epiheirisi-1490-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/3761-poleitai-gi-4985-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/37621-poleitai-gi-2400-m2-sti-thessaloniki
 https://www.grekodom.gr/realtyobject/37622-poleitai-gi-10000-m2-stin-attiki
@@ -28206,16 +28314,21 @@ https://www.grekodom.gr/realtyobject/37713-poleitai-gi-500-m2-sto-kriaritsi
 https://www.grekodom.gr/realtyobject/37724-poleitai-gi-1650-m2-sta-perihora-thessa
 https://www.grekodom.gr/realtyobject/3773-poleitai-gi-7800-m2-sti-rodo
 https://www.grekodom.gr/realtyobject/37730-poleitai-monokatoikia-112-m2-stin-attik
+https://www.grekodom.gr/realtyobject/37738-poleitai-gi-7700-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/37747-poleitai-gi-2900-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/37750-poleitai-monokatoikia-132-m2-stin-pieri
 https://www.grekodom.gr/realtyobject/37768-poleitai-monokatoikia-268-m2-sto-loutra
 https://www.grekodom.gr/realtyobject/37778-poleitai-ktirio-286-m2-stin-athina
 https://www.grekodom.gr/realtyobject/37779-poleitai-vila-280-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/37780-enoikiazetai-vila-280-m2-stin-kriti
+https://www.grekodom.gr/realtyobject/37781-poleitai-diamerisma-180-m2-sti-lemeso
+https://www.grekodom.gr/realtyobject/37782-poleitai-diamerisma-340-m2-sti-lemeso
+https://www.grekodom.gr/realtyobject/37784-poleitai-diamerisma-84-m2-stin-athina
 https://www.grekodom.gr/realtyobject/37788-poleitai-gi-2200-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/37791-poleitai-gi-5000-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/37792-poleitai-gi-6200-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/37793-poleitai-gi-5000-m2-stin-kerkura
+https://www.grekodom.gr/realtyobject/37806-poleitai-gi-6599-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/37824-poleitai-diamerisma-73-m2-sti-thessalon
 https://www.grekodom.gr/realtyobject/3783-poleitai-gi-399-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/37830-poleitai-vila-170-m2-stin-kriti
@@ -28223,6 +28336,8 @@ https://www.grekodom.gr/realtyobject/37833-enoikiazetai-vila-40-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/3784-poleitai-gi-15233-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/37844-poleitai-gi-376-m2-sti-sithonia
 https://www.grekodom.gr/realtyobject/37846-enoikiazetai-diamerisma-216-m2-sti-leme
+https://www.grekodom.gr/realtyobject/37852-poleitai-diamerisma-240-m2-sti-lemeso
+https://www.grekodom.gr/realtyobject/37857-poleitai-gi-12000-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/37868-poleitai-diamerisma-206-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/37870-poleitai-gi-800-m2-stin-kerkura
 https://www.grekodom.gr/realtyobject/37877-poleitai-epaggelmatiko-horo-35-m2-stin
@@ -28236,6 +28351,9 @@ https://www.grekodom.gr/realtyobject/37917-enoikiazetai-diamerisma-125-m2-sti-le
 https://www.grekodom.gr/realtyobject/37918-poleitai-gi-4960-m2-sti-thessaloniki
 https://www.grekodom.gr/realtyobject/37983-poleitai-gi-225-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/37987-enoikiazetai-diamerisma-175-m2-sti-leme
+https://www.grekodom.gr/realtyobject/37995-poleitai-diamerisma-59-m2-sti-lemeso
+https://www.grekodom.gr/realtyobject/37999-poleitai-gi-2281-m2-stin-pieria
+https://www.grekodom.gr/realtyobject/38000-poleitai-gi-992-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/38008-poleitai-gi-915-m2-stin-kriti
 https://www.grekodom.gr/realtyobject/38014-poleitai-gi-25000-m2-sti-thasso
 https://www.grekodom.gr/realtyobject/38020-poleitai-gi-18500-m2-stin-kassandra
@@ -28487,6 +28605,7 @@ https://www.grekodom.gr/realtyobject/5422-poleitai-epiheirisi-1545-m2-stin-kerku
 https://www.grekodom.gr/realtyobject/5428-poleitai-gi-780-m2-stin-attiki
 https://www.grekodom.gr/realtyobject/5441-poleitai-mezoneta-300-m2-stin-attiki
 https://www.grekodom.gr/realtyobject/5442-poleitai-vila-800-m2-stin-athina
+https://www.grekodom.gr/realtyobject/5443-poleitai-xenodoheio-400-m2-stin-evoia
 https://www.grekodom.gr/realtyobject/5452-poleitai-gi-10550-m2-ston-tho
 https://www.grekodom.gr/realtyobject/5453-poleitai-gi-700-m2-ston-tho
 https://www.grekodom.gr/realtyobject/5454-poleitai-diamerisma-131-m2-stin-athina
@@ -28575,6 +28694,7 @@ https://www.grekodom.gr/realtyobject/6005-poleitai-gi-3000-m2-stin-attiki
 https://www.grekodom.gr/realtyobject/6007-poleitai-gi-525-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/6013-poleitai-gi-875-m2-stin-evoia
 https://www.grekodom.gr/realtyobject/6023-poleitai-epiheirisi-400-m2-stin-evoia
+https://www.grekodom.gr/realtyobject/6026-poleitai-xenodoheio-900-m2-stin-evoia
 https://www.grekodom.gr/realtyobject/6027-poleitai-monokatoikia-80-m2-stin-evoia
 https://www.grekodom.gr/realtyobject/6030-poleitai-gi-525-m2-stin-pieria
 https://www.grekodom.gr/realtyobject/6032-poleitai-xenodoheio-600-m2-stin-kriti
@@ -28949,6 +29069,7 @@ https://www.grekodom.gr/realtyobject/9288-poleitai-mezoneta-97-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/9294-poleitai-vila-211-m2-stin-agia-napa
 https://www.grekodom.gr/realtyobject/9297-poleitai-epiheirisi-1500-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/9303-poleitai-vila-128-m2-sti-pafo
+https://www.grekodom.gr/realtyobject/9310-poleitai-vila-156-m2-sti-lemeso
 https://www.grekodom.gr/realtyobject/9314-poleitai-epaggelmatiko-horo-100-m2-stin
 https://www.grekodom.gr/realtyobject/9320-poleitai-epaggelmatiko-horo-37-m2-stin-a
 https://www.grekodom.gr/realtyobject/9321-poleitai-epiheirisi-650-m2-stin-athina
@@ -33118,6 +33239,8 @@ https://www.olympusrealestate.gr/property.php?id=51808
 https://www.olympusrealestate.gr/property.php?id=51809
 https://www.olympusrealestate.gr/property.php?id=51810
 https://www.olympusrealestate.gr/property.php?id=51811
+https://www.olympusrealestate.gr/property.php?id=51812
+https://www.olympusrealestate.gr/property.php?id=51813
 https://www.olympusrealestate.gr/property.php?id=7314
 https://www.olympusrealestate.gr/property.php?id=7329
 https://www.omikronestate.gr/property/294
@@ -38806,6 +38929,7 @@ https://www.remax.gr/property/409161-enoikiasi-grafeio-bardarhs
 https://www.remax.gr/property/409183-enoikiasi-grafeio-ladadika
 https://www.remax.gr/property/409185-enoikiasi-grafeio-ladadika
 https://www.remax.gr/property/409208-enoikiasi-gkarsoniera-studio-anw-polh
+https://www.remax.gr/property/409215-enoikiasi-diamerisma-ippokrateio
 https://www.remax.gr/property/409224-polisi-monokatoikia-asprobalta
 https://www.remax.gr/property/409232-polisi-diamerisma-kentro
 https://www.remax.gr/property/409235-polisi-diamerisma-kentro
@@ -38814,11 +38938,14 @@ https://www.remax.gr/property/409269-enoikiasi-katastima-agios-pantelehmwn
 https://www.remax.gr/property/409274-polisi-diamerisma-kalamaria
 https://www.remax.gr/property/409279-polisi-diamerisma-mpotsarh
 https://www.remax.gr/property/409301-enoikiasi-katastima-eyosmos
+https://www.remax.gr/property/409308-enoikiasi-diamerisma-katw-toympa
+https://www.remax.gr/property/409316-enoikiasi-diamerisma-malakoph
 https://www.remax.gr/property/409343-enoikiasi-diamerisma-sykies
 https://www.remax.gr/property/409346-polisi-diamerisma-ntepw
 https://www.remax.gr/property/409349-polisi-mezoneta-karampoyrnaki
 https://www.remax.gr/property/409398-polisi-ktirio--nea-politeia
 https://www.remax.gr/property/409482-enoikiasi-diamerisma-polixnh
+https://www.remax.gr/property/409492-enoikiasi-diamerisma-falhro
 https://www.remax.gr/property/409522-polisi-diamerisma-eleytherio-kordelio
 https://www.remax.gr/property/409535-polisi-grafeio-kentro
 https://www.remax.gr/property/409562-enoikiasi-gkarsoniera-studio-kentro
@@ -40097,6 +40224,7 @@ https://www.spitogatos.gr/aggelia/1117310390
 https://www.spitogatos.gr/aggelia/1117335663
 https://www.spitogatos.gr/aggelia/1117369472
 https://www.spitogatos.gr/aggelia/1117415013
+https://www.spitogatos.gr/aggelia/1117422760
 https://www.spitogatos.gr/aggelia/1117470864
 https://www.spitogatos.gr/aggelia/1117476826
 https://www.spitogatos.gr/aggelia/1117481911
@@ -40241,6 +40369,7 @@ https://www.spitogatos.gr/aggelia/1119567158
 https://www.spitogatos.gr/aggelia/1119573517
 https://www.spitogatos.gr/aggelia/1119574785
 https://www.spitogatos.gr/aggelia/1119575811
+https://www.spitogatos.gr/aggelia/1119580843
 https://www.spitogatos.gr/aggelia/1119583277
 https://www.spitogatos.gr/aggelia/1119590124
 https://www.spitogatos.gr/aggelia/1119590276
@@ -40265,6 +40394,7 @@ https://www.spitogatos.gr/aggelia/1119652394
 https://www.spitogatos.gr/aggelia/1119652668
 https://www.spitogatos.gr/aggelia/1119656626
 https://www.spitogatos.gr/aggelia/1119658289
+https://www.spitogatos.gr/aggelia/1119658417
 https://www.spitogatos.gr/aggelia/1119669137
 https://www.spitogatos.gr/aggelia/1119669411
 https://www.spitogatos.gr/aggelia/1119674862
@@ -40345,6 +40475,7 @@ https://www.spitogatos.gr/aggelia/1119944877
 https://www.spitogatos.gr/aggelia/1119946309
 https://www.spitogatos.gr/aggelia/1119948181
 https://www.spitogatos.gr/aggelia/1119948813
+https://www.spitogatos.gr/aggelia/1119954012
 https://www.spitogatos.gr/aggelia/1119954555
 https://www.spitogatos.gr/aggelia/1119958641
 https://www.spitogatos.gr/aggelia/1119963947
@@ -40389,6 +40520,7 @@ https://www.spitogatos.gr/aggelia/1120125906
 https://www.spitogatos.gr/aggelia/1120126724
 https://www.spitogatos.gr/aggelia/1120129085
 https://www.spitogatos.gr/aggelia/1120131952
+https://www.spitogatos.gr/aggelia/1120136180
 https://www.spitogatos.gr/aggelia/1120136389
 https://www.spitogatos.gr/aggelia/1120137600
 https://www.spitogatos.gr/aggelia/1120146383
@@ -42234,6 +42366,7 @@ https://www.spitogatos.gr/aggelia/1121145661
 https://www.spitogatos.gr/aggelia/1121145736
 https://www.spitogatos.gr/aggelia/1121145750
 https://www.spitogatos.gr/aggelia/1121145840
+https://www.spitogatos.gr/aggelia/1121146157
 https://www.spitogatos.gr/aggelia/1121146339
 https://www.spitogatos.gr/aggelia/1121146447
 https://www.spitogatos.gr/aggelia/1121146587
@@ -42246,6 +42379,14 @@ https://www.spitogatos.gr/aggelia/1121148332
 https://www.spitogatos.gr/aggelia/1121148789
 https://www.spitogatos.gr/aggelia/1121148850
 https://www.spitogatos.gr/aggelia/1121149340
+https://www.spitogatos.gr/aggelia/1121149357
+https://www.spitogatos.gr/aggelia/1121149407
+https://www.spitogatos.gr/aggelia/1121149599
+https://www.spitogatos.gr/aggelia/1121149636
+https://www.spitogatos.gr/aggelia/1121149794
+https://www.spitogatos.gr/aggelia/1121149897
+https://www.spitogatos.gr/aggelia/1121150091
+https://www.spitogatos.gr/aggelia/1121150403
 https://www.spitogatos.gr/aggelia/118034054
 https://www.spitogatos.gr/aggelia/2210077889
 https://www.spitogatos.gr/aggelia/2210367421
@@ -42264,6 +42405,7 @@ https://www.spitogatos.gr/aggelia/2216179525
 https://www.spitogatos.gr/aggelia/2216179624
 https://www.spitogatos.gr/aggelia/2216506898
 https://www.spitogatos.gr/aggelia/2216770314
+https://www.spitogatos.gr/aggelia/2216895195
 https://www.spitogatos.gr/aggelia/2217104990
 https://www.spitogatos.gr/aggelia/2217264022
 https://www.spitogatos.gr/aggelia/2217315834
@@ -42539,6 +42681,7 @@ https://www.spitogatos.gr/aggelia/2221142279
 https://www.spitogatos.gr/aggelia/2221146576
 https://www.spitogatos.gr/aggelia/2221148341
 https://www.spitogatos.gr/aggelia/2221148891
+https://www.spitogatos.gr/aggelia/2221149759
 https://www.swan-real-estate.com/property/1097
 https://www.swan-real-estate.com/property/1098
 https://www.swan-real-estate.com/property/1099
@@ -48802,6 +48945,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/dd768e59-20d8-454b-836b-88bb0ccc
 https://www.xe.gr/property/d/poliseis-katoikion/ddab449b-4374-4970-b538-556c1816a74d/thessalonikh-kentro-209000-40
 https://www.xe.gr/property/d/poliseis-katoikion/de198efb-c7cd-4b1a-bc3e-713126134fc3/kalamaria-325000-82
 https://www.xe.gr/property/d/poliseis-katoikion/de2e6ffb-0406-4b8f-882a-628d8476b9be/thessalonikh-analhpsh-290000-104
+https://www.xe.gr/property/d/poliseis-katoikion/de36e892-18b9-4244-b5e0-a8844904fb89/triandria-85000-30
 https://www.xe.gr/property/d/poliseis-katoikion/de692d56-dcec-475c-b15c-a3a144d4f082/kastellorizo-280000-115
 https://www.xe.gr/property/d/poliseis-katoikion/de93d8fa-b7b2-4241-b973-d067b3fee791/thessalonikh-charilaoy-127000-43
 https://www.xe.gr/property/d/poliseis-katoikion/de9abf37-7e4b-47e9-8340-47f3c922ddf8/sykies-98000-98
