@@ -1417,3 +1417,16 @@ date,source_domain,url,reason
 2026-10-26,attractionproperties.gr,https://attractionproperties.gr/el/property/1495,http 404
 2026-10-26,attractionproperties.gr,https://attractionproperties.gr/el/property/1476,http 404
 2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/542603,sold / not available
+2026-10-26,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/0815b905-f102-4163-aa55-e6cb26f6c7ed/athhna-kypselh-600-72,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-26,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/297a20ce-b02f-4bdb-9c7b-98093b61f82c/athhna-koyntoyriwtika-1300-95,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-26,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/35314456-b4e3-49d0-8bbd-06796549b56e/athhna-agios-loykas-550-108,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-26,tsrealestate.gr,https://tsrealestate.gr/el/property/16079,http 404
+2026-10-26,tsrealestate.gr,https://tsrealestate.gr/el/property/16078,http 404
+2026-10-26,planethomes.gr,https://www.planethomes.gr/akinito/45144-2/,http 404
+2026-10-26,planethomes.gr,https://www.planethomes.gr/akinito/45735-2/,http 404
+2026-10-26,planethomes.gr,https://www.planethomes.gr/akinito/42848-2/,http 404
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/405206,sold / not available
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/539524,sold / not available
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/539521,sold / not available
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/521823,sold / not available
+2026-10-26,goldenhome.gr,https://goldenhome.gr/property/view/220219,sold / not available
