@@ -1474,3 +1474,15 @@ date,source_domain,url,reason
 2026-10-27,grekodom.com,https://www.grekodom.com/realtyobject/15940-for-rent-flat-33-m2-in-western-peloponn,http 404
 2026-10-27,grekodom.com,https://www.grekodom.com/realtyobject/19115-for-sale-building-426-m2-in-athens,http 404
 2026-10-27,grekodom.com,https://www.grekodom.com/realtyobject/31376-for-sale-land-550-m2-in-kassandra-chalk,http 404
+2026-10-27,remax.gr,https://www.remax.gr/property/394272-polisi-diamerisma-skopeythrio,not on result pages
+2026-10-27,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/baf57b52-7ef7-4619-bac3-bb90986fec02/paiania-400-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-27,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/c10ce688-3942-414d-b8fa-6ac86118c216/metamorfwsh-kentro-1700-204,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-10-27,tsrealestate.gr,https://tsrealestate.gr/el/property/16044,http 404
+2026-10-27,realestateone.gr,https://realestateone.gr/el/property/1553427,redirects to https://realestateone.gr/el/404
+2026-10-27,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-570/,sold / not available
+2026-10-27,goldenhome.gr,https://goldenhome.gr/property/view/445206,sold / not available
+2026-10-27,goldenhome.gr,https://goldenhome.gr/property/view/532209,sold / not available
+2026-10-27,goldenhome.gr,https://goldenhome.gr/property/view/536137,sold / not available
+2026-10-27,goldenhome.gr,https://goldenhome.gr/property/view/310846,sold / not available
+2026-10-27,grekodom.com,https://www.grekodom.com/realtyobject/2766-for-sale-business-320-m2-on-the-olympic,http 404
+2026-10-27,grekodom.com,https://www.grekodom.com/realtyobject/3682-for-sale-detached-house-200-m2-on-the-ol,http 404
