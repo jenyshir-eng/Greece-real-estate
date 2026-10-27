@@ -206,6 +206,7 @@ https://aenaossarealty.gr/property/3133/Diamerisma-Thessaloniki%20kentro?languag
 https://aenaossarealty.gr/property/3133/Diamerisma-Thessaloniki%20kentro?language=gr
 https://aenaossarealty.gr/property/3133/Diamerisma-Thessaloniki%20kentro?language=ru
 https://aenaossarealty.gr/property/3133/Diamerisma-Thessaloniki%20kentro?language=se
+https://aki-nito.gr/fonts/ubuntu-400-greek.woff2
 https://alphaermis.com/2024/07
 https://alphaermis.com/2025/05
 https://alphaermis.com/2025/11
@@ -1886,6 +1887,7 @@ https://greximo.com/property/villa-with-11000-sqm-yard-greece
 https://greximo.com/property/villa-xenia-halkidiki-g2193
 https://greximo.com/property/villahanioti-g2159
 https://greximo.com/property/villas-glarokavos-2230
+https://hmrealestate.gr/fonts/ubuntu-400-greek.woff2
 https://home-life.gr/property/5548/%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0-Thessaloniki%20-%20Eastern
 https://home-life.gr/property/6826/%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0-Thessaloniki%20-%20Eastern
 https://home-life.gr/property/6889/%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0-Thessaloniki%20-%20Eastern
@@ -2491,6 +2493,7 @@ https://index.cy/sale/10983314-2-bedroom-apartment-for-sale-in-paphos-agios-theo
 https://index.cy/sale/10983325-3-bedroom-apartment-for-sale-in-paphos-agios-theodoros/pdf
 https://index.cy/sale/10993952-4-bedroom-house-for-sale-in-limassol-agios-athanasios/pdf
 https://index.cy/sale/10996376-3-bedroom-apartment-for-sale-in-limassol-neapolis/pdf
+https://index.cy/sale/11038135-3-bedroom-apartment-for-sale-in-geroskipou-paphos-district/pdf
 https://index.cy/sale/11040421-2-bedroom-apartment-for-sale-in-larnaca/pdf
 https://index.cy/sale/11041471-3-bedroom-apartment-for-sale-in-larnaca/pdf
 https://index.cy/sale/11184146-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/pdf
@@ -2567,6 +2570,7 @@ https://index.cy/sale/4509122-2-bedroom-apartment-for-sale-in-geroskipou-paphos-
 https://index.cy/sale/4642477-3-bedroom-apartment-for-sale-in-engomi-nicosia-district/pdf
 https://index.cy/sale/4709526-2-bedroom-house-for-sale-in-pissouri-limassol-district/pdf
 https://index.cy/sale/5150153-2-bedroom-apartment-for-sale-in-limassol-district/pdf
+https://index.cy/sale/5230685-2-bedroom-apartment-for-sale-in-limassol-agios-nektarios/pdf
 https://index.cy/sale/5232834-3-bedroom-apartment-for-sale-in-limassol-agios-antonios/pdf
 https://index.cy/sale/53864-2-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/pdf
 https://index.cy/sale/54044-2-bedroom-apartment-for-sale-in-mouttagiaka-tourist-area-limassol-district/pdf
@@ -2609,7 +2613,9 @@ https://index.cy/sale/8710994-1-bedroom-apartment-for-sale-in-livadia-larnakas-l
 https://index.cy/sale/8909099-3-bedroom-apartment-for-sale-in-paphos-emba/pdf
 https://index.cy/sale/8991422-3-bedroom-apartment-for-sale-in-chlorakas-paphos-district/pdf
 https://index.cy/sale/8991452-3-bedroom-apartment-for-sale-in-chlorakas-paphos-district/pdf
+https://index.cy/sale/9008483-3-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/pdf
 https://index.cy/sale/9046590-3-bedroom-house-for-sale-in-anglisides-larnaca-district/pdf
+https://index.cy/sale/9069634-2-bedroom-apartment-for-sale-in-limassol-district/pdf
 https://index.cy/sale/9101429-5-bedroom-house-for-sale-in-mouttagiaka-limassol-district/pdf
 https://index.cy/sale/9152194-2-bedroom-apartment-for-sale-in-larnaca/pdf
 https://index.cy/sale/9196672-1-bedroom-apartment-for-sale-in-limassol-zakaki/pdf
@@ -2843,6 +2849,7 @@ https://info-x.gr/property/9710
 https://info-x.gr/property/9728
 https://info-x.gr/property/9738
 https://info-x.gr/property/9843
+https://interakinita.gr/fonts/ubuntu-400-greek.woff2
 https://karanikolas-estate.gr/akinita/358
 https://kmpproperty.gr/i-anoikodomisi-tis-aridaias-apo-to-1997-2024
 https://lamprakirealestate.gr/listings/N/196
@@ -5174,6 +5181,7 @@ https://themidarealestate.gr/property/988406/Oikopedo-Pieria?language=gr
 https://themidarealestate.gr/property/988406/Oikopedo-Pieria?language=ru
 https://themidarealestate.gr/property/988406/Oikopedo-Pieria?language=se
 https://themidarealestate.gr/property/990674/Diamerisma-Nea%20Paralia
+https://thermaikosrealest.gr/fonts/ubuntu-400-greek.woff2
 https://thessrealestate.gr/2026/05
 https://trustate.gr/en/listing/9123
 https://veltiston.gr/listings/areas/N168
