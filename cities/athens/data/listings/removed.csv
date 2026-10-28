@@ -1522,3 +1522,18 @@ date,source_domain,url,reason
 2026-10-28,leonprimeestates.gr,https://leonprimeestates.gr/property/%cf%80%ce%bf%ce%bb%cf%85%cf%84%ce%b5%ce%bb%ce%ad%cf%82-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%ce%ba%ce%b1%ce%bb%ce%bb%ce%b9%ce%b8%ce%ad%ce%b1/1436/,http 404
 2026-10-28,grekodom.com,https://www.grekodom.com/realtyobject/21692-for-sale-land-4008-m2-in-chalkidiki,http 404
 2026-10-28,grekodom.com,https://www.grekodom.com/realtyobject/14131-for-sale-building-650-m2-in-athens,http 404
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/06cc3499-4079-4990-96ee-cc9b398ce36d/vyrwnas-nea-elvetia-800-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/07583909-bce2-4490-87f4-21867749e0b6/porto-rafth-1500-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/08b8c86a-ad9f-47d4-874b-e7fe433be7d5/glyfada-aixwnh-750-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/098a280c-12c5-4f62-a8f2-8188a8958cca/galatsi-perivolia-500-52,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/09a8f3ad-ead2-407e-aaf6-75bb535b9358/palaio-falhro-rema-pikrodafnhs-1100-94,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0d1e5ca7-93e1-40f7-87dd-5ebd00f57e1c/athhna-plateia-attikhs-600-52,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0fbb5636-ac56-48ff-adfa-9474557b6199/nea-palatia-550-65,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,realestateone.gr,https://realestateone.gr/el/property/1553433,redirects to https://realestateone.gr/el/404
+2026-10-28,neon-realestate.gr,https://neon-realestate.gr/property/2641304-diamerisma-pros-enoikiasi-kallithea-50-t-m-e480/,http 404
+2026-10-28,neon-realestate.gr,https://neon-realestate.gr/property/2652251-diamerisma-pros-enoikiasi-kastella-pasalimani-90-t-m-e1-000/,http 404
+2026-10-28,irisrealestate.gr,https://irisrealestate.gr/property/%ce%b5%ce%bd%ce%bf%ce%af%ce%ba%ce%b9%ce%bf-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-3%ce%ac%cf%81%ce%b9-id-%ce%b54899/,http 404
+2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/304972,sold / not available
+2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/542154,sold / not available
+2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/431194,sold / not available
+2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/457762,sold / not available
