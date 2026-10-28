@@ -1537,3 +1537,12 @@ date,source_domain,url,reason
 2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/542154,sold / not available
 2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/431194,sold / not available
 2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/457762,sold / not available
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/17efe2e9-053f-41fb-a15a-06d05b557bc3/palaio-falhro-agia-varvara-1000-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/1c8dff63-3445-4025-b613-a0e1ebeff5f2/athhna-kallirrohs-780-74,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/1d9a63db-1202-475e-b2e5-253159dbdbc0/hlioypolh-agia-marina-550-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/211418a8-d05a-4fdf-9ad9-0e43b6e37e1b/aigalew-swthrakh-580-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/22ca980b-c518-4a7f-a0d1-0494ef2b2162/athhna-pagkrati-560-34,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-28,realestateone.gr,https://realestateone.gr/el/property/1554019,redirects to https://realestateone.gr/el/404
+2026-10-28,neon-realestate.gr,https://neon-realestate.gr/property/2637901-diamerisma-pros-enoikiasi-voula-100-t-m-e1-650/,http 404
+2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/542485,sold / not available
+2026-10-28,goldenhome.gr,https://goldenhome.gr/property/view/539729,sold / not available
