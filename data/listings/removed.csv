@@ -2609,3 +2609,50 @@ date,source_domain,url,reason
 2026-10-29,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2532151/,http 404
 2026-10-29,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=06620034-5f50-42b1-a949-bd5b2a8251ec,redirects to https://bee-realestate.gr/errorPage
 2026-10-29,grekodom.gr,https://www.grekodom.gr/realtyobject/31312-poleitai-xenodoheio-2000-m2-stin-pieria,http 404
+2026-10-29,remax.gr,https://www.remax.gr/property/358824-polisi-monokatoikia-synoikismos-nomoy-751,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/370829-polisi-diamerisma-agios-iwannhs,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/376950-polisi-diamerisma-tagarades,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/384694-polisi-diamerisma-nea-elbetia,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/384959-polisi-diamerisma-palaiokastro,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/390218-polisi-gkarsoniera-studio-ampelokhpoi,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/390343-polisi-mezoneta-kentro,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/399085-polisi-katastima-eleytherio-kordelio,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/400063-enoikiasi-gkarsoniera-studio-mpotsarh,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/400065-enoikiasi-gkarsoniera-studio-mpotsarh,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/404617-polisi-diamerisma-mpotsarh,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/407907-polisi-diamerisma-byzantio,not on result pages
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/379309ba-2cfc-4410-ab9d-3dfd76ac55d7/thessalonikh-kentro-1100-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3df88d79-b5ac-4d04-9ab6-fac2e0f0db3c/thessalonikh-ntepw-800-99,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3e390d28-6702-4d3b-8082-936a9be658fc/thessalonikh-papafeio-650-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/40691c48-6b09-421b-aab2-8d2f2640c637/pylaia-550-42,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/422f6c8c-43f6-4b34-a8fb-acf3f2366e61/thessalonikh-analhpsh-850-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4f0f2536-dc35-4cc2-ab04-2fe6a9ca994a/peraia-400-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,casanova.com.gr,https://casanova.com.gr/el/property/544942,http 404
+2026-10-29,casanova.com.gr,https://casanova.com.gr/el/property/544872,http 404
+2026-10-29,casanova.com.gr,https://casanova.com.gr/el/property/544803,http 404
+2026-10-29,casanova.com.gr,https://casanova.com.gr/el/property/544752,http 404
+2026-10-29,hometarget.gr,https://hometarget.gr/el/property/4180,http 404
+2026-10-29,hometarget.gr,https://hometarget.gr/el/property/4110,http 404
+2026-10-29,kosmopolishouse.gr,https://kosmopolishouse.gr/akinita/gkarsoniera-072,http 404
+2026-10-29,elgrekorealestate.com,https://www.elgrekorealestate.com/ru/property/show/2656096/,http 404
+2026-10-29,mesitiki.net,https://mesitiki.net/el/property/3069,http 404
+2026-10-29,monopoly.com.gr,https://monopoly.com.gr/el/property/99098,http 404
+2026-10-29,monopoly.com.gr,https://monopoly.com.gr/el/property/72541,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/72280,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/96714,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/97371,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/75775,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/96057,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/96629,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/94877,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/94192,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/93401,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/92084,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/91656,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/91088,http 404
+2026-10-29,thgr.gr,https://thgr.gr/el/property/93640,http 404
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/533721,sold / not available
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/515729,sold / not available
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/542154,sold / not available
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/543159,sold / not available
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/514613,sold / not available
