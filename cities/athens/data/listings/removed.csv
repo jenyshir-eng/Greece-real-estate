@@ -1617,3 +1617,35 @@ date,source_domain,url,reason
 2026-10-29,irisrealestate.gr,https://irisrealestate.gr/property/%ce%b5%ce%bd%ce%bf%ce%b9%ce%ba%ce%af%ce%b1%cf%83%ce%b7-%ce%b9%cf%83%cf%8c%ce%b3%ce%b5%ce%b9%ce%bf-%ce%ba%ce%b1%cf%84%ce%ac%cf%83%cf%84%ce%b7%ce%bc%ce%b1-id-%ce%b54789/,http 404
 2026-10-29,attractionproperties.gr,https://attractionproperties.gr/el/property/1491,http 404
 2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/519813,sold / not available
+2026-10-29,remax.gr,https://www.remax.gr/property/307964-polisi-epaggelmatiko-ktirio-dasos,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/308142-polisi-grafeio-galatsi,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/352532-polisi-katastima-kamatero,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/353238-polisi-katastima-galatsi,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/364903-polisi-epaggelmatiko-ktirio-biamaks,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/369864-polisi-apothiki-nea-iwnia,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/374903-polisi-katastima-nea-filadelfeia,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/375012-polisi-ktirio--lazaroy,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/381180-polisi-grafeio-galatsi,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/381186-polisi-aithousa-nea-iwnia,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/403894-polisi-mezoneta-agios-petros,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/405961-polisi-diamerisma-agios-petros,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/405962-polisi-diamerisma-agios-petros,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/407373-polisi-katastima-galatsi,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/408520-enoikiasi-katastima-dafnh,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/408526-enoikiasi-katastima-zwgrafoy,not on result pages
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8cb16648-abde-4a19-96a3-ae8c3c1eb6bb/nea-smyrnh-anw-nea-smyrnh-1100-83,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9727ac8b-f340-4606-a913-fce483538a77/athhna-kolwnaki-2300-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9b992552-dd2c-47de-a6ae-5fce2001d8b7/alimos-ampelakia-1200-128,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9e019bf6-c385-49a6-bb04-6c764c94d5d7/peristeri-nea-zwh-580-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9f0b1ea5-6874-47ac-9224-42d38757b04b/kallithea-tzitzifies-650-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/a1a75d40-7c32-4e75-a27d-5d7825b1a785/skala-wrwpoy-450-43,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/aa06d01c-3361-4ad2-87c7-3caa87918f1b/athhna-nea-kypselh-350-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/aa1657a9-f7ae-4bf8-959f-bb9d3a07d712/peristeri-nea-sepolia-600-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b282ca6f-6d6f-41db-8583-f068eaa42cb3/ymhttos-kentro-650-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b3389cbe-bad8-48a8-851f-64dbd992d083/dafnh-attikhs-anw-dafnh-750-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b453e177-43b9-4140-87ee-4d14a8d36d9c/athhna-kolwnaki-1900-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b66162d0-93f3-4d47-93e2-aa9c07859c7a/athhna-plateia-amerikhs-500-56,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,tsrealestate.gr,https://tsrealestate.gr/el/property/16017,http 404
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/509832,sold / not available
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/220494,sold / not available
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/527934,sold / not available
