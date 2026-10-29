@@ -1603,3 +1603,17 @@ date,source_domain,url,reason
 2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/499644,sold / not available
 2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/537689,sold / not available
 2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/485336,sold / not available
+2026-10-29,remax.gr,https://www.remax.gr/property/382369-polisi-mezoneta-terpsithea,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/384022-polisi-diamerisma-palaio-falhro,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/398554-polisi-diamerisma-dafnh,not on result pages
+2026-10-29,remax.gr,https://www.remax.gr/property/403756-enoikiasi-katastima-ymhttos-kentro,not on result pages
+2026-10-29,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/athens-apartment-in-center-for-rent-id-a01-977,left the sitemap
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8238e1a4-1288-4fde-bcae-6b51bc70c7e3/athhna-neos-kosmos-670-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/82a3313d-6224-4370-b175-42b834391743/athhna-filopappoy-680-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8689c7bc-8b0c-4c06-ac0d-7125c1123609/peristeri-nea-zwh-600-48,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/87cf3faf-10b6-4743-8abd-4499cbdc728c/nikaia-agios-gewrgios-780-110,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-29,planethomes.gr,https://www.planethomes.gr/akinito/6031-2/,http 404
+2026-10-29,tsrealestate.gr,https://tsrealestate.gr/el/property/16076,http 404
+2026-10-29,irisrealestate.gr,https://irisrealestate.gr/property/%ce%b5%ce%bd%ce%bf%ce%b9%ce%ba%ce%af%ce%b1%cf%83%ce%b7-%ce%b9%cf%83%cf%8c%ce%b3%ce%b5%ce%b9%ce%bf-%ce%ba%ce%b1%cf%84%ce%ac%cf%83%cf%84%ce%b7%ce%bc%ce%b1-id-%ce%b54789/,http 404
+2026-10-29,attractionproperties.gr,https://attractionproperties.gr/el/property/1491,http 404
+2026-10-29,goldenhome.gr,https://goldenhome.gr/property/view/519813,sold / not available
