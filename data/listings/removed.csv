@@ -2706,3 +2706,33 @@ date,source_domain,url,reason
 2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/515736,sold / not available
 2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/515733,sold / not available
 2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/495017,sold / not available
+2026-10-30,remax.gr,https://www.remax.gr/property/338242-polisi-gkarsoniera-studio-agios-giwrgios-trwada,not on result pages
+2026-10-30,remax.gr,https://www.remax.gr/property/368075-polisi-diamerisma-nea-krhnh,not on result pages
+2026-10-30,remax.gr,https://www.remax.gr/property/390264-enoikiasi-diamerisma-ypoloipo-kentroy-8essalonikhs,not on result pages
+2026-10-30,remax.gr,https://www.remax.gr/property/395821-polisi-diamerisma-byzantio,not on result pages
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9e52c719-d3ec-490b-b473-d4c07e9c1558/thessalonikh-charilaoy-600-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/a8bfc4db-1f02-4c1e-9151-d43eea8f6a77/thessalonikh-katw-toympa-430-58,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b324ef4a-bb45-45de-8889-4d6ea6492a63/thessalonikh-katw-toympa-360-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b7ed326a-21dd-45f4-845d-ed52ac73a16c/eykarpia-550-52,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/bdc69ccf-a854-4241-b8e3-f39b0d61813e/triandria-350-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c63a1b0c-3573-4309-8c29-fb8803ad02cb/thessalonikh-ntepw-800-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c938c1d3-8103-42b8-9ef3-fb4054d85346/thessalonikh-falhro-320-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d6044949-0f63-4127-b852-02a150d73212/thessalonikh-analhpsh-600-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e1716f52-51c3-4a5b-bfae-411148a089b9/kalamaria-1150-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e7c9eb25-be1a-44be-9fef-2564768e4aa2/thessalonikh-anw-polh-400-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/eae98b19-5aed-48c7-bcd0-a77f497d196b/thessalonikh-40-ekklhsies-330-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ec773466-9a08-4c02-9cd7-b7a078c07fff/epanomh-500-183,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,greekexclusiveproperties.com,https://www.greekexclusiveproperties.com/property/hotel-for-sale-caldera-santorini-with-21-rooms-can-be-sold-either-25-49-100-of-the-hotel,sold / not available
+2026-10-30,mandraouhome.gr,https://www.mandraouhome.gr/portfolio-item/%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-347%cf%84-%ce%bc-%ce%bd%ce%ad%ce%b1-%ce%ba%ce%b5%cf%81%ce%b1%cf%83%ce%af%ce%b1-e300-000/,http 404
+2026-10-30,monopoly.com.gr,https://monopoly.com.gr/el/property/6717,http 404
+2026-10-30,monopoly.com.gr,https://monopoly.com.gr/el/property/99024,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/96659,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/94189,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/97936,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/97385,http 404
+2026-10-30,grekodom.gr,https://www.grekodom.gr/realtyobject/12486-poleitai-gi-15000-m2-stin-kriti,http 404
+2026-10-30,grekodom.gr,https://www.grekodom.gr/realtyobject/32785-poleitai-gi-359-m2-stin-kriti,http 404
+2026-10-30,grekodom.gr,https://www.grekodom.gr/realtyobject/32790-poleitai-gi-301-m2-stin-kriti,http 404
+2026-10-30,grekodom.gr,https://www.grekodom.gr/realtyobject/12484-poleitai-gi-570-m2-stin-kriti,http 404
+2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/539576,sold / not available
+2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/539729,sold / not available
