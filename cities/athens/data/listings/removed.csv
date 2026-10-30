@@ -1669,3 +1669,20 @@ date,source_domain,url,reason
 2026-10-30,tsrealestate.gr,https://tsrealestate.gr/el/property/16043,http 404
 2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/523720,sold / not available
 2026-10-30,terra-greca.gr,https://terra-greca.gr/akinita/1263699-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%ac%ce%bb%ce%b9%ce%bc%ce%bf%cf%82-95-%cf%84-%ce%bc-e680-000/,http 404
+2026-10-30,remax.gr,https://www.remax.gr/property/405860-enoikiasi-grafeio-kentro,not on result pages
+2026-10-30,remax.gr,https://www.remax.gr/property/407911-polisi-monokatoikia-eygenidio,not on result pages
+2026-10-30,remax.gr,https://www.remax.gr/property/408196-polisi-gkarsoniera-studio-glyfada,not on result pages
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/de41b280-89bf-43d2-a804-f6029e66e36f/thrakomakedones-4200-554,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e68e08f3-d4f9-4630-806e-fa3380f96648/athhna-lykavhttos-500-33,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ea1b7dd8-a996-43dd-9f1c-42f6a60ce1ec/athhna-ampelokhpoi-550-23,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/efd93109-11a2-40cf-9110-c62b57629266/wrwpos-480-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f0fce90d-05b8-4782-b9a1-812dc1280008/athhna-nea-kypselh-600-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f58d7ca8-14db-4be0-97d6-148b4482aaf2/argyroypolh-kentro-750-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,realestateone.gr,https://realestateone.gr/el/property/1552598,redirects to https://realestateone.gr/el/404
+2026-10-30,realestateone.gr,https://realestateone.gr/el/property/1552145,redirects to https://realestateone.gr/el/404
+2026-10-30,planethomes.gr,https://www.planethomes.gr/akinito/32913-2/,http 404
+2026-10-30,grekodom.com,https://www.grekodom.com/realtyobject/12486-for-sale-land-15000-m2-in-crete,http 404
+2026-10-30,grekodom.com,https://www.grekodom.com/realtyobject/12484-for-sale-land-570-m2-in-crete,http 404
+2026-10-30,grekodom.com,https://www.grekodom.com/realtyobject/12485-for-sale-land-1000-m2-in-crete,http 404
+2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/539687,sold / not available
+2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/541795,sold / not available
