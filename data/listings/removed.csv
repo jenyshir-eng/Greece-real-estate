@@ -2736,3 +2736,39 @@ date,source_domain,url,reason
 2026-10-30,grekodom.gr,https://www.grekodom.gr/realtyobject/12484-poleitai-gi-570-m2-stin-kriti,http 404
 2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/539576,sold / not available
 2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/539729,sold / not available
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f0de6ae2-65d7-4361-8b36-73a9e4fb7db5/thessalonikh-analhpsh-600-65,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f1e3dfcc-d0ca-4e89-bd27-fb48aa453d8f/triandria-450-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f387cbe8-4be2-4522-8b20-31f5ff60199a/thessalonikh-charilaoy-600-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-10-30,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0440278b-c8bf-4982-a16a-b1d33763d2d2/aylwna-550000-480,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-30,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0be7dd9a-e52c-4982-b167-07ac3bb20f71/thessalonikh-katw-toympa-45000-78,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-30,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/310c1730-c4c9-43ba-bd07-46f9a28699ee/thessalonikh-katw-toympa-45000-78,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-30,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/5d1444c3-cbde-4231-bbda-45795516337f/stayroypolh-100000-145,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-30,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/858c866d-7fec-4ef9-894d-69c7bfd8586d/thessalonikh-kentro-600000-218,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-30,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b81a305b-3660-4fab-8a08-8d806fd0bb4f/ampelokhpoi-45000-30,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-30,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b97ca684-7484-4d1c-90a1-bd7aab3f0b72/thessalonikh-anw-toympa-120000-170,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-30,four-walls.gr,https://four-walls.gr/properties/2400024,http 404
+2026-10-30,eliteps.gr,https://eliteps.gr/el/property/12839,http 404
+2026-10-30,eliteps.gr,https://eliteps.gr/el/property/12836,http 404
+2026-10-30,tzemis.gr,https://www.tzemis.gr/properties/%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%bc%cf%841727/,http 404
+2026-10-30,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122049,http 404
+2026-10-30,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121986,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/98671,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/93306,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/98669,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/91695,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/92752,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/94565,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/94890,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/94887,http 404
+2026-10-30,thgr.gr,https://thgr.gr/el/property/94883,http 404
+2026-10-30,aki-nito.gr,https://aki-nito.gr/el/property/4996,http 404
+2026-10-30,aki-nito.gr,https://aki-nito.gr/el/property/5048,http 404
+2026-10-30,aki-nito.gr,https://aki-nito.gr/el/property/4877,http 404
+2026-10-30,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/en/property/flatlet-i-dragoumi-1-24436/,http 404
+2026-10-30,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/en/property/flatlet-i-dragoumi-1-24436/,http 404
+2026-10-30,grekodom.gr,https://www.grekodom.gr/realtyobject/37041-poleitai-gi-1038-m2-stin-kriti,http 404
+2026-10-30,rewize.com,https://rewize.com/akinito/7696,sold / not available
+2026-10-30,remax.gr,https://www.remax.gr/property/408899-polisi-diamerisma-lewf-pathsiwn-lewf-axarnwn,http 404
+2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/519813,sold / not available
+2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/511696,sold / not available
+2026-10-30,goldenhome.gr,https://goldenhome.gr/property/view/542831,sold / not available
