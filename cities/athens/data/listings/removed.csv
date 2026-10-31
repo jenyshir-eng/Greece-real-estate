@@ -1908,3 +1908,29 @@ date,source_domain,url,reason
 2026-10-30,tsrealestate.gr,https://tsrealestate.gr/el/property/16053,http 404
 2026-10-30,tsrealestate.gr,https://tsrealestate.gr/el/property/16048,http 404
 2026-10-30,tsrealestate.gr,https://tsrealestate.gr/el/property/16046,http 404
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/733a7944-30a8-4d64-9082-dc968a2fe73c/vyrwnas-kareas-2450000-800,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/85a11ef2-081c-4a30-9a77-7e1256068d32/athhna-omonoia-600000-60,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/9881b210-a963-4c0e-9448-882d99d2588c/passarwna-1625000-4702,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/16102,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15832,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15807,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15806,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15805,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15764,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15784,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15799,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15794,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15752,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/15739,http 404
+2026-10-31,tsrealestate.gr,https://tsrealestate.gr/el/property/16071,http 404
+2026-10-31,realestateone.gr,https://realestateone.gr/el/property/1552671,redirects to https://realestateone.gr/el/404
+2026-10-31,vmproperties.gr,https://vmproperties.gr/property/86-3072,http 404
+2026-10-31,vmproperties.gr,https://vmproperties.gr/property/84-3644,http 404
+2026-10-31,vmproperties.gr,https://vmproperties.gr/property/87-3870,http 404
+2026-10-31,irisrealestate.gr,https://irisrealestate.gr/property/%ce%b5%ce%bd%ce%bf%ce%b9%ce%ba%ce%af%ce%b1%cf%83%ce%b7-%ce%b9%cf%83%cf%8c%ce%b3%ce%b5%ce%b9%ce%bf-%ce%ba%ce%b1%cf%84%ce%ac%cf%83%cf%84%ce%b7%ce%bc%ce%b1-id-%ce%b54883/,http 404
+2026-10-31,grekodom.com,https://www.grekodom.com/realtyobject/31312-for-sale-hotel-2000-m2-on-the-olympic-c,http 404
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/319795,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/515651,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/535380,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/515825,sold / not available
+2026-10-31,terra-greca.gr,https://terra-greca.gr/akinita/1620379-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%cf%80%ce%b5%ce%b9%cf%81%ce%b1%cf%8a%ce%ba%ce%ae-%cf%87%ce%b1/,http 404
