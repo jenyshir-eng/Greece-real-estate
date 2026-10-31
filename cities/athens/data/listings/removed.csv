@@ -1934,3 +1934,12 @@ date,source_domain,url,reason
 2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/535380,sold / not available
 2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/515825,sold / not available
 2026-10-31,terra-greca.gr,https://terra-greca.gr/akinita/1620379-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%cf%80%ce%b5%ce%b9%cf%81%ce%b1%cf%8a%ce%ba%ce%ae-%cf%87%ce%b1/,http 404
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/9a5c015b-d43c-4747-be30-bb1d003f3c0c/peristeri-mpoyrnazi-50000-36,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/c865617c-7e51-4f43-8da2-dd748a9c03e2/peiraias-freattyda-1500000-450,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/c90d8a0c-fa45-4408-bf69-4c3cc07bda07/markopoylo-mesogaias-markopoylo-320000-166,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/e5584dff-4d25-44ee-9ab8-fc84433de714/agios-dhmhtrios-attikhs-nekrotafeio-510000-412,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-10-31,realestateone.gr,https://realestateone.gr/el/property/1553282,redirects to https://realestateone.gr/el/404
+2026-10-31,realestateone.gr,https://realestateone.gr/el/property/1553267,redirects to https://realestateone.gr/el/404
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/543158,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/501215,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/367074,sold / not available
