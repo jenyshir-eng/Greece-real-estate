@@ -2842,3 +2842,14 @@ date,source_domain,url,reason
 2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/536536,sold / not available
 2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/541785,sold / not available
 2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/506958,sold / not available
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/7ccbe286-671d-4ec4-b861-1e3e057e75be/thessalonikh-nea-elvetia-220000-90,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/8011dd8e-0906-4b3b-b65c-84afaae43a03/thessalonikh-analhpsh-220000-69,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/859c625f-b347-49dc-8c85-d0cb402cf973/thessalonikh-analhpsh-300000-104,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/92ba9220-0ae4-404d-9698-028e264cb471/kalamaria-127000-40,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/95c57b32-8eb8-450b-8471-a44bc76e7d40/panorama-500000-250,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-31,monopoly.com.gr,https://monopoly.com.gr/el/property/96737,http 404
+2026-10-31,eliteps.gr,https://eliteps.gr/el/property/9429,http 404
+2026-10-31,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%b1%cf%87%ce%b5%ce%b9%cf%81%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%84%ce%bf%cf%82-1-24456/,http 404
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/539687,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/542417,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/424330,sold / not available
