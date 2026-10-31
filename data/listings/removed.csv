@@ -2830,3 +2830,15 @@ date,source_domain,url,reason
 2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/500143,sold / not available
 2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/448973,sold / not available
 2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/512991,sold / not available
+2026-10-31,remax.gr,https://www.remax.gr/property/405059-enoikiasi-apothiki-anw-toympa,not on result pages
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/56988107-a2b5-4aaf-8cce-f9771c0fb8d4/thessalonikh-anw-toympa-230000-75,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-31,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/5b6f69f8-8a1f-42f4-b727-4833568a5689/thermh-245000-125,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-10-31,hometarget.gr,https://hometarget.gr/el/property/3982,http 404
+2026-10-31,renovahouse.gr,https://renovahouse.gr/en/property/132,http 404
+2026-10-31,thgr.gr,https://thgr.gr/el/property/26314,http 404
+2026-10-31,thgr.gr,https://thgr.gr/el/property/25361,http 404
+2026-10-31,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/12250,http 404
+2026-10-31,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%b1%cf%87%ce%b5%ce%b9%cf%81%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%84%ce%bf%cf%82-1-24456/,http 404
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/536536,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/541785,sold / not available
+2026-10-31,goldenhome.gr,https://goldenhome.gr/property/view/506958,sold / not available
