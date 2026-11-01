@@ -2032,3 +2032,11 @@ date,source_domain,url,reason
 2026-11-01,skproperties4u.gr,https://skproperties4u.gr/el/akinito/20419112,http 404
 2026-11-01,skproperties4u.gr,https://skproperties4u.gr/el/akinito/19353101,http 404
 2026-11-01,skproperties4u.gr,https://skproperties4u.gr/el/akinito/19353101?forPrint=1,http 404
+2026-11-01,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/77be0cc9-795a-4cf0-8ece-9ee07e0d74cd/paiania-250000-1130,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-11-01,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/7fcab949-eed4-435f-8895-2dcee1b0f43a/tryphth-1190000-6800,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-11-01,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/81a78631-023b-4410-8346-9a7074233ff6/schinias-6500000-70000,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-11-01,attractionproperties.gr,https://attractionproperties.gr/el/property/1469,http 404
+2026-11-01,goldenhome.gr,https://goldenhome.gr/property/view/540713,sold / not available
+2026-11-01,goldenhome.gr,https://goldenhome.gr/property/view/532180,sold / not available
+2026-11-01,goldenhome.gr,https://goldenhome.gr/property/view/543470,sold / not available
+2026-11-01,goldenhome.gr,https://goldenhome.gr/property/view/539845,sold / not available
