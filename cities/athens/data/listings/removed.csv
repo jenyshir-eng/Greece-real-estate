@@ -2026,3 +2026,9 @@ date,source_domain,url,reason
 2026-11-01,goldenhome.gr,https://goldenhome.gr/property/view/542413,sold / not available
 2026-11-01,goldenhome.gr,https://goldenhome.gr/property/view/274980,sold / not available
 2026-11-01,grekodom.com,https://www.grekodom.com/realtyobject/14580-for-sale-land-43500-m2-on-the-olympic-c,http 404
+2026-11-01,remax.gr,https://www.remax.gr/property/407623-enoikiasi-apothiki-agios-dhmhtrios,not on result pages
+2026-11-01,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/591daf89-73f7-4b3e-a46d-bc5f7167df15/porto-rafth-350000-523,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-11-01,goldenhome.gr,https://goldenhome.gr/property/view/527120,sold / not available
+2026-11-01,skproperties4u.gr,https://skproperties4u.gr/el/akinito/20419112,http 404
+2026-11-01,skproperties4u.gr,https://skproperties4u.gr/el/akinito/19353101,http 404
+2026-11-01,skproperties4u.gr,https://skproperties4u.gr/el/akinito/19353101?forPrint=1,http 404
