@@ -23,6 +23,7 @@ Output: data/listings/listings_servicers.csv (columns of listings_thessaloniki.c
 """
 import csv
 import datetime
+import http.client
 import json
 import os
 import sys
@@ -173,7 +174,9 @@ def main():
         known = {u: r for u, r in old.items() if r["source_domain"] == domain}
         try:
             got = run()
-        except (urllib.error.URLError, TimeoutError, ValueError) as e:
+        # OSError covers URLError, timeouts and dropped connections (RemoteDisconnected); a site that
+        # refuses this machine must not cost the listings already read from the others
+        except (OSError, http.client.HTTPException, ValueError) as e:
             print(f"{domain}: {getattr(e, 'code', '') or type(e).__name__} {e}; known listings kept", file=sys.stderr)
             rows.update(known)
             failed += 1

@@ -49,5 +49,28 @@ class RowFrom(unittest.TestCase):
         self.assertIn("page=2", u)
 
 
+class Main(unittest.TestCase):
+    def test_dropped_connection_on_one_site_keeps_the_others(self):
+        import http.client
+        import tempfile
+        from unittest import mock
+        row = cs.row_from(listing(), "altamiraproperties.gr", "A", SITE, "auction", NOW)
+        cwd = os.getcwd()
+        with tempfile.TemporaryDirectory() as tmp:
+            os.makedirs(os.path.join(tmp, "data", "listings"))
+            os.chdir(tmp)
+            try:
+                with mock.patch.object(cs, "collect", lambda d, *a: {row["url"]: dict(row, source_domain=d)}), \
+                        mock.patch.object(cs.servicers_eagents, "collect",
+                                          side_effect=http.client.RemoteDisconnected("closed")):
+                    code = cs.main()
+                written = open(cs.OUT, encoding="utf-8").read()
+            finally:
+                os.chdir(cwd)
+        self.assertEqual(code, 0)
+        self.assertIn("altamiraproperties.gr", written)
+        self.assertIn("intrum.gr", written)
+
+
 if __name__ == "__main__":
     unittest.main()
