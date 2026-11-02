@@ -3019,3 +3019,13 @@ date,source_domain,url,reason
 2026-11-02,grekodom.gr,https://www.grekodom.gr/realtyobject/35360-poleitai-ktirio-200-m2-sta-perihora-the,http 404
 2026-11-02,realestatepoint.gr,https://index.cy/sale/9533378-3-bedroom-house-for-sale-in-pano-lefkara-limassol-district/,http 404
 2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/541846,sold / not available
+2026-11-02,xe.gr,https://www.xe.gr/property/d/poliseis-gis-oikopedon/eb98dd0c-45df-4206-a3bb-13de2004812f/polykarpi-10000-400,http 302 -> https://www.xe.gr/property/r/poliseis-gis-oikopedon
+2026-11-02,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/09861198-a980-4cba-837e-f1819de9a47c/kalamaria-163000-80,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-02,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/214bd959-2f96-46da-a3d9-90106521fea1/eyosmos-124000-62,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-02,best-house.gr,https://www.best-house.gr/akinito/508-diamerisma-65tm-k7585,http 404
+2026-11-02,katikia.com.gr,https://katikia.com.gr/el/property/2494,http 404
+2026-11-02,katikia.com.gr,https://katikia.com.gr/el/property/2462,http 404
+2026-11-02,monopoly.com.gr,https://monopoly.com.gr/el/property/6114,http 404
+2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/542152,sold / not available
+2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/529115,sold / not available
+2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/532818,sold / not available
