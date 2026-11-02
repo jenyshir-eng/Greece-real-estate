@@ -2259,3 +2259,14 @@ date,source_domain,url,reason
 2026-11-02,tsrealestate.gr,https://tsrealestate.gr/el/property/15863,http 404
 2026-11-02,tsrealestate.gr,https://tsrealestate.gr/el/property/15861,http 404
 2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/540812,sold / not available
+2026-11-02,remax.gr,https://www.remax.gr/property/396948-polisi-monokatoikia-lagonhsi,not on result pages
+2026-11-02,remax.gr,https://www.remax.gr/property/400504-enoikiasi-diamerisma-gkolf,not on result pages
+2026-11-02,remax.gr,https://www.remax.gr/property/409965-enoikiasi-epaggelmatiko-ktirio-panionia,not on result pages
+2026-11-02,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/0b242e45-efc3-4d91-b8f1-8ac54b15084f/gerakas-stayros-120000-77,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-02,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/1bbc2f04-c969-4b02-9e6f-3bc79731a642/kallithea-tzitzifies-155000-79,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-02,tsrealestate.gr,https://tsrealestate.gr/el/property/15860,http 404
+2026-11-02,tsrealestate.gr,https://tsrealestate.gr/el/property/15859,http 404
+2026-11-02,realestateone.gr,https://realestateone.gr/el/property/1554314,redirects to https://realestateone.gr/el/404
+2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/514059,sold / not available
+2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/539090,sold / not available
+2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/510979,sold / not available
