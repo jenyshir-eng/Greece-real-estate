@@ -2270,3 +2270,31 @@ date,source_domain,url,reason
 2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/514059,sold / not available
 2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/539090,sold / not available
 2026-11-02,goldenhome.gr,https://goldenhome.gr/property/view/510979,sold / not available
+2026-11-03,remax.gr,https://www.remax.gr/property/346116-enoikiasi-oikopedo-gia-katoikia-mandra,not on result pages
+2026-11-03,remax.gr,https://www.remax.gr/property/397386-enoikiasi-epaggelmatiko-ktirio-porto-rafth,not on result pages
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/2095fd17-4ef0-4813-ba38-8520badf6fcb/kryoneri-kentro-440000-230,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/2262aba9-372c-4bd7-a34e-0af292d60dcb/athhna-lykavhttos-247000-84,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/25c23b2a-ab9f-4abe-89f0-69c9397132ad/elanh-795000-142,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/27cfbc6f-113a-4971-a843-7289eb811463/vrilhssia-anw-vrilhssia-245000-87,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/29713efe-fe26-4f89-9aee-6aa13692c9e2/palaio-falhro-ghpeda-295000-97,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/2f0fcd47-1b8a-4870-a809-5940b37530df/athhna-agios-pantelehmonas-137000-93,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,leadestate.gr,https://www.leadestate.gr/properties/property_detail/4666,http 404
+2026-11-03,realestateone.gr,https://realestateone.gr/el/property/1553243,redirects to https://realestateone.gr/el/404
+2026-11-03,planethomes.gr,https://www.planethomes.gr/akinito/43075-2/,http 404
+2026-11-03,planethomes.gr,https://www.planethomes.gr/akinito/51264-2/,http 404
+2026-11-03,planethomes.gr,https://www.planethomes.gr/akinito/51090-2/,http 404
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/542256,sold / not available
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/541846,sold / not available
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/540699,sold / not available
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/538804,sold / not available
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/542844,sold / not available
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/529115,sold / not available
+2026-11-03,greatestate.gr,https://greatestate.gr/property/apartment-in-glyfada/1094/,http 404
+2026-11-03,greatestate.gr,https://greatestate.gr/property/villa-in-stalida/1066/,http 404
+2026-11-03,greatestate.gr,https://greatestate.gr/property/apartment-in-agioi-anargyroi/1081/,http 404
+2026-11-03,greatestate.gr,https://greatestate.gr/property/villa-in-voula/1082/,http 404
+2026-11-03,greatestate.gr,https://greatestate.gr/property/apartment-in-pireaus/1065/,http 404
+2026-11-03,greatestate.gr,https://greatestate.gr/property/apartment-in-the-center-of-athens/1064/,http 404
+2026-11-03,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-590/,sold / not available
+2026-11-03,attractionproperties.gr,https://attractionproperties.gr/el/property/1496,http 404
+2026-11-03,grekodom.com,https://www.grekodom.com/realtyobject/32160-for-sale-land-1294-m2-in-crete,http 404
