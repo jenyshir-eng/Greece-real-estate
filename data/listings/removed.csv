@@ -3139,3 +3139,20 @@ date,source_domain,url,reason
 2026-11-03,eliteps.gr,https://eliteps.gr/sq/property/10920,http 404
 2026-11-03,eliteps.gr,https://eliteps.gr/el/property/11298,http 404
 2026-11-03,eliteps.gr,https://eliteps.gr/sq/property/11298,http 404
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/d09115c2-d62b-4e2b-8ea0-e46714395e45/agia-paraskeyh-200000-201,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,angelou-realestate.gr,https://www.angelou-realestate.gr/single-property-page.php?id=606&sr=2,redirects to https://www.angelou-realestate.gr/noresults.php?id=
+2026-11-03,casanova.com.gr,https://casanova.com.gr/el/property/545096,http 404
+2026-11-03,casanova.com.gr,https://casanova.com.gr/el/property/544961,http 404
+2026-11-03,casanova.com.gr,https://casanova.com.gr/el/property/544887,http 404
+2026-11-03,hometarget.gr,https://hometarget.gr/el/property/4147,http 404
+2026-11-03,katikia.com.gr,https://katikia.com.gr/el/property/2533,http 404
+2026-11-03,monopoly.com.gr,https://monopoly.com.gr/el/property/6799,http 404
+2026-11-03,monopoly.com.gr,https://monopoly.com.gr/el/property/TS660,http 404
+2026-11-03,monopoly.com.gr,https://monopoly.com.gr/el/property/GP921,http 404
+2026-11-03,eliteps.gr,https://eliteps.gr/el/property/11157,http 404
+2026-11-03,eliteps.gr,https://eliteps.gr/sq/property/11157,http 404
+2026-11-03,eliteps.gr,https://eliteps.gr/el/property/6077,http 404
+2026-11-03,eliteps.gr,https://eliteps.gr/sq/property/6077,http 404
+2026-11-03,realestatepoint.gr,https://index.cy/rent/11858604-4-bedroom-house-for-rent-in-paphos-district/,http 404
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/501296,sold / not available
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/520338,sold / not available
