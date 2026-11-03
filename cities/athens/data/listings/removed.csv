@@ -2298,3 +2298,24 @@ date,source_domain,url,reason
 2026-11-03,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-590/,sold / not available
 2026-11-03,attractionproperties.gr,https://attractionproperties.gr/el/property/1496,http 404
 2026-11-03,grekodom.com,https://www.grekodom.com/realtyobject/32160-for-sale-land-1294-m2-in-crete,http 404
+2026-11-03,remax.gr,https://www.remax.gr/property/375829-polisi-oikopedo-gia-katoikia-porto-rafth,not on result pages
+2026-11-03,remax.gr,https://www.remax.gr/property/391288-polisi-katastima-agios-fanoyrios,not on result pages
+2026-11-03,remax.gr,https://www.remax.gr/property/400003-polisi-mezoneta-kantza,not on result pages
+2026-11-03,remax.gr,https://www.remax.gr/property/400437-polisi-diamerisma-galatsi,not on result pages
+2026-11-03,remax.gr,https://www.remax.gr/property/405923-polisi-monokatoikia-anabyssos,not on result pages
+2026-11-03,remax.gr,https://www.remax.gr/property/408216-enoikiasi-mezoneta-agios-petros,not on result pages
+2026-11-03,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-kallithea-id-a4-3513,left the sitemap
+2026-11-03,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-kallithea-tzitzifies-id-a4-6377,left the sitemap
+2026-11-03,intrum.gr,https://marketplace.intrum.gr/listings/1569,left the servicer marketplace
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/39e4106f-e350-4024-b178-b5c80444a149/nikaia-mhtropolh-165000-58,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/3a1ebe70-fd10-44a4-a99b-3e38d30f9023/cholargos-tsakos-370000-82,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/40ddff64-ff97-4189-9dba-4c668ff70f75/vrilhssia-kentro-420000-113,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/41081c96-6f0b-4e91-af1c-6d8c8fac4563/athhna-plateia-amerikhs-120000-57,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-03,vrettos-estate.gr,https://www.vrettos-estate.gr/portfolio-items/%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-100%cf%84%ce%bc-%ce%b1%cf%87%ce%b1%cf%81%ce%bd%ce%ad%cf%82-%ce%b1%ce%b3%cf%81%ce%b9%ce%bb%ce%ad%ce%b6%ce%b1/,http 404
+2026-11-03,tsrealestate.gr,https://tsrealestate.gr/el/property/16022,http 404
+2026-11-03,tsrealestate.gr,https://tsrealestate.gr/el/property/16025,http 404
+2026-11-03,tsrealestate.gr,https://tsrealestate.gr/el/property/16023,http 404
+2026-11-03,planethomes.gr,https://www.planethomes.gr/akinito/44923-2/,http 404
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/541275,sold / not available
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/541785,sold / not available
+2026-11-03,goldenhome.gr,https://goldenhome.gr/property/view/542035,sold / not available
