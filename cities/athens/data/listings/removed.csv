@@ -2473,3 +2473,11 @@ date,source_domain,url,reason
 2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/522827,sold / not available
 2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/533721,sold / not available
 2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/535764,sold / not available
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/c336e00a-4fbd-49c0-8230-b9315fb4efe0/athhna-anw-kypselh-220000-94,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/c672b79f-8f85-4d65-a54c-d261eda19aa9/athhna-agios-eleytherios-120000-65,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/c8744dd1-cd82-457f-8628-e1fc188c0ece/athhna-agios-thwmas-100000-28,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,realestateone.gr,https://realestateone.gr/el/property/1553166,redirects to https://realestateone.gr/el/404
+2026-11-04,realestateone.gr,https://realestateone.gr/el/property/1552658,redirects to https://realestateone.gr/el/404
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/542568,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/542412,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/542417,sold / not available
