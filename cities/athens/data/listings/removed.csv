@@ -2423,3 +2423,37 @@ date,source_domain,url,reason
 2026-11-04,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-591/,sold / not available
 2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/306091,sold / not available
 2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/508888,sold / not available
+2026-11-04,remax.gr,https://www.remax.gr/property/374165-polisi-oikopedo-gia-katoikia-ntrafi,not on result pages
+2026-11-04,remax.gr,https://www.remax.gr/property/398090-enoikiasi-bila-kentro,not on result pages
+2026-11-04,remax.gr,https://www.remax.gr/property/408697-enoikiasi-grafeio-mpoyrnazi,not on result pages
+2026-11-04,intrum.gr,https://marketplace.intrum.gr/listings/1936,left the servicer marketplace
+2026-11-04,intrum.gr,https://marketplace.intrum.gr/listings/2133,left the servicer marketplace
+2026-11-04,intrum.gr,https://marketplace.intrum.gr/listings/2373,left the servicer marketplace
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/8da571f0-c796-4e36-9e8f-57a8580fd35b/akrwthri-480000-87,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/8df2cb3f-f592-4e6d-b20d-bc3d58f86e5e/athhna-plateia-amerikhs-95000-30,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/8ef2d9ab-1c9c-4fee-8909-1eab00bb931a/athhna-lofos-strefh-45000-27,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/8fdca91a-f243-4fcf-a523-dde20e60ae2c/chaidari-dafni-280000-100,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/91fd3f78-1141-4257-b2e3-48ee80f0649d/athhna-nea-kypselh-155000-95,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/925d45f6-85fe-43bd-a1bc-205c2d6d687e/palaio-falhro-plateia-ntavarh-225000-83,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/93a6d009-f0a7-49d3-9561-3467ba469a93/athhna-ippokratoys-340000-50,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/954f89e6-8680-4fde-8fe2-8ee9bd2d5761/athhna-panormoy-125000-60,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/9a4075e4-0930-4ab0-b52c-335dba32b07f/athhna-anw-kypselh-100000-50,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-04,tsrealestate.gr,https://tsrealestate.gr/el/property/16100,http 404
+2026-11-04,tsrealestate.gr,https://tsrealestate.gr/el/property/16096,http 404
+2026-11-04,tsrealestate.gr,https://tsrealestate.gr/el/property/16095,http 404
+2026-11-04,tsrealestate.gr,https://tsrealestate.gr/el/property/16149,http 404
+2026-11-04,planethomes.gr,https://www.planethomes.gr/akinito/51317-2/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b5%cf%80%ce%b9%cf%80%ce%bb%cf%89%ce%bc%ce%ad%ce%bd%ce%b7-%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%bb%ce%af%ce%b1-%ce%b2%ce%ad%cf%81%ce%b3%ce%b1%cf%82-%ce%ba/1615/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/%cf%80%ce%bf%ce%bb%cf%85%cf%84%ce%b5%ce%bb%ce%b5%ce%af%cf%82-%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b5%cf%82-%ce%bc%ce%b5-%cf%86%ce%b1%ce%bd%cf%84%ce%b1%cf%83%cf%84%ce%b9%ce%ba%ce%b7-%ce%b8/1626/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/%cf%80%ce%ad%cf%84%cf%81%ce%b9%ce%bd%ce%b7-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-200-%cf%84-%ce%bc-2-%ce%b5%cf%80%ce%b9%cf%80%ce%ad%ce%b4%cf%89%ce%bd-%ce%bc%ce%b5/1607/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-%ce%bc%ce%b5%cf%84%cf%82-%ce%ba%ce%b1%ce%bb%ce%bb%ce%b9%ce%bc%ce%ac%cf%81%ce%bc%ce%b1%cf%81%ce%bf/1644/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/o%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-%ce%b5%ce%bd%cf%84%cf%8c%cf%82-%ce%bf%ce%b9%ce%ba%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%cf%83%cf%84%ce%bf%ce%bd-%ce%ac%ce%b3%ce%b9%ce%bf-%ce%bb%ce%ad%ce%bf%ce%bd/1639/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-%ce%ba%ce%b1%ce%bb%ce%b1%ce%bc%ce%ac%cf%84%ce%b1/1554/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b8%ce%b1%ce%bb%ce%ac%cf%83%cf%83%ce%b9%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%ce%ba%cf%85%cf%88%ce%ad/1323/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b1%ce%bd%ce%b1%ce%ba%ce%b1%ce%b9%ce%bd%ce%b9%cf%83%ce%bc%ce%ad%ce%bd%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%b5%cf%80%ce%b9%cf%80%ce%bb%cf%89%ce%bc%ce%ad%ce%bd%ce%bf-%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81/1575/,http 404
+2026-11-04,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%ce%b1%ce%bd%ce%ac%ce%b2%cf%85%cf%83%cf%83%ce%bf/1600/,http 404
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/520338,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/393110,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/497367,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/278685,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/510268,sold / not available
