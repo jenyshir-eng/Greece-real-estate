@@ -3302,3 +3302,62 @@ date,source_domain,url,reason
 2026-11-04,nore.gr,https://nore.gr/property/14013,http 410
 2026-11-04,nore.gr,https://nore.gr/property/14012,http 410
 2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/535764,sold / not available
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/27d06c9f-d64c-4e6d-9040-bbe814c7cecc/eleytherio-kordelio-500-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/2e03dbf0-38f6-40a0-92a5-17a9a01b25ea/thermh-1400-130,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3239a617-334b-45fd-8ac7-7c673eeafa2d/thessalonikh-analhpsh-450-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/34197c07-820f-49bc-bdfb-b6ba8cdd688f/thessalonikh-kentro-600-43,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3a61cd6f-14d7-49ba-8090-ec04d51bef4d/kalamaria-980-128,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3c0d2782-a837-4134-a635-595652d4d6c1/thessalonikh-kentro-520-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3f9683d6-b126-4fac-aeda-7b3a9d8fbe0e/kalamaria-1750-130,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/408f4c62-db87-423a-845b-0d47926eb48f/kavala-550-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4206aaa5-4532-48c0-9b4c-902ad7f29cec/thessalonikh-vardarh-500-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/43acc700-74de-41cb-9580-1050f2f6b65f/thessalonikh-analhpsh-600-65,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/442e18f7-a3de-476f-85d2-70f320162ec9/pylaia-500-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/444402d3-8775-4570-ada5-14a01dad2ffc/thessalonikh-kentro-400-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4c5516c4-b6d1-433a-9ff9-f8d0b5da8721/thessalonikh-xhrokrhnh-550-38,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4df33dba-ba5b-4141-9ddb-efaaf6a60d0b/thessalonikh-vardarh-650-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4e9c4cdd-29de-46f6-a686-dc9f014e14b7/thessalonikh-panepisthmia-430-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-04,thgr.gr,https://thgr.gr/el/property/91966,http 404
+2026-11-04,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=8097cb24-c453-404a-8e6d-5673fc1d03de,redirects to https://bee-realestate.gr/errorPage
+2026-11-04,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%af%cf%89%ce%bd%ce%bf%cf%82-%ce%b4%cf%81%ce%b1%ce%b3%ce%bf%cf%8d%ce%bc%ce%b7-1-24436/,http 404
+2026-11-04,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%af%cf%89%ce%bd%ce%bf%cf%82-%ce%b4%cf%81%ce%b1%ce%b3%ce%bf%cf%8d%ce%bc%ce%b7-1-24435/,http 404
+2026-11-04,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%af%cf%89%ce%bd%ce%bf%cf%82-%ce%b4%cf%81%ce%b1%ce%b3%ce%bf%cf%8d%ce%bc%ce%b7-1-24436/,http 404
+2026-11-04,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%af%cf%89%ce%bd%ce%bf%cf%82-%ce%b4%cf%81%ce%b1%ce%b3%ce%bf%cf%8d%ce%bc%ce%b7-1-24435/,http 404
+2026-11-04,nore.gr,https://nore.gr/property/20635,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20677,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20667,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20630,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20607,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20610,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20619,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20604,http 410
+2026-11-04,nore.gr,https://nore.gr/property/17202,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20190,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20696,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20662,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20715,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20639,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20632,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20774,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20757,http 410
+2026-11-04,nore.gr,https://nore.gr/property/19466,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20712,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20727,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20730,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20814,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20680,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20659,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20660,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20608,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20614,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20759,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20824,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20356,http 410
+2026-11-04,nore.gr,https://nore.gr/property/20612,http 410
+2026-11-04,nore.gr,https://nore.gr/property/19317,http 410
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/540945,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/464805,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/389605,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/542413,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/524256,sold / not available
+2026-11-04,goldenhome.gr,https://goldenhome.gr/property/view/510979,sold / not available
