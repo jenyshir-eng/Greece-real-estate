@@ -2639,3 +2639,39 @@ date,source_domain,url,reason
 2026-11-06,goldenhome.gr,https://goldenhome.gr/property/view/425029,sold / not available
 2026-11-06,grekodom.com,https://www.grekodom.com/realtyobject/31656-for-sale-detached-house-98-m2-in-easter,http 404
 2026-11-06,hellenicgrounds.gr,https://hellenicgrounds.gr/property/377575-sq-m-development-land-in-ververonta-porto-heli/2010/,http 404
+2026-11-06,remax.gr,https://www.remax.gr/property/350133-polisi-diamerisma-nea-iwnia,not on result pages
+2026-11-06,remax.gr,https://www.remax.gr/property/389761-polisi-diamerisma-kentro,not on result pages
+2026-11-06,remax.gr,https://www.remax.gr/property/389865-polisi-oikopedo-gia-katoikia-kioyrka,not on result pages
+2026-11-06,remax.gr,https://www.remax.gr/property/393581-polisi-monokatoikia-anoiksh,not on result pages
+2026-11-06,remax.gr,https://www.remax.gr/property/406745-polisi-diamerisma-kentro,not on result pages
+2026-11-06,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-elliniko-id-a4-5191,left the sitemap
+2026-11-06,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/two-bedroom-apartment-for-sale-in-athens-id-a4-11303,left the sitemap
+2026-11-06,altamiraproperties.gr,https://marketplace.altamiraproperties.gr/listings/26566,left the servicer marketplace
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ae4bf461-b334-4339-add8-73ea1bdb42db/athhna-kypselh-450-48,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b5a7bed9-ced0-4a96-9d86-2bfab84b6448/athhna-profhths-hlias-750-95,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ba5a6074-3a7c-40ca-8648-1a83e743b37a/athhna-koyntoyriwtika-1300-95,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/bbda5336-1c8e-4880-8914-050e000eaf3b/pentelh-2600-180,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c74f4811-76c4-49dc-b519-750e884353d0/ekalh-880-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ca440d4e-6f2b-45c1-ae32-b85670c77e2c/glyfada-anw-glyfada-1800-150,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d0a9d020-41bb-4767-a303-30bac0cd3941/kallithea-lofos-filaretoy-880-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d5cb0a6b-80d3-4161-8986-3c96df53f9b7/anavyssos-750-68,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e0c6c52d-22d8-4ad8-aef0-f65d07b40fc2/moschato-580-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e3402b0d-b30b-40f5-8661-a0282abb611d/athhna-agia-paraskeyh-550-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e663a2f1-f4d5-461b-8215-ba857213b426/nea-erythraia-mortero-1480-136,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-06,tsrealestate.gr,https://tsrealestate.gr/el/property/16108,http 404
+2026-11-06,tsrealestate.gr,https://tsrealestate.gr/el/property/16107,http 404
+2026-11-06,tsrealestate.gr,https://tsrealestate.gr/el/property/16106,http 404
+2026-11-06,tsrealestate.gr,https://tsrealestate.gr/el/property/16105,http 404
+2026-11-06,tsrealestate.gr,https://tsrealestate.gr/el/property/16104,http 404
+2026-11-06,tsrealestate.gr,https://tsrealestate.gr/el/property/16103,http 404
+2026-11-06,tsrealestate.gr,https://tsrealestate.gr/el/property/16082,http 404
+2026-11-06,tsrealestate.gr,https://tsrealestate.gr/el/property/16081,http 404
+2026-11-06,dedesrealestate.gr,https://dedesrealestates.gr/akinito/diamerisma-100t-m-korinthos-enoikiasi/,http 404
+2026-11-06,planethomes.gr,https://www.planethomes.gr/akinito/38397-2/,http 404
+2026-11-06,planethomes.gr,https://www.planethomes.gr/akinito/44490-2/,http 404
+2026-11-06,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-3%ce%b1%cf%81%ce%b9-%cf%83%ce%b5-%cf%80%ce%bf%ce%bb%cf%85%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-id-%cf%803789/,http 404
+2026-11-06,grekodom.com,https://www.grekodom.com/realtyobject/29432-for-sale-building-275-m2-in-athens,http 404
+2026-11-06,goldenhome.gr,https://goldenhome.gr/property/view/516934,sold / not available
+2026-11-06,goldenhome.gr,https://goldenhome.gr/property/view/541356,sold / not available
+2026-11-06,goldenhome.gr,https://goldenhome.gr/property/view/515652,sold / not available
+2026-11-06,goldenhome.gr,https://goldenhome.gr/property/view/539982,sold / not available
