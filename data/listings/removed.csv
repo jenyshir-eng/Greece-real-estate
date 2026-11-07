@@ -3759,3 +3759,17 @@ date,source_domain,url,reason
 2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/514785,sold / not available
 2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/539982,sold / not available
 2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/540176,sold / not available
+2026-11-07,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/af3d7805-129d-40f8-9157-e0db58ac8821/thessalonikh-anw-polh-110000-65,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-07,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/b6068c1c-dc44-478c-86b6-8902ddbcb12e/nea-mhchaniwna-230000-237,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-07,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/bbba323f-c63a-4b17-9bed-daa433cbc7d1/panorama-500000-250,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-07,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/bdea3703-d16a-4b3c-a75c-d524f679deb9/kalamaria-210000-86,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-07,eliteps.gr,https://eliteps.gr/el/property/5635,http 404
+2026-11-07,eliteps.gr,https://eliteps.gr/sq/property/5635,http 404
+2026-11-07,grekodom.gr,https://www.grekodom.gr/realtyobject/10912-poleitai-diamerisma-40-m2-stin-kentriki,http 404
+2026-11-07,grekodom.gr,https://www.grekodom.gr/realtyobject/31977-poleitai-epiheirisi-900-m2-stin-kerkura,http 404
+2026-11-07,nore.gr,https://nore.gr/property/21004,http 410
+2026-11-07,nore.gr,https://nore.gr/property/20987,http 410
+2026-11-07,nore.gr,https://nore.gr/property/21003,http 410
+2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/537964,sold / not available
+2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/540993,sold / not available
+2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/542844,sold / not available
