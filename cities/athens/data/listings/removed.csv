@@ -2715,3 +2715,12 @@ date,source_domain,url,reason
 2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/458662,sold / not available
 2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/503666,sold / not available
 2026-11-07,grekodom.com,https://www.grekodom.com/realtyobject/31360-for-sale-detached-house-187-m2-in-attic,http 404
+2026-11-07,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/db2fe9a0-dc52-473a-b6f8-e9ed995f0ff2/nea-smyrnh-chrysakh-145000-51,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-07,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/e8f146fc-77aa-4929-b7c8-009f5346efb1/loytraki-78000-46,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-07,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/002b4db8-829d-4139-a81d-aa657938ff49/maroysi-swros-7500-485,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-07,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=042b468b-9c84-48bc-b57b-ff4b7b182d4b,redirects to https://bee-realestate.gr/errorPage
+2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/460683,sold / not available
+2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/474866,sold / not available
+2026-11-07,goldenhome.gr,https://goldenhome.gr/property/view/538736,sold / not available
+2026-11-07,invistarealestate.gr,https://www.invistarealestate.gr/el-GR/id/26412/__(pros-enikiasi)-katikia-orofodiamerisma-anatoliki-attiki-boila/estate.html,redirects to https://www.invistarealestate.gr/
+2026-11-07,grekodom.com,https://www.grekodom.com/realtyobject/10912-for-sale-flat-40-m2-in-central-greece,http 404
