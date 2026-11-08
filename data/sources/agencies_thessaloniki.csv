@@ -549,7 +549,7 @@ SMART HOUSE,independent,,,,no_site,,,,,ΣΩΚΡΑΤΟΥΣ 6 ΚΕΝΤΡΟ,ανα�
 SMURFSHOME - ΝΕΡΑΤΖΑΚΗ ΜΑΡΙΑ ΚΑΙ ΤΣΑΛΟΥΧΙΔΗΣ ΑΝΤΩΝΙΟΣ ΟΕ,independent,,,,no_site,,,,,Βιτσίου 3,Πολίχνη,56532,40.6582123055556,22.9580245000000,,,vrisko.gr,,,https://www.vrisko.gr/details/5k0a6add1dbj2011cdcj_j1h40_d01ai,thessalonikis
 SOVEREIGN BROKERS,independent,sovereignbrokers.gr,https://sovereignbrokers.gr,,bot_check_other,,,,,Τσιμισκή Ιωάννη 68,Θεσσαλονίκη,54622,40.6313470000000,22.9451645561797,,,vrisko.gr,,,https://www.vrisko.gr/details/6d13670i0f3a11df477_1f25cbck5a1_,thessalonikis
 SPECIALS HOMES,independent,,,,no_site,,,,,ΕΘΝΙΚΗΣ ΑΝΤΙΣΤΑΣΗΣ  85 ΕΥΟΣΜΟΣ,δυτική θεσσαλονίκη,,,,172704106000,1,smasth.gr,,,,
-SPESIAL AGENTS ESTATE (SAE),independent,specialagentsestate.gr,https://specialagentsestate.gr,,error,,,,,ΑΛΕΞΑΝΔΡΕΙΑΣ 78 ΜΑΡΤΙΟΥ,ανατολική θερσσαλονίκη,,,,16807880600,1,smasth.gr,,,,
+SPESIAL AGENTS ESTATE (SAE),independent,specialagentsestate.gr,https://specialagentsestate.gr,,bot_check_other,,,,,ΑΛΕΞΑΝΔΡΕΙΑΣ 78 ΜΑΡΤΙΟΥ,ανατολική θερσσαλονίκη,,,,16807880600,1,smasth.gr,,,,
 SPITI STO LEPTO (Μπάντη Βασιλική Ι.),independent,,,,no_site,,,,,Βιζύης 75,Θεσσαλονίκη - Κάτω Τούμπα,54454,40.6108610000000,22.9774246625766,,,vrisko.gr,,,https://www.vrisko.gr/details/5_71ad1c210d45ahb2afb6b17kdc36bh,thessalonikis
 SPITOKINISI REAL ESTATE,independent,,,,no_site,,,,,"Καραολή & Δημητρίου 204, 562 25","Εύοσμος, Κάτω Εύοσμος",,,,,,tsakbam.eu,,,,
 STAMBO GROUP OF COMPANYS,independent,,,,no_site,,,,,ΠΙΝΔΑΡΟΥ 16 ΙΠΠΟΚΡΑΤΕΙΟ,ανατολική θεσσαλονίκη,,,,167622706000,1,smasth.gr,,,,
@@ -681,7 +681,7 @@ sunflight,independent,,,,no_site,,,,,"Πλ. Φαναριωτών 7, Θεσσαλ
 Ι.ΑΝΤΩΝΙΑΔΗΣ,independent,,,,no_site,,,,,,,,,,,,spitogatos(search),https://www.spitogatos.gr/mesites/I-ANTONIADHS/18884,,,
 ΙΓΝΑΤΙΑΔΗΣ ΔΗΜΗΤΡΙΟΣ,independent,,,,no_site,,,,,ΛΕΩΦ ΣΤΡΑΤΟΥ 39,ανατολική θερσσαλονίκη,,,,153724806000,1,smasth.gr,,,,
 ΙΔΑΝΙΚΟ ΣΠΙΤΙ REAL ESTATE (Τσακατσώνης Νικόλαος Μ.),independent,idaniko-spiti.com,https://www.idaniko-spiti.com,,http_403,,,,,Κολοτούρου 4,Καλαμαριά,55132,40.5782176666666,22.9505227893242,,,vrisko.gr,,,https://www.vrisko.gr/details/5e_d50dfc12j_ad2374c5bc46g5126df,thessalonikis
-Ιωαννίδης Σταύρος Χ.,independent,stavrosioannidis.com,https://stavrosioannidis.com,,bot_check_other,,,,,Θεσσαλονίκη,Θεσσαλονίκη,54633,,,,,vrisko.gr,,,https://www.vrisko.gr/details/_b_c1e_a5_710i6eb35_320ccg705aah,thessaloniki
+Ιωαννίδης Σταύρος Χ.,independent,stavrosioannidis.com,https://stavrosioannidis.com,https://stavrosioannidis.com/en/,ok,yes,yes,7,,Θεσσαλονίκη,Θεσσαλονίκη,54633,,,,,vrisko.gr,,,https://www.vrisko.gr/details/_b_c1e_a5_710i6eb35_320ccg705aah,thessaloniki
 ΚΑΖΑΝΗΣ ΜΙΧΑΛΗΣ,independent,kazanis.gr,https://kazanis.gr,,error,,,,,ΒΑΣ ΗΡΑΚΛΕΙΟΥ 14,κέντρο θεσσαλονίκης,,,,111111111111,1,smasth.gr,,,,
 ΚΑΛΕΣΗ ΜΑΡΙΑΝΝΑ ΚΑΙ ΣΙΑΟΕ,independent,kalesirealestate.com,https://kalesirealestate.com,,error,,,,,25 ΜΑΡΤΙΟΥ 5 ΕΠΑΝΩΜΗ,ανατολική θερσσαλονίκη,,,,176498806000,1,smasth.gr,,,,
 ΚΑΛΛΙΝΟΣ ΑΚΤΕ,independent,,,,no_site,,,,,26ης Οκτωβρίου 38-40,Θεσσαλονίκη,54627,40.6402660000000,22.9227254924357,,,vrisko.gr,,,https://www.vrisko.gr/details/21de25425_be6bc_4a0e7jag6ed_11a_,thessaloniki
