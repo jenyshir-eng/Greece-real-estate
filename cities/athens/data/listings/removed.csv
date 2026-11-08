@@ -2755,3 +2755,12 @@ date,source_domain,url,reason
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/459779,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/194247,sold / not available
 2026-11-08,grekodom.com,https://www.grekodom.com/realtyobject/31977-for-sale-business-900-m2-in-corfu,http 404
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/17f95906-f522-490b-9402-86ba5ea9e6ff/drosia-1200-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/190ed29f-4c71-4022-9299-84587a477adb/alimos-ampelakia-550-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1bdfa3d0-b1af-4e44-86ac-c35141456b85/peiraias-kaminia-750-128,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-08,realestateone.gr,https://realestateone.gr/el/property/1554787,redirects to https://realestateone.gr/el/404
+2026-11-08,realestateone.gr,https://realestateone.gr/el/property/1554868,redirects to https://realestateone.gr/el/404
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/540777,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/494640,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/535576,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/531053,sold / not available
