@@ -2764,3 +2764,10 @@ date,source_domain,url,reason
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/494640,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/535576,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/531053,sold / not available
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/1f3ce2b6-f6ef-4af3-8a3a-faa1051ed5cb/nea-filadelfeia-attikhs-prosfygika-1600-208,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/203f1197-7faa-47a8-893b-fd5866f934e8/peiraias-vrywnh-2250-400,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/20969717-47f0-4f04-9da3-9ccf787ae31c/athhna-ippokratoys-1400-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-08,grecahouse.com,https://grecahouse.com/el/properties/1897-monokatoikia-ypoloipo-attikis-koropi-agia-marina-430sqm,http 404
+2026-11-08,realestateone.gr,https://realestateone.gr/el/property/1554390,redirects to https://realestateone.gr/el/404
+2026-11-08,realestateone.gr,https://realestateone.gr/el/property/1554046,redirects to https://realestateone.gr/el/404
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/515959,sold / not available
