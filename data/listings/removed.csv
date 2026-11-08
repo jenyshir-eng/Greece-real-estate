@@ -3825,3 +3825,18 @@ date,source_domain,url,reason
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/541205,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/519806,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/474866,sold / not available
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0cc5063b-9a4a-4ccb-9bd9-cf9b351700dc/thessalonikh-xhrokrhnh-630-25,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0d3b4e5f-9efe-4ba7-85de-a905588266f7/thessalonikh-falhro-450-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/225650cc-6ae2-443b-afd9-e3b7df28a41a/agios-paylos-agios-paylos-500-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/31e42bd8-25f1-4655-b3f0-096dbf546607/pylaia-400-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/380ce612-2c7a-4404-847f-bae879db69c5/kavala-550-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/398d5e2d-ac5b-4c36-bac5-ef80bb8d2549/thessalonikh-katw-toympa-530-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3cae9481-f9d5-46db-b668-8d6e13888702/thessalonikh-katw-toympa-550-77,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/592fcab2-275d-4f87-b91b-af7c20323865/thessalonikh-charilaoy-400-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,dovile.gr,https://dovile.gr/el/property/66490,http 404
+2026-11-08,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=8908d03b-3fcf-40b5-9005-4588d4ebf8d9,redirects to https://bee-realestate.gr/errorPage
+2026-11-08,nore.gr,https://nore.gr/property/20799,http 410
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/532432,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/538101,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/519845,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/537989,sold / not available
