@@ -3810,3 +3810,18 @@ date,source_domain,url,reason
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/523072,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/429004,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/349255,sold / not available
+2026-11-08,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/1decd45a-bef7-48ac-a829-38f48518cda6/panorama-450000-120,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/481ae11e-e55c-49a9-807b-29d05c2eb899/nea-moydania-76000-42,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/763ba668-479f-4482-967c-305528861c38/thessalonikh-analhpsh-550-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-gis-oikopedon/dea6b3cb-8652-4131-9291-e50f5b15d5dc/pylaia-2000-2700,http 302 -> https://www.xe.gr/property/r/enoikiaseis-gis-oikopedon
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0087bc0c-5da5-4e69-8353-e0e3ec579666/thessalonikh-ntepw-680-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/06d7bb3f-546c-49cd-8469-b71e27061ac2/pylaia-330-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0bb22301-b3e6-430d-a66d-18aaf1c2dea2/thessalonikh-kentro-2000-131,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-08,bee-panoramic.gr,https://bee-realestate.gr/property?lang=el&id=8908d03b-3fcf-40b5-9005-4588d4ebf8d9,redirects to https://bee-realestate.gr/errorPage
+2026-11-08,nore.gr,https://nore.gr/property/21069,http 410
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/306091,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/533445,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/537766,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/541205,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/519806,sold / not available
+2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/474866,sold / not available
