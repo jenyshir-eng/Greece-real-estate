@@ -2781,3 +2781,14 @@ date,source_domain,url,reason
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/373820,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/538508,sold / not available
 2026-11-08,goldenhome.gr,https://goldenhome.gr/property/view/538605,sold / not available
+2026-11-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/3814d8ff-2fb0-405d-802f-77dac5da4d5e/athhna-ellhnorwswn-500-56,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/388a0701-bb4c-4fa8-a81c-6e25376f5493/maroysi-agioi-anargyroi-1400-125,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-09,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/39da5cb4-2be3-4345-93f5-87b304f449ff/athhna-omonoia-3200-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-09,tsrealestate.gr,https://tsrealestate.gr/el/property/16199,http 404
+2026-11-09,tsrealestate.gr,https://tsrealestate.gr/el/property/16245,http 404
+2026-11-09,realestateone.gr,https://realestateone.gr/el/property/1554808,redirects to https://realestateone.gr/el/404
+2026-11-09,vmproperties.gr,https://vmproperties.gr/property/89-3419,http 404
+2026-11-09,vmproperties.gr,https://vmproperties.gr/property/89-3421,http 404
+2026-11-09,goldenhome.gr,https://goldenhome.gr/property/view/534071,sold / not available
+2026-11-09,goldenhome.gr,https://goldenhome.gr/property/view/540176,sold / not available
+2026-11-09,goldenhome.gr,https://goldenhome.gr/property/view/368521,sold / not available
