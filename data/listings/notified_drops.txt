@@ -1,5 +1,6 @@
 https://aki-nito.gr/el/property/4311	85000
 https://aki-nito.gr/el/property/4898	70000
+https://arcusrealestate.gr/el/properties/120455	59000
 https://arcusrealestate.gr/el/properties/121472	74000
 https://arcusrealestate.gr/el/properties/122453	98000
 https://arcusrealestate.gr/el/properties/123046	98000
@@ -12,6 +13,7 @@ https://nore.gr/property/20496	72000
 https://nore.gr/property/20859	100000
 https://rewize.com/akinito/3013	90000
 https://rewize.com/akinito/6256	75000
+https://rewize.com/akinito/7810	90000
 https://rewize.com/akinito/7942	85000
 https://www.agarealestate.gr/property/2712	89000
 https://www.akinita-kosmidis.gr/property/589	50000
@@ -54,6 +56,7 @@ https://www.remax.gr/property/404483-polisi-diamerisma-eyosmos	95000
 https://www.remax.gr/property/404483-polisi-diamerisma-eyosmos	98000
 https://www.remax.gr/property/406994-polisi-diamerisma-panagia-fanerwmenh	85000
 https://www.remax.gr/property/406994-polisi-diamerisma-panagia-fanerwmenh	90000
+https://www.remax.gr/property/408362-polisi-diamerisma-anw-anagennhsh	75000
 https://www.smarthousegreece.gr/property/957	67000
 https://www.spitogatos.gr/aggelia/1113393896	53000
 https://www.spitogatos.gr/aggelia/1118052955	80000
@@ -70,11 +73,13 @@ https://www.spitogatos.gr/aggelia/1121001703	88000
 https://www.spitogatos.gr/aggelia/1121011798	89000
 https://www.spitogatos.gr/aggelia/1121020360	75000
 https://www.spitogatos.gr/aggelia/1121040662	98000
+https://www.spitogatos.gr/aggelia/1121043383	82000
 https://www.spitogatos.gr/aggelia/1121056624	86000
 https://www.spitogatos.gr/aggelia/1121056624	88000
 https://www.spitogatos.gr/aggelia/1121064179	90000
 https://www.spitogatos.gr/aggelia/1121086233	83000
 https://www.spitogatos.gr/aggelia/1121183293	99000
+https://www.spitogatos.gr/aggelia/1121208926	99000
 https://www.thessaloniki-realestate.gr/property/%cf%83%cf%84%ce%bf%cf%8d%ce%bd%cf%84%ce%b9%ce%bf-%ce%bd%ce%b5%ce%ac%cf%80%ce%bf%ce%bb%ce%b7-1-24515/	95000
 https://www.tospitimou.gr/akinito/21056675	84000
 https://www.xe.gr/property/d/poliseis-katoikion/1f06c2fd-bd53-41d0-9398-17c4de2167cb/thessalonikh-analhpsh-99000-40	85000
