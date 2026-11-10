@@ -2070,6 +2070,7 @@ https://arcusrealestate.gr/el/properties/123455
 https://arcusrealestate.gr/el/properties/123460
 https://arcusrealestate.gr/el/properties/123461
 https://arcusrealestate.gr/el/properties/123463
+https://arcusrealestate.gr/el/properties/123464
 https://arcusrealestate.gr/el/properties/123466
 https://arcusrealestate.gr/el/properties/123468
 https://arcusrealestate.gr/el/properties/123470
@@ -2087,6 +2088,7 @@ https://arcusrealestate.gr/el/properties/123499
 https://arcusrealestate.gr/el/properties/123501
 https://arcusrealestate.gr/el/properties/123505
 https://arcusrealestate.gr/el/properties/123509
+https://arcusrealestate.gr/el/properties/123513
 https://asimis-realestate.gr/property.php?id=733
 https://asimis-realestate.gr/property.php?id=757
 https://asimis-realestate.gr/property.php?id=762
@@ -2964,6 +2966,7 @@ https://diamondgroup5.com/el/property-details/31697
 https://diamondgroup5.com/el/property-details/31698
 https://diamondgroup5.com/el/property-details/31699
 https://diamondgroup5.com/el/property-details/31700
+https://diamondgroup5.com/el/property-details/31701
 https://diashome.gr/property/163/%D0%94%D0%BE%D0%BC-Kozani
 https://diashome.gr/property/202/%D0%94%D0%BE%D0%BC-Kozani
 https://diashome.gr/property/204/%CE%9C%CE%BF%CE%BD%CE%BF%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1-%CE%9A%CE%BF%CE%B6%CE%AC%CE%BD%CE%B7
@@ -4226,6 +4229,9 @@ https://eliteps.gr/el/property/12889
 https://eliteps.gr/el/property/12890
 https://eliteps.gr/el/property/12891
 https://eliteps.gr/el/property/12892
+https://eliteps.gr/el/property/12893
+https://eliteps.gr/el/property/12894
+https://eliteps.gr/el/property/12895
 https://eliteps.gr/el/property/3363
 https://eliteps.gr/el/property/4933
 https://eliteps.gr/el/property/5535
@@ -4511,6 +4517,9 @@ https://eliteps.gr/sq/property/12889
 https://eliteps.gr/sq/property/12890
 https://eliteps.gr/sq/property/12891
 https://eliteps.gr/sq/property/12892
+https://eliteps.gr/sq/property/12893
+https://eliteps.gr/sq/property/12894
+https://eliteps.gr/sq/property/12895
 https://eliteps.gr/sq/property/4933
 https://eliteps.gr/sq/property/5535
 https://eliteps.gr/sq/property/5635
@@ -4901,6 +4910,7 @@ https://georgiadourealestate.gr/property/952
 https://georgiadourealestate.gr/property/953
 https://georgiadourealestate.gr/property/954
 https://georgiadourealestate.gr/property/955
+https://georgiadourealestate.gr/property/956
 https://go4deal.gr/en/property/168
 https://go4deal.gr/en/property/172
 https://go4deal.gr/en/property/173
@@ -5025,6 +5035,7 @@ https://goldenhome.gr/property/view/206913
 https://goldenhome.gr/property/view/207239
 https://goldenhome.gr/property/view/207398
 https://goldenhome.gr/property/view/208403
+https://goldenhome.gr/property/view/209576
 https://goldenhome.gr/property/view/209586
 https://goldenhome.gr/property/view/210098
 https://goldenhome.gr/property/view/210136
@@ -5090,6 +5101,7 @@ https://goldenhome.gr/property/view/233981
 https://goldenhome.gr/property/view/234249
 https://goldenhome.gr/property/view/234485
 https://goldenhome.gr/property/view/235096
+https://goldenhome.gr/property/view/235350
 https://goldenhome.gr/property/view/236706
 https://goldenhome.gr/property/view/237290
 https://goldenhome.gr/property/view/237350
@@ -5191,6 +5203,7 @@ https://goldenhome.gr/property/view/269465
 https://goldenhome.gr/property/view/269528
 https://goldenhome.gr/property/view/269566
 https://goldenhome.gr/property/view/269909
+https://goldenhome.gr/property/view/270165
 https://goldenhome.gr/property/view/270262
 https://goldenhome.gr/property/view/270537
 https://goldenhome.gr/property/view/270829
@@ -5334,6 +5347,7 @@ https://goldenhome.gr/property/view/310837
 https://goldenhome.gr/property/view/310846
 https://goldenhome.gr/property/view/311105
 https://goldenhome.gr/property/view/311138
+https://goldenhome.gr/property/view/311151
 https://goldenhome.gr/property/view/311397
 https://goldenhome.gr/property/view/311435
 https://goldenhome.gr/property/view/311864
@@ -5453,6 +5467,7 @@ https://goldenhome.gr/property/view/350073
 https://goldenhome.gr/property/view/350183
 https://goldenhome.gr/property/view/350192
 https://goldenhome.gr/property/view/350280
+https://goldenhome.gr/property/view/350556
 https://goldenhome.gr/property/view/350681
 https://goldenhome.gr/property/view/35084
 https://goldenhome.gr/property/view/350996
@@ -5477,6 +5492,7 @@ https://goldenhome.gr/property/view/353791
 https://goldenhome.gr/property/view/354436
 https://goldenhome.gr/property/view/355161
 https://goldenhome.gr/property/view/355470
+https://goldenhome.gr/property/view/355677
 https://goldenhome.gr/property/view/355749
 https://goldenhome.gr/property/view/35583
 https://goldenhome.gr/property/view/356053
@@ -5690,6 +5706,7 @@ https://goldenhome.gr/property/view/395767
 https://goldenhome.gr/property/view/396154
 https://goldenhome.gr/property/view/396168
 https://goldenhome.gr/property/view/396181
+https://goldenhome.gr/property/view/396199
 https://goldenhome.gr/property/view/396336
 https://goldenhome.gr/property/view/396420
 https://goldenhome.gr/property/view/396435
@@ -5879,11 +5896,13 @@ https://goldenhome.gr/property/view/420275
 https://goldenhome.gr/property/view/420352
 https://goldenhome.gr/property/view/420930
 https://goldenhome.gr/property/view/421092
+https://goldenhome.gr/property/view/421199
 https://goldenhome.gr/property/view/421228
 https://goldenhome.gr/property/view/421364
 https://goldenhome.gr/property/view/421580
 https://goldenhome.gr/property/view/421628
 https://goldenhome.gr/property/view/421642
+https://goldenhome.gr/property/view/421952
 https://goldenhome.gr/property/view/422398
 https://goldenhome.gr/property/view/422609
 https://goldenhome.gr/property/view/422988
@@ -5895,6 +5914,7 @@ https://goldenhome.gr/property/view/423460
 https://goldenhome.gr/property/view/423502
 https://goldenhome.gr/property/view/423548
 https://goldenhome.gr/property/view/423631
+https://goldenhome.gr/property/view/423900
 https://goldenhome.gr/property/view/423994
 https://goldenhome.gr/property/view/424017
 https://goldenhome.gr/property/view/424206
@@ -5944,6 +5964,7 @@ https://goldenhome.gr/property/view/428284
 https://goldenhome.gr/property/view/428397
 https://goldenhome.gr/property/view/428430
 https://goldenhome.gr/property/view/428494
+https://goldenhome.gr/property/view/428498
 https://goldenhome.gr/property/view/428933
 https://goldenhome.gr/property/view/429004
 https://goldenhome.gr/property/view/429038
@@ -5983,6 +6004,7 @@ https://goldenhome.gr/property/view/432649
 https://goldenhome.gr/property/view/432684
 https://goldenhome.gr/property/view/432843
 https://goldenhome.gr/property/view/432883
+https://goldenhome.gr/property/view/432978
 https://goldenhome.gr/property/view/433321
 https://goldenhome.gr/property/view/433627
 https://goldenhome.gr/property/view/433769
@@ -6007,6 +6029,7 @@ https://goldenhome.gr/property/view/435022
 https://goldenhome.gr/property/view/435066
 https://goldenhome.gr/property/view/435082
 https://goldenhome.gr/property/view/435352
+https://goldenhome.gr/property/view/435407
 https://goldenhome.gr/property/view/435484
 https://goldenhome.gr/property/view/435569
 https://goldenhome.gr/property/view/435639
@@ -6098,6 +6121,7 @@ https://goldenhome.gr/property/view/443207
 https://goldenhome.gr/property/view/443208
 https://goldenhome.gr/property/view/443293
 https://goldenhome.gr/property/view/443405
+https://goldenhome.gr/property/view/443554
 https://goldenhome.gr/property/view/443735
 https://goldenhome.gr/property/view/443979
 https://goldenhome.gr/property/view/444544
@@ -6123,6 +6147,7 @@ https://goldenhome.gr/property/view/445905
 https://goldenhome.gr/property/view/445906
 https://goldenhome.gr/property/view/446338
 https://goldenhome.gr/property/view/446390
+https://goldenhome.gr/property/view/446405
 https://goldenhome.gr/property/view/446848
 https://goldenhome.gr/property/view/446851
 https://goldenhome.gr/property/view/446952
@@ -6142,6 +6167,8 @@ https://goldenhome.gr/property/view/448199
 https://goldenhome.gr/property/view/448410
 https://goldenhome.gr/property/view/448418
 https://goldenhome.gr/property/view/448481
+https://goldenhome.gr/property/view/448564
+https://goldenhome.gr/property/view/448565
 https://goldenhome.gr/property/view/448973
 https://goldenhome.gr/property/view/448984
 https://goldenhome.gr/property/view/448986
@@ -6324,6 +6351,7 @@ https://goldenhome.gr/property/view/462924
 https://goldenhome.gr/property/view/462933
 https://goldenhome.gr/property/view/462967
 https://goldenhome.gr/property/view/463031
+https://goldenhome.gr/property/view/463103
 https://goldenhome.gr/property/view/463339
 https://goldenhome.gr/property/view/463380
 https://goldenhome.gr/property/view/463402
@@ -6420,11 +6448,14 @@ https://goldenhome.gr/property/view/469131
 https://goldenhome.gr/property/view/469238
 https://goldenhome.gr/property/view/469270
 https://goldenhome.gr/property/view/469281
+https://goldenhome.gr/property/view/469315
+https://goldenhome.gr/property/view/469365
 https://goldenhome.gr/property/view/469513
 https://goldenhome.gr/property/view/469565
 https://goldenhome.gr/property/view/469674
 https://goldenhome.gr/property/view/469770
 https://goldenhome.gr/property/view/469909
+https://goldenhome.gr/property/view/469937
 https://goldenhome.gr/property/view/469938
 https://goldenhome.gr/property/view/470074
 https://goldenhome.gr/property/view/470087
@@ -6493,6 +6524,7 @@ https://goldenhome.gr/property/view/474234
 https://goldenhome.gr/property/view/474286
 https://goldenhome.gr/property/view/474301
 https://goldenhome.gr/property/view/474347
+https://goldenhome.gr/property/view/474563
 https://goldenhome.gr/property/view/474866
 https://goldenhome.gr/property/view/474882
 https://goldenhome.gr/property/view/474928
@@ -6509,6 +6541,7 @@ https://goldenhome.gr/property/view/475534
 https://goldenhome.gr/property/view/475562
 https://goldenhome.gr/property/view/475713
 https://goldenhome.gr/property/view/475865
+https://goldenhome.gr/property/view/475982
 https://goldenhome.gr/property/view/476199
 https://goldenhome.gr/property/view/476206
 https://goldenhome.gr/property/view/476211
@@ -6523,6 +6556,7 @@ https://goldenhome.gr/property/view/476972
 https://goldenhome.gr/property/view/477091
 https://goldenhome.gr/property/view/477288
 https://goldenhome.gr/property/view/477348
+https://goldenhome.gr/property/view/477362
 https://goldenhome.gr/property/view/477372
 https://goldenhome.gr/property/view/477373
 https://goldenhome.gr/property/view/477375
@@ -6591,12 +6625,14 @@ https://goldenhome.gr/property/view/481626
 https://goldenhome.gr/property/view/481644
 https://goldenhome.gr/property/view/481679
 https://goldenhome.gr/property/view/481681
+https://goldenhome.gr/property/view/481730
 https://goldenhome.gr/property/view/481894
 https://goldenhome.gr/property/view/481901
 https://goldenhome.gr/property/view/481914
 https://goldenhome.gr/property/view/481920
 https://goldenhome.gr/property/view/482037
 https://goldenhome.gr/property/view/482056
+https://goldenhome.gr/property/view/482096
 https://goldenhome.gr/property/view/482192
 https://goldenhome.gr/property/view/482262
 https://goldenhome.gr/property/view/482302
@@ -6609,6 +6645,7 @@ https://goldenhome.gr/property/view/482582
 https://goldenhome.gr/property/view/482610
 https://goldenhome.gr/property/view/482692
 https://goldenhome.gr/property/view/482781
+https://goldenhome.gr/property/view/482795
 https://goldenhome.gr/property/view/482798
 https://goldenhome.gr/property/view/482914
 https://goldenhome.gr/property/view/483332
@@ -6688,6 +6725,7 @@ https://goldenhome.gr/property/view/488482
 https://goldenhome.gr/property/view/488537
 https://goldenhome.gr/property/view/488595
 https://goldenhome.gr/property/view/488633
+https://goldenhome.gr/property/view/488736
 https://goldenhome.gr/property/view/488870
 https://goldenhome.gr/property/view/488929
 https://goldenhome.gr/property/view/489019
@@ -6713,6 +6751,7 @@ https://goldenhome.gr/property/view/490437
 https://goldenhome.gr/property/view/490478
 https://goldenhome.gr/property/view/490479
 https://goldenhome.gr/property/view/490552
+https://goldenhome.gr/property/view/490577
 https://goldenhome.gr/property/view/490594
 https://goldenhome.gr/property/view/490626
 https://goldenhome.gr/property/view/490636
@@ -6733,6 +6772,7 @@ https://goldenhome.gr/property/view/491174
 https://goldenhome.gr/property/view/491231
 https://goldenhome.gr/property/view/491245
 https://goldenhome.gr/property/view/491257
+https://goldenhome.gr/property/view/491439
 https://goldenhome.gr/property/view/491462
 https://goldenhome.gr/property/view/491523
 https://goldenhome.gr/property/view/491665
@@ -6767,6 +6807,7 @@ https://goldenhome.gr/property/view/492986
 https://goldenhome.gr/property/view/492994
 https://goldenhome.gr/property/view/493038
 https://goldenhome.gr/property/view/493105
+https://goldenhome.gr/property/view/493283
 https://goldenhome.gr/property/view/493285
 https://goldenhome.gr/property/view/493309
 https://goldenhome.gr/property/view/493329
@@ -6874,6 +6915,7 @@ https://goldenhome.gr/property/view/498247
 https://goldenhome.gr/property/view/498316
 https://goldenhome.gr/property/view/498334
 https://goldenhome.gr/property/view/498372
+https://goldenhome.gr/property/view/498381
 https://goldenhome.gr/property/view/498395
 https://goldenhome.gr/property/view/498442
 https://goldenhome.gr/property/view/498451
@@ -7143,6 +7185,7 @@ https://goldenhome.gr/property/view/507769
 https://goldenhome.gr/property/view/507822
 https://goldenhome.gr/property/view/507924
 https://goldenhome.gr/property/view/507927
+https://goldenhome.gr/property/view/507961
 https://goldenhome.gr/property/view/508000
 https://goldenhome.gr/property/view/508033
 https://goldenhome.gr/property/view/508088
@@ -7290,6 +7333,7 @@ https://goldenhome.gr/property/view/512379
 https://goldenhome.gr/property/view/512387
 https://goldenhome.gr/property/view/512427
 https://goldenhome.gr/property/view/512451
+https://goldenhome.gr/property/view/512464
 https://goldenhome.gr/property/view/512468
 https://goldenhome.gr/property/view/512524
 https://goldenhome.gr/property/view/512525
@@ -7380,6 +7424,7 @@ https://goldenhome.gr/property/view/515242
 https://goldenhome.gr/property/view/515244
 https://goldenhome.gr/property/view/515254
 https://goldenhome.gr/property/view/515365
+https://goldenhome.gr/property/view/515429
 https://goldenhome.gr/property/view/515433
 https://goldenhome.gr/property/view/515434
 https://goldenhome.gr/property/view/515435
@@ -7422,6 +7467,7 @@ https://goldenhome.gr/property/view/515922
 https://goldenhome.gr/property/view/515948
 https://goldenhome.gr/property/view/515959
 https://goldenhome.gr/property/view/516043
+https://goldenhome.gr/property/view/516160
 https://goldenhome.gr/property/view/516267
 https://goldenhome.gr/property/view/516324
 https://goldenhome.gr/property/view/516357
@@ -7699,6 +7745,7 @@ https://goldenhome.gr/property/view/523610
 https://goldenhome.gr/property/view/523655
 https://goldenhome.gr/property/view/523661
 https://goldenhome.gr/property/view/523666
+https://goldenhome.gr/property/view/523709
 https://goldenhome.gr/property/view/523717
 https://goldenhome.gr/property/view/523720
 https://goldenhome.gr/property/view/523723
@@ -7819,6 +7866,7 @@ https://goldenhome.gr/property/view/526077
 https://goldenhome.gr/property/view/526123
 https://goldenhome.gr/property/view/526148
 https://goldenhome.gr/property/view/526175
+https://goldenhome.gr/property/view/526195
 https://goldenhome.gr/property/view/526202
 https://goldenhome.gr/property/view/526226
 https://goldenhome.gr/property/view/526238
@@ -9824,6 +9872,7 @@ https://goldenhome.gr/property/view/542542
 https://goldenhome.gr/property/view/542543
 https://goldenhome.gr/property/view/542547
 https://goldenhome.gr/property/view/542548
+https://goldenhome.gr/property/view/542551
 https://goldenhome.gr/property/view/542558
 https://goldenhome.gr/property/view/542559
 https://goldenhome.gr/property/view/542563
@@ -10131,6 +10180,8 @@ https://goldenhome.gr/property/view/543757
 https://goldenhome.gr/property/view/543760
 https://goldenhome.gr/property/view/543761
 https://goldenhome.gr/property/view/543763
+https://goldenhome.gr/property/view/543767
+https://goldenhome.gr/property/view/543773
 https://goldenhome.gr/property/view/543781
 https://goldenhome.gr/property/view/543783
 https://goldenhome.gr/property/view/543784
@@ -10210,6 +10261,7 @@ https://goldenhome.gr/property/view/544125
 https://goldenhome.gr/property/view/544128
 https://goldenhome.gr/property/view/544131
 https://goldenhome.gr/property/view/544132
+https://goldenhome.gr/property/view/544133
 https://goldenhome.gr/property/view/544138
 https://goldenhome.gr/property/view/544139
 https://goldenhome.gr/property/view/544140
@@ -10223,6 +10275,7 @@ https://goldenhome.gr/property/view/544163
 https://goldenhome.gr/property/view/544169
 https://goldenhome.gr/property/view/544171
 https://goldenhome.gr/property/view/544189
+https://goldenhome.gr/property/view/544194
 https://goldenhome.gr/property/view/544195
 https://goldenhome.gr/property/view/544203
 https://goldenhome.gr/property/view/544208
@@ -10315,6 +10368,7 @@ https://goldenhome.gr/property/view/544765
 https://goldenhome.gr/property/view/544766
 https://goldenhome.gr/property/view/544769
 https://goldenhome.gr/property/view/544804
+https://goldenhome.gr/property/view/544817
 https://goldenhome.gr/property/view/544818
 https://goldenhome.gr/property/view/544822
 https://goldenhome.gr/property/view/544849
@@ -10336,6 +10390,7 @@ https://goldenhome.gr/property/view/544949
 https://goldenhome.gr/property/view/544950
 https://goldenhome.gr/property/view/544967
 https://goldenhome.gr/property/view/544971
+https://goldenhome.gr/property/view/544987
 https://goldenhome.gr/property/view/545003
 https://goldenhome.gr/property/view/545018
 https://goldenhome.gr/property/view/545022
@@ -10372,6 +10427,8 @@ https://goldenhome.gr/property/view/545303
 https://goldenhome.gr/property/view/545308
 https://goldenhome.gr/property/view/545312
 https://goldenhome.gr/property/view/545318
+https://goldenhome.gr/property/view/545338
+https://goldenhome.gr/property/view/545352
 https://goldenhome.gr/property/view/545355
 https://goldenhome.gr/property/view/545359
 https://goldenhome.gr/property/view/545431
@@ -10389,7 +10446,9 @@ https://goldenhome.gr/property/view/545456
 https://goldenhome.gr/property/view/545474
 https://goldenhome.gr/property/view/545479
 https://goldenhome.gr/property/view/545498
+https://goldenhome.gr/property/view/545513
 https://goldenhome.gr/property/view/545519
+https://goldenhome.gr/property/view/545537
 https://goldenhome.gr/property/view/5646
 https://goldenhome.gr/property/view/65800
 https://goldenhome.gr/property/view/65973
@@ -10401,6 +10460,7 @@ https://goldenhome.gr/property/view/68141
 https://goldenhome.gr/property/view/68626
 https://goldenhome.gr/property/view/68627
 https://goldenhome.gr/property/view/68772
+https://goldenhome.gr/property/view/68843
 https://goldenhome.gr/property/view/69239
 https://goldenhome.gr/property/view/69270
 https://goldenhome.gr/property/view/69714
@@ -11455,6 +11515,7 @@ https://index.cy/auction/share-of-an-agricultural-field-in-nata-paphos-auction-3
 https://index.cy/auction/three-bedroom-house-in-tremithousa-paphos-auction-14-oct-2026/
 https://index.cy/auction/two-bedroom-apartment-in-paralimni-famagusta-auction-30-sep-2026-2/
 https://index.cy/el/sale/10036719-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/el/sale/10048670-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/el/sale/10049301-3-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
 https://index.cy/el/sale/10085787-2-bedroom-apartment-for-sale-in-kamares-larnaca-district/
 https://index.cy/el/sale/10086692-3-bedroom-apartment-for-sale-in-oroklini-larnaca-district/
@@ -11541,6 +11602,7 @@ https://index.cy/el/sale/11705830-2-bedroom-apartment-for-sale-in-larnaca-distri
 https://index.cy/el/sale/11706181-3-bedroom-apartment-for-sale-in-larnaca-sotiros/
 https://index.cy/el/sale/11706188-3-bedroom-apartment-for-sale-in-larnaca-sotiros/
 https://index.cy/el/sale/11739916-4-bedroom-house-for-sale-in-larnaca-district/
+https://index.cy/el/sale/11804853-3-bedroom-house-for-sale-in-ypsonas-limassol-district/
 https://index.cy/el/sale/11805600-2-bedroom-apartment-for-sale-in-agios-tychonas-tourist-area-limassol-district/
 https://index.cy/el/sale/11805823-3-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
 https://index.cy/el/sale/11805918-3-bedroom-apartment-for-sale-in-limassol-katholiki/
@@ -11551,6 +11613,7 @@ https://index.cy/el/sale/11836333-2-bedroom-apartment-for-sale-in-chlorakas-paph
 https://index.cy/el/sale/11836336-2-bedroom-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/el/sale/11836843-3-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/el/sale/12350990-1-bedroom-apartment-for-sale-in-limassol-district/
+https://index.cy/el/sale/12351084-1-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/el/sale/12352280-1-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/
 https://index.cy/el/sale/12353551-3-bedroom-apartment-for-sale-in-limassol-district/
 https://index.cy/el/sale/12355247-2-bedroom-apartment-for-sale-in-tombs-of-the-kings-paphos-district/
@@ -11931,6 +11994,7 @@ https://index.cy/iw/sale/9894470-1-bedroom-apartment-for-sale-in-limassol-neapol
 https://index.cy/iw/sale/9894499-1-bedroom-apartment-for-sale-in-limassol-neapolis/
 https://index.cy/iw/sale/9894557-1-bedroom-apartment-for-sale-in-limassol-neapolis/
 https://index.cy/iw/sale/9894644-2-bedroom-apartment-for-sale-in-limassol-neapolis/
+https://index.cy/iw/sale/9933239-2-bedroom-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/iw/sale/9938071-1-bedroom-apartment-for-sale-in-paphos/
 https://index.cy/iw/sale/9939329-2-bedroom-apartment-for-sale-in-paphos/
 https://index.cy/iw/sale/9948507-5-bedroom-house-for-sale-in-limassol-agiatriada/
@@ -12210,6 +12274,7 @@ https://index.cy/rent/12608966-6-bedroom-house-for-rent-in-limassol-petrou-kai-p
 https://index.cy/rent/12621839-2-bedroom-apartment-for-rent-in-paphos-district/
 https://index.cy/rent/12622472-5-bedroom-house-for-rent-in-agios-tychonas-limassol-district/
 https://index.cy/rent/12634493-2-bedroom-apartment-for-rent-in-limassol-district/
+https://index.cy/rent/12634661-4-bedroom-house-for-rent-in-limassol-agia-fyla/
 https://index.cy/rent/12644395-3-bedroom-apartment-for-rent-in-limassol-kapsalos/
 https://index.cy/rent/12644704-3-bedroom-apartment-for-rent-in-strovolos-acropolis-nicosia-district/
 https://index.cy/rent/12644724-1-bedroom-apartment-for-rent-in-engomi-nicosia-district/
@@ -13503,6 +13568,7 @@ https://index.cy/sale/11887162-1-bedroom-apartment-for-sale-in-aradippou-larnaca
 https://index.cy/sale/11887176-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
 https://index.cy/sale/11887183-4-bedroom-house-for-sale-in-dali-nicosia-district/
 https://index.cy/sale/11887202-3-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
+https://index.cy/sale/11887217-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
 https://index.cy/sale/11887234-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
 https://index.cy/sale/11887251-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
 https://index.cy/sale/11887268-2-bedroom-apartment-for-sale-in-aradippou-larnaca-district/
@@ -13993,6 +14059,10 @@ https://index.cy/sale/12349386-1-bedroom-house-for-sale-in-chlorakas-paphos-dist
 https://index.cy/sale/12349680-2-bedroom-house-for-sale-in-kissonerga-paphos-district/
 https://index.cy/sale/12349834-3-bedroom-house-for-sale-in-paphos-district/
 https://index.cy/sale/12349875-2-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
+https://index.cy/sale/12349915-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/12349947-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/12350082-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/12350083-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/12350257-3-bedroom-house-for-sale-in-geroskipou-paphos-district/
 https://index.cy/sale/12350519-3-bedroom-apartment-for-sale-in-limassol-old-town/
 https://index.cy/sale/12350550-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
@@ -14505,6 +14575,7 @@ https://index.cy/sale/12612409-1-bedroom-apartment-for-sale-in-geroskipou-paphos
 https://index.cy/sale/12612695-3-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/sale/12612809-3-bedroom-apartment-for-sale-in-agios-nikolaos-larnaca-district/
 https://index.cy/sale/12612836-3-bedroom-house-for-sale-in-polis-chrysochous-paphos-district/
+https://index.cy/sale/12613103-2-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
 https://index.cy/sale/12613723-1-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
 https://index.cy/sale/12613757-1-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
 https://index.cy/sale/12613803-3-bedroom-apartment-for-sale-in-limassol-agios-nektarios/
@@ -14717,6 +14788,7 @@ https://index.cy/sale/12714292-3-bedroom-apartment-for-sale-in-nicosia-district/
 https://index.cy/sale/12714316-3-bedroom-house-for-sale-in-pernera-famagusta-district/
 https://index.cy/sale/12714346-3-bedroom-house-for-sale-in-pernera-famagusta-district/
 https://index.cy/sale/12714494-3-bedroom-apartment-for-sale-in-lakatamia-nicosia-district/
+https://index.cy/sale/12714610-3-bedroom-apartment-for-sale-in-mandria-paphos-district/
 https://index.cy/sale/12732230-3-bedroom-house-for-sale-in-chlorakas-paphos-district/
 https://index.cy/sale/12732279-3-bedroom-house-for-sale-in-lysos-paphos-district/
 https://index.cy/sale/1307621-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
@@ -15232,6 +15304,7 @@ https://index.cy/sale/9905440-2-bedroom-apartment-for-sale-in-oroklini-larnaca-d
 https://index.cy/sale/9905460-2-bedroom-apartment-for-sale-in-oroklini-larnaca-district/
 https://index.cy/sale/9905528-2-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/sale/9931297-2-bedroom-apartment-for-sale-in-limassol-marina/
+https://index.cy/sale/9933239-2-bedroom-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/sale/9937292-2-bedroom-house-for-sale-in-episkopi-limassol-district/
 https://index.cy/sale/9938071-1-bedroom-apartment-for-sale-in-paphos/
 https://index.cy/sale/9939329-2-bedroom-apartment-for-sale-in-paphos/
@@ -15887,6 +15960,7 @@ https://interakinita.gr/el/property/3043
 https://interakinita.gr/el/property/3044
 https://interakinita.gr/el/property/3045
 https://interakinita.gr/el/property/3046
+https://interakinita.gr/el/property/3047
 https://interakinita.gr/en/property/1656
 https://interakinita.gr/en/property/3038
 https://interakinita.gr/en/property/3042
@@ -16000,6 +16074,7 @@ https://kosmopolishouse.gr/akinita/diamerisma-092
 https://kosmopolishouse.gr/akinita/diamerisma-108
 https://kosmopolishouse.gr/akinita/diamerisma-112
 https://kosmopolishouse.gr/akinita/diamerisma-130
+https://kosmopolishouse.gr/akinita/diamerisma-130/
 https://kosmopolishouse.gr/akinita/diamerisma-142/
 https://kosmopolishouse.gr/akinita/diamerisma-187/
 https://kosmopolishouse.gr/akinita/dimerisma-026
@@ -18088,6 +18163,7 @@ https://mesitiko-pasxalidis.gr/property/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%
 https://mesitiko-pasxalidis.gr/property/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-880-%cf%84%ce%bc/
 https://mesitiko-pasxalidis.gr/property/4600-%cf%84%ce%bc-%ce%b2%ce%b9%ce%bf%ce%bc%ce%b7%cf%87%ce%b1%ce%bd%ce%b9%ce%ba%ce%bf%cf%82-%cf%87%cf%89%cf%81%ce%bf%cf%82-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%89%ce%bb%ce%b7%cf%83%ce%b7/
 https://monopoly.com.gr/el/property/%CE%966786
+https://monopoly.com.gr/el/property/%CE%966812
 https://monopoly.com.gr/el/property/%CE%A4%CE%A3259
 https://monopoly.com.gr/el/property/%CE%A4%CE%A3291
 https://monopoly.com.gr/el/property/101554
@@ -18207,6 +18283,9 @@ https://monopoly.com.gr/el/property/6805
 https://monopoly.com.gr/el/property/6806
 https://monopoly.com.gr/el/property/6807
 https://monopoly.com.gr/el/property/6808
+https://monopoly.com.gr/el/property/6809
+https://monopoly.com.gr/el/property/6810
+https://monopoly.com.gr/el/property/6811
 https://monopoly.com.gr/el/property/69246
 https://monopoly.com.gr/el/property/71166
 https://monopoly.com.gr/el/property/71173
@@ -18545,6 +18624,7 @@ https://monopoly.com.gr/el/property/TS1061
 https://monopoly.com.gr/el/property/TS1062
 https://monopoly.com.gr/el/property/TS1063
 https://monopoly.com.gr/el/property/TS1064
+https://monopoly.com.gr/el/property/TS1065
 https://monopoly.com.gr/el/property/TS426
 https://monopoly.com.gr/el/property/TS448
 https://monopoly.com.gr/el/property/TS452
@@ -19498,6 +19578,7 @@ https://nore.gr/property/21123
 https://nore.gr/property/21124
 https://nore.gr/property/21125
 https://nore.gr/property/21126
+https://nore.gr/property/21127
 https://papanakli.gr/property/455/
 https://perronerealestate.gr/property/102/Diamerisma-Thermaikos
 https://perronerealestate.gr/property/103/Diamerisma-Thermaikos
@@ -20068,6 +20149,7 @@ https://realestate.hellaspm.gr/el/property-details/209073
 https://realestate.hellaspm.gr/el/property-details/209074
 https://realestate.hellaspm.gr/el/property-details/209075
 https://realestate.hellaspm.gr/el/property-details/209077
+https://realestate.hellaspm.gr/el/property-details/209078
 https://realpraxis.gr/property/101
 https://realpraxis.gr/property/119
 https://realpraxis.gr/property/127
@@ -20248,6 +20330,7 @@ https://remax-analogia.gr/property/4302
 https://remax-analogia.gr/property/4303
 https://remax-analogia.gr/property/4314
 https://remax-analogia.gr/property/4322
+https://remax-analogia.gr/property/4331
 https://remax-analogia.gr/property/4344
 https://remax-analogia.gr/property/4345
 https://remax-analogia.gr/property/4348
@@ -20520,6 +20603,11 @@ https://rethess.com/property/959
 https://rethess.com/property/960
 https://rethess.com/property/962
 https://rethess.com/property/963
+https://rethess.com/property/965
+https://rethess.com/property/966
+https://rethess.com/property/967
+https://rethess.com/property/969
+https://rethess.com/property/970
 https://rewize.com/akinito/1011
 https://rewize.com/akinito/1042
 https://rewize.com/akinito/1075
@@ -21808,9 +21896,11 @@ https://rewize.com/akinito/7971
 https://rewize.com/akinito/7973
 https://rewize.com/akinito/7974
 https://rewize.com/akinito/7977
+https://rewize.com/akinito/7979
 https://rewize.com/akinito/7980
 https://rewize.com/akinito/7981
 https://rewize.com/akinito/7982
+https://rewize.com/akinito/7983
 https://rewize.com/akinito/7985
 https://rewize.com/akinito/820
 https://rewize.com/akinito/828
@@ -22717,6 +22807,8 @@ https://thermaikosrealest.gr/el/property/12283
 https://thermaikosrealest.gr/el/property/12284
 https://thermaikosrealest.gr/el/property/12285
 https://thermaikosrealest.gr/el/property/12286
+https://thermaikosrealest.gr/el/property/12287
+https://thermaikosrealest.gr/el/property/12288
 https://thermaikosrealest.gr/el/property/3946
 https://thermaikosrealest.gr/el/property/4795
 https://thermaikosrealest.gr/el/property/5184
@@ -23595,6 +23687,7 @@ https://www.2310realestate.gr/estate_details_listing.php?dios_code=215562
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=215751
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=215957
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=216032
+https://www.2310realestate.gr/estate_details_listing.php?dios_code=216319
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=216355
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=216365
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=216415
@@ -24016,6 +24109,7 @@ https://www.abitazione.gr/property/2606
 https://www.abitazione.gr/property/2607
 https://www.abitazione.gr/property/2608
 https://www.abitazione.gr/property/2609
+https://www.abitazione.gr/property/2610
 https://www.abitazione.gr/property/306/Agrotemachio-Thermi
 https://www.abitazione.gr/property/370
 https://www.abitazione.gr/property/461/Katastima-Kalamaria
@@ -24860,6 +24954,7 @@ https://www.best-house.gr/akinito/541-garsoniera-31tm-z7619
 https://www.best-house.gr/akinito/542-diamerisma-88tm-l7620
 https://www.best-house.gr/akinito/543-diamerisma-74tm-z7621
 https://www.best-house.gr/akinito/544-diamerisma-103tm-a7622
+https://www.best-house.gr/akinito/545-katastima-168tm-l7623
 https://www.best-house.gr/akinito/79-epixeirisi-30tm-z7164
 https://www.bitsimis-real-homes.gr/property/1004
 https://www.bitsimis-real-homes.gr/property/107/%CE%9F%CE%B9%CE%BA%CF%8C%CF%80%CE%B5%CE%B4%CE%BF-%CE%9A%CE%B1%CE%BB%CE%BB%CE%AF%CE%BD%CE%B4%CE%BF%CE%B9%CE%B1
@@ -25152,6 +25247,7 @@ https://www.citybuild.gr/property/2348
 https://www.citybuild.gr/property/2349
 https://www.citybuild.gr/property/2350
 https://www.citybuild.gr/property/2351
+https://www.citybuild.gr/property/2352
 https://www.concepthouse.gr/property/136
 https://www.concepthouse.gr/property/173
 https://www.concepthouse.gr/property/213
@@ -25234,6 +25330,7 @@ https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%95%CE%BD%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1%CF%83%CE%B7_%CE%94%2D11529.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%95%CE%BD%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1%CF%83%CE%B7_%CE%94%2D11576.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%95%CE%BD%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1%CF%83%CE%B7_%CE%94%2D11588.html
+https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%95%CE%BD%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1%CF%83%CE%B7_%CE%94%2D11595.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11006.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11105.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11129.html
@@ -25245,6 +25342,7 @@ https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11507.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11511.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11557.html
+https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11589.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%B5%CE%B6%CE%BF%CE%BD%CE%AD%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D9898.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%BF%CE%BD%CE%BF%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11053.html
 https://www.daveti.gr/%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1%2D%CE%9F%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2D%CE%9D%2E%C2%A0751-%CE%9C%CE%BF%CE%BD%CE%BF%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1-%CF%80%CF%81%CE%BF%CF%82%2D%CE%A0%CF%8E%CE%BB%CE%B7%CF%83%CE%B7_%CE%94%2D11286.html
@@ -27116,6 +27214,7 @@ https://www.ellasestate.com/el/property/for-sale-maisonette-b-%ce%b413-155-sq-m-
 https://www.ellasestate.com/el/property/for-sale-studio-%ce%b9%cf%824-46-sq-m-in-thessaloniki/
 https://www.ellasestate.com/el/property/for-sale-villa-115-sq-m-in-sani-halkidiki/
 https://www.ellasestate.com/el/property/for-sale-villa-120-sq-m-in-gerakini-halkidiki/
+https://www.ellasestate.com/el/property/for-sale-villa-130-sq-m-in-hanioti-halkidiki/
 https://www.ellasestate.com/el/property/for-sale-villa-180-sq-m-in-sithonia-halkidiki/
 https://www.ellasestate.com/el/property/for-sale-villa-220-sq-m-in-hanioti-halkidiki/
 https://www.ellasestate.com/el/property/for-sale-villa-230-sq-m-in-elia-nikitis-halkidiki/
@@ -28556,6 +28655,7 @@ https://www.forumland.gr/agia-triada-faliro--diamerisma-pros-polisi_F-25142.html
 https://www.forumland.gr/agia-triada-faliro--diamerisma-pros-polisi_F-25157.html
 https://www.forumland.gr/agia-triada-faliro--diamerisma-pros-polisi_F-25432.html
 https://www.forumland.gr/agia-triada-faliro--diamerisma-pros-polisi_F-25460.html
+https://www.forumland.gr/agia-triada-faliro--diamerisma-pros-polisi_F-25547.html
 https://www.forumland.gr/agia-triada-faliro--gkarsoniera-pros-enoikiasi_F-25126.html
 https://www.forumland.gr/agia-triada-faliro--gkarsoniera-pros-enoikiasi_F-25292.html
 https://www.forumland.gr/agia-triada-faliro--gkarsoniera-pros-polisi_F-22581.html
@@ -28625,6 +28725,7 @@ https://www.forumland.gr/analipsi-diamerisma-pros-polisi_F-25339.html
 https://www.forumland.gr/analipsi-diamerisma-pros-polisi_F-25454.html
 https://www.forumland.gr/analipsi-diamerisma-pros-polisi_F-25477.html
 https://www.forumland.gr/analipsi-diamerisma-pros-polisi_F-25514.html
+https://www.forumland.gr/analipsi-diamerisma-pros-polisi_F-25550.html
 https://www.forumland.gr/analipsi-gkarsoniera-pros-enoikiasi_F-25181.html
 https://www.forumland.gr/analipsi-gkarsoniera-pros-enoikiasi_F-25224.html
 https://www.forumland.gr/analipsi-gkarsoniera-pros-enoikiasi_F-25417.html
@@ -28851,6 +28952,7 @@ https://www.forumland.gr/istoriko-kentro-diamerisma-pros-enoikiasi_F-25450.html
 https://www.forumland.gr/istoriko-kentro-diamerisma-pros-enoikiasi_F-25499.html
 https://www.forumland.gr/istoriko-kentro-diamerisma-pros-enoikiasi_F-25500.html
 https://www.forumland.gr/istoriko-kentro-diamerisma-pros-enoikiasi_F-25521.html
+https://www.forumland.gr/istoriko-kentro-diamerisma-pros-enoikiasi_F-25548.html
 https://www.forumland.gr/istoriko-kentro-diamerisma-pros-polisi_F-14896.html
 https://www.forumland.gr/istoriko-kentro-diamerisma-pros-polisi_F-16749.html
 https://www.forumland.gr/istoriko-kentro-diamerisma-pros-polisi_F-17316.html
@@ -29129,6 +29231,7 @@ https://www.forumland.gr/kalamaria-karampoyrnaki-diamerisma-pros-polisi_F-25313.
 https://www.forumland.gr/kalamaria-karampoyrnaki-diamerisma-pros-polisi_F-25343.html
 https://www.forumland.gr/kalamaria-karampoyrnaki-diamerisma-pros-polisi_F-25459.html
 https://www.forumland.gr/kalamaria-karampoyrnaki-diamerisma-pros-polisi_F-25531.html
+https://www.forumland.gr/kalamaria-karampoyrnaki-diamerisma-pros-polisi_F-25545.html
 https://www.forumland.gr/kalamaria-karampoyrnaki-gkarsoniera-pros-enoikiasi_F-24738.html
 https://www.forumland.gr/kalamaria-karampoyrnaki-gkarsoniera-pros-enoikiasi_F-25115.html
 https://www.forumland.gr/kalamaria-karampoyrnaki-gkarsoniera-pros-polisi_F-22628.html
@@ -29263,6 +29366,7 @@ https://www.forumland.gr/kalamaria-kentro-mezoneta-pros-polisi_F-24963.html
 https://www.forumland.gr/kalamaria-kentro-mezoneta-pros-polisi_F-25187.html
 https://www.forumland.gr/kalamaria-kentro-mezoneta-pros-polisi_F-25189.html
 https://www.forumland.gr/kalamaria-kentro-mezoneta-pros-polisi_F-25431.html
+https://www.forumland.gr/kalamaria-kentro-mezoneta-pros-polisi_F-25553.html
 https://www.forumland.gr/kalamaria-kentro-studio-pros-polisi_F-23753.html
 https://www.forumland.gr/kalamaria-kifisia-diamerisma-pros-enoikiasi_F-24848.html
 https://www.forumland.gr/kalamaria-kifisia-diamerisma-pros-enoikiasi_F-25183.html
@@ -29457,6 +29561,7 @@ https://www.forumland.gr/nea-paralia-diamerisma-pros-enoikiasi_F-25353.html
 https://www.forumland.gr/nea-paralia-diamerisma-pros-enoikiasi_F-25379.html
 https://www.forumland.gr/nea-paralia-diamerisma-pros-enoikiasi_F-25442.html
 https://www.forumland.gr/nea-paralia-diamerisma-pros-enoikiasi_F-25544.html
+https://www.forumland.gr/nea-paralia-diamerisma-pros-enoikiasi_F-25556.html
 https://www.forumland.gr/nea-paralia-diamerisma-pros-polisi_F-14200.html
 https://www.forumland.gr/nea-paralia-diamerisma-pros-polisi_F-22550.html
 https://www.forumland.gr/nea-paralia-diamerisma-pros-polisi_F-22632.html
@@ -30274,6 +30379,7 @@ https://www.forumland.gr/toympa-kato-diamerisma-pros-polisi_F-25421.html
 https://www.forumland.gr/toympa-kato-gkarsoniera-pros-polisi_F-23731.html
 https://www.forumland.gr/toympa-kato-gkarsoniera-pros-polisi_F-25361.html
 https://www.forumland.gr/toympa-kato-gkarsoniera-pros-polisi_F-25362.html
+https://www.forumland.gr/toympa-kato-grafeio-pros-enoikiasi_F-25557.html
 https://www.forumland.gr/toympa-kato-mezoneta-pros-polisi_F-24682.html
 https://www.forumland.gr/toympa-kato-mezoneta-pros-polisi_F-25483.html
 https://www.forumland.gr/toympa-kato-studio-pros-polisi_F-25363.html
@@ -30448,6 +30554,7 @@ https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1282/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1283/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1284/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1286/
+https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1287/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1288/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1289/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1291/
@@ -30612,6 +30719,7 @@ https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-1365/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-1404/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-1408/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-1409/
+https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-1410/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-800/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-830/
 https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-831/
@@ -30814,6 +30922,7 @@ https://www.gandjrealestate.gr/property/1115
 https://www.gandjrealestate.gr/property/1119
 https://www.gandjrealestate.gr/property/1120
 https://www.gandjrealestate.gr/property/1130
+https://www.gandjrealestate.gr/property/1133
 https://www.gandjrealestate.gr/property/1145
 https://www.gandjrealestate.gr/property/1147
 https://www.gandjrealestate.gr/property/1158
@@ -31714,6 +31823,7 @@ https://www.greenandgrey.gr/property/3157
 https://www.greenandgrey.gr/property/3159
 https://www.greenandgrey.gr/property/3160
 https://www.greenandgrey.gr/property/3161
+https://www.greenandgrey.gr/property/3166
 https://www.greenandgrey.gr/property/380/Xenodocheio-Thessaloniki%20kentro
 https://www.greenandgrey.gr/property/391/Biotechnikos%20Choros-Stathmos%20OSE
 https://www.greenandgrey.gr/property/398/Oikopedo-Thermi
@@ -39774,6 +39884,7 @@ https://www.mesitikopap.gr/property/3581
 https://www.mesitikopap.gr/property/3670
 https://www.mesitikopap.gr/property/3718
 https://www.mesitikopap.gr/property/3782
+https://www.mesitikopap.gr/property/3783
 https://www.mesitikopap.gr/property/387/Diamerisma-Analipsi
 https://www.mesitikopap.gr/property/417/Gkarsoniera/Studio-Martiou
 https://www.mesitikopap.gr/property/468
@@ -40420,6 +40531,7 @@ https://www.olympusrealestate.gr/property.php?id=16892
 https://www.olympusrealestate.gr/property.php?id=24000
 https://www.olympusrealestate.gr/property.php?id=24965
 https://www.olympusrealestate.gr/property.php?id=26892
+https://www.olympusrealestate.gr/property.php?id=26987
 https://www.olympusrealestate.gr/property.php?id=3249
 https://www.olympusrealestate.gr/property.php?id=45474
 https://www.olympusrealestate.gr/property.php?id=45790
@@ -40464,6 +40576,7 @@ https://www.olympusrealestate.gr/property.php?id=51124
 https://www.olympusrealestate.gr/property.php?id=51150
 https://www.olympusrealestate.gr/property.php?id=51152
 https://www.olympusrealestate.gr/property.php?id=51168
+https://www.olympusrealestate.gr/property.php?id=51278
 https://www.olympusrealestate.gr/property.php?id=51306
 https://www.olympusrealestate.gr/property.php?id=51325
 https://www.olympusrealestate.gr/property.php?id=51337
@@ -40585,6 +40698,8 @@ https://www.olympusrealestate.gr/property.php?id=51844
 https://www.olympusrealestate.gr/property.php?id=51845
 https://www.olympusrealestate.gr/property.php?id=51846
 https://www.olympusrealestate.gr/property.php?id=51847
+https://www.olympusrealestate.gr/property.php?id=51848
+https://www.olympusrealestate.gr/property.php?id=51849
 https://www.olympusrealestate.gr/property.php?id=7314
 https://www.olympusrealestate.gr/property.php?id=7329
 https://www.omikronestate.gr/property/294
@@ -41011,6 +41126,7 @@ https://www.papastefanou.gr/property/4705
 https://www.papastefanou.gr/property/4706
 https://www.papastefanou.gr/property/4707
 https://www.papastefanou.gr/property/4708
+https://www.papastefanou.gr/property/4710
 https://www.papastefanou.gr/property/948
 https://www.pasalidis-realestate.gr/property/5294
 https://www.pasalidis-realestate.gr/property/5316
@@ -42345,6 +42461,7 @@ https://www.progresorealestate.gr/property/5436
 https://www.progresorealestate.gr/property/5437
 https://www.progresorealestate.gr/property/5438
 https://www.progresorealestate.gr/property/5460
+https://www.progresorealestate.gr/property/5461
 https://www.propertyexperts.gr/property/1195
 https://www.propertyexperts.gr/property/1252
 https://www.propertyexperts.gr/property/1423
@@ -46965,10 +47082,13 @@ https://www.remax.gr/property/411010-enoikiasi-katastima-kentro
 https://www.remax.gr/property/411023-enoikiasi-katastima-kentro
 https://www.remax.gr/property/411025-enoikiasi-grafeio-martioy
 https://www.remax.gr/property/411033-polisi-diamerisma-eyosmos
+https://www.remax.gr/property/411042-polisi-diamerisma-lewf-pathsiwn-lewf-axarnwn
 https://www.remax.gr/property/411061-enoikiasi-diamerisma-pylaia
 https://www.remax.gr/property/411072-polisi-mezoneta-strofh-filyroy
+https://www.remax.gr/property/411075-polisi-diamerisma-lewf-pathsiwn-lewf-axarnwn
 https://www.remax.gr/property/411099-enoikiasi-gkarsoniera-studio-eleytherio-kordelio
 https://www.remax.gr/property/411102-polisi-epaggelmatiko-ktirio-diabata
+https://www.remax.gr/property/411120-polisi-diamerisma-plateia-attikhs
 https://www.remaxaxis.gr/property/107
 https://www.remaxaxis.gr/property/111
 https://www.remaxaxis.gr/property/121
@@ -53366,7 +53486,11 @@ https://www.thehacienda.gr/property/7543
 https://www.thehacienda.gr/property/7544
 https://www.thehacienda.gr/property/7546
 https://www.thehacienda.gr/property/7547
+https://www.thehacienda.gr/property/7548
 https://www.thehacienda.gr/property/7549
+https://www.thehacienda.gr/property/7550
+https://www.thehacienda.gr/property/7551
+https://www.thehacienda.gr/property/7552
 https://www.thessaloniki-realestate.gr/en/property/apartment-agios-fanourios-1-24419/
 https://www.thessaloniki-realestate.gr/en/property/flatlet-agion-panton-1-24054/
 https://www.thessaloniki-realestate.gr/en/property/flatlet-efklidis-1-24402/
@@ -56665,6 +56789,12 @@ https://www.villaingr.com/property/7493
 https://www.villaingr.com/property/7494
 https://www.villaingr.com/property/7495
 https://www.villaingr.com/property/7496
+https://www.villaingr.com/property/7497
+https://www.villaingr.com/property/7498
+https://www.villaingr.com/property/7499
+https://www.villaingr.com/property/7501
+https://www.villaingr.com/property/7502
+https://www.villaingr.com/property/7503
 https://www.vogkoli-realestate.gr/el/property.php?id=499
 https://www.vogkoli-realestate.gr/el/property.php?id=730
 https://www.vogkoli-realestate.gr/el/property.php?id=731
@@ -57787,6 +57917,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/230a60e2-5712-43e7-aa7c-a90ce
 https://www.xe.gr/property/d/enoikiaseis-katoikion/231f11ca-d53f-43b3-90f2-8bdc1ac88565/thessalonikh-analhpsh-680-90
 https://www.xe.gr/property/d/enoikiaseis-katoikion/236e1dc5-627f-4f5e-9f65-6ea21725e7d6/thessalonikh-analhpsh-690-72
 https://www.xe.gr/property/d/enoikiaseis-katoikion/237e2f89-7abc-40e7-9a6a-f529143c6303/thessalonikh-charilaoy-700-90
+https://www.xe.gr/property/d/enoikiaseis-katoikion/23906730-9b41-4335-907f-a80bde42b02d/thessalonikh-falhro-550-40
 https://www.xe.gr/property/d/enoikiaseis-katoikion/23951f32-1b39-4ce0-8ac5-8f392c83d38a/thessalonikh-charilaoy-500-68
 https://www.xe.gr/property/d/enoikiaseis-katoikion/2412d0d0-c18b-437d-9538-683e2137daae/thessalonikh-ntepw-1000-81
 https://www.xe.gr/property/d/enoikiaseis-katoikion/241699d2-67c9-4b21-be59-2e4d0616c0bd/thessalonikh-kentro-520-36
@@ -57893,6 +58024,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/35c0b34f-e655-41a9-9104-a1bc6
 https://www.xe.gr/property/d/enoikiaseis-katoikion/35c5453e-a3fe-4dab-bbb4-aa5848ccf81a/thessalonikh-falhro-500-55
 https://www.xe.gr/property/d/enoikiaseis-katoikion/35cceff4-2e5c-4549-a2a1-57bccf2900df/thessalonikh-kentro-300-45
 https://www.xe.gr/property/d/enoikiaseis-katoikion/3606253a-d3f0-4e38-82e7-832c845a52cf/thessalonikh-papafeio-700-90
+https://www.xe.gr/property/d/enoikiaseis-katoikion/366844a7-1995-46de-9a5d-046d426a31e5/thessalonikh-analhpsh-580-70
 https://www.xe.gr/property/d/enoikiaseis-katoikion/366844a7-1995-46de-9a5d-046d426a31e5/thessalonikh-analhpsh-620-70
 https://www.xe.gr/property/d/enoikiaseis-katoikion/36843019-c8b2-4403-a93c-56f1ede4c85d/exochh-700-170
 https://www.xe.gr/property/d/enoikiaseis-katoikion/36843019-c8b2-4403-a93c-56f1ede4c85d/exochh-800-170
@@ -58034,6 +58166,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/503e02a4-c9cf-4c69-848f-eddef
 https://www.xe.gr/property/d/enoikiaseis-katoikion/505d4964-b965-4a84-8825-e8a2221038b6/eyosmos-470-42
 https://www.xe.gr/property/d/enoikiaseis-katoikion/506b7205-c2d5-4cc5-9796-a2b640d05423/thessalonikh-falhro-550-52
 https://www.xe.gr/property/d/enoikiaseis-katoikion/508cfc0a-5621-4d2e-ad33-beb89c6f567f/eyosmos-650-90
+https://www.xe.gr/property/d/enoikiaseis-katoikion/50d5fb57-130e-41d7-ac4f-7644066df284/thermh-750-65
 https://www.xe.gr/property/d/enoikiaseis-katoikion/50e48ef3-a714-4168-8be0-974cdb511f55/thessalonikh-anw-polh-300-25
 https://www.xe.gr/property/d/enoikiaseis-katoikion/50fb4401-33da-45a7-b428-10902f0f030e/thessalonikh-anw-polh-480-38
 https://www.xe.gr/property/d/enoikiaseis-katoikion/5121afd5-3b90-46e1-b7b5-79e142cc0f21/thessalonikh-ntepw-170000-72
@@ -58542,6 +58675,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/b581c54c-abf3-48f0-853a-c842d
 https://www.xe.gr/property/d/enoikiaseis-katoikion/b5b2666e-287a-48ff-bf25-b869d8ccd9c1/panorama-850-145
 https://www.xe.gr/property/d/enoikiaseis-katoikion/b62a65cd-041d-4de1-b19a-3b1cda220e0f/thessalonikh-xhrokrhnh-650-95
 https://www.xe.gr/property/d/enoikiaseis-katoikion/b62e3ca6-f9f2-4ae0-96d1-3f3d68fccbc8/thessalonikh-kentro-500-27
+https://www.xe.gr/property/d/enoikiaseis-katoikion/b678cc32-83a9-42d3-b0b9-df7fc63aac08/thessalonikh-katw-toympa-570-55
 https://www.xe.gr/property/d/enoikiaseis-katoikion/b678cc32-83a9-42d3-b0b9-df7fc63aac08/thessalonikh-katw-toympa-580-52
 https://www.xe.gr/property/d/enoikiaseis-katoikion/b678cc32-83a9-42d3-b0b9-df7fc63aac08/thessalonikh-katw-toympa-620-52
 https://www.xe.gr/property/d/enoikiaseis-katoikion/b68ba97c-ec12-4067-8a9e-cc80dd47acb4/athhna-metaxoyrgeio-800-118
@@ -58855,6 +58989,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/03dd83e9-2f43-4341-b0
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0440278b-c8bf-4982-a16a-b1d33763d2d2/aylwna-550000-480
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/04b5201b-8d50-47c8-8ffb-7f41bde05bca/nikhth-500000-150
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/051b2a4e-eb84-43e5-931d-056f8462693d/wraiokastro-60000-42
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/055fe22b-c09c-455b-8f25-5931af7551a5/thessalonikh-kentro-10000-30
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/055fe22b-c09c-455b-8f25-5931af7551a5/thessalonikh-kentro-6000-30
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/05da38c0-8bd1-4714-8b6a-15b03daa3e54/thessalonikh-kentro-295000-23
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/06ba8e43-1fdf-40e1-9874-fc75c4331081/thessalonikh-analhpsh-260000-238
@@ -58885,6 +59020,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/115d2cf4-5307-4600-97
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/1209260f-6efa-45b2-84c8-824be995a5fa/veroia-1500000-2620
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/12de8fa2-93e8-472f-a5c6-874bc1838a17/thessalonikh-xhrokrhnh-750000-500
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/13de9e76-c7fd-4fb2-8e94-a6ef457a3175/thessalonikh-kentro-50000-25
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/1408d016-3669-433a-badc-19361436ce3a/aylwna-550000-480
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/144e7990-b5c4-46e3-be7b-d381177524d2/thessalonikh-falhro-70000-43
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/1562acc7-3e0b-45d6-9a72-d06107c57883/thessalonikh-falhro-35000-250
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/169a4964-58c3-44d2-8ed0-07e609e8a1a0/thessalonikh-katw-toympa-100000-178
@@ -59165,6 +59301,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/935957b4-6c5e-428d-8d
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/93882aac-05a5-4cbf-9e71-36c4f4b3c562/kalamaria-360000-194
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/938ab566-9b76-477a-aa98-980b3b01051f/neoi-epivates-180000-100
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/93e76dc4-7cb7-42ac-8c5e-1a11b87c666a/nea-mhchaniwna-6000-28
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/94ac3336-c0bd-403e-96e1-21e8f1de5c7b/neapolh-70000-380
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/95408a2c-333f-432b-935a-5e4350549d48/thessalonikh-ntepw-800000-246
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/95568337-84f1-432c-aa8f-2eb690b89874/kallithea-495000-1203
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/95f57e00-f999-42d0-bec0-6dc58f6fe230/thessalonikh-anw-polh-35000-18
@@ -59594,6 +59731,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/68f1622d-1817-47eb-b18e-74bf
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/68f4f8d4-3d46-49be-8892-3e6269d4160f/chavriata-100000-4100
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6907ef27-6d5a-4a9f-9309-7673e02cfc94/sithwnia-240000-1100
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/69fc393a-e988-4065-a413-0fecadced75a/epanomh-75000-5830
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/6a14e3aa-dff1-4bfd-90b1-486aac77e2db/nea-agathoypolh-40000-1200
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6abb0646-c564-46ba-9944-0d162bc65325/psakoydia-520000-2500
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6cbdaf02-2442-41c2-a135-b584d701cab7/filotheh-nea-raidestos-80000-404
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/6d2d8a22-1814-4f4f-84ce-05c40e5ded50/plakias-400000-2311
@@ -60556,6 +60694,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/5dd83b7b-9f45-415f-a22a-ad1d2bc9
 https://www.xe.gr/property/d/poliseis-katoikion/5e0b9fcc-804b-48fa-a8c0-ec0b0ebd6c7c/thessalonikh-xhrokrhnh-93000-31
 https://www.xe.gr/property/d/poliseis-katoikion/5e3ab7d3-c23f-4488-83fc-6300f5dc3d0a/melissochwri-135000-176
 https://www.xe.gr/property/d/poliseis-katoikion/5e6d24a5-c298-4227-8b4b-e4d0b36ecbab/nea-mhchaniwna-120000-110
+https://www.xe.gr/property/d/poliseis-katoikion/5e74b37c-b5de-4905-9da4-ca9c007e1d33/thessalonikh-analhpsh-255000-92
 https://www.xe.gr/property/d/poliseis-katoikion/5ef2dac5-88ed-4376-9202-c9366b272188/panorama-500000-250
 https://www.xe.gr/property/d/poliseis-katoikion/5efe6154-2573-4750-92a6-97fa40f40ebf/eyosmos-145000-120
 https://www.xe.gr/property/d/poliseis-katoikion/5f235a1c-03ba-491e-a69f-0079035f430f/thessalonikh-analhpsh-159000-70
@@ -60563,6 +60702,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/5f5d2ed6-f549-4866-aee9-0f07b130
 https://www.xe.gr/property/d/poliseis-katoikion/5f7405ec-8237-4aef-b625-7d1c82b73d94/kalamaria-235000-98
 https://www.xe.gr/property/d/poliseis-katoikion/5f7cd01f-e3c0-418a-8740-c5700b669eb5/polichnh-thessalonikhs-175000-90
 https://www.xe.gr/property/d/poliseis-katoikion/5fb85507-d509-481d-b1d0-e794212ad4cc/thermh-600000-170
+https://www.xe.gr/property/d/poliseis-katoikion/60014ce8-68fe-4b08-a34a-914f2dda54a5/serres-162000-173
 https://www.xe.gr/property/d/poliseis-katoikion/601409f9-817f-420c-bebb-8c9c67708f38/alexandroypolh-62000-33
 https://www.xe.gr/property/d/poliseis-katoikion/60645d61-efe2-46f1-bc39-c387537db77d/kalamaria-municipality-kalamaria-218000-82
 https://www.xe.gr/property/d/poliseis-katoikion/60645d61-efe2-46f1-bc39-c387537db77d/kalamaria-nea-elvetia-218000-82
@@ -60822,6 +60962,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/859c625f-b347-49dc-8c85-d0cb402c
 https://www.xe.gr/property/d/poliseis-katoikion/85b42e5f-a247-4f30-8e57-34a5da187e03/stageira-akanthos-100000-69
 https://www.xe.gr/property/d/poliseis-katoikion/85ef10f0-d529-4fcf-8ed8-93e65ae0b175/thermh-325000-108
 https://www.xe.gr/property/d/poliseis-katoikion/86166e50-5acc-4c94-a921-47f2d900d388/thessalonikh-anw-toympa-110000-57
+https://www.xe.gr/property/d/poliseis-katoikion/862fba66-e418-477b-be79-40710da3b4cb/polichnh-thessalonikhs-115000-90
 https://www.xe.gr/property/d/poliseis-katoikion/86352418-3dd8-486d-94eb-d461d3a8e462/eyosmos-100000-90
 https://www.xe.gr/property/d/poliseis-katoikion/863d7069-03f1-4824-949b-e59b6aecc9af/thessalonikh-vardarh-80000-40
 https://www.xe.gr/property/d/poliseis-katoikion/866b5075-1c6f-4112-8168-b83706a7cce0/kalamaria-175000-48
@@ -61012,6 +61153,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/a41da437-ab8e-4c3d-9605-36c22be8
 https://www.xe.gr/property/d/poliseis-katoikion/a4863b64-90fb-4dda-b53d-54d64320de93/thessalonikh-vardarh-138000-38
 https://www.xe.gr/property/d/poliseis-katoikion/a496c7a4-e557-4e1f-9c1c-67cc984fe046/thessalonikh-falhro-115000-20
 https://www.xe.gr/property/d/poliseis-katoikion/a4a43d27-7eea-4d6f-bfc1-58bc05ecb5aa/eyosmos-140000-85
+https://www.xe.gr/property/d/poliseis-katoikion/a4c1ade1-9754-4947-9f4e-4ba4a38d60a4/thessalonikh-260000-200
 https://www.xe.gr/property/d/poliseis-katoikion/a4c703d9-ce2a-44f7-904f-1828bb067f1b/filyro-420000-263
 https://www.xe.gr/property/d/poliseis-katoikion/a4cd89a7-3f00-4c24-b96c-daacad0eaa7d/thessalonikh-kentro-250000-40
 https://www.xe.gr/property/d/poliseis-katoikion/a52d8c53-f13b-4c62-a7f3-a81f57e8b90a/thessalonikh-vardarh-86000-40
@@ -61113,6 +61255,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/b355fa92-d66f-441f-870e-a3f65938
 https://www.xe.gr/property/d/poliseis-katoikion/b355fa92-d66f-441f-870e-a3f65938f45b/thessalonikh-falhro-127000-34
 https://www.xe.gr/property/d/poliseis-katoikion/b36d22f9-bbdf-4488-8293-3b1955023a1b/soyrwth-255000-170
 https://www.xe.gr/property/d/poliseis-katoikion/b36df141-46ad-493b-a20f-0415c7d3437e/thessalonikh-falhro-180000-75
+https://www.xe.gr/property/d/poliseis-katoikion/b39827fa-f18f-4435-a0cb-35722244d5f4/kalamaria-250000-79
 https://www.xe.gr/property/d/poliseis-katoikion/b3c1c149-4cd3-4e5d-8c6b-8186d24b3ce8/thessalonikh-dikasthria-189000-45
 https://www.xe.gr/property/d/poliseis-katoikion/b3c601bc-4149-4432-9748-4e51c2ed53db/thessalonikh-analhpsh-420000-118
 https://www.xe.gr/property/d/poliseis-katoikion/b4d37758-6fc5-4f5a-a2f6-e049cff9d971/nikhth-160000-70
@@ -61273,6 +61416,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/cfda541c-0ede-4cc2-a928-64f196e7
 https://www.xe.gr/property/d/poliseis-katoikion/cfdfa8de-e167-4938-a468-444e73445f04/thessalonikh-kentro-125000-41
 https://www.xe.gr/property/d/poliseis-katoikion/d02d1f81-2b72-46dd-a2e4-fb22b9e9ef9d/nikhth-220000-120
 https://www.xe.gr/property/d/poliseis-katoikion/d036ce0d-5840-44bb-8942-9da0126583e7/thessalonikh-falhro-148000-42
+https://www.xe.gr/property/d/poliseis-katoikion/d0414b04-1799-4609-ac9f-fb8a2b9bbf15/filyro-150000-98
 https://www.xe.gr/property/d/poliseis-katoikion/d0445c65-2cd2-488d-a7e8-b06fa5172595/thessalonikh-analhpsh-275000-110
 https://www.xe.gr/property/d/poliseis-katoikion/d0445c65-2cd2-488d-a7e8-b06fa5172595/thessalonikh-analhpsh-277000-110
 https://www.xe.gr/property/d/poliseis-katoikion/d0445c65-2cd2-488d-a7e8-b06fa5172595/thessalonikh-analhpsh-285000-110
@@ -61299,6 +61443,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/d370a7c1-0cdf-4613-a1a3-0e1045b0
 https://www.xe.gr/property/d/poliseis-katoikion/d370a7c1-0cdf-4613-a1a3-0e1045b0b7f2/eykarpia-215000-115
 https://www.xe.gr/property/d/poliseis-katoikion/d37b1d04-306f-46ce-b20e-68d77c2d745c/sykies-dikasthria-87000-30
 https://www.xe.gr/property/d/poliseis-katoikion/d3e262a9-5f58-4017-bb19-0e1ca0f28c24/thessalonikh-kentro-185000-50
+https://www.xe.gr/property/d/poliseis-katoikion/d3eabade-a107-4a24-ad6b-48d765bc88cb/triandria-116000-55
 https://www.xe.gr/property/d/poliseis-katoikion/d420836b-d014-4591-8034-8740f8673665/thessalonikh-falhro-112000-21
 https://www.xe.gr/property/d/poliseis-katoikion/d4371688-db1d-4632-852e-83d5d08b4815/moyries-220000-84
 https://www.xe.gr/property/d/poliseis-katoikion/d4ae418e-f782-4077-b47a-6de158d4cb32/thessalonikh-analhpsh-70000-36
@@ -61549,6 +61694,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/fa883f77-3bd2-436e-b2e3-f3704dc5
 https://www.xe.gr/property/d/poliseis-katoikion/fad4be3f-6736-4ae3-a379-fd58a72daf38/thessalonikh-ntepw-290000-93
 https://www.xe.gr/property/d/poliseis-katoikion/faef0e6a-fb74-4950-bcb4-ce39bb457129/thermh-440000-160
 https://www.xe.gr/property/d/poliseis-katoikion/fb227b1e-5fe1-4ed2-a4a4-c13fa72ffd9c/neapolh-58000-60
+https://www.xe.gr/property/d/poliseis-katoikion/fb227b1e-5fe1-4ed2-a4a4-c13fa72ffd9c/neapolh-60000-60
 https://www.xe.gr/property/d/poliseis-katoikion/fb740437-ec57-4ea6-a99a-de9102689655/thessalonikh-kentro-345000-115
 https://www.xe.gr/property/d/poliseis-katoikion/fbb02bff-71f9-4d3b-a094-ee7c90aaa18b/panorama-570000-179
 https://www.xe.gr/property/d/poliseis-katoikion/fbbe5e92-81cd-4f6e-86aa-51359f2b60f4/nea-kallikrateia-257000-64
@@ -61619,6 +61765,7 @@ https://www.xrimainvestments.gr/property/1441
 https://www.xrimainvestments.gr/property/1443
 https://www.xrimainvestments.gr/property/1459
 https://www.xrimainvestments.gr/property/1460
+https://www.xrimainvestments.gr/property/1467
 https://www.xrimainvestments.gr/property/1480
 https://www.xrimainvestments.gr/property/1481
 https://www.xrimainvestments.gr/property/1487
