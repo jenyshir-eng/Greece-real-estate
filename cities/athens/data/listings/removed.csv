@@ -2842,3 +2842,15 @@ date,source_domain,url,reason
 2026-11-10,goldenhome.gr,https://goldenhome.gr/property/view/529293,sold / not available
 2026-11-10,goldenhome.gr,https://goldenhome.gr/property/view/515511,sold / not available
 2026-11-10,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-590/,sold / not available
+2026-11-10,remax.gr,https://www.remax.gr/property/395472-polisi-diamerisma-kentro,not on result pages
+2026-11-10,remax.gr,https://www.remax.gr/property/409503-enoikiasi-mezoneta-garghttos,not on result pages
+2026-11-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5a134fea-3322-402f-9930-bc314aeafd05/khfisia-strofyli-2000-130,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5cba006e-588c-40ec-aae5-7ab758a4492f/magoyla-600-65,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-10,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5d2242a3-538a-494a-83a0-d91001fe0baa/voyla-anw-voyla-3000-114,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-10,tsrealestate.gr,https://tsrealestate.gr/el/property/16200,http 404
+2026-11-10,tsrealestate.gr,https://tsrealestate.gr/el/property/16236,http 404
+2026-11-10,neon-realestate.gr,https://neon-realestate.gr/property/2565834-diamerisma-pros-enoikiasi-palaio-faliro-40-t-m-e520/,http 404
+2026-11-10,goldenhome.gr,https://goldenhome.gr/property/view/360118,sold / not available
+2026-11-10,goldenhome.gr,https://goldenhome.gr/property/view/502216,sold / not available
+2026-11-10,goldenhome.gr,https://goldenhome.gr/property/view/485394,sold / not available
+2026-11-10,goldenhome.gr,https://goldenhome.gr/property/view/518368,sold / not available
