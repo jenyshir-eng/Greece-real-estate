@@ -4131,3 +4131,15 @@ date,source_domain,url,reason
 2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/227727,sold / not available
 2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/538605,sold / not available
 2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/423631,sold / not available
+2026-11-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/6cd55b69-b531-45d6-bcb8-28706dedc5c5/nea-moydania-105000-72,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/a067bcbf-602e-4fcb-bbe3-a4ee606aed79/kryophgh-155000-120,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-11,hometarget.gr,https://hometarget.gr/el/property/3954,http 404
+2026-11-11,hometarget.gr,https://hometarget.gr/el/property/3600,http 404
+2026-11-11,katikia.com.gr,https://katikia.com.gr/el/property/2530,http 404
+2026-11-11,monopoly.com.gr,https://monopoly.com.gr/el/property/94240,http 404
+2026-11-11,monopoly.com.gr,https://monopoly.com.gr/el/property/94126,http 404
+2026-11-11,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=7690721d-329e-4e6b-90a8-96007827ebe6,redirects to https://bee-realestate.gr/errorPage
+2026-11-11,nore.gr,https://nore.gr/property/14162,http 410
+2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/539246,sold / not available
+2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/444556,sold / not available
+2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/542817,sold / not available
