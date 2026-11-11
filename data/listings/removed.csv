@@ -4074,3 +4074,36 @@ date,source_domain,url,reason
 2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/532316,sold / not available
 2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/543828,sold / not available
 2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/530042,sold / not available
+2026-11-11,remax.gr,https://www.remax.gr/property/330029-polisi-biomichaniko-biotechniko-eykarpia,not on result pages
+2026-11-11,remax.gr,https://www.remax.gr/property/355938-polisi-diamerisma-karampoyrnaki,not on result pages
+2026-11-11,remax.gr,https://www.remax.gr/property/407734-polisi-oikopedo-gia-katoikia-eyosmos,not on result pages
+2026-11-11,remax.gr,https://www.remax.gr/property/407748-enoikiasi-diamerisma-kentro,not on result pages
+2026-11-11,remax.gr,https://www.remax.gr/property/410158-enoikiasi-gkarsoniera-studio-neapolh,not on result pages
+2026-11-11,remax.gr,https://www.remax.gr/property/411130-polisi-mezoneta-kentro,not on result pages
+2026-11-11,altamiraproperties.gr,https://marketplace.altamiraproperties.gr/listings/9790,left the servicer marketplace
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4a7ee267-0c0f-40ee-8297-84fc910d0678/thessalonikh-xhrokrhnh-400-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/546c20b9-ffc1-48c0-8704-8974b8321134/thessalonikh-vardarh-540-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/590b74d6-b6f6-4140-9f35-9dce2844adb2/kalamaria-350-22,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/59fedb6f-1965-419e-a901-c3bd3728ee87/agios-paylos-40-ekklhsies-550-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/73d89f69-cb02-4184-8d34-4ac3deccd158/thessalonikh-kentro-420-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/7bd53aff-489d-40eb-ae22-5ffb5bd9bf78/thessalonikh-analhpsh-425-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9164850c-e96c-4887-8f37-fcb058669499/thessalonikh-anw-polh-500-42,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/94ca8cf1-eb2a-4097-b9e1-2f68d937fd18/triandria-450-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/9b4e7e2c-9fcf-4140-b425-f61e2088e353/sykies-450-76,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b0ab0ac7-a02a-49b9-8396-019ef9ec6575/thessalonikh-kentro-600-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/da94d7e7-10bf-408d-bd26-ce3171c4ff44/pylaia-750-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f7f493ab-8002-47b1-a937-33e6cbef8401/thessalonikh-triandria-380-28,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-11,katikia.com.gr,https://katikia.com.gr/el/property/2523,http 404
+2026-11-11,monopoly.com.gr,https://monopoly.com.gr/el/property/97193,http 404
+2026-11-11,monopoly.com.gr,https://monopoly.com.gr/el/property/92931,http 404
+2026-11-11,bee-panoramic.gr,https://bee-realestate.gr/property?lang=el&id=61907f50-8199-4352-9d62-8947870a9f02,redirects to https://bee-realestate.gr/errorPage
+2026-11-11,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/117154,http 404
+2026-11-11,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/116900,http 404
+2026-11-11,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/115440,http 404
+2026-11-11,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%cf%85%ce%bb%ce%b1%ce%af%ce%b1-1-24546/,http 404
+2026-11-11,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%80%cf%85%ce%bb%ce%b1%ce%af%ce%b1-1-24546/,http 404
+2026-11-11,remax.gr,https://www.remax.gr/property/388347-polisi-diamerisma-agios-nikolaos,http 404
+2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/515207,sold / not available
+2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/531656,sold / not available
+2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/540626,sold / not available
+2026-11-11,goldenhome.gr,https://goldenhome.gr/property/view/457125,sold / not available
