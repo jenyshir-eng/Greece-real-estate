@@ -4187,3 +4187,34 @@ date,source_domain,url,reason
 2026-11-12,goldenhome.gr,https://goldenhome.gr/property/view/543959,sold / not available
 2026-11-12,goldenhome.gr,https://goldenhome.gr/property/view/544049,sold / not available
 2026-11-12,goldenhome.gr,https://goldenhome.gr/property/view/375702,sold / not available
+2026-11-12,remax.gr,https://www.remax.gr/property/342358-polisi-diamerisma-kentro,not on result pages
+2026-11-12,remax.gr,https://www.remax.gr/property/402102-polisi-diamerisma-stayroypolh,not on result pages
+2026-11-12,remax.gr,https://www.remax.gr/property/411099-enoikiasi-gkarsoniera-studio-eleytherio-kordelio,not on result pages
+2026-11-12,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ef1fe568-35cd-439b-a0f0-37322b4b0646/pylaia-550000-270,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-12,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/f0e59ba7-f3b2-41cb-b38e-eaeed3712128/thessalonikh-falhro-89000-33,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-12,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/f7948d4b-27af-4951-848e-b58665bdab69/thessalonikh-kentro-138000-35,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/4e7e20cb-7e21-45d8-8f15-3179c82638c0/thessalonikh-pylaia-1100-235,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/573dc0ed-fd21-4b63-b881-1f5f92edd339/ampelokhpoi-350-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5f566d17-29b3-4877-80a7-9a4cc324ffc2/thessalonikh-kentro-2500-250,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/87446fe2-a938-4c6b-b297-c148390e4fb6/thessalonikh-anw-toympa-300-25,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-12,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/ad019207-425f-4ac5-b0fb-b5f020b9cfb8/thessalonikh-kentro-880-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-12,eliteps.gr,https://eliteps.gr/el/property/12864,http 404
+2026-11-12,eliteps.gr,https://eliteps.gr/el/property/12819,http 404
+2026-11-12,eliteps.gr,https://eliteps.gr/sq/property/12864,http 404
+2026-11-12,eliteps.gr,https://eliteps.gr/sq/property/12819,http 404
+2026-11-12,katikia.com.gr,https://katikia.com.gr/el/property/2403,http 404
+2026-11-12,monopoly.com.gr,https://monopoly.com.gr/el/property/6785,http 404
+2026-11-12,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-1087/,http 404
+2026-11-12,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-1259/,http 404
+2026-11-12,thgr.gr,https://thgr.gr/el/property/26241,http 404
+2026-11-12,bee-panoramic.gr,https://bee-realestate.gr/property?lang=el&id=757aa4b9-4122-4a95-94f3-4ddde8354d93,redirects to https://bee-realestate.gr/errorPage
+2026-11-12,thessalonikirealestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%84%cf%83%ce%b9%ce%bd%ce%ac%cf%81%ce%b9-1-24572/,http 404
+2026-11-12,thessaloniki-realestate.gr,https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%cf%84%cf%83%ce%b9%ce%bd%ce%ac%cf%81%ce%b9-1-24572/,http 404
+2026-11-12,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122703,http 404
+2026-11-12,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122658,http 404
+2026-11-12,grekodom.gr,https://www.grekodom.gr/realtyobject/29539-poleitai-gi-7004-m2-stin-kerkura,http 404
+2026-11-12,nore.gr,https://nore.gr/property/16708,http 410
+2026-11-12,goldenhome.gr,https://goldenhome.gr/property/view/434768,sold / not available
+2026-11-12,goldenhome.gr,https://goldenhome.gr/property/view/538991,sold / not available
+2026-11-12,goldenhome.gr,https://goldenhome.gr/property/view/502034,sold / not available
+2026-11-12,goldenhome.gr,https://goldenhome.gr/property/view/512082,sold / not available
