@@ -3272,3 +3272,22 @@ date,source_domain,url,reason
 2026-11-13,irisrealestate.gr,https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%ce%b9%ce%ba%ce%bf%cf%80%ce%ad%ce%b4%ce%bf%cf%85-id-%cf%803509/,http 404
 2026-11-13,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-570/,sold / not available
 2026-11-13,yourhomesold.gr,https://yourhomesold.gr/real_estate/property-20-591/,http 404
+2026-11-13,remax.gr,https://www.remax.gr/property/370680-polisi-monokatoikia-filopappoy,not on result pages
+2026-11-13,remax.gr,https://www.remax.gr/property/375411-polisi-oikopedo-gia-katoikia-agios-andreas,not on result pages
+2026-11-13,remax.gr,https://www.remax.gr/property/395820-enoikiasi-grafeio-kentro,not on result pages
+2026-11-13,remax.gr,https://www.remax.gr/property/408727-polisi-diamerisma-gkyzh-pedion-arews,not on result pages
+2026-11-13,remax.gr,https://www.remax.gr/property/410879-polisi-diamerisma-ellhnorwswn,not on result pages
+2026-11-13,intrum.gr,https://marketplace.intrum.gr/listings/2183,left the servicer marketplace
+2026-11-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/ab872b7b-a878-4ab2-9a3e-9d06455fc875/nea-chalkhdona-chrysallida-650-89,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-13,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/b00dbfb3-6a35-4ce8-afa7-a4da76c45322/peiraias-kaminia-750-65,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-13,realestateone.gr,https://realestateone.gr/el/property/1554275,redirects to https://realestateone.gr/el/404
+2026-11-13,realestateone.gr,https://realestateone.gr/el/property/1554264,redirects to https://realestateone.gr/el/404
+2026-11-13,vasilopoulosestates.gr,https://vasilopoulosestates.gr/listing/%ce%b5%ce%be%ce%b1%ce%b9%cf%81%ce%b5%cf%84%ce%b9%ce%ba%cf%8c-%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-1-140-%cf%84-%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%ba%ce%ac%ce%bb%ce%b7/,http 404
+2026-11-13,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=4139212b-0486-4f2a-ba3f-45d77002889e,redirects to https://bee-realestate.gr/errorPage
+2026-11-13,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=757aa4b9-4122-4a95-94f3-4ddde8354d93,redirects to https://bee-realestate.gr/errorPage
+2026-11-13,planethomes.gr,https://www.planethomes.gr/akinito/45391-2/,http 404
+2026-11-13,planethomes.gr,https://www.planethomes.gr/akinito/45579-2/,http 404
+2026-11-13,grekodom.com,https://www.grekodom.com/realtyobject/17908-for-sale-villa-123-m2-in-paphos,http 404
+2026-11-13,grekodom.com,https://www.grekodom.com/realtyobject/5335-for-sale-detached-house-86-m2-in-western,http 404
+2026-11-13,goldenhome.gr,https://goldenhome.gr/property/view/544344,sold / not available
+2026-11-13,goldenhome.gr,https://goldenhome.gr/property/view/365844,sold / not available
