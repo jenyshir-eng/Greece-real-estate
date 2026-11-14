@@ -4532,3 +4532,15 @@ date,source_domain,url,reason
 2026-11-14,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1324/,http 404
 2026-11-14,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=0856ae44-f212-464f-90ef-459f97d001ff,redirects to https://bee-realestate.gr/errorPage
 2026-11-14,nore.gr,https://nore.gr/property/20750,http 410
+2026-11-14,remax.gr,https://www.remax.gr/property/401798-polisi-diamerisma-martioy,not on result pages
+2026-11-14,remax.gr,https://www.remax.gr/property/401802-polisi-diamerisma-xarilaoy,not on result pages
+2026-11-14,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/a04211fb-7ff7-4adf-8257-128638cc80fc/thessalonikh-pylaia-175000-54,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-14,casanova.com.gr,https://casanova.com.gr/el/property/545110,http 404
+2026-11-14,mynext-home.gr,https://mynext-home.gr/properties/%ce%ba%ce%b1%ce%bc%ce%ac%cf%81%ce%b1-100/,http 404
+2026-11-14,monopoly.com.gr,https://monopoly.com.gr/el/property/94719,http 404
+2026-11-14,bee-panoramic.gr,https://bee-realestate.gr/property?lang=el&id=0856ae44-f212-464f-90ef-459f97d001ff,redirects to https://bee-realestate.gr/errorPage
+2026-11-14,nore.gr,https://nore.gr/property/20629,http 410
+2026-11-14,nore.gr,https://nore.gr/property/20981,http 410
+2026-11-14,goldenhome.gr,https://goldenhome.gr/property/view/542987,sold / not available
+2026-11-14,goldenhome.gr,https://goldenhome.gr/property/view/508857,sold / not available
+2026-11-14,goldenhome.gr,https://goldenhome.gr/property/view/544879,sold / not available
