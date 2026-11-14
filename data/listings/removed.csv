@@ -4526,3 +4526,9 @@ date,source_domain,url,reason
 2026-11-14,goldenhome.gr,https://goldenhome.gr/property/view/535715,sold / not available
 2026-11-14,goldenhome.gr,https://goldenhome.gr/property/view/360118,sold / not available
 2026-11-14,goldenhome.gr,https://goldenhome.gr/property/view/502216,sold / not available
+2026-11-14,remax.gr,https://www.remax.gr/property/398565-polisi-diamerisma-martioy,not on result pages
+2026-11-14,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/60cdc926-f081-49b7-ba4d-295c0461980d/thessalonikh-kentro-135000-52,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-14,mesitiki.net,https://mesitiki.net/el/property/3009,http 404
+2026-11-14,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1324/,http 404
+2026-11-14,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=0856ae44-f212-464f-90ef-459f97d001ff,redirects to https://bee-realestate.gr/errorPage
+2026-11-14,nore.gr,https://nore.gr/property/20750,http 410
