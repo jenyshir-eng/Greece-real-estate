@@ -3491,3 +3491,17 @@ date,source_domain,url,reason
 2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/542456,sold / not available
 2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/543232,sold / not available
 2026-11-15,invistarealestate.gr,https://www.invistarealestate.gr/el-GR/id/26666/__(pros-enikiasi)-katikia-mezoneta-anatoliki-attiki-boila/estate.html,redirects to https://www.invistarealestate.gr/
+2026-11-15,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/e5690840-6ded-4736-b53b-7a18525374a4/athhna-chilton-1500-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-15,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/e6da7381-1303-4bce-9351-1531891c92ee/marathokampos-15000-3500,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-15,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/eb5d00df-529e-4db0-b5a5-e984649dbfd2/vyrwnas-380-53,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-15,planethomes.gr,https://www.planethomes.gr/akinito/31898-2/,http 404
+2026-11-15,neon-realestate.gr,https://neon-realestate.gr/property/2654664-diamerisma-pros-enoikiasi-kypseli-40-t-m-e450/,http 404
+2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/433769,sold / not available
+2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/524469,sold / not available
+2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/541687,sold / not available
+2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/515254,sold / not available
+2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/542345,sold / not available
+2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/540213,sold / not available
+2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/526068,sold / not available
+2026-11-15,goldenhome.gr,https://goldenhome.gr/property/view/542353,sold / not available
+2026-11-15,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%bf%cf%81%ce%bf%cf%86%ce%bf%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%80%ce%b9%cf%80%ce%bb%cf%89%ce%bc%ce%ad%ce%bd%ce%bf-%ce%b3%ce%bb%cf%85%cf%86%ce%ac%ce%b4%ce%b1/1445/,http 404
