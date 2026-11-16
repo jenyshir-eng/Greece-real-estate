@@ -4723,3 +4723,19 @@ date,source_domain,url,reason
 2026-11-16,goldenhome.gr,https://goldenhome.gr/property/view/542429,sold / not available
 2026-11-16,goldenhome.gr,https://goldenhome.gr/property/view/520060,sold / not available
 2026-11-16,goldenhome.gr,https://goldenhome.gr/property/view/535490,sold / not available
+2026-11-16,remax.gr,https://www.remax.gr/property/382758-polisi-diamerisma-epektash,not on result pages
+2026-11-16,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/01bbffff-01eb-4498-9c56-c223ad94436c/thessalonikh-analhpsh-300-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-16,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/35389011-bad8-4120-ac4b-8565988b69b6/ampelokhpoi-250-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-16,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/54cf1848-614f-4709-912a-425531a1fee9/thessalonikh-katw-toympa-200-28,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-16,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5a6d24e2-ddb8-4e64-9780-5c9ec757059f/thessalonikh-kentro-320-22,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-16,go4deal.gr,https://go4deal.gr/el/property/112,redirects to https://go4deal.gr/el/404
+2026-11-16,karanikolas-estate.gr,https://karanikolas-estate.gr/akinita/531,http 404
+2026-11-16,karanikolas-estate.gr,https://karanikolas-estate.gr/akinita/535,http 404
+2026-11-16,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/12167,http 404
+2026-11-16,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-full-floor-apartment-1037/,http 404
+2026-11-16,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-990/,http 404
+2026-11-16,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-988/,http 404
+2026-11-16,goldenhome.gr,https://goldenhome.gr/property/view/396336,sold / not available
+2026-11-16,goldenhome.gr,https://goldenhome.gr/property/view/490342,sold / not available
+2026-11-16,goldenhome.gr,https://goldenhome.gr/property/view/521105,sold / not available
+2026-11-16,goldenhome.gr,https://goldenhome.gr/property/view/528788,sold / not available
