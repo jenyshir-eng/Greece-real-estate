@@ -27,6 +27,7 @@ http://www.karanikolas-estate.gr/akinita/543
 http://www.karanikolas-estate.gr/akinita/544
 http://www.karanikolas-estate.gr/akinita/546
 http://www.karanikolas-estate.gr/akinita/547
+http://www.karanikolas-estate.gr/akinita/548
 https://aarealestate.gr/en/property/23333-2/
 https://aarealestate.gr/en/property/25025-2/
 https://aarealestate.gr/en/property/26077-2/
@@ -473,12 +474,15 @@ https://anastasiouproperties.gr/en/property/1808000-land-plot-for-sale-michanion
 https://anastasiouproperties.gr/property/1224794-oikopedo-pros-polisi-kassandra-2-000-t-m-e200-000/
 https://anastasiouproperties.gr/property/1224795-agrotemachio-pros-polisi-kassandra-4-030-t-m-e250-000/
 https://anastasiouproperties.gr/property/1224796-agrotemachio-pros-polisi-panorama-30-000-t-m-e9-500-000/
+https://anastasiouproperties.gr/property/1224816-agrotemachio-pros-polisi-michaniona-2-000-t-m-e15-000/
 https://anastasiouproperties.gr/property/1224846-monokatoikia-pros-polisi-michaniona-175-t-m-e350-000/
 https://anastasiouproperties.gr/property/1265047-grafeio-pros-polisi-kentro-thessalonikis-63-t-m-e140-000/
 https://anastasiouproperties.gr/property/1376542-mezoneta-pros-polisi-thermi-120-t-m-e300-000/
 https://anastasiouproperties.gr/property/1426317-viomichanikos-choros-pros-polisi-efkarpia-3-500-t-m-e1-800-000/
 https://anastasiouproperties.gr/property/1426427-viomichanikos-choros-pros-enoikiasi-efkarpia-3-500-t-m-e9-500/
 https://anastasiouproperties.gr/property/1944012-monokatoikia-pros-polisi-thermi-155-t-m-e340-000/
+https://anastasiouproperties.gr/property/1970357-mezoneta-pros-polisi-thermi-135-t-m-e390-000/
+https://anastasiouproperties.gr/property/1970367-mezoneta-pros-polisi-thermi-140-t-m-e400-000/
 https://anastasiouproperties.gr/property/2112480-diamerisma-pros-polisi-thermi-41-t-m-e110-000/
 https://anastasiouproperties.gr/property/2112537-diamerisma-pros-polisi-thermi-64-t-m-e180-000/
 https://anastasiouproperties.gr/property/2112543-diamerisma-pros-polisi-thermi-88-t-m-e250-000/
@@ -499,6 +503,7 @@ https://anastasiouproperties.gr/property/2596082-studio-gkarsoniera-pros-polisi-
 https://anastasiouproperties.gr/property/2596092-diamerisma-pros-polisi-thermi-90-t-m-e255-000/
 https://anastasiouproperties.gr/property/2643288-diamerisma-pros-polisi-thermi-140-t-m-e410-000/
 https://anastasiouproperties.gr/property/2685233-monokatoikia-pros-polisi-panorama-223-t-m-e830-000/
+https://anastasiouproperties.gr/property/2705165-mezoneta-pros-polisi-thermi-185-t-m-e550-000/
 https://anthimiadisestate.gr/property/apartment-rent-nea-fokaia-chalkidiki-rent201/
 https://anthimiadisestate.gr/property/apartment-sale-nea-skioni-pallini-chalkidiki-id1014/
 https://anthimiadisestate.gr/property/apartment-sale-panagia-faneromeni-thessaloniki-id1018/
@@ -3705,6 +3710,7 @@ https://edmaestate.gr/property.php?id=1342
 https://edmaestate.gr/property.php?id=1343
 https://edmaestate.gr/property.php?id=1347
 https://edmaestate.gr/property.php?id=1351
+https://edmaestate.gr/property.php?id=1356
 https://edmaestate.gr/property.php?id=1360
 https://edmaestate.gr/property.php?id=1361
 https://edmaestate.gr/property.php?id=1362
@@ -6724,6 +6730,7 @@ https://goldenhome.gr/property/view/465292
 https://goldenhome.gr/property/view/465306
 https://goldenhome.gr/property/view/465382
 https://goldenhome.gr/property/view/465617
+https://goldenhome.gr/property/view/465681
 https://goldenhome.gr/property/view/465708
 https://goldenhome.gr/property/view/465772
 https://goldenhome.gr/property/view/465833
@@ -7961,6 +7968,7 @@ https://goldenhome.gr/property/view/516723
 https://goldenhome.gr/property/view/516724
 https://goldenhome.gr/property/view/516744
 https://goldenhome.gr/property/view/516747
+https://goldenhome.gr/property/view/516752
 https://goldenhome.gr/property/view/516764
 https://goldenhome.gr/property/view/516775
 https://goldenhome.gr/property/view/516783
@@ -8714,6 +8722,7 @@ https://goldenhome.gr/property/view/531962
 https://goldenhome.gr/property/view/531972
 https://goldenhome.gr/property/view/532003
 https://goldenhome.gr/property/view/532004
+https://goldenhome.gr/property/view/532012
 https://goldenhome.gr/property/view/532014
 https://goldenhome.gr/property/view/532021
 https://goldenhome.gr/property/view/532038
@@ -9332,6 +9341,7 @@ https://goldenhome.gr/property/view/538269
 https://goldenhome.gr/property/view/538285
 https://goldenhome.gr/property/view/538295
 https://goldenhome.gr/property/view/538300
+https://goldenhome.gr/property/view/538319
 https://goldenhome.gr/property/view/538320
 https://goldenhome.gr/property/view/538326
 https://goldenhome.gr/property/view/538350
@@ -9479,6 +9489,7 @@ https://goldenhome.gr/property/view/539053
 https://goldenhome.gr/property/view/539059
 https://goldenhome.gr/property/view/539070
 https://goldenhome.gr/property/view/539073
+https://goldenhome.gr/property/view/539084
 https://goldenhome.gr/property/view/539086
 https://goldenhome.gr/property/view/539089
 https://goldenhome.gr/property/view/539090
@@ -12335,6 +12346,7 @@ https://index.cy/auction/apartment-in-liopetri-famagusta-auction-30-sep-2026/
 https://index.cy/auction/apartment-in-nicosia-auction-23-oct-2026/
 https://index.cy/auction/apartment-in-paphos-auction-26-oct-2026/
 https://index.cy/auction/apartment-in-paralimni-famagusta-auction-12-nov-2026/
+https://index.cy/auction/apartment-in-paralimni-famagusta-auction-24-nov-2026/
 https://index.cy/auction/apartment-in-sotiros-larnaca-auction-8-oct-2026/
 https://index.cy/auction/apartment-in-strovolos-nicosia-auction-10-nov-2026/
 https://index.cy/auction/apartment-in-strovolos-nicosia-auction-23-oct-2026/
@@ -12406,6 +12418,7 @@ https://index.cy/auction/house-in-xylotymvou-larnaca-auction-22-oct-2026/
 https://index.cy/auction/house-in-ypsonas-limassol-auction-22-oct-2026/
 https://index.cy/auction/land-plot-in-agia-fyla-limassol-auction-3-nov-2026/
 https://index.cy/auction/land-plot-in-agios-dimitrianos-paphos-auction-22-oct-2026/
+https://index.cy/auction/land-plot-in-agios-tychonas-limassol-auction-24-nov-2026/
 https://index.cy/auction/land-plot-in-agios-tychonas-limassol-auction-29-sep-2026/
 https://index.cy/auction/land-plot-in-anafotida-larnaca-auction-17-nov-2026/
 https://index.cy/auction/land-plot-in-arsos-lemesou-limassol-auction-23-oct-2026/
@@ -12422,6 +12435,8 @@ https://index.cy/auction/land-plot-in-lakatamia-nicosia-auction-3-nov-2026/
 https://index.cy/auction/land-plot-in-lania-limassol-auction-30-sep-2026/
 https://index.cy/auction/land-plot-in-leibadia-larnaca-auction-27-oct-2026/
 https://index.cy/auction/land-plot-in-livadia-larnaca-auction-12-nov-2026/
+https://index.cy/auction/land-plot-in-livadia-larnaca-auction-25-nov-2026/
+https://index.cy/auction/land-plot-in-malouda-nicosia-auction-24-nov-2026/
 https://index.cy/auction/land-plot-in-mathiatis-nicosia-auction-15-oct-2026/
 https://index.cy/auction/land-plot-in-mesana-paphos-auction-12-nov-2026/
 https://index.cy/auction/land-plot-in-nicosia-auction-29-oct-2026/
@@ -12534,6 +12549,7 @@ https://index.cy/el/sale/11706181-3-bedroom-apartment-for-sale-in-larnaca-sotiro
 https://index.cy/el/sale/11706188-3-bedroom-apartment-for-sale-in-larnaca-sotiros/
 https://index.cy/el/sale/11739916-4-bedroom-house-for-sale-in-larnaca-district/
 https://index.cy/el/sale/11783698-3-bedroom-apartment-for-sale-in-chlorakas-paphos-district/
+https://index.cy/el/sale/11801058-3-bedroom-apartment-for-sale-in-pyrgos-lemesou-tourist-area-limassol-district/
 https://index.cy/el/sale/11804472-3-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
 https://index.cy/el/sale/11804853-3-bedroom-house-for-sale-in-ypsonas-limassol-district/
 https://index.cy/el/sale/11805600-2-bedroom-apartment-for-sale-in-agios-tychonas-tourist-area-limassol-district/
@@ -12827,6 +12843,7 @@ https://index.cy/iw/sale/12353551-3-bedroom-apartment-for-sale-in-limassol-distr
 https://index.cy/iw/sale/12353851-2-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/iw/sale/12354468-2-bedroom-apartment-for-sale-in-agios-tychonas-limassol-district/
 https://index.cy/iw/sale/12355247-2-bedroom-apartment-for-sale-in-tombs-of-the-kings-paphos-district/
+https://index.cy/iw/sale/12355628-3-bedroom-apartment-for-sale-in-larnaca-makenzy/
 https://index.cy/iw/sale/12355832-3-bedroom-apartment-for-sale-in-larnaca-makenzy/
 https://index.cy/iw/sale/12355910-2-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/iw/sale/12356039-4-bedroom-house-for-sale-in-agios-tychonas-limassol-district/
@@ -12952,6 +12969,7 @@ https://index.cy/iw/sale/9384810-3-bedroom-apartment-for-sale-in-meneou-larnaca-
 https://index.cy/iw/sale/9418636-4-bedroom-house-for-sale-in-agios-theodoros-larnaca-district/
 https://index.cy/iw/sale/9514772-3-bedroom-apartment-for-sale-in-strovolos-chryseleousa-nicosia-district/
 https://index.cy/iw/sale/9515481-2-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
+https://index.cy/iw/sale/9534153-3-bedroom-house-for-sale-in-tala-paphos-district/
 https://index.cy/iw/sale/9594876-2-bedroom-house-for-sale-in-chlorakas-paphos-district/
 https://index.cy/iw/sale/9647346-3-bedroom-apartment-for-sale-in-limassol-agia-fyla/
 https://index.cy/iw/sale/9675136-3-bedroom-apartment-for-sale-in-limassol-katholiki/
@@ -13288,6 +13306,7 @@ https://index.cy/rent/12744458-2-bedroom-apartment-for-rent-in-limassol-agia-zon
 https://index.cy/rent/12747381-2-bedroom-apartment-for-rent-in-limassol-district/
 https://index.cy/rent/12771010-2-bedroom-apartment-for-rent-in-agios-dometios-agios-georgios-nicosia-district/
 https://index.cy/rent/12771057-2-bedroom-apartment-for-rent-in-engomi-nicosia-district/
+https://index.cy/rent/12771105-3-bedroom-apartment-for-rent-in-limassol-agios-spyridon/
 https://index.cy/rent/12771124-3-bedroom-apartment-for-rent-in-strovolos-ap-varnavas-nicosia-district/
 https://index.cy/rent/12771150-2-bedroom-apartment-for-rent-in-geri-nicosia-district/
 https://index.cy/rent/12771256-3-bedroom-house-for-rent-in-dhekelia-larnaca-district/
@@ -13297,6 +13316,7 @@ https://index.cy/rent/12776406-2-bedroom-apartment-for-rent-in-limassol-district
 https://index.cy/rent/12781088-3-bedroom-apartment-for-rent-in-limassol-agios-athanasios/
 https://index.cy/rent/12782503-3-bedroom-house-for-rent-in-latsia-nicosia-district/
 https://index.cy/rent/12788731-3-bedroom-house-for-rent-in-omodos-limassol-district/
+https://index.cy/rent/12788813-2-bedroom-apartment-for-rent-in-limassol-omonoia/
 https://index.cy/sale/10025831-4-bedroom-house-for-sale-in-coral-bay-paphos-district/
 https://index.cy/sale/10027148-42sqm-apartment-for-sale-in-chlorakas-paphos-district/
 https://index.cy/sale/10028409-1-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
@@ -13435,6 +13455,7 @@ https://index.cy/sale/10506986-3-bedroom-apartment-for-sale-in-livadia-larnakas-
 https://index.cy/sale/10507045-1-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10507401-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/10508379-1-bedroom-apartment-for-sale-in-limassol-zakaki/
+https://index.cy/sale/10508416-2-bedroom-apartment-for-sale-in-limassol-zakaki/
 https://index.cy/sale/10509029-1-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
 https://index.cy/sale/10509122-1-bedroom-apartment-for-sale-in-germasogeia-limassol-district/
 https://index.cy/sale/10558335-2-bedroom-apartment-for-sale-in-drosia-larnaca-district/
@@ -15185,6 +15206,7 @@ https://index.cy/sale/12355544-2-bedroom-apartment-for-sale-in-limassol-district
 https://index.cy/sale/12355575-2-bedroom-apartment-for-sale-in-paphos-district/
 https://index.cy/sale/12355588-1-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/
 https://index.cy/sale/12355618-2-bedroom-apartment-for-sale-in-larnaca-district/
+https://index.cy/sale/12355628-3-bedroom-apartment-for-sale-in-larnaca-makenzy/
 https://index.cy/sale/12355681-2-bedroom-apartment-for-sale-in-paphos-district/
 https://index.cy/sale/12355719-2-bedroom-apartment-for-sale-in-paphos-universal/
 https://index.cy/sale/12355726-2-bedroom-apartment-for-sale-in-larnaca-district/
@@ -16104,6 +16126,7 @@ https://index.cy/sale/12783526-1-bedroom-apartment-for-sale-in-limassol-district
 https://index.cy/sale/12784647-2-bedroom-apartment-for-sale-in-larnaca/
 https://index.cy/sale/12785139-2-bedroom-apartment-for-sale-in-larnaca/
 https://index.cy/sale/12785449-2-bedroom-apartment-for-sale-in-drosia-larnaca-district/
+https://index.cy/sale/12785986-3-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/sale/12786457-2-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
 https://index.cy/sale/12786469-2-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
 https://index.cy/sale/12786481-2-bedroom-apartment-for-sale-in-geroskipou-paphos-district/
@@ -16164,7 +16187,24 @@ https://index.cy/sale/12795851-3-bedroom-apartment-for-sale-in-larnaca-district/
 https://index.cy/sale/12797067-3-bedroom-apartment-for-sale-in-limassol-agia-fyla/
 https://index.cy/sale/12797336-4-bedroom-apartment-for-sale-in-limassol/
 https://index.cy/sale/12797414-2007sqm-plot-for-sale-in-mammari-nicosia-district/
+https://index.cy/sale/12798036-2-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/12798768-2-bedroom-apartment-for-sale-in-laiki-lefkothea-limassol-district/
+https://index.cy/sale/12798831-2-bedroom-apartment-for-sale-in-limassol-apostolos-andreas/
+https://index.cy/sale/12798843-2-bedroom-apartment-for-sale-in-limassol-district/
+https://index.cy/sale/12798895-3-bedroom-apartment-for-sale-in-limassol-district/
+https://index.cy/sale/12798908-2-bedroom-apartment-for-sale-in-limassol-district/
+https://index.cy/sale/12798921-2-bedroom-apartment-for-sale-in-limassol-district/
+https://index.cy/sale/12798932-2-bedroom-apartment-for-sale-in-limassol-district/
+https://index.cy/sale/12799089-4-bedroom-house-for-sale-in-tala-paphos-district/
+https://index.cy/sale/12799270-1-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
+https://index.cy/sale/12799596-2-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
+https://index.cy/sale/12799738-2-bedroom-apartment-for-sale-in-limassol-neapolis/
+https://index.cy/sale/12799774-3-bedroom-house-for-sale-in-nicosia-district/
+https://index.cy/sale/12800368-2-bedroom-apartment-for-sale-in-limassol-district/
+https://index.cy/sale/12800499-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
+https://index.cy/sale/12800895-1-bedroom-apartment-for-sale-in-limassol-agios-athanasios/
 https://index.cy/sale/1307621-2-bedroom-apartment-for-sale-in-germasogeia-tourist-area-limassol-district/
+https://index.cy/sale/1379431-3-bedroom-apartment-for-sale-in-larnaca/
 https://index.cy/sale/1380997-3-bedroom-apartment-for-sale-in-larnaca/
 https://index.cy/sale/1381343-3-bedroom-apartment-for-sale-in-livadia-larnakas-larnaca-district/
 https://index.cy/sale/1398549-2-bedroom-apartment-for-sale-in-potamos-germasogeias-limassol-district/
@@ -17394,6 +17434,10 @@ https://info-x.gr/property/18425
 https://info-x.gr/property/18426
 https://info-x.gr/property/18428
 https://info-x.gr/property/18429
+https://info-x.gr/property/18434
+https://info-x.gr/property/18436
+https://info-x.gr/property/18437
+https://info-x.gr/property/18438
 https://info-x.gr/property/7318
 https://info-x.gr/property/7651
 https://info-x.gr/property/7689
@@ -17582,6 +17626,7 @@ https://kosmopolishouse.gr/akinita/diamerisma-059
 https://kosmopolishouse.gr/akinita/diamerisma-085
 https://kosmopolishouse.gr/akinita/diamerisma-090
 https://kosmopolishouse.gr/akinita/diamerisma-092
+https://kosmopolishouse.gr/akinita/diamerisma-095
 https://kosmopolishouse.gr/akinita/diamerisma-108
 https://kosmopolishouse.gr/akinita/diamerisma-112
 https://kosmopolishouse.gr/akinita/diamerisma-130
@@ -20176,6 +20221,7 @@ https://monopoly.com.gr/el/property/MC1052
 https://monopoly.com.gr/el/property/MC1059
 https://monopoly.com.gr/el/property/MC1060
 https://monopoly.com.gr/el/property/MC1070
+https://monopoly.com.gr/el/property/MC1072
 https://monopoly.com.gr/el/property/MC6613
 https://monopoly.com.gr/el/property/MC6696
 https://monopoly.com.gr/el/property/MC6778
@@ -20228,6 +20274,7 @@ https://monopoly.com.gr/el/property/TS1065
 https://monopoly.com.gr/el/property/TS1066
 https://monopoly.com.gr/el/property/TS1067
 https://monopoly.com.gr/el/property/TS1068
+https://monopoly.com.gr/el/property/TS1071
 https://monopoly.com.gr/el/property/TS326
 https://monopoly.com.gr/el/property/TS426
 https://monopoly.com.gr/el/property/TS448
@@ -21277,6 +21324,7 @@ https://nore.gr/property/21183
 https://nore.gr/property/21184
 https://nore.gr/property/21185
 https://nore.gr/property/21186
+https://nore.gr/property/21187
 https://papanakli.gr/property/455/
 https://perronerealestate.gr/property/102/Diamerisma-Thermaikos
 https://perronerealestate.gr/property/103/Diamerisma-Thermaikos
@@ -21876,6 +21924,8 @@ https://realestate.hellaspm.gr/el/property-details/209091
 https://realestate.hellaspm.gr/el/property-details/209092
 https://realestate.hellaspm.gr/el/property-details/209093
 https://realestate.hellaspm.gr/el/property-details/209094
+https://realestate.hellaspm.gr/el/property-details/209095
+https://realestate.hellaspm.gr/el/property-details/209096
 https://realpraxis.gr/property/101
 https://realpraxis.gr/property/119
 https://realpraxis.gr/property/127
@@ -23772,6 +23822,7 @@ https://rewize.com/en/property/2571
 https://rewize.com/en/property/2582
 https://rewize.com/en/property/2616
 https://rewize.com/en/property/2626
+https://rewize.com/en/property/2673
 https://rewize.com/en/property/2772
 https://rewize.com/en/property/2780
 https://rewize.com/en/property/2805
@@ -25857,6 +25908,7 @@ https://www.2310realestate.gr/estate_details_listing.php?dios_code=219300
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=219301
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=219302
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=219304
+https://www.2310realestate.gr/estate_details_listing.php?dios_code=219306
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=219310
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=219311
 https://www.2310realestate.gr/estate_details_listing.php?dios_code=219312
@@ -27031,6 +27083,7 @@ https://www.bitsimis-real-homes.gr/property/3019
 https://www.bitsimis-real-homes.gr/property/3020
 https://www.bitsimis-real-homes.gr/property/3021
 https://www.bitsimis-real-homes.gr/property/3022
+https://www.bitsimis-real-homes.gr/property/3024
 https://www.bluestonerealty.gr/el/akinito/15373024
 https://www.bluestonerealty.gr/el/akinito/15416133
 https://www.bluestonerealty.gr/el/akinito/15604938
@@ -33027,6 +33080,7 @@ https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1033/
 https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1035/
 https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1050/
 https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1149/
+https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1150/
 https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1151/
 https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1153/
 https://www.g-mas.gr/el/akinita/thessaloniki-monokatoikia-1324/
@@ -33159,6 +33213,7 @@ https://www.g-mas.gr/en/properties/thessaloniki-apartment-maisonette-947/
 https://www.g-mas.gr/en/properties/thessaloniki-apartment-maisonette-970/
 https://www.g-mas.gr/en/properties/thessaloniki-apartment-maisonette-994/
 https://www.g-mas.gr/en/properties/thessaloniki-detached-house-1050/
+https://www.g-mas.gr/en/properties/thessaloniki-detached-house-1149/
 https://www.g-mas.gr/en/properties/thessaloniki-detached-house-1152/
 https://www.g-mas.gr/en/properties/thessaloniki-detached-house-1153/
 https://www.g-mas.gr/en/properties/thessaloniki-exhibition-space-896/
@@ -43217,6 +43272,7 @@ https://www.olympusrealestate.gr/property.php?id=51861
 https://www.olympusrealestate.gr/property.php?id=51862
 https://www.olympusrealestate.gr/property.php?id=51863
 https://www.olympusrealestate.gr/property.php?id=51864
+https://www.olympusrealestate.gr/property.php?id=51865
 https://www.olympusrealestate.gr/property.php?id=7314
 https://www.olympusrealestate.gr/property.php?id=7329
 https://www.omikronestate.gr/property/294
@@ -45558,6 +45614,9 @@ https://www.quantapro.gr/property/2370
 https://www.quantapro.gr/property/2371
 https://www.quantapro.gr/property/2372
 https://www.quantapro.gr/property/2373
+https://www.quantapro.gr/property/2374
+https://www.quantapro.gr/property/2375
+https://www.quantapro.gr/property/2376
 https://www.quantapro.gr/property/281
 https://www.quantapro.gr/property/683
 https://www.quantapro.gr/property/797
@@ -50977,6 +51036,7 @@ https://www.spiti24.gr/akinito/21093786
 https://www.spiti24.gr/akinito/21093787
 https://www.spiti24.gr/akinito/21093793
 https://www.spiti24.gr/akinito/21093795
+https://www.spiti24.gr/akinito/21093799
 https://www.spiti24.gr/akinito/21093820
 https://www.spiti24.gr/akinito/21093827
 https://www.spiti24.gr/akinito/21093883
@@ -51237,6 +51297,7 @@ https://www.spiti24.gr/akinito/21146585
 https://www.spiti24.gr/akinito/21146601
 https://www.spiti24.gr/akinito/21146616
 https://www.spiti24.gr/akinito/21146625
+https://www.spiti24.gr/akinito/21146633
 https://www.spiti24.gr/akinito/21146637
 https://www.spiti24.gr/akinito/21146667
 https://www.spiti24.gr/akinito/21146671
@@ -51267,7 +51328,9 @@ https://www.spiti24.gr/akinito/21149658
 https://www.spiti24.gr/akinito/21149686
 https://www.spiti24.gr/akinito/21149694
 https://www.spiti24.gr/akinito/21149723
+https://www.spiti24.gr/akinito/21149770
 https://www.spiti24.gr/akinito/21149779
+https://www.spiti24.gr/akinito/21149788
 https://www.spiti24.gr/akinito/21149794
 https://www.spiti24.gr/akinito/21149877
 https://www.spiti24.gr/akinito/21149897
@@ -51277,6 +51340,7 @@ https://www.spiti24.gr/akinito/21155027
 https://www.spiti24.gr/akinito/21155335
 https://www.spiti24.gr/akinito/21155670
 https://www.spiti24.gr/akinito/21155714
+https://www.spiti24.gr/akinito/21155787
 https://www.spiti24.gr/akinito/21155806
 https://www.spiti24.gr/akinito/21155889
 https://www.spiti24.gr/akinito/21155998
@@ -51380,6 +51444,7 @@ https://www.spiti24.gr/akinito/21176331
 https://www.spiti24.gr/akinito/21176333
 https://www.spiti24.gr/akinito/21176389
 https://www.spiti24.gr/akinito/21176395
+https://www.spiti24.gr/akinito/21176408
 https://www.spiti24.gr/akinito/21176445
 https://www.spiti24.gr/akinito/21176465
 https://www.spiti24.gr/akinito/21176477
@@ -51483,6 +51548,7 @@ https://www.spiti24.gr/akinito/21194222
 https://www.spiti24.gr/akinito/21194230
 https://www.spiti24.gr/akinito/21194233
 https://www.spiti24.gr/akinito/21194238
+https://www.spiti24.gr/akinito/21194248
 https://www.spiti24.gr/akinito/21194252
 https://www.spiti24.gr/akinito/21194261
 https://www.spiti24.gr/akinito/21194264
@@ -51572,6 +51638,7 @@ https://www.spiti24.gr/akinito/21210190
 https://www.spiti24.gr/akinito/21219638
 https://www.spiti24.gr/akinito/21219660
 https://www.spiti24.gr/akinito/21219767
+https://www.spiti24.gr/akinito/21219927
 https://www.spiti24.gr/akinito/21219952
 https://www.spiti24.gr/akinito/21220030
 https://www.spiti24.gr/akinito/21220065
@@ -51790,6 +51857,7 @@ https://www.spiti24.gr/akinito/21283026
 https://www.spiti24.gr/akinito/21283059
 https://www.spiti24.gr/akinito/21283068
 https://www.spiti24.gr/akinito/21283137
+https://www.spiti24.gr/akinito/21283141
 https://www.spiti24.gr/akinito/21283157
 https://www.spiti24.gr/akinito/21283170
 https://www.spiti24.gr/akinito/21283199
@@ -52193,6 +52261,7 @@ https://www.spitogatos.gr/aggelia/1118507657
 https://www.spitogatos.gr/aggelia/1118515385
 https://www.spitogatos.gr/aggelia/1118517539
 https://www.spitogatos.gr/aggelia/1118521211
+https://www.spitogatos.gr/aggelia/1118533397
 https://www.spitogatos.gr/aggelia/1118534162
 https://www.spitogatos.gr/aggelia/1118546873
 https://www.spitogatos.gr/aggelia/1118548775
@@ -52340,6 +52409,7 @@ https://www.spitogatos.gr/aggelia/1119528134
 https://www.spitogatos.gr/aggelia/1119533875
 https://www.spitogatos.gr/aggelia/1119536005
 https://www.spitogatos.gr/aggelia/1119536481
+https://www.spitogatos.gr/aggelia/1119536682
 https://www.spitogatos.gr/aggelia/1119537280
 https://www.spitogatos.gr/aggelia/1119543433
 https://www.spitogatos.gr/aggelia/1119549021
@@ -52433,11 +52503,13 @@ https://www.spitogatos.gr/aggelia/1119756500
 https://www.spitogatos.gr/aggelia/1119756778
 https://www.spitogatos.gr/aggelia/1119758007
 https://www.spitogatos.gr/aggelia/1119759040
+https://www.spitogatos.gr/aggelia/1119762835
 https://www.spitogatos.gr/aggelia/1119765741
 https://www.spitogatos.gr/aggelia/1119768365
 https://www.spitogatos.gr/aggelia/1119768367
 https://www.spitogatos.gr/aggelia/1119770681
 https://www.spitogatos.gr/aggelia/1119773077
+https://www.spitogatos.gr/aggelia/1119773607
 https://www.spitogatos.gr/aggelia/1119774195
 https://www.spitogatos.gr/aggelia/1119779293
 https://www.spitogatos.gr/aggelia/1119781110
@@ -52445,6 +52517,7 @@ https://www.spitogatos.gr/aggelia/1119783505
 https://www.spitogatos.gr/aggelia/1119784493
 https://www.spitogatos.gr/aggelia/1119784581
 https://www.spitogatos.gr/aggelia/1119789317
+https://www.spitogatos.gr/aggelia/1119789875
 https://www.spitogatos.gr/aggelia/1119790603
 https://www.spitogatos.gr/aggelia/1119792367
 https://www.spitogatos.gr/aggelia/1119793306
@@ -52458,6 +52531,7 @@ https://www.spitogatos.gr/aggelia/1119800215
 https://www.spitogatos.gr/aggelia/1119800236
 https://www.spitogatos.gr/aggelia/1119802900
 https://www.spitogatos.gr/aggelia/1119804152
+https://www.spitogatos.gr/aggelia/1119807032
 https://www.spitogatos.gr/aggelia/1119809837
 https://www.spitogatos.gr/aggelia/1119812901
 https://www.spitogatos.gr/aggelia/1119815635
@@ -52472,6 +52546,7 @@ https://www.spitogatos.gr/aggelia/1119853095
 https://www.spitogatos.gr/aggelia/1119855782
 https://www.spitogatos.gr/aggelia/1119856468
 https://www.spitogatos.gr/aggelia/1119858642
+https://www.spitogatos.gr/aggelia/1119860926
 https://www.spitogatos.gr/aggelia/1119862439
 https://www.spitogatos.gr/aggelia/1119863953
 https://www.spitogatos.gr/aggelia/1119866703
@@ -52589,6 +52664,7 @@ https://www.spitogatos.gr/aggelia/1120108094
 https://www.spitogatos.gr/aggelia/1120110356
 https://www.spitogatos.gr/aggelia/1120115529
 https://www.spitogatos.gr/aggelia/1120115577
+https://www.spitogatos.gr/aggelia/1120116889
 https://www.spitogatos.gr/aggelia/1120117798
 https://www.spitogatos.gr/aggelia/1120118028
 https://www.spitogatos.gr/aggelia/1120119068
@@ -52706,6 +52782,8 @@ https://www.spitogatos.gr/aggelia/1120378372
 https://www.spitogatos.gr/aggelia/1120378411
 https://www.spitogatos.gr/aggelia/1120384569
 https://www.spitogatos.gr/aggelia/1120390576
+https://www.spitogatos.gr/aggelia/1120390906
+https://www.spitogatos.gr/aggelia/1120390908
 https://www.spitogatos.gr/aggelia/1120391133
 https://www.spitogatos.gr/aggelia/1120391550
 https://www.spitogatos.gr/aggelia/1120391982
@@ -54447,6 +54525,7 @@ https://www.spitogatos.gr/aggelia/1121072547
 https://www.spitogatos.gr/aggelia/1121072861
 https://www.spitogatos.gr/aggelia/1121072889
 https://www.spitogatos.gr/aggelia/1121074088
+https://www.spitogatos.gr/aggelia/1121074859
 https://www.spitogatos.gr/aggelia/1121074864
 https://www.spitogatos.gr/aggelia/1121074976
 https://www.spitogatos.gr/aggelia/1121075033
@@ -54696,6 +54775,7 @@ https://www.spitogatos.gr/aggelia/1121099177
 https://www.spitogatos.gr/aggelia/1121099182
 https://www.spitogatos.gr/aggelia/1121099212
 https://www.spitogatos.gr/aggelia/1121099218
+https://www.spitogatos.gr/aggelia/1121099233
 https://www.spitogatos.gr/aggelia/1121099248
 https://www.spitogatos.gr/aggelia/1121099254
 https://www.spitogatos.gr/aggelia/1121099257
@@ -54732,6 +54812,7 @@ https://www.spitogatos.gr/aggelia/1121101764
 https://www.spitogatos.gr/aggelia/1121101770
 https://www.spitogatos.gr/aggelia/1121101820
 https://www.spitogatos.gr/aggelia/1121101893
+https://www.spitogatos.gr/aggelia/1121101912
 https://www.spitogatos.gr/aggelia/1121101913
 https://www.spitogatos.gr/aggelia/1121101955
 https://www.spitogatos.gr/aggelia/1121101985
@@ -54746,6 +54827,7 @@ https://www.spitogatos.gr/aggelia/1121102339
 https://www.spitogatos.gr/aggelia/1121102388
 https://www.spitogatos.gr/aggelia/1121102389
 https://www.spitogatos.gr/aggelia/1121102494
+https://www.spitogatos.gr/aggelia/1121102511
 https://www.spitogatos.gr/aggelia/1121102546
 https://www.spitogatos.gr/aggelia/1121102551
 https://www.spitogatos.gr/aggelia/1121102588
@@ -54753,6 +54835,7 @@ https://www.spitogatos.gr/aggelia/1121102633
 https://www.spitogatos.gr/aggelia/1121102689
 https://www.spitogatos.gr/aggelia/1121103030
 https://www.spitogatos.gr/aggelia/1121103144
+https://www.spitogatos.gr/aggelia/1121103148
 https://www.spitogatos.gr/aggelia/1121103156
 https://www.spitogatos.gr/aggelia/1121103163
 https://www.spitogatos.gr/aggelia/1121103241
@@ -54805,6 +54888,7 @@ https://www.spitogatos.gr/aggelia/1121105154
 https://www.spitogatos.gr/aggelia/1121105155
 https://www.spitogatos.gr/aggelia/1121105358
 https://www.spitogatos.gr/aggelia/1121105495
+https://www.spitogatos.gr/aggelia/1121105516
 https://www.spitogatos.gr/aggelia/1121105517
 https://www.spitogatos.gr/aggelia/1121105707
 https://www.spitogatos.gr/aggelia/1121105828
@@ -54815,6 +54899,7 @@ https://www.spitogatos.gr/aggelia/1121105982
 https://www.spitogatos.gr/aggelia/1121106137
 https://www.spitogatos.gr/aggelia/1121106184
 https://www.spitogatos.gr/aggelia/1121106187
+https://www.spitogatos.gr/aggelia/1121106192
 https://www.spitogatos.gr/aggelia/1121106259
 https://www.spitogatos.gr/aggelia/1121106303
 https://www.spitogatos.gr/aggelia/1121106316
@@ -54852,6 +54937,7 @@ https://www.spitogatos.gr/aggelia/1121107748
 https://www.spitogatos.gr/aggelia/1121107777
 https://www.spitogatos.gr/aggelia/1121107792
 https://www.spitogatos.gr/aggelia/1121107828
+https://www.spitogatos.gr/aggelia/1121107833
 https://www.spitogatos.gr/aggelia/1121108034
 https://www.spitogatos.gr/aggelia/1121108240
 https://www.spitogatos.gr/aggelia/1121108242
@@ -55003,6 +55089,7 @@ https://www.spitogatos.gr/aggelia/1121131612
 https://www.spitogatos.gr/aggelia/1121131617
 https://www.spitogatos.gr/aggelia/1121131633
 https://www.spitogatos.gr/aggelia/1121131638
+https://www.spitogatos.gr/aggelia/1121131654
 https://www.spitogatos.gr/aggelia/1121131726
 https://www.spitogatos.gr/aggelia/1121131736
 https://www.spitogatos.gr/aggelia/1121131744
@@ -55107,6 +55194,7 @@ https://www.spitogatos.gr/aggelia/1121144874
 https://www.spitogatos.gr/aggelia/1121145001
 https://www.spitogatos.gr/aggelia/1121145427
 https://www.spitogatos.gr/aggelia/1121145458
+https://www.spitogatos.gr/aggelia/1121145619
 https://www.spitogatos.gr/aggelia/1121145661
 https://www.spitogatos.gr/aggelia/1121145721
 https://www.spitogatos.gr/aggelia/1121145730
@@ -55231,6 +55319,7 @@ https://www.spitogatos.gr/aggelia/1121163051
 https://www.spitogatos.gr/aggelia/1121163071
 https://www.spitogatos.gr/aggelia/1121163146
 https://www.spitogatos.gr/aggelia/1121163150
+https://www.spitogatos.gr/aggelia/1121163183
 https://www.spitogatos.gr/aggelia/1121163204
 https://www.spitogatos.gr/aggelia/1121163232
 https://www.spitogatos.gr/aggelia/1121163262
@@ -55611,6 +55700,7 @@ https://www.spitogatos.gr/aggelia/1121206862
 https://www.spitogatos.gr/aggelia/1121207134
 https://www.spitogatos.gr/aggelia/1121207143
 https://www.spitogatos.gr/aggelia/1121207287
+https://www.spitogatos.gr/aggelia/1121207521
 https://www.spitogatos.gr/aggelia/1121207636
 https://www.spitogatos.gr/aggelia/1121208321
 https://www.spitogatos.gr/aggelia/1121208342
@@ -55660,6 +55750,7 @@ https://www.spitogatos.gr/aggelia/1121215299
 https://www.spitogatos.gr/aggelia/1121215840
 https://www.spitogatos.gr/aggelia/1121215868
 https://www.spitogatos.gr/aggelia/1121218310
+https://www.spitogatos.gr/aggelia/1121218368
 https://www.spitogatos.gr/aggelia/1121218399
 https://www.spitogatos.gr/aggelia/1121218600
 https://www.spitogatos.gr/aggelia/1121218630
@@ -55711,6 +55802,7 @@ https://www.spitogatos.gr/aggelia/1121238089
 https://www.spitogatos.gr/aggelia/1121238134
 https://www.spitogatos.gr/aggelia/1121238149
 https://www.spitogatos.gr/aggelia/1121238151
+https://www.spitogatos.gr/aggelia/1121238155
 https://www.spitogatos.gr/aggelia/1121238291
 https://www.spitogatos.gr/aggelia/1121238420
 https://www.spitogatos.gr/aggelia/1121238557
@@ -56053,6 +56145,7 @@ https://www.spitogatos.gr/aggelia/1121283228
 https://www.spitogatos.gr/aggelia/1121283371
 https://www.spitogatos.gr/aggelia/1121284094
 https://www.spitogatos.gr/aggelia/1121284968
+https://www.spitogatos.gr/aggelia/1121285109
 https://www.spitogatos.gr/aggelia/1121285113
 https://www.spitogatos.gr/aggelia/1121285127
 https://www.spitogatos.gr/aggelia/1121285258
@@ -56256,6 +56349,25 @@ https://www.spitogatos.gr/aggelia/1121313542
 https://www.spitogatos.gr/aggelia/1121313609
 https://www.spitogatos.gr/aggelia/1121313613
 https://www.spitogatos.gr/aggelia/1121313886
+https://www.spitogatos.gr/aggelia/1121314030
+https://www.spitogatos.gr/aggelia/1121314055
+https://www.spitogatos.gr/aggelia/1121314064
+https://www.spitogatos.gr/aggelia/1121314092
+https://www.spitogatos.gr/aggelia/1121314236
+https://www.spitogatos.gr/aggelia/1121314520
+https://www.spitogatos.gr/aggelia/1121314602
+https://www.spitogatos.gr/aggelia/1121314625
+https://www.spitogatos.gr/aggelia/1121314709
+https://www.spitogatos.gr/aggelia/1121314826
+https://www.spitogatos.gr/aggelia/1121314949
+https://www.spitogatos.gr/aggelia/1121315066
+https://www.spitogatos.gr/aggelia/1121315151
+https://www.spitogatos.gr/aggelia/1121315192
+https://www.spitogatos.gr/aggelia/1121315232
+https://www.spitogatos.gr/aggelia/1121315280
+https://www.spitogatos.gr/aggelia/1121315486
+https://www.spitogatos.gr/aggelia/1121315512
+https://www.spitogatos.gr/aggelia/1121315700
 https://www.spitogatos.gr/aggelia/116723414
 https://www.spitogatos.gr/aggelia/118034054
 https://www.spitogatos.gr/aggelia/118187976
@@ -56764,6 +56876,7 @@ https://www.spitogatos.gr/aggelia/2221262068
 https://www.spitogatos.gr/aggelia/2221262518
 https://www.spitogatos.gr/aggelia/2221263733
 https://www.spitogatos.gr/aggelia/2221266509
+https://www.spitogatos.gr/aggelia/2221270452
 https://www.spitogatos.gr/aggelia/2221270932
 https://www.spitogatos.gr/aggelia/2221271074
 https://www.spitogatos.gr/aggelia/2221271250
@@ -56797,6 +56910,12 @@ https://www.spitogatos.gr/aggelia/2221308995
 https://www.spitogatos.gr/aggelia/2221313481
 https://www.spitogatos.gr/aggelia/2221313505
 https://www.spitogatos.gr/aggelia/2221313594
+https://www.spitogatos.gr/aggelia/2221313995
+https://www.spitogatos.gr/aggelia/2221314421
+https://www.spitogatos.gr/aggelia/2221314495
+https://www.spitogatos.gr/aggelia/2221314545
+https://www.spitogatos.gr/aggelia/2221315349
+https://www.spitogatos.gr/aggelia/2221315535
 https://www.spitogatos.gr/aggelia/225053877
 https://www.spitogatos.gr/aggelia/229028806
 https://www.swan-real-estate.com/property/1097
@@ -57236,6 +57355,8 @@ https://www.thehacienda.gr/property/7577
 https://www.thehacienda.gr/property/7578
 https://www.thehacienda.gr/property/7579
 https://www.thehacienda.gr/property/7580
+https://www.thehacienda.gr/property/7583
+https://www.thehacienda.gr/property/7584
 https://www.thessaloniki-realestate.gr/en/property/apartment-agios-fanourios-1-24419/
 https://www.thessaloniki-realestate.gr/en/property/flatlet-agion-panton-1-24054/
 https://www.thessaloniki-realestate.gr/en/property/flatlet-efklidis-1-24402/
@@ -59114,7 +59235,9 @@ https://www.tospitimou.gr/akinito/21092702
 https://www.tospitimou.gr/akinito/21092791
 https://www.tospitimou.gr/akinito/21092816
 https://www.tospitimou.gr/akinito/21092903
+https://www.tospitimou.gr/akinito/21092910
 https://www.tospitimou.gr/akinito/21092911
+https://www.tospitimou.gr/akinito/21092964
 https://www.tospitimou.gr/akinito/21092994
 https://www.tospitimou.gr/akinito/21093010
 https://www.tospitimou.gr/akinito/21093018
@@ -59122,6 +59245,7 @@ https://www.tospitimou.gr/akinito/21093021
 https://www.tospitimou.gr/akinito/21093032
 https://www.tospitimou.gr/akinito/21093070
 https://www.tospitimou.gr/akinito/21093077
+https://www.tospitimou.gr/akinito/21093100
 https://www.tospitimou.gr/akinito/21093109
 https://www.tospitimou.gr/akinito/21093119
 https://www.tospitimou.gr/akinito/21093126
@@ -59140,6 +59264,7 @@ https://www.tospitimou.gr/akinito/21093688
 https://www.tospitimou.gr/akinito/21093706
 https://www.tospitimou.gr/akinito/21093761
 https://www.tospitimou.gr/akinito/21093786
+https://www.tospitimou.gr/akinito/21093799
 https://www.tospitimou.gr/akinito/21093820
 https://www.tospitimou.gr/akinito/21093883
 https://www.tospitimou.gr/akinito/21093886
@@ -59203,6 +59328,7 @@ https://www.tospitimou.gr/akinito/21106237
 https://www.tospitimou.gr/akinito/21106286
 https://www.tospitimou.gr/akinito/21106396
 https://www.tospitimou.gr/akinito/21106619
+https://www.tospitimou.gr/akinito/21106653
 https://www.tospitimou.gr/akinito/21106660
 https://www.tospitimou.gr/akinito/21106737
 https://www.tospitimou.gr/akinito/21106800
@@ -59289,6 +59415,7 @@ https://www.tospitimou.gr/akinito/21115528
 https://www.tospitimou.gr/akinito/21115529
 https://www.tospitimou.gr/akinito/21115539
 https://www.tospitimou.gr/akinito/21115547
+https://www.tospitimou.gr/akinito/21115561
 https://www.tospitimou.gr/akinito/21115573
 https://www.tospitimou.gr/akinito/21115584
 https://www.tospitimou.gr/akinito/21115696
@@ -59333,12 +59460,14 @@ https://www.tospitimou.gr/akinito/21124414
 https://www.tospitimou.gr/akinito/21124474
 https://www.tospitimou.gr/akinito/21124486
 https://www.tospitimou.gr/akinito/21124573
+https://www.tospitimou.gr/akinito/21124578
 https://www.tospitimou.gr/akinito/21124599
 https://www.tospitimou.gr/akinito/21124619
 https://www.tospitimou.gr/akinito/21124627
 https://www.tospitimou.gr/akinito/21124630
 https://www.tospitimou.gr/akinito/21124648
 https://www.tospitimou.gr/akinito/21124675
+https://www.tospitimou.gr/akinito/21124683
 https://www.tospitimou.gr/akinito/21124696
 https://www.tospitimou.gr/akinito/21124767
 https://www.tospitimou.gr/akinito/21124770
@@ -59375,6 +59504,7 @@ https://www.tospitimou.gr/akinito/21132147
 https://www.tospitimou.gr/akinito/21132186
 https://www.tospitimou.gr/akinito/21132257
 https://www.tospitimou.gr/akinito/21132299
+https://www.tospitimou.gr/akinito/21132303
 https://www.tospitimou.gr/akinito/21132323
 https://www.tospitimou.gr/akinito/21132329
 https://www.tospitimou.gr/akinito/21132430
@@ -59390,6 +59520,7 @@ https://www.tospitimou.gr/akinito/21133030
 https://www.tospitimou.gr/akinito/21133110
 https://www.tospitimou.gr/akinito/21133155
 https://www.tospitimou.gr/akinito/21133200
+https://www.tospitimou.gr/akinito/21133252
 https://www.tospitimou.gr/akinito/21133253
 https://www.tospitimou.gr/akinito/21133263
 https://www.tospitimou.gr/akinito/21133268
@@ -59445,6 +59576,7 @@ https://www.tospitimou.gr/akinito/21141540
 https://www.tospitimou.gr/akinito/21141544
 https://www.tospitimou.gr/akinito/21141723
 https://www.tospitimou.gr/akinito/21141806
+https://www.tospitimou.gr/akinito/21141860
 https://www.tospitimou.gr/akinito/21141938
 https://www.tospitimou.gr/akinito/21141993
 https://www.tospitimou.gr/akinito/21141994
@@ -59514,6 +59646,7 @@ https://www.tospitimou.gr/akinito/21146544
 https://www.tospitimou.gr/akinito/21146573
 https://www.tospitimou.gr/akinito/21146585
 https://www.tospitimou.gr/akinito/21146625
+https://www.tospitimou.gr/akinito/21146633
 https://www.tospitimou.gr/akinito/21147050
 https://www.tospitimou.gr/akinito/21147846
 https://www.tospitimou.gr/akinito/21147849
@@ -59529,6 +59662,7 @@ https://www.tospitimou.gr/akinito/21147911
 https://www.tospitimou.gr/akinito/21148243
 https://www.tospitimou.gr/akinito/21148275
 https://www.tospitimou.gr/akinito/21148354
+https://www.tospitimou.gr/akinito/21148390
 https://www.tospitimou.gr/akinito/21148399
 https://www.tospitimou.gr/akinito/21148436
 https://www.tospitimou.gr/akinito/21148789
@@ -59672,6 +59806,7 @@ https://www.tospitimou.gr/akinito/21175480
 https://www.tospitimou.gr/akinito/21175545
 https://www.tospitimou.gr/akinito/21175563
 https://www.tospitimou.gr/akinito/21175598
+https://www.tospitimou.gr/akinito/21175681
 https://www.tospitimou.gr/akinito/21175688
 https://www.tospitimou.gr/akinito/21175707
 https://www.tospitimou.gr/akinito/21175716
@@ -59698,6 +59833,7 @@ https://www.tospitimou.gr/akinito/21176331
 https://www.tospitimou.gr/akinito/21176333
 https://www.tospitimou.gr/akinito/21176389
 https://www.tospitimou.gr/akinito/21176395
+https://www.tospitimou.gr/akinito/21176408
 https://www.tospitimou.gr/akinito/21176445
 https://www.tospitimou.gr/akinito/21176480
 https://www.tospitimou.gr/akinito/21176503
@@ -59799,6 +59935,7 @@ https://www.tospitimou.gr/akinito/21192516
 https://www.tospitimou.gr/akinito/21192584
 https://www.tospitimou.gr/akinito/21192702
 https://www.tospitimou.gr/akinito/21193222
+https://www.tospitimou.gr/akinito/21193390
 https://www.tospitimou.gr/akinito/21193396
 https://www.tospitimou.gr/akinito/21193453
 https://www.tospitimou.gr/akinito/21193504
@@ -59941,6 +60078,7 @@ https://www.tospitimou.gr/akinito/21219834
 https://www.tospitimou.gr/akinito/21219852
 https://www.tospitimou.gr/akinito/21219890
 https://www.tospitimou.gr/akinito/21219924
+https://www.tospitimou.gr/akinito/21219927
 https://www.tospitimou.gr/akinito/21219952
 https://www.tospitimou.gr/akinito/21220030
 https://www.tospitimou.gr/akinito/21220065
@@ -60053,6 +60191,7 @@ https://www.tospitimou.gr/akinito/21252671
 https://www.tospitimou.gr/akinito/21252688
 https://www.tospitimou.gr/akinito/21252703
 https://www.tospitimou.gr/akinito/21252715
+https://www.tospitimou.gr/akinito/21252844
 https://www.tospitimou.gr/akinito/21252873
 https://www.tospitimou.gr/akinito/21252876
 https://www.tospitimou.gr/akinito/21252917
@@ -60084,6 +60223,7 @@ https://www.tospitimou.gr/akinito/21255473
 https://www.tospitimou.gr/akinito/21255513
 https://www.tospitimou.gr/akinito/21255571
 https://www.tospitimou.gr/akinito/21255654
+https://www.tospitimou.gr/akinito/21255750
 https://www.tospitimou.gr/akinito/21256126
 https://www.tospitimou.gr/akinito/21256190
 https://www.tospitimou.gr/akinito/21256316
@@ -60122,11 +60262,13 @@ https://www.tospitimou.gr/akinito/21263840
 https://www.tospitimou.gr/akinito/21263935
 https://www.tospitimou.gr/akinito/21263948
 https://www.tospitimou.gr/akinito/21263971
+https://www.tospitimou.gr/akinito/21263978
 https://www.tospitimou.gr/akinito/21264076
 https://www.tospitimou.gr/akinito/21264118
 https://www.tospitimou.gr/akinito/21264123
 https://www.tospitimou.gr/akinito/21264136
 https://www.tospitimou.gr/akinito/21264174
+https://www.tospitimou.gr/akinito/21264194
 https://www.tospitimou.gr/akinito/21264202
 https://www.tospitimou.gr/akinito/21264238
 https://www.tospitimou.gr/akinito/21264278
@@ -60220,6 +60362,7 @@ https://www.tospitimou.gr/akinito/21282975
 https://www.tospitimou.gr/akinito/21282993
 https://www.tospitimou.gr/akinito/21283059
 https://www.tospitimou.gr/akinito/21283137
+https://www.tospitimou.gr/akinito/21283141
 https://www.tospitimou.gr/akinito/21283199
 https://www.tospitimou.gr/akinito/21283228
 https://www.tospitimou.gr/akinito/21283334
@@ -60318,6 +60461,7 @@ https://www.tospitimou.gr/akinito/21302585
 https://www.tospitimou.gr/akinito/21302604
 https://www.tospitimou.gr/akinito/21302608
 https://www.tospitimou.gr/akinito/21302643
+https://www.tospitimou.gr/akinito/21302656
 https://www.tospitimou.gr/akinito/21302718
 https://www.tospitimou.gr/akinito/21302767
 https://www.tospitimou.gr/akinito/21302770
@@ -60349,6 +60493,7 @@ https://www.tospitimou.gr/akinito/21305951
 https://www.tospitimou.gr/akinito/21306247
 https://www.tospitimou.gr/akinito/21306251
 https://www.tospitimou.gr/akinito/21306424
+https://www.tospitimou.gr/akinito/21306436
 https://www.tospitimou.gr/akinito/21306439
 https://www.tospitimou.gr/akinito/21306444
 https://www.tospitimou.gr/akinito/21306453
@@ -60690,6 +60835,8 @@ https://www.tzikas-realestate.gr/property/7907
 https://www.tzikas-realestate.gr/property/7908
 https://www.tzikas-realestate.gr/property/7909
 https://www.tzikas-realestate.gr/property/7910
+https://www.tzikas-realestate.gr/property/7911
+https://www.tzikas-realestate.gr/property/7912
 https://www.unityrealestate.gr/property/246
 https://www.unityrealestate.gr/property/247
 https://www.unityrealestate.gr/property/251
