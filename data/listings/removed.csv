@@ -4777,3 +4777,38 @@ date,source_domain,url,reason
 2026-11-17,goldenhome.gr,https://goldenhome.gr/property/view/287460,sold / not available
 2026-11-17,goldenhome.gr,https://goldenhome.gr/property/view/484402,sold / not available
 2026-11-17,goldenhome.gr,https://goldenhome.gr/property/view/524573,sold / not available
+2026-11-17,remax.gr,https://www.remax.gr/property/352984-polisi-epicheirisi-menemenh,not on result pages
+2026-11-17,remax.gr,https://www.remax.gr/property/375908-polisi-gkarsoniera-studio-analhpsh,not on result pages
+2026-11-17,remax.gr,https://www.remax.gr/property/401594-polisi-diamerisma-leykos-pyrgos,not on result pages
+2026-11-17,remax.gr,https://www.remax.gr/property/409346-polisi-diamerisma-ntepw,not on result pages
+2026-11-17,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/ec82fd1c-9052-4e90-bc6f-e57a9bc2dd01/thessalonikh-xhrokrhnh-700-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-17,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/ff8e2fc9-96de-47f7-a90c-57ccdceee4e9/ampelokhpoi-2200-636,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-17,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/00654e69-5ca5-4077-8066-6fbb04f26363/thessalonikh-kentro-550-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-17,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/07ed2e5f-c9e1-4e59-bdb0-984d2ab72855/triandria-350-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-17,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/08ff2e6b-3ac5-467a-a30e-a8fe118ddd44/kalamaria-500-64,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-17,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/0a1e9bd4-e381-42ec-8251-2a86c1f0064f/thessalonikh-analhpsh-630-110,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-17,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/123b78db-a6d7-4f6b-8ee2-a4d7edca24dd/thessalonikh-kentro-500-28,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-17,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/14f9eb67-1023-4ac3-b7ef-fdfed2acc7f4/thessalonikh-kentro-450-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/58859-2/,redirects to https://www.aarealestate.gr/property/58859-2
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/50266-2/,redirects to https://www.aarealestate.gr/property/50266-2
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/39244-2/,redirects to https://www.aarealestate.gr/property/39244-2
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/24427-2/,redirects to https://www.aarealestate.gr/property/24427-2
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/exairetika-oikopeda-100-m-apo-tin-paralia/,redirects to https://www.aarealestate.gr/property/exairetika-oikopeda-100-m-apo-tin-paralia
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/52195-2/,redirects to https://www.aarealestate.gr/property/52195-2
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/46369-2/,redirects to https://www.aarealestate.gr/property/46369-2
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/53807-2/,redirects to https://www.aarealestate.gr/property/53807-2
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/41597-2/,redirects to https://www.aarealestate.gr/property/41597-2
+2026-11-17,aarealestate.gr,https://aarealestate.gr/property/41316-2/,redirects to https://www.aarealestate.gr/property/41316-2
+2026-11-17,mandraouhome.gr,https://www.mandraouhome.gr/portfolio-item/%ce%b1%ce%b3%cf%81%ce%bf%cf%84%ce%b5%ce%bc%ce%ac%cf%87%ce%b9%ce%bf-5350%cf%84-%ce%bc-%ce%bd%ce%ad%ce%bf-%cf%81%cf%8d%cf%83%ce%b9%ce%bf-%ce%b8%ce%ad%cf%81%ce%bc%ce%b7/,http 404
+2026-11-17,thgr.gr,https://thgr.gr/el/property/65411,http 404
+2026-11-17,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-maisonette-1122/,http 404
+2026-11-17,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-maisonette-1257/,http 404
+2026-11-17,aki-nito.gr,https://aki-nito.gr/el/property/4660,http 404
+2026-11-17,rewize.com,https://rewize.com/en/property/2673,sold / not available
+2026-11-17,grekodom.gr,https://www.grekodom.gr/realtyobject/25405-poleitai-gi-6000-m2-stin-kriti,http 404
+2026-11-17,grekodom.gr,https://www.grekodom.gr/realtyobject/30958-poleitai-epiheirisi-700-m2-stin-pieria,http 404
+2026-11-17,nore.gr,https://nore.gr/property/20721,http 410
+2026-11-17,nore.gr,https://nore.gr/property/20983,http 410
+2026-11-17,goldenhome.gr,https://goldenhome.gr/property/view/539690,sold / not available
+2026-11-17,goldenhome.gr,https://goldenhome.gr/property/view/541243,sold / not available
+2026-11-17,goldenhome.gr,https://goldenhome.gr/property/view/543288,sold / not available
