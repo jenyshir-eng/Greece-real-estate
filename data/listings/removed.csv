@@ -5003,3 +5003,31 @@ date,source_domain,url,reason
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/544422,sold / not available
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/537786,sold / not available
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/544283,sold / not available
+2026-11-18,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/5ed8967f-f005-429f-969d-c089047c5f1b/hrakleio-158000-400,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-18,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/b30f6b26-06b6-46a1-b890-41471ceb569a/thessalonikh-anw-toympa-69000-90,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/0190f1ad-8f4e-4e03-b663-d7abbed8c0c2/thessalonikh-falhro-120000-52,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/12a05880-f5cf-430c-af47-1e7bf483e178/neos-marmaras-750000-118,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-18,casanova.com.gr,https://casanova.com.gr/el/property/544673,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/en/property/46369-2/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/en/property/53807-2/,http 404
+2026-11-18,katikia.com.gr,https://katikia.com.gr/el/property/2536,http 404
+2026-11-18,thgr.gr,https://thgr.gr/el/property/26160,http 404
+2026-11-18,thgr.gr,https://thgr.gr/el/property/26002,http 404
+2026-11-18,bee-one.gr,https://bee-realestate.gr/property?lang=el&id=354525c6-932e-4eb0-b84f-177fc2113aba,redirects to https://bee-realestate.gr/errorPage
+2026-11-18,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-full-floor-apartment-1036/,http 404
+2026-11-18,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-detached-house-1034/,http 404
+2026-11-18,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/11993,http 404
+2026-11-18,grekodom.gr,https://www.grekodom.gr/realtyobject/34419-poleitai-gi-4040-m2-stin-kriti,http 404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/property/104,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/property/100,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/property/102,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/property/110,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/property/107,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/listings/areas/N196,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/property/105,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/listings/areas/N109,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/listings/areas/N108,redirects to https://refinedproperties.gr/el/404
+2026-11-18,refinedproperties.gr,https://www.refinedproperties.gr/property/101,redirects to https://refinedproperties.gr/el/404
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/535550,sold / not available
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/545061,sold / not available
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/544194,sold / not available
