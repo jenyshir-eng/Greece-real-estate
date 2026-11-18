@@ -3790,3 +3790,35 @@ date,source_domain,url,reason
 2026-11-18,grekodom.com,https://www.grekodom.com/realtyobject/29556-for-sale-land-489-m2-in-crete,http 404
 2026-11-18,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b9%cf%83%cf%8c%ce%b3%ce%b5%ce%b9%ce%b1-%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-80-%cf%84-%ce%bc-%ce%bc%ce%b5-%ce%b1%cf%85%ce%bb%ce%ae-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%cf%8c%ce%bb%ce%b7/1679/,http 404
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/540906,sold / not available
+2026-11-18,remax.gr,https://www.remax.gr/property/354709-polisi-katastima-kentro-pagkratioy,not on result pages
+2026-11-18,remax.gr,https://www.remax.gr/property/385682-polisi-diamerisma-gkazi,not on result pages
+2026-11-18,remax.gr,https://www.remax.gr/property/394557-polisi-diamerisma-agios-iwannhs,not on result pages
+2026-11-18,remax.gr,https://www.remax.gr/property/405965-polisi-oikopedo-gia-katoikia-botanikos,not on result pages
+2026-11-18,remax.gr,https://www.remax.gr/property/410748-polisi-monokatoikia-xamolia,not on result pages
+2026-11-18,remax.gr,https://www.remax.gr/property/411385-polisi-diamerisma-ampelokhpoi-pentagwno,not on result pages
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/38d40357-2574-4480-9a27-3a8af76451a3/chalandri-katw-chalandri-1200-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/38f40168-d633-48f1-87b4-ecc835f7d6cd/athhna-anw-kypselh-630-79,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/39290e30-d12f-46b5-9c84-69e00ddf0632/aigalew-lioymh-500-28,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/393d5719-d5b7-4a1f-8990-4c370c05aef9/vyrwnas-zwodochos-phgh-850-97,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/399506df-b393-4b40-9595-a1917140a66d/anw-liosia-agios-gewrgios-550-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3a111560-2fa6-4b95-9e28-631e427b7dbf/maroysi-neo-terma-1320-128,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3a6c6a9b-aad3-4bc2-baa8-8ef4fb6945c4/athhna-kolwnaki-1250-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3a86c9c5-aaa7-4c9d-8caa-962bfb47c9c9/nea-smyrnh-chrysakh-800-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3c051b60-03eb-4dd4-aebe-fc0bcdbd6dff/vrilhssia-kentro-1800-130,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3ceb288f-8873-4114-9950-a171aa21ee31/glyfada-pyrnari-1150-67,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3ceb4e18-5a6b-403d-8b2f-0092c372eb73/kallithea-tzitzifies-800-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3d566c82-fb42-481b-885a-9bef9f114bf7/filotheh-2700-160,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3e1eb196-4798-4b88-a528-c28ddcea9821/khfisia-kefalari-6000-400,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3e5f43ae-6600-48ab-aeda-e2baecaf1e86/athhna-pagkrati-650-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3e602b8b-0943-4247-951e-32a74973ee61/athhna-agia-paraskeyh-700-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4069e127-0092-405b-b9cc-411eb5b68f2c/athhna-kolwnos-700-72,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/4081235c-5f87-4bbc-af1a-d8ece14ee443/nea-iwnia-katw-kalogreza-650-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/40d15e74-ad87-40a0-af61-602321ff5094/melissia-orio-vrilhssiwn-1000-109,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/40ec367f-116f-4b04-9b27-4770323d5715/alimos-anw-kalamaki-1700-115,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,realestateone.gr,https://realestateone.gr/el/property/1555403,redirects to https://realestateone.gr/el/404
+2026-11-18,planethomes.gr,https://www.planethomes.gr/akinito/44086-2/,http 404
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/510599,sold / not available
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/540079,sold / not available
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/242348,sold / not available
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/538623,sold / not available
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/514633,sold / not available
