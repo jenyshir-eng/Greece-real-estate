@@ -3771,3 +3771,22 @@ date,source_domain,url,reason
 2026-11-18,grekodom.com,https://www.grekodom.com/realtyobject/31102-for-sale-building-640-m2-in-kassandra-c,http 404
 2026-11-18,grekodom.com,https://www.grekodom.com/realtyobject/31102-for-sale-business-640-m2-in-kassandra-c,http 404
 2026-11-18,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%ac%ce%bd%ce%b5%cf%84%ce%bf-%cf%84%cf%81%ce%b9%ce%ac%cf%81%ce%b9-%cf%83%cf%84%ce%bf-%cf%83%ce%b1%cf%81%ce%b1%ce%ba%ce%b7%ce%bd%ce%ac%ce%b4%ce%bf/1633/,http 404
+2026-11-18,remax.gr,https://www.remax.gr/property/410669-enoikiasi-diamerisma-rafhna,not on result pages
+2026-11-18,remax.gr,https://www.remax.gr/property/410954-polisi-katastima-gkazi,not on result pages
+2026-11-18,remax.gr,https://www.remax.gr/property/411039-polisi-diamerisma-attikh,not on result pages
+2026-11-18,altamiraproperties.gr,https://marketplace.altamiraproperties.gr/listings/27241,left the servicer marketplace
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/329c13e3-5711-443a-b2fb-91b28f2425c1/moschato-800-69,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3422fe27-0adb-4083-8c85-540ec2f817f3/cholargos-plateia-dhmokratias-1500-148,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/3436c7c1-12ea-4644-af55-d18415edb00d/aigalew-swthrakh-500-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/350484c1-cd5b-4fd7-ad4f-6b51f666588e/peiraias-kastela-profhths-hlias-2900-365,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/351e3845-1fa6-4fa5-94fc-4bbe2100333f/peykh-katw-peykh-1870-155,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/361e6901-d961-4833-a8c7-310ac9cc65f7/alimos-kalamaki-1000-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/37b2f406-f792-41d9-a831-ad62a22d22b6/voyla-anw-voyla-850-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/384ff632-7f49-43b2-978d-ac31fe7c2ce2/maroysi-anw-peykh-850-81,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,realestateone.gr,https://realestateone.gr/el/property/1553798,redirects to https://realestateone.gr/el/404
+2026-11-18,realestateone.gr,https://realestateone.gr/el/property/1553800,redirects to https://realestateone.gr/el/404
+2026-11-18,realestateone.gr,https://realestateone.gr/el/property/1553801,redirects to https://realestateone.gr/el/404
+2026-11-18,neon-realestate.gr,https://neon-realestate.gr/property/2135437-grafeio-pros-enoikiasi-palaio-faliro-105-t-m-e1-100/,http 404
+2026-11-18,grekodom.com,https://www.grekodom.com/realtyobject/29556-for-sale-land-489-m2-in-crete,http 404
+2026-11-18,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b9%cf%83%cf%8c%ce%b3%ce%b5%ce%b9%ce%b1-%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-80-%cf%84-%ce%bc-%ce%bc%ce%b5-%ce%b1%cf%85%ce%bb%ce%ae-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%cf%8c%ce%bb%ce%b7/1679/,http 404
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/540906,sold / not available
