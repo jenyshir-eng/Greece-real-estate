@@ -4953,3 +4953,53 @@ date,source_domain,url,reason
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/527446,sold / not available
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/527551,sold / not available
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/527553,sold / not available
+2026-11-18,remax.gr,https://www.remax.gr/property/370499-polisi-gkarsoniera-studio-nea-paralia,not on result pages
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ca0a3f0f-adc4-4539-baee-912a81c26bdc/kavala-330-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/cff0f515-892f-41a8-b089-bb0fae86cd94/thessalonikh-anw-toympa-550-57,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e3210120-8cee-4dcd-bf42-016624759e41/kalamaria-780-94,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e4dd8417-359e-40f1-9661-6c112c1f4d82/thessalonikh-kentro-1000-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/e744dd63-8fe0-437a-91ca-aa63250d1bc7/pylaia-550-42,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ee75f5cd-a5f6-4975-a30f-e3f223078701/pylaia-1200-110,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f16347a0-a632-46d5-9555-b41f413e0612/thessalonikh-kentro-480-24,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/fe069d52-6bb1-4717-b342-222dcc484ed5/pylaia-900-110,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-18,aarealestate.gr,https://aarealestate.gr/bg/property/26075-2/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/en/property/26077-2/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/bg/property/26033-2/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/en/property/26033-2/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/bg/property/25023-2/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/en/property/25025-2/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/bg/property/23331-2/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/bg/property/%d0%b8%d0%b7%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d0%b5%d0%bb%d0%b5%d0%bd-%d0%bf%d0%b0%d1%80%d1%86%d0%b5%d0%bb-400-%d0%ba%d0%b2-%d0%bc-asprovalta/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/en/property/exceptional-plot-400-sqm-asprovalta/,http 404
+2026-11-18,aarealestate.gr,https://aarealestate.gr/en/property/58859-2/,http 404
+2026-11-18,eliteps.gr,https://eliteps.gr/el/property/9662,http 404
+2026-11-18,eliteps.gr,https://eliteps.gr/sq/property/9662,http 404
+2026-11-18,eliteps.gr,https://eliteps.gr/el/property/11356,http 404
+2026-11-18,eliteps.gr,https://eliteps.gr/sq/property/11356,http 404
+2026-11-18,casanova.com.gr,https://casanova.com.gr/el/property/543369,http 404
+2026-11-18,casanova.com.gr,https://casanova.com.gr/el/property/543954,http 404
+2026-11-18,casanova.com.gr,https://casanova.com.gr/el/property/543955,http 404
+2026-11-18,greekexclusiveproperties.com,https://www.greekexclusiveproperties.com/property/4-bedroom-villa-for-rent-varkiza-vari-500-sqm/,http 404
+2026-11-18,monopoly.com.gr,https://monopoly.com.gr/el/property/MCB6799,http 404
+2026-11-18,monopoly.com.gr,https://monopoly.com.gr/el/property/6811,http 404
+2026-11-18,politia.gr,https://politia.gr/el/property/10434,http 404
+2026-11-18,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-detached-house-1035/,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123529,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123523,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123331,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122947,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122910,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/102971,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123118,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122493,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122312,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121567,http 404
+2026-11-18,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123205,http 404
+2026-11-18,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/12272,http 404
+2026-11-18,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/12271,http 404
+2026-11-18,grekodom.gr,https://www.grekodom.gr/realtyobject/29556-poleitai-gi-489-m2-stin-kriti,http 404
+2026-11-18,nore.gr,https://nore.gr/property/20916,http 410
+2026-11-18,nore.gr,https://nore.gr/property/20932,http 410
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/544422,sold / not available
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/537786,sold / not available
+2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/544283,sold / not available
