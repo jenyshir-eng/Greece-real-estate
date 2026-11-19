@@ -5055,3 +5055,35 @@ date,source_domain,url,reason
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/542211,sold / not available
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/544300,sold / not available
 2026-11-18,goldenhome.gr,https://goldenhome.gr/property/view/544115,sold / not available
+2026-11-19,remax.gr,https://www.remax.gr/property/365855-polisi-diamerisma-katw-toympa,not on result pages
+2026-11-19,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/d571b132-5d1d-473b-ac55-3231c255c34a/nea-moydania-143000-119,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/e4c9ac23-b579-418b-8fcd-ac3578763fbf/thessalonikh-vardarh-153000-70,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/ee305faf-2968-4327-801b-8ee61344bb39/thessalonikh-ntepw-140000-103,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/098bb2cd-ed04-4f43-b124-37e4b7ea9536/pylaia-1000-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/6d63def2-3f6f-4151-ae62-a69d28f35c6b/pylaia-650-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/b90dee3e-708d-4598-85b2-433824862ba0/thessalonikh-kentro-650-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-epaggelmatikon-xoron
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/00c3f605-10d9-4fc0-81dd-201b16e36855/pylaia-600-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/019926cc-da78-467f-b92a-e808e52b8a27/thessalonikh-analhpsh-600-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,angelou-realestate.gr,https://www.angelou-realestate.gr/single-property-page.php?id=619&sr=2,redirects to https://www.angelou-realestate.gr/noresults.php?id=
+2026-11-19,eliteps.gr,https://eliteps.gr/el/property/12539,http 404
+2026-11-19,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-1088/,http 404
+2026-11-19,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-1093/,http 404
+2026-11-19,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123296,http 404
+2026-11-19,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123041,http 404
+2026-11-19,thgr.gr,https://thgr.gr/el/property/26156,http 404
+2026-11-19,thgr.gr,https://thgr.gr/el/property/26155,http 404
+2026-11-19,thgr.gr,https://thgr.gr/el/property/26319,http 404
+2026-11-19,thgr.gr,https://thgr.gr/el/property/26300,http 404
+2026-11-19,rewize.com,https://rewize.com/akinito/6884,sold / not available
+2026-11-19,rewize.com,https://rewize.com/akinito/3182,sold / not available
+2026-11-19,rewize.com,https://rewize.com/akinito/4136,sold / not available
+2026-11-19,rewize.com,https://rewize.com/akinito/4288,sold / not available
+2026-11-19,rewize.com,https://rewize.com/en/property/2582,sold / not available
+2026-11-19,rewize.com,https://rewize.com/en/property/2661,sold / not available
+2026-11-19,rewize.com,https://rewize.com/en/property/2683,sold / not available
+2026-11-19,refinedproperties.gr,https://www.refinedproperties.gr/property/109,redirects to https://refinedproperties.gr/el/404
+2026-11-19,refinedproperties.gr,https://www.refinedproperties.gr/property/103,redirects to https://refinedproperties.gr/el/404
+2026-11-19,remax.gr,https://www.remax.gr/property/400068-polisi-mezoneta-fanari,http 404
+2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/458784,sold / not available
+2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/458788,sold / not available
+2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/458779,sold / not available
