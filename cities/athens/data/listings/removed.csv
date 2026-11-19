@@ -4040,3 +4040,32 @@ date,source_domain,url,reason
 2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/540110,sold / not available
 2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/388657,sold / not available
 2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/469136,sold / not available
+2026-11-19,remax.gr,https://www.remax.gr/property/406197-enoikiasi-mezoneta-soynio,not on result pages
+2026-11-19,remax.gr,https://www.remax.gr/property/406564-enoikiasi-diamerisma-eksarxeia,not on result pages
+2026-11-19,intrum.gr,https://marketplace.intrum.gr/listings/2486,left the servicer marketplace
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/508f58b0-c01e-4692-9b6e-7933bbb80337/athhna-kolwnaki-900-61,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/50c6cdf9-44f7-459f-8c19-9588952966ec/artemis-520-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/50fec661-694f-4379-b302-8599a958363c/korydallos-plateia-eleytherias-650-97,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/51708598-e924-4e8c-a031-37a15ac3cc14/athhna-lofos-strefh-650-53,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/5190508e-69e2-4ad2-9789-98a3431e35b5/galatsi-krhtika-730-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/5352faa1-a948-4ebf-b899-0eabb30ef5bf/zwgrafoy-kentro-500-29,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/54594cbe-c29a-465b-b68c-d435eca2415f/agia-paraskeyh-stayros-1200-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/546dc976-5665-44a4-aed9-595a60a60865/athhna-ampelokhpoi-1000-69,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/547b37ac-9631-419b-9068-16eff050fdf5/agia-paraskeyh-profhths-hlias-1660-124,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/564b94d4-e1af-4f72-8f1f-26b655833d38/kallithea-charokopoy-500-58,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/567142bc-e523-44e1-ab17-fab8f6f5a691/athhna-makrygiannh-akropolh-1400-59,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/568f76a1-8564-43d2-a587-9b4ef09947b1/athhna-agios-nikolaos-400-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-19,tsrealestate.gr,https://tsrealestate.gr/el/property/16275,http 404
+2026-11-19,tsrealestate.gr,https://tsrealestate.gr/el/property/16274,http 404
+2026-11-19,tsrealestate.gr,https://tsrealestate.gr/el/property/16292,http 404
+2026-11-19,tsrealestate.gr,https://tsrealestate.gr/el/property/16250,http 404
+2026-11-19,tsrealestate.gr,https://tsrealestate.gr/el/property/16249,http 404
+2026-11-19,realestateone.gr,https://realestateone.gr/el/property/1553623,redirects to https://realestateone.gr/el/404
+2026-11-19,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=64898597-aba9-441a-a311-45f1fbfb4bbf,redirects to https://bee-realestate.gr/errorPage
+2026-11-19,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=371b7655-e5f5-49bb-8c62-65536f72949f,redirects to https://bee-realestate.gr/errorPage
+2026-11-19,planethomes.gr,https://www.planethomes.gr/akinito/31236-2/,http 404
+2026-11-19,grekodom.com,https://www.grekodom.com/realtyobject/5734-for-sale-villa-220-m2-on-the-olympic-coa,http 404
+2026-11-19,grekodom.com,https://www.grekodom.com/realtyobject/24866-for-sale-villa-440-m2-on-the-euboea-isl,http 404
+2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/529773,sold / not available
+2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/384253,sold / not available
+2026-11-19,goldenhome.gr,https://goldenhome.gr/property/view/524384,sold / not available
