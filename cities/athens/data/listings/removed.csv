@@ -4157,3 +4157,22 @@ date,source_domain,url,reason
 2026-11-20,neon-realestate.gr,https://neon-realestate.gr/property/2704857-diamerisma-pros-enoikiasi-kallithea-50-t-m-e550/,http 404
 2026-11-20,grekodom.com,https://www.grekodom.com/realtyobject/31082-for-sale-hotel-260-m2-in-corfu,http 404
 2026-11-20,leonprimeestates.gr,https://leonprimeestates.gr/property/%cf%80%cf%89%ce%bb%ce%b5%ce%af%cf%84%ce%b1%ce%b9-%ce%b5%ce%be%ce%bf%cf%87%ce%b9%ce%ba%ce%ae-%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-%cf%81%ce%ac%ce%bd%cf%84%cf%83%ce%bf-%cf%83%cf%84/1666/,http 404
+2026-11-20,remax.gr,https://www.remax.gr/property/401992-polisi-diamerisma-attikh,not on result pages
+2026-11-20,remax.gr,https://www.remax.gr/property/406975-polisi-diamerisma-lewf-pathsiwn-lewf-axarnwn,not on result pages
+2026-11-20,remax.gr,https://www.remax.gr/property/410554-polisi-diamerisma-plateia-attikhs,not on result pages
+2026-11-20,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/apartment-for-sale-in-ano-glyfada-athens-id-a4-13576,left the sitemap
+2026-11-20,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6a3dfd33-a7dd-4056-b741-a7fb04757d2a/athhna-mpaknana-800-97,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-20,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6ad97ff1-aa69-4edc-aa20-6aa07c5abc26/athhna-profhths-hlias-630-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-20,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6afeaa54-7cbc-463a-96c6-18d12d13acd8/nikaia-mhtropolh-550-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-20,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6c66e00b-93ca-419e-a062-0f1642cc98c3/nea-smyrnh-kentro-1200-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-20,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6d1a1858-b849-446e-a9e2-d35df0865f06/galatsi-menidiatika-350-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-20,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6d37b5a1-c027-4ede-9dbe-88274bbf5603/athhna-kolwnaki-500-31,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-20,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6db4bcdc-3b2c-4dbb-b49c-336d597854a0/voyla-katw-voyla-2500-133,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-20,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6e044378-85d2-4569-87ba-7fd0a352a71f/athhna-pagkrati-1200-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-20,tsrealestate.gr,https://tsrealestate.gr/el/property/16294,http 404
+2026-11-20,tsrealestate.gr,https://tsrealestate.gr/el/property/16295,http 404
+2026-11-20,tsrealestate.gr,https://tsrealestate.gr/el/property/16293,http 404
+2026-11-20,goldenhome.gr,https://goldenhome.gr/property/view/512687,sold / not available
+2026-11-20,goldenhome.gr,https://goldenhome.gr/property/view/490594,sold / not available
+2026-11-20,goldenhome.gr,https://goldenhome.gr/property/view/529578,sold / not available
+2026-11-20,goldenhome.gr,https://goldenhome.gr/property/view/525443,sold / not available
