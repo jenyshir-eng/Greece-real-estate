@@ -1,5 +1,6 @@
 https://aki-nito.gr/el/property/4311	85000
 https://aki-nito.gr/el/property/4898	70000
+https://aki-nito.gr/el/property/4950	70000
 https://arcusrealestate.gr/el/properties/120455	59000
 https://arcusrealestate.gr/el/properties/121472	74000
 https://arcusrealestate.gr/el/properties/122453	98000
@@ -15,6 +16,7 @@ https://monopoly.com.gr/el/property/97445	72000
 https://nore.gr/property/20496	70000
 https://nore.gr/property/20496	72000
 https://nore.gr/property/20859	100000
+https://nore.gr/property/20859	95000
 https://rewize.com/akinito/3013	90000
 https://rewize.com/akinito/6256	75000
 https://rewize.com/akinito/7810	90000
@@ -95,6 +97,7 @@ https://www.spitogatos.gr/aggelia/1121056624	86000
 https://www.spitogatos.gr/aggelia/1121056624	88000
 https://www.spitogatos.gr/aggelia/1121064179	90000
 https://www.spitogatos.gr/aggelia/1121086233	83000
+https://www.spitogatos.gr/aggelia/1121123122	63000
 https://www.spitogatos.gr/aggelia/1121131638	99000
 https://www.spitogatos.gr/aggelia/1121183293	99000
 https://www.spitogatos.gr/aggelia/1121208926	99000
