@@ -4347,3 +4347,24 @@ date,source_domain,url,reason
 2026-11-21,goldenhome.gr,https://goldenhome.gr/property/view/539799,sold / not available
 2026-11-21,leonprimeestates.gr,https://leonprimeestates.gr/property/%ce%b5%ce%bd%ce%bf%ce%b9%ce%ba%ce%b9%ce%ac%ce%b6%ce%b5%cf%84%ce%b1%ce%b9-%ce%b5%cf%80%ce%b9%cf%80%ce%bb%cf%89%ce%bc%ce%ad%ce%bd%ce%bf-%cf%81%ce%b5%cf%84%ce%b9%cf%81%ce%ad-55-%cf%84-%ce%bc-%cf%83/1662/,http 404
 2026-11-21,terra-greca.gr,https://terra-greca.gr/akinita/2413400-%ce%bc%ce%b5%ce%b6%ce%bf%ce%bd%ce%ad%cf%84%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%cf%80%ce%b5%cf%81%ce%b9%cf%83%cf%84%ce%ad%cf%81%ce%b9-114-%cf%84-%ce%bc-e3/,http 404
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/85dc89ff-8087-477f-a4c4-cdac751d74c6/maroysi-kokkinia-1100-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8601755e-8e54-4ad3-8079-f4df88798f2e/ymhttos-kentro-790-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8723ba9b-d400-48f3-bc18-245e879a8aa3/chalandri-agia-anna-1200-125,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/87aa7350-93b0-4284-8f9e-e52d3b6362bd/psychiko-2500-155,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/87ae451e-0583-44b6-8ef9-79bc537d6a7c/nikaia-aspra-chwmata-380-30,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/88542e9d-b231-42a2-8899-205990b220fa/athhna-koykaki-570-28,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/88e8a9e4-9a9b-44b9-b1cf-3e5a7c61b984/glyfada-anw-glyfada-1350-95,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/89ceed59-2291-4cce-b2fa-87e87771e54f/athhna-neapolh-1500-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8a3a274d-390b-4650-809e-49b80d411e7e/korydallos-orio-agias-varvaras-450-75,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8b9d65c9-2ec9-40d8-afcf-87cbd324d4c5/varh-cherwma-700-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8befb1eb-8808-48a7-afc2-3980c936dc2d/dionysos-1300-200,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8c4e1af2-ee8c-4452-8c72-dae295ed73c9/athhna-kallirrohs-550-25,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8ccfb230-8959-43df-9ab9-1c4cebff781b/chalandri-agia-varvara-2400-180,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8dbd0a46-8f35-4089-94b0-7ab70713f94e/khfisia-kentro-3500-330,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-21,goldenhome.gr,https://goldenhome.gr/property/view/539886,sold / not available
+2026-11-21,goldenhome.gr,https://goldenhome.gr/property/view/523290,sold / not available
+2026-11-21,goldenhome.gr,https://goldenhome.gr/property/view/520028,sold / not available
+2026-11-21,goldenhome.gr,https://goldenhome.gr/property/view/542630,sold / not available
+2026-11-21,goldenhome.gr,https://goldenhome.gr/property/view/540409,sold / not available
+2026-11-21,goldenhome.gr,https://goldenhome.gr/property/view/484406,sold / not available
+2026-11-21,terra-greca.gr,https://terra-greca.gr/akinita/1524670-%ce%bc%ce%bf%ce%bd%ce%bf%ce%ba%ce%b1%cf%84%ce%bf%ce%b9%ce%ba%ce%af%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%cf%80%ce%b5%cf%84%cf%81%ce%ac%ce%bb%cf%89%ce%bd%ce%b1/,http 404
