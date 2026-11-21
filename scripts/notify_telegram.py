@@ -31,6 +31,7 @@ from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import city  # noqa: E402
 import districts  # noqa: E402
+from floors import floor_code  # noqa: E402
 
 LISTINGS = "data/listings/listings_normalized.csv"
 FILTERS = "data/sources/notify_filters.json"
@@ -42,7 +43,7 @@ REPORT = "data/listings/update_report.json"
 LOG = "data/listings/notify_log.csv"
 SEARCH_URL = city.SITE_URL
 TITLE = "Spiti Radar" + (" · " + city.TELEGRAM_TITLE if city.TELEGRAM_TITLE else "")  # which city the message is about
-MAX_ITEMS = 25
+MAX_ITEMS = 25         # listings per filter in one message run; a filter may set its own "max_items"
 LIMIT = 3900          # characters per message (Telegram: 4096), counted in UTF-16 units like Telegram
 DROP_DAYS = 3         # price drops newer than this are sent
 DROP_MIN, DROP_MAX = 0.01, 0.5  # smaller is noise, larger is a parsing slip
@@ -62,21 +63,16 @@ PORTAL = {"xe.gr": "XE", "spitogatos.gr": "Spitogatos", "spiti24.gr": "Spiti24",
           "plot.gr": "Plot", "indomio.gr": "Indomio", "t.me": "Telegram"}
 
 
-def floor_level(s):
-    t = (s or "").lower()
-    if re.search(r"ημιυπ", t):
-        return -1
-    if re.search(r"υπόγ|υπογ|basement", t):
-        return -2
-    if re.search(r"ημιόρ|ημιορ|ημιώρ|υπερυψ", t):
-        return 0.5
-    if re.search(r"ισόγ|ισογ|ground", t):
-        return 0
-    m = re.match(r"-?\d+", t.strip())
-    if not m:
-        return None
-    n = int(m.group(0))
-    return -2 if n < 0 else (n if n <= 12 else None)
+def floor_level(members):
+    """Level of the property: the first floor field of its listings, else a title that names it
+    (an alert e-mail has no floor field, its title may still say υπόγειο)."""
+    field = next((m for m in members if (m.get("floor") or "").strip()), None)
+    n = floor_code(field["floor"], field.get("title", "")) if field else None
+    for m in members if n is None else []:
+        n = floor_code("", m.get("title", ""))
+        if n is not None:
+            break
+    return n
 
 
 def num(x):
@@ -104,7 +100,7 @@ def summary(members):
     area = districts.AREAS[nb]["district"] if nb in districts.AREAS else first("area")
     return {"url": r["url"], "urls": {m["url"] for m in members}, "members": members, "tx": r["transaction"], "type": first("type"),
             "price": min(prices) if prices else None, "m2": num(first("area_m2")), "region": r["region"],
-            "area": area, "nb": nb, "floor": floor_level(first("floor")),
+            "area": area, "nb": nb, "floor": floor_level(members),
             # the region is confirmed when a listing of the group names the place itself (title, link,
             # place field, the page read again, its map point), not only guessed from the agency
             "region_ok": any(m.get("region_how") in ("listing", "page", "coordinates") or
@@ -159,7 +155,7 @@ def floor_ru(n):
 def line(p):
     place = districts.AREAS[p["nb"]]["ru"] if p["nb"] in districts.AREAS else DISTRICT_RU.get(p["area"], p["area"] or city.NAME_RU)
     bits = [f"{TYPE_RU.get(p['type'], 'объект')} {int(p['m2'])} м²" if p["m2"] else TYPE_RU.get(p["type"], "объект"),
-            floor_ru(p["floor"])]
+            floor_ru(p["floor"]) or ("этаж не указан" if p["type"] in ("apartment", "studio", "maisonette") else "")]
     price = f"{int(p['price']):,}".replace(",", " ") + (" €/мес" if p["tx"] == "rent" else " €") if p["price"] else "цена по запросу"
     extra = f", на {p['sites']} сайтах" if p["sites"] > 1 else ""
     return (f"• <b>{html_escape(place)}</b>, {', '.join(b for b in bits if b)} — <b>{price}</b>{vs_market(p)}{extra}\n"
@@ -345,12 +341,21 @@ def main():
         if run is None or (note and note["at"] >= run["at"] and note["delivered"] == note["messages"]):
             print("the last update is already sent: nothing to do", file=sys.stderr)
             return
-    filters = [f for f in json.load(open(FILTERS, encoding="utf-8"))["filters"] if f.get("enabled", True)]
+    conf = json.load(open(FILTERS, encoding="utf-8"))
+    filters = [f for f in conf["filters"] if f.get("enabled", True)]
     sent = set(open(STATE, encoding="utf-8").read().split()) if os.path.exists(STATE) else None
     drops_sent = set(open(DROP_STATE, encoding="utf-8").read().splitlines()) if os.path.exists(DROP_STATE) else set()
     props = [summary(m) for m in properties()]
     all_urls = {u for p in props for u in p["urls"]}
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    if conf.get("enabled", True) is False:
+        # the city's messages are switched off: what appears meanwhile counts as sent, so switching
+        # them on again sends only what is new from then on
+        if not a.dry_run:
+            open(STATE, "w", encoding="utf-8").write("\n".join(sorted(all_urls | (sent or set()))) + "\n")
+            log_delivery(0, 0, [], "messages off")
+        print("Telegram messages are switched off for this city (notify_filters.json enabled=false)", file=sys.stderr)
+        return
     if sent is None and not a.dry_run:
         # first run: remember everything that exists today, send nothing old, say hello
         chat = chat_id(token) if token else None
@@ -373,11 +378,12 @@ def main():
     blocks, new_drops, n_new, n_drop = [(f"🏠 <b>{TITLE}</b>: новое с прошлого обновления", [])], set(), 0, 0
     for f in filters:
         hits = sorted((p for p in new if matches(p, f)), key=lambda p: p["price"] or 1e12)
+        cap = f.get("max_items", MAX_ITEMS)
         if hits:
             n_new += len(hits)
             blocks.append((f"<b>{html_escape(f['name'])}</b>: {len(hits)} новых",
-                           [line(p) for p in hits[:MAX_ITEMS]] +
-                           ([f"…и ещё {len(hits) - MAX_ITEMS} — в поиске"] if len(hits) > MAX_ITEMS else [])))
+                           [line(p) for p in hits[:cap]] +
+                           ([f"…и ещё {len(hits) - cap} — в поиске"] if len(hits) > cap else [])))
         drops = []
         for p in props:
             if id(p) in new_ids or not matches(p, f):
