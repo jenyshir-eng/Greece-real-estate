@@ -23,6 +23,7 @@ IN_PORTALS = ["data/listings/listings_xe.csv",      # open portals collected by 
               "data/listings/listings_xe_profiles.csv",  # XE listings from agency pages (scripts/collect_xe_profiles.py)
               "data/listings/listings_ktimatoemporiki.csv",  # Ktimatoemporiki network (scripts/collect_ktimatoemporiki.py)
               "data/listings/listings_servicers.csv",  # bank (REO) and auction listings (scripts/collect_servicers.py)
+              "data/cloud/listings.csv",  # agency sites that refuse GitHub runners (scripts/cloud_collect.sh)
               "data/listings/listings_alerts.csv",  # portal alert emails (scripts/ingest_portal_alerts.py)
               "data/listings/listings_telegram.csv"]  # public Telegram channels (scripts/collect_telegram.py)
 PORTALS = ("xe.gr", "remax.gr", "spitogatos.gr", "spiti24.gr", "tospitimou.gr", "plot.gr", "indomio.gr", "t.me")

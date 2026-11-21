@@ -133,12 +133,17 @@ SERVICER_NAME = {"altamiraproperties.gr": "Altamira (doValue): банк и ау�
                  "reinvest.gr": "Cepal (reinvest.gr): банковские объекты", "reauction.gr": "REauction: аукционы"}
 
 
+# sites that refuse the GitHub runners, collected once a day from a Claude cloud session (scripts/cloud_collect.sh)
+CLOUD_REPORT = "data/cloud/collect_report.csv"
+
+
 def sources():
     """Sources tab: one row per site or portal with its listings in the base and how collection went."""
     count = {}
     for r in csv.DictReader(open("data/listings/listings_normalized.csv", encoding="utf-8")):
         count[r["source_domain"]] = count.get(r["source_domain"], 0) + 1
-    report = {r["domain"]: r for r in csv.DictReader(open("data/listings/collect_report.csv", encoding="utf-8"))}
+    report = {r["domain"]: r for p in ("data/listings/collect_report.csv", CLOUD_REPORT) if os.path.exists(p)
+              for r in csv.DictReader(open(p, encoding="utf-8"))}
     reg = list(csv.DictReader(open(city.REGISTRY, encoding="utf-8")))
     names = {r["domain"]: r["name"] for r in reg}
     out = []

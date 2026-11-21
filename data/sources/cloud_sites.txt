@@ -1,0 +1,31 @@
+# Agency sites that refuse the GitHub Actions runners (checked 2026-11-21: they open from other networks).
+# The daily update skips them; scripts/cloud_collect.sh collects them from a Claude cloud session.
+anastasiouproperties.gr
+basirealestate.gr
+bluestonerealty.gr
+chatzikos.gr
+civilhome.gr
+dimou-realestate.gr
+gaiarealty.gr
+home24realestate.gr
+home365gr.gr
+ikima.gr
+impereal.estate
+istosproperties.com
+kalivasestate.gr
+karanastasisrealestate.gr
+keramidogatosrealestate.gr
+kwnorth.gr
+liaggas-realestate.gr
+natiordanou.gr
+oikies.net
+oikodromio.com
+pantheo.gr
+pkrealtysolutions.com
+reinvest.gr
+remaxexcellence.gr
+simaestate.gr
+streetrealestate.gr
+thessmesiti.gr
+viestate.gr
+vourtisrealestate.gr
