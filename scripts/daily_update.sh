@@ -41,7 +41,7 @@ step remax python3 scripts/collect_remax_listings.py --coords 60 --max-minutes 2
 step ktimatoemporiki python3 scripts/collect_ktimatoemporiki.py --max-pages 400 || echo "WARNING: Ktimatoemporiki listings not updated" >&2
 step servicers python3 scripts/collect_servicers.py || echo "WARNING: bank / auction listings not updated" >&2
 step xe python3 scripts/collect_xe_profiles.py --max-minutes 20 || echo "WARNING: XE agency pages not updated" >&2
-step agencies python3 scripts/collect_listings.py --incremental --workers 25 || { echo "collection failed" >&2; exit 1; }
+step agencies python3 scripts/collect_listings.py --incremental --workers 25 --skip-domains data/sources/cloud_sites.txt || { echo "collection failed" >&2; exit 1; }
 step normalize python3 scripts/normalize_listings.py || exit 1
 # listings that only say "Θεσσαλονίκη": read the page once for the district, then normalize again
 step districts python3 scripts/refine_districts.py --max-pages 1500 || echo "WARNING: district check failed" >&2

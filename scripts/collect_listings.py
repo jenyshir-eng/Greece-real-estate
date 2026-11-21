@@ -575,8 +575,19 @@ def main():
     ap.add_argument("--forget-days", type=int, default=45, help="incremental: drop listings not seen for this long")
     ap.add_argument("--recheck-days", type=int, default=7, help="incremental: re-read every known listing this often")
     ap.add_argument("--max-recheck", type=int, default=150, help="incremental: re-read at most this many pages per site and run")
+    ap.add_argument("--skip-domains", help="file with domains not collected here (and dropped from the outputs): "
+                                           "sites collected elsewhere, see --out-dir")
+    ap.add_argument("--out-dir", help="write listings.csv, collect_report.csv, not_listings.txt and removed.csv "
+                                      "into this folder instead of data/listings (a run on another network)")
     a = ap.parse_args()
     import os
+    global OUT, REPORT, NOT_LISTINGS, REMOVED
+    if a.out_dir:
+        os.makedirs(a.out_dir, exist_ok=True)
+        OUT, REPORT, NOT_LISTINGS, REMOVED = (os.path.join(a.out_dir, n) for n in
+                                              ("listings.csv", "collect_report.csv", "not_listings.txt", "removed.csv"))
+    skip = {l.strip() for l in open(a.skip_domains) if l.strip() and not l.startswith("#")} \
+        if a.skip_domains and os.path.exists(a.skip_domains) else set()
     known_by_site = {}
     if a.incremental:
         if a.per_site == 30:
@@ -589,11 +600,11 @@ def main():
             if r.get("found_url"):
                 k[r["found_url"]] = r  # the link on the site redirects to r["url"]
     ignore = set(open(NOT_LISTINGS, encoding="utf-8").read().split()) if os.path.exists(NOT_LISTINGS) else set()
-    only = {l.strip() for l in open(a.domains)} if a.domains else None
+    only = {l.strip() for l in open(a.domains) if l.strip() and not l.startswith("#")} if a.domains else None
     rows, seen = [], set()
     for r in csv.DictReader(open(REGISTRY, encoding="utf-8")):
         if r["site_status"] == "ok" and r["has_listings"] == "yes" and r["robots_ok"] != "explicit_no" \
-                and r["domain"] not in seen and (only is None or r["domain"] in only):
+                and r["domain"] not in seen and r["domain"] not in skip and (only is None or r["domain"] in only):
             seen.add(r["domain"])
             rows.append(r)
     if a.sites:
@@ -638,15 +649,16 @@ def main():
     if a.incremental and only is None:
         # sites not collected today (left the registry filter, or --sites limit) keep their listings
         done_sites = {r["domain"] for r in reports}
-        listings = [r for d, recs in known_by_site.items() if d not in done_sites for r in recs.values()] + listings
-        old_rep = [r for r in csv.DictReader(open(REPORT, encoding="utf-8")) if r["domain"] not in done_sites] \
+        listings = [r for d, recs in known_by_site.items() if d not in done_sites | skip for r in recs.values()] + listings
+        old_rep = [r for r in csv.DictReader(open(REPORT, encoding="utf-8")) if r["domain"] not in done_sites | skip] \
             if os.path.exists(REPORT) else []
         for r in old_rep:
             r["parsed"] = int(r["parsed"])
         reports += old_rep
     if only is not None and os.path.exists(OUT):
         listings = [r for r in csv.DictReader(open(OUT, encoding="utf-8")) if r["source_domain"] not in only] + listings
-        reports = [r for r in csv.DictReader(open(REPORT, encoding="utf-8")) if r["domain"] not in only] + reports
+        reports = [r for r in csv.DictReader(open(REPORT, encoding="utf-8")) if r["domain"] not in only] + reports \
+            if os.path.exists(REPORT) else reports
         for r in reports:
             r["parsed"] = int(r["parsed"])
     with open(OUT, "w", newline="", encoding="utf-8") as f:
