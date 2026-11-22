@@ -5409,3 +5409,39 @@ date,source_domain,url,reason
 2026-11-22,goldenhome.gr,https://goldenhome.gr/property/view/537964,sold / not available
 2026-11-22,goldenhome.gr,https://goldenhome.gr/property/view/385686,sold / not available
 2026-11-22,goldenhome.gr,https://goldenhome.gr/property/view/541291,sold / not available
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6e75e07d-909f-4108-aae8-9429a4484e54/thessalonikh-papafeio-500-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/6f3fcb3c-4b74-4a8f-b2c1-4d54f3d80364/peraia-300-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/700f4746-73bc-4a03-8cc8-60d08d44872d/thessalonikh-katw-toympa-600-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/7e9355fa-68fc-421e-9f33-82bb48764b6d/triandria-350-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/85e69939-fc0e-40e7-ae57-efc451e427dc/thessalonikh-kentro-500-60,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/874ae9c3-a44a-44b8-b505-dd061ec6fded/thessalonikh-analhpsh-1200-133,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8827105e-42b4-4ce4-a5d8-46dd7b7f2f4e/thessalonikh-kentro-850-69,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/8c596149-efae-4b3a-9b62-d287ce7c4725/thessalonikh-falhro-460-27,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/93bede2f-549c-42f7-a347-09c8be7e879f/thessalonikh-anw-toympa-550-57,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/a25e461e-6ce9-43fe-92e7-d806555ad7d2/pylaia-1200-110,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/b3c16835-19e5-4032-aba2-d0c17e220b77/thessalonikh-charilaoy-600-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c0fe2572-43ae-4fdd-8d38-faf6850cc227/thessalonikh-katw-toympa-390-35,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c101a574-0071-42f5-a8fc-ba8d460b6393/pylaia-400-40,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c32a103e-0045-4c5f-8768-c9ca816ffa50/kalamaria-680-50,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/c75ac20e-3857-4950-bedb-d3148f58065a/thessalonikh-kentro-1200-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/cf1119bf-86ed-41fa-8a1e-1fc4a87203ec/thessalonikh-ntepw-1100-140,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123410,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/119546,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/121362,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/119125,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123408,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123336,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123271,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123568,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122807,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/123460,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122242,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122241,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122240,http 404
+2026-11-22,arcusrealestate.gr,https://arcusrealestate.gr/el/properties/122183,http 404
+2026-11-22,dovile.gr,https://dovile.gr/el/property/1862,http 404
+2026-11-22,katikia.com.gr,https://katikia.com.gr/el/property/2529,http 404
+2026-11-22,goldenhome.gr,https://goldenhome.gr/property/view/538542,sold / not available
+2026-11-22,goldenhome.gr,https://goldenhome.gr/property/view/520028,sold / not available
+2026-11-22,goldenhome.gr,https://goldenhome.gr/property/view/543601,sold / not available
+2026-11-22,goldenhome.gr,https://goldenhome.gr/property/view/543569,sold / not available
