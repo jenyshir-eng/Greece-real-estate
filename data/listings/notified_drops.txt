@@ -14,6 +14,7 @@ https://arcusrealestate.gr/el/properties/123086	122000
 https://arcusrealestate.gr/el/properties/123344	148000
 https://casanova.com.gr/el/property/544529	70000
 https://casanova.com.gr/el/property/545116	83000
+https://casanova.com.gr/el/property/545125	70000
 https://civilhome.gr/akinito/diamerisma-132-t-m-kalamaria/	260000
 https://diamanti.realestate/property/6723	335000
 https://domisisproperties.gr/property/3019	98000
@@ -26,6 +27,8 @@ https://lrealestate.gr/property.php?id=2173	58000
 https://marketplace.altamiraproperties.gr/listings/11475	130000
 https://marketplace.intrum.gr/listings/1914	178000
 https://marketplace.intrum.gr/listings/2397	90000
+https://marketplace.intrum.gr/listings/481	122000
+https://marketplace.intrum.gr/listings/75	181000
 https://mesitiki.net/el/property/3086	305000
 https://monopoly.com.gr/el/property/97445	70000
 https://monopoly.com.gr/el/property/97445	72000
@@ -82,6 +85,7 @@ https://www.liaggas-realestate.gr/el/akinito/20451222	580000
 https://www.liaggas-realestate.gr/el/akinito/20556277	420000
 https://www.liaggas-realestate.gr/el/akinito/20582873	98000
 https://www.maddrealestate.gr/property/1077	85000
+https://www.maddrealestate.gr/property/998	73000
 https://www.mesitiko-filon.gr/property/654	75000
 https://www.oikein.gr/property/5543	100000
 https://www.oikein.gr/property/5543	96000
@@ -92,6 +96,7 @@ https://www.olympusrealestate.gr/property.php?id=51753	88000
 https://www.olympusrealestate.gr/property.php?id=51757	88000
 https://www.olympusrealestate.gr/property.php?id=51767	88000
 https://www.olympusrealestate.gr/property.php?id=51772	100000
+https://www.olympusrealestate.gr/property.php?id=51773	135000
 https://www.olympusrealestate.gr/property.php?id=51784	88000
 https://www.omikronestate.gr/property/513	85000
 https://www.omikronestate.gr/property/527	87000
@@ -109,6 +114,7 @@ https://www.remax.gr/property/392463-polisi-diamerisma-foinikas	70000
 https://www.remax.gr/property/393399-polisi-loft-dhmarxeioy	59000
 https://www.remax.gr/property/394615-polisi-mezoneta-pente-bryses	90000
 https://www.remax.gr/property/395801-polisi-diamerisma-agios-dhmhtrios	149000
+https://www.remax.gr/property/398804-polisi-diamerisma-kentro-8essalonikh	230000
 https://www.remax.gr/property/402985-polisi-mezoneta-kentro	99000
 https://www.remax.gr/property/404483-polisi-diamerisma-eyosmos	95000
 https://www.remax.gr/property/404483-polisi-diamerisma-eyosmos	98000
@@ -127,6 +133,7 @@ https://www.spitogatos.gr/aggelia/1119866703	64000
 https://www.spitogatos.gr/aggelia/1120279598	100000
 https://www.spitogatos.gr/aggelia/1120705313	70000
 https://www.spitogatos.gr/aggelia/1120729506	58000
+https://www.spitogatos.gr/aggelia/1120793720	210000
 https://www.spitogatos.gr/aggelia/1120867795	60000
 https://www.spitogatos.gr/aggelia/1120880406	97000
 https://www.spitogatos.gr/aggelia/1120943603	64000
