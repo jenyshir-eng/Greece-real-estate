@@ -5100,3 +5100,102 @@ date,source_domain,url,reason
 2026-11-23,luxliving.gr,https://www.luxliving.gr/property/2369,http 404
 2026-11-23,goldenhome.gr,https://goldenhome.gr/property/view/541308,sold / not available
 2026-11-23,goldenhome.gr,https://goldenhome.gr/property/view/438543,sold / not available
+2026-11-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d2d6c99f-a946-40df-9797-607bbbb4b6a6/khfisia-kefalari-3700-315,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d32b271e-f32c-4e27-afe9-163b8c2d2314/athhna-kolwnaki-600-22,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d4a87b39-e15d-4047-b18d-856b76f8992f/alimos-kythhriwn-pani-1600-123,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d54d59ee-69f9-4eb3-b878-bf3eeadcefb7/athhna-profhths-hlias-450-45,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d874e268-1649-48e5-bbe6-3aadb281f540/athhna-plateia-amerikhs-650-86,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/d95dfe67-8507-4dde-91da-5fbe9b4a5c17/vyrwnas-nea-elvetia-690-115,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/daa35016-c31c-4092-9e8c-410b438545e7/athhna-varnava-1050-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-23,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/daedf8e6-6cc5-4ec7-9db4-6ea07a3616ed/gerakas-kentro-960-90,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-23,connectproperty.gr,https://www.connectproperty.gr/property/613,http 410
+2026-11-23,connectproperty.gr,https://www.connectproperty.gr/property/617,http 410
+2026-11-23,connectproperty.gr,https://www.connectproperty.gr/property/618,http 410
+2026-11-23,magnaestate.gr,https://www.magnaestate.gr/property/2558,http 410
+2026-11-23,magnaestate.gr,https://www.magnaestate.gr/property/2627,http 410
+2026-11-23,magnaestate.gr,https://www.magnaestate.gr/property/2545,http 410
+2026-11-23,ependytiki.gr,https://www.ependytiki.gr/property/27593,http 410
+2026-11-23,ependytiki.gr,https://www.ependytiki.gr/property/27707,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11002,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11000,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11005,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11013,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11011,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11016,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11017,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11018,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/11015,http 410
+2026-11-23,politia.com.gr,https://politia.com.gr/property/9909,http 410
+2026-11-23,grecahouse.com,https://grecahouse.com/el/properties/108500-diamerisma-kallithea-40sqm,http 404
+2026-11-23,remax-fb.gr,https://remax-fb.gr/property/6457/Katastima-Kentro,http 410
+2026-11-23,rep.gr,https://www.rep.gr/property/12830,http 410
+2026-11-23,rep.gr,https://www.rep.gr/property/12857,http 410
+2026-11-23,rep.gr,https://www.rep.gr/property/12812,http 410
+2026-11-23,lionrealestate.gr,https://www.lionrealestate.gr/property/11069,http 410
+2026-11-23,lionrealestate.gr,https://www.lionrealestate.gr/property/12047,http 410
+2026-11-23,lionrealestate.gr,https://www.lionrealestate.gr/property/9782,http 410
+2026-11-23,metroland.gr,https://metroland.gr/property/548537,http 410
+2026-11-23,metroland.gr,https://metroland.gr/property/548545,http 410
+2026-11-23,metroland.gr,https://metroland.gr/property/548547,http 410
+2026-11-23,metroland.gr,https://metroland.gr/property/548478,http 410
+2026-11-23,metroland.gr,https://metroland.gr/property/548568,http 410
+2026-11-23,metroland.gr,https://metroland.gr/property/548576,http 410
+2026-11-23,ambassador.estate,https://www.ambassador.estate/property/509/Diamerisma-Buronas,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1986/Biotechnikos%20Choros-Metamorfosi?language=ru,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/print/1986,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1982/Katastima-Metamorfosi,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1984/Biotechnikos%20Choros-Metamorfosi,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1986/Biotechnikos%20Choros-Metamorfosi,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1982/Katastima-Metamorfosi?language=gr,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1982/Katastima-Metamorfosi?language=en,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1982/Katastima-Metamorfosi?language=de,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1982/Katastima-Metamorfosi?language=se,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1982/Katastima-Metamorfosi?language=bg,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1982/Katastima-Metamorfosi?language=ru,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/print/1982,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1984/Biotechnikos%20Choros-Metamorfosi?language=gr,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1984/Biotechnikos%20Choros-Metamorfosi?language=en,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1984/Biotechnikos%20Choros-Metamorfosi?language=de,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1984/Biotechnikos%20Choros-Metamorfosi?language=se,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1984/Biotechnikos%20Choros-Metamorfosi?language=bg,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/property/1984/Biotechnikos%20Choros-Metamorfosi?language=ru,http 410
+2026-11-23,mellonproperties.gr,https://www.mellonproperties.gr/print/1984,http 410
+2026-11-23,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/18969,http 410
+2026-11-23,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/18962,http 410
+2026-11-23,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/18961,http 410
+2026-11-23,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/18978,http 410
+2026-11-23,giakoumidisproperties.gr,https://www.giakoumidisproperties.gr/property/323,http 410
+2026-11-23,giakoumidisproperties.gr,https://www.giakoumidisproperties.gr/property/494,http 410
+2026-11-23,giakoumidisproperties.gr,https://www.giakoumidisproperties.gr/property/468,http 410
+2026-11-23,projecthomerealestate.gr,https://www.projecthomerealestate.gr/property/23126,http 410
+2026-11-23,intercasa.gr,https://intercasa.gr/property/3956,http 410
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1081?language=fr,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1081?language=de,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1081?language=se,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1081?language=ru,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/print/1081,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1081?language=bg,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1088,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1085,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1086,http 410
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1087,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1082?language=gr,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1082?language=en,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1082?language=fr,http 404
+2026-11-23,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/1082?language=de,http 404
+2026-11-23,oikostegastiki.gr,https://www.oikostegastiki.gr/property/370358,http 404
+2026-11-23,oikostegastiki.gr,https://www.oikostegastiki.gr/property/370353,http 404
+2026-11-23,akinitalachanas.gr,https://akinitalachanas.gr/property/4905?language=bg,http 410
+2026-11-23,akinitalachanas.gr,https://akinitalachanas.gr/property/4905?language=ru,http 410
+2026-11-23,akinitalachanas.gr,https://akinitalachanas.gr/print/4905,http 410
+2026-11-23,akinitalachanas.gr,https://akinitalachanas.gr/property/4920,http 410
+2026-11-23,charokopos.gr,https://www.charokopos.gr/property/1546,http 410
+2026-11-23,charokopos.gr,https://www.charokopos.gr/property/1563,http 404
+2026-11-23,charokopos.gr,https://www.charokopos.gr/property/1584,http 410
+2026-11-23,connectionrealestate.gr,https://www.connectionrealestate.gr/property/480,http 410
+2026-11-23,nikolaidisestate.gr,https://www.nikolaidisestate.gr/property/4177,http 410
+2026-11-23,goldenhome.gr,https://goldenhome.gr/property/view/542259,sold / not available
+2026-11-23,goldenhome.gr,https://goldenhome.gr/property/view/522341,sold / not available
+2026-11-23,goldenhome.gr,https://goldenhome.gr/property/view/266882,sold / not available
+2026-11-23,goldenhome.gr,https://goldenhome.gr/property/view/533110,sold / not available
+2026-11-23,goldenhome.gr,https://goldenhome.gr/property/view/39265,sold / not available
