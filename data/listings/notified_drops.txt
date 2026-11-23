@@ -70,6 +70,7 @@ https://www.ellasestate.com/property/for-sale-apartment-2-2-k1-118-19-m%c2%b2-in
 https://www.ellasestate.com/property/for-sale-maisonette-3-2-k1-176-96-m%c2%b2-in-kalamaria-thessaloniki/	185000
 https://www.ellasestate.com/rs/property/for-sale-apartment-115-sq-m-in-the-center-of-thessaloniki/	235000
 https://www.ellasestate.com/rs/property/for-sale-apartment-2-2-k1-118-19-m%c2%b2-in-kalamaria-thessaloniki/	375000
+https://www.fithome.gr/property.php?id=1016	190000
 https://www.forhomerealestate.gr/el-GR/id/24986/__pros-polisi-katikia-diamerisma-thessaloniki-kentro-thessaloniki/estate.html	165000
 https://www.greenandgrey.gr/property/2947	75000
 https://www.greenandgrey.gr/property/2947	77000
@@ -89,6 +90,7 @@ https://www.maddrealestate.gr/property/998	73000
 https://www.mesitiko-filon.gr/property/654	75000
 https://www.oikein.gr/property/5543	100000
 https://www.oikein.gr/property/5543	96000
+https://www.olympusrealestate.gr/property.php?id=12913	135000
 https://www.olympusrealestate.gr/property.php?id=16892	88000
 https://www.olympusrealestate.gr/property.php?id=50433	150000
 https://www.olympusrealestate.gr/property.php?id=51679	88000
@@ -112,10 +114,12 @@ https://www.remax.gr/property/384276-polisi-diamerisma-anw-polh	97000
 https://www.remax.gr/property/391744-polisi-gkarsoniera-studio-anw-anagennhsh	95000
 https://www.remax.gr/property/392463-polisi-diamerisma-foinikas	70000
 https://www.remax.gr/property/393399-polisi-loft-dhmarxeioy	59000
+https://www.remax.gr/property/393910-polisi-gkarsoniera-studio-martioy	90000
 https://www.remax.gr/property/394615-polisi-mezoneta-pente-bryses	90000
 https://www.remax.gr/property/395801-polisi-diamerisma-agios-dhmhtrios	149000
 https://www.remax.gr/property/398804-polisi-diamerisma-kentro-8essalonikh	230000
 https://www.remax.gr/property/402985-polisi-mezoneta-kentro	99000
+https://www.remax.gr/property/403916-polisi-gkarsoniera-studio-katw-toympa	135000
 https://www.remax.gr/property/404483-polisi-diamerisma-eyosmos	95000
 https://www.remax.gr/property/404483-polisi-diamerisma-eyosmos	98000
 https://www.remax.gr/property/406994-polisi-diamerisma-panagia-fanerwmenh	85000
@@ -172,5 +176,7 @@ https://www.tospitimou.gr/akinito/21056675	84000
 https://www.viestate.gr/el/akinito/21305608	375000
 https://www.xe.gr/property/d/poliseis-katoikion/1f06c2fd-bd53-41d0-9398-17c4de2167cb/thessalonikh-analhpsh-99000-40	85000
 https://www.xe.gr/property/d/poliseis-katoikion/2912e156-88f9-418e-89c4-dd407ea705ff/sindos-130000-85	120000
+https://www.xe.gr/property/d/poliseis-katoikion/2f872d98-6c52-4a10-80b9-144698959ab4/thessalonikh-kentro-125000-46	115000
+https://www.xe.gr/property/d/poliseis-katoikion/321b5465-6f11-4718-9b09-6169bb489130/thessalonikh-triandria-175000-58	170000
 https://www.xe.gr/property/d/poliseis-katoikion/988b83b4-f1e6-4944-a04f-3704db053e2e/neapolh-127000-107	117000
 https://www.xe.gr/property/d/poliseis-katoikion/ef3ce24f-5750-4a84-b98f-c25852e4a2ee/thessalonikh-falhro-95000-75	90000
