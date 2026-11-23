@@ -1,5 +1,6 @@
 url,date,price_eur
 https://akinitalachanas.gr/property/3178,2026-10-02,400
+https://akinitalachanas.gr/property/3244,2026-11-23,450
 https://akinitalachanas.gr/property/3611,2026-11-02,225000
 https://akinitalachanas.gr/property/3618,2026-11-10,700
 https://akinitalachanas.gr/property/3620,2026-10-05,180000
@@ -207,6 +208,8 @@ https://attikahome.com/property.php?id=1459,2026-11-10,180000
 https://attikahome.com/property.php?id=1461,2026-11-10,20000
 https://attikahome.com/property.php?id=1464,2026-11-16,94000
 https://attikahome.com/property.php?id=1465,2026-11-20,400
+https://attikahome.com/property.php?id=1466,2026-11-23,430
+https://attikahome.com/property.php?id=1467,2026-11-23,90000
 https://attikahome.com/property.php?id=195,2026-10-02,700000
 https://attikahome.com/property.php?id=271,2026-10-03,600000
 https://attikahome.com/property.php?id=342,2026-10-03,360000
@@ -715,6 +718,7 @@ https://dias-realestate.gr/property.php?id=2104,2026-11-17,97000
 https://dias-realestate.gr/property.php?id=2157,2026-10-02,300
 https://dias-realestate.gr/property.php?id=2175,2026-11-02,400
 https://dias-realestate.gr/property.php?id=2209,2026-10-02,550
+https://dias-realestate.gr/property.php?id=2263,2026-11-23,350
 https://dias-realestate.gr/property.php?id=2316,2026-10-02,250
 https://dias-realestate.gr/property.php?id=2342,2026-10-02,220
 https://dias-realestate.gr/property.php?id=2395,2026-10-02,500
@@ -970,6 +974,7 @@ https://goldenhome.gr/property/view/125442,2026-10-23,1100000
 https://goldenhome.gr/property/view/126641,2026-11-11,198000
 https://goldenhome.gr/property/view/129728,2026-11-14,270000
 https://goldenhome.gr/property/view/129902,2026-10-31,750000
+https://goldenhome.gr/property/view/129902,2026-11-23,800000
 https://goldenhome.gr/property/view/129903,2026-11-13,3500
 https://goldenhome.gr/property/view/130798,2026-10-23,2000000
 https://goldenhome.gr/property/view/130799,2026-10-23,1200000
@@ -1124,6 +1129,7 @@ https://goldenhome.gr/property/view/226556,2026-10-16,500000
 https://goldenhome.gr/property/view/226587,2026-10-12,178000
 https://goldenhome.gr/property/view/226628,2026-11-18,50000
 https://goldenhome.gr/property/view/226927,2026-11-13,440000
+https://goldenhome.gr/property/view/227036,2026-11-23,38000
 https://goldenhome.gr/property/view/227179,2026-10-08,150000
 https://goldenhome.gr/property/view/227388,2026-10-07,130000
 https://goldenhome.gr/property/view/227467,2026-11-16,2600000
@@ -1270,6 +1276,7 @@ https://goldenhome.gr/property/view/267280,2026-10-24,60000
 https://goldenhome.gr/property/view/267527,2026-10-19,170000
 https://goldenhome.gr/property/view/267683,2026-11-06,240000
 https://goldenhome.gr/property/view/267702,2026-11-15,145000
+https://goldenhome.gr/property/view/267823,2026-11-23,1160000
 https://goldenhome.gr/property/view/267828,2026-11-11,1600000
 https://goldenhome.gr/property/view/267879,2026-11-03,1175000
 https://goldenhome.gr/property/view/268152,2026-10-09,105000
@@ -1908,6 +1915,7 @@ https://goldenhome.gr/property/view/399879,2026-10-08,100000
 https://goldenhome.gr/property/view/400102,2026-11-02,28000
 https://goldenhome.gr/property/view/400322,2026-11-19,110000
 https://goldenhome.gr/property/view/400625,2026-10-23,100000
+https://goldenhome.gr/property/view/400750,2026-11-23,22000
 https://goldenhome.gr/property/view/400853,2026-10-14,325000
 https://goldenhome.gr/property/view/400903,2026-11-01,850000
 https://goldenhome.gr/property/view/400956,2026-10-13,135000
@@ -1938,6 +1946,7 @@ https://goldenhome.gr/property/view/403814,2026-10-22,74000
 https://goldenhome.gr/property/view/403875,2026-10-07,120000
 https://goldenhome.gr/property/view/404123,2026-10-17,11000
 https://goldenhome.gr/property/view/404156,2026-11-10,725000
+https://goldenhome.gr/property/view/404281,2026-11-23,320000
 https://goldenhome.gr/property/view/404285,2026-11-09,350000
 https://goldenhome.gr/property/view/404299,2026-11-07,120000
 https://goldenhome.gr/property/view/404545,2026-10-22,409000
@@ -2619,6 +2628,7 @@ https://goldenhome.gr/property/view/462201,2026-10-13,1200000
 https://goldenhome.gr/property/view/462282,2026-10-17,160000
 https://goldenhome.gr/property/view/462322,2026-11-11,490000
 https://goldenhome.gr/property/view/462496,2026-10-31,58500
+https://goldenhome.gr/property/view/462652,2026-11-23,160000
 https://goldenhome.gr/property/view/462858,2026-11-03,31000
 https://goldenhome.gr/property/view/462867,2026-10-07,395000
 https://goldenhome.gr/property/view/462882,2026-11-12,310000
@@ -2646,6 +2656,9 @@ https://goldenhome.gr/property/view/463885,2026-10-09,740000
 https://goldenhome.gr/property/view/463901,2026-11-20,88000
 https://goldenhome.gr/property/view/463969,2026-10-20,550000
 https://goldenhome.gr/property/view/464028,2026-11-13,280000
+https://goldenhome.gr/property/view/464031,2026-11-23,85000
+https://goldenhome.gr/property/view/464033,2026-11-23,105000
+https://goldenhome.gr/property/view/464035,2026-11-23,175000
 https://goldenhome.gr/property/view/464124,2026-11-06,165000
 https://goldenhome.gr/property/view/464151,2026-10-06,490000
 https://goldenhome.gr/property/view/464169,2026-11-20,110000
@@ -2896,6 +2909,7 @@ https://goldenhome.gr/property/view/477375,2026-10-31,600
 https://goldenhome.gr/property/view/477459,2026-10-19,400000
 https://goldenhome.gr/property/view/477481,2026-10-14,160000
 https://goldenhome.gr/property/view/477510,2026-11-10,1300000
+https://goldenhome.gr/property/view/477539,2026-11-23,170000
 https://goldenhome.gr/property/view/477638,2026-10-12,4900000
 https://goldenhome.gr/property/view/478084,2026-10-20,250000
 https://goldenhome.gr/property/view/478215,2026-11-01,210000
@@ -2948,6 +2962,7 @@ https://goldenhome.gr/property/view/480467,2026-11-14,380000
 https://goldenhome.gr/property/view/480477,2026-11-14,290000
 https://goldenhome.gr/property/view/480588,2026-11-05,950000
 https://goldenhome.gr/property/view/480774,2026-11-03,300000
+https://goldenhome.gr/property/view/480781,2026-11-23,250000
 https://goldenhome.gr/property/view/480809,2026-11-07,90000
 https://goldenhome.gr/property/view/480853,2026-10-12,29000
 https://goldenhome.gr/property/view/480864,2026-10-07,571500
@@ -3159,6 +3174,7 @@ https://goldenhome.gr/property/view/490895,2026-11-06,1100000
 https://goldenhome.gr/property/view/490904,2026-11-17,200000
 https://goldenhome.gr/property/view/490970,2026-10-27,20000
 https://goldenhome.gr/property/view/490997,2026-10-14,295000
+https://goldenhome.gr/property/view/491082,2026-11-23,580000
 https://goldenhome.gr/property/view/491098,2026-10-13,395000
 https://goldenhome.gr/property/view/491098,2026-10-15,425000
 https://goldenhome.gr/property/view/491102,2026-11-03,90000
@@ -3459,6 +3475,7 @@ https://goldenhome.gr/property/view/502958,2026-10-19,290000
 https://goldenhome.gr/property/view/503016,2026-11-10,450000
 https://goldenhome.gr/property/view/503034,2026-10-07,220000
 https://goldenhome.gr/property/view/503037,2026-10-14,780
+https://goldenhome.gr/property/view/503037,2026-11-23,720
 https://goldenhome.gr/property/view/503058,2026-11-09,12000000
 https://goldenhome.gr/property/view/503126,2026-11-01,240000
 https://goldenhome.gr/property/view/503157,2026-10-27,165000
@@ -3879,6 +3896,7 @@ https://goldenhome.gr/property/view/514442,2026-10-25,495000
 https://goldenhome.gr/property/view/514479,2026-11-03,205000
 https://goldenhome.gr/property/view/514524,2026-11-18,325000
 https://goldenhome.gr/property/view/514531,2026-10-21,170000
+https://goldenhome.gr/property/view/514543,2026-11-23,2600000
 https://goldenhome.gr/property/view/514549,2026-10-16,155000
 https://goldenhome.gr/property/view/514561,2026-11-16,1300000
 https://goldenhome.gr/property/view/514562,2026-10-09,60000
@@ -4319,6 +4337,7 @@ https://goldenhome.gr/property/view/524010,2026-11-06,220000
 https://goldenhome.gr/property/view/524084,2026-10-29,130000
 https://goldenhome.gr/property/view/524116,2026-10-12,600000
 https://goldenhome.gr/property/view/524153,2026-11-05,120000
+https://goldenhome.gr/property/view/524156,2026-11-23,212000
 https://goldenhome.gr/property/view/524184,2026-11-08,700000
 https://goldenhome.gr/property/view/524188,2026-10-22,520000
 https://goldenhome.gr/property/view/524194,2026-10-05,129000
@@ -4425,6 +4444,7 @@ https://goldenhome.gr/property/view/526195,2026-11-10,445000
 https://goldenhome.gr/property/view/526226,2026-10-20,520000
 https://goldenhome.gr/property/view/526229,2026-11-16,195000
 https://goldenhome.gr/property/view/526238,2026-10-09,135000
+https://goldenhome.gr/property/view/526253,2026-11-23,110000
 https://goldenhome.gr/property/view/526266,2026-11-02,65000
 https://goldenhome.gr/property/view/526294,2026-11-14,170000
 https://goldenhome.gr/property/view/526294,2026-11-23,135000
@@ -4610,6 +4630,7 @@ https://goldenhome.gr/property/view/529230,2026-10-15,185000
 https://goldenhome.gr/property/view/529266,2026-11-11,80000
 https://goldenhome.gr/property/view/529267,2026-10-13,328250
 https://goldenhome.gr/property/view/529293,2026-10-16,57000
+https://goldenhome.gr/property/view/529294,2026-11-23,190000
 https://goldenhome.gr/property/view/529315,2026-11-20,215000
 https://goldenhome.gr/property/view/529317,2026-10-24,850
 https://goldenhome.gr/property/view/529340,2026-10-08,80000
@@ -4743,6 +4764,7 @@ https://goldenhome.gr/property/view/531299,2026-10-06,225000
 https://goldenhome.gr/property/view/531300,2026-10-09,60000
 https://goldenhome.gr/property/view/531317,2026-11-02,140000
 https://goldenhome.gr/property/view/531331,2026-10-14,120000
+https://goldenhome.gr/property/view/531374,2026-11-23,190000
 https://goldenhome.gr/property/view/531380,2026-10-29,200000
 https://goldenhome.gr/property/view/531387,2026-10-14,75000
 https://goldenhome.gr/property/view/531395,2026-10-18,78000
@@ -4861,6 +4883,7 @@ https://goldenhome.gr/property/view/532782,2026-11-15,155000
 https://goldenhome.gr/property/view/532784,2026-11-21,130000
 https://goldenhome.gr/property/view/532802,2026-10-26,180000
 https://goldenhome.gr/property/view/532810,2026-10-22,225000
+https://goldenhome.gr/property/view/532810,2026-11-23,215000
 https://goldenhome.gr/property/view/532829,2026-10-08,360000
 https://goldenhome.gr/property/view/532843,2026-10-06,200000
 https://goldenhome.gr/property/view/532855,2026-10-26,89000
@@ -4990,6 +5013,7 @@ https://goldenhome.gr/property/view/534683,2026-10-13,250000
 https://goldenhome.gr/property/view/534696,2026-10-18,110000
 https://goldenhome.gr/property/view/534731,2026-10-10,85000
 https://goldenhome.gr/property/view/534745,2026-10-15,730000
+https://goldenhome.gr/property/view/534775,2026-11-23,385000
 https://goldenhome.gr/property/view/534834,2026-11-14,148000
 https://goldenhome.gr/property/view/534875,2026-11-11,65000
 https://goldenhome.gr/property/view/534895,2026-10-13,220000
@@ -5249,6 +5273,7 @@ https://goldenhome.gr/property/view/537244,2026-10-21,660
 https://goldenhome.gr/property/view/537244,2026-11-08,630
 https://goldenhome.gr/property/view/537257,2026-10-12,150000
 https://goldenhome.gr/property/view/537262,2026-10-13,180000
+https://goldenhome.gr/property/view/537267,2026-11-23,150000
 https://goldenhome.gr/property/view/537273,2026-10-16,62000
 https://goldenhome.gr/property/view/537293,2026-11-04,120000
 https://goldenhome.gr/property/view/537306,2026-10-20,230000
@@ -5257,6 +5282,7 @@ https://goldenhome.gr/property/view/537312,2026-10-12,50000
 https://goldenhome.gr/property/view/537330,2026-10-21,580
 https://goldenhome.gr/property/view/537340,2026-11-11,160000
 https://goldenhome.gr/property/view/537347,2026-10-13,50000
+https://goldenhome.gr/property/view/537375,2026-11-23,850000
 https://goldenhome.gr/property/view/537385,2026-10-08,110000
 https://goldenhome.gr/property/view/537387,2026-10-14,250000
 https://goldenhome.gr/property/view/537395,2026-10-21,160000
@@ -5299,6 +5325,7 @@ https://goldenhome.gr/property/view/537668,2026-10-08,52000
 https://goldenhome.gr/property/view/537668,2026-11-14,49000
 https://goldenhome.gr/property/view/537689,2026-10-09,145000
 https://goldenhome.gr/property/view/537691,2026-10-06,4000000
+https://goldenhome.gr/property/view/537714,2026-11-23,68000
 https://goldenhome.gr/property/view/537715,2026-10-13,170000
 https://goldenhome.gr/property/view/537728,2026-10-21,520000
 https://goldenhome.gr/property/view/537728,2026-10-30,530000
@@ -5318,6 +5345,7 @@ https://goldenhome.gr/property/view/537892,2026-11-20,155000
 https://goldenhome.gr/property/view/537893,2026-10-11,1700
 https://goldenhome.gr/property/view/537896,2026-10-11,2150
 https://goldenhome.gr/property/view/537913,2026-11-13,170000
+https://goldenhome.gr/property/view/537933,2026-11-23,946000
 https://goldenhome.gr/property/view/537957,2026-10-17,2000
 https://goldenhome.gr/property/view/537958,2026-10-20,98000
 https://goldenhome.gr/property/view/537964,2026-11-12,132000
@@ -5637,6 +5665,7 @@ https://goldenhome.gr/property/view/539662,2026-11-06,120000
 https://goldenhome.gr/property/view/539663,2026-10-09,300000
 https://goldenhome.gr/property/view/539665,2026-10-15,790
 https://goldenhome.gr/property/view/539667,2026-11-16,305000
+https://goldenhome.gr/property/view/539677,2026-11-23,2200
 https://goldenhome.gr/property/view/539682,2026-10-02,60000
 https://goldenhome.gr/property/view/539684,2026-10-27,390000
 https://goldenhome.gr/property/view/539687,2026-10-07,109000
@@ -6884,6 +6913,7 @@ https://goldenhome.gr/property/view/543693,2026-11-11,340000
 https://goldenhome.gr/property/view/543696,2026-11-11,1000
 https://goldenhome.gr/property/view/543698,2026-10-30,850000
 https://goldenhome.gr/property/view/543700,2026-11-02,150000
+https://goldenhome.gr/property/view/543710,2026-11-23,1500
 https://goldenhome.gr/property/view/543713,2026-11-05,88000
 https://goldenhome.gr/property/view/543714,2026-11-14,90000
 https://goldenhome.gr/property/view/543719,2026-11-02,130000
@@ -7096,6 +7126,7 @@ https://goldenhome.gr/property/view/544453,2026-11-04,263000
 https://goldenhome.gr/property/view/544463,2026-11-09,316000
 https://goldenhome.gr/property/view/544464,2026-11-10,263000
 https://goldenhome.gr/property/view/544470,2026-11-10,264000
+https://goldenhome.gr/property/view/544472,2026-11-23,165000
 https://goldenhome.gr/property/view/544478,2026-11-16,88000
 https://goldenhome.gr/property/view/544484,2026-11-05,85000
 https://goldenhome.gr/property/view/544485,2026-11-13,215000
@@ -7112,6 +7143,12 @@ https://goldenhome.gr/property/view/544506,2026-11-18,435000
 https://goldenhome.gr/property/view/544511,2026-11-04,265000
 https://goldenhome.gr/property/view/544518,2026-11-05,118000
 https://goldenhome.gr/property/view/544525,2026-11-16,180000
+https://goldenhome.gr/property/view/544549,2026-11-23,181500
+https://goldenhome.gr/property/view/544550,2026-11-23,220500
+https://goldenhome.gr/property/view/544551,2026-11-23,126000
+https://goldenhome.gr/property/view/544552,2026-11-23,213500
+https://goldenhome.gr/property/view/544553,2026-11-23,204000
+https://goldenhome.gr/property/view/544554,2026-11-23,187000
 https://goldenhome.gr/property/view/544555,2026-11-05,300000
 https://goldenhome.gr/property/view/544557,2026-11-09,190000
 https://goldenhome.gr/property/view/544559,2026-11-04,150000
@@ -7425,6 +7462,8 @@ https://goldenhome.gr/property/view/545725,2026-11-13,82000
 https://goldenhome.gr/property/view/545726,2026-11-13,1350
 https://goldenhome.gr/property/view/545728,2026-11-13,4800
 https://goldenhome.gr/property/view/545731,2026-11-13,500
+https://goldenhome.gr/property/view/545736,2026-11-23,300000
+https://goldenhome.gr/property/view/545738,2026-11-23,132000
 https://goldenhome.gr/property/view/545739,2026-11-14,10000
 https://goldenhome.gr/property/view/545741,2026-11-14,45000
 https://goldenhome.gr/property/view/545748,2026-11-19,258000
@@ -7656,6 +7695,7 @@ https://goldenhome.gr/property/view/546584,2026-11-19,450
 https://goldenhome.gr/property/view/546602,2026-11-18,900
 https://goldenhome.gr/property/view/546613,2026-11-20,260000
 https://goldenhome.gr/property/view/546615,2026-11-17,600
+https://goldenhome.gr/property/view/546627,2026-11-23,35000
 https://goldenhome.gr/property/view/546642,2026-11-20,255000
 https://goldenhome.gr/property/view/546649,2026-11-19,220000
 https://goldenhome.gr/property/view/546663,2026-11-19,125000
@@ -7702,6 +7742,7 @@ https://goldenhome.gr/property/view/546853,2026-11-21,500
 https://goldenhome.gr/property/view/546862,2026-11-19,2500
 https://goldenhome.gr/property/view/546866,2026-11-20,90000
 https://goldenhome.gr/property/view/546896,2026-11-19,400000
+https://goldenhome.gr/property/view/546908,2026-11-23,185000
 https://goldenhome.gr/property/view/546923,2026-11-20,950000
 https://goldenhome.gr/property/view/546973,2026-11-20,273000
 https://goldenhome.gr/property/view/546982,2026-11-20,273000
@@ -7709,6 +7750,7 @@ https://goldenhome.gr/property/view/546983,2026-11-20,276000
 https://goldenhome.gr/property/view/546988,2026-11-20,276000
 https://goldenhome.gr/property/view/546999,2026-11-20,278000
 https://goldenhome.gr/property/view/547003,2026-11-20,278000
+https://goldenhome.gr/property/view/547004,2026-11-23,278000
 https://goldenhome.gr/property/view/547009,2026-11-23,1500
 https://goldenhome.gr/property/view/547072,2026-11-20,69000
 https://goldenhome.gr/property/view/547075,2026-11-20,247000
@@ -7717,8 +7759,21 @@ https://goldenhome.gr/property/view/547093,2026-11-20,318500
 https://goldenhome.gr/property/view/547095,2026-11-20,24700
 https://goldenhome.gr/property/view/547096,2026-11-20,60000
 https://goldenhome.gr/property/view/547097,2026-11-20,59000
+https://goldenhome.gr/property/view/547107,2026-11-23,170000
+https://goldenhome.gr/property/view/547113,2026-11-23,110000
 https://goldenhome.gr/property/view/547122,2026-11-21,370000
 https://goldenhome.gr/property/view/547135,2026-11-21,570
+https://goldenhome.gr/property/view/547149,2026-11-23,147000
+https://goldenhome.gr/property/view/547173,2026-11-23,115000
+https://goldenhome.gr/property/view/547179,2026-11-23,115000
+https://goldenhome.gr/property/view/547203,2026-11-23,633044
+https://goldenhome.gr/property/view/547210,2026-11-23,882000
+https://goldenhome.gr/property/view/547216,2026-11-23,1534000
+https://goldenhome.gr/property/view/547218,2026-11-23,278000
+https://goldenhome.gr/property/view/547226,2026-11-23,282000
+https://goldenhome.gr/property/view/547228,2026-11-23,282000
+https://goldenhome.gr/property/view/547229,2026-11-23,132000
+https://goldenhome.gr/property/view/547240,2026-11-23,284000
 https://goldenhome.gr/property/view/5646,2026-10-26,130000
 https://goldenhome.gr/property/view/65800,2026-11-05,2750000
 https://goldenhome.gr/property/view/65973,2026-10-21,4200000
@@ -8376,6 +8431,7 @@ https://homezyrealestate.gr/el/akinito/21310526,2026-11-19,820
 https://homezyrealestate.gr/el/akinito/21310915,2026-11-19,100
 https://horizonrealestate.gr/buy/133-lefkada-oikopeda-7-str-6-str,2026-10-02,35000
 https://horizonrealestate.gr/buy/150-maroysi-katastima-75-t-m,2026-10-02,1200
+https://horizonrealestate.gr/buy/163-nea-ionia-katastima-90-t-m,2026-11-23,100000
 https://instaproperties.gr/property/0001-2/,2026-10-02,100000
 https://instaproperties.gr/property/0002-2/,2026-10-02,120000
 https://instaproperties.gr/property/0003-2/,2026-10-02,55000
@@ -8493,6 +8549,7 @@ https://intercasa.gr/property/5431,2026-10-14,420000
 https://intercasa.gr/property/5432,2026-10-14,350000
 https://intercasa.gr/property/5433,2026-10-14,330000
 https://intercasa.gr/property/5456,2026-11-12,165000
+https://intercasa.gr/property/5471,2026-11-23,265000
 https://intercasa.gr/property/5493,2026-10-11,1100000
 https://intercasa.gr/property/5500,2026-11-12,315000
 https://intercasa.gr/property/5501,2026-11-12,285000
@@ -8960,6 +9017,11 @@ https://intercasa.gr/property/7369,2026-11-20,130000
 https://intercasa.gr/property/7371,2026-11-20,160000
 https://intercasa.gr/property/7372,2026-11-20,65000
 https://intercasa.gr/property/7373,2026-11-20,130000
+https://intercasa.gr/property/7403,2026-11-23,130000
+https://intercasa.gr/property/7404,2026-11-23,295000
+https://intercasa.gr/property/7406,2026-11-23,342000
+https://intercasa.gr/property/7407,2026-11-23,1600000
+https://intercasa.gr/property/7409,2026-11-23,270000
 https://intercasa.gr/property/929,2026-11-11,1250000
 https://intercasa.gr/property/944,2026-11-07,360000
 https://intercasa.gr/property/984,2026-11-04,850000
@@ -9190,6 +9252,7 @@ https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%c
 https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%ce%b9%ce%ba%ce%bf%cf%80%ce%ad%ce%b4%ce%bf%cf%85-id-%cf%802448/,2026-10-07,90000
 https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%ce%b9%ce%ba%ce%bf%cf%80%ce%ad%ce%b4%ce%bf%cf%85-id-%cf%802585/,2026-10-06,18000
 https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%ce%b9%ce%ba%ce%bf%cf%80%ce%ad%ce%b4%ce%bf%cf%85-id-%cf%802664/,2026-10-06,43000
+https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%ce%b9%ce%ba%ce%bf%cf%80%ce%ad%ce%b4%ce%bf%cf%85-id-%cf%802664/,2026-11-23,65000
 https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%ce%b9%ce%ba%ce%bf%cf%80%ce%ad%ce%b4%ce%bf%cf%85-id-%cf%802680/,2026-10-06,40000
 https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%ce%b9%ce%ba%ce%bf%cf%80%ce%ad%ce%b4%ce%bf%cf%85-id-%cf%802770/,2026-10-07,50000
 https://irisrealestate.gr/property/%cf%80%cf%8e%ce%bb%ce%b7%cf%83%ce%b7-%ce%bf%ce%b9%ce%ba%ce%bf%cf%80%ce%ad%ce%b4%ce%bf%cf%85-id-%cf%802799/,2026-10-07,45000
@@ -9494,6 +9557,7 @@ https://kanellidis.gr/property/1280,2026-11-19,230000
 https://kanellidis.gr/property/1282,2026-11-06,58000
 https://kanellidis.gr/property/1284,2026-11-16,90000
 https://kanellidis.gr/property/1285,2026-11-14,950
+https://kanellidis.gr/property/1286,2026-11-23,295000
 https://kanellidis.gr/property/282/Oikopedo-Schimatari,2026-10-02,50000
 https://kanellidis.gr/property/365/Diamerisma-Leof.%20Patision%20-%20Leof.%20Acharnon,2026-10-03,135000
 https://kanellidis.gr/property/415/Katastima-Koukaki%20-%20Makrugianni,2026-10-02,47000
@@ -9844,6 +9908,7 @@ https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-ampelokipoi-id-
 https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-ampelokipoi-id-a4-6668,2026-10-08,160000
 https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-ampelokipoi-id-a4-6723,2026-10-09,200000
 https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-ampelokipoi-id-a4-71,2026-10-06,220000
+https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-ano-glyfada-id-a4-13950,2026-11-23,550000
 https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-argyroupoli-id-a4-2322,2026-10-08,350000
 https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-center-id-a4-10948,2026-10-08,220000
 https://ktimatoemporiki.gr/property/apartment-for-sale-in-athens-center-id-a4-11011,2026-10-07,172000
@@ -15166,6 +15231,7 @@ https://marketplace.altamiraproperties.gr/listings/21803,2026-11-04,92000
 https://marketplace.altamiraproperties.gr/listings/21804,2026-11-04,46000
 https://marketplace.altamiraproperties.gr/listings/2184,2026-10-13,270000
 https://marketplace.altamiraproperties.gr/listings/21851,2026-11-04,220000
+https://marketplace.altamiraproperties.gr/listings/21925,2026-11-23,18000
 https://marketplace.altamiraproperties.gr/listings/21926,2026-11-16,138000
 https://marketplace.altamiraproperties.gr/listings/21939,2026-11-16,124000
 https://marketplace.altamiraproperties.gr/listings/21948,2026-11-12,132800
@@ -15944,6 +16010,7 @@ https://marketplace.altamiraproperties.gr/listings/27857,2026-11-20,60000
 https://marketplace.altamiraproperties.gr/listings/27860,2026-11-20,280000
 https://marketplace.altamiraproperties.gr/listings/27864,2026-11-20,33200
 https://marketplace.altamiraproperties.gr/listings/27865,2026-11-20,3045380
+https://marketplace.altamiraproperties.gr/listings/27878,2026-11-23,410000
 https://marketplace.altamiraproperties.gr/listings/2817,2026-11-02,106000
 https://marketplace.altamiraproperties.gr/listings/298,2026-10-13,73000
 https://marketplace.altamiraproperties.gr/listings/298,2026-11-20,68000
@@ -16063,6 +16130,7 @@ https://marketplace.intrum.gr/listings/113,2026-10-13,670000
 https://marketplace.intrum.gr/listings/1132,2026-10-13,1080000
 https://marketplace.intrum.gr/listings/1152,2026-10-13,190000
 https://marketplace.intrum.gr/listings/1160,2026-10-13,127000
+https://marketplace.intrum.gr/listings/1160,2026-11-23,101000
 https://marketplace.intrum.gr/listings/1162,2026-10-13,188000
 https://marketplace.intrum.gr/listings/1165,2026-10-13,2800000
 https://marketplace.intrum.gr/listings/1169,2026-10-13,130000
@@ -16073,6 +16141,7 @@ https://marketplace.intrum.gr/listings/1175,2026-10-13,134000
 https://marketplace.intrum.gr/listings/118,2026-10-13,380000
 https://marketplace.intrum.gr/listings/1181,2026-10-13,160000
 https://marketplace.intrum.gr/listings/1184,2026-10-13,270000
+https://marketplace.intrum.gr/listings/1184,2026-11-23,242000
 https://marketplace.intrum.gr/listings/1188,2026-10-13,165000
 https://marketplace.intrum.gr/listings/119,2026-10-13,2100000
 https://marketplace.intrum.gr/listings/1191,2026-10-13,225000
@@ -16130,6 +16199,7 @@ https://marketplace.intrum.gr/listings/1362,2026-10-13,580000
 https://marketplace.intrum.gr/listings/1367,2026-10-13,85000
 https://marketplace.intrum.gr/listings/1370,2026-10-13,380000
 https://marketplace.intrum.gr/listings/1375,2026-10-13,242000
+https://marketplace.intrum.gr/listings/1375,2026-11-23,222000
 https://marketplace.intrum.gr/listings/1378,2026-10-13,520000
 https://marketplace.intrum.gr/listings/1378,2026-11-20,453000
 https://marketplace.intrum.gr/listings/1379,2026-10-13,325000
@@ -16159,6 +16229,7 @@ https://marketplace.intrum.gr/listings/144,2026-10-13,44000
 https://marketplace.intrum.gr/listings/1440,2026-10-13,170000
 https://marketplace.intrum.gr/listings/1441,2026-10-13,320000
 https://marketplace.intrum.gr/listings/1442,2026-10-13,65000
+https://marketplace.intrum.gr/listings/1442,2026-11-23,49300
 https://marketplace.intrum.gr/listings/1444,2026-10-13,99000
 https://marketplace.intrum.gr/listings/1445,2026-10-13,120000
 https://marketplace.intrum.gr/listings/1446,2026-10-13,1430000
@@ -16187,6 +16258,7 @@ https://marketplace.intrum.gr/listings/1495,2026-10-13,490000
 https://marketplace.intrum.gr/listings/1495,2026-11-20,441000
 https://marketplace.intrum.gr/listings/1497,2026-10-13,636000
 https://marketplace.intrum.gr/listings/1498,2026-10-13,140000
+https://marketplace.intrum.gr/listings/1498,2026-11-23,92000
 https://marketplace.intrum.gr/listings/1500,2026-10-13,250000
 https://marketplace.intrum.gr/listings/1501,2026-10-13,140000
 https://marketplace.intrum.gr/listings/1504,2026-10-13,200000
@@ -16231,6 +16303,7 @@ https://marketplace.intrum.gr/listings/1600,2026-10-13,588500
 https://marketplace.intrum.gr/listings/1605,2026-10-13,224000
 https://marketplace.intrum.gr/listings/1608,2026-10-13,210000
 https://marketplace.intrum.gr/listings/1611,2026-10-13,180000
+https://marketplace.intrum.gr/listings/1611,2026-11-23,167000
 https://marketplace.intrum.gr/listings/1613,2026-10-13,280000
 https://marketplace.intrum.gr/listings/1614,2026-10-13,60000
 https://marketplace.intrum.gr/listings/1618,2026-10-13,6500000
@@ -17034,24 +17107,31 @@ https://metroland.gr/property/548651,2026-11-17,620
 https://metroland.gr/property/548652,2026-11-17,1500000
 https://metroland.gr/property/548653,2026-11-18,380
 https://metroland.gr/property/548654,2026-11-18,500
+https://metroland.gr/property/548656,2026-11-23,170000
 https://metroland.gr/property/548657,2026-11-18,650
+https://metroland.gr/property/548658,2026-11-23,200000
 https://metroland.gr/property/548659,2026-11-18,169000
 https://metroland.gr/property/548660,2026-11-18,1180
 https://metroland.gr/property/548661,2026-11-19,500
 https://metroland.gr/property/548662,2026-11-18,3600
 https://metroland.gr/property/548664,2026-11-18,550
 https://metroland.gr/property/548665,2026-11-19,130000
+https://metroland.gr/property/548666,2026-11-23,2800
 https://metroland.gr/property/548667,2026-11-19,400
 https://metroland.gr/property/548668,2026-11-19,1350000
 https://metroland.gr/property/548669,2026-11-19,165000
 https://metroland.gr/property/548670,2026-11-19,475000
 https://metroland.gr/property/548671,2026-11-20,390000
+https://metroland.gr/property/548672,2026-11-23,850000
 https://metroland.gr/property/548673,2026-11-21,129000
+https://metroland.gr/property/548675,2026-11-23,140000
 https://metroland.gr/property/548676,2026-11-20,900
 https://metroland.gr/property/548677,2026-11-20,650
 https://metroland.gr/property/548678,2026-11-21,800
 https://metroland.gr/property/548679,2026-11-21,160000
 https://metroland.gr/property/548680,2026-11-21,220000
+https://metroland.gr/property/548682,2026-11-23,250000
+https://metroland.gr/property/548685,2026-11-23,100000
 https://neon-realestate.gr/property/1332309-diamerisma-pros-polisi-korydallos-61-t-m-e120-000/,2026-10-20,120000
 https://neon-realestate.gr/property/1606745-diamerisma-pros-polisi-kallithea-80-t-m-e215-000/,2026-10-15,215000
 https://neon-realestate.gr/property/1647944-diamerisma-pros-polisi-nea-smyrni-41-t-m-e150-000/,2026-10-28,150000
@@ -17267,6 +17347,7 @@ https://politia.com.gr/property/11048,2026-11-17,230000
 https://politia.com.gr/property/11049,2026-11-18,400
 https://politia.com.gr/property/11050,2026-11-20,250000
 https://politia.com.gr/property/11053,2026-11-21,650
+https://politia.com.gr/property/11054,2026-11-23,1000
 https://politia.com.gr/property/9845/Diamerisma-Zografou,2026-10-11,215000
 https://politia.com.gr/property/9909/Oikopedo-Amarunthos,2026-10-11,29000
 https://politia.com.gr/property/9989/Oikopedo-Ampelokipoi%20-%20Pentagono,2026-10-11,500000
@@ -17615,6 +17696,8 @@ https://remax-fb.gr/property/6663,2026-10-20,195000
 https://remax-fb.gr/property/6666,2026-10-21,1000000
 https://remax-fb.gr/property/6666,2026-10-31,980000
 https://remax-fb.gr/property/6669,2026-11-03,154000
+https://remax-fb.gr/property/6674,2026-11-23,205000
+https://remax-fb.gr/property/6675,2026-11-23,180000
 https://remax-fb.gr/property/6676,2026-10-22,620
 https://remax-fb.gr/property/6677,2026-10-22,575000
 https://remax-fb.gr/property/6678,2026-10-22,265000
@@ -17674,6 +17757,7 @@ https://remax-fb.gr/property/6827,2026-11-18,380000
 https://remax-fb.gr/property/6843,2026-11-23,270000
 https://remax-fb.gr/property/6844,2026-11-23,700000
 https://remax-fb.gr/property/6845,2026-11-23,720000
+https://remax-fb.gr/property/6846,2026-11-23,1450000
 https://rokaestate.gr/akinito/3998-2,2026-10-02,175000
 https://rokaestate.gr/oikopedo/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-%cf%83%cf%84%ce%b7-%ce%b2%cf%8c%cf%87%ce%b1-300-%cf%84-%ce%bc,2026-10-02,2006
 https://rokaestate.gr/oikopedo/%ce%bf%ce%b9%ce%ba%cf%8c%cf%80%ce%b5%ce%b4%ce%bf-%cf%83%cf%84%ce%b7-%cf%83%ce%bf%ce%bb%cf%8d%ce%b3%ce%b5%ce%b9%ce%b1-1300-%cf%84-%ce%bc,2026-10-02,119000
@@ -18239,6 +18323,7 @@ https://spitionline.gr/el/listings/1324282,2026-11-20,2200
 https://spitionline.gr/el/listings/1324407,2026-11-21,500
 https://spitionline.gr/el/listings/1324408,2026-11-21,500
 https://spitionline.gr/el/listings/1324444,2026-11-23,2700
+https://spitionline.gr/el/listings/1324665,2026-11-23,1100
 https://spitionline.gr/el/listings/256174,2026-10-14,30000
 https://spitionline.gr/el/listings/256175,2026-10-02,55000
 https://spitionline.gr/el/listings/257443,2026-10-17,700000
@@ -19212,6 +19297,7 @@ https://topos-solutions.gr/property/936029-cholargos/,2026-10-25,149000
 https://topos-solutions.gr/property/936029-cholargos/,2026-11-01,220000
 https://topos-solutions.gr/property/936029-cholargos/,2026-11-08,149000
 https://topos-solutions.gr/property/936029-cholargos/,2026-11-15,360000
+https://topos-solutions.gr/property/936029-cholargos/,2026-11-23,225000
 https://topos-solutions.gr/property/93936_kallitexnoupoli/,2026-10-03,580000
 https://topos-solutions.gr/property/945303-athens/,2026-10-03,30000
 https://topos-solutions.gr/property/949804-cholargos/,2026-10-17,130000
@@ -19245,6 +19331,7 @@ https://topos-solutions.gr/property/lea14441/,2026-10-03,225000
 https://topos-solutions.gr/property/lea14441/,2026-10-26,220000
 https://topos-solutions.gr/property/lea14441/,2026-11-09,650000
 https://topos-solutions.gr/property/lea14441/,2026-11-16,390000
+https://topos-solutions.gr/property/lea14441/,2026-11-23,260000
 https://topos-solutions.gr/property/lea14691/,2026-10-05,460000
 https://topos-solutions.gr/property/lea15419/,2026-10-03,945000
 https://topos-solutions.gr/property/lea15431/,2026-10-02,900000
@@ -19315,6 +19402,7 @@ https://topos-solutions.gr/property/mezoneta-pros-polisi-gerakas-gargittos-15212
 https://topos-solutions.gr/property/mezoneta-pros-polisi-gerakas-gargittos-1521285/,2026-11-07,700000
 https://topos-solutions.gr/property/mezoneta-pros-polisi-gerakas-gargittos-1521285/,2026-11-14,590000
 https://topos-solutions.gr/property/mezoneta-pros-polisi-gerakas-gargittos-1521285/,2026-11-21,510000
+https://topos-solutions.gr/property/mezoneta-pros-polisi-gerakas-gargittos-1521285/,2026-11-23,790000
 https://topos-solutions.gr/property/mezoneta-pros-polisi-patima-xalandriou-1360531/,2026-10-02,140000
 https://topos-solutions.gr/property/mezoneta-pros-polisi-patima-xalandriou-1360531/,2026-10-17,100000
 https://topos-solutions.gr/property/mezoneta-pros-polisi-patima-xalandriou-1360531/,2026-10-24,175000
@@ -19323,6 +19411,7 @@ https://topos-solutions.gr/property/mezoneta-pros-polisi-patima-xalandriou-13605
 https://topos-solutions.gr/property/mezoneta-pros-polisi-patima-xalandriou-1360531/,2026-11-21,130000
 https://topos-solutions.gr/property/mezoneta-pros-pwlisi-halandri-ano-patima-139tm-neodmito/,2026-10-02,690000
 https://topos-solutions.gr/property/mezoneta-pros-pwlisi-halandri-ano-patima-139tm-neodmito/,2026-10-19,620000
+https://topos-solutions.gr/property/mezoneta-pros-pwlisi-holargos-125tm-retire-idioktiti-taratsa/,2026-11-23,340000
 https://topos-solutions.gr/property/monokatoikia-pros-pwlisi-patima-chalandriou-260tm-pisina/,2026-10-02,800000
 https://topos-solutions.gr/property/polisi-diamerismatos-marousi-1509921/,2026-10-02,240000
 https://tsrealestate.gr/el/property/10251,2026-10-05,350000
@@ -19333,6 +19422,7 @@ https://tsrealestate.gr/el/property/10929,2026-10-03,98000
 https://tsrealestate.gr/el/property/11095,2026-10-02,15000
 https://tsrealestate.gr/el/property/11568,2026-10-14,550
 https://tsrealestate.gr/el/property/12337,2026-10-05,750000
+https://tsrealestate.gr/el/property/12547,2026-11-23,480
 https://tsrealestate.gr/el/property/13105,2026-10-05,180000
 https://tsrealestate.gr/el/property/13165,2026-10-05,118000
 https://tsrealestate.gr/el/property/13170,2026-10-05,390000
@@ -19990,6 +20080,16 @@ https://tsrealestate.gr/el/property/16369,2026-11-20,750
 https://tsrealestate.gr/el/property/16371,2026-11-20,600
 https://tsrealestate.gr/el/property/16372,2026-11-21,350
 https://tsrealestate.gr/el/property/16373,2026-11-23,85000
+https://tsrealestate.gr/el/property/16374,2026-11-23,65000
+https://tsrealestate.gr/el/property/16375,2026-11-23,161000
+https://tsrealestate.gr/el/property/16376,2026-11-23,200000
+https://tsrealestate.gr/el/property/16377,2026-11-23,600
+https://tsrealestate.gr/el/property/16378,2026-11-23,175000
+https://tsrealestate.gr/el/property/16379,2026-11-23,290000
+https://tsrealestate.gr/el/property/16380,2026-11-23,850
+https://tsrealestate.gr/el/property/16381,2026-11-23,250000
+https://tsrealestate.gr/el/property/16382,2026-11-23,60000
+https://tsrealestate.gr/el/property/16383,2026-11-23,52000
 https://tsrealestate.gr/el/property/8700,2026-10-05,340000
 https://tsrealestate.gr/el/property/9839,2026-11-05,600
 https://uptownhomes.gr/property/%CE%BC%CE%BF%CE%BD%CE%BF%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1-570%CF%84-%CE%BC-%CE%B5%CE%BA%CE%AC%CE%BB%CE%B7-2/,2026-11-22,1950000
@@ -23349,6 +23449,7 @@ https://www.akinitakritis.gr/property/67177/ependytiko-akinito-300-tm-sti-faiake
 https://www.akinitakritis.gr/property/67178/poleitai-diamerisma-65-tm-sto-palaikastro-siteias-monadiki-efkairia-stin-kardia-tou-oikismou,2026-11-20,85000
 https://www.akinitakritis.gr/property/67179/poleitai-goniaki-lithoktisti-monokatoikia-117-tm-me-megali-ayli-sti-siteia-n-lasithiou,2026-11-20,110000
 https://www.akinitakritis.gr/property/67180/poleitai-mezoneta-140-tm-me-ekpliktiki-thea-ston-kolpo-tis-siteias-idaniki-gia-monimi-katoikia,2026-11-20,345000
+https://www.akinitakritis.gr/property/67180/poleitai-mezoneta-140-tm-me-ekpliktiki-thea-ston-kolpo-tis-siteias-idaniki-gia-monimi-katoikia,2026-11-23,248000
 https://www.akinitakritis.gr/property/67181/ependytiki-efkairia-oikopedo-1482-tm-se-pronomiaki-topothesia-sto-bali-rethymnou,2026-11-20,260000
 https://www.akinitakritis.gr/property/67181/poleitai-oikopedo-1482-tm-se-pronomiaki-topothesia-sto-bali-rethymnou-idaniko-gia-ependysi-1482-tm,2026-11-20,260000
 https://www.akinitakritis.gr/property/67203/pagrati-diamerisma-130-tm-pros-polisi-me-2-ypnodomatia,2026-11-22,270000
@@ -23477,10 +23578,13 @@ https://www.akinitakritis.gr/property/67337/diamerisma-pros-polisi-efkairia-gia-
 https://www.akinitakritis.gr/property/67338/diamerisma-pros-polisi-efkairia-gia-ependytes,2026-11-22,250000
 https://www.akinitakritis.gr/property/67339/grafeio-pros-polisi-efkairia-gia-ependytes,2026-11-22,155000
 https://www.akinitakritis.gr/property/67340/ktirio-epaggelmatikon-xoron-pros-polisi-efkairia-gia-epixeirimaties,2026-11-22,720000
+https://www.akinitakritis.gr/property/67341/goniaki-mezoneta-113-tm-me-thea-ston-gerakas,2026-11-23,340000
 https://www.akinitakritis.gr/property/67341/mezoneta-pros-polisi-idaniki-gia-oikogeneies,2026-11-22,340000
 https://www.akinitakritis.gr/property/67342/diamerisma-pros-polisi-efkairia-gia-nea-arxi,2026-11-22,260000
+https://www.akinitakritis.gr/property/67343/diamerisma-83-tm-me-thea-kai-atomiki-thermansi-ston-gerakas,2026-11-23,300000
 https://www.akinitakritis.gr/property/67343/diamerisma-pros-polisi-efkairia-gia-nea-arxi,2026-11-22,300000
 https://www.akinitakritis.gr/property/67344/diamerisma-pros-polisi-efkairia-gia-nea-arxi,2026-11-22,300000
+https://www.akinitakritis.gr/property/67344/goniako-diamerisma-82-tm-pros-polisi-ston-gerakas,2026-11-23,300000
 https://www.akinitakritis.gr/property/67345/diamerisma-pros-polisi-efkairia-gia-nea-arxi,2026-11-22,160000
 https://www.akinitakritis.gr/property/67346/diamerisma-pros-polisi-efkairia-gia-nea-arxi,2026-11-22,640000
 https://www.akinitakritis.gr/property/67347/mezoneta-pros-polisi-xoros-me-anesi-kai-styl,2026-11-22,460000
@@ -23491,6 +23595,8 @@ https://www.akinitakritis.gr/property/67351/poleitai-mezoneta-idaniki-gia-dimiou
 https://www.akinitakritis.gr/property/67352/poleitai-mezoneta-idaniki-gia-dimiourgia-neas-katoikias,2026-11-22,930000
 https://www.akinitakritis.gr/property/67353/poleitai-oikopedo-idaniko-gia-anaptyxi-i-kataskefi,2026-11-22,2050000
 https://www.akinitakritis.gr/property/67354/palaia-katoikia-138-tm-pros-polisi-sto-fourni-lasithi,2026-11-23,150000
+https://www.akinitakritis.gr/property/67355/poleitai-ependytiko-oikopedo-agriana-xersonisou-kritis,2026-11-23,290000
+https://www.akinitakritis.gr/property/67356/poleitai-sygxrono-epaggelmatiko-aytoteles-ktirio-viotexniko-parko-anopolis-irakleio-kritis,2026-11-23,390000
 https://www.akinitapolis.gr/el-GR/id/15881/__(pros-polisi)-epaggelmatikos-choros-epaggelmatikos-choros-athina-kentro-athina-/estate.html,2026-10-02,265000
 https://www.akinitapolis.gr/el-GR/id/18024/__(pros-polisi)-epaggelmatikos-choros-katastima-athina-kentro-athina-/estate.html,2026-10-02,250000
 https://www.akinitapolis.gr/el-GR/id/22232/__(pros-polisi)-katikia-diamerisma-athina-kentro-nea-filadelfia-/estate.html,2026-10-02,195000
@@ -23846,8 +23952,10 @@ https://www.assosproperties.gr/property/2176,2026-11-18,580
 https://www.assosproperties.gr/property/2177,2026-11-19,107000
 https://www.assosproperties.gr/property/2178,2026-11-19,138000
 https://www.assosproperties.gr/property/2179,2026-11-20,5500
+https://www.assosproperties.gr/property/2180,2026-11-23,320000
 https://www.assosproperties.gr/property/2181,2026-11-22,170000
 https://www.assosproperties.gr/property/2182,2026-11-22,165000
+https://www.assosproperties.gr/property/2183,2026-11-23,320000
 https://www.assosproperties.gr/property/474,2026-11-16,185000
 https://www.asty-realty.gr/el-GR/id/1074/__(pros-polisi)-lipa-akinita-epichirisi-anatoliki-attiki-boila/estate.html,2026-10-02,180000
 https://www.asty-realty.gr/el-GR/id/12674/__(pros-polisi)-axiopiisimi-gi-ikopedo-n.-eibias-kimi/estate.html,2026-11-18,45000
@@ -25042,6 +25150,7 @@ https://www.boukisrealestate.gr/el-GR/id/32931/__(pros-enikiasi)-epaggelmatikos-
 https://www.boukisrealestate.gr/el-GR/id/32934/__(pros-polisi)-axiopiisimi-gi-ikopedo-athina-boria-iraklio-/estate.html,2026-10-02,200000
 https://www.boukisrealestate.gr/el-GR/id/32935/__(pros-polisi)-axiopiisimi-gi-ikopedo-athina-kentro-nea-filadelfia-/estate.html,2026-10-05,150000
 https://www.boukisrealestate.gr/el-GR/id/32942/__(pros-polisi)-katikia-monokatikia-athina-boria-chalandri-/estate.html,2026-10-02,170000
+https://www.boukisrealestate.gr/el-GR/id/32942/__(pros-polisi)-katikia-monokatikia-athina-boria-chalandri-/estate.html,2026-11-23,245000
 https://www.boukisrealestate.gr/el-GR/id/32944/__(pros-polisi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-10-02,90000
 https://www.boukisrealestate.gr/el-GR/id/32945/__(pros-polisi)-katikia-monokatikia-athina-boria-iraklio-/estate.html,2026-10-06,148000
 https://www.boukisrealestate.gr/el-GR/id/32945/__(pros-polisi)-katikia-monokatikia-athina-boria-iraklio-/estate.html,2026-10-30,245000
@@ -25173,6 +25282,8 @@ https://www.boukisrealestate.gr/el-GR/id/33091/__(pros-polisi)-katikia-orofodiam
 https://www.boukisrealestate.gr/el-GR/id/33092/__(pros-enikiasi)-katikia-stointio-anatoliki-attiki-acharnes-(menidi)-/estate.html,2026-11-20,330
 https://www.boukisrealestate.gr/el-GR/id/33093/__(pros-enikiasi)-epaggelmatikos-choros-apothikeitikos-choros-anatoliki-attiki-acharnes-(menidi)-/estate.html,2026-11-20,3400
 https://www.boukisrealestate.gr/el-GR/id/33094/__(pros-enikiasi)-epaggelmatikos-choros-biomichanikos-choros-athina-ditika-peristeri-/estate.html,2026-11-20,3300
+https://www.boukisrealestate.gr/el-GR/id/33095/__(pros-polisi)-katikia-monokatikia-athina-boria-chalandri-/estate.html,2026-11-23,169000
+https://www.boukisrealestate.gr/el-GR/id/33096/__(pros-enikiasi)-katikia-diamerisma-athina-boria-melissia-/estate.html,2026-11-23,1000
 https://www.brickbrokers.gr/el/properties/1709291,2026-10-05,5000
 https://www.brickbrokers.gr/el/properties/1816589,2026-10-02,140000
 https://www.brickbrokers.gr/el/properties/1895447,2026-10-02,400
@@ -25386,6 +25497,8 @@ https://www.brokerhouse.gr/property/7676,2026-11-20,180000
 https://www.brokerhouse.gr/property/7677,2026-11-20,500
 https://www.brokerhouse.gr/property/7678,2026-11-20,183000
 https://www.brokerhouse.gr/property/7680,2026-11-20,169000
+https://www.brokerhouse.gr/property/7681,2026-11-23,1250
+https://www.brokerhouse.gr/property/7683,2026-11-23,700
 https://www.brokerhouse.gr/property/820,2026-11-16,950
 https://www.brokerhouse.gr/property/894/Oikopedo-Nea%20Eruthraia,2026-10-05,810000
 https://www.buy2greece.com/properties/1608531-villa-for-sale-varnavas-312-sq-m-320-000-1608531,2026-10-09,320000
@@ -26037,6 +26150,7 @@ https://www.connectproperty.gr/property/653,2026-11-20,750
 https://www.connectproperty.gr/property/654,2026-11-20,700
 https://www.connectproperty.gr/property/655,2026-11-20,950
 https://www.connectproperty.gr/property/656,2026-11-20,520
+https://www.connectproperty.gr/property/657,2026-11-23,190000
 https://www.connectproperty.gr/property/658,2026-11-20,520
 https://www.connectproperty.gr/property/659,2026-11-20,120000
 https://www.connectproperty.gr/property/660,2026-11-20,120000
@@ -27651,6 +27765,7 @@ https://www.familybrokers.gr/el-GR/id/109618/__(pros-enikiasi)-katikia-diamerism
 https://www.familybrokers.gr/el-GR/id/109618/__(pros-enikiasi)-katikia-diamerisma-athina-ditika-petroipoli-/estate.html,2026-11-02,470
 https://www.familybrokers.gr/el-GR/id/109621/__(pros-enikiasi)-katikia-diamerisma-piraias-piraias-/estate.html,2026-10-24,450
 https://www.familybrokers.gr/el-GR/id/109622/__(pros-enikiasi)-katikia-diamerisma-piraias-piraias-/estate.html,2026-10-24,550
+https://www.familybrokers.gr/el-GR/id/109622/__(pros-enikiasi)-katikia-diamerisma-piraias-piraias-/estate.html,2026-11-23,540
 https://www.familybrokers.gr/el-GR/id/109628/__(pros-enikiasi)-katikia-diamerisma-athina-notia-kallithea-/estate.html,2026-10-24,800
 https://www.familybrokers.gr/el-GR/id/109636/__(pros-enikiasi)-katikia-diamerisma-athina-notia-elliniko-/estate.html,2026-10-24,975
 https://www.familybrokers.gr/el-GR/id/109637/__(pros-enikiasi)-katikia-diamerisma-athina-notia-elliniko-/estate.html,2026-10-24,850
@@ -27699,6 +27814,7 @@ https://www.familybrokers.gr/el-GR/id/109701/__(pros-enikiasi)-katikia-diamerism
 https://www.familybrokers.gr/el-GR/id/109702/__(pros-enikiasi)-katikia-diamerisma-athina-boria-nea-ionia-/estate.html,2026-10-09,490
 https://www.familybrokers.gr/el-GR/id/109702/__(pros-enikiasi)-katikia-diamerisma-athina-boria-nea-ionia-/estate.html,2026-10-27,650
 https://www.familybrokers.gr/el-GR/id/109702/__(pros-enikiasi)-katikia-diamerisma-athina-boria-nea-ionia-/estate.html,2026-11-17,450
+https://www.familybrokers.gr/el-GR/id/109702/__(pros-enikiasi)-katikia-diamerisma-athina-boria-nea-ionia-/estate.html,2026-11-23,550
 https://www.familybrokers.gr/el-GR/id/109704/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-10-13,680
 https://www.familybrokers.gr/el-GR/id/109707/__(pros-enikiasi)-katikia-orofodiamerisma-athina-notia-agios-dimitrios-/estate.html,2026-10-09,880
 https://www.familybrokers.gr/el-GR/id/109707/__(pros-enikiasi)-katikia-orofodiamerisma-athina-notia-agios-dimitrios-/estate.html,2026-11-02,1150
@@ -28256,6 +28372,7 @@ https://www.familybrokers.gr/el-GR/id/110421/__(pros-enikiasi)-epaggelmatikos-ch
 https://www.familybrokers.gr/el-GR/id/110422/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-20,570
 https://www.familybrokers.gr/el-GR/id/110423/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-zografos-/estate.html,2026-11-20,1000
 https://www.familybrokers.gr/el-GR/id/110429/__(pros-enikiasi)-epaggelmatikos-choros-epaggelmatikos-choros-athina-kentro-dafni-/estate.html,2026-11-05,1000
+https://www.familybrokers.gr/el-GR/id/110429/__(pros-enikiasi)-epaggelmatikos-choros-epaggelmatikos-choros-athina-kentro-dafni-/estate.html,2026-11-23,540
 https://www.familybrokers.gr/el-GR/id/110435/__(pros-enikiasi)-katikia-orofodiamerisma-athina-notia-kallithea-/estate.html,2026-11-09,1100
 https://www.familybrokers.gr/el-GR/id/110435/__(pros-enikiasi)-katikia-orofodiamerisma-athina-notia-kallithea-/estate.html,2026-11-15,1000
 https://www.familybrokers.gr/el-GR/id/110440/__(pros-enikiasi)-katikia-orofodiamerisma-athina-kentro-athina-/estate.html,2026-11-07,650
@@ -28408,6 +28525,16 @@ https://www.familybrokers.gr/el-GR/id/110807/__(pros-enikiasi)-katikia-diamerism
 https://www.familybrokers.gr/el-GR/id/110808/__(pros-polisi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-20,155000
 https://www.familybrokers.gr/el-GR/id/110812/__(pros-enikiasi)-katikia-diamerisma-athina-notia-nea-smirni-/estate.html,2026-11-21,750
 https://www.familybrokers.gr/el-GR/id/110817/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-22,520
+https://www.familybrokers.gr/el-GR/id/110827/__(pros-enikiasi)-epaggelmatikos-choros-epaggelmatikos-choros-athina-kentro-dafni-/estate.html,2026-11-23,890
+https://www.familybrokers.gr/el-GR/id/110840/__(pros-enikiasi)-katikia-diamerisma-athina-notia-nea-smirni-/estate.html,2026-11-23,480
+https://www.familybrokers.gr/el-GR/id/110841/__(pros-enikiasi)-katikia-diamerisma-athina-ditika-aigaleo-/estate.html,2026-11-23,540
+https://www.familybrokers.gr/el-GR/id/110842/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-23,680
+https://www.familybrokers.gr/el-GR/id/110843/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-23,750
+https://www.familybrokers.gr/el-GR/id/110844/__(pros-enikiasi)-katikia-orofodiamerisma-athina-kentro-athina-/estate.html,2026-11-23,700
+https://www.familybrokers.gr/el-GR/id/110845/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-23,580
+https://www.familybrokers.gr/el-GR/id/110846/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-23,500
+https://www.familybrokers.gr/el-GR/id/110847/__(pros-enikiasi)-katikia-orofodiamerisma-athina-kentro-athina-/estate.html,2026-11-23,600
+https://www.familybrokers.gr/el-GR/id/110848/__(pros-enikiasi)-katikia-diamerisma-piraias-piraias-/estate.html,2026-11-23,600
 https://www.familybrokers.gr/el-GR/id/94679/__(pros-polisi)-axiopiisimi-gi-ikopedo-athina-ditika-petroipoli-/estate.html,2026-10-14,130000
 https://www.familybrokers.gr/el-GR/id/94682/__(pros-polisi)-axiopiisimi-gi-ikopedo-athina-ditika-peristeri-/estate.html,2026-10-14,150000
 https://www.familybrokers.gr/el-GR/id/94692/__(pros-polisi)-axiopiisimi-gi-ikopedo-athina-boria-metamorfosi-/estate.html,2026-10-02,375000
@@ -28611,6 +28738,7 @@ https://www.globality.gr/el/properties/5847,2026-10-02,420000
 https://www.globality.gr/el/properties/601732,2026-10-02,220000
 https://www.golden-panorama.estate/el-GR/id/27001/__(pros-polisi)-axiopiisimi-gi-ikopedo-n.-biotias-thiba-/estate.html,2026-10-02,42000
 https://www.golden-panorama.estate/el-GR/id/27004/__(pros-polisi)-axiopiisimi-gi-ikopedo-athina-boria-kifisia-/estate.html,2026-10-02,350000
+https://www.golden-panorama.estate/el-GR/id/27006/__(pros-polisi)-katikia-orofodiamerisma-anatoliki-attiki-thrakomakedones-/estate.html,2026-11-23,600000
 https://www.golden-panorama.estate/el-GR/id/27008/__(pros-polisi)-katikia-monokatikia-anatoliki-attiki-thrakomakedones-/estate.html,2026-11-11,1200000
 https://www.golden-panorama.estate/el-GR/id/27009/__(pros-polisi)-katikia-mezoneta-anatoliki-attiki-thrakomakedones-/estate.html,2026-10-21,600000
 https://www.golden-panorama.estate/el-GR/id/27010/__(pros-polisi)-katikia-monokatikia-anatoliki-attiki-artemida-(loitsa)-/estate.html,2026-10-19,400000
@@ -28687,6 +28815,16 @@ https://www.golden-panorama.estate/el-GR/id/27134/__(pros-enikiasi)-epaggelmatik
 https://www.golden-panorama.estate/el-GR/id/27135/__(pros-enikiasi)-epaggelmatikos-choros-katastima-athina-boria-nea-ionia-/estate.html,2026-11-13,500
 https://www.golden-panorama.estate/el-GR/id/27136/__(pros-polisi)-katikia-mezoneta-anatoliki-attiki-boiliagmeni-/estate.html,2026-11-16,2600000
 https://www.golden-panorama.estate/el-GR/id/27137/__(pros-polisi)-axiopiisimi-gi-ikopedo-n.-fthiotidas-gorgopotamos-/estate.html,2026-11-16,40000
+https://www.golden-panorama.estate/el-GR/id/27138/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-23,750
+https://www.golden-panorama.estate/el-GR/id/27142/__(pros-polisi)-epaggelmatikos-choros-apothikeitikos-choros-athina-notia-agios-dimitrios-/estate.html,2026-11-23,70000
+https://www.golden-panorama.estate/el-GR/id/27144/__(pros-polisi)-axiopiisimi-gi-ikopedo-kiklades-paros-/estate.html,2026-11-23,250000
+https://www.golden-panorama.estate/el-GR/id/27145/__(pros-polisi)-axiopiisimi-gi-agrotemachio-anatoliki-attiki-keratea-/estate.html,2026-11-23,65000
+https://www.golden-panorama.estate/el-GR/id/27146/__(pros-polisi)-axiopiisimi-gi-agrotemachio-anatoliki-attiki-koibaras-/estate.html,2026-11-23,110000
+https://www.golden-panorama.estate/el-GR/id/27147/__(pros-polisi)-axiopiisimi-gi-ikopedo-entos-schedioi-ditiki-attiki-ano-liosia-/estate.html,2026-11-23,28000
+https://www.golden-panorama.estate/el-GR/id/27148/__(pros-enikiasi)-katikia-gkarsoniera-athina-kentro-athina-/estate.html,2026-11-23,350
+https://www.golden-panorama.estate/el-GR/id/27149/__(pros-polisi)-katikia-orofodiamerisma-athina-ditika-peristeri-/estate.html,2026-11-23,100000
+https://www.golden-panorama.estate/el-GR/id/27150/__(pros-polisi)-katikia-diamerisma-athina-ditika-peristeri-/estate.html,2026-11-23,80000
+https://www.golden-panorama.estate/el-GR/id/27151/__(pros-polisi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-23,165000
 https://www.goldenrivierarealty.com/el/properties/2152854,2026-10-02,390000
 https://www.goldenrivierarealty.com/el/properties/2326485,2026-10-02,430000
 https://www.goldenrivierarealty.com/el/properties/2326512,2026-10-02,410000
@@ -29327,6 +29465,7 @@ https://www.grekodom.com/area/2020,2026-11-19,480000
 https://www.grekodom.com/area/2022,2026-10-03,230000
 https://www.grekodom.com/area/2022,2026-10-13,250000
 https://www.grekodom.com/area/2023,2026-10-22,70000
+https://www.grekodom.com/area/2023,2026-11-23,145000
 https://www.grekodom.com/area/2025,2026-10-03,139000
 https://www.grekodom.com/area/2025,2026-11-14,240000
 https://www.grekodom.com/area/2026,2026-10-03,320000
@@ -29380,12 +29519,15 @@ https://www.grekodom.com/area/2122,2026-10-22,150000
 https://www.grekodom.com/area/2123,2026-10-22,140000
 https://www.grekodom.com/area/2200,2026-10-22,350000
 https://www.grekodom.com/area/2201,2026-10-22,315000
+https://www.grekodom.com/area/2201,2026-11-23,1250000
 https://www.grekodom.com/area/2202,2026-10-22,280000
 https://www.grekodom.com/area/2203,2026-10-22,410000
 https://www.grekodom.com/area/2204,2026-10-22,730000
 https://www.grekodom.com/area/2205,2026-10-22,600000
+https://www.grekodom.com/area/2205,2026-11-23,460000
 https://www.grekodom.com/area/2206,2026-10-22,2900000
 https://www.grekodom.com/area/2208,2026-10-22,720000
+https://www.grekodom.com/area/2208,2026-11-23,885000
 https://www.grekodom.com/area/2209,2026-10-22,385000
 https://www.grekodom.com/area/2210,2026-10-22,960000
 https://www.grekodom.com/area/2211,2026-10-22,4410000
@@ -29395,6 +29537,7 @@ https://www.grekodom.com/area/2215,2026-10-22,290000
 https://www.grekodom.com/area/2216,2026-10-22,205000
 https://www.grekodom.com/area/2217,2026-10-22,380000
 https://www.grekodom.com/area/2217,2026-11-11,370000
+https://www.grekodom.com/area/2217,2026-11-23,530000
 https://www.grekodom.com/area/2218,2026-10-22,185000
 https://www.grekodom.com/area/2300,2026-10-22,580000
 https://www.grekodom.com/area/2301,2026-10-22,300000
@@ -29423,6 +29566,7 @@ https://www.grekodom.com/area/2408,2026-10-23,350000
 https://www.grekodom.com/area/2410,2026-10-23,850000
 https://www.grekodom.com/area/2411,2026-10-23,405000
 https://www.grekodom.com/area/2411,2026-11-11,540000
+https://www.grekodom.com/area/2411,2026-11-23,325000
 https://www.grekodom.com/area/2412,2026-10-23,795000
 https://www.grekodom.com/area/2500,2026-10-23,255000
 https://www.grekodom.com/area/2501,2026-10-23,630000
@@ -29989,6 +30133,7 @@ https://www.grekodom.com/realtyobject/10973-for-sale-land-20100-m2-in-kassandra-
 https://www.grekodom.com/realtyobject/10973-for-sale-land-20100-m2-in-kassandra-cha,2026-11-23,120000
 https://www.grekodom.com/realtyobject/10973-for-sale-land-20293-m2-in-kassandra-cha,2026-11-01,48000
 https://www.grekodom.com/realtyobject/10973-for-sale-land-20293-m2-in-kassandra-cha,2026-11-12,110000
+https://www.grekodom.com/realtyobject/10973-for-sale-land-20293-m2-in-kassandra-cha,2026-11-23,35000
 https://www.grekodom.com/realtyobject/10983-for-sale-land-811-m2-in-crete,2026-10-12,115000
 https://www.grekodom.com/realtyobject/11008-for-sale-detached-house-250-m2-in-attic,2026-10-11,500000
 https://www.grekodom.com/realtyobject/11012-for-sale-detached-house-500-m2-in-attic,2026-10-16,600000
@@ -32726,6 +32871,7 @@ https://www.grekodom.com/realtyobject/31794-for-sale-land-5330-m2-in-sithonia-ch
 https://www.grekodom.com/realtyobject/31794-for-sale-land-5330-m2-in-sithonia-chalk,2026-11-17,92000
 https://www.grekodom.com/realtyobject/31794-for-sale-land-5330-m2-in-sithonia-chalk,2026-11-19,160000
 https://www.grekodom.com/realtyobject/31794-for-sale-land-5330-m2-in-sithonia-chalk,2026-11-21,620000
+https://www.grekodom.com/realtyobject/31794-for-sale-land-5330-m2-in-sithonia-chalk,2026-11-23,400000
 https://www.grekodom.com/realtyobject/31798-for-sale-villa-550-m2-in-limassol,2026-10-21,2490000
 https://www.grekodom.com/realtyobject/31802-for-sale-hotel-322-m2-in-sithonia-chalk,2026-10-13,1100000
 https://www.grekodom.com/realtyobject/31803-for-sale-villa-240-m2-in-epirus,2026-10-24,350000
@@ -32744,6 +32890,7 @@ https://www.grekodom.com/realtyobject/31806-for-sale-villa-251-m2-in-larnaka,202
 https://www.grekodom.com/realtyobject/31806-for-sale-villa-251-m2-in-larnaka,2026-11-17,435000
 https://www.grekodom.com/realtyobject/31806-for-sale-villa-251-m2-in-larnaka,2026-11-19,1300000
 https://www.grekodom.com/realtyobject/31806-for-sale-villa-251-m2-in-larnaka,2026-11-21,400000
+https://www.grekodom.com/realtyobject/31806-for-sale-villa-251-m2-in-larnaka,2026-11-23,410000
 https://www.grekodom.com/realtyobject/31812-for-sale-villa-127-m2-in-larnaka,2026-10-24,595000
 https://www.grekodom.com/realtyobject/31814-for-sale-detached-house-120-m2-in-north,2026-10-19,60000
 https://www.grekodom.com/realtyobject/31831-for-sale-building-344-m2-in-athens,2026-10-13,370000
@@ -33147,6 +33294,7 @@ https://www.grekodom.com/realtyobject/4295-for-sale-land-6374-m2-in-ionian-islan
 https://www.grekodom.com/realtyobject/4295-for-sale-land-6374-m2-in-ionian-islands,2026-10-24,300000
 https://www.grekodom.com/realtyobject/4295-for-sale-land-6374-m2-in-ionian-islands,2026-11-01,200000
 https://www.grekodom.com/realtyobject/4295-for-sale-land-6374-m2-in-ionian-islands,2026-11-12,220000
+https://www.grekodom.com/realtyobject/4295-for-sale-land-6374-m2-in-ionian-islands,2026-11-23,3000000
 https://www.grekodom.com/realtyobject/4296-for-sale-villa-700-m2-in-attica,2026-10-11,1200000
 https://www.grekodom.com/realtyobject/4297-for-sale-land-7000-m2-in-ionian-islands,2026-10-08,940000
 https://www.grekodom.com/realtyobject/4307-for-sale-land-14741-m2-in-ionian-islands,2026-10-08,3000000
@@ -34862,6 +35010,8 @@ https://www.invistarealestate.gr/el-GR/id/26955/__(pros-enikiasi)-epaggelmatikos
 https://www.invistarealestate.gr/el-GR/id/26958/__(pros-enikiasi)-epaggelmatikos-choros-ktirio-athina-ditika-peristeri/estate.html,2026-11-19,9500
 https://www.invistarealestate.gr/el-GR/id/26962/__(pros-polisi)-epaggelmatikos-choros-grafio-athina-notia-alimos/estate.html,2026-11-20,420000
 https://www.invistarealestate.gr/el-GR/id/26963/__(pros-enikiasi)-epaggelmatikos-choros-katastima-anatoliki-attiki-boila/estate.html,2026-11-20,12000
+https://www.invistarealestate.gr/el-GR/id/26970/__(pros-enikiasi)-epaggelmatikos-choros-grafio-athina-notia-glifada/estate.html,2026-11-23,4000
+https://www.invistarealestate.gr/el-GR/id/26971/__(pros-enikiasi)-epaggelmatikos-choros-grafio-athina-notia-alimos/estate.html,2026-11-23,1350
 https://www.invistarealestate.gr/el-GR/id/4472/__(pros-polisi)-epaggelmatikos-choros-grafio-athina-notia-glifada/estate.html,2026-10-02,390000
 https://www.invistarealestate.gr/el-GR/id/5641/__(pros-polisi)-axiopiisimi-gi-ikopedo-anatoliki-attiki-saronida/estate.html,2026-10-14,3850000
 https://www.isqm.gr/el/properties/2321461,2026-10-02,7000000
@@ -35044,6 +35194,7 @@ https://www.ktirioact.gr/property/13024,2026-10-06,3500
 https://www.ktirioact.gr/property/13031,2026-10-06,2000000
 https://www.ktirioact.gr/property/13032,2026-10-06,8000
 https://www.ktirioact.gr/property/13042,2026-10-06,250000
+https://www.ktirioact.gr/property/13042,2026-11-23,220000
 https://www.ktirioact.gr/property/13046,2026-10-06,500000
 https://www.ktirioact.gr/property/13056,2026-10-05,850
 https://www.ktirioact.gr/property/13057,2026-10-06,260000
@@ -35110,6 +35261,8 @@ https://www.ktirioact.gr/property/13163,2026-11-19,230000
 https://www.ktirioact.gr/property/13164,2026-11-19,15000
 https://www.ktirioact.gr/property/13165,2026-11-19,11000
 https://www.ktirioact.gr/property/13167,2026-11-20,700000
+https://www.ktirioact.gr/property/13171,2026-11-23,240000
+https://www.ktirioact.gr/property/13172,2026-11-23,300000
 https://www.ktirioact.gr/property/2754,2026-10-13,280000
 https://www.ktirioact.gr/property/5653,2026-11-17,550
 https://www.ktirioact.gr/property/5911,2026-10-06,2700
@@ -35337,6 +35490,7 @@ https://www.levelrealty.gr/1790556-pros-enoikiasi-glyfada-155-tm-1500_1790556,20
 https://www.levelrealty.gr/1790565-diamerisma-pros-polisi-glyfada-80-tm-320000_1790565,2026-10-08,320000
 https://www.levelrealty.gr/1790850-diamerisma-pros-polisi-palaio-faliro-46-tm-185000_1790850,2026-10-02,185000
 https://www.levelrealty.gr/1792601-oikopedo-pros-polisi-bari-barkiza-960-tm-500000_1792601,2026-11-17,500000
+https://www.levelrealty.gr/1792912-oikopedo-pros-polisi-glyfada-310-tm-470000_1792912,2026-11-23,470000
 https://www.levelrealty.gr/1793157-oikopedo-pros-polisi-glyfada-526-tm-980000_1793157,2026-11-10,980000
 https://www.levelrealty.gr/1793792-diamerisma-pros-polisi-alimos-101-tm-420000_1793792,2026-11-19,420000
 https://www.levelrealty.gr/1794534-ktirio-epaggelmatikon-xoron-pros-polisi-argyroupoli-820-tm-3200000_1794534,2026-10-02,3200000
@@ -35529,8 +35683,11 @@ https://www.levelrealty.gr/2704823-diamerisma-pros-enoikiasi-glyfada-53-tm-950_2
 https://www.levelrealty.gr/2713833-oikopedo-pros-polisi-alimos-603-tm-2000000_2713833,2026-11-18,2000000
 https://www.levelrealty.gr/2713833-oikopedo-pros-polisi-alimos-605-tm-2000000_2713833,2026-11-18,2000000
 https://www.levelrealty.gr/2714097-oikopedo-pros-polisi-spata-873-tm-120000_2714097,2026-11-20,120000
+https://www.levelrealty.gr/2714790-diamerisma-pros-enoikiasi-glyfada-155-tm-3250_2714790,2026-11-23,3250
 https://www.levelrealty.gr/2715953-diamerisma-pros-polisi-glyfada-82-tm-620000_2715953,2026-11-19,620000
 https://www.levelrealty.gr/2716338-diamerisma-pros-enoikiasi-bari-barkiza-102-tm-2200_2716338,2026-11-20,2200
+https://www.levelrealty.gr/2716401-katastima-pros-enoikiasi-argyroupoli-77-tm-950_2716401,2026-11-23,950
+https://www.levelrealty.gr/2716977-monokatoikia-pros-polisi-boula-420-tm-1880000_2716977,2026-11-23,1880000
 https://www.levelrealty.gr/pros-enoikiasi-epaggelmatikos-xoros-aithousa-athina-notia-alimos-535-tm-9500_1796162,2026-10-02,9500
 https://www.levelrealty.gr/pros-enoikiasi-epaggelmatikos-xoros-epaggelmatikos-xoros-athina-kentro-athina-100-tm-1200_1798390,2026-10-09,1200
 https://www.levelrealty.gr/pros-enoikiasi-epaggelmatikos-xoros-epaggelmatikos-xoros-athina-notia-nea-smyrni-110-tm-1800_1780544,2026-10-02,1800
@@ -35954,6 +36111,7 @@ https://www.look2book.gr/el-GR/id/61335/__ipo-kataskeii-mezoneta-me-idotiki-pisi
 https://www.look2book.gr/el-GR/id/6137/__katapliktiki-bila-me-pisina-kai-fantastiki-thea-thalassa-stin-anabisso/estate.html,2026-10-02,1300000
 https://www.look2book.gr/el-GR/id/61374/__grafio-se-poli-kali-katastasi-konta-sto-kentro-tis-glifadas/estate.html,2026-10-02,850
 https://www.look2book.gr/el-GR/id/61374/__grafio-se-poli-kali-katastasi-konta-sto-kentro-tis-glifadas/estate.html,2026-10-19,1300000
+https://www.look2book.gr/el-GR/id/61402/__minimal-bila-me-pisina-kai-kipo-pliros-epiplomeni-stin-glifada/estate.html,2026-11-23,6300
 https://www.look2book.gr/el-GR/id/61407/__monokatikia-me-aperioristi-thea-thalassa-kai-kipo-stin-aigli-sti-glifada/estate.html,2026-10-06,4500
 https://www.look2book.gr/el-GR/id/61407/__monokatikia-me-aperioristi-thea-thalassa-kai-kipo-stin-aigli-sti-glifada/estate.html,2026-11-02,1300000
 https://www.look2book.gr/el-GR/id/61424/__grafio-se-exairetiko-simio-sto-limanitoi-piraia-/estate.html,2026-10-02,1600
@@ -36118,6 +36276,7 @@ https://www.look2book.gr/el-GR/id/61873/__ipo-kataskeii-mezoneta-me-idiotiko-kip
 https://www.look2book.gr/el-GR/id/61874/__fantastiko-pliros-epiplomeno-diamerisma-sto-palaio-faliro/estate.html,2026-10-13,2280
 https://www.look2book.gr/el-GR/id/61875/__(pros-enikiasi)-epaggelmatikos-choros-epaggelmatikos-choros-athina-notia-agios-dimitrios-/estate.html,2026-10-14,300
 https://www.look2book.gr/el-GR/id/61876/__anakainismeno-kai-epiplomeno-diamerisma-sti-nea-smirni/estate.html,2026-10-14,800
+https://www.look2book.gr/el-GR/id/61876/__anakainismeno-kai-epiplomeno-diamerisma-sti-nea-smirni/estate.html,2026-11-23,750
 https://www.look2book.gr/el-GR/id/61877/__sigchronos-pliros-exoplismenos-epaggelmatikos-choros-sto-kentro-tis-glifadas/estate.html,2026-10-14,9000
 https://www.look2book.gr/el-GR/id/61878/__katapliktiko-pliros-epiplomeno-kai-exoplismeno-diamerisma-me-aperioristi-thea-thalassa-sto-panorama-boilas/estate.html,2026-10-15,2700
 https://www.look2book.gr/el-GR/id/61879/__exairetiko-epiplomeno-diamerisma-stin-kato-glifada/estate.html,2026-10-15,1400
@@ -36310,6 +36469,13 @@ https://www.look2book.gr/el-GR/id/62054/__anakainismeno-fotino-diamerisma-stin-t
 https://www.look2book.gr/el-GR/id/62055/__entiposiaki-mezoneta-me-megalo-kipo-kai-2-pisines-kato-glifada/estate.html,2026-11-20,5000000
 https://www.look2book.gr/el-GR/id/62056/__eirichoro-retire-diamerisma-sto-gkolf-glifadas/estate.html,2026-11-20,1850
 https://www.look2book.gr/el-GR/id/62058/__polikatikia-ktirio-sti-boila/estate.html,2026-11-20,1500000
+https://www.look2book.gr/el-GR/id/62059/__mezoneta-me-kipo-stin-aigli-sti-glifada/estate.html,2026-11-23,1700
+https://www.look2book.gr/el-GR/id/62060/__enikiasi-epiplomenoi-diamerismatos-stin-glifada-me-thea/estate.html,2026-11-23,1500
+https://www.look2book.gr/el-GR/id/62061/__katapliktiko-epiplomeno-diamerisma-sto-kentro-tis-glifadas/estate.html,2026-11-23,2300
+https://www.look2book.gr/el-GR/id/62062/__anakainismeno-diamerisma-se-poli-kali-katastasi-ston-piraia/estate.html,2026-11-23,650
+https://www.look2book.gr/el-GR/id/62063/__exairetiki-epiplomeni-mezoneta-sto-kentro-tis-boilas/estate.html,2026-11-23,3500
+https://www.look2book.gr/el-GR/id/62064/__anakainismeno-fotino-diamerisma-sto-elliniko/estate.html,2026-11-23,1050
+https://www.look2book.gr/el-GR/id/62065/__enikiasi-exairetikoi-pliros-epiplomenoi-diamerismatos-sto-panorama-boilas/estate.html,2026-11-23,1850
 https://www.look2book.gr/el-GR/id/6233/__epaggelmatikos-choros-grafion-pros-polisi-se-kali-katastasi-sti-glifada-/estate.html,2026-10-02,5000000
 https://www.luckyland.gr/el-GR/id/1143/__(pros-polisi)-katikia-monokatikia-athina-boria-kifisia-/estate.html,2026-10-02,1400000
 https://www.luckyland.gr/el-GR/id/4577/__(pros-polisi)-katikia-mezoneta-anatoliki-attiki-boila-/estate.html,2026-10-02,3500000
@@ -36324,6 +36490,7 @@ https://www.luxliving.gr/property/1018,2026-10-13,504000
 https://www.luxliving.gr/property/1030,2026-10-13,520200
 https://www.luxliving.gr/property/1055,2026-11-13,700000
 https://www.luxliving.gr/property/1056,2026-10-22,450000
+https://www.luxliving.gr/property/1162,2026-11-23,280000
 https://www.luxliving.gr/property/1167,2026-11-13,250000
 https://www.luxliving.gr/property/1187,2026-11-12,680000
 https://www.luxliving.gr/property/1206,2026-11-04,780000
@@ -36378,8 +36545,13 @@ https://www.luxliving.gr/property/1667,2026-10-19,440000
 https://www.luxliving.gr/property/1711,2026-10-05,460000
 https://www.luxliving.gr/property/1712,2026-10-05,510000
 https://www.luxliving.gr/property/1717,2026-11-19,710000
+https://www.luxliving.gr/property/1735,2026-11-23,340000
+https://www.luxliving.gr/property/1736,2026-11-23,480000
+https://www.luxliving.gr/property/1738,2026-11-23,420000
 https://www.luxliving.gr/property/1739,2026-10-09,420000
+https://www.luxliving.gr/property/1740,2026-11-23,490000
 https://www.luxliving.gr/property/1741,2026-10-08,620000
+https://www.luxliving.gr/property/1742,2026-11-23,430000
 https://www.luxliving.gr/property/1789,2026-10-29,450000
 https://www.luxliving.gr/property/1793,2026-10-02,2600000
 https://www.luxliving.gr/property/1797,2026-11-04,3480000
@@ -36509,8 +36681,11 @@ https://www.luxliving.gr/property/2441,2026-11-16,586050
 https://www.luxliving.gr/property/2442,2026-11-16,475072
 https://www.luxliving.gr/property/2443,2026-11-16,506428
 https://www.luxliving.gr/property/2452,2026-11-11,1223010
+https://www.luxliving.gr/property/2452,2026-11-23,1220000
 https://www.luxliving.gr/property/2453,2026-11-11,1211220
+https://www.luxliving.gr/property/2453,2026-11-23,1200000
 https://www.luxliving.gr/property/2454,2026-11-11,582570
+https://www.luxliving.gr/property/2454,2026-11-23,580000
 https://www.luxliving.gr/property/2457,2026-11-11,3000
 https://www.luxliving.gr/property/2458,2026-11-12,750000
 https://www.luxliving.gr/property/2459,2026-11-18,1250000
@@ -36518,7 +36693,13 @@ https://www.luxliving.gr/property/2460,2026-11-12,620000
 https://www.luxliving.gr/property/2461,2026-11-18,5500
 https://www.luxliving.gr/property/2463,2026-11-12,1350000
 https://www.luxliving.gr/property/2465,2026-11-13,2600000
+https://www.luxliving.gr/property/2466,2026-11-23,300000
+https://www.luxliving.gr/property/2467,2026-11-23,770000
 https://www.luxliving.gr/property/2469,2026-11-16,1000000
+https://www.luxliving.gr/property/2470,2026-11-23,640000
+https://www.luxliving.gr/property/2471,2026-11-23,1850000
+https://www.luxliving.gr/property/2472,2026-11-23,3800000
+https://www.luxliving.gr/property/2473,2026-11-23,2050000
 https://www.luxliving.gr/property/2512,2026-11-23,315000
 https://www.magnaestate.gr/property/1778,2026-10-03,250000
 https://www.magnaestate.gr/property/1778?language=en,2026-10-07,250000
@@ -36866,6 +37047,7 @@ https://www.mesitiko-athens.gr/el-GR/id/47493/__(pros-polisi)-epaggelmatikos-cho
 https://www.mesitiko-athens.gr/el-GR/id/47493/__(pros-polisi)-epaggelmatikos-choros-katastima-athina-kentro-athina-/estate.html,2026-11-09,50000
 https://www.mesitiko-athens.gr/el-GR/id/47493/__(pros-polisi)-epaggelmatikos-choros-katastima-athina-kentro-athina-/estate.html,2026-11-19,60000
 https://www.mesitiko-athens.gr/el-GR/id/47493/__(pros-polisi)-epaggelmatikos-choros-katastima-athina-kentro-athina-/estate.html,2026-11-21,50000
+https://www.mesitiko-athens.gr/el-GR/id/47493/__(pros-polisi)-epaggelmatikos-choros-katastima-athina-kentro-athina-/estate.html,2026-11-23,85000
 https://www.mesitiko-athens.gr/el-GR/id/47518/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-10-02,750
 https://www.mesitiko-athens.gr/el-GR/id/47535/__(pros-enikiasi)-katikia-orofodiamerisma-athina-kentro-athina-/estate.html,2026-10-02,1400
 https://www.mesitiko-athens.gr/el-GR/id/47538/__(pros-polisi)-axiopiisimi-gi-ikopedo-athina-notia-tairos-/estate.html,2026-10-02,240000
@@ -36884,6 +37066,7 @@ https://www.mesitiko-athens.gr/el-GR/id/47577/__(pros-enikiasi)-katikia-mezoneta
 https://www.mesitiko-athens.gr/el-GR/id/47581/__(pros-polisi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-10-26,95000
 https://www.mesitiko-athens.gr/el-GR/id/47581/__(pros-polisi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-19,60000
 https://www.mesitiko-athens.gr/el-GR/id/47581/__(pros-polisi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-21,50000
+https://www.mesitiko-athens.gr/el-GR/id/47581/__(pros-polisi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-23,85000
 https://www.mesitiko-athens.gr/el-GR/id/47584/__(pros-enikiasi)-katikia-mezoneta-piraias-piraias-/estate.html,2026-10-02,1400
 https://www.mesitiko-athens.gr/el-GR/id/47590/__(pros-polisi)-epaggelmatikos-choros-katastima-athina-kentro-athina-/estate.html,2026-10-02,55000
 https://www.mesitiko-athens.gr/el-GR/id/47593/__(pros-polisi)-axiopiisimi-gi-ikopedo-ektos-ikismoi-n.-arkadias-falanthos-/estate.html,2026-10-02,100000
@@ -37099,6 +37282,7 @@ https://www.mesitiko-athens.gr/el-GR/id/47709/__(pros-polisi)-katikia-orofodiame
 https://www.mesitiko-athens.gr/el-GR/id/47710/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-18,1600
 https://www.mesitiko-athens.gr/el-GR/id/47712/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-11-19,800
 https://www.mesitiko-athens.gr/el-GR/id/47713/__(pros-polisi)-katikia-gkarsoniera-athina-kentro-athina-/estate.html,2026-11-20,50000
+https://www.mesitiko-athens.gr/el-GR/id/47714/__(pros-polisi)-katikia-gkarsoniera-athina-kentro-athina-/estate.html,2026-11-23,85000
 https://www.mirproperties.gr/el/properties/1805690,2026-10-02,23000
 https://www.mirproperties.gr/el/properties/1898575,2026-10-02,390000
 https://www.mirproperties.gr/el/properties/1994255,2026-10-05,180000
@@ -37337,6 +37521,8 @@ https://www.nexgenrealty.gr/property/1994,2026-11-13,270000
 https://www.nexgenrealty.gr/property/1995,2026-11-13,300000
 https://www.nexgenrealty.gr/property/1996,2026-11-13,350000
 https://www.nexgenrealty.gr/property/1997,2026-11-18,290000
+https://www.nexgenrealty.gr/property/1998,2026-11-23,335000
+https://www.nexgenrealty.gr/property/1999,2026-11-23,308000
 https://www.niavisestate.com/property.php?id=3749,2026-10-02,1300000
 https://www.niavisestate.com/property.php?id=4051,2026-10-02,210000
 https://www.niavisestate.com/property.php?id=4101,2026-10-02,990000
@@ -37830,6 +38016,7 @@ https://www.northproject.gr/el-GR/id/28071/__(pros-polisi)-epaggelmatikos-choros
 https://www.northproject.gr/el-GR/id/28072/__(pros-polisi)-katikia-mezoneta-athina-boria-neo-psichiko-/estate.html,2026-10-13,936000
 https://www.northproject.gr/el-GR/id/28073/__(pros-polisi)-katikia-mezoneta-athina-boria-neo-psichiko-/estate.html,2026-10-13,940000
 https://www.northproject.gr/el-GR/id/28073/__(pros-polisi)-katikia-mezoneta-athina-boria-neo-psichiko-/estate.html,2026-11-16,175000
+https://www.northproject.gr/el-GR/id/28073/__(pros-polisi)-katikia-mezoneta-athina-boria-neo-psichiko-/estate.html,2026-11-23,360000
 https://www.northproject.gr/el-GR/id/28074/__(pros-polisi)-katikia-mezoneta-anatoliki-attiki-drosia-/estate.html,2026-10-14,300000
 https://www.northproject.gr/el-GR/id/28074/__(pros-polisi)-katikia-mezoneta-anatoliki-attiki-drosia-/estate.html,2026-11-13,3500000
 https://www.northproject.gr/el-GR/id/28074/__(pros-polisi)-katikia-mezoneta-anatoliki-attiki-drosia-/estate.html,2026-11-19,490000
@@ -37873,6 +38060,7 @@ https://www.northproject.gr/el-GR/id/28104/__(pros-polisi)-epaggelmatikos-choros
 https://www.northproject.gr/el-GR/id/28104/__(pros-polisi)-epaggelmatikos-choros-grafio-athina-kentro-athina-/estate.html,2026-11-08,570000
 https://www.northproject.gr/el-GR/id/28104/__(pros-polisi)-epaggelmatikos-choros-grafio-athina-kentro-athina-/estate.html,2026-11-14,3500000
 https://www.northproject.gr/el-GR/id/28104/__(pros-polisi)-epaggelmatikos-choros-grafio-athina-kentro-athina-/estate.html,2026-11-20,800000
+https://www.northproject.gr/el-GR/id/28104/__(pros-polisi)-epaggelmatikos-choros-grafio-athina-kentro-athina-/estate.html,2026-11-23,360000
 https://www.northproject.gr/el-GR/id/28105/__(pros-polisi)-katikia-mezoneta-anatoliki-attiki-dionisos-/estate.html,2026-10-19,490000
 https://www.northproject.gr/el-GR/id/28105/__(pros-polisi)-katikia-monokatikia-anatoliki-attiki-dionisos-/estate.html,2026-10-17,490000
 https://www.northproject.gr/el-GR/id/28106/__(pros-enikiasi)-katikia-diamerisma-athina-kentro-athina-/estate.html,2026-10-17,1500
@@ -37921,6 +38109,7 @@ https://www.northproject.gr/el-GR/id/28150/__(pros-enikiasi)-epaggelmatikos-chor
 https://www.northproject.gr/el-GR/id/28151/__(pros-enikiasi)-katikia-monokatikia-athina-boria-kifisia-/estate.html,2026-10-23,7500
 https://www.northproject.gr/el-GR/id/28151/__(pros-enikiasi)-katikia-monokatikia-athina-boria-kifisia-/estate.html,2026-11-16,850
 https://www.northproject.gr/el-GR/id/28154/__(pros-polisi)-katikia-diamerisma-athina-boria-peiki-/estate.html,2026-10-23,295000
+https://www.northproject.gr/el-GR/id/28154/__(pros-polisi)-katikia-diamerisma-athina-boria-peiki-/estate.html,2026-11-23,360000
 https://www.northproject.gr/el-GR/id/28155/__(pros-polisi)-katikia-mezoneta-athina-boria-ekali-/estate.html,2026-10-23,850000
 https://www.northproject.gr/el-GR/id/28157/__(pros-polisi)-katikia-diamerisma-athina-boria-nea-erithraia-/estate.html,2026-10-23,345000
 https://www.northproject.gr/el-GR/id/28158/__(pros-polisi)-katikia-monokatikia-athina-boria-kifisia-/estate.html,2026-10-23,1285000
@@ -38122,6 +38311,7 @@ https://www.northproject.gr/el-GR/id/28420/__(pros-polisi)-katikia-mezoneta-athi
 https://www.northproject.gr/el-GR/id/28421/__(pros-polisi)-katikia-diamerisma-athina-boria-kifisia-/estate.html,2026-11-23,340000
 https://www.northproject.gr/el-GR/id/28422/__(pros-polisi)-katikia-monokatikia-athina-boria-nea-erithraia-/estate.html,2026-11-23,1000000
 https://www.northproject.gr/el-GR/id/28423/__(pros-polisi)-katikia-mezoneta-athina-boria-kifisia-/estate.html,2026-11-23,1400000
+https://www.northproject.gr/el-GR/id/28424/__(pros-polisi)-katikia-monokatikia-anatoliki-attiki-agios-stefanos-/estate.html,2026-11-23,360000
 https://www.oikia-domi.gr/property.php?id=1957,2026-10-02,260000
 https://www.oikia-domi.gr/property.php?id=2328,2026-10-02,350000
 https://www.oikia-domi.gr/property.php?id=2329,2026-10-02,1400000
@@ -41629,6 +41819,7 @@ https://www.prosperity-realestate.gr/property/2193,2026-10-07,400000
 https://www.prosperity-realestate.gr/property/2197,2026-10-15,135000
 https://www.prosperity-realestate.gr/property/2198,2026-10-15,95000
 https://www.prosperity-realestate.gr/property/2199,2026-10-07,800
+https://www.prosperity-realestate.gr/property/2201,2026-11-23,325000
 https://www.prosperity-realestate.gr/property/2208,2026-10-07,250000
 https://www.prosperity-realestate.gr/property/2209,2026-10-07,180000
 https://www.prosperity-realestate.gr/property/2209,2026-10-14,280000
@@ -41862,6 +42053,7 @@ https://www.proteusrealestate.gr/property.php?id=2019,2026-10-03,900
 https://www.proteusrealestate.gr/property.php?id=2020,2026-10-06,1600
 https://www.proteusrealestate.gr/property.php?id=2021,2026-10-03,420000
 https://www.proteusrealestate.gr/property.php?id=2022,2026-10-06,800
+https://www.proteusrealestate.gr/property.php?id=2023,2026-11-23,120000
 https://www.proteusrealestate.gr/property.php?id=2024,2026-10-07,180000
 https://www.proteusrealestate.gr/property.php?id=2025,2026-10-07,690
 https://www.proteusrealestate.gr/property.php?id=2026,2026-10-07,1000
@@ -42946,6 +43138,10 @@ https://www.re1.gr/property/67351/mezoneta-pros-polisi-efkairia-gia-anakainisi-k
 https://www.re1.gr/property/67352/mezoneta-pros-polisi-efkairia-gia-anakainisi-kai-anaptyxi,2026-11-22,930000
 https://www.re1.gr/property/67353/oikopedo-pros-polisi-efkairia-gia-dimiourgia-neas-katoikias,2026-11-22,2050000
 https://www.re1.gr/property/67354/efkairia-palio-spiti-138-tm-me-thea-sto-fourni-lasithi,2026-11-23,150000
+https://www.re1.gr/property/67355/poleitai-ependytiko-oikopedo-agriana-xersonisou-kritis,2026-11-23,290000
+https://www.re1.gr/property/67356/poleitai-sygxrono-epaggelmatiko-aytoteles-ktirio-viotexniko-parko-anopolis-irakleio-kritis,2026-11-23,390000
+https://www.re1.gr/property/67357/poleitai-oikopedo-150tm-irakleio-dimos-xersonisou-gouves,2026-11-23,60000
+https://www.re1.gr/property/67358/poleitai-oikopedo-1000tm-irakleio-dimos-xersonisou-gouves,2026-11-23,130000
 https://www.realestategalakoutis.gr/property/1032,2026-10-06,6800
 https://www.realestategalakoutis.gr/property/1038,2026-10-06,6200
 https://www.realestategalakoutis.gr/property/1054,2026-10-06,5500
@@ -43040,7 +43236,9 @@ https://www.realty4value.gr/el-GR/id/1188/__(pros-polisi)-katikia-monokatikia-n.
 https://www.realty4value.gr/el-GR/id/1189/__(pros-polisi)-axiopiisimi-gi-ikopedo-n.-magnisias-pilio/estate.html,2026-10-02,100000
 https://www.realty4value.gr/el-GR/id/1190/__(pros-polisi)-axiopiisimi-gi-ikopedo-n.-magnisias-pilio/estate.html,2026-10-02,3500000
 https://www.realty4value.gr/el-GR/id/1191/__(pros-enikiasi)-epaggelmatikos-choros-aithoisa-athina-boria-iraklio/estate.html,2026-10-02,1100
+https://www.realty4value.gr/el-GR/id/1191/__(pros-enikiasi)-epaggelmatikos-choros-grafio-athina-boria-iraklio/estate.html,2026-11-23,1100
 https://www.realty4value.gr/el-GR/id/1193/__(pros-enikiasi)-epaggelmatikos-choros-grafio-athina-boria-nea-ionia/estate.html,2026-10-02,550
+https://www.realty4value.gr/el-GR/id/1193/__(pros-enikiasi)-epaggelmatikos-choros-grafio-athina-boria-nea-ionia/estate.html,2026-11-23,1100
 https://www.realty4value.gr/el-GR/id/1194/__(pros-polisi)-katikia-orofodiamerisma-athina-boria-nea-ionia/estate.html,2026-10-21,320000
 https://www.realty4value.gr/el-GR/id/1198/__(pros-polisi)-axiopiisimi-gi-ikopedo-n.-korinthias-feneos/estate.html,2026-10-02,60000
 https://www.realty4value.gr/el-GR/id/1200/__(pros-polisi)-epaggelmatikos-choros-grafio-athina-boria-iraklio/estate.html,2026-10-02,250000
@@ -50669,6 +50867,7 @@ https://www.remax.gr/property/406598-polisi-mezoneta-nea-smyrnh,2026-10-21,47500
 https://www.remax.gr/property/406601-polisi-diamerisma-palaio-falhro,2026-10-21,550000
 https://www.remax.gr/property/406602-enoikiasi-katastima-kypselh,2026-10-10,1700
 https://www.remax.gr/property/406604-polisi-epaggelmatiko-ktirio-a-nekrotafeio,2026-10-08,1590000
+https://www.remax.gr/property/406604-polisi-epaggelmatiko-ktirio-a-nekrotafeio,2026-11-23,1500000
 https://www.remax.gr/property/406605-polisi-diamerisma-zwgrafoy,2026-10-20,49000
 https://www.remax.gr/property/406607-polisi-diamerisma-neo-psyxiko,2026-10-14,330000
 https://www.remax.gr/property/406608-polisi-diamerisma-plateia-amerikhs,2026-10-02,55000
@@ -52266,6 +52465,8 @@ https://www.remax.gr/property/412112-polisi-diamerisma-eksarxeia-neapolh,2026-11
 https://www.remax.gr/property/412114-polisi-diamerisma-attikh,2026-11-20,140000
 https://www.remax.gr/property/412118-polisi-grafeio-akadhmia,2026-11-20,200000
 https://www.remax.gr/property/412129-polisi-diamerisma-plateia-attikhs,2026-11-21,130000
+https://www.remax.gr/property/412163-enoikiasi-grafeio-metaksoyrgeio,2026-11-23,650
+https://www.remax.gr/property/412191-polisi-diamerisma-attikh,2026-11-23,92500
 https://www.remaxfriends.gr/el/properties/2354870,2026-10-02,180000
 https://www.remaxfriends.gr/el/properties/2368058,2026-10-02,130000
 https://www.remaxfriends.gr/el/properties/2587661,2026-10-02,465000
@@ -52586,6 +52787,7 @@ https://www.royalresidentialinvestments.gr/property/18232,2026-10-20,385000
 https://www.royalresidentialinvestments.gr/property/18233,2026-10-20,294000
 https://www.royalresidentialinvestments.gr/property/18234,2026-10-20,420000
 https://www.royalresidentialinvestments.gr/property/18237,2026-10-20,780000
+https://www.royalresidentialinvestments.gr/property/18238,2026-11-23,1500
 https://www.royalresidentialinvestments.gr/property/18272,2026-10-02,2600000
 https://www.royalresidentialinvestments.gr/property/18293,2026-11-10,710000
 https://www.royalresidentialinvestments.gr/property/18294,2026-11-10,840000
@@ -52874,6 +53076,11 @@ https://www.royalresidentialinvestments.gr/property/19213,2026-11-20,1900
 https://www.royalresidentialinvestments.gr/property/19214,2026-11-20,2200
 https://www.royalresidentialinvestments.gr/property/19218,2026-11-20,490000
 https://www.royalresidentialinvestments.gr/property/19219,2026-11-20,310000
+https://www.royalresidentialinvestments.gr/property/19221,2026-11-23,320000
+https://www.royalresidentialinvestments.gr/property/19222,2026-11-23,560000
+https://www.royalresidentialinvestments.gr/property/19223,2026-11-23,540000
+https://www.royalresidentialinvestments.gr/property/19224,2026-11-23,2400
+https://www.royalresidentialinvestments.gr/property/19225,2026-11-23,380000
 https://www.royalresidentialinvestments.gr/property/5887,2026-10-02,1500000
 https://www.royalresidentialinvestments.gr/property/9144,2026-10-02,2000000
 https://www.royalresidentialinvestments.gr/property/9271,2026-10-15,2000000
@@ -54889,6 +55096,32 @@ https://www.spiti24.gr/akinito/21354852,2026-11-22,158000
 https://www.spiti24.gr/akinito/21354853,2026-11-22,400
 https://www.spiti24.gr/akinito/21354854,2026-11-22,870000
 https://www.spiti24.gr/akinito/21354864,2026-11-22,400
+https://www.spiti24.gr/akinito/21356723,2026-11-23,800
+https://www.spiti24.gr/akinito/21356823,2026-11-23,870
+https://www.spiti24.gr/akinito/21357092,2026-11-23,1000
+https://www.spiti24.gr/akinito/21357211,2026-11-23,620
+https://www.spiti24.gr/akinito/21357265,2026-11-23,350
+https://www.spiti24.gr/akinito/21357364,2026-11-23,780
+https://www.spiti24.gr/akinito/21357452,2026-11-23,750
+https://www.spiti24.gr/akinito/21357504,2026-11-23,350
+https://www.spiti24.gr/akinito/21357563,2026-11-23,128000
+https://www.spiti24.gr/akinito/21357575,2026-11-23,320000
+https://www.spiti24.gr/akinito/21357576,2026-11-23,320000
+https://www.spiti24.gr/akinito/21357586,2026-11-23,270000
+https://www.spiti24.gr/akinito/21357588,2026-11-23,190500
+https://www.spiti24.gr/akinito/21357590,2026-11-23,181000
+https://www.spiti24.gr/akinito/21357592,2026-11-23,500
+https://www.spiti24.gr/akinito/21357597,2026-11-23,135000
+https://www.spiti24.gr/akinito/21357599,2026-11-23,153000
+https://www.spiti24.gr/akinito/21357606,2026-11-23,350000
+https://www.spiti24.gr/akinito/21357609,2026-11-23,440000
+https://www.spiti24.gr/akinito/21357610,2026-11-23,133000
+https://www.spiti24.gr/akinito/21357613,2026-11-23,210000
+https://www.spiti24.gr/akinito/21357616,2026-11-23,300000
+https://www.spiti24.gr/akinito/21357620,2026-11-23,380000
+https://www.spiti24.gr/akinito/21357621,2026-11-23,400000
+https://www.spiti24.gr/akinito/21357622,2026-11-23,110000
+https://www.spiti24.gr/akinito/21357627,2026-11-23,285000
 https://www.spiti24.gr/akinito/8855834,2026-09-28,500
 https://www.spitogatos.gr/aggelia/1110421460,2026-09-29,188000
 https://www.spitogatos.gr/aggelia/1110865002,2026-10-09,700000
@@ -55059,6 +55292,7 @@ https://www.spitogatos.gr/aggelia/1118031671,2026-11-05,350000
 https://www.spitogatos.gr/aggelia/1118033740,2026-10-16,340000
 https://www.spitogatos.gr/aggelia/1118038812,2026-11-02,230000
 https://www.spitogatos.gr/aggelia/1118048274,2026-10-20,350000
+https://www.spitogatos.gr/aggelia/1118048632,2026-11-23,125000
 https://www.spitogatos.gr/aggelia/1118052955,2026-10-13,85000
 https://www.spitogatos.gr/aggelia/1118052955,2026-10-30,80000
 https://www.spitogatos.gr/aggelia/1118064193,2026-10-03,150000
@@ -55066,6 +55300,7 @@ https://www.spitogatos.gr/aggelia/1118068571,2026-10-04,65000
 https://www.spitogatos.gr/aggelia/1118082231,2026-11-12,150000
 https://www.spitogatos.gr/aggelia/1118082914,2026-10-24,79000
 https://www.spitogatos.gr/aggelia/1118097724,2026-10-22,105000
+https://www.spitogatos.gr/aggelia/1118105972,2026-11-23,105000
 https://www.spitogatos.gr/aggelia/1118108325,2026-11-02,55000
 https://www.spitogatos.gr/aggelia/1118108654,2026-10-03,190000
 https://www.spitogatos.gr/aggelia/1118108743,2026-10-03,145000
@@ -55786,6 +56021,7 @@ https://www.spitogatos.gr/aggelia/1120519883,2026-09-29,88000
 https://www.spitogatos.gr/aggelia/1120522696,2026-11-09,70000
 https://www.spitogatos.gr/aggelia/1120522712,2026-11-09,70000
 https://www.spitogatos.gr/aggelia/1120523482,2026-11-03,235000
+https://www.spitogatos.gr/aggelia/1120524646,2026-11-23,68000
 https://www.spitogatos.gr/aggelia/1120525772,2026-09-30,290000
 https://www.spitogatos.gr/aggelia/1120525887,2026-10-05,143000
 https://www.spitogatos.gr/aggelia/1120529865,2026-10-31,250000
@@ -55808,6 +56044,7 @@ https://www.spitogatos.gr/aggelia/1120553313,2026-10-20,115000
 https://www.spitogatos.gr/aggelia/1120553530,2026-10-21,350000
 https://www.spitogatos.gr/aggelia/1120555195,2026-10-09,145000
 https://www.spitogatos.gr/aggelia/1120555424,2026-09-28,125000
+https://www.spitogatos.gr/aggelia/1120556208,2026-11-23,88000
 https://www.spitogatos.gr/aggelia/1120556277,2026-10-22,420000
 https://www.spitogatos.gr/aggelia/1120557114,2026-11-17,185000
 https://www.spitogatos.gr/aggelia/1120559430,2026-10-05,218000
@@ -55878,6 +56115,7 @@ https://www.spitogatos.gr/aggelia/1120654456,2026-10-06,170000
 https://www.spitogatos.gr/aggelia/1120655897,2026-11-04,108000
 https://www.spitogatos.gr/aggelia/1120656152,2026-10-19,110000
 https://www.spitogatos.gr/aggelia/1120660955,2026-11-13,230000
+https://www.spitogatos.gr/aggelia/1120660964,2026-11-23,130000
 https://www.spitogatos.gr/aggelia/1120662467,2026-09-28,85000
 https://www.spitogatos.gr/aggelia/1120667001,2026-11-03,115000
 https://www.spitogatos.gr/aggelia/1120673967,2026-10-19,138000
@@ -55888,6 +56126,7 @@ https://www.spitogatos.gr/aggelia/1120683540,2026-10-01,85000
 https://www.spitogatos.gr/aggelia/1120683765,2026-10-05,250000
 https://www.spitogatos.gr/aggelia/1120683911,2026-10-12,170000
 https://www.spitogatos.gr/aggelia/1120684059,2026-10-22,330000
+https://www.spitogatos.gr/aggelia/1120687190,2026-11-23,55000
 https://www.spitogatos.gr/aggelia/1120692165,2026-11-10,90000
 https://www.spitogatos.gr/aggelia/1120692605,2026-10-03,260000
 https://www.spitogatos.gr/aggelia/1120692631,2026-11-09,145000
@@ -55979,13 +56218,27 @@ https://www.spitogatos.gr/aggelia/1120793632,2026-10-07,240000
 https://www.spitogatos.gr/aggelia/1120793632,2026-10-28,255000
 https://www.spitogatos.gr/aggelia/1120793643,2026-10-31,138000
 https://www.spitogatos.gr/aggelia/1120793644,2026-10-31,155000
+https://www.spitogatos.gr/aggelia/1120793647,2026-11-23,215000
+https://www.spitogatos.gr/aggelia/1120793649,2026-11-23,135000
+https://www.spitogatos.gr/aggelia/1120793653,2026-11-23,178000
 https://www.spitogatos.gr/aggelia/1120793656,2026-10-31,239000
 https://www.spitogatos.gr/aggelia/1120793659,2026-09-28,160000
+https://www.spitogatos.gr/aggelia/1120793683,2026-11-23,600000
 https://www.spitogatos.gr/aggelia/1120793685,2026-09-28,145000
+https://www.spitogatos.gr/aggelia/1120793700,2026-11-23,199000
 https://www.spitogatos.gr/aggelia/1120793702,2026-09-28,135000
+https://www.spitogatos.gr/aggelia/1120793704,2026-11-23,105000
+https://www.spitogatos.gr/aggelia/1120793709,2026-11-23,153000
+https://www.spitogatos.gr/aggelia/1120793710,2026-11-23,195000
 https://www.spitogatos.gr/aggelia/1120793712,2026-09-28,530000
+https://www.spitogatos.gr/aggelia/1120793713,2026-11-23,187000
 https://www.spitogatos.gr/aggelia/1120793720,2026-10-28,215000
+https://www.spitogatos.gr/aggelia/1120793720,2026-11-23,210000
+https://www.spitogatos.gr/aggelia/1120793724,2026-11-23,220000
+https://www.spitogatos.gr/aggelia/1120793729,2026-11-23,157000
+https://www.spitogatos.gr/aggelia/1120793730,2026-11-23,198000
 https://www.spitogatos.gr/aggelia/1120793734,2026-11-20,600000
+https://www.spitogatos.gr/aggelia/1120793735,2026-11-23,148000
 https://www.spitogatos.gr/aggelia/1120794716,2026-10-08,280000
 https://www.spitogatos.gr/aggelia/1120796362,2026-11-19,127000
 https://www.spitogatos.gr/aggelia/1120796669,2026-10-30,233000
@@ -56063,6 +56316,7 @@ https://www.spitogatos.gr/aggelia/1120849406,2026-10-27,90000
 https://www.spitogatos.gr/aggelia/1120849621,2026-10-15,187000
 https://www.spitogatos.gr/aggelia/1120850742,2026-10-02,139000
 https://www.spitogatos.gr/aggelia/1120851096,2026-10-19,237000
+https://www.spitogatos.gr/aggelia/1120852452,2026-11-23,350000
 https://www.spitogatos.gr/aggelia/1120852740,2026-11-09,71000
 https://www.spitogatos.gr/aggelia/1120853378,2026-11-19,360000
 https://www.spitogatos.gr/aggelia/1120857042,2026-11-10,89000
@@ -56650,6 +56904,7 @@ https://www.spitogatos.gr/aggelia/1120980697,2026-10-02,29900
 https://www.spitogatos.gr/aggelia/1120980698,2026-10-02,55900
 https://www.spitogatos.gr/aggelia/1120980910,2026-10-02,155000
 https://www.spitogatos.gr/aggelia/1120980940,2026-10-02,120000
+https://www.spitogatos.gr/aggelia/1120981295,2026-11-23,220000
 https://www.spitogatos.gr/aggelia/1120981412,2026-10-14,185000
 https://www.spitogatos.gr/aggelia/1120981475,2026-10-02,120000
 https://www.spitogatos.gr/aggelia/1120981548,2026-10-14,270000
@@ -58410,6 +58665,7 @@ https://www.spitogatos.gr/aggelia/1121158256,2026-10-27,62000
 https://www.spitogatos.gr/aggelia/1121158385,2026-10-27,190000
 https://www.spitogatos.gr/aggelia/1121158455,2026-10-29,50000
 https://www.spitogatos.gr/aggelia/1121158580,2026-10-29,195000
+https://www.spitogatos.gr/aggelia/1121159848,2026-11-23,99000
 https://www.spitogatos.gr/aggelia/1121160613,2026-10-27,60000
 https://www.spitogatos.gr/aggelia/1121160617,2026-10-27,138000
 https://www.spitogatos.gr/aggelia/1121160650,2026-10-27,165000
@@ -59600,6 +59856,7 @@ https://www.spitogatos.gr/aggelia/1121309284,2026-11-16,69000
 https://www.spitogatos.gr/aggelia/1121309290,2026-11-16,275000
 https://www.spitogatos.gr/aggelia/1121309296,2026-11-16,200000
 https://www.spitogatos.gr/aggelia/1121309339,2026-11-16,275000
+https://www.spitogatos.gr/aggelia/1121309398,2026-11-23,380000
 https://www.spitogatos.gr/aggelia/1121309434,2026-11-17,68000
 https://www.spitogatos.gr/aggelia/1121309649,2026-11-16,173000
 https://www.spitogatos.gr/aggelia/1121309652,2026-11-16,150000
@@ -59618,6 +59875,7 @@ https://www.spitogatos.gr/aggelia/1121311644,2026-11-16,112000
 https://www.spitogatos.gr/aggelia/1121311683,2026-11-16,263000
 https://www.spitogatos.gr/aggelia/1121311790,2026-11-16,870000
 https://www.spitogatos.gr/aggelia/1121311792,2026-11-16,175000
+https://www.spitogatos.gr/aggelia/1121311815,2026-11-23,195000
 https://www.spitogatos.gr/aggelia/1121311823,2026-11-16,153000
 https://www.spitogatos.gr/aggelia/1121311927,2026-11-16,105000
 https://www.spitogatos.gr/aggelia/1121311932,2026-11-16,148000
@@ -59662,6 +59920,7 @@ https://www.spitogatos.gr/aggelia/1121315192,2026-11-16,33000
 https://www.spitogatos.gr/aggelia/1121315232,2026-11-16,255000
 https://www.spitogatos.gr/aggelia/1121315280,2026-11-16,149000
 https://www.spitogatos.gr/aggelia/1121315486,2026-11-16,42000
+https://www.spitogatos.gr/aggelia/1121315486,2026-11-23,45000
 https://www.spitogatos.gr/aggelia/1121315512,2026-11-16,79000
 https://www.spitogatos.gr/aggelia/1121315700,2026-11-16,118000
 https://www.spitogatos.gr/aggelia/1121315827,2026-11-18,138000
@@ -59949,6 +60208,22 @@ https://www.spitogatos.gr/aggelia/1121357544,2026-11-22,365000
 https://www.spitogatos.gr/aggelia/1121357545,2026-11-22,325000
 https://www.spitogatos.gr/aggelia/1121357546,2026-11-22,175000
 https://www.spitogatos.gr/aggelia/1121357599,2026-11-22,153000
+https://www.spitogatos.gr/aggelia/1121358848,2026-11-23,66000
+https://www.spitogatos.gr/aggelia/1121358849,2026-11-23,380000
+https://www.spitogatos.gr/aggelia/1121358851,2026-11-23,500000
+https://www.spitogatos.gr/aggelia/1121359301,2026-11-23,500000
+https://www.spitogatos.gr/aggelia/1121359345,2026-11-23,570000
+https://www.spitogatos.gr/aggelia/1121359367,2026-11-23,78000
+https://www.spitogatos.gr/aggelia/1121359376,2026-11-23,280000
+https://www.spitogatos.gr/aggelia/1121359396,2026-11-23,75000
+https://www.spitogatos.gr/aggelia/1121359460,2026-11-23,285000
+https://www.spitogatos.gr/aggelia/1121359461,2026-11-23,117000
+https://www.spitogatos.gr/aggelia/1121359539,2026-11-23,380000
+https://www.spitogatos.gr/aggelia/1121359593,2026-11-23,210000
+https://www.spitogatos.gr/aggelia/1121359613,2026-11-23,178000
+https://www.spitogatos.gr/aggelia/1121359675,2026-11-23,173000
+https://www.spitogatos.gr/aggelia/1121359805,2026-11-23,70000
+https://www.spitogatos.gr/aggelia/1121359905,2026-11-23,157000
 https://www.spitogatos.gr/aggelia/116723414,2026-10-28,57000
 https://www.spitogatos.gr/aggelia/118034054,2026-10-12,351000
 https://www.spitogatos.gr/aggelia/118187976,2026-11-09,260000
@@ -59961,6 +60236,7 @@ https://www.spitogatos.gr/aggelia/2211562692,2026-10-24,350
 https://www.spitogatos.gr/aggelia/2211835340,2026-11-02,150
 https://www.spitogatos.gr/aggelia/2212365041,2026-10-06,900
 https://www.spitogatos.gr/aggelia/2212589102,2026-10-03,420
+https://www.spitogatos.gr/aggelia/2212589394,2026-11-23,480
 https://www.spitogatos.gr/aggelia/2212691178,2026-10-19,3000
 https://www.spitogatos.gr/aggelia/2212706442,2026-10-15,430
 https://www.spitogatos.gr/aggelia/2212919109,2026-09-29,270
@@ -60077,6 +60353,7 @@ https://www.spitogatos.gr/aggelia/2219999232,2026-10-12,580
 https://www.spitogatos.gr/aggelia/2219999232,2026-10-13,600
 https://www.spitogatos.gr/aggelia/2220003475,2026-10-16,350
 https://www.spitogatos.gr/aggelia/2220011011,2026-10-09,270
+https://www.spitogatos.gr/aggelia/2220067579,2026-11-23,3000
 https://www.spitogatos.gr/aggelia/2220098518,2026-10-30,650
 https://www.spitogatos.gr/aggelia/2220099007,2026-09-29,850
 https://www.spitogatos.gr/aggelia/2220112650,2026-10-09,650
@@ -60137,6 +60414,7 @@ https://www.spitogatos.gr/aggelia/2220851232,2026-11-02,4600
 https://www.spitogatos.gr/aggelia/2220852831,2026-11-20,1200
 https://www.spitogatos.gr/aggelia/2220858777,2026-10-19,220
 https://www.spitogatos.gr/aggelia/2220873850,2026-10-16,500
+https://www.spitogatos.gr/aggelia/2220882653,2026-11-23,190
 https://www.spitogatos.gr/aggelia/2220888124,2026-10-09,200
 https://www.spitogatos.gr/aggelia/2220896955,2026-11-10,680
 https://www.spitogatos.gr/aggelia/2220902566,2026-11-02,430
@@ -60521,6 +60799,7 @@ https://www.spitogatos.gr/aggelia/2221257178,2026-11-08,1000
 https://www.spitogatos.gr/aggelia/2221257318,2026-11-08,650
 https://www.spitogatos.gr/aggelia/2221258838,2026-11-09,680
 https://www.spitogatos.gr/aggelia/2221258897,2026-11-09,650
+https://www.spitogatos.gr/aggelia/2221260339,2026-11-23,250
 https://www.spitogatos.gr/aggelia/2221261875,2026-11-09,550
 https://www.spitogatos.gr/aggelia/2221262068,2026-11-09,3000
 https://www.spitogatos.gr/aggelia/2221262518,2026-11-09,450
@@ -60614,6 +60893,8 @@ https://www.spitogatos.gr/aggelia/2221357526,2026-11-22,1600
 https://www.spitogatos.gr/aggelia/2221357548,2026-11-22,1000
 https://www.spitogatos.gr/aggelia/2221357602,2026-11-22,1100
 https://www.spitogatos.gr/aggelia/2221357748,2026-11-23,1450
+https://www.spitogatos.gr/aggelia/2221358929,2026-11-23,190
+https://www.spitogatos.gr/aggelia/2221359595,2026-11-23,350
 https://www.spitogatos.gr/aggelia/225053877,2026-11-10,250
 https://www.spitogatos.gr/aggelia/227292338,2026-11-19,2300
 https://www.spitogatos.gr/aggelia/229028806,2026-10-27,300
@@ -60919,6 +61200,7 @@ https://www.stratton.gr/property/4148,2026-11-20,180000
 https://www.stratton.gr/property/4149,2026-11-20,900
 https://www.stratton.gr/property/4150,2026-11-20,1800
 https://www.stratton.gr/property/4152,2026-11-20,1300
+https://www.stratton.gr/property/4154,2026-11-23,225000
 https://www.stratton.gr/property/506,2026-10-07,120000
 https://www.thanos.gr/property/1048631,2026-10-29,690000
 https://www.thanos.gr/property/1051177,2026-10-20,1065000
@@ -60975,6 +61257,7 @@ https://www.thanos.gr/property/112739,2026-11-03,3000000
 https://www.thanos.gr/property/113006,2026-11-03,3000000
 https://www.thanos.gr/property/113032,2026-11-03,7000000
 https://www.thanos.gr/property/113262,2026-11-03,1330000
+https://www.thanos.gr/property/113445,2026-11-23,4500000
 https://www.thanos.gr/property/113617,2026-10-20,750000
 https://www.thanos.gr/property/113756,2026-11-19,900000
 https://www.thanos.gr/property/113801,2026-11-19,1300000
@@ -61248,6 +61531,7 @@ https://www.tospitimou.gr/akinito/14433666,2026-10-05,500
 https://www.tospitimou.gr/akinito/14938691,2026-10-23,115000
 https://www.tospitimou.gr/akinito/15409065,2026-10-05,80000
 https://www.tospitimou.gr/akinito/15557314,2026-10-02,80600
+https://www.tospitimou.gr/akinito/15683683,2026-11-23,850
 https://www.tospitimou.gr/akinito/15720703,2026-10-24,20000
 https://www.tospitimou.gr/akinito/15838216,2026-10-05,144000
 https://www.tospitimou.gr/akinito/15930074,2026-11-15,138000
@@ -61261,6 +61545,7 @@ https://www.tospitimou.gr/akinito/16664578,2026-11-12,160000
 https://www.tospitimou.gr/akinito/16745435,2026-10-19,630
 https://www.tospitimou.gr/akinito/16980984,2026-10-31,330000
 https://www.tospitimou.gr/akinito/17000243,2026-11-21,350000
+https://www.tospitimou.gr/akinito/17035910,2026-11-23,80000
 https://www.tospitimou.gr/akinito/17060867,2026-10-16,120000
 https://www.tospitimou.gr/akinito/17200751,2026-11-21,185000
 https://www.tospitimou.gr/akinito/17422760,2026-10-27,220000
@@ -61384,6 +61669,7 @@ https://www.tospitimou.gr/akinito/20837342,2026-10-05,950
 https://www.tospitimou.gr/akinito/20859794,2026-10-19,1200
 https://www.tospitimou.gr/akinito/20860007,2026-10-05,1500
 https://www.tospitimou.gr/akinito/20869885,2026-10-24,215000
+https://www.tospitimou.gr/akinito/20870503,2026-11-23,750
 https://www.tospitimou.gr/akinito/20884618,2026-10-05,430
 https://www.tospitimou.gr/akinito/20888375,2026-09-28,500
 https://www.tospitimou.gr/akinito/20896708,2026-10-05,250000
@@ -61409,6 +61695,7 @@ https://www.tospitimou.gr/akinito/20940911,2026-09-28,400
 https://www.tospitimou.gr/akinito/20940951,2026-09-28,350
 https://www.tospitimou.gr/akinito/20941012,2026-09-28,185000
 https://www.tospitimou.gr/akinito/20941067,2026-10-05,500
+https://www.tospitimou.gr/akinito/20942004,2026-11-23,600
 https://www.tospitimou.gr/akinito/20945604,2026-09-29,50000
 https://www.tospitimou.gr/akinito/20947314,2026-09-29,55000
 https://www.tospitimou.gr/akinito/20947968,2026-09-29,850
@@ -63018,6 +63305,7 @@ https://www.tospitimou.gr/akinito/21149770,2026-10-26,118000
 https://www.tospitimou.gr/akinito/21149788,2026-10-26,213000
 https://www.tospitimou.gr/akinito/21149897,2026-10-26,42000
 https://www.tospitimou.gr/akinito/21149916,2026-10-26,900
+https://www.tospitimou.gr/akinito/21150075,2026-11-23,570
 https://www.tospitimou.gr/akinito/21151315,2026-10-27,167000
 https://www.tospitimou.gr/akinito/21151550,2026-10-27,220000
 https://www.tospitimou.gr/akinito/21151718,2026-10-27,168000
@@ -64027,6 +64315,7 @@ https://www.tospitimou.gr/akinito/21333316,2026-11-19,263000
 https://www.tospitimou.gr/akinito/21333335,2026-11-19,85000
 https://www.tospitimou.gr/akinito/21333404,2026-11-19,137000
 https://www.tospitimou.gr/akinito/21333425,2026-11-19,650
+https://www.tospitimou.gr/akinito/21337466,2026-11-23,670
 https://www.tospitimou.gr/akinito/21338960,2026-11-20,700
 https://www.tospitimou.gr/akinito/21339139,2026-11-20,510
 https://www.tospitimou.gr/akinito/21339657,2026-11-20,420
@@ -64146,6 +64435,29 @@ https://www.tospitimou.gr/akinito/21354655,2026-11-22,620
 https://www.tospitimou.gr/akinito/21354833,2026-11-22,135000
 https://www.tospitimou.gr/akinito/21354852,2026-11-22,158000
 https://www.tospitimou.gr/akinito/21354854,2026-11-22,870000
+https://www.tospitimou.gr/akinito/21356145,2026-11-23,1000
+https://www.tospitimou.gr/akinito/21356224,2026-11-23,2500
+https://www.tospitimou.gr/akinito/21356350,2026-11-23,390
+https://www.tospitimou.gr/akinito/21356697,2026-11-23,420
+https://www.tospitimou.gr/akinito/21356703,2026-11-23,470
+https://www.tospitimou.gr/akinito/21356723,2026-11-23,800
+https://www.tospitimou.gr/akinito/21356823,2026-11-23,870
+https://www.tospitimou.gr/akinito/21357180,2026-11-23,265000
+https://www.tospitimou.gr/akinito/21357181,2026-11-23,120000
+https://www.tospitimou.gr/akinito/21357187,2026-11-23,180000
+https://www.tospitimou.gr/akinito/21357235,2026-11-23,110000
+https://www.tospitimou.gr/akinito/21357265,2026-11-23,350
+https://www.tospitimou.gr/akinito/21357340,2026-11-23,130000
+https://www.tospitimou.gr/akinito/21357364,2026-11-23,780
+https://www.tospitimou.gr/akinito/21357411,2026-11-23,290000
+https://www.tospitimou.gr/akinito/21357430,2026-11-23,120000
+https://www.tospitimou.gr/akinito/21357449,2026-11-23,250000
+https://www.tospitimou.gr/akinito/21357500,2026-11-23,210000
+https://www.tospitimou.gr/akinito/21357546,2026-11-23,175000
+https://www.tospitimou.gr/akinito/21357592,2026-11-23,500
+https://www.tospitimou.gr/akinito/21357597,2026-11-23,135000
+https://www.tospitimou.gr/akinito/21357599,2026-11-23,153000
+https://www.tospitimou.gr/akinito/21357610,2026-11-23,133000
 https://www.tospitimou.gr/akinito/2845153,2026-10-12,420
 https://www.tospitimou.gr/akinito/5616084,2026-11-02,400
 https://www.tospitimou.gr/akinito/5706113,2026-11-02,450
@@ -64728,6 +65040,15 @@ https://www.union-properties.gr/property/101137,2026-11-21,250000
 https://www.union-properties.gr/property/101139,2026-11-21,250000
 https://www.union-properties.gr/property/101140,2026-11-21,250000
 https://www.union-properties.gr/property/101141,2026-11-21,250000
+https://www.union-properties.gr/property/101142,2026-11-23,250000
+https://www.union-properties.gr/property/101143,2026-11-23,250000
+https://www.union-properties.gr/property/101144,2026-11-23,250000
+https://www.union-properties.gr/property/101145,2026-11-23,250000
+https://www.union-properties.gr/property/101146,2026-11-23,250000
+https://www.union-properties.gr/property/101147,2026-11-23,250000
+https://www.union-properties.gr/property/101149,2026-11-23,250000
+https://www.union-properties.gr/property/101150,2026-11-23,250000
+https://www.union-properties.gr/property/101152,2026-11-23,250000
 https://www.union-properties.gr/property/13194,2026-10-22,250000
 https://www.union-properties.gr/property/20272,2026-10-30,250000
 https://www.union-properties.gr/property/21500,2026-10-26,250000
@@ -66650,6 +66971,7 @@ https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5c523387-9c48-43f0
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5c6879ce-fd33-4065-8715-e6c5b4c361cc/maroysi-swros-2700-153,2026-11-01,2700
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5c6c279c-4da9-4d8e-afe9-ef8b396a2b6a/athhna-anw-pathsia-300-30,2026-10-16,300
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5c73079d-0c0a-4a39-997b-cfe48b7edf89/nea-erythraia-ethnikistwn-kai-anaphrwn-polemoy-3700-195,2026-11-15,3700
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5c7ab85e-a312-49bd-9560-b3dfb2599e9a/nikaia-agios-gewrgios-500-74,2026-11-23,500
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5c8b5006-1685-4c82-b3fb-7b6f66793d69/argyroypolh-kentro-750-104,2026-10-09,750
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5ca1196b-1bd7-44ee-829c-10bf78a4ad40/athhna-thhseio-1600-110,2026-11-15,1600
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/5ca2c3e9-e90c-4fd9-83b9-6c5706e3b20c/ellhniko-anw-glyfada-1100-98,2026-10-02,1100
@@ -66940,6 +67262,7 @@ https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7047dac6-aab7-4851
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/704fd531-8440-4592-8222-6446b87cf1ca/lykovrysh-kentro-1000-122,2026-11-01,1000
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7057fad0-b25a-47fb-91b7-057208aa132e/hrakleio-prasinos-lofos-1800-220,2026-11-01,1800
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/7057fc76-6db1-4168-bffd-45771da6b69f/maroysi-kentro-2500-120,2026-11-17,2500
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/70d34793-a63c-4d6b-b726-97cba754058c/acharnes-17500-2200,2026-11-23,17500
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/70e60b94-bcab-4b5f-b990-61a593b65dd1/hrakleio-palaio-hrakleio-3600-400,2026-11-01,3600
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/70e6efae-7a7f-465a-842b-ba76bb812655/vyrwnas-kareas-3500-273,2026-10-11,3500
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/70f35aaa-f3c7-484d-afe3-de2f9469121e/aigalew-ierapolh-800-105,2026-10-02,800
@@ -67570,6 +67893,7 @@ https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/9ffda27a-74f5-4974
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a02faed4-acc9-4f3d-9bcf-d1c79d7080a5/ilion-kentro-12500-1080,2026-11-12,12500
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a033a24f-6431-4d75-a9f5-9bfe3bb714e4/glyfada-kentro-2500-135,2026-10-30,2500
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a054d6ef-1707-4e4c-be1a-059e6eb726d5/athhna-anw-pathsia-3500-470,2026-10-11,3500
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a078a95f-dc97-4591-af1f-4f1f7a3d3d95/vrilhssia-kentro-6000-523,2026-11-23,6000
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a084d919-b5d5-4af5-afb7-bda280839381/maroysi-kentro-10800-600,2026-11-15,10800
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a09be3ea-892d-4bb6-8c27-7e6ccd1af5c3/livadeia-1200-485,2026-10-02,1200
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/a0aba2a9-22a8-4b74-a730-6fe488953ede/petroypolh-kentro-700-83,2026-11-01,700
@@ -68374,6 +68698,7 @@ https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/dd150795-5f2d-4ce7
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/dd18f967-fee9-439e-a2ca-026ac78b0fbe/athhna-akadhmia-1700-83,2026-10-11,1700
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/dd22e9f7-3280-4709-9fcc-0863ad6ffd25/maroysi-swros-7000-256,2026-10-11,7000
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/dd278ac5-2860-46e0-a780-535623100873/agia-paraskeyh-peykakia-1910-160,2026-10-02,1910
+https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/dd34e635-1f11-4f02-b803-199282d9272a/metamorfwsh-mpofilia-18900-1017,2026-11-23,18900
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/dd36430d-381a-4bbd-a682-a071b1dee64d/acharnes-neapolh-1500-240,2026-10-11,1500
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/dd679b86-e0f3-45ef-aa70-8cd9894882d6/athhna-plateia-kaniggos-700-42,2026-10-05,700
 https://www.xe.gr/property/d/enoikiaseis-epaggelmatikon-xoron/dd79758f-8d5e-427a-b339-e9dcd2fa8e21/khfisia-nea-khfisia-8000-600,2026-11-15,8000
@@ -69258,6 +69583,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/0172ee14-6407-4121-b364-a2154
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0177afa9-b899-485a-b7cf-196e14f6e037/dhlesi-500-70,2026-11-18,500
 https://www.xe.gr/property/d/enoikiaseis-katoikion/017d0b28-b909-4b63-a203-770a59a2aa78/agios-stefanos-kentro-1000-200,2026-11-15,1000
 https://www.xe.gr/property/d/enoikiaseis-katoikion/017ee650-7880-42dc-b505-560b893fbd13/athhna-profhths-hlias-700-50,2026-11-18,700
+https://www.xe.gr/property/d/enoikiaseis-katoikion/0188bd84-998c-4c55-8d68-c482b841dd9a/athhna-pedion-arews-1000-90,2026-11-23,1000
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0193f523-140e-4aae-aca2-cc381f0324b8/artemis-630-40,2026-11-12,630
 https://www.xe.gr/property/d/enoikiaseis-katoikion/0196c0f2-1035-4c44-9ec8-9794173cb036/kallithea-ote-880-90,2026-10-21,880
 https://www.xe.gr/property/d/enoikiaseis-katoikion/019c2c3e-7934-4c28-aa49-c08003ff130f/athhna-lykavhttos-1500-100,2026-11-01,1500
@@ -70098,6 +70424,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/253f5a37-010a-4dbf-a1f5-a1f9b
 https://www.xe.gr/property/d/enoikiaseis-katoikion/254d5abb-0ec8-4c14-be6f-8deb41cf3ee8/hlioypolh-kanaria-1300-88,2026-10-02,1300
 https://www.xe.gr/property/d/enoikiaseis-katoikion/2561bb14-e699-4a2f-9930-97ce32a4816a/nea-iwnia-perissos-670-90,2026-10-27,670
 https://www.xe.gr/property/d/enoikiaseis-katoikion/2570c14c-df0d-4f3b-9539-a1cc729a9416/athhna-stathmos-larishs-780-61,2026-10-02,780
+https://www.xe.gr/property/d/enoikiaseis-katoikion/25738ea0-0a5a-43e6-97f0-33da8f912289/nea-palatia-2000-51,2026-11-23,2000
 https://www.xe.gr/property/d/enoikiaseis-katoikion/25774fe5-dece-420b-9c78-664ec2ad1a1b/alimos-ampelakia-3000-120,2026-10-11,3000
 https://www.xe.gr/property/d/enoikiaseis-katoikion/25789930-8695-47bc-93e0-83c7c31a97db/athhna-anw-kypselh-480-40,2026-11-01,480
 https://www.xe.gr/property/d/enoikiaseis-katoikion/25822066-c368-4023-981b-36345e9eef1f/artemis-4000-160,2026-11-01,4000
@@ -70384,6 +70711,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/334731a8-08cb-45a2-bd23-7d699
 https://www.xe.gr/property/d/enoikiaseis-katoikion/33d7e9e5-35b2-471e-95e2-ca1a68b8d1f7/chalandri-agia-varvara-2500-170,2026-10-27,2500
 https://www.xe.gr/property/d/enoikiaseis-katoikion/33f91c69-528b-45fd-93a8-0943471e2fe3/filotheh-900-57,2026-11-19,900
 https://www.xe.gr/property/d/enoikiaseis-katoikion/3422fe27-0adb-4083-8c85-540ec2f817f3/cholargos-plateia-dhmokratias-1500-148,2026-10-02,1500
+https://www.xe.gr/property/d/enoikiaseis-katoikion/342b36e4-6963-4750-8424-dce7c42df658/chalandri-rizareios-820-90,2026-11-23,820
 https://www.xe.gr/property/d/enoikiaseis-katoikion/343043e2-c0e5-49c5-b43c-18e07cddb9ba/athhna-pedion-arews-850-150,2026-10-24,850
 https://www.xe.gr/property/d/enoikiaseis-katoikion/3434469e-e115-400c-9553-7f79cccc8070/kallithea-chrysakh-1450-130,2026-11-04,1450
 https://www.xe.gr/property/d/enoikiaseis-katoikion/3434469e-e115-400c-9553-7f79cccc8070/kallithea-chrysakh-1600-130,2026-11-02,1600
@@ -70892,6 +71220,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/4ee9f246-72b3-4b9b-8cb7-244e5
 https://www.xe.gr/property/d/enoikiaseis-katoikion/4ee9f246-72b3-4b9b-8cb7-244e5cdf9b47/maroysi-anavryta-1000-125,2026-10-25,1000
 https://www.xe.gr/property/d/enoikiaseis-katoikion/4f08097c-eff8-4706-b5ac-baecdd1b9d05/voyla-katw-voyla-2600-140,2026-10-07,2600
 https://www.xe.gr/property/d/enoikiaseis-katoikion/4f16ed10-7d3e-4853-b005-003b213e081f/neo-psychiko-agia-sofia-faros-1250-110,2026-11-11,1250
+https://www.xe.gr/property/d/enoikiaseis-katoikion/4f2cba64-b1a2-44c9-abfd-57b46edddbc8/drosia-1400-135,2026-11-23,1400
 https://www.xe.gr/property/d/enoikiaseis-katoikion/4f3e5443-f10e-40cf-bd50-2ee62f5c3d81/acharnes-charaygh-750-130,2026-10-11,750
 https://www.xe.gr/property/d/enoikiaseis-katoikion/4f4f0105-d878-4615-8ba9-8dd427def4da/layrio-1500-110,2026-10-30,1500
 https://www.xe.gr/property/d/enoikiaseis-katoikion/4f62a79b-8be0-4598-bf76-129d1c524571/kallithea-lofos-filaretoy-870-94,2026-10-27,870
@@ -71999,6 +72328,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/8e01dc11-5a11-4e81-a073-deca0
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8e11e9f4-7e30-47c5-80e8-3e119178bfad/athhna-katw-petralwna-425-32,2026-11-09,425
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8e161c2d-29f5-4f33-a0b4-d3b02ed63692/hlioypolh-katw-hlioypolh-800-80,2026-10-02,800
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8e17148d-fd85-431d-a13e-b88ef6016b0f/peiraias-pasalimani-marina-zeas-480-30,2026-11-20,480
+https://www.xe.gr/property/d/enoikiaseis-katoikion/8e3d137d-8afe-4088-a8ce-6a64c16e950b/aigalew-ierapolh-300-20,2026-11-23,300
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8e579714-3a31-4eee-8929-0bf4b40293bc/athhna-agios-thwmas-810-50,2026-11-01,810
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8e5939a2-768e-48eb-84a4-ed436ca95848/athhna-ippokratoys-1500-113,2026-11-01,1500
 https://www.xe.gr/property/d/enoikiaseis-katoikion/8e596c56-5f2f-4822-a8f8-f8722b72762a/nea-erythraia-kastri-5000-600,2026-11-15,5000
@@ -72904,6 +73234,7 @@ https://www.xe.gr/property/d/enoikiaseis-katoikion/cbe8f5e9-1fbf-4515-b592-bd4a6
 https://www.xe.gr/property/d/enoikiaseis-katoikion/cbeee330-1963-41bb-bf57-ac0392873ec9/glyfada-kentro-2000-110,2026-11-10,2000
 https://www.xe.gr/property/d/enoikiaseis-katoikion/cbf6ef2d-0bfb-41ae-9eb7-45e6a4444671/kalamos-500-80,2026-10-09,500
 https://www.xe.gr/property/d/enoikiaseis-katoikion/cbff59a6-a1f1-4ea8-ac5c-a19b47a18411/kaisarianh-agios-nikolaos-790-73,2026-10-02,790
+https://www.xe.gr/property/d/enoikiaseis-katoikion/cbff59a6-a1f1-4ea8-ac5c-a19b47a18411/kaisarianh-agios-nikolaos-790-73,2026-11-23,770
 https://www.xe.gr/property/d/enoikiaseis-katoikion/cc02ed73-32cd-4c12-967e-b41816c45e02/khfisia-kefalari-3000-112,2026-11-01,3000
 https://www.xe.gr/property/d/enoikiaseis-katoikion/cc1f240b-5db0-4683-851a-58f51acf2bdc/vyrwnas-zwodochos-phgh-700-74,2026-10-02,700
 https://www.xe.gr/property/d/enoikiaseis-katoikion/cc33b151-2d07-4ab2-8501-c9e0f22c7d30/glyfada-pyrnari-2800-152,2026-10-02,2800
@@ -73942,6 +74273,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/130428f7-4c7e-4cb2-89
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/130d08ea-b804-499f-8b9d-68aba4de649f/anoixh-kentro-109000-55,2026-10-02,109000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/131d88d7-ad0e-4975-a3b6-8336b30c1e51/acharnes-kentro-palaio-menidi-250000-135,2026-11-01,250000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/131d8eb8-6a3e-4a88-94db-8d7d622d2240/sparth-85000-87,2026-11-01,85000
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/133240cb-b68d-421f-a3ba-c73a972d3f1c/markopoylo-mesogaias-6500000-8063,2026-11-23,6500000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/1334474c-0d18-4d9b-a1bb-f6b42573d477/athhna-katw-petralwna-425000-170,2026-10-11,425000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/133ad742-502d-42e9-b234-6d2febda3aca/maroysi-agioi-anargyroi-200000-46,2026-10-11,200000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/1355c8f7-e43f-4b36-9794-458a96f547a2/chalandri-dhmarcheio-90000-30,2026-11-15,90000
@@ -75336,6 +75668,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7e2b7c19-9f09-4f52-97
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7e2e9367-7240-436b-8023-49021ad918b2/athhna-kentro-130000-33,2026-11-07,130000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7e4c9342-a5cb-4a57-9cdb-8be0f95aac42/kallithea-kentro-170000-88,2026-10-11,170000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7e4f2455-e7d3-4189-b2ef-5052bf9e6714/anw-liosia-agios-iwannhs-theologos-1500000-1467,2026-10-02,1500000
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7e541f9c-ef4a-41d0-9fba-39a416f3d211/peristeri-viamax-280000-100,2026-11-23,280000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7e698072-3db8-4e45-8efa-5c59bcacb1c1/kallithea-ote-300000-150,2026-10-02,300000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7e9090ca-245d-4423-9004-026973c3d249/vathy-1100000-2850,2026-11-01,1100000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7e9723be-04e5-4a89-861a-e1975f475b94/agios-dhmhtrios-attikhs-soyli-320000-220,2026-11-02,320000
@@ -75922,6 +76255,7 @@ https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/ab75029d-e3ab-474d-bb
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/abd03e80-22f5-4324-9cbe-4f04c9391dbd/metamorfwsh-kanapitsa-980000-600,2026-10-02,980000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/abda191a-1327-470f-b1a4-96d79da0ecbe/kallithea-kentro-180000-123,2026-10-02,180000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/abda7190-5a82-458d-b435-15df86b763b6/kamatero-270000-90,2026-10-02,270000
+https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/abebed88-4feb-46c9-bb8b-38329dd27ea2/peristeri-aspra-chwmata-52000-89,2026-11-23,52000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/abebed88-4feb-46c9-bb8b-38329dd27ea2/peristeri-aspra-chwmata-55000-89,2026-11-15,55000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/ac020c51-5a44-455e-929b-e08ec693c9ce/agia-paraskeyh-nea-zwh-120000-60,2026-10-02,120000
 https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/ac03d7d3-5ddf-4a39-9273-24bf71ed91a5/melissia-orio-vrilhssiwn-720000-160,2026-10-02,720000
@@ -77591,6 +77925,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/1fbb051b-fc66-4966-88fd-45e2
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/1fe61e66-f5c9-46e4-bd2d-9514398756b5/keratea-110000-5175,2026-11-01,110000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/1fece5a9-8a3d-4d21-a847-56d64578d07d/khfisia-agia-kyriakh-480000-407,2026-10-11,480000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/1fee5857-a179-4f53-baf4-e2f6279235da/hill-filopappoy-210000-134,2026-10-12,210000
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/2003ec65-d8bc-43e7-9a0a-4f345f849fd8/kallithea-45000-565,2026-11-23,45000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/200645d1-39e9-44f2-ac49-7ccde28fea5a/nea-makrh-150000-485,2026-10-11,150000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/202b0ba4-1b9e-4c84-ba4d-e24b71130267/melissia-orio-khfisias-1200000-730,2026-11-01,1200000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/204cfdf4-a38f-4093-b3f2-d6a815d63860/anavyssos-640000-2008,2026-10-02,640000
@@ -78292,6 +78627,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/476e8808-4660-4b76-8ded-c349
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/4779f06b-26dc-4409-a137-d70cbee549cb/voyla-nea-kalymnos-2600000-1940,2026-11-07,2600000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/478628d1-8bd1-4603-ad2a-8a641fd3c678/athhna-rizoypolh-145000-151,2026-10-02,145000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/478b0cc4-82b2-40fa-8cd4-7cdf01b13d98/stylos-75000-1764,2026-10-11,75000
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/4793135e-31e3-4548-8129-43c2bc325d22/athhna-akadhmia-platwnos-400000-211,2026-11-23,400000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/47a5fe2e-143b-457e-ad6a-74c2e1b0f4bf/ekalh-1500000-2200,2026-11-15,1500000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/47a6552f-ebf6-4a32-8ac1-c787cccf8122/trizonia-90000-860,2026-11-02,90000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/47cd790e-a77c-493c-831e-b0f245ad74e1/nea-politeia-45000-416,2026-11-15,45000
@@ -80131,11 +80467,13 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/ac8cbf7e-277f-4587-9306-cf21
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/ac90178d-afbe-4d97-bb8f-20e8ac39f917/pallhnh-850000-11246,2026-11-03,850000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/aca1b2c0-d18f-41ab-99f5-b5ba90e71341/porto-rafth-188000-624,2026-11-01,188000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/aca72e75-9ffa-4a93-8abf-468ce56792ca/rafhna-158000-550,2026-10-29,158000
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/acb0c547-cbd8-4c8c-a739-71975adbb994/agia-paraskeyh-kontopeyko-500000-530,2026-11-23,500000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/acb58803-be32-4a12-86db-fa91c472fa8a/athhna-neapolh-1550000-300,2026-11-08,1550000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/acbb077e-0c4f-4983-84e1-2e9b9146e3b8/dionysos-250000-806,2026-10-03,250000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/acbdc808-3400-48a2-b43c-7fe3bbd92231/artemis-120000-250,2026-11-11,120000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/acd8eae6-8dc6-4588-ae87-1dad2686de72/polydrosos-55000-1500,2026-10-11,55000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/acd9cdf0-56b1-41b8-a07d-ad681991a944/anavyssos-250000-1640,2026-10-11,250000
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/acdec8b4-6b89-4297-9144-dc883db4a151/nikaia-agios-iwannhs-chrysostomos-140000-125,2026-11-23,140000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/acf329bb-f2eb-46d2-b153-870ae0b3e2c4/glyka-nera-foyresi-170000-260,2026-10-02,170000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/acfe5065-fd2d-4425-9a44-4893ec0fe9e9/moylki-65000-10253,2026-10-02,65000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/ad11e2c2-2634-43ba-a28e-4a8d7966fbc9/andros-300000-10000,2026-10-11,300000
@@ -81007,6 +81345,7 @@ https://www.xe.gr/property/d/poliseis-gis-oikopedon/e004011a-96d3-47ad-b5f4-4441
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/e009f733-98d7-4f3f-92e2-77682a48615f/stamata-eyxeinos-pontos-250000-1000,2026-10-02,250000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/e0180c92-4666-430d-8143-b3254697f468/varh-mhladeza-320000-298,2026-11-01,320000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/e01898bc-5311-459d-b018-0a1d142ec29f/pallhnh-kentro-275000-491,2026-11-01,275000
+https://www.xe.gr/property/d/poliseis-gis-oikopedon/e03ed942-34e1-4aab-b1b5-e9ff03101fea/paloyki-180000-15300,2026-11-23,180000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/e04b4f51-90a4-4931-8033-0b2afa3016b0/voyla-panorama-460000-370,2026-10-26,460000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/e0875cfc-e757-443b-b6be-2c42cda8aaad/glyfada-anw-glyfada-980000-372,2026-11-15,980000
 https://www.xe.gr/property/d/poliseis-gis-oikopedon/e08e1a65-284c-4ddf-812b-e2c5116b096a/tolofwna-80000-900,2026-10-08,80000
@@ -83169,6 +83508,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/3185d773-c0de-4dfb-bd55-c8c6d4c2
 https://www.xe.gr/property/d/poliseis-katoikion/318afee4-fe0d-480e-8f86-81f33b94e5ee/glyfada-terpsithea-230000-84,2026-10-02,230000
 https://www.xe.gr/property/d/poliseis-katoikion/318c92a0-5f56-4004-8243-aaeca6ab896d/glyfada-2855000-247,2026-10-29,2855000
 https://www.xe.gr/property/d/poliseis-katoikion/319188c2-c938-4191-ad9b-7c766a3ceda6/drosia-195000-55,2026-10-02,195000
+https://www.xe.gr/property/d/poliseis-katoikion/3193ec02-e923-4e6f-9bd4-f15285e6b65f/melissia-amalia-flemingk-410000-87,2026-11-23,410000
 https://www.xe.gr/property/d/poliseis-katoikion/3196c7be-6118-4a14-8eea-04cc0a6f478b/glyfada-anw-glyfada-440000-75,2026-10-02,440000
 https://www.xe.gr/property/d/poliseis-katoikion/3199ebce-e6c2-4a2e-8268-439cd629f07d/drapetswna-tampakika-230000-74,2026-10-02,230000
 https://www.xe.gr/property/d/poliseis-katoikion/31aa126f-2677-44bf-9c8e-8614962b638b/dafnh-attikhs-anw-dafnh-128000-51,2026-10-30,128000
@@ -84455,6 +84795,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/5b19f0a4-ae3b-4622-aa59-3b1e2702
 https://www.xe.gr/property/d/poliseis-katoikion/5b1c38ce-0a07-4577-9f53-3cdd688d9b77/galanado-270000-107,2026-10-11,270000
 https://www.xe.gr/property/d/poliseis-katoikion/5b1ecdd7-249a-4a7d-8d42-0c370df7a203/thessalonikh-kentro-210000-254,2026-11-17,210000
 https://www.xe.gr/property/d/poliseis-katoikion/5b2c4780-8ce3-4f93-a46e-bb2dca3692eb/ilion-michelh-58000-50,2026-11-20,58000
+https://www.xe.gr/property/d/poliseis-katoikion/5b327709-1e47-4fe3-a4e6-1cafc920f4f6/athhna-nea-filotheh-390000-98,2026-11-23,390000
 https://www.xe.gr/property/d/poliseis-katoikion/5b3474ad-9ceb-4dd7-9c43-52e905760536/agioi-anargyroi-kentro-320000-90,2026-11-15,320000
 https://www.xe.gr/property/d/poliseis-katoikion/5b35df2d-42eb-4fb8-a80d-4398375a3a46/ilion-kentro-280000-75,2026-11-01,280000
 https://www.xe.gr/property/d/poliseis-katoikion/5b3a7db2-3292-4db2-b891-a7ab54f6686a/kalamos-450000-253,2026-10-02,450000
@@ -86434,6 +86775,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/9fce4743-2dae-40e0-8171-1b6ce073
 https://www.xe.gr/property/d/poliseis-katoikion/9fdaf9ac-64d4-4d74-bdc0-9f93fd5ea018/athhna-agios-nikolaos-105000-101,2026-10-11,105000
 https://www.xe.gr/property/d/poliseis-katoikion/9feb27d1-77ec-4d4b-8e80-1621fcbef5f0/chaidari-dasos-265000-53,2026-10-23,265000
 https://www.xe.gr/property/d/poliseis-katoikion/9feb856d-0de8-434d-933b-97426d7b912e/varh-asyrmatos-2100000-400,2026-10-26,2100000
+https://www.xe.gr/property/d/poliseis-katoikion/9ff80663-0b9c-4a50-9c5a-0882de2bef7d/athhna-agios-artemios-360000-95,2026-11-23,360000
 https://www.xe.gr/property/d/poliseis-katoikion/9ffa9850-4e27-4895-82da-f4046302957a/alimos-kythhriwn-pani-480000-337,2026-11-01,480000
 https://www.xe.gr/property/d/poliseis-katoikion/a0029fcb-fa44-4383-8554-98d50551a6c9/porto-rafth-390000-310,2026-11-01,390000
 https://www.xe.gr/property/d/poliseis-katoikion/a00a7d65-b5da-40c6-a29e-03394f172b96/stamata-eyxeinos-pontos-380000-331,2026-10-02,380000
@@ -88746,6 +89088,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/f873c707-d8ba-48d9-ad2a-f22dc904
 https://www.xe.gr/property/d/poliseis-katoikion/f8744ba8-7406-4334-b990-605074684435/athhna-pagkrati-1300000-435,2026-10-02,1300000
 https://www.xe.gr/property/d/poliseis-katoikion/f8851213-9080-46a6-bac2-a9ac48ab6fff/maroysi-anavryta-465000-160,2026-10-02,465000
 https://www.xe.gr/property/d/poliseis-katoikion/f8904797-3bab-419f-867d-426d670d5e60/kranidi-8000000-556,2026-10-08,8000000
+https://www.xe.gr/property/d/poliseis-katoikion/f8908b1e-c6b3-45f5-a143-a426cddafef7/athhna-anw-pathsia-190000-114,2026-11-23,190000
 https://www.xe.gr/property/d/poliseis-katoikion/f896691f-66c1-4af5-a5d1-a05ea616e2b0/athhna-kypselh-175000-71,2026-10-11,175000
 https://www.xe.gr/property/d/poliseis-katoikion/f89894f0-8843-4e33-aa49-6b3e1b87a74f/athhna-kypselh-220000-105,2026-10-11,220000
 https://www.xe.gr/property/d/poliseis-katoikion/f8a50cb2-4f7c-46b2-91b4-0445f10e2f6c/nea-iwnia-eleytheroypolh-200000-80,2026-11-20,200000
@@ -88852,6 +89195,7 @@ https://www.xe.gr/property/d/poliseis-katoikion/fd1a890b-ccee-4f59-916a-3f4b4a71
 https://www.xe.gr/property/d/poliseis-katoikion/fd1b893e-4496-44c9-9472-1c71513667ac/athhna-agios-nikolaos-82000-40,2026-10-11,82000
 https://www.xe.gr/property/d/poliseis-katoikion/fd281706-9c77-4625-8f76-2d9acdee5705/athhna-anw-kypselh-90000-32,2026-10-02,90000
 https://www.xe.gr/property/d/poliseis-katoikion/fd281706-9c77-4625-8f76-2d9acdee5705/athhna-anw-kypselh-90000-32,2026-11-05,88000
+https://www.xe.gr/property/d/poliseis-katoikion/fd3267db-b7f8-4452-bc52-e02490ef1f60/keratsini-tampoyria-260000-113,2026-11-23,260000
 https://www.xe.gr/property/d/poliseis-katoikion/fd3f8b90-dc5b-4c5c-a702-f9e71e9d99ab/peristeri-lofos-axiwmatikwn-100000-50,2026-10-30,100000
 https://www.xe.gr/property/d/poliseis-katoikion/fd428650-d6e6-473e-9eeb-d2ad82bf34a1/glyka-nera-plagia-ymhttoy-620000-310,2026-11-15,620000
 https://www.xe.gr/property/d/poliseis-katoikion/fd4d8123-4323-408e-9f03-fcb9cc2a4da1/peiraias-kaminia-190000-181,2026-10-11,190000
