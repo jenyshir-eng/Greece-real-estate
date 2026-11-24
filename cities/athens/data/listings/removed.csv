@@ -5489,3 +5489,53 @@ date,source_domain,url,reason
 2026-11-24,goldenhome.gr,https://goldenhome.gr/property/view/541564,sold / not available
 2026-11-24,goldenhome.gr,https://goldenhome.gr/property/view/542365,sold / not available
 2026-11-24,goldenhome.gr,https://goldenhome.gr/property/view/541806,sold / not available
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ea4285f8-8841-497d-bd5a-c2bf559eb348/nikaia-agios-gewrgios-700-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ea7338a8-ffbc-46ae-bc03-a13c6eba0178/hlioypolh-anw-hlioypolh-1150-101,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/eb2ee2f6-9955-4bd8-a913-528fe560d8a3/neo-psychiko-plateia-eleytherias-3800-220,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ec89cfd2-bd5e-4965-8854-36729784833b/palaio-falhro-planhtario-700-76,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ecd50bef-cabf-4a66-859f-7be8e6c5f2ee/karellas-800-140,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f0342b55-969b-460a-a2e8-d38da282f7cd/agios-dhmhtrios-attikhs-kentro-1050-120,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f053f1e7-5d3d-4aa9-85be-c942f82e4161/athhna-panathhnaiko-stadio-1100-55,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f177a12d-6c10-4ddb-833a-06db0a516728/athhna-anw-kypselh-750-80,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f1b3269d-31e4-45f8-a30b-25d1892b4ec7/athhna-pagkrati-1000-78,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-24,connectproperty.gr,https://www.connectproperty.gr/property/634,http 410
+2026-11-24,connectproperty.gr,https://www.connectproperty.gr/property/638,http 410
+2026-11-24,connectproperty.gr,https://www.connectproperty.gr/property/643,http 410
+2026-11-24,connectproperty.gr,https://www.connectproperty.gr/property/647,http 410
+2026-11-24,magnaestate.gr,https://www.magnaestate.gr/property/2164?language=gr,sold / not available
+2026-11-24,magnaestate.gr,https://www.magnaestate.gr/property/2164?language=en,sold / not available
+2026-11-24,magnaestate.gr,https://www.magnaestate.gr/property/2165,sold / not available
+2026-11-24,ependytiki.gr,https://www.ependytiki.gr/property/26422,http 410
+2026-11-24,ependytiki.gr,https://www.ependytiki.gr/property/27897,http 410
+2026-11-24,remax-fb.gr,https://remax-fb.gr/property/6676,http 410
+2026-11-24,rep.gr,https://www.rep.gr/property/12874,http 410
+2026-11-24,rep.gr,https://www.rep.gr/property/12875,http 410
+2026-11-24,rep.gr,https://www.rep.gr/property/12879,http 410
+2026-11-24,rep.gr,https://www.rep.gr/property/12879?language=gr,http 410
+2026-11-24,rep.gr,https://www.rep.gr/property/12879?language=en,http 410
+2026-11-24,rep.gr,https://www.rep.gr/property/12879?language=fr,http 410
+2026-11-24,lionrealestate.gr,https://www.lionrealestate.gr/property/12107,http 410
+2026-11-24,metroland.gr,https://metroland.gr/property/203904,http 410
+2026-11-24,metroland.gr,https://metroland.gr/property/548382,http 410
+2026-11-24,ambassador.estate,https://www.ambassador.estate/property/3412/Katastima-Exarcheia%20-%20Neapoli?language=gr,http 410
+2026-11-24,ambassador.estate,https://www.ambassador.estate/property/3412/Katastima-Exarcheia%20-%20Neapoli?language=en,http 410
+2026-11-24,mellonproperties.gr,https://www.mellonproperties.gr/property/1986/Biotechnikos%20Choros-Metamorfosi?language=gr,http 410
+2026-11-24,mellonproperties.gr,https://www.mellonproperties.gr/property/1986/Biotechnikos%20Choros-Metamorfosi?language=en,http 410
+2026-11-24,mellonproperties.gr,https://www.mellonproperties.gr/property/1986/Biotechnikos%20Choros-Metamorfosi?language=de,http 410
+2026-11-24,mellonproperties.gr,https://www.mellonproperties.gr/property/1986/Biotechnikos%20Choros-Metamorfosi?language=se,http 410
+2026-11-24,mellonproperties.gr,https://www.mellonproperties.gr/property/1986/Biotechnikos%20Choros-Metamorfosi?language=bg,http 410
+2026-11-24,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/19063,http 410
+2026-11-24,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/19067,http 410
+2026-11-24,connectionrealestate.gr,https://www.connectionrealestate.gr/property/292,http 410
+2026-11-24,nikolaidisestate.gr,https://www.nikolaidisestate.gr/property/4194,http 410
+2026-11-24,nikolaidisestate.gr,https://www.nikolaidisestate.gr/property/3291/Oikopedo-Serres,http 410
+2026-11-24,nikolaidisestate.gr,https://www.nikolaidisestate.gr/property/560/Gkarsoniera-Serres,http 410
+2026-11-24,nikolaidisestate.gr,https://www.nikolaidisestate.gr/property/560/Gkarsoniera-Serres?language=gr,http 410
+2026-11-24,nikolaidisestate.gr,https://www.nikolaidisestate.gr/property/560/Gkarsoniera-Serres?language=en,http 410
+2026-11-24,nikolaidisestate.gr,https://www.nikolaidisestate.gr/property/560/Gkarsoniera-Serres?language=de,http 410
+2026-11-24,nikolaidisestate.gr,https://www.nikolaidisestate.gr/property/560/Gkarsoniera-Serres?language=se,http 410
+2026-11-24,goldenhome.gr,https://goldenhome.gr/property/view/541552,sold / not available
+2026-11-24,goldenhome.gr,https://goldenhome.gr/property/view/504872,sold / not available
+2026-11-24,goldenhome.gr,https://goldenhome.gr/property/view/539197,sold / not available
+2026-11-24,goldenhome.gr,https://goldenhome.gr/property/view/538976,sold / not available
+2026-11-24,terra-greca.gr,https://terra-greca.gr/akinita/1382668-%ce%ba%ce%b1%cf%84%ce%ac%cf%83%cf%84%ce%b7%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%82-%ce%b5%ce%bd%ce%bf%ce%b9%ce%ba%ce%af%ce%b1%cf%83%ce%b7-%ce%ac%ce%b3%ce%b9%ce%bf%cf%82-%ce%b4%ce%b7%ce%bc/,http 404
