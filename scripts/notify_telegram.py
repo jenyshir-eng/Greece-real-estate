@@ -26,6 +26,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import zoneinfo
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -327,6 +328,16 @@ def report_text():
     return "\n".join(html_escape(x).replace("&lt;b&gt;", "<b>").replace("&lt;/b&gt;", "</b>") for x in lines)
 
 
+def sending_now(conf, now=None):
+    """notify_filters.json "send_hours": Athens hours in which a run may send (e.g. [9, 10, 11]).
+    A run outside them sends nothing and records nothing, so the next sending run carries its news."""
+    hours = conf.get("send_hours")
+    if not hours:
+        return True
+    now = now or datetime.datetime.now(zoneinfo.ZoneInfo("Europe/Athens"))
+    return now.hour in hours
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="print the messages, send nothing, change nothing")
@@ -348,6 +359,10 @@ def main():
     props = [summary(m) for m in properties()]
     all_urls = {u for p in props for u in p["urls"]}
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    if conf.get("enabled", True) is not False and not sending_now(conf) and not a.dry_run:
+        print("not a sending hour (notify_filters.json send_hours): the next one sends this run's news too",
+              file=sys.stderr)
+        return
     if conf.get("enabled", True) is False:
         # the city's messages are switched off: what appears meanwhile counts as sent, so switching
         # them on again sends only what is new from then on

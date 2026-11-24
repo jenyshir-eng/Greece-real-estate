@@ -38,5 +38,22 @@ class Floors(unittest.TestCase):
         self.assertIn("этаж не указан", nt.line(p))
 
 
+class SendHours(unittest.TestCase):
+    def test_only_in_listed_athens_hours(self):
+        import datetime
+        conf = {"send_hours": [9, 10, 11, 13, 14, 15, 17, 18, 19]}
+        at = lambda h: datetime.datetime(2026, 11, 24, h, 30)  # noqa: E731
+        self.assertTrue(nt.sending_now(conf, at(9)))
+        self.assertTrue(nt.sending_now(conf, at(17)))
+        self.assertFalse(nt.sending_now(conf, at(21)))
+        self.assertTrue(nt.sending_now({}, at(21)))
+
+    def test_price_limit_drops_dearer_and_unpriced(self):
+        f = dict(BASE, price_max=130000)
+        self.assertTrue(nt.matches(prop(0), f))
+        self.assertFalse(nt.matches(dict(prop(0), price=150000), f))
+        self.assertFalse(nt.matches(dict(prop(0), price=None), f))
+
+
 if __name__ == "__main__":
     unittest.main()
