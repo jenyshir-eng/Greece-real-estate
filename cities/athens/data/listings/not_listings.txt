@@ -6470,6 +6470,7 @@ https://remax-evolution.com/en/properties/apartment-bedford-ville/4-rue-des-bati
 https://remax-evolution.com/en/properties/apartment-bromont/132-rue-de-levis-28867099
 https://remax-evolution.com/en/properties/apartment-bromont/135-rue-de-laviolette-20822402
 https://remax-evolution.com/en/properties/apartment-brossard/505-rue-de-l-escale-14614319
+https://remax-evolution.com/en/properties/apartment-brossard/6005-boul-chevrier-15215594
 https://remax-evolution.com/en/properties/apartment-candiac/70-rue-de-sofia-15443992
 https://remax-evolution.com/en/properties/apartment-chambly/1174-rue-pierre-cognac-24476679
 https://remax-evolution.com/en/properties/apartment-chambly/1441-rue-zotique-giard-28877248
@@ -6485,6 +6486,7 @@ https://remax-evolution.com/en/properties/apartment-montreal-mercier-hochelaga-m
 https://remax-evolution.com/en/properties/apartment-montreal-mercier-hochelaga-maisonneuve/2663-rue-louis-veuillot-18357829
 https://remax-evolution.com/en/properties/apartment-montreal-mercier-hochelaga-maisonneuve/7700-rue-de-lavaltrie-27240961
 https://remax-evolution.com/en/properties/apartment-montreal-outremont/1490-av-bernard-21467279
+https://remax-evolution.com/en/properties/apartment-napierville/190-rue-st-jacques-12461275
 https://remax-evolution.com/en/properties/apartment-saint-jean-sur-richelieu/1017-rue-st-jacques-19752539
 https://remax-evolution.com/en/properties/apartment-saint-jean-sur-richelieu/1021-rue-nicolas-letartre-9212817
 https://remax-evolution.com/en/properties/apartment-saint-jean-sur-richelieu/129-rue-paul-laplante-27357711
@@ -6503,6 +6505,7 @@ https://remax-evolution.com/en/properties/bungalow-granby/371-rue-de-vercheres-1
 https://remax-evolution.com/en/properties/bungalow-granby/375-rue-de-vercheres-11062259
 https://remax-evolution.com/en/properties/bungalow-granby/452-rue-duchesneau-10178601
 https://remax-evolution.com/en/properties/bungalow-granby/899-rue-st-francois-13133750
+https://remax-evolution.com/en/properties/bungalow-hemmingford-canton/437-ch-back-bush-9070305
 https://remax-evolution.com/en/properties/bungalow-lacolle/13-rue-landry-21753331
 https://remax-evolution.com/en/properties/bungalow-lacolle/131a-rue-de-l-eglise-s-10043210
 https://remax-evolution.com/en/properties/bungalow-lacolle/131b-rue-de-l-eglise-s-24740078
@@ -6560,6 +6563,7 @@ https://remax-evolution.com/en/properties/commercial-rental-space-office-sainte-
 https://remax-evolution.com/en/properties/commercial-rental-space-office-sainte-julie/1999-rue-nobel-19958483
 https://remax-evolution.com/en/properties/duplex-granby/436-rue-denison-o-22402636
 https://remax-evolution.com/en/properties/duplex-saint-cyprien-de-napierville/26-av-du-boise-16593087
+https://remax-evolution.com/en/properties/duplex-saint-jean-sur-richelieu/14-rue-mercier-12970347
 https://remax-evolution.com/en/properties/duplex-saint-remi/61a-rue-perras-17674121
 https://remax-evolution.com/en/properties/duplex-sainte-cecile-de-milton/28-route-137-n-28293084
 https://remax-evolution.com/en/properties/farm-saint-jean-sur-richelieu/291-ch-du-grand-pre-24213271
@@ -8744,7 +8748,9 @@ https://www.fidelityrealestate.com/property/hilton-grand-vacations-club/west-57t
 https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/desert-club-resort/849222
 https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/orange-lake-resort-east-village/437530
 https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/orange-lake-resort-east-village/710169
+https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/orange-lake-resort-west-village/397767
 https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/orange-lake-resort-west-village/494052
+https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/orange-lake-resort-west-village/798553
 https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/orange-lake-trust-points/740026
 https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/orange-lake-trust-points/785277
 https://www.fidelityrealestate.com/property/holiday-inn-club-vacations/orange-lake-trust-points/843240
@@ -8995,6 +9001,7 @@ https://www.fidelityrealestate.com/property/westin-vacation-club/the-westin-st-j
 https://www.fidelityrealestate.com/property/westin-vacation-club/westin-aventuras/633367
 https://www.fidelityrealestate.com/property/westin-vacation-club/westin-desert-willow-villas-palm-desert/9000237
 https://www.fidelityrealestate.com/property/westin-vacation-club/westin-flex-vacation-plan/798591
+https://www.fidelityrealestate.com/property/westin-vacation-club/westin-kaanapali-ocean-resort-villas-north/227187
 https://www.fidelityrealestate.com/property/westin-vacation-club/westin-kaanapali-ocean-resort-villas-north/416029
 https://www.fidelityrealestate.com/property/westin-vacation-club/westin-kaanapali-ocean-resort-villas-north/787757
 https://www.fidelityrealestate.com/property/westin-vacation-club/westin-kaanapali-ocean-resort-villas-north/796192
@@ -9052,10 +9059,12 @@ https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-bali-ha
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-bali-hai-villas/817297
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-bali-hai-villas/836639
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-bali-hai-villas/9000514
+https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-beach-street-cottages/139198
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-bonnet-creek-resort/391558
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-bonnet-creek-resort/830450
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-canterbury-at-san-francisco/835959
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-canterbury-at-san-francisco/853474
+https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-clearwater-beach-resort/774718
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-clearwater-beach-resort/834966
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-club-access/137696
 https://www.fidelityrealestate.com/property/wyndham-destinations/wyndham-club-access/138744
