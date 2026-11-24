@@ -4,6 +4,7 @@ https://aki-nito.gr/el/property/4950	70000
 https://aki-nito.gr/el/property/4951	70000
 https://aki-nito.gr/el/property/5055	118000
 https://arcusrealestate.gr/el/properties/117429	290000
+https://arcusrealestate.gr/el/properties/117569	400000
 https://arcusrealestate.gr/el/properties/120455	59000
 https://arcusrealestate.gr/el/properties/121472	74000
 https://arcusrealestate.gr/el/properties/121972	180000
@@ -30,12 +31,15 @@ https://interakinita.gr/el/property/2989	140000
 https://katikia.com.gr/el/property/2501	58000
 https://kosmopolishouse.gr/akinita/gkarsoniera-012/	105000
 https://lamprakirealestate.gr/property/14293	185000
+https://libra-properties.gr/property/920	115000
 https://lrealestate.gr/property.php?id=2173	58000
 https://marketplace.altamiraproperties.gr/listings/11475	130000
+https://marketplace.intrum.gr/listings/1522	305000
 https://marketplace.intrum.gr/listings/1914	178000
 https://marketplace.intrum.gr/listings/2397	90000
 https://marketplace.intrum.gr/listings/481	122000
 https://marketplace.intrum.gr/listings/75	181000
+https://marketplace.intrum.gr/listings/862	124000
 https://mesitiki.net/el/property/3086	305000
 https://monopoly.com.gr/el/property/97445	70000
 https://monopoly.com.gr/el/property/97445	72000
@@ -58,6 +62,7 @@ https://www.abitazione.gr/property/2591	290000
 https://www.agarealestate.gr/property/2712	89000
 https://www.akinita-kosmidis.gr/property/589	50000
 https://www.antoniouhome.gr/property/375	127000
+https://www.antoniouhome.gr/property/388	123000
 https://www.best-house.gr/akinito/439-garsoniera-47tm-z7518	64000
 https://www.best-house.gr/akinito/442-diamerisma-69tm-z7521	69000
 https://www.best-house.gr/akinito/442-diamerisma-69tm-z7521	72000
@@ -73,6 +78,8 @@ https://www.delta-akinita.gr/property/645	62000
 https://www.domino-estate.gr/property/7951	215000
 https://www.domino-estate.gr/property/8246	270000
 https://www.domino-estate.gr/property/8313	188000
+https://www.eightrealestate.gr/property/3379	70000
+https://www.eightrealestate.gr/property/3380	70000
 https://www.elegancerealestate.gr/property/3247	70000
 https://www.ellasestate.com/el/property/for-sale-apartment-135-sq-m-in-neapoli/	550000
 https://www.ellasestate.com/el/property/for-sale-apartment-2-4-k2-106-m%c2%b2-in-kalamaria-thessaloniki/	165000
@@ -90,6 +97,7 @@ https://www.greenandgrey.gr/property/2947	75000
 https://www.greenandgrey.gr/property/2947	77000
 https://www.greenandgrey.gr/property/2983	1100000
 https://www.greenandgrey.gr/property/3001	93000
+https://www.greenandgrey.gr/property/3061	245000
 https://www.istosproperties.com/el/properties/2519358	97000
 https://www.keramidogatosrealestate.gr/el/properties/2321772	180000
 https://www.keyland.gr/property/5997	90000
@@ -103,6 +111,7 @@ https://www.maddrealestate.gr/property/1077	85000
 https://www.maddrealestate.gr/property/998	73000
 https://www.mesitiko-filon.gr/property/654	75000
 https://www.mproperties.gr/property/7933	129000
+https://www.mproperties.gr/property/7964	110000
 https://www.oikein.gr/property/5543	100000
 https://www.oikein.gr/property/5543	96000
 https://www.oikia-thess.gr/property/1112	69900
@@ -121,6 +130,7 @@ https://www.omikronestate.gr/property/527	87000
 https://www.omikronestate.gr/property/537	80000
 https://www.panagiotopoulosrealestate.gr/property/107	85000
 https://www.papastefanou.gr/property/4541	95000
+https://www.pazartzis.gr/property/1445	170000
 https://www.pazartzis.gr/property/1467	90000
 https://www.pro-capital.gr/property/6267	93000
 https://www.rbproperties.gr/property/521	69000
@@ -202,3 +212,4 @@ https://www.xe.gr/property/d/poliseis-katoikion/321b5465-6f11-4718-9b09-6169bb48
 https://www.xe.gr/property/d/poliseis-katoikion/988b83b4-f1e6-4944-a04f-3704db053e2e/neapolh-127000-107	117000
 https://www.xe.gr/property/d/poliseis-katoikion/ef3ce24f-5750-4a84-b98f-c25852e4a2ee/thessalonikh-falhro-95000-75	90000
 https://www.xrimainvestments.gr/property/1509	140000
+https://www.zikashouse.gr/property/320	188000
