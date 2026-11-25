@@ -65,6 +65,7 @@ https://www.abitazione.gr/property/2570	460000
 https://www.abitazione.gr/property/2591	290000
 https://www.agarealestate.gr/property/2712	89000
 https://www.akinita-kosmidis.gr/property/589	50000
+https://www.alfa-realestate.gr/property/3761	120000
 https://www.antoniouhome.gr/property/375	127000
 https://www.antoniouhome.gr/property/388	123000
 https://www.best-house.gr/akinito/439-garsoniera-47tm-z7518	64000
@@ -79,6 +80,7 @@ https://www.citybuild.gr/property/2190	160000
 https://www.citybuild.gr/property/2207	90000
 https://www.citybuild.gr/property/2251	145000
 https://www.citybuild.gr/property/2281	370000
+https://www.citybuild.gr/property/2308	99000
 https://www.delta-akinita.gr/property/645	62000
 https://www.domino-estate.gr/property/7951	215000
 https://www.domino-estate.gr/property/8246	270000
@@ -166,6 +168,7 @@ https://www.remax.gr/property/406994-polisi-diamerisma-panagia-fanerwmenh	90000
 https://www.remax.gr/property/407710-polisi-diamerisma-eptalofos	69000
 https://www.remax.gr/property/408362-polisi-diamerisma-anw-anagennhsh	75000
 https://www.remax.gr/property/408857-polisi-mezoneta-panorama	495000
+https://www.remax.gr/property/409744-polisi-gkarsoniera-studio-nea-mhxaniwna	90000
 https://www.remax.gr/property/411128-polisi-diamerisma-kentro	90000
 https://www.remaxexcellence.gr/el/properties/2542431	269000
 https://www.remaxexcellence.gr/el/properties/2552845	190000
@@ -218,6 +221,7 @@ https://www.thesskatoikia.gr/property/1101	126000
 https://www.tospitimou.gr/akinito/21056675	84000
 https://www.viestate.gr/el/akinito/21305608	375000
 https://www.villaingr.com/property/7464	320000
+https://www.xe.gr/property/d/poliseis-katoikion/10e95036-4194-461a-a6ca-3e13b8c8c2f6/thessalonikh-xhrokrhnh-75000-46	69000
 https://www.xe.gr/property/d/poliseis-katoikion/1f06c2fd-bd53-41d0-9398-17c4de2167cb/thessalonikh-analhpsh-99000-40	85000
 https://www.xe.gr/property/d/poliseis-katoikion/2912e156-88f9-418e-89c4-dd407ea705ff/sindos-130000-85	120000
 https://www.xe.gr/property/d/poliseis-katoikion/2f872d98-6c52-4a10-80b9-144698959ab4/thessalonikh-kentro-125000-46	115000
