@@ -5863,3 +5863,55 @@ date,source_domain,url,reason
 2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1385,http 410
 2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1390,http 410
 2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1335,http 410
+2026-11-25,remax.gr,https://www.remax.gr/property/408958-enoikiasi-diamerisma-plateia-attikhs,not on result pages
+2026-11-25,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/09146da8-452e-4b25-aa87-06a18131c19c/nea-iwnia-agioi-anargyroi-440000-286,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-25,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0c1699b9-ef4e-4b41-b2ff-9e967331d41a/aspropyrgos-1700000-4141,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-25,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/0f20373e-cc8e-4401-af36-df7665dc7e85/acharnes-kentro-palaio-menidi-45000-42,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-25,ependytiki.gr,https://www.ependytiki.gr/property/27925,http 404
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1778?language=de,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1778?language=se,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1778?language=bg,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1778?language=ru,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/2165?language=gr,sold / not available
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/2165?language=en,sold / not available
+2026-11-25,rep.gr,https://www.rep.gr/property/12900,http 410
+2026-11-25,metroland.gr,https://metroland.gr/property/548459,http 410
+2026-11-25,realestateone.gr,https://realestateone.gr/el/property/1554482,redirects to https://realestateone.gr/el/404
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11913/Diamerisma-Agia%20Paraskeui,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11913/Diamerisma-Agia%20Paraskeui?language=gr,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11913/Diamerisma-Agia%20Paraskeui?language=en,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11913/Diamerisma-Agia%20Paraskeui?language=de,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11913/Diamerisma-Agia%20Paraskeui?language=se,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11913/Diamerisma-Agia%20Paraskeui?language=bg,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11913/Diamerisma-Agia%20Paraskeui?language=ru,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/print/11913,http 410
+2026-11-25,mellonproperties.gr,https://www.mellonproperties.gr/property/2198/Oikopedo-Brilissia,http 410
+2026-11-25,alfa-realestate.gr,https://www.alfa-realestate.gr/property/3757,http 410
+2026-11-25,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/19160,http 410
+2026-11-25,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/19171,http 410
+2026-11-25,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/19165,http 410
+2026-11-25,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/19164,http 410
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060219,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/766710,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/903118,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060191,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060150,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/1064019,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2056915,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/listings/areas/N101,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/listings/areas/N102,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/listings/areas/N100,http 404
+2026-11-25,intercasa.gr,https://intercasa.gr/property/6636,http 410
+2026-11-25,projecthomerealestate.gr,https://www.projecthomerealestate.gr/property/24198,http 410
+2026-11-25,neon-realestate.gr,https://neon-realestate.gr/property/2701529-diamerisma-pros-enoikiasi-palaio-faliro-40-t-m-e600/,http 404
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/495680,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/482582,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/542171,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/545264,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/545825,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/269008,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/473751,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/449600,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/538746,sold / not available
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/538542,sold / not available
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1391,http 410
