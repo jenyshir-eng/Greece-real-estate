@@ -5801,3 +5801,65 @@ date,source_domain,url,reason
 2026-11-25,nikolaidisestate.gr,https://www.nikolaidisestate.gr/print/560,http 410
 2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/486952,sold / not available
 2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/540711,sold / not available
+2026-11-25,remax.gr,https://www.remax.gr/property/312208-polisi-oikopedo-gia-katoikia-nea-kypselh,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/380391-enoikiasi-grafeio-ampelokhpoi,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/384017-enoikiasi-grafeio-sepolia,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/385008-enoikiasi-katastima-kypselh,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/390258-polisi-biomichaniko-biotechniko-anw-pathsia,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/405555-polisi-diamerisma-agia-paraskeyh,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/405557-polisi-diamerisma-agia-paraskeyh,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/411198-polisi-grafeio-lewf-pathsiwn-lewf-axarnwn,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/411200-enoikiasi-diamerisma-petralwna,not on result pages
+2026-11-25,remax.gr,https://www.remax.gr/property/411896-polisi-epaggelmatiko-ktirio-metamorfwsh,not on result pages
+2026-11-25,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/two-bedroom-apartment-for-sale-in-kypseli-id-a4-11919,left the sitemap
+2026-11-25,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/05dad884-5b58-4dbb-8e80-c62b2e85605a/nea-smyrnh-kentro-190000-58,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-25,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/083fc178-64d6-4a9c-b813-509e0f5b461b/athhna-anw-kypselh-70000-160,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1773?language=gr,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1773?language=en,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1773?language=de,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1773?language=se,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1773?language=bg,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1773?language=ru,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1778?language=gr,http 410
+2026-11-25,magnaestate.gr,https://www.magnaestate.gr/property/1778?language=en,http 410
+2026-11-25,rep.gr,https://www.rep.gr/property/12889?language=se,http 410
+2026-11-25,rep.gr,https://www.rep.gr/property/12889?language=bg,http 410
+2026-11-25,rep.gr,https://www.rep.gr/property/12889?language=ru,http 410
+2026-11-25,rep.gr,https://www.rep.gr/print/12889,http 410
+2026-11-25,rep.gr,https://www.rep.gr/property/10351,http 410
+2026-11-25,rep.gr,https://www.rep.gr/property/12654,http 410
+2026-11-25,rep.gr,https://www.rep.gr/property/11397,http 410
+2026-11-25,rep.gr,https://www.rep.gr/property/12850,http 410
+2026-11-25,tsrealestate.gr,https://tsrealestate.gr/el/property/16359,http 404
+2026-11-25,tsrealestate.gr,https://tsrealestate.gr/el/property/16350,http 404
+2026-11-25,lionrealestate.gr,https://www.lionrealestate.gr/property/11962,http 410
+2026-11-25,lionrealestate.gr,https://www.lionrealestate.gr/property/11923,http 410
+2026-11-25,lionrealestate.gr,https://www.lionrealestate.gr/property/11507,http 410
+2026-11-25,metroland.gr,https://metroland.gr/property/548392,http 410
+2026-11-25,realestateone.gr,https://realestateone.gr/el/property/1554239,redirects to https://realestateone.gr/el/404
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11914/Diamerisma-Agia%20Paraskeui?language=gr,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11914/Diamerisma-Agia%20Paraskeui?language=en,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11914/Diamerisma-Agia%20Paraskeui?language=de,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11914/Diamerisma-Agia%20Paraskeui?language=se,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11914/Diamerisma-Agia%20Paraskeui?language=bg,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/property/11914/Diamerisma-Agia%20Paraskeui?language=ru,http 410
+2026-11-25,ktirioact.gr,https://www.ktirioact.gr/print/11914,http 410
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060246,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060247,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060248,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060249,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060250,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060251,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060252,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060253,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060230,http 404
+2026-11-25,in-c.gr,https://www.in-c.gr/property/2060150?language=fr,http 404
+2026-11-25,goldenhome.gr,https://goldenhome.gr/property/view/509203,sold / not available
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1380,http 410
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1383,http 410
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1378,http 410
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1396,http 410
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1382,http 410
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1385,http 410
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1390,http 410
+2026-11-25,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1335,http 410
