@@ -6126,3 +6126,24 @@ date,source_domain,url,reason
 2026-11-26,goldenhome.gr,https://goldenhome.gr/property/view/467146,sold / not available
 2026-11-26,goldenhome.gr,https://goldenhome.gr/property/view/537636,sold / not available
 2026-11-26,goldenhome.gr,https://goldenhome.gr/property/view/539770,sold / not available
+2026-11-26,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/41075229-e735-43c5-9251-b247f2c078d7/athhna-monasthraki-750000-185,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-26,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/46fb29d4-a4d7-4fbd-a7ff-9560dda5fab1/chalandri-anw-neo-chalandri-50000-90,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-26,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/4aba6483-05da-4d64-b455-8e48cfd5568a/palaio-falhro-ghpeda-68000-150,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-26,olympicrealty.gr,https://olympicrealty.gr/property/ikopedo-101/,http 404
+2026-11-26,magnaestate.gr,https://www.magnaestate.gr/property/2186,sold / not available
+2026-11-26,magnaestate.gr,https://www.magnaestate.gr/property/2178,sold / not available
+2026-11-26,magnaestate.gr,https://www.magnaestate.gr/property/2164,sold / not available
+2026-11-26,magnaestate.gr,https://www.magnaestate.gr/property/2172,http 410
+2026-11-26,rep.gr,https://www.rep.gr/property/12928,http 410
+2026-11-26,tsrealestate.gr,https://tsrealestate.gr/el/property/16197,http 404
+2026-11-26,metroland.gr,https://metroland.gr/property/548460,http 410
+2026-11-26,metroland.gr,https://metroland.gr/property/548584,http 410
+2026-11-26,royalresidentialinvestments.gr,https://www.royalresidentialinvestments.gr/property/19214,http 410
+2026-11-26,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=055b8a9d-f603-45e5-8976-353f4dd73075,redirects to https://bee-realestate.gr/errorPage
+2026-11-26,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/142/Monokatoikia-Saronida?language=en,http 404
+2026-11-26,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/142/Monokatoikia-Saronida?language=de,http 404
+2026-11-26,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/142/Monokatoikia-Saronida?language=se,http 404
+2026-11-26,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/142/Monokatoikia-Saronida?language=bg,http 404
+2026-11-26,vorilasrealestate.gr,https://www.vorilasrealestate.gr/print/142,http 404
+2026-11-26,vorilasrealestate.gr,https://www.vorilasrealestate.gr/property/142/Monokatoikia-Saronida,http 404
+2026-11-26,goldenhome.gr,https://goldenhome.gr/property/view/422988,sold / not available
