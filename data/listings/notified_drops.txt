@@ -124,6 +124,7 @@ https://www.maddrealestate.gr/property/998	73000
 https://www.mesitiko-filon.gr/property/654	75000
 https://www.mesitikodimou.gr/property/403	130000
 https://www.mesitikodimou.gr/property/405	85000
+https://www.mproperties.gr/property/7131	82500
 https://www.mproperties.gr/property/7918	237000
 https://www.mproperties.gr/property/7933	129000
 https://www.mproperties.gr/property/7964	110000
@@ -176,6 +177,7 @@ https://www.remaxexcellence.gr/el/properties/2552845	190000
 https://www.smarthousegreece.gr/property/957	67000
 https://www.spitogatos.gr/aggelia/1113393896	53000
 https://www.spitogatos.gr/aggelia/1118052955	80000
+https://www.spitogatos.gr/aggelia/1118382706	95000
 https://www.spitogatos.gr/aggelia/1119452735	80000
 https://www.spitogatos.gr/aggelia/1119866703	64000
 https://www.spitogatos.gr/aggelia/1120279598	100000
@@ -208,6 +210,7 @@ https://www.spitogatos.gr/aggelia/1121183293	99000
 https://www.spitogatos.gr/aggelia/1121184970	420000
 https://www.spitogatos.gr/aggelia/1121208926	99000
 https://www.spitogatos.gr/aggelia/1121219593	141000
+https://www.spitogatos.gr/aggelia/1121240083	35000
 https://www.spitogatos.gr/aggelia/1121247125	99000
 https://www.spitogatos.gr/aggelia/1121251616	140000
 https://www.spitogatos.gr/aggelia/1121256011	146000
@@ -229,5 +232,6 @@ https://www.xe.gr/property/d/poliseis-katoikion/2f872d98-6c52-4a10-80b9-14469895
 https://www.xe.gr/property/d/poliseis-katoikion/321b5465-6f11-4718-9b09-6169bb489130/thessalonikh-triandria-175000-58	170000
 https://www.xe.gr/property/d/poliseis-katoikion/988b83b4-f1e6-4944-a04f-3704db053e2e/neapolh-127000-107	117000
 https://www.xe.gr/property/d/poliseis-katoikion/ef3ce24f-5750-4a84-b98f-c25852e4a2ee/thessalonikh-falhro-95000-75	90000
+https://www.xrimainvestments.gr/property/1376	115000
 https://www.xrimainvestments.gr/property/1509	140000
 https://www.zikashouse.gr/property/320	188000
