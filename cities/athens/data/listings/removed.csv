@@ -6337,3 +6337,35 @@ date,source_domain,url,reason
 2026-11-27,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1240,http 410
 2026-11-27,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1208,http 410
 2026-11-27,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1250,http 410
+2026-11-27,remax.gr,https://www.remax.gr/property/389090-enoikiasi-katastima-agia-paraskeyh,not on result pages
+2026-11-27,remax.gr,https://www.remax.gr/property/410955-enoikiasi-diamerisma-kypselh,not on result pages
+2026-11-27,remax.gr,https://www.remax.gr/property/411696-enoikiasi-grafeio-kypselh,not on result pages
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/6fc1f569-c27a-43d3-a6cd-46f27a5eda23/agios-dhmhtrios-attikhs-monasthrio-800000-400,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7117a3e8-f0b5-4190-9c98-764b02f4f8f9/kini-750000-191,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/7348deb0-00ac-4a4c-b92e-dbd444ea7f53/athhna-koykaki-200000-70,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/75fb5db5-6b8d-4dc5-99df-bd0b7e88a58f/hlioypolh-anw-hlioypolh-340000-140,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/765bd82d-7c92-4e0f-a9c7-a6e15979a89b/keratsini-amfialh-1000000-828,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/76c70c5d-c0ab-49e1-b2e7-e940cbf58b98/kalyvia-thorikoy-130000-110,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/791459f8-1eac-4887-be02-ebd81a7aa832/sisi-1187000-1152,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-27,brokerhouse.gr,https://www.brokerhouse.gr/property/4865/Diamerisma-Glufada,http 410
+2026-11-27,impr.gr,https://www.impr.gr/property/2559,http 410
+2026-11-27,magnaestate.gr,https://www.magnaestate.gr/property/2691,http 410
+2026-11-27,magnaestate.gr,https://www.magnaestate.gr/property/2186?language=gr,sold / not available
+2026-11-27,magnaestate.gr,https://www.magnaestate.gr/property/2186?language=en,sold / not available
+2026-11-27,magnaestate.gr,https://www.magnaestate.gr/property/2178?language=gr,sold / not available
+2026-11-27,metroland.gr,https://metroland.gr/property/548391,http 410
+2026-11-27,realestateone.gr,https://realestateone.gr/el/property/1552337,redirects to https://realestateone.gr/el/404
+2026-11-27,ktirioact.gr,https://www.ktirioact.gr/property/11914/Diamerisma-Agia%20Paraskeui,http 410
+2026-11-27,mellonproperties.gr,https://www.mellonproperties.gr/property/2198/Oikopedo-Brilissia?language=se,http 410
+2026-11-27,mellonproperties.gr,https://www.mellonproperties.gr/property/2198/Oikopedo-Brilissia?language=bg,http 410
+2026-11-27,mellonproperties.gr,https://www.mellonproperties.gr/property/2198/Oikopedo-Brilissia?language=ru,http 410
+2026-11-27,mellonproperties.gr,https://www.mellonproperties.gr/print/2198,http 410
+2026-11-27,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=047a6daf-b89d-48bf-954b-795ca9bea5c6,redirects to https://bee-realestate.gr/errorPage
+2026-11-27,hellenicgrounds.gr,https://hellenicgrounds.gr/property/luxury-penthouse-with-sunset-views/1527/,http 404
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/545412,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/510764,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/529483,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/527498,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/498697,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/539649,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/499989,sold / not available
