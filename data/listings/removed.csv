@@ -8271,3 +8271,68 @@ date,source_domain,url,reason
 2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/402568,sold / not available
 2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/540079,sold / not available
 2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/497103,sold / not available
+2026-11-27,remax.gr,https://www.remax.gr/property/402357-enoikiasi-diamerisma-peraia,not on result pages
+2026-11-27,remax.gr,https://www.remax.gr/property/408606-enoikiasi-diamerisma-eyosmos,not on result pages
+2026-11-27,remax.gr,https://www.remax.gr/property/412205-enoikiasi-monokatoikia-lakkia,not on result pages
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/3069d2f0-21a7-4f19-9de9-b7b129917298/thermh-195000-66,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/38b16c45-69b2-498e-acee-02d6cfb1bb4d/thessalonikh-anw-toympa-230000-75,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-27,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/41793f2b-1123-4659-b9b2-08334d73972d/thessalonikh-falhro-154000-50,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-27,best-house.gr,https://www.best-house.gr/akinito/469-garsoniera-54tm-l7547,http 404
+2026-11-27,greekexclusiveproperties.com,https://www.greekexclusiveproperties.com/property/hotel-for-sale-caldera-santorini-with-21-rooms-can-be-sold-either-25-49-100-of-the-hotel,sold / not available
+2026-11-27,maddrealestate.gr,https://www.maddrealestate.gr/property/1043,http 410
+2026-11-27,eliteps.gr,https://eliteps.gr/sq/property/12417,http 404
+2026-11-27,eliteps.gr,https://eliteps.gr/el/property/7006,http 404
+2026-11-27,eliteps.gr,https://eliteps.gr/sq/property/7006,http 404
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%ce%bf%cf%85%cf%81%ce%b1%ce%bd%ce%bf%cf%8d%cf%80%ce%bf%ce%bb%ce%b7-%cf%87%ce%b1%ce%bb%ce%ba%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%ce%bc1456/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/45691/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%ce%ba%ce%b1%ce%ba%ce%bf%cf%8d%ce%b4%ce%b9%ce%b1-%ce%b9%ce%b5%cf%81%ce%b9%cf%83%cf%83%cf%8c%cf%82-%ce%bc1458/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%cf%84%cf%83%ce%b9%ce%bc%ce%b9%cf%83%ce%ba%ce%ae-%cf%80%ce%b1%cf%8d%ce%bb%ce%bf%cf%85-%ce%bc%ce%b5%ce%bb%ce%ac-%ce%b5%cf%841466/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%ce%b5%ce%b3%ce%bd%ce%b1%cf%84%ce%af%ce%b1%cf%82-%ce%ba1475/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%ce%b1%ce%bd%cf%84%ce%b9%ce%b3%ce%bf%ce%bd%ce%b9%ce%b4%cf%8e%ce%bd-k1490/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%cf%80%ce%b9%ce%b5%cf%81%ce%af%ce%b1-%ce%bc%ce%b1%ce%ba%cf%81%cf%8d%ce%b3%ce%b9%ce%b1%ce%bb%ce%bf%cf%82-%ce%b5%cf%841492/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%ce%b5%ce%b3%ce%bd%ce%b1%cf%84%ce%af%ce%b1-%cf%841501/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%ce%b5%ce%b3%ce%bd%ce%b1%cf%84%ce%af%ce%b1-%cf%841503/,redirects to https://www.tzemis.gr/
+2026-11-27,tzemis.gr,https://www.tzemis.gr/properties/%cf%84%ce%bf%cf%8d%cf%81%ce%ba%ce%b9%ce%ba%ce%bf-%cf%80%cf%81%ce%bf%ce%be%ce%b5%ce%bd%ce%b5%ce%af%ce%bf-%ce%ba1771/,redirects to https://www.tzemis.gr/
+2026-11-27,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-949/,http 404
+2026-11-27,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-951/,http 404
+2026-11-27,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-874/,http 404
+2026-11-27,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-959/,http 404
+2026-11-27,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-mezoneta-946/,http 404
+2026-11-27,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-1254/,http 404
+2026-11-27,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-1253/,http 404
+2026-11-27,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-maisonette-970/,http 404
+2026-11-27,thermaikosrealest.gr,https://thermaikosrealest.gr/el/property/12266,http 404
+2026-11-27,alfa-realestate.gr,https://www.alfa-realestate.gr/property/3740,http 410
+2026-11-27,abitazione.gr,https://www.abitazione.gr/property/596/Oikopedo-D.%20Agiou%20Paulou,http 410
+2026-11-27,abitazione.gr,https://www.abitazione.gr/property/1873/Diamerisma-Rotonta,http 410
+2026-11-27,enterhome.com.gr,https://enterhome.com.gr/property.php?id=774,http 410
+2026-11-27,enterhome.com.gr,https://enterhome.com.gr/property.php?id=779,http 410
+2026-11-27,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1284,http 410
+2026-11-27,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1202,http 410
+2026-11-27,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1118,http 410
+2026-11-27,grekodom.gr,https://www.grekodom.gr/realtyobject/33440-poleitai-xenodoheio-4000-m2-stin-kentri,http 404
+2026-11-27,libra-properties.gr,https://libra-properties.gr/property/947,http 410
+2026-11-27,georgakos.com,https://www.georgakos.com/property/41390,http 410
+2026-11-27,idealproperties.gr,https://www.idealproperties.gr/property/1603,http 410
+2026-11-27,eightrealestate.gr,https://www.eightrealestate.gr/property/3291,http 404
+2026-11-27,eightrealestate.gr,https://www.eightrealestate.gr/property/4081,http 404
+2026-11-27,greenandgrey.gr,https://www.greenandgrey.gr/property/3043,http 404
+2026-11-27,greenandgrey.gr,https://www.greenandgrey.gr/property/3026,http 404
+2026-11-27,greenandgrey.gr,https://www.greenandgrey.gr/property/3018,http 404
+2026-11-27,greenandgrey.gr,https://www.greenandgrey.gr/property/3022,http 404
+2026-11-27,propertyexperts.gr,https://www.propertyexperts.gr/property/6995,http 410
+2026-11-27,panorama.estate,https://www.panorama.estate/property/867/Diamerisma-Panorama,http 410
+2026-11-27,nore.gr,https://nore.gr/property/20837,http 410
+2026-11-27,pro-capital.gr,https://www.pro-capital.gr/property/6439,http 404
+2026-11-27,pro-capital.gr,https://www.pro-capital.gr/property/6403,http 404
+2026-11-27,mesitikodimou.gr,https://www.mesitikodimou.gr/property/244,http 410
+2026-11-27,thehacienda.gr,https://www.thehacienda.gr/property/5594,http 410
+2026-11-27,ependitikiaigaiou.gr,https://www.ependitikiaigaiou.gr/property/12262,http 410
+2026-11-27,ependitikiaigaiou.gr,https://www.ependitikiaigaiou.gr/property/12259,http 410
+2026-11-27,skoreal.gr,https://skoreal.gr/property/27431,http 410
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/514730,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/452133,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/542567,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/538171,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/389939,sold / not available
+2026-11-27,goldenhome.gr,https://goldenhome.gr/property/view/535935,sold / not available
