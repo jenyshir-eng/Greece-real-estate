@@ -34,6 +34,8 @@ https://katikia.com.gr/el/property/2501	58000
 https://kosmopolishouse.gr/akinita/gkarsoniera-012/	105000
 https://lamprakirealestate.gr/property/14293	185000
 https://lamprakirealestate.gr/property/14341	99000
+https://liberty.com.gr/property/3554	55000
+https://liberty.com.gr/property/3558	99000
 https://libra-properties.gr/property/920	115000
 https://lrealestate.gr/property.php?id=2173	58000
 https://marketplace.altamiraproperties.gr/listings/11475	130000
@@ -153,6 +155,7 @@ https://www.pro-capital.gr/property/6267	93000
 https://www.rbproperties.gr/property/521	69000
 https://www.remax.gr/property/348789-polisi-gkarsoniera-studio-3hrokrhnh	62000
 https://www.remax.gr/property/375738-polisi-gkarsoniera-studio-stathmos-ose	100000
+https://www.remax.gr/property/376782-polisi-gkarsoniera-studio-kentro-8essalonikh	126000
 https://www.remax.gr/property/382635-polisi-diamerisma-anw-polh	100000
 https://www.remax.gr/property/384276-polisi-diamerisma-anw-polh	97000
 https://www.remax.gr/property/391744-polisi-gkarsoniera-studio-anw-anagennhsh	95000
@@ -221,6 +224,7 @@ https://www.spitogatos.gr/aggelia/1121283371	300000
 https://www.spitogatos.gr/aggelia/1121332275	100000
 https://www.spitogatos.gr/aggelia/1121332317	102000
 https://www.spitogatos.gr/aggelia/1121339655	300000
+https://www.thessaloniki-realestate.gr/property/%ce%b3%ce%ba%ce%b1%cf%81%cf%83%ce%bf%ce%bd%ce%b9%ce%ad%cf%81%ce%b1-%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-1-24487/	120000
 https://www.thessaloniki-realestate.gr/property/%ce%b4%ce%b9%ce%b1%ce%bc%ce%ad%cf%81%ce%b9%cf%83%ce%bc%ce%b1-%ce%ba%ce%ac%cf%84%cf%89-%cf%84%ce%bf%cf%8d%ce%bc%cf%80%ce%b1-1-24545/	69000
 https://www.thessaloniki-realestate.gr/property/%cf%83%cf%84%ce%bf%cf%8d%ce%bd%cf%84%ce%b9%ce%bf-%ce%bd%ce%b5%ce%ac%cf%80%ce%bf%ce%bb%ce%b7-1-24515/	95000
 https://www.thesskatoikia.gr/property/1101	126000
