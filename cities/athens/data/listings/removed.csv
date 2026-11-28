@@ -6448,3 +6448,23 @@ date,source_domain,url,reason
 2026-11-28,connectionrealestate.gr,https://www.connectionrealestate.gr/property/507,http 410
 2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1368,http 410
 2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1367,http 410
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/9f77f817-5ee1-4881-acc1-cf922c29530b/athhna-kentro-42000-23,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a176f204-6bb8-4a41-b116-a9e12c7690e0/athhna-stathmos-larishs-250000-740,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/a2f6b2b7-1c3e-4434-b6fa-a33bfaabb0c7/athhna-plateia-klaythmwnos-52000-28,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,grecahouse.com,https://grecahouse.com/el/properties/108548-diamerisma-gkazi-metaxourgeio-votanikos-gkazi-38sqm,http 404
+2026-11-28,lionrealestate.gr,https://www.lionrealestate.gr/print/12103,http 410
+2026-11-28,metroland.gr,https://metroland.gr/property/548546,http 410
+2026-11-28,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=802da91a-48ca-4177-af5e-536001fd8ec5,redirects to https://bee-realestate.gr/errorPage
+2026-11-28,intercasa.gr,https://intercasa.gr/property/4664,http 410
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/510830,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/520623,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/520624,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/544468,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/197585,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/545496,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/475736,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/546663,sold / not available
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1294,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1284,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1202,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1118,http 410
