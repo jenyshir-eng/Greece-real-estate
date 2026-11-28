@@ -8534,3 +8534,40 @@ date,source_domain,url,reason
 2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/498697,sold / not available
 2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/541667,sold / not available
 2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/456785,sold / not available
+2026-11-28,remax.gr,https://www.remax.gr/property/391366-polisi-diamerisma-byzantio,not on result pages
+2026-11-28,remax.gr,https://www.remax.gr/property/411496-enoikiasi-diamerisma-botsh,not on result pages
+2026-11-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/eced04a7-6750-4868-8239-575960ac092f/kalamaria-640-71,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/ed353f34-7bf5-4fec-b6a0-9da86c8b9ae3/thessalonikh-kentro-620-70,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-28,xe.gr,https://www.xe.gr/property/d/enoikiaseis-katoikion/f85821cb-cfed-46d2-a722-552695cdbb2b/polykastro-1000-100,http 302 -> https://www.xe.gr/property/r/enoikiaseis-katoikion
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/5b523655-20f4-4ebc-a257-c1aa49ff5170/neapolh-50000-24,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/733eb8a2-8e3b-4399-ae7a-13cae5d40900/thessalonikh-analhpsh-95000-72,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-katoikion/906d0213-0142-4934-b8f0-524f73b58c74/thessalonikh-katw-toympa-185000-120,http 302 -> https://www.xe.gr/property/r/poliseis-katoikion
+2026-11-28,monopoly.com.gr,https://monopoly.com.gr/el/property/TS888,http 404
+2026-11-28,monopoly.com.gr,https://monopoly.com.gr/el/property/97445,http 404
+2026-11-28,bee-panoramic.gr,https://bee-realestate.gr/property?lang=el&id=26608046-7646-4f5f-9e02-526ae84cc3eb,redirects to https://bee-realestate.gr/errorPage
+2026-11-28,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-877/,http 404
+2026-11-28,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-1251/,http 404
+2026-11-28,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-1249/,http 404
+2026-11-28,g-mas.gr,https://www.g-mas.gr/el/akinita/thessaloniki-diamerisma-1249/,http 404
+2026-11-28,g-mas.gr,https://www.g-mas.gr/en/properties/thessaloniki-apartment-1143/,http 404
+2026-11-28,aenaossarealty.gr,https://aenaossarealty.gr/property/3118/Mezoneta-Boulgari%20-%20Agios%20Eleutherios,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=864,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1302,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1296,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1287,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1277,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1251,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1238,http 410
+2026-11-28,gfrealestate.gr,https://www.gfrealestate.gr/property/934,http 410
+2026-11-28,georgakos.com,https://www.georgakos.com/property/41323,http 410
+2026-11-28,propertyexperts.gr,https://www.propertyexperts.gr/property/7003,http 410
+2026-11-28,nore.gr,https://nore.gr/property/20881,http 410
+2026-11-28,ependitikiaigaiou.gr,https://www.ependitikiaigaiou.gr/property/12074,http 410
+2026-11-28,ependitikiaigaiou.gr,https://www.ependitikiaigaiou.gr/property/12072,http 410
+2026-11-28,oikia-thess.gr,https://www.oikia-thess.gr/property/1150,http 404
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/517001,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/515079,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/543886,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/546295,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/538846,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/540294,sold / not available
