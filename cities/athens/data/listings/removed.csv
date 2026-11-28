@@ -6404,3 +6404,23 @@ date,source_domain,url,reason
 2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1229,http 410
 2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1201,http 410
 2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1157,http 410
+2026-11-28,ktimatoemporiki.gr,https://ktimatoemporiki.gr/property/kallithea-apartment-for-sale-id-a4-4307,left the sitemap
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/81ce204d-b9fe-46e0-8808-47bfb6ab14ac/keratsini-amfialh-70000-50,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/82061880-cc4d-4803-8ba2-679aff76d871/glyfada-kentro-220000-27,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/82734d11-2ee6-4121-96be-be487b1bd517/athhna-agios-artemios-32000-126,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/82dd8d38-daf6-4a85-87d0-e4e801a4e197/agios-stefanos-kentro-280000-225,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/8329ee2d-5e89-41ee-b801-e700934d0cb2/athhna-neapolh-160000-37,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,xe.gr,https://www.xe.gr/property/d/poliseis-epaggelmatikon-xoron/85f8cd10-30f3-40b1-bb2c-da409e40f10f/khfisia-nea-khfisia-370000-208,http 302 -> https://www.xe.gr/property/r/poliseis-epaggelmatikon-xoron
+2026-11-28,magnaestate.gr,https://www.magnaestate.gr/property/2647,http 410
+2026-11-28,alfa-realestate.gr,https://www.alfa-realestate.gr/property/3780,http 410
+2026-11-28,bee-gate.gr,https://bee-realestate.gr/property?lang=el&id=0856ae44-f212-464f-90ef-459f97d001ff,redirects to https://bee-realestate.gr/errorPage
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/418105,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/540297,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/543016,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/345010,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/542524,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/456785,sold / not available
+2026-11-28,goldenhome.gr,https://goldenhome.gr/property/view/525084,sold / not available
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1302,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1296,http 410
+2026-11-28,enterhome.com.gr,https://enterhome.com.gr/property.php?id=1287,http 410
